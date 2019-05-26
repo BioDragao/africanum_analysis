@@ -1,0 +1,88 @@
+
+05/26 17:19:55 [[1;32mNOTICE[0m] Downloading 1 item(s)
+[#7de795 0B/0B CN:1 DL:0B]
+[#7de795 0B/0B CN:1 DL:0B]
+[#7de795 0B/234MiB(0%) CN:1 DL:0B]
+[#7de795 32KiB/234MiB(0%) CN:1 DL:141KiB ETA:28m18s]
+[#7de795 5.9MiB/234MiB(2%) CN:1 DL:4.4MiB ETA:51s]
+[#7de795 25MiB/234MiB(11%) CN:1 DL:10MiB ETA:19s]
+[#7de795 45MiB/234MiB(19%) CN:1 DL:13MiB ETA:14s]
+[#7de795 65MiB/234MiB(27%) CN:1 DL:14MiB ETA:11s]
+[#7de795 84MiB/234MiB(36%) CN:1 DL:15MiB ETA:9s]
+[#7de795 104MiB/234MiB(44%) CN:1 DL:15MiB ETA:8s]
+[#7de795 124MiB/234MiB(53%) CN:1 DL:16MiB ETA:6s]
+[#7de795 140MiB/234MiB(59%) CN:1 DL:16MiB ETA:5s]
+[#7de795 160MiB/234MiB(68%) CN:1 DL:16MiB ETA:4s]
+[#7de795 179MiB/234MiB(76%) CN:1 DL:18MiB ETA:2s]
+[#7de795 198MiB/234MiB(84%) CN:1 DL:18MiB ETA:1s]
+[#7de795 216MiB/234MiB(92%) CN:1 DL:18MiB]
+[#7de795 234MiB/234MiB(100%) CN:1]
+
+05/26 17:20:12 [[1;32mNOTICE[0m] Download complete: /biodragon/vagrantBox/africanum_analysis/./lab/SAMEA2340877_1.fastq.gz
+
+Download Results:
+gid   |stat|avg speed  |path/URI
+======+====+===========+=======================================================
+7de795|OK  |    15MiB/s|/biodragon/vagrantBox/africanum_analysis/./lab/SAMEA2340877_1.fastq.gz
+
+Status Legend:
+(OK):download completed.
+
+05/26 17:20:12 [[1;32mNOTICE[0m] Downloading 1 item(s)
+[#db7bfc 0B/0B CN:1 DL:0B]
+[#db7bfc 0B/0B CN:1 DL:0B]
+[#db7bfc 0B/244MiB(0%) CN:1 DL:0B]
+[#db7bfc 1.3MiB/244MiB(0%) CN:1 DL:1.3MiB ETA:2m57s]
+[#db7bfc 17MiB/244MiB(7%) CN:1 DL:8.4MiB ETA:26s]
+[#db7bfc 35MiB/244MiB(14%) CN:1 DL:11MiB ETA:17s]
+[#db7bfc 55MiB/244MiB(22%) CN:1 DL:13MiB ETA:14s]
+[#db7bfc 75MiB/244MiB(30%) CN:1 DL:14MiB ETA:11s]
+[#db7bfc 95MiB/244MiB(38%) CN:1 DL:15MiB ETA:9s]
+[#db7bfc 114MiB/244MiB(46%) CN:1 DL:16MiB ETA:8s]
+[#db7bfc 134MiB/244MiB(54%) CN:1 DL:16MiB ETA:6s]
+[#db7bfc 154MiB/244MiB(63%) CN:1 DL:16MiB ETA:5s]
+[#db7bfc 174MiB/244MiB(71%) CN:1 DL:18MiB ETA:3s]
+[#db7bfc 194MiB/244MiB(79%) CN:1 DL:19MiB ETA:2s]
+[#db7bfc 213MiB/244MiB(87%) CN:1 DL:19MiB ETA:1s]
+[#db7bfc 234MiB/244MiB(95%) CN:1 DL:19MiB]
+
+05/26 17:20:30 [[1;32mNOTICE[0m] Download complete: /biodragon/vagrantBox/africanum_analysis/./lab/SAMEA2340877_2.fastq.gz
+
+Download Results:
+gid   |stat|avg speed  |path/URI
+======+====+===========+=======================================================
+db7bfc|OK  |    16MiB/s|/biodragon/vagrantBox/africanum_analysis/./lab/SAMEA2340877_2.fastq.gz
+
+Status Legend:
+(OK):download completed.
+
+05/26 17:20:30 [[1;32mNOTICE[0m] Downloading 1 item(s)
+[#06f72a 0B/0B CN:1 DL:0B]
+[#06f72a 0B/0B CN:1 DL:0B]
+[#06f72a 0B/243MiB(0%) CN:1 DL:0B]
+[#06f72a 432KiB/243MiB(0%) CN:1 DL:553KiB ETA:7m29s]
+[#06f72a 14MiB/243MiB(5%) CN:1 DL:7.4MiB ETA:31s]
+[#06f72a 34MiB/243MiB(13%) CN:1 DL:11MiB ETA:18s]
+[#06f72a 54MiB/243MiB(22%) CN:1 DL:13MiB ETA:14s]
+[#06f72a 74MiB/243MiB(30%) CN:1 DL:14MiB ETA:11s]
+[#06f72a 94MiB/243MiB(38%) CN:1 DL:14MiB ETA:10s]
+[#06f72a 113MiB/243MiB(46%) CN:1 DL:15MiB ETA:8s]
+[#06f72a 133MiB/243MiB(54%) CN:1 DL:15MiB ETA:6s]
+[#06f72a 151MiB/243MiB(62%) CN:1 DL:15MiB ETA:5s]
+[#06f72a 169MiB/243MiB(69%) CN:1 DL:17MiB ETA:4s]
+[#06f72a 187MiB/243MiB(77%) CN:1 DL:18MiB ETA:3s]
+[#06f72a 205MiB/243MiB(84%) CN:1 DL:18MiB ETA:2s]
+[#06f72a 224MiB/243MiB(92%) CN:1 DL:18MiB ETA:1s]
+[#06f72a 242MiB/243MiB(99%) CN:1 DL:18MiB]
+
+05/26 17:20:49 [[1;32mNOTICE[0m] Download complete: /biodragon/vagrantBox/africanum_analysis/./lab/SAMEA2340878_1.fastq.gz
+
+Download Results:
+gid   |stat|avg speed  |path/URI
+======+====+===========+=======================================================
+06f72a|OK  |    14MiB/s|/biodragon/vagrantBox/africanum_analysis/./lab/SAMEA2340878_1.fastq.gz
+
+Status Legend:
+(OK):download completed.
+
+05/26 17:20:49 [[1;32mNOTICE[0m] Downloading 1 item(s)
