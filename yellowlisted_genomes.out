@@ -1,0 +1,257 @@
+2019/05/27 17:20:53 DEBUG : rclone: Version "v1.41" starting with parameters ["rclone" "copy" "onedrive-em:maf_genomes" "./genomes_em/" "-vv"]
+2019/05/27 17:20:53 DEBUG : Using config file from "/root/.config/rclone/rclone.conf"
+2019/05/27 17:20:54 INFO  : Local file system at /biodragon/vagrantBox/africanum_analysis/genomes_em: Modify window is 1s
+2019/05/27 17:21:07 INFO  : SAMEA104358365_2.fastq.gz: Copied (new)
+2019/05/27 17:21:08 INFO  : SAMEA104358365_1.fastq.gz: Copied (new)
+2019/05/27 17:21:13 INFO  : SAMEA1877073_R1.fastq.gz: Copied (new)
+2019/05/27 17:21:17 INFO  : SAMEA1877073_R2.fastq.gz: Copied (new)
+2019/05/27 17:21:17 INFO  : SAMEA1877098_R1.fastq.gz: Copied (new)
+2019/05/27 17:21:18 INFO  : SAMEA1877098_R2.fastq.gz: Copied (new)
+2019/05/27 17:21:25 INFO  : SAMEA1877101_R1.fastq.gz: Copied (new)
+2019/05/27 17:21:33 INFO  : SAMEA1877109_R1.fastq.gz: Copied (new)
+2019/05/27 17:21:37 INFO  : SAMEA1877109_R2.fastq.gz: Copied (new)
+2019/05/27 17:21:38 INFO  : SAMEA1877101_R2.fastq.gz: Copied (new)
+2019/05/27 17:21:41 INFO  : SAMEA1877112_L1_R1.fastq.gz: Copied (new)
+2019/05/27 17:21:46 INFO  : SAMEA1877126_R1.fastq.gz: Copied (new)
+2019/05/27 17:21:47 INFO  : SAMEA1877112_L1_R2.fastq.gz: Copied (new)
+2019/05/27 17:21:49 INFO  : SAMEA1877117_R1.fastq.gz: Copied (new)
+2019/05/27 17:21:53 INFO  : SAMEA1877126_R2.fastq.gz: Copied (new)
+2019/05/27 17:21:54 INFO  : 
+Transferred:   3.373 GBytes (56.663 MBytes/s)
+Errors:                 0
+Checks:                 0
+Transferred:           15
+Elapsed time:      1m0.9s
+Transferring:
+ *                      SAMEA1877117_R2.fastq.gz: 85% /281.208M, 11.177M/s, 3s
+ *                      SAMEA1877132_R1.fastq.gz: 12% /265.708M, 1.891M/s, 2m3s
+ *                      SAMEA1877132_R2.fastq.gz:  9% /264.368M, 939.958k/s, 4m21s
+ * SAMEA1877136_R1.fastq.gz
+
+2019/05/27 17:21:55 INFO  : SAMEA1877117_R2.fastq.gz: Copied (new)
+2019/05/27 17:22:03 INFO  : SAMEA1877132_R2.fastq.gz: Copied (new)
+2019/05/27 17:22:07 INFO  : SAMEA1877136_R1.fastq.gz: Copied (new)
+2019/05/27 17:22:09 INFO  : SAMEA1877136_R2.fastq.gz: Copied (new)
+2019/05/27 17:22:15 INFO  : SAMEA1877142_R1.fastq.gz: Copied (new)
+2019/05/27 17:22:16 INFO  : SAMEA1877139_R1.fastq.gz: Copied (new)
+2019/05/27 17:22:18 INFO  : SAMEA1877132_R1.fastq.gz: Copied (new)
+2019/05/27 17:22:19 INFO  : SAMEA1877139_R2.fastq.gz: Copied (new)
+2019/05/27 17:22:23 INFO  : SAMEA1877142_R2.fastq.gz: Copied (new)
+2019/05/27 17:22:35 INFO  : SAMEA1877150_L6_R1.fastq.gz: Copied (new)
+2019/05/27 17:22:37 INFO  : SAMEA1877150_R1.fastq.gz: Copied (new)
+2019/05/27 17:22:38 INFO  : SAMEA1877150_L6_R2.fastq.gz: Copied (new)
+2019/05/27 17:22:41 INFO  : SAMEA1877150_R2.fastq.gz: Copied (new)
+2019/05/27 17:22:46 INFO  : SAMEA1877152_R1.fastq.gz: Copied (new)
+2019/05/27 17:22:49 INFO  : SAMEA1877152_R2.fastq.gz: Copied (new)
+2019/05/27 17:22:53 INFO  : SAMEA1877165_R1.fastq.gz: Copied (new)
+2019/05/27 17:22:54 INFO  : 
+Transferred:   7.868 GBytes (66.615 MBytes/s)
+Errors:                 0
+Checks:                 0
+Transferred:           31
+Elapsed time:      2m0.9s
+Transferring:
+ *                      SAMEA1877165_R2.fastq.gz: 83% /269.775M, 21.603M/s, 2s
+ *                   SAMEA1877169_L5_R1.fastq.gz: 71% /157.098M, 6.777M/s, 6s
+ *                   SAMEA1877169_L5_R2.fastq.gz: 11% /136.445M, 939.916k/s, 2m11s
+ * SAMEA1877169_R1.fastq.gz
+
+2019/05/27 17:22:55 INFO  : SAMEA1877169_L5_R1.fastq.gz: Copied (new)
+2019/05/27 17:22:56 INFO  : SAMEA1877165_R2.fastq.gz: Copied (new)
+2019/05/27 17:22:59 INFO  : SAMEA1877169_L5_R2.fastq.gz: Copied (new)
+2019/05/27 17:23:05 INFO  : SAMEA1877169_R2.fastq.gz: Copied (new)
+2019/05/27 17:23:05 INFO  : SAMEA1877169_R1.fastq.gz: Copied (new)
+2019/05/27 17:23:10 INFO  : SAMEA1877177_R1.fastq.gz: Copied (new)
+2019/05/27 17:23:21 INFO  : SAMEA1877177_R2.fastq.gz: Copied (new)
+2019/05/27 17:23:22 INFO  : SAMEA1877181_L3_R2.fastq.gz: Copied (new)
+2019/05/27 17:23:27 INFO  : SAMEA1877187_R1.fastq.gz: Copied (new)
+2019/05/27 17:23:30 INFO  : SAMEA1877187_R2.fastq.gz: Copied (new)
+2019/05/27 17:23:35 INFO  : SAMEA1877181_L3_R1.fastq.gz: Copied (new)
+2019/05/27 17:23:40 INFO  : SAMEA1877190_R1.fastq.gz: Copied (new)
+2019/05/27 17:23:42 INFO  : SAMEA1877190_R2.fastq.gz: Copied (new)
+2019/05/27 17:23:46 INFO  : SAMEA1877206_R1.fastq.gz: Copied (new)
+2019/05/27 17:23:50 INFO  : SAMEA1877207_R2.fastq.gz: Copied (new)
+2019/05/27 17:23:51 INFO  : SAMEA1877206_R2.fastq.gz: Copied (new)
+2019/05/27 17:23:53 INFO  : SAMEA1877207_R1.fastq.gz: Copied (new)
+2019/05/27 17:23:54 INFO  : 
+Transferred:   11.969 GBytes (67.731 MBytes/s)
+Errors:                 0
+Checks:                 0
+Transferred:           48
+Elapsed time:      3m0.9s
+Transferring:
+ *                      SAMEA1877227_R1.fastq.gz:  0% /330.785M, 475.074k/s, 11m51s
+ *                   SAMEA1877219_L2_R1.fastq.gz: 40% /337.986M, 12.600M/s, 16s
+ *                   SAMEA1877219_L2_R2.fastq.gz: 16% /342.908M, 23.991M/s, 11s
+ * SAMEA1877227_R2.fastq.gz
+
+2019/05/27 17:24:01 INFO  : SAMEA1877219_L2_R1.fastq.gz: Copied (new)
+2019/05/27 17:24:04 INFO  : SAMEA1877219_L2_R2.fastq.gz: Copied (new)
+2019/05/27 17:24:08 INFO  : SAMEA1877227_R1.fastq.gz: Copied (new)
+2019/05/27 17:24:11 INFO  : SAMEA1877227_R2.fastq.gz: Copied (new)
+2019/05/27 17:24:13 INFO  : SAMEA1877229_R1.fastq.gz: Copied (new)
+2019/05/27 17:24:23 INFO  : SAMEA1877229_R2.fastq.gz: Copied (new)
+2019/05/27 17:24:25 INFO  : SAMEA1877233_R1.fastq.gz: Copied (new)
+2019/05/27 17:24:25 INFO  : SAMEA1877233_R2.fastq.gz: Copied (new)
+2019/05/27 17:24:26 INFO  : SAMEA1877237_R1.fastq.gz: Copied (new)
+2019/05/27 17:24:33 INFO  : SAMEA1877266_L4_R1.fastq.gz: Copied (new)
+2019/05/27 17:24:36 INFO  : SAMEA1877237_R2.fastq.gz: Copied (new)
+2019/05/27 17:24:37 INFO  : SAMEA1877266_L4_R2.fastq.gz: Copied (new)
+2019/05/27 17:24:40 INFO  : SAMEA1877285_R1.fastq.gz: Copied (new)
+2019/05/27 17:24:53 INFO  : SAMEA2340875_1.fastq.gz: Copied (new)
+2019/05/27 17:24:54 INFO  : 
+Transferred:   15.932 GBytes (67.709 MBytes/s)
+Errors:                 0
+Checks:                 0
+Transferred:           62
+Elapsed time:      4m0.9s
+Transferring:
+ *                       SAMEA2340875_2.fastq.gz:  3% /247.013M, 554.640k/s, 7m21s
+ *                       SAMEA2534321_1.fastq.gz: 67% /436.804M, 24.123M/s, 5s
+ *                      SAMEA1877285_R2.fastq.gz: 56% /352.947M, 7.863M/s, 19s
+ * SAMEA2534321_2.fastq.gz
+
+2019/05/27 17:24:59 INFO  : SAMEA2534321_1.fastq.gz: Copied (new)
+2019/05/27 17:25:10 INFO  : SAMEA1877285_R2.fastq.gz: Copied (new)
+2019/05/27 17:25:23 INFO  : SAMEA3246143_L7_R1.fastq.gz: Copied (new)
+2019/05/27 17:25:41 INFO  : SAMEA3246143_L7_R2.fastq.gz: Copied (new)
+2019/05/27 17:25:49 INFO  : SAMEA3246143_R1.fastq.gz: Copied (new)
+2019/05/27 17:25:54 INFO  : 
+Transferred:   18.553 GBytes (63.128 MBytes/s)
+Errors:                 0
+Checks:                 0
+Transferred:           67
+Elapsed time:      5m0.9s
+Transferring:
+ *                       SAMEA2340875_2.fastq.gz: 45% /247.013M, 1.934M/s, 1m9s
+ *                       SAMEA2534321_2.fastq.gz: 14% /501.157M, 1.657M/s, 4m18s
+ *                      SAMEA3246143_R2.fastq.gz: 33% /648.632M, 10.433M/s, 41s
+ *                      SAMEA3250476_R1.fastq.gz: 13% /523.633M, 23.509M/s, 19s
+
+2019/05/27 17:26:10 INFO  : SAMEA3246143_R2.fastq.gz: Copied (new)
+2019/05/27 17:26:13 INFO  : SAMEA3250476_R1.fastq.gz: Copied (new)
+2019/05/27 17:26:34 INFO  : SAMEA3250477_R1.fastq.gz: Copied (new)
+2019/05/27 17:26:47 INFO  : SAMEA3250476_R2.fastq.gz: Copied (new)
+2019/05/27 17:26:54 INFO  : 
+Transferred:   21.182 GBytes (60.093 MBytes/s)
+Errors:                 0
+Checks:                 0
+Transferred:           71
+Elapsed time:      6m0.9s
+Transferring:
+ *                       SAMEA2340875_2.fastq.gz: 93% /247.013M, 2.210M/s, 6s
+ *                       SAMEA2534321_2.fastq.gz: 35% /501.157M, 1.759M/s, 3m4s
+ *                      SAMEA3250477_R2.fastq.gz: 80% /557.335M, 23.602M/s, 4s
+ *                      SAMEA3250478_R1.fastq.gz:  8% /645.201M, 3.317M/s, 2m57s
+
+2019/05/27 17:26:57 INFO  : SAMEA2340875_2.fastq.gz: Copied (new)
+2019/05/27 17:26:57 INFO  : SAMEA3250477_R2.fastq.gz: Copied (new)
+2019/05/27 17:27:16 INFO  : SAMEA3250478_R1.fastq.gz: Copied (new)
+2019/05/27 17:27:24 INFO  : SAMEA3250479_R1.fastq.gz: Copied (new)
+2019/05/27 17:27:27 INFO  : SAMEA3250478_R2.fastq.gz: Copied (new)
+2019/05/27 17:27:34 INFO  : SAMEA3359865_1.fastq.gz: Copied (new)
+2019/05/27 17:27:40 INFO  : SAMEA3359865_2.fastq.gz: Copied (new)
+2019/05/27 17:27:40 INFO  : SAMEA3359866_1.fastq.gz: Copied (new)
+2019/05/27 17:27:45 INFO  : SAMEA3250479_R2.fastq.gz: Copied (new)
+2019/05/27 17:27:49 INFO  : SAMEA3359866_2.fastq.gz: Copied (new)
+2019/05/27 17:27:50 INFO  : SAMEA3359867_1.fastq.gz: Copied (new)
+2019/05/27 17:27:54 INFO  : 
+Transferred:   24.545 GBytes (59.707 MBytes/s)
+Errors:                 0
+Checks:                 0
+Transferred:           82
+Elapsed time:      7m0.9s
+Transferring:
+ *                       SAMEA2534321_2.fastq.gz: 63% /501.157M, 2.297M/s, 1m18s
+ *                       SAMEA3359867_2.fastq.gz: 56% /154.435M, 4.663M/s, 14s
+ *                       SAMEA3359868_1.fastq.gz: 77% /133.624M, 24.490M/s, 1s
+ *                       SAMEA3359868_2.fastq.gz:  5% /156.434M, 475.157k/s, 5m19s
+
+2019/05/27 17:27:54 INFO  : SAMEA3359868_1.fastq.gz: Copied (new)
+2019/05/27 17:27:56 INFO  : SAMEA3359867_2.fastq.gz: Copied (new)
+2019/05/27 17:28:00 INFO  : SAMEA3359868_2.fastq.gz: Copied (new)
+2019/05/27 17:28:05 INFO  : SAMEA3359869_1.fastq.gz: Copied (new)
+2019/05/27 17:28:07 INFO  : SAMEA3359869_2.fastq.gz: Copied (new)
+2019/05/27 17:28:15 INFO  : SAMEA3359871_1.fastq.gz: Copied (new)
+2019/05/27 17:28:17 INFO  : SAMEA3359870_2.fastq.gz: Copied (new)
+2019/05/27 17:28:19 INFO  : SAMEA3359870_1.fastq.gz: Copied (new)
+2019/05/27 17:28:21 INFO  : SAMEA2534321_2.fastq.gz: Copied (new)
+2019/05/27 17:28:25 INFO  : SAMEA3359872_1.fastq.gz: Copied (new)
+2019/05/27 17:28:26 INFO  : SAMEA3359871_2.fastq.gz: Copied (new)
+2019/05/27 17:28:29 INFO  : SAMEA3359872_2.fastq.gz: Copied (new)
+2019/05/27 17:28:36 INFO  : SAMEA3359873_1.fastq.gz: Copied (new)
+2019/05/27 17:28:38 INFO  : SAMEA3359873_2.fastq.gz: Copied (new)
+2019/05/27 17:28:39 INFO  : SAMEA3359874_2.fastq.gz: Copied (new)
+2019/05/27 17:28:42 INFO  : SAMEA3359874_1.fastq.gz: Copied (new)
+2019/05/27 17:28:44 INFO  : SAMEA3359875_2.fastq.gz: Copied (new)
+2019/05/27 17:28:48 INFO  : SAMEA3359875_1.fastq.gz: Copied (new)
+2019/05/27 17:28:49 INFO  : SAMEA3359876_1.fastq.gz: Copied (new)
+2019/05/27 17:28:49 INFO  : SAMEA3359876_2.fastq.gz: Copied (new)
+2019/05/27 17:28:50 INFO  : SAMEA3359877_1.fastq.gz: Copied (new)
+2019/05/27 17:28:54 INFO  : 
+Transferred:   28.243 GBytes (60.132 MBytes/s)
+Errors:                 0
+Checks:                 0
+Transferred:          103
+Elapsed time:      8m0.9s
+Transferring:
+ *                       SAMEA3359877_2.fastq.gz: 76% /167.438M, 24.476M/s, 1s
+ *                       SAMEA3359880_1.fastq.gz: 14% /163.583M, 939.895k/s, 2m32s
+ *                       SAMEA3359880_2.fastq.gz: 39% /172.329M, 10.027M/s, 10s
+ *                       SAMEA3359885_1.fastq.gz: 38% /144.471M, 23.993M/s, 3s
+
+2019/05/27 17:28:55 INFO  : SAMEA3359877_2.fastq.gz: Copied (new)
+2019/05/27 17:28:58 INFO  : SAMEA3359880_2.fastq.gz: Copied (new)
+2019/05/27 17:28:59 INFO  : SAMEA3359880_1.fastq.gz: Copied (new)
+2019/05/27 17:28:59 INFO  : SAMEA3359885_1.fastq.gz: Copied (new)
+2019/05/27 17:29:05 INFO  : SAMEA3359886_1.fastq.gz: Copied (new)
+2019/05/27 17:29:06 INFO  : SAMEA3359885_2.fastq.gz: Copied (new)
+2019/05/27 17:29:07 INFO  : SAMEA3359887_1.fastq.gz: Copied (new)
+2019/05/27 17:29:11 INFO  : SAMEA3359886_2.fastq.gz: Copied (new)
+2019/05/27 17:29:12 INFO  : SAMEA3359887_2.fastq.gz: Copied (new)
+2019/05/27 17:29:12 INFO  : SAMEA3359888_1.fastq.gz: Copied (new)
+2019/05/27 17:29:13 INFO  : SAMEA3359888_2.fastq.gz: Copied (new)
+2019/05/27 17:29:18 INFO  : SAMEA3359897_1.fastq.gz: Copied (new)
+2019/05/27 17:29:19 INFO  : SAMEA3359896_1.fastq.gz: Copied (new)
+2019/05/27 17:29:20 INFO  : SAMEA3359896_2.fastq.gz: Copied (new)
+2019/05/27 17:29:28 INFO  : SAMEA3359898_1.fastq.gz: Copied (new)
+2019/05/27 17:29:28 INFO  : SAMEA3359897_2.fastq.gz: Copied (new)
+2019/05/27 17:29:29 INFO  : SAMEA3359899_1.fastq.gz: Copied (new)
+2019/05/27 17:29:29 INFO  : SAMEA3359898_2.fastq.gz: Copied (new)
+2019/05/27 17:29:33 INFO  : SAMEA3504604_1.fastq.gz: Copied (new)
+2019/05/27 17:29:33 INFO  : SAMEA3359901_1.fastq.gz: Copied (new)
+2019/05/27 17:29:37 INFO  : SAMEA3359899_2.fastq.gz: Copied (new)
+2019/05/27 17:29:37 INFO  : SAMEA3359901_2.fastq.gz: Copied (new)
+2019/05/27 17:29:37 INFO  : SAMEA3504620_1.fastq.gz: Copied (new)
+2019/05/27 17:29:46 INFO  : SAMEA3504620_2.fastq.gz: Copied (new)
+2019/05/27 17:29:46 INFO  : Local file system at /biodragon/vagrantBox/africanum_analysis/genomes_em: Waiting for checks to finish
+2019/05/27 17:29:46 INFO  : Local file system at /biodragon/vagrantBox/africanum_analysis/genomes_em: Waiting for transfers to finish
+2019/05/27 17:29:48 INFO  : SAMEA3504604_2.fastq.gz: Copied (new)
+2019/05/27 17:29:54 INFO  : 
+Transferred:   32.096 GBytes (60.756 MBytes/s)
+Errors:                 0
+Checks:                 0
+Transferred:          128
+Elapsed time:      9m0.9s
+Transferring:
+ *                   SAMEA3905803_MC_R1.fastq.gz: 75% /560.598M, 26.252M/s, 5s
+ *                   SAMEA3905803_MC_R2.fastq.gz: 22% /595.386M, 5.351M/s, 1m25s
+ *                SAMN04479830_UT307_R1.fastq.gz: 12% /597.158M, 4.716M/s, 1m51s
+ *                SAMN04479830_UT307_R2.fastq.gz:  5% /559.073M, 1.891M/s, 4m38s
+
+2019/05/27 17:29:59 INFO  : SAMEA3905803_MC_R1.fastq.gz: Copied (new)
+2019/05/27 17:30:14 INFO  : SAMN04479830_UT307_R1.fastq.gz: Copied (new)
+2019/05/27 17:30:15 INFO  : SAMN11492960_MAFBRA00707_R1.fastq.gz: Copied (new)
+2019/05/27 17:30:16 INFO  : maf_genomes_list.xlsx: Copied (new)
+2019/05/27 17:30:28 INFO  : SAMEA3905803_MC_R2.fastq.gz: Copied (new)
+2019/05/27 17:30:35 INFO  : SAMN11492960_MAFBRA00707_R2.fastq.gz: Copied (new)
+2019/05/27 17:30:38 INFO  : SAMN04479830_UT307_R2.fastq.gz: Copied (new)
+2019/05/27 17:30:38 INFO  : 
+Transferred:   34.487 GBytes (60.313 MBytes/s)
+Errors:                 0
+Checks:                 0
+Transferred:          135
+Elapsed time:     9m45.5s
+
+2019/05/27 17:30:38 DEBUG : 16 go routines active
+2019/05/27 17:30:38 DEBUG : rclone: Version "v1.41" finishing with parameters ["rclone" "copy" "onedrive-em:maf_genomes" "./genomes_em/" "-vv"]
