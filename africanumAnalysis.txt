@@ -1,0 +1,7 @@
+Africanum Analysis
+
+- trimmomatic
+- snippy ( with mycobacterim cannetii)
+- snippy-core ( with mycobacterim cannetii)
+- spotyping 
+
