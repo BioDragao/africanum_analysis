@@ -54,6 +54,15 @@
 # aria2c "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR120/008/ERR1203078/ERR1203078_1.fastq.gz" -o "./genomes_abhi/SAMEA3504625_1.fastq.gz"
 # aria2c "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR120/008/ERR1203078/ERR1203078_2.fastq.gz" -o "./genomes_abhi/SAMEA3504625_2.fastq.gz"
 
+######################
+
+
+# rclone copy onedrive-abhi:maf-genomes/NC000962_3.fasta ./genomes_abhi/ -vv
+# rclone copy onedrive-abhi:maf-genomes/NC000962_3.gbk ./genomes_abhi/ -vv
+# rclone copy onedrive-abhi:maf-genomes/NexteraPE-PE.fa ./genomes_abhi/ -vv
+
+
+######################
 
 #ERR1082136 SAMEA3359902
 rclone copy onedrive-abhi:maf-genomes/ERR1082136_1.fastq.gz ./genomes_abhi/SAMEA3359902_1.fastq.gz -vv
