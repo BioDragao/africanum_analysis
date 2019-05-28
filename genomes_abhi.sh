@@ -1,4 +1,4 @@
-#duplicates
+##duplicates
 #ERR1215473 SAMEA3359901
 #rclone copy onedrive-abhi:maf-genomes/ERR1215473_1.fastq.gz ./genomes_abhi/SAMEA3359901_1.fastq.gz -vv
 #rclone copy onedrive-abhi:maf-genomes/ERR1215473_2.fastq.gz ./genomes_abhi/SAMEA3359901_2.fastq.gz -vv
@@ -14,10 +14,13 @@
 #ERR909754 SAMEA2627045
 #rclone copy onedrive-abhi:maf-genomes/ERR909754_1.fastq.gz ./genomes_abhi/SAMEA2627045_1.fastq.gz -vv
 #rclone copy onedrive-abhi:maf-genomes/ERR909754_2.fastq.gz ./genomes_abhi/SAMEA2627045_2.fastq.gz -vv
-
-
-
-
+##missing_genomes
+#ERR1203075 SAMEA3504622
+#rclone copy onedrive-abhi:maf-genomes/ERR1203075_1.fastq.gz ./genomes_abhi/SAMEA3504622_1.fastq.gz -vv
+#rclone copy onedrive-abhi:maf-genomes/ERR1203075_2.fastq.gz ./genomes_abhi/SAMEA3504622_2.fastq.gz -vv
+#ERR1203078 SAMEA3504625
+#rclone copy onedrive-abhi:maf-genomes/ERR1203078_1.fastq.gz ./genomes_abhi/SAMEA3504625_1.fastq.gz -vv
+#rclone copy onedrive-abhi:maf-genomes/ERR1203078_2.fastq.gz ./genomes_abhi/SAMEA3504625_2.fastq.gz -vv
 
 
 
@@ -128,10 +131,6 @@ rclone copy onedrive-abhi:maf-genomes/ERR1203076_2.fastq.gz ./genomes_abhi/SAMEA
 #ERR1203077 SAMEA3504624
 rclone copy onedrive-abhi:maf-genomes/ERR1203077_1.fastq.gz ./genomes_abhi/SAMEA3504624_1.fastq.gz -vv
 rclone copy onedrive-abhi:maf-genomes/ERR1203077_2.fastq.gz ./genomes_abhi/SAMEA3504624_2.fastq.gz -vv
-
-#ERR1203078 SAMEA3504625
-rclone copy onedrive-abhi:maf-genomes/ERR1203078_1.fastq.gz ./genomes_abhi/SAMEA3504625_1.fastq.gz -vv
-rclone copy onedrive-abhi:maf-genomes/ERR1203078_2.fastq.gz ./genomes_abhi/SAMEA3504625_2.fastq.gz -vv
 
 #ERR1215460 SAMEA3359878
 rclone copy onedrive-abhi:maf-genomes/ERR1215460_1.fastq.gz ./genomes_abhi/SAMEA3359878_1.fastq.gz -vv

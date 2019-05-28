@@ -35,13 +35,10 @@
                            (str/split-lines
                             (slurp "../genomes-em-list.txt"))))) 17))
 
-
 (comment
   (first whitelisted-genomes)
   (first redlisted-genomes)
-  (first yellowlisted-genomes)
-)
-
+  (first yellowlisted-genomes))
 
 (def genomes-in-abhi-folder
   (apply vector
@@ -70,41 +67,27 @@
 (comment
   (first genomes-in-abhi-folder)
   (first genomes-in-em-folder)
-  (first genomes-in-ena-folder)
-)
-
-
+  (first genomes-in-ena-folder))
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; NOTE duplicates
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
-(def all-downloaded-genomes )
-
+(def all-downloaded-genomes)
 
 (clojure.set/intersection
-(apply hash-set genomes-in-abhi-folder)
-(apply hash-set genomes-in-em-folder))
-
+ (apply hash-set genomes-in-abhi-folder)
+ (apply hash-set genomes-in-em-folder))
 
 (clojure.set/intersection
  (apply hash-set genomes-in-abhi-folder)
  (apply hash-set genomes-in-ena-folder))
 
-
 (clojure.set/intersection
  (apply hash-set genomes-in-em-folder)
  (apply hash-set genomes-in-ena-folder))
 
-
-
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;; NOTE duplicates
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-
-
-
-(def all-excel-listed-genomes )
+(def all-excel-listed-genomes)
 
 (clojure.set/intersection
  (apply hash-set whitelisted-genomes)
@@ -118,3 +101,35 @@
  (apply hash-set yellowlisted-genomes)
  (apply hash-set redlisted-genomes))
 
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; NOTE missing genomes
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+
+(clojure.set/difference
+ (apply hash-set whitelisted-genomes)
+ (apply hash-set genomes-in-abhi-folder))
+
+(clojure.set/difference
+ (apply hash-set genomes-in-abhi-folder)
+ (apply hash-set whitelisted-genomes))
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+; NOTE all genomes files
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+(count
+ (clojure.set/union
+  (apply hash-set genomes-in-abhi-folder)
+  (apply hash-set genomes-in-ena-folder)
+  (apply hash-set genomes-in-em-folder)))
+
+(def all-genomes-files
+  (apply vector
+         (str/split-lines
+          (slurp "../_list_of_all_genomes_files.txt"))))
+
+(comment
+  (first all-genomes-files)
+  (last all-genomes-files)
+)
