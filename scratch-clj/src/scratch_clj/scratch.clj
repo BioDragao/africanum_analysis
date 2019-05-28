@@ -1,5 +1,8 @@
 (ns scratch-clj.scratch
   (:require [clojure.string :as str]
+            [clojure.edn :as edn]
+            [clojure.java.io :as io]
+            [clojure.data.json :as json]
             [clojure.set :as set]))
 
 (defn vec-remove
@@ -124,12 +127,39 @@
   (apply hash-set genomes-in-ena-folder)
   (apply hash-set genomes-in-em-folder)))
 
-(def all-genomes-files
+(def all-genomes
   (apply vector
          (str/split-lines
           (slurp "../_list_of_all_genomes_files.txt"))))
 
 (comment
-  (first all-genomes-files)
-  (last all-genomes-files)
+  (first all-genomes)
+  (last all-genomes)
 )
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+
+(def ena-genome-pairs
+  (partition 2
+             (apply vector
+                    (str/split-lines
+                     (slurp "../genomes_ena/_list_of_files.txt")))))
+
+(comment
+  (first ena-genome-pairs)
+  (last ena-genome-pairs)
+)
+
+
+(spit (str "../genomes_ena/" "_genome_pairs.json")
+      (json/write-str ena-genome-pairs))
+
+
+
+
+
+
+
+
