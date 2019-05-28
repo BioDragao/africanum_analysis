@@ -142,8 +142,8 @@
 
 
 (def ena-genome-pairs
-  (partition 2
-             (apply vector
+  (apply vector
+         (partition 2
                     (str/split-lines
                      (slurp "../genomes_ena/_list_of_files.txt")))))
 
@@ -155,6 +155,9 @@
 
 (spit (str "../genomes_ena/" "_genome_pairs.json")
       (json/write-str ena-genome-pairs))
+
+(spit (str "../genomes_ena/" "_genome_pairs.edn")
+       ena-genome-pairs)
 
 
 
