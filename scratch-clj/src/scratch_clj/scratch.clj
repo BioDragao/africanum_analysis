@@ -10,7 +10,7 @@
   [coll pos]
   (vec (concat (subvec coll 0 pos) (subvec coll (inc pos)))))
 
-(def whitelisted-genomes
+(def excel-whitelisted-genomes
   (apply vector
          (apply hash-set (map
                           (fn [x]
@@ -19,7 +19,7 @@
                           (str/split-lines
                            (slurp "../genomes-abhi-list.txt"))))))
 
-(def redlisted-genomes
+(def excel-redlisted-genomes
   (apply vector
          (apply hash-set (map
                           (fn [x]
@@ -28,7 +28,7 @@
                           (str/split-lines
                            (slurp "../genomes-ena-list.txt"))))))
 
-(def yellowlisted-genomes
+(def excel-yellowlisted-genomes
   (vec-remove
    (apply vector
           (apply hash-set (map
@@ -39,9 +39,9 @@
                             (slurp "../genomes-em-list.txt"))))) 17))
 
 (comment
-  (first whitelisted-genomes)
-  (first redlisted-genomes)
-  (first yellowlisted-genomes))
+  (first excel-whitelisted-genomes)
+  (first excel-redlisted-genomes)
+  (first excel-yellowlisted-genomes))
 
 (def genomes-in-abhi-folder
   (apply vector
@@ -93,16 +93,16 @@
 (def all-excel-listed-genomes)
 
 (clojure.set/intersection
- (apply hash-set whitelisted-genomes)
- (apply hash-set redlisted-genomes))
+ (apply hash-set excel-whitelisted-genomes)
+ (apply hash-set excel-redlisted-genomes))
 
 (clojure.set/intersection
- (apply hash-set whitelisted-genomes)
- (apply hash-set yellowlisted-genomes))
+ (apply hash-set excel-whitelisted-genomes)
+ (apply hash-set excel-yellowlisted-genomes))
 
 (clojure.set/intersection
- (apply hash-set yellowlisted-genomes)
- (apply hash-set redlisted-genomes))
+ (apply hash-set excel-yellowlisted-genomes)
+ (apply hash-set excel-redlisted-genomes))
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; NOTE missing genomes
@@ -110,12 +110,12 @@
 
 
 (clojure.set/difference
- (apply hash-set whitelisted-genomes)
+ (apply hash-set excel-whitelisted-genomes)
  (apply hash-set genomes-in-abhi-folder))
 
 (clojure.set/difference
  (apply hash-set genomes-in-abhi-folder)
- (apply hash-set whitelisted-genomes))
+ (apply hash-set excel-whitelisted-genomes))
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ; NOTE all genomes files
