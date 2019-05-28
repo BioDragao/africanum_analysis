@@ -40,8 +40,11 @@
 
 (comment
   (first excel-whitelisted-genomes)
+  (last excel-whitelisted-genomes)
   (first excel-redlisted-genomes)
-  (first excel-yellowlisted-genomes))
+  (last excel-redlisted-genomes)
+  (first excel-yellowlisted-genomes)
+  (last excel-yellowlisted-genomes))
 
 (def genomes-in-abhi-folder
   (apply vector
@@ -69,8 +72,11 @@
 
 (comment
   (first genomes-in-abhi-folder)
+  (last genomes-in-abhi-folder)
   (first genomes-in-em-folder)
-  (first genomes-in-ena-folder))
+  (last genomes-in-em-folder)
+  (first genomes-in-ena-folder)
+  (last genomes-in-ena-folder))
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; NOTE duplicates
@@ -129,13 +135,22 @@
 
 (def all-genomes
   (apply vector
+         (partition 2
          (str/split-lines
-          (slurp "../_list_of_all_genomes_files.txt"))))
+          (slurp "../_list_of_all_genomes_files.txt")))))
 
 (comment
   (first all-genomes)
   (last all-genomes)
 )
+
+
+(spit (str "../lab/" "_list_of_all_genomes_files.json")
+      (json/write-str all-genomes))
+
+(count all-genomes)
+
+
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;
