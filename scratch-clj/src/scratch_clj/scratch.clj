@@ -76,6 +76,7 @@
 
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; NOTE duplicates
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 (def all-downloaded-genomes )
@@ -97,6 +98,23 @@
 
 
 
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; NOTE duplicates
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 
 
 (def all-excel-listed-genomes )
+
+(clojure.set/intersection
+ (apply hash-set whitelisted-genomes)
+ (apply hash-set redlisted-genomes))
+
+(clojure.set/intersection
+ (apply hash-set whitelisted-genomes)
+ (apply hash-set yellowlisted-genomes))
+
+(clojure.set/intersection
+ (apply hash-set yellowlisted-genomes)
+ (apply hash-set redlisted-genomes))
+
