@@ -1,3 +1,4 @@
+import json
 import os
 import shutil
 
@@ -27,8 +28,6 @@ with open("./_genome_pairs.json", 'r') as f:
 # 118_cat_R2.s.fastq.gz
 
 # ILLUMINACLIP:NexteraPE-PE.fa:2:30:10 LEADING:15 TRAILING:15 HEADCROP:7 SLIDINGWINDOW:4:15 MINLEN:36
-
-file_location_inside_virtualbox = "/vagrant/mozambique_genomes/lab/"
 
 
 def run_trimmomatic(a_pair):

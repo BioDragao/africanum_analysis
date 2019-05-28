@@ -29,14 +29,14 @@ for a_dir in all_dirs:
 
 def run_snippy_core():
 
-    cmd = "vagrant ssh -c \"cd /vagrant/mozambique_genomes/snippy_and_snippy_core_with_m_canettii/ && " + \
+    cmd = "vagrant ssh -c \"cd /vagrant/africanum_analysis/lab/ && " + \
           "snippy-core " + \
           dir_string + \
           "\""
 
     print(cmd)
 
-    os.system(cmd)
+    #os.system(cmd)
 
     print("\n $$$$$$$$$$ \n")
 
