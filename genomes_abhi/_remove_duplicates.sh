@@ -1,17 +1,17 @@
 #ERR1215473 SAMEA3359901
-rm SAMEA3359901_1.fastq.gz
-rm SAMEA3359901_2.fastq.gz
+rm -rf SAMEA3359901_1.fastq.gz
+rm -rf SAMEA3359901_2.fastq.gz
 #ERR502480 SAMEA2340887
-rm SAMEA2340887_1.fastq.gz
-rm SAMEA2340887_2.fastq.gz
+rm -rf SAMEA2340887_1.fastq.gz
+rm -rf SAMEA2340887_2.fastq.gz
 #ERR845916 SAMEA2794356
-rm SAMEA2794356_1.fastq.gz
-rm SAMEA2794356_2.fastq.gz
+rm -rf SAMEA2794356_1.fastq.gz
+rm -rf SAMEA2794356_2.fastq.gz
 #ERR909753 SAMEA2627034
-rm SAMEA2627034_1.fastq.gz
-rm SAMEA2627034_2.fastq.gz
+rm -rf SAMEA2627034_1.fastq.gz
+rm -rf SAMEA2627034_2.fastq.gz
 #ERR909754 SAMEA2627045
-rm SAMEA2627045_1.fastq.gz
-rm SAMEA2627045_2.fastq.gz
+rm -rf SAMEA2627045_1.fastq.gz
+rm -rf SAMEA2627045_2.fastq.gz
 
 
