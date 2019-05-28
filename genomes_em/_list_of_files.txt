@@ -1,139 +1,134 @@
-total 36162904
-drwxr-xr-x 2 root root     12288 May 28 03:28 .
-drwxr-xr-x 7 root root      4096 May 28 02:39 ..
--rw-r--r-- 1 root root 295423776 Sep 12  2018 SAMEA1877073_1.fastq.gz
--rw-r--r-- 1 root root 299938726 Sep 12  2018 SAMEA1877073_2.fastq.gz
--rw-r--r-- 1 root root 168045596 Sep 12  2018 SAMEA1877098_1.fastq.gz
--rw-r--r-- 1 root root 171355685 Sep 12  2018 SAMEA1877098_2.fastq.gz
--rw-r--r-- 1 root root 214251389 Sep 12  2018 SAMEA1877101_1.fastq.gz
--rw-r--r-- 1 root root 214173298 Sep 12  2018 SAMEA1877101_2.fastq.gz
--rw-r--r-- 1 root root 296461121 Sep 12  2018 SAMEA1877109_1.fastq.gz
--rw-r--r-- 1 root root 298516365 Sep 12  2018 SAMEA1877109_2.fastq.gz
--rw-r--r-- 1 root root 293676412 May 26 14:46 SAMEA1877112_L1_1.fastq.gz
--rw-r--r-- 1 root root 294132353 May 26 14:42 SAMEA1877112_L1_2.fastq.gz
--rw-r--r-- 1 root root 295630952 Sep 12  2018 SAMEA1877117_1.fastq.gz
--rw-r--r-- 1 root root 294867869 Sep 12  2018 SAMEA1877117_2.fastq.gz
--rw-r--r-- 1 root root  85892857 Sep 12  2018 SAMEA1877126_1.fastq.gz
--rw-r--r-- 1 root root  73953776 Sep 12  2018 SAMEA1877126_2.fastq.gz
--rw-r--r-- 1 root root 278614710 Sep 12  2018 SAMEA1877132_1.fastq.gz
--rw-r--r-- 1 root root 277209460 Sep 12  2018 SAMEA1877132_2.fastq.gz
--rw-r--r-- 1 root root 317125673 Sep 12  2018 SAMEA1877136_1.fastq.gz
--rw-r--r-- 1 root root 315772139 Sep 12  2018 SAMEA1877136_2.fastq.gz
--rw-r--r-- 1 root root 282383267 Sep 12  2018 SAMEA1877139_1.fastq.gz
--rw-r--r-- 1 root root 280721579 Sep 12  2018 SAMEA1877139_2.fastq.gz
--rw-r--r-- 1 root root 119964058 Sep 12  2018 SAMEA1877142_1.fastq.gz
--rw-r--r-- 1 root root 101785641 Sep 12  2018 SAMEA1877142_2.fastq.gz
--rw-r--r-- 1 root root 451655299 Sep 13  2018 SAMEA1877150_1.fastq.gz
--rw-r--r-- 1 root root 442167090 Sep 13  2018 SAMEA1877150_2.fastq.gz
--rw-r--r-- 1 root root 457650875 May 26 16:25 SAMEA1877150_L6_1.fastq.gz
--rw-r--r-- 1 root root 448506736 May 26 16:22 SAMEA1877150_L6_2.fastq.gz
--rw-r--r-- 1 root root 208520676 Sep 12  2018 SAMEA1877152_1.fastq.gz
--rw-r--r-- 1 root root 207358750 Sep 12  2018 SAMEA1877152_2.fastq.gz
--rw-r--r-- 1 root root 284053359 Sep 12  2018 SAMEA1877165_1.fastq.gz
--rw-r--r-- 1 root root 282879787 Sep 12  2018 SAMEA1877165_2.fastq.gz
--rw-r--r-- 1 root root 161609843 Sep 12  2018 SAMEA1877169_1.fastq.gz
--rw-r--r-- 1 root root 139460148 Sep 12  2018 SAMEA1877169_2.fastq.gz
--rw-r--r-- 1 root root 164729071 May 26 16:10 SAMEA1877169_L5_1.fastq.gz
--rw-r--r-- 1 root root 143072759 May 26 16:09 SAMEA1877169_L5_2.fastq.gz
--rw-r--r-- 1 root root 358008160 Sep 12  2018 SAMEA1877177_1.fastq.gz
--rw-r--r-- 1 root root 350978273 Sep 12  2018 SAMEA1877177_2.fastq.gz
--rw-r--r-- 1 root root 340639904 May 26 14:57 SAMEA1877181_L3_1.fastq.gz
--rw-r--r-- 1 root root 342864260 May 26 15:04 SAMEA1877181_L3_2.fastq.gz
--rw-r--r-- 1 root root 234299671 Sep 12  2018 SAMEA1877187_1.fastq.gz
--rw-r--r-- 1 root root 233501266 Sep 12  2018 SAMEA1877187_2.fastq.gz
--rw-r--r-- 1 root root 420742737 Sep 12  2018 SAMEA1877190_1.fastq.gz
--rw-r--r-- 1 root root 410485181 Sep 12  2018 SAMEA1877190_2.fastq.gz
--rw-r--r-- 1 root root 270337600 Sep 12  2018 SAMEA1877206_1.fastq.gz
--rw-r--r-- 1 root root 269255797 Sep 12  2018 SAMEA1877206_2.fastq.gz
--rw-r--r-- 1 root root 240873634 Sep 12  2018 SAMEA1877207_1.fastq.gz
--rw-r--r-- 1 root root 206356379 Sep 12  2018 SAMEA1877207_2.fastq.gz
--rw-r--r-- 1 root root 354403645 May 26 15:15 SAMEA1877219_L2_1.fastq.gz
--rw-r--r-- 1 root root 359565307 May 26 15:22 SAMEA1877219_L2_2.fastq.gz
--rw-r--r-- 1 root root 346853242 Sep 12  2018 SAMEA1877227_1.fastq.gz
--rw-r--r-- 1 root root 293379554 Sep 12  2018 SAMEA1877227_2.fastq.gz
--rw-r--r-- 1 root root 330411319 Sep 12  2018 SAMEA1877229_1.fastq.gz
--rw-r--r-- 1 root root 282740419 Sep 12  2018 SAMEA1877229_2.fastq.gz
--rw-r--r-- 1 root root 294154577 Sep 12  2018 SAMEA1877233_1.fastq.gz
--rw-r--r-- 1 root root 297864751 Sep 12  2018 SAMEA1877233_2.fastq.gz
--rw-r--r-- 1 root root 223501400 Sep 12  2018 SAMEA1877237_1.fastq.gz
--rw-r--r-- 1 root root 185042572 Sep 12  2018 SAMEA1877237_2.fastq.gz
--rw-r--r-- 1 root root 174267188 May 26 15:50 SAMEA1877266_L4_1.fastq.gz
--rw-r--r-- 1 root root 175045765 May 26 15:53 SAMEA1877266_L4_2.fastq.gz
--rw-r--r-- 1 root root 366293080 Sep 15  2018 SAMEA1877285_1.fastq.gz
--rw-r--r-- 1 root root 370091423 Sep 15  2018 SAMEA1877285_2.fastq.gz
--rw-r--r-- 1 root root 245531667 May  5 04:45 SAMEA2340875_1.fastq.gz
--rw-r--r-- 1 root root 259011790 May  5 04:45 SAMEA2340875_2.fastq.gz
--rw-r--r-- 1 root root 458022296 May  5 05:06 SAMEA2534321_1.fastq.gz
--rw-r--r-- 1 root root 525501409 May  5 05:06 SAMEA2534321_2.fastq.gz
--rw-r--r-- 1 root root 656127731 Sep 13  2018 SAMEA3246143_1.fastq.gz
--rw-r--r-- 1 root root 680140146 Sep 13  2018 SAMEA3246143_2.fastq.gz
--rw-r--r-- 1 root root 669782317 May 26 22:13 SAMEA3246143_L7_1.fastq.gz
--rw-r--r-- 1 root root 693852531 May 26 20:42 SAMEA3246143_L7_2.fastq.gz
--rw-r--r-- 1 root root 549069482 Sep 13  2018 SAMEA3250476_1.fastq.gz
--rw-r--r-- 1 root root 570913991 Sep 13  2018 SAMEA3250476_2.fastq.gz
--rw-r--r-- 1 root root 561258054 Sep 13  2018 SAMEA3250477_1.fastq.gz
--rw-r--r-- 1 root root 584408116 Sep 13  2018 SAMEA3250477_2.fastq.gz
--rw-r--r-- 1 root root 676542054 Sep 13  2018 SAMEA3250478_1.fastq.gz
--rw-r--r-- 1 root root 702019311 Sep 13  2018 SAMEA3250478_2.fastq.gz
--rw-r--r-- 1 root root 596178961 Sep 13  2018 SAMEA3250479_1.fastq.gz
--rw-r--r-- 1 root root 616721770 Sep 13  2018 SAMEA3250479_2.fastq.gz
--rw-r--r-- 1 root root 150303442 May  4 19:20 SAMEA3359865_1.fastq.gz
--rw-r--r-- 1 root root 173602499 May  4 19:23 SAMEA3359865_2.fastq.gz
--rw-r--r-- 1 root root  58584978 May  4 19:33 SAMEA3359866_1.fastq.gz
--rw-r--r-- 1 root root  65413001 May  4 19:33 SAMEA3359866_2.fastq.gz
--rw-r--r-- 1 root root 138804847 May  4 20:09 SAMEA3359867_1.fastq.gz
--rw-r--r-- 1 root root 161936830 May  4 20:08 SAMEA3359867_2.fastq.gz
--rw-r--r-- 1 root root 140114891 May  4 20:18 SAMEA3359868_1.fastq.gz
--rw-r--r-- 1 root root 164032910 May  4 20:18 SAMEA3359868_2.fastq.gz
--rw-r--r-- 1 root root 147511094 May  4 20:23 SAMEA3359869_1.fastq.gz
--rw-r--r-- 1 root root 169546411 May  4 20:23 SAMEA3359869_2.fastq.gz
--rw-r--r-- 1 root root 315276550 May  5 04:34 SAMEA3359870_1.fastq.gz
--rw-r--r-- 1 root root 325660590 May  5 04:34 SAMEA3359870_2.fastq.gz
--rw-r--r-- 1 root root 142200589 May  4 20:37 SAMEA3359871_1.fastq.gz
--rw-r--r-- 1 root root 165980670 May  4 20:39 SAMEA3359871_2.fastq.gz
--rw-r--r-- 1 root root 145540756 May  4 20:44 SAMEA3359872_1.fastq.gz
--rw-r--r-- 1 root root 167461813 May  4 20:44 SAMEA3359872_2.fastq.gz
--rw-r--r-- 1 root root 299203251 May  5 04:35 SAMEA3359873_1.fastq.gz
--rw-r--r-- 1 root root 309797137 May  5 04:38 SAMEA3359873_2.fastq.gz
--rw-r--r-- 1 root root 138598661 May  4 21:00 SAMEA3359874_1.fastq.gz
--rw-r--r-- 1 root root 161944798 May  4 20:59 SAMEA3359874_2.fastq.gz
--rw-r--r-- 1 root root 135626912 May  4 21:17 SAMEA3359875_1.fastq.gz
--rw-r--r-- 1 root root 152188840 May  4 21:16 SAMEA3359875_2.fastq.gz
--rw-r--r-- 1 root root 141901126 May  4 21:26 SAMEA3359876_1.fastq.gz
--rw-r--r-- 1 root root 166546095 May  4 21:28 SAMEA3359876_2.fastq.gz
--rw-r--r-- 1 root root 149993679 May  4 19:17 SAMEA3359877_1.fastq.gz
--rw-r--r-- 1 root root 175571410 May  4 19:16 SAMEA3359877_2.fastq.gz
--rw-r--r-- 1 root root 171528940 May  4 23:43 SAMEA3359880_1.fastq.gz
--rw-r--r-- 1 root root 180700114 May  4 23:45 SAMEA3359880_2.fastq.gz
--rw-r--r-- 1 root root 151488897 May  5 00:04 SAMEA3359885_1.fastq.gz
--rw-r--r-- 1 root root 172710852 May  5 00:02 SAMEA3359885_2.fastq.gz
--rw-r--r-- 1 root root 153084649 May  4 19:07 SAMEA3359886_1.fastq.gz
--rw-r--r-- 1 root root 169904676 May  4 19:10 SAMEA3359886_2.fastq.gz
--rw-r--r-- 1 root root 145153341 May  5 01:57 SAMEA3359887_1.fastq.gz
--rw-r--r-- 1 root root 161866812 May  5 01:57 SAMEA3359887_2.fastq.gz
--rw-r--r-- 1 root root 139283022 May  4 18:15 SAMEA3359888_1.fastq.gz
--rw-r--r-- 1 root root 156939122 May  4 18:16 SAMEA3359888_2.fastq.gz
--rw-r--r-- 1 root root 125483449 May  5 01:57 SAMEA3359896_1.fastq.gz
--rw-r--r-- 1 root root 140510071 May  5 01:57 SAMEA3359896_2.fastq.gz
--rw-r--r-- 1 root root 130496578 May  5 02:05 SAMEA3359897_1.fastq.gz
--rw-r--r-- 1 root root 147551419 May  5 02:11 SAMEA3359897_2.fastq.gz
--rw-r--r-- 1 root root 160403209 May  5 02:10 SAMEA3359898_1.fastq.gz
--rw-r--r-- 1 root root 177974339 May  5 02:08 SAMEA3359898_2.fastq.gz
--rw-r--r-- 1 root root 224855086 May  5 02:12 SAMEA3359899_1.fastq.gz
--rw-r--r-- 1 root root 235607528 May  5 02:13 SAMEA3359899_2.fastq.gz
--rw-r--r-- 1 root root 126844072 May  5 02:09 SAMEA3359901_1.fastq.gz
--rw-r--r-- 1 root root 147978862 May  5 02:13 SAMEA3359901_2.fastq.gz
--rw-r--r-- 1 root root  80787477 May  5 04:40 SAMEA3504604_1.fastq.gz
--rw-r--r-- 1 root root  89350532 May  5 04:40 SAMEA3504604_2.fastq.gz
--rw-r--r-- 1 root root  76763015 May  5 04:22 SAMEA3504620_1.fastq.gz
--rw-r--r-- 1 root root  87616079 May  5 04:24 SAMEA3504620_2.fastq.gz
--rw-r--r-- 1 root root 587829510 May  5  2018 SAMEA3905803_MC_1.fastq.gz
--rw-r--r-- 1 root root 624307224 May  5  2018 SAMEA3905803_MC_2.fastq.gz
--rw-r--r-- 1 root root 155145029 May  5 04:52 SAMEA104358365_1.fastq.gz
--rw-r--r-- 1 root root 154605283 May  5 04:52 SAMEA104358365_2.fastq.gz
--rw-r--r-- 1 root root 626165420 Sep 13  2018 SAMN04479830_UT307_1.fastq.gz
--rw-r--r-- 1 root root 586230759 Sep 13  2018 SAMN04479830_UT307_2.fastq.gz
--rw-r--r-- 1 root root 415944157 Sep 13  2018 SAMN11492960_MAFBRA00707_1.fastq.gz
--rw-r--r-- 1 root root 423257192 Sep 13  2018 SAMN11492960_MAFBRA00707_2.fastq.gz
--rw-r--r-- 1 root root         0 May 28 03:28 _list_of_files.txt
--rw-r--r-- 1 root root      4302 May 27 17:41 _rename_scheme.sh
+SAMEA1877073_1.fastq.gz
+SAMEA1877073_2.fastq.gz
+SAMEA1877098_1.fastq.gz
+SAMEA1877098_2.fastq.gz
+SAMEA1877101_1.fastq.gz
+SAMEA1877101_2.fastq.gz
+SAMEA1877109_1.fastq.gz
+SAMEA1877109_2.fastq.gz
+SAMEA1877112_L1_1.fastq.gz
+SAMEA1877112_L1_2.fastq.gz
+SAMEA1877117_1.fastq.gz
+SAMEA1877117_2.fastq.gz
+SAMEA1877126_1.fastq.gz
+SAMEA1877126_2.fastq.gz
+SAMEA1877132_1.fastq.gz
+SAMEA1877132_2.fastq.gz
+SAMEA1877136_1.fastq.gz
+SAMEA1877136_2.fastq.gz
+SAMEA1877139_1.fastq.gz
+SAMEA1877139_2.fastq.gz
+SAMEA1877142_1.fastq.gz
+SAMEA1877142_2.fastq.gz
+SAMEA1877150_1.fastq.gz
+SAMEA1877150_2.fastq.gz
+SAMEA1877150_L6_1.fastq.gz
+SAMEA1877150_L6_2.fastq.gz
+SAMEA1877152_1.fastq.gz
+SAMEA1877152_2.fastq.gz
+SAMEA1877165_1.fastq.gz
+SAMEA1877165_2.fastq.gz
+SAMEA1877169_1.fastq.gz
+SAMEA1877169_2.fastq.gz
+SAMEA1877169_L5_1.fastq.gz
+SAMEA1877169_L5_2.fastq.gz
+SAMEA1877177_1.fastq.gz
+SAMEA1877177_2.fastq.gz
+SAMEA1877181_L3_1.fastq.gz
+SAMEA1877181_L3_2.fastq.gz
+SAMEA1877187_1.fastq.gz
+SAMEA1877187_2.fastq.gz
+SAMEA1877190_1.fastq.gz
+SAMEA1877190_2.fastq.gz
+SAMEA1877206_1.fastq.gz
+SAMEA1877206_2.fastq.gz
+SAMEA1877207_1.fastq.gz
+SAMEA1877207_2.fastq.gz
+SAMEA1877219_L2_1.fastq.gz
+SAMEA1877219_L2_2.fastq.gz
+SAMEA1877227_1.fastq.gz
+SAMEA1877227_2.fastq.gz
+SAMEA1877229_1.fastq.gz
+SAMEA1877229_2.fastq.gz
+SAMEA1877233_1.fastq.gz
+SAMEA1877233_2.fastq.gz
+SAMEA1877237_1.fastq.gz
+SAMEA1877237_2.fastq.gz
+SAMEA1877266_L4_1.fastq.gz
+SAMEA1877266_L4_2.fastq.gz
+SAMEA1877285_1.fastq.gz
+SAMEA1877285_2.fastq.gz
+SAMEA2340875_1.fastq.gz
+SAMEA2340875_2.fastq.gz
+SAMEA2534321_1.fastq.gz
+SAMEA2534321_2.fastq.gz
+SAMEA3246143_1.fastq.gz
+SAMEA3246143_2.fastq.gz
+SAMEA3246143_L7_1.fastq.gz
+SAMEA3246143_L7_2.fastq.gz
+SAMEA3250476_1.fastq.gz
+SAMEA3250476_2.fastq.gz
+SAMEA3250477_1.fastq.gz
+SAMEA3250477_2.fastq.gz
+SAMEA3250478_1.fastq.gz
+SAMEA3250478_2.fastq.gz
+SAMEA3250479_1.fastq.gz
+SAMEA3250479_2.fastq.gz
+SAMEA3359865_1.fastq.gz
+SAMEA3359865_2.fastq.gz
+SAMEA3359866_1.fastq.gz
+SAMEA3359866_2.fastq.gz
+SAMEA3359867_1.fastq.gz
+SAMEA3359867_2.fastq.gz
+SAMEA3359868_1.fastq.gz
+SAMEA3359868_2.fastq.gz
+SAMEA3359869_1.fastq.gz
+SAMEA3359869_2.fastq.gz
+SAMEA3359870_1.fastq.gz
+SAMEA3359870_2.fastq.gz
+SAMEA3359871_1.fastq.gz
+SAMEA3359871_2.fastq.gz
+SAMEA3359872_1.fastq.gz
+SAMEA3359872_2.fastq.gz
+SAMEA3359873_1.fastq.gz
+SAMEA3359873_2.fastq.gz
+SAMEA3359874_1.fastq.gz
+SAMEA3359874_2.fastq.gz
+SAMEA3359875_1.fastq.gz
+SAMEA3359875_2.fastq.gz
+SAMEA3359876_1.fastq.gz
+SAMEA3359876_2.fastq.gz
+SAMEA3359877_1.fastq.gz
+SAMEA3359877_2.fastq.gz
+SAMEA3359880_1.fastq.gz
+SAMEA3359880_2.fastq.gz
+SAMEA3359885_1.fastq.gz
+SAMEA3359885_2.fastq.gz
+SAMEA3359886_1.fastq.gz
+SAMEA3359886_2.fastq.gz
+SAMEA3359887_1.fastq.gz
+SAMEA3359887_2.fastq.gz
+SAMEA3359888_1.fastq.gz
+SAMEA3359888_2.fastq.gz
+SAMEA3359896_1.fastq.gz
+SAMEA3359896_2.fastq.gz
+SAMEA3359897_1.fastq.gz
+SAMEA3359897_2.fastq.gz
+SAMEA3359898_1.fastq.gz
+SAMEA3359898_2.fastq.gz
+SAMEA3359899_1.fastq.gz
+SAMEA3359899_2.fastq.gz
+SAMEA3359901_1.fastq.gz
+SAMEA3359901_2.fastq.gz
+SAMEA3504604_1.fastq.gz
+SAMEA3504604_2.fastq.gz
+SAMEA3504620_1.fastq.gz
+SAMEA3504620_2.fastq.gz
+SAMEA3905803_MC_1.fastq.gz
+SAMEA3905803_MC_2.fastq.gz
+SAMEA104358365_1.fastq.gz
+SAMEA104358365_2.fastq.gz
+SAMN04479830_UT307_1.fastq.gz
+SAMN04479830_UT307_2.fastq.gz
+SAMN11492960_MAFBRA00707_1.fastq.gz
+SAMN11492960_MAFBRA00707_2.fastq.gz
