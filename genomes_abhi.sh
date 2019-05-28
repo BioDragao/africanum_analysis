@@ -1,4 +1,4 @@
-##duplicates
+##DUPLICATES
 #ERR1215473 SAMEA3359901
 #rclone copy onedrive-abhi:maf-genomes/ERR1215473_1.fastq.gz ./genomes_abhi/SAMEA3359901_1.fastq.gz -vv
 #rclone copy onedrive-abhi:maf-genomes/ERR1215473_2.fastq.gz ./genomes_abhi/SAMEA3359901_2.fastq.gz -vv
@@ -14,7 +14,30 @@
 #ERR909754 SAMEA2627045
 #rclone copy onedrive-abhi:maf-genomes/ERR909754_1.fastq.gz ./genomes_abhi/SAMEA2627045_1.fastq.gz -vv
 #rclone copy onedrive-abhi:maf-genomes/ERR909754_2.fastq.gz ./genomes_abhi/SAMEA2627045_2.fastq.gz -vv
-##missing_genomes
+
+
+
+# #ERR1215473 SAMEA3359901
+# rm -rf SAMEA3359901_1.fastq.gz
+# rm -rf SAMEA3359901_2.fastq.gz
+# #ERR502480 SAMEA2340887
+# rm -rf SAMEA2340887_1.fastq.gz
+# rm -rf SAMEA2340887_2.fastq.gz
+# #ERR845916 SAMEA2794356
+# rm -rf SAMEA2794356_1.fastq.gz
+# rm -rf SAMEA2794356_2.fastq.gz
+# #ERR909753 SAMEA2627034
+# rm -rf SAMEA2627034_1.fastq.gz
+# rm -rf SAMEA2627034_2.fastq.gz
+# #ERR909754 SAMEA2627045
+# rm -rf SAMEA2627045_1.fastq.gz
+# rm -rf SAMEA2627045_2.fastq.gz
+
+
+
+######################
+
+##MISSING_GENOMES
 #ERR1203075 SAMEA3504622
 #rclone copy onedrive-abhi:maf-genomes/ERR1203075_1.fastq.gz ./genomes_abhi/SAMEA3504622_1.fastq.gz -vv
 #rclone copy onedrive-abhi:maf-genomes/ERR1203075_2.fastq.gz ./genomes_abhi/SAMEA3504622_2.fastq.gz -vv
@@ -22,6 +45,14 @@
 #rclone copy onedrive-abhi:maf-genomes/ERR1203078_1.fastq.gz ./genomes_abhi/SAMEA3504625_1.fastq.gz -vv
 #rclone copy onedrive-abhi:maf-genomes/ERR1203078_2.fastq.gz ./genomes_abhi/SAMEA3504625_2.fastq.gz -vv
 
+
+
+# aria2c "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR120/005/ERR1203075/ERR1203075_1.fastq.gz" -o "./genomes_ena/SAMEA3504622_1.fastq.gz"
+# aria2c "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR120/005/ERR1203075/ERR1203075_2.fastq.gz" -o "./genomes_ena/SAMEA3504622_2.fastq.gz"
+
+
+# aria2c "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR120/008/ERR1203078/ERR1203078_1.fastq.gz" -o "./genomes_ena/SAMEA3504625_1.fastq.gz"
+# aria2c "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR120/008/ERR1203078/ERR1203078_2.fastq.gz" -o "./genomes_ena/SAMEA3504625_2.fastq.gz"
 
 
 #ERR1082136 SAMEA3359902
