@@ -47,12 +47,12 @@
 
 
 
-# aria2c "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR120/005/ERR1203075/ERR1203075_1.fastq.gz" -o "./genomes_ena/SAMEA3504622_1.fastq.gz"
-# aria2c "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR120/005/ERR1203075/ERR1203075_2.fastq.gz" -o "./genomes_ena/SAMEA3504622_2.fastq.gz"
+# aria2c "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR120/005/ERR1203075/ERR1203075_1.fastq.gz" -o "./genomes_abhi/SAMEA3504622_1.fastq.gz"
+# aria2c "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR120/005/ERR1203075/ERR1203075_2.fastq.gz" -o "./genomes_abhi/SAMEA3504622_2.fastq.gz"
 
 
-# aria2c "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR120/008/ERR1203078/ERR1203078_1.fastq.gz" -o "./genomes_ena/SAMEA3504625_1.fastq.gz"
-# aria2c "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR120/008/ERR1203078/ERR1203078_2.fastq.gz" -o "./genomes_ena/SAMEA3504625_2.fastq.gz"
+# aria2c "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR120/008/ERR1203078/ERR1203078_1.fastq.gz" -o "./genomes_abhi/SAMEA3504625_1.fastq.gz"
+# aria2c "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR120/008/ERR1203078/ERR1203078_2.fastq.gz" -o "./genomes_abhi/SAMEA3504625_2.fastq.gz"
 
 
 #ERR1082136 SAMEA3359902
