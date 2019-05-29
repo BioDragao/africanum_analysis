@@ -1,0 +1,129 @@
+vagrant ssh -c "cd /vagrant/africanum_analysis/lab/ && python2.7 SpoTyping.py SAMEA2340877_1.fastq.gz SAMEA2340877_2.fastq.gz -o SAMEA2340877_spo.out"
+
+ $$$$$$$$$$ 
+
+vagrant ssh -c "cd /vagrant/africanum_analysis/lab/ && python2.7 SpoTyping.py SAMEA2340878_1.fastq.gz SAMEA2340878_2.fastq.gz -o SAMEA2340878_spo.out"
+
+ $$$$$$$$$$ 
+
+vagrant ssh -c "cd /vagrant/africanum_analysis/lab/ && python2.7 SpoTyping.py SAMEA2340879_1.fastq.gz SAMEA2340879_2.fastq.gz -o SAMEA2340879_spo.out"
+
+ $$$$$$$$$$ 
+
+vagrant ssh -c "cd /vagrant/africanum_analysis/lab/ && python2.7 SpoTyping.py SAMEA2340883_1.fastq.gz SAMEA2340883_2.fastq.gz -o SAMEA2340883_spo.out"
+
+ $$$$$$$$$$ 
+
+vagrant ssh -c "cd /vagrant/africanum_analysis/lab/ && python2.7 SpoTyping.py SAMEA2340884_1.fastq.gz SAMEA2340884_2.fastq.gz -o SAMEA2340884_spo.out"
+
+ $$$$$$$$$$ 
+
+vagrant ssh -c "cd /vagrant/africanum_analysis/lab/ && python2.7 SpoTyping.py SAMEA2340885_1.fastq.gz SAMEA2340885_2.fastq.gz -o SAMEA2340885_spo.out"
+
+ $$$$$$$$$$ 
+
+vagrant ssh -c "cd /vagrant/africanum_analysis/lab/ && python2.7 SpoTyping.py SAMEA2340887_1.fastq.gz SAMEA2340887_2.fastq.gz -o SAMEA2340887_spo.out"
+
+ $$$$$$$$$$ 
+
+vagrant ssh -c "cd /vagrant/africanum_analysis/lab/ && python2.7 SpoTyping.py SAMEA2340895_1.fastq.gz SAMEA2340895_2.fastq.gz -o SAMEA2340895_spo.out"
+
+ $$$$$$$$$$ 
+
+vagrant ssh -c "cd /vagrant/africanum_analysis/lab/ && python2.7 SpoTyping.py SAMEA2340898_1.fastq.gz SAMEA2340898_2.fastq.gz -o SAMEA2340898_spo.out"
+
+ $$$$$$$$$$ 
+
+vagrant ssh -c "cd /vagrant/africanum_analysis/lab/ && python2.7 SpoTyping.py SAMEA2340902_1.fastq.gz SAMEA2340902_2.fastq.gz -o SAMEA2340902_spo.out"
+
+ $$$$$$$$$$ 
+
+vagrant ssh -c "cd /vagrant/africanum_analysis/lab/ && python2.7 SpoTyping.py SAMEA2340906_1.fastq.gz SAMEA2340906_2.fastq.gz -o SAMEA2340906_spo.out"
+
+ $$$$$$$$$$ 
+
+vagrant ssh -c "cd /vagrant/africanum_analysis/lab/ && python2.7 SpoTyping.py SAMEA2340911_1.fastq.gz SAMEA2340911_2.fastq.gz -o SAMEA2340911_spo.out"
+
+ $$$$$$$$$$ 
+
+vagrant ssh -c "cd /vagrant/africanum_analysis/lab/ && python2.7 SpoTyping.py SAMEA2340926_1.fastq.gz SAMEA2340926_2.fastq.gz -o SAMEA2340926_spo.out"
+
+ $$$$$$$$$$ 
+
+vagrant ssh -c "cd /vagrant/africanum_analysis/lab/ && python2.7 SpoTyping.py SAMEA2340927_1.fastq.gz SAMEA2340927_2.fastq.gz -o SAMEA2340927_spo.out"
+
+ $$$$$$$$$$ 
+
+vagrant ssh -c "cd /vagrant/africanum_analysis/lab/ && python2.7 SpoTyping.py SAMEA2340928_1.fastq.gz SAMEA2340928_2.fastq.gz -o SAMEA2340928_spo.out"
+
+ $$$$$$$$$$ 
+
+vagrant ssh -c "cd /vagrant/africanum_analysis/lab/ && python2.7 SpoTyping.py SAMEA2340934_1.fastq.gz SAMEA2340934_2.fastq.gz -o SAMEA2340934_spo.out"
+
+ $$$$$$$$$$ 
+
+vagrant ssh -c "cd /vagrant/africanum_analysis/lab/ && python2.7 SpoTyping.py SAMEA2340937_1.fastq.gz SAMEA2340937_2.fastq.gz -o SAMEA2340937_spo.out"
+
+ $$$$$$$$$$ 
+
+vagrant ssh -c "cd /vagrant/africanum_analysis/lab/ && python2.7 SpoTyping.py SAMEA2340945_1.fastq.gz SAMEA2340945_2.fastq.gz -o SAMEA2340945_spo.out"
+
+ $$$$$$$$$$ 
+
+vagrant ssh -c "cd /vagrant/africanum_analysis/lab/ && python2.7 SpoTyping.py SAMEA2340948_1.fastq.gz SAMEA2340948_2.fastq.gz -o SAMEA2340948_spo.out"
+
+ $$$$$$$$$$ 
+
+vagrant ssh -c "cd /vagrant/africanum_analysis/lab/ && python2.7 SpoTyping.py SAMEA2627005_1.fastq.gz SAMEA2627005_2.fastq.gz -o SAMEA2627005_spo.out"
+
+ $$$$$$$$$$ 
+
+vagrant ssh -c "cd /vagrant/africanum_analysis/lab/ && python2.7 SpoTyping.py SAMEA2627008_1.fastq.gz SAMEA2627008_2.fastq.gz -o SAMEA2627008_spo.out"
+
+ $$$$$$$$$$ 
+
+vagrant ssh -c "cd /vagrant/africanum_analysis/lab/ && python2.7 SpoTyping.py SAMEA2627009_1.fastq.gz SAMEA2627009_2.fastq.gz -o SAMEA2627009_spo.out"
+
+ $$$$$$$$$$ 
+
+vagrant ssh -c "cd /vagrant/africanum_analysis/lab/ && python2.7 SpoTyping.py SAMEA2627010_1.fastq.gz SAMEA2627010_2.fastq.gz -o SAMEA2627010_spo.out"
+
+ $$$$$$$$$$ 
+
+vagrant ssh -c "cd /vagrant/africanum_analysis/lab/ && python2.7 SpoTyping.py SAMEA2627011_1.fastq.gz SAMEA2627011_2.fastq.gz -o SAMEA2627011_spo.out"
+
+ $$$$$$$$$$ 
+
+vagrant ssh -c "cd /vagrant/africanum_analysis/lab/ && python2.7 SpoTyping.py SAMEA2627012_1.fastq.gz SAMEA2627012_2.fastq.gz -o SAMEA2627012_spo.out"
+
+ $$$$$$$$$$ 
+
+vagrant ssh -c "cd /vagrant/africanum_analysis/lab/ && python2.7 SpoTyping.py SAMEA2627034_1.fastq.gz SAMEA2627034_2.fastq.gz -o SAMEA2627034_spo.out"
+
+ $$$$$$$$$$ 
+
+vagrant ssh -c "cd /vagrant/africanum_analysis/lab/ && python2.7 SpoTyping.py SAMEA2627040_1.fastq.gz SAMEA2627040_2.fastq.gz -o SAMEA2627040_spo.out"
+
+ $$$$$$$$$$ 
+
+vagrant ssh -c "cd /vagrant/africanum_analysis/lab/ && python2.7 SpoTyping.py SAMEA2627044_1.fastq.gz SAMEA2627044_2.fastq.gz -o SAMEA2627044_spo.out"
+
+ $$$$$$$$$$ 
+
+vagrant ssh -c "cd /vagrant/africanum_analysis/lab/ && python2.7 SpoTyping.py SAMEA2627045_1.fastq.gz SAMEA2627045_2.fastq.gz -o SAMEA2627045_spo.out"
+
+ $$$$$$$$$$ 
+
+vagrant ssh -c "cd /vagrant/africanum_analysis/lab/ && python2.7 SpoTyping.py SAMEA2794338_1.fastq.gz SAMEA2794338_2.fastq.gz -o SAMEA2794338_spo.out"
+
+ $$$$$$$$$$ 
+
+vagrant ssh -c "cd /vagrant/africanum_analysis/lab/ && python2.7 SpoTyping.py SAMEA2794356_1.fastq.gz SAMEA2794356_2.fastq.gz -o SAMEA2794356_spo.out"
+
+ $$$$$$$$$$ 
+
+vagrant ssh -c "cd /vagrant/africanum_analysis/lab/ && python2.7 SpoTyping.py SAMEA2794363_1.fastq.gz SAMEA2794363_2.fastq.gz -o SAMEA2794363_spo.out"
+
+ $$$$$$$$$$ 
+
+DONE
