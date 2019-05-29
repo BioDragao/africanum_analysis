@@ -18,14 +18,7 @@ vagrant ssh -c "cd /vagrant/africanum_analysis/lab/ && java -jar /opt/Trimmomati
 
  $$$$$$$$$$ 
 
-vagrant ssh -c "cd /vagrant/africanum_analysis/lab/ && java -jar /opt/Trimmomatic-0.36/trimmomatic-0.36.jar PE -phred33
-SAMEA1877112_L1_1.fastq.gz
-SAMEA1877112_L1_2.fastq.gz
-SAMEA1877112_L1_1.p.fastq.gz
-SAMEA1877112_L1_1.s.fastq.gz
-SAMEA1877112_L1_2.p.fastq.gz
-SAMEA1877112_L1_2.s.fastq.gz
-LEADING:3 TRAILING:3 SLIDINGWINDOW:4:20 MINLEN:36"
+vagrant ssh -c "cd /vagrant/africanum_analysis/lab/ && java -jar /opt/Trimmomatic-0.36/trimmomatic-0.36.jar PE -phred33 SAMEA1877112_L1_1.fastq.gz SAMEA1877112_L1_2.fastq.gz SAMEA1877112_L1_1.p.fastq.gz SAMEA1877112_L1_1.s.fastq.gz SAMEA1877112_L1_2.p.fastq.gz SAMEA1877112_L1_2.s.fastq.gz LEADING:3 TRAILING:3 SLIDINGWINDOW:4:20 MINLEN:36"
 
  $$$$$$$$$$ 
 
