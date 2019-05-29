@@ -169,7 +169,7 @@
 
 
 (spit (str "../lab/" "_all_lab_genome_files.json")
-      (json/write-str all-genomes))
+      (json/write-str all-lab-genomes))
 
 (count all-lab-genomes)
 
