@@ -152,30 +152,26 @@
 
 
 
-;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+; NOTE all lab genome files
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
-
-(def ena-genome-pairs
+(def all-lab-genomes
   (apply vector
          (partition 2
                     (str/split-lines
-                     (slurp "../genomes_ena/_list_of_files.txt")))))
+                     (slurp "../lab/_all_lab_genome_files.txt")))))
 
 (comment
-  (first ena-genome-pairs)
-  (last ena-genome-pairs)
-)
+  (first all-lab-genomes)
+  (last all-lab-genomes)
+  )
 
 
-(spit (str "../genomes_ena/" "_genome_pairs.json")
-      (json/write-str ena-genome-pairs))
+(spit (str "../lab/" "_all_lab_genome_files.json")
+      (json/write-str all-genomes))
 
-(spit (str "../genomes_ena/" "_genome_pairs.edn")
-       ena-genome-pairs)
-
-
-
+(count all-lab-genomes)
 
 
 
