@@ -23,6 +23,7 @@ all_dirs = [f for f in os.listdir() if os.path.isdir(f)]
 #all_dirs.remove('uploaded')
 
 dir_string = " "
+
 for a_dir in all_dirs:
     dir_string = dir_string + " " + a_dir
 
