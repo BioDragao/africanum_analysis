@@ -1,0 +1,4 @@
+vagrant ssh -c "cd /vagrant/africanum_analysis/lab/ && snippy-core   ref"
+
+ $$$$$$$$$$ 
+

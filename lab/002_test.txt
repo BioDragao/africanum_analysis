@@ -1,0 +1,128 @@
+vagrant ssh -c "cd /vagrant/africanum_analysis/lab/ && snippy --cpus 4 --outdir SAMEA2340877 --ref NC000962_3.gbk  --R1 SAMEA2340877_1.fastq.gz --R2 SAMEA2340877_2.fastq.gz"
+
+ $$$$$$$$$$ 
+
+vagrant ssh -c "cd /vagrant/africanum_analysis/lab/ && snippy --cpus 4 --outdir SAMEA2340878 --ref NC000962_3.gbk  --R1 SAMEA2340878_1.fastq.gz --R2 SAMEA2340878_2.fastq.gz"
+
+ $$$$$$$$$$ 
+
+vagrant ssh -c "cd /vagrant/africanum_analysis/lab/ && snippy --cpus 4 --outdir SAMEA2340879 --ref NC000962_3.gbk  --R1 SAMEA2340879_1.fastq.gz --R2 SAMEA2340879_2.fastq.gz"
+
+ $$$$$$$$$$ 
+
+vagrant ssh -c "cd /vagrant/africanum_analysis/lab/ && snippy --cpus 4 --outdir SAMEA2340883 --ref NC000962_3.gbk  --R1 SAMEA2340883_1.fastq.gz --R2 SAMEA2340883_2.fastq.gz"
+
+ $$$$$$$$$$ 
+
+vagrant ssh -c "cd /vagrant/africanum_analysis/lab/ && snippy --cpus 4 --outdir SAMEA2340884 --ref NC000962_3.gbk  --R1 SAMEA2340884_1.fastq.gz --R2 SAMEA2340884_2.fastq.gz"
+
+ $$$$$$$$$$ 
+
+vagrant ssh -c "cd /vagrant/africanum_analysis/lab/ && snippy --cpus 4 --outdir SAMEA2340885 --ref NC000962_3.gbk  --R1 SAMEA2340885_1.fastq.gz --R2 SAMEA2340885_2.fastq.gz"
+
+ $$$$$$$$$$ 
+
+vagrant ssh -c "cd /vagrant/africanum_analysis/lab/ && snippy --cpus 4 --outdir SAMEA2340887 --ref NC000962_3.gbk  --R1 SAMEA2340887_1.fastq.gz --R2 SAMEA2340887_2.fastq.gz"
+
+ $$$$$$$$$$ 
+
+vagrant ssh -c "cd /vagrant/africanum_analysis/lab/ && snippy --cpus 4 --outdir SAMEA2340895 --ref NC000962_3.gbk  --R1 SAMEA2340895_1.fastq.gz --R2 SAMEA2340895_2.fastq.gz"
+
+ $$$$$$$$$$ 
+
+vagrant ssh -c "cd /vagrant/africanum_analysis/lab/ && snippy --cpus 4 --outdir SAMEA2340898 --ref NC000962_3.gbk  --R1 SAMEA2340898_1.fastq.gz --R2 SAMEA2340898_2.fastq.gz"
+
+ $$$$$$$$$$ 
+
+vagrant ssh -c "cd /vagrant/africanum_analysis/lab/ && snippy --cpus 4 --outdir SAMEA2340902 --ref NC000962_3.gbk  --R1 SAMEA2340902_1.fastq.gz --R2 SAMEA2340902_2.fastq.gz"
+
+ $$$$$$$$$$ 
+
+vagrant ssh -c "cd /vagrant/africanum_analysis/lab/ && snippy --cpus 4 --outdir SAMEA2340906 --ref NC000962_3.gbk  --R1 SAMEA2340906_1.fastq.gz --R2 SAMEA2340906_2.fastq.gz"
+
+ $$$$$$$$$$ 
+
+vagrant ssh -c "cd /vagrant/africanum_analysis/lab/ && snippy --cpus 4 --outdir SAMEA2340911 --ref NC000962_3.gbk  --R1 SAMEA2340911_1.fastq.gz --R2 SAMEA2340911_2.fastq.gz"
+
+ $$$$$$$$$$ 
+
+vagrant ssh -c "cd /vagrant/africanum_analysis/lab/ && snippy --cpus 4 --outdir SAMEA2340926 --ref NC000962_3.gbk  --R1 SAMEA2340926_1.fastq.gz --R2 SAMEA2340926_2.fastq.gz"
+
+ $$$$$$$$$$ 
+
+vagrant ssh -c "cd /vagrant/africanum_analysis/lab/ && snippy --cpus 4 --outdir SAMEA2340927 --ref NC000962_3.gbk  --R1 SAMEA2340927_1.fastq.gz --R2 SAMEA2340927_2.fastq.gz"
+
+ $$$$$$$$$$ 
+
+vagrant ssh -c "cd /vagrant/africanum_analysis/lab/ && snippy --cpus 4 --outdir SAMEA2340928 --ref NC000962_3.gbk  --R1 SAMEA2340928_1.fastq.gz --R2 SAMEA2340928_2.fastq.gz"
+
+ $$$$$$$$$$ 
+
+vagrant ssh -c "cd /vagrant/africanum_analysis/lab/ && snippy --cpus 4 --outdir SAMEA2340934 --ref NC000962_3.gbk  --R1 SAMEA2340934_1.fastq.gz --R2 SAMEA2340934_2.fastq.gz"
+
+ $$$$$$$$$$ 
+
+vagrant ssh -c "cd /vagrant/africanum_analysis/lab/ && snippy --cpus 4 --outdir SAMEA2340937 --ref NC000962_3.gbk  --R1 SAMEA2340937_1.fastq.gz --R2 SAMEA2340937_2.fastq.gz"
+
+ $$$$$$$$$$ 
+
+vagrant ssh -c "cd /vagrant/africanum_analysis/lab/ && snippy --cpus 4 --outdir SAMEA2340945 --ref NC000962_3.gbk  --R1 SAMEA2340945_1.fastq.gz --R2 SAMEA2340945_2.fastq.gz"
+
+ $$$$$$$$$$ 
+
+vagrant ssh -c "cd /vagrant/africanum_analysis/lab/ && snippy --cpus 4 --outdir SAMEA2340948 --ref NC000962_3.gbk  --R1 SAMEA2340948_1.fastq.gz --R2 SAMEA2340948_2.fastq.gz"
+
+ $$$$$$$$$$ 
+
+vagrant ssh -c "cd /vagrant/africanum_analysis/lab/ && snippy --cpus 4 --outdir SAMEA2627005 --ref NC000962_3.gbk  --R1 SAMEA2627005_1.fastq.gz --R2 SAMEA2627005_2.fastq.gz"
+
+ $$$$$$$$$$ 
+
+vagrant ssh -c "cd /vagrant/africanum_analysis/lab/ && snippy --cpus 4 --outdir SAMEA2627008 --ref NC000962_3.gbk  --R1 SAMEA2627008_1.fastq.gz --R2 SAMEA2627008_2.fastq.gz"
+
+ $$$$$$$$$$ 
+
+vagrant ssh -c "cd /vagrant/africanum_analysis/lab/ && snippy --cpus 4 --outdir SAMEA2627009 --ref NC000962_3.gbk  --R1 SAMEA2627009_1.fastq.gz --R2 SAMEA2627009_2.fastq.gz"
+
+ $$$$$$$$$$ 
+
+vagrant ssh -c "cd /vagrant/africanum_analysis/lab/ && snippy --cpus 4 --outdir SAMEA2627010 --ref NC000962_3.gbk  --R1 SAMEA2627010_1.fastq.gz --R2 SAMEA2627010_2.fastq.gz"
+
+ $$$$$$$$$$ 
+
+vagrant ssh -c "cd /vagrant/africanum_analysis/lab/ && snippy --cpus 4 --outdir SAMEA2627011 --ref NC000962_3.gbk  --R1 SAMEA2627011_1.fastq.gz --R2 SAMEA2627011_2.fastq.gz"
+
+ $$$$$$$$$$ 
+
+vagrant ssh -c "cd /vagrant/africanum_analysis/lab/ && snippy --cpus 4 --outdir SAMEA2627012 --ref NC000962_3.gbk  --R1 SAMEA2627012_1.fastq.gz --R2 SAMEA2627012_2.fastq.gz"
+
+ $$$$$$$$$$ 
+
+vagrant ssh -c "cd /vagrant/africanum_analysis/lab/ && snippy --cpus 4 --outdir SAMEA2627034 --ref NC000962_3.gbk  --R1 SAMEA2627034_1.fastq.gz --R2 SAMEA2627034_2.fastq.gz"
+
+ $$$$$$$$$$ 
+
+vagrant ssh -c "cd /vagrant/africanum_analysis/lab/ && snippy --cpus 4 --outdir SAMEA2627040 --ref NC000962_3.gbk  --R1 SAMEA2627040_1.fastq.gz --R2 SAMEA2627040_2.fastq.gz"
+
+ $$$$$$$$$$ 
+
+vagrant ssh -c "cd /vagrant/africanum_analysis/lab/ && snippy --cpus 4 --outdir SAMEA2627044 --ref NC000962_3.gbk  --R1 SAMEA2627044_1.fastq.gz --R2 SAMEA2627044_2.fastq.gz"
+
+ $$$$$$$$$$ 
+
+vagrant ssh -c "cd /vagrant/africanum_analysis/lab/ && snippy --cpus 4 --outdir SAMEA2627045 --ref NC000962_3.gbk  --R1 SAMEA2627045_1.fastq.gz --R2 SAMEA2627045_2.fastq.gz"
+
+ $$$$$$$$$$ 
+
+vagrant ssh -c "cd /vagrant/africanum_analysis/lab/ && snippy --cpus 4 --outdir SAMEA2794338 --ref NC000962_3.gbk  --R1 SAMEA2794338_1.fastq.gz --R2 SAMEA2794338_2.fastq.gz"
+
+ $$$$$$$$$$ 
+
+vagrant ssh -c "cd /vagrant/africanum_analysis/lab/ && snippy --cpus 4 --outdir SAMEA2794356 --ref NC000962_3.gbk  --R1 SAMEA2794356_1.fastq.gz --R2 SAMEA2794356_2.fastq.gz"
+
+ $$$$$$$$$$ 
+
+vagrant ssh -c "cd /vagrant/africanum_analysis/lab/ && snippy --cpus 4 --outdir SAMEA2794363 --ref NC000962_3.gbk  --R1 SAMEA2794363_1.fastq.gz --R2 SAMEA2794363_2.fastq.gz"
+
+ $$$$$$$$$$ 
+
