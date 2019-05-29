@@ -165,7 +165,7 @@
 (comment
   (first all-lab-genomes)
   (last all-lab-genomes)
-  )
+)
 
 
 (spit (str "../lab/" "_all_lab_genome_files.json")

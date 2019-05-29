@@ -18,7 +18,7 @@ import shutil
 
 # all_fastq_files = list(filter(lambda x:has_fastq_in_name(x), all_files))
 
-with open("./_genome_pairs.json", 'r') as f:
+with open("./_all_lab_genome_files.txt", 'r') as f:
     genome_pairs = json.loads(f.read())
 
 
