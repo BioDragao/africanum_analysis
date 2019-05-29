@@ -18,8 +18,10 @@ import shutil
 
 # all_fastq_files = list(filter(lambda x:has_fastq_in_name(x), all_files))
 
-with open("./_all_lab_genome_files.txt", 'r') as f:
+with open("./_all_lab_genome_files.json", 'r') as f:
     genome_pairs = json.loads(f.read())
+
+# run_spotyping(genome_pairs[-1])
 
 
 def run_spotyping(a_pair):
@@ -28,7 +30,11 @@ def run_spotyping(a_pair):
 
     genome_2 = a_pair[1]
 
-    output = (a_pair[0].split(".")[0]).split("_")[0] + "_spo.out"
+    # output = (a_pair[0].split(".")[0]).split("_")[0] + "_spo.out"
+
+    output = "_".join(a_pair[0].split("_")[:-1]) + "_spo.out"
+
+    # print(output)
 
     # NOTE the usage of spotyping command
     # python2.7 SpoTyping.py ./118_cat_R1.fastq ./118_cat_R2.fastq
