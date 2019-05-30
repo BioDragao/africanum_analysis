@@ -1,0 +1,2325 @@
+[01:36:22] This is snippy 3.2-dev
+[01:36:22] Written by Torsten Seemann <torsten.seemann@gmail.com>
+[01:36:22] Obtained from https://github.com/tseemann/snippy
+[01:36:22] Detected operating system: linux
+[01:36:22] Enabling bundled linux tools.
+[01:36:22] Found bwa - /opt/snippy/binaries/linux/bwa
+[01:36:22] Found samtools - /opt/snippy/binaries/linux/samtools
+[01:36:22] Found tabix - /opt/snippy/binaries/linux/tabix
+[01:36:22] Found bgzip - /opt/snippy/binaries/linux/bgzip
+[01:36:22] Found snpEff - /opt/snippy/binaries/noarch/snpEff
+[01:36:22] Found java - /usr/bin/java
+[01:36:22] Found gzip - /usr/bin/gzip
+[01:36:22] Found parallel - /opt/snippy/binaries/noarch/parallel
+[01:36:22] Found freebayes - /opt/snippy/binaries/linux/freebayes
+[01:36:22] Found freebayes-parallel - /opt/snippy/binaries/noarch/freebayes-parallel
+[01:36:22] Found fasta_generate_regions.py - /opt/snippy/binaries/noarch/fasta_generate_regions.py
+[01:36:22] Found vcfstreamsort - /opt/snippy/binaries/linux/vcfstreamsort
+[01:36:22] Found vcfuniq - /opt/snippy/binaries/linux/vcfuniq
+[01:36:22] Found vcffirstheader - /opt/snippy/binaries/noarch/vcffirstheader
+[01:36:22] Found vcf-consensus - /opt/snippy/binaries/noarch/vcf-consensus
+[01:36:22] Found snippy-vcf_to_tab - /opt/snippy/bin/snippy-vcf_to_tab
+[01:36:22] Found snippy-vcf_report - /opt/snippy/bin/snippy-vcf_report
+[01:36:23] Found snippy-vcf_filter - /opt/snippy/bin/snippy-vcf_filter
+[01:36:23] Checking version: samtools --version is >= 1.3 - ok, have 1.3
+[01:36:23] Using reference: /vagrant/africanum_analysis/lab/NC000962_3.gbk
+[01:36:23] Treating reference as 'genbank' format.
+[01:36:23] Will use 4 CPU cores.
+[01:36:23] Using read file: /vagrant/africanum_analysis/lab/SAMEA1877109_1.fastq.gz
+[01:36:23] Using read file: /vagrant/africanum_analysis/lab/SAMEA1877109_2.fastq.gz
+[01:36:23] Creating folder: SAMEA1877109
+[01:36:23] Changing working directory: SAMEA1877109
+[01:36:23] Creating reference folder: reference
+[01:36:23] Extracting FASTA and GFF from reference.
+[01:36:39] Wrote 1 sequences to ref.fa
+[01:36:39] Wrote 4416 features to ref.gff
+[01:36:39] Creating reference/snpeff.config
+[01:36:39] Freebayes will process 16 chunks of 280319 bp, 4 chunks at a time.
+[01:36:39] Using BAM RG (Read Group) ID: snps
+[01:36:39] Running: samtools faidx reference/ref.fa 2>> snps.log
+[01:36:39] Running: bwa index reference/ref.fa 2>> snps.log
+[01:36:47] Running: mkdir reference/genomes && cp -f reference/ref.fa reference/genomes/ref.fa 2>> snps.log
+[01:36:47] Running: mkdir reference/ref && bgzip -c reference/ref.gff > reference/ref/genes.gff.gz 2>> snps.log
+[01:36:48] Running: snpEff build -c reference/snpeff.config -dataDir . -gff3 ref 2>> snps.log
+[01:36:57] Running: (bwa mem  -v 2 -M -R '@RG\tID:snps\tSM:snps' -t 4 reference/ref.fa /vagrant/africanum_analysis/lab/SAMEA1877109_1.fastq.gz /vagrant/africanum_analysis/lab/SAMEA1877109_2.fastq.gz | samtools sort --reference reference/ref.fa > snps.bam) 2>> snps.log
+[01:52:18] Running: samtools index snps.bam 2>> snps.log
+[01:52:44] Running: samtools depth -q 20 snps.bam | bgzip > snps.depth.gz 2>> snps.log
+[01:54:06] Running: tabix -s 1 -b 2 -e 2 snps.depth.gz 2>> snps.log
+[01:54:09] Running: fasta_generate_regions.py reference/ref.fa.fai 280319 > reference/ref.txt 2>> snps.log
+[01:54:09] Running: freebayes-parallel reference/ref.txt 4 -p 1 -q 20 -m 60 --min-coverage 10 -V -f reference/ref.fa snps.bam > snps.raw.vcf 2>> snps.log
+[02:06:14] Running: /opt/snippy/bin/snippy-vcf_filter --minqual 10 --mincov 10 --minfrac 0.9  snps.raw.vcf > snps.filt.vcf 2>> snps.log
+[02:06:15] Running: snpEff ann -no-downstream -no-upstream -no-intergenic -no-utr -c reference/snpeff.config -dataDir . -noStats ref snps.filt.vcf > snps.vcf 2>> snps.log
+[02:06:25] Running: bgzip -c snps.vcf > snps.vcf.gz 2>> snps.log
+[02:06:25] Running: tabix -p vcf snps.vcf.gz 2>> snps.log
+[02:06:25] Running: /opt/snippy/bin/snippy-vcf_to_tab --gff reference/ref.gff --ref reference/ref.fa --vcf snps.vcf > snps.tab 2>> snps.log
+[02:06:43] Running: vcf-consensus snps.vcf.gz < reference/ref.fa > snps.consensus.fa 2>> snps.log
+[02:06:47] Running: /opt/snippy/bin/snippy-vcf_filter --subs snps.filt.vcf > snps.filt.subs.vcf 2>> snps.log
+[02:06:48] Running: bgzip -c snps.filt.subs.vcf > snps.filt.subs.vcf.gz 2>> snps.log
+[02:06:48] Running: tabix -p vcf snps.filt.subs.vcf.gz 2>> snps.log
+[02:06:48] Running: vcf-consensus snps.filt.subs.vcf.gz < reference/ref.fa > snps.consensus.subs.fa 2>> snps.log
+[02:06:51] Generating aligned/masked FASTA relative to reference: snps.aligned.fa
+[02:07:14] Creating extra output files: BED GFF CSV TXT HTML
+[02:07:15] Identified 2371 variants.
+[02:07:15] Result folder: SAMEA1877109
+[02:07:15] Result files:
+[02:07:15] * SAMEA1877109/snps.aligned.fa
+[02:07:15] * SAMEA1877109/snps.bam
+[02:07:15] * SAMEA1877109/snps.bam.bai
+[02:07:15] * SAMEA1877109/snps.bed
+[02:07:15] * SAMEA1877109/snps.consensus.fa
+[02:07:15] * SAMEA1877109/snps.consensus.subs.fa
+[02:07:15] * SAMEA1877109/snps.csv
+[02:07:15] * SAMEA1877109/snps.depth.gz
+[02:07:15] * SAMEA1877109/snps.depth.gz.tbi
+[02:07:15] * SAMEA1877109/snps.filt.subs.vcf
+[02:07:15] * SAMEA1877109/snps.filt.subs.vcf.gz
+[02:07:15] * SAMEA1877109/snps.filt.subs.vcf.gz.tbi
+[02:07:15] * SAMEA1877109/snps.filt.vcf
+[02:07:15] * SAMEA1877109/snps.gff
+[02:07:15] * SAMEA1877109/snps.html
+[02:07:15] * SAMEA1877109/snps.log
+[02:07:15] * SAMEA1877109/snps.raw.vcf
+[02:07:15] * SAMEA1877109/snps.tab
+[02:07:15] * SAMEA1877109/snps.txt
+[02:07:15] * SAMEA1877109/snps.vcf
+[02:07:15] * SAMEA1877109/snps.vcf.gz
+[02:07:15] * SAMEA1877109/snps.vcf.gz.tbi
+[02:07:15] Walltime used: 30 minutes, 53 seconds
+[02:07:15] Wishing you a life free of homopolymer errors.
+[02:07:15] Done.
+[02:07:20] This is snippy 3.2-dev
+[02:07:20] Written by Torsten Seemann <torsten.seemann@gmail.com>
+[02:07:20] Obtained from https://github.com/tseemann/snippy
+[02:07:20] Detected operating system: linux
+[02:07:20] Enabling bundled linux tools.
+[02:07:20] Found bwa - /opt/snippy/binaries/linux/bwa
+[02:07:20] Found samtools - /opt/snippy/binaries/linux/samtools
+[02:07:20] Found tabix - /opt/snippy/binaries/linux/tabix
+[02:07:20] Found bgzip - /opt/snippy/binaries/linux/bgzip
+[02:07:20] Found snpEff - /opt/snippy/binaries/noarch/snpEff
+[02:07:20] Found java - /usr/bin/java
+[02:07:20] Found gzip - /usr/bin/gzip
+[02:07:20] Found parallel - /opt/snippy/binaries/noarch/parallel
+[02:07:20] Found freebayes - /opt/snippy/binaries/linux/freebayes
+[02:07:20] Found freebayes-parallel - /opt/snippy/binaries/noarch/freebayes-parallel
+[02:07:20] Found fasta_generate_regions.py - /opt/snippy/binaries/noarch/fasta_generate_regions.py
+[02:07:20] Found vcfstreamsort - /opt/snippy/binaries/linux/vcfstreamsort
+[02:07:20] Found vcfuniq - /opt/snippy/binaries/linux/vcfuniq
+[02:07:20] Found vcffirstheader - /opt/snippy/binaries/noarch/vcffirstheader
+[02:07:20] Found vcf-consensus - /opt/snippy/binaries/noarch/vcf-consensus
+[02:07:20] Found snippy-vcf_to_tab - /opt/snippy/bin/snippy-vcf_to_tab
+[02:07:20] Found snippy-vcf_report - /opt/snippy/bin/snippy-vcf_report
+[02:07:20] Found snippy-vcf_filter - /opt/snippy/bin/snippy-vcf_filter
+[02:07:20] Checking version: samtools --version is >= 1.3 - ok, have 1.3
+[02:07:20] Using reference: /vagrant/africanum_analysis/lab/NC000962_3.gbk
+[02:07:21] Treating reference as 'genbank' format.
+[02:07:21] Will use 4 CPU cores.
+[02:07:21] Using read file: /vagrant/africanum_analysis/lab/SAMEA1877112_L1_1.fastq.gz
+[02:07:21] Using read file: /vagrant/africanum_analysis/lab/SAMEA1877112_L1_2.fastq.gz
+[02:07:21] Creating folder: SAMEA1877112_L1
+[02:07:21] Changing working directory: SAMEA1877112_L1
+[02:07:21] Creating reference folder: reference
+[02:07:21] Extracting FASTA and GFF from reference.
+[02:07:37] Wrote 1 sequences to ref.fa
+[02:07:37] Wrote 4416 features to ref.gff
+[02:07:37] Creating reference/snpeff.config
+[02:07:37] Freebayes will process 16 chunks of 280319 bp, 4 chunks at a time.
+[02:07:37] Using BAM RG (Read Group) ID: snps
+[02:07:37] Running: samtools faidx reference/ref.fa 2>> snps.log
+[02:07:37] Running: bwa index reference/ref.fa 2>> snps.log
+[02:07:45] Running: mkdir reference/genomes && cp -f reference/ref.fa reference/genomes/ref.fa 2>> snps.log
+[02:07:45] Running: mkdir reference/ref && bgzip -c reference/ref.gff > reference/ref/genes.gff.gz 2>> snps.log
+[02:07:46] Running: snpEff build -c reference/snpeff.config -dataDir . -gff3 ref 2>> snps.log
+[02:07:55] Running: (bwa mem  -v 2 -M -R '@RG\tID:snps\tSM:snps' -t 4 reference/ref.fa /vagrant/africanum_analysis/lab/SAMEA1877112_L1_1.fastq.gz /vagrant/africanum_analysis/lab/SAMEA1877112_L1_2.fastq.gz | samtools sort --reference reference/ref.fa > snps.bam) 2>> snps.log
+[02:22:52] Running: samtools index snps.bam 2>> snps.log
+[02:23:16] Running: samtools depth -q 20 snps.bam | bgzip > snps.depth.gz 2>> snps.log
+[02:24:46] Running: tabix -s 1 -b 2 -e 2 snps.depth.gz 2>> snps.log
+[02:24:49] Running: fasta_generate_regions.py reference/ref.fa.fai 280319 > reference/ref.txt 2>> snps.log
+[02:24:49] Running: freebayes-parallel reference/ref.txt 4 -p 1 -q 20 -m 60 --min-coverage 10 -V -f reference/ref.fa snps.bam > snps.raw.vcf 2>> snps.log
+[02:36:24] Running: /opt/snippy/bin/snippy-vcf_filter --minqual 10 --mincov 10 --minfrac 0.9  snps.raw.vcf > snps.filt.vcf 2>> snps.log
+[02:36:25] Running: snpEff ann -no-downstream -no-upstream -no-intergenic -no-utr -c reference/snpeff.config -dataDir . -noStats ref snps.filt.vcf > snps.vcf 2>> snps.log
+[02:36:34] Running: bgzip -c snps.vcf > snps.vcf.gz 2>> snps.log
+[02:36:34] Running: tabix -p vcf snps.vcf.gz 2>> snps.log
+[02:36:34] Running: /opt/snippy/bin/snippy-vcf_to_tab --gff reference/ref.gff --ref reference/ref.fa --vcf snps.vcf > snps.tab 2>> snps.log
+[02:36:52] Running: vcf-consensus snps.vcf.gz < reference/ref.fa > snps.consensus.fa 2>> snps.log
+[02:36:56] Running: /opt/snippy/bin/snippy-vcf_filter --subs snps.filt.vcf > snps.filt.subs.vcf 2>> snps.log
+[02:36:57] Running: bgzip -c snps.filt.subs.vcf > snps.filt.subs.vcf.gz 2>> snps.log
+[02:36:57] Running: tabix -p vcf snps.filt.subs.vcf.gz 2>> snps.log
+[02:36:57] Running: vcf-consensus snps.filt.subs.vcf.gz < reference/ref.fa > snps.consensus.subs.fa 2>> snps.log
+[02:37:00] Generating aligned/masked FASTA relative to reference: snps.aligned.fa
+[02:37:24] Creating extra output files: BED GFF CSV TXT HTML
+[02:37:24] Identified 2085 variants.
+[02:37:24] Result folder: SAMEA1877112_L1
+[02:37:24] Result files:
+[02:37:24] * SAMEA1877112_L1/snps.aligned.fa
+[02:37:24] * SAMEA1877112_L1/snps.bam
+[02:37:24] * SAMEA1877112_L1/snps.bam.bai
+[02:37:24] * SAMEA1877112_L1/snps.bed
+[02:37:24] * SAMEA1877112_L1/snps.consensus.fa
+[02:37:24] * SAMEA1877112_L1/snps.consensus.subs.fa
+[02:37:24] * SAMEA1877112_L1/snps.csv
+[02:37:24] * SAMEA1877112_L1/snps.depth.gz
+[02:37:24] * SAMEA1877112_L1/snps.depth.gz.tbi
+[02:37:24] * SAMEA1877112_L1/snps.filt.subs.vcf
+[02:37:24] * SAMEA1877112_L1/snps.filt.subs.vcf.gz
+[02:37:24] * SAMEA1877112_L1/snps.filt.subs.vcf.gz.tbi
+[02:37:24] * SAMEA1877112_L1/snps.filt.vcf
+[02:37:24] * SAMEA1877112_L1/snps.gff
+[02:37:24] * SAMEA1877112_L1/snps.html
+[02:37:24] * SAMEA1877112_L1/snps.log
+[02:37:24] * SAMEA1877112_L1/snps.raw.vcf
+[02:37:24] * SAMEA1877112_L1/snps.tab
+[02:37:24] * SAMEA1877112_L1/snps.txt
+[02:37:24] * SAMEA1877112_L1/snps.vcf
+[02:37:24] * SAMEA1877112_L1/snps.vcf.gz
+[02:37:24] * SAMEA1877112_L1/snps.vcf.gz.tbi
+[02:37:24] Walltime used: 30 minutes, 4 seconds
+[02:37:24] Wishing you a life free of homopolymer errors.
+[02:37:24] Done.
+[02:37:29] This is snippy 3.2-dev
+[02:37:29] Written by Torsten Seemann <torsten.seemann@gmail.com>
+[02:37:29] Obtained from https://github.com/tseemann/snippy
+[02:37:29] Detected operating system: linux
+[02:37:29] Enabling bundled linux tools.
+[02:37:29] Found bwa - /opt/snippy/binaries/linux/bwa
+[02:37:29] Found samtools - /opt/snippy/binaries/linux/samtools
+[02:37:29] Found tabix - /opt/snippy/binaries/linux/tabix
+[02:37:29] Found bgzip - /opt/snippy/binaries/linux/bgzip
+[02:37:29] Found snpEff - /opt/snippy/binaries/noarch/snpEff
+[02:37:29] Found java - /usr/bin/java
+[02:37:29] Found gzip - /usr/bin/gzip
+[02:37:29] Found parallel - /opt/snippy/binaries/noarch/parallel
+[02:37:29] Found freebayes - /opt/snippy/binaries/linux/freebayes
+[02:37:29] Found freebayes-parallel - /opt/snippy/binaries/noarch/freebayes-parallel
+[02:37:29] Found fasta_generate_regions.py - /opt/snippy/binaries/noarch/fasta_generate_regions.py
+[02:37:29] Found vcfstreamsort - /opt/snippy/binaries/linux/vcfstreamsort
+[02:37:29] Found vcfuniq - /opt/snippy/binaries/linux/vcfuniq
+[02:37:29] Found vcffirstheader - /opt/snippy/binaries/noarch/vcffirstheader
+[02:37:29] Found vcf-consensus - /opt/snippy/binaries/noarch/vcf-consensus
+[02:37:29] Found snippy-vcf_to_tab - /opt/snippy/bin/snippy-vcf_to_tab
+[02:37:29] Found snippy-vcf_report - /opt/snippy/bin/snippy-vcf_report
+[02:37:29] Found snippy-vcf_filter - /opt/snippy/bin/snippy-vcf_filter
+[02:37:29] Checking version: samtools --version is >= 1.3 - ok, have 1.3
+[02:37:29] Using reference: /vagrant/africanum_analysis/lab/NC000962_3.gbk
+[02:37:30] Treating reference as 'genbank' format.
+[02:37:30] Will use 4 CPU cores.
+[02:37:30] Using read file: /vagrant/africanum_analysis/lab/SAMEA1877117_1.fastq.gz
+[02:37:30] Using read file: /vagrant/africanum_analysis/lab/SAMEA1877117_2.fastq.gz
+[02:37:30] Creating folder: SAMEA1877117
+[02:37:30] Changing working directory: SAMEA1877117
+[02:37:30] Creating reference folder: reference
+[02:37:30] Extracting FASTA and GFF from reference.
+[02:37:46] Wrote 1 sequences to ref.fa
+[02:37:46] Wrote 4416 features to ref.gff
+[02:37:46] Creating reference/snpeff.config
+[02:37:46] Freebayes will process 16 chunks of 280319 bp, 4 chunks at a time.
+[02:37:46] Using BAM RG (Read Group) ID: snps
+[02:37:46] Running: samtools faidx reference/ref.fa 2>> snps.log
+[02:37:46] Running: bwa index reference/ref.fa 2>> snps.log
+[02:37:54] Running: mkdir reference/genomes && cp -f reference/ref.fa reference/genomes/ref.fa 2>> snps.log
+[02:37:54] Running: mkdir reference/ref && bgzip -c reference/ref.gff > reference/ref/genes.gff.gz 2>> snps.log
+[02:37:55] Running: snpEff build -c reference/snpeff.config -dataDir . -gff3 ref 2>> snps.log
+[02:38:04] Running: (bwa mem  -v 2 -M -R '@RG\tID:snps\tSM:snps' -t 4 reference/ref.fa /vagrant/africanum_analysis/lab/SAMEA1877117_1.fastq.gz /vagrant/africanum_analysis/lab/SAMEA1877117_2.fastq.gz | samtools sort --reference reference/ref.fa > snps.bam) 2>> snps.log
+[02:54:18] Running: samtools index snps.bam 2>> snps.log
+[02:54:43] Running: samtools depth -q 20 snps.bam | bgzip > snps.depth.gz 2>> snps.log
+[02:56:02] Running: tabix -s 1 -b 2 -e 2 snps.depth.gz 2>> snps.log
+[02:56:05] Running: fasta_generate_regions.py reference/ref.fa.fai 280319 > reference/ref.txt 2>> snps.log
+[02:56:05] Running: freebayes-parallel reference/ref.txt 4 -p 1 -q 20 -m 60 --min-coverage 10 -V -f reference/ref.fa snps.bam > snps.raw.vcf 2>> snps.log
+[03:08:45] Running: /opt/snippy/bin/snippy-vcf_filter --minqual 10 --mincov 10 --minfrac 0.9  snps.raw.vcf > snps.filt.vcf 2>> snps.log
+[03:08:46] Running: snpEff ann -no-downstream -no-upstream -no-intergenic -no-utr -c reference/snpeff.config -dataDir . -noStats ref snps.filt.vcf > snps.vcf 2>> snps.log
+[03:08:55] Running: bgzip -c snps.vcf > snps.vcf.gz 2>> snps.log
+[03:08:55] Running: tabix -p vcf snps.vcf.gz 2>> snps.log
+[03:08:55] Running: /opt/snippy/bin/snippy-vcf_to_tab --gff reference/ref.gff --ref reference/ref.fa --vcf snps.vcf > snps.tab 2>> snps.log
+[03:09:14] Running: vcf-consensus snps.vcf.gz < reference/ref.fa > snps.consensus.fa 2>> snps.log
+[03:09:18] Running: /opt/snippy/bin/snippy-vcf_filter --subs snps.filt.vcf > snps.filt.subs.vcf 2>> snps.log
+[03:09:19] Running: bgzip -c snps.filt.subs.vcf > snps.filt.subs.vcf.gz 2>> snps.log
+[03:09:19] Running: tabix -p vcf snps.filt.subs.vcf.gz 2>> snps.log
+[03:09:19] Running: vcf-consensus snps.filt.subs.vcf.gz < reference/ref.fa > snps.consensus.subs.fa 2>> snps.log
+[03:09:22] Generating aligned/masked FASTA relative to reference: snps.aligned.fa
+[03:09:45] Creating extra output files: BED GFF CSV TXT HTML
+[03:09:46] Identified 2288 variants.
+[03:09:46] Result folder: SAMEA1877117
+[03:09:46] Result files:
+[03:09:46] * SAMEA1877117/snps.aligned.fa
+[03:09:46] * SAMEA1877117/snps.bam
+[03:09:46] * SAMEA1877117/snps.bam.bai
+[03:09:46] * SAMEA1877117/snps.bed
+[03:09:46] * SAMEA1877117/snps.consensus.fa
+[03:09:46] * SAMEA1877117/snps.consensus.subs.fa
+[03:09:46] * SAMEA1877117/snps.csv
+[03:09:46] * SAMEA1877117/snps.depth.gz
+[03:09:46] * SAMEA1877117/snps.depth.gz.tbi
+[03:09:46] * SAMEA1877117/snps.filt.subs.vcf
+[03:09:46] * SAMEA1877117/snps.filt.subs.vcf.gz
+[03:09:46] * SAMEA1877117/snps.filt.subs.vcf.gz.tbi
+[03:09:46] * SAMEA1877117/snps.filt.vcf
+[03:09:46] * SAMEA1877117/snps.gff
+[03:09:46] * SAMEA1877117/snps.html
+[03:09:46] * SAMEA1877117/snps.log
+[03:09:46] * SAMEA1877117/snps.raw.vcf
+[03:09:46] * SAMEA1877117/snps.tab
+[03:09:46] * SAMEA1877117/snps.txt
+[03:09:46] * SAMEA1877117/snps.vcf
+[03:09:46] * SAMEA1877117/snps.vcf.gz
+[03:09:46] * SAMEA1877117/snps.vcf.gz.tbi
+[03:09:46] Walltime used: 32 minutes, 17 seconds
+[03:09:46] Did you know? Snippy is a combination of SNP, Skippy, and snappy.
+[03:09:46] Done.
+[03:09:51] This is snippy 3.2-dev
+[03:09:51] Written by Torsten Seemann <torsten.seemann@gmail.com>
+[03:09:51] Obtained from https://github.com/tseemann/snippy
+[03:09:51] Detected operating system: linux
+[03:09:51] Enabling bundled linux tools.
+[03:09:51] Found bwa - /opt/snippy/binaries/linux/bwa
+[03:09:51] Found samtools - /opt/snippy/binaries/linux/samtools
+[03:09:51] Found tabix - /opt/snippy/binaries/linux/tabix
+[03:09:51] Found bgzip - /opt/snippy/binaries/linux/bgzip
+[03:09:51] Found snpEff - /opt/snippy/binaries/noarch/snpEff
+[03:09:51] Found java - /usr/bin/java
+[03:09:51] Found gzip - /usr/bin/gzip
+[03:09:51] Found parallel - /opt/snippy/binaries/noarch/parallel
+[03:09:51] Found freebayes - /opt/snippy/binaries/linux/freebayes
+[03:09:51] Found freebayes-parallel - /opt/snippy/binaries/noarch/freebayes-parallel
+[03:09:51] Found fasta_generate_regions.py - /opt/snippy/binaries/noarch/fasta_generate_regions.py
+[03:09:51] Found vcfstreamsort - /opt/snippy/binaries/linux/vcfstreamsort
+[03:09:51] Found vcfuniq - /opt/snippy/binaries/linux/vcfuniq
+[03:09:51] Found vcffirstheader - /opt/snippy/binaries/noarch/vcffirstheader
+[03:09:51] Found vcf-consensus - /opt/snippy/binaries/noarch/vcf-consensus
+[03:09:51] Found snippy-vcf_to_tab - /opt/snippy/bin/snippy-vcf_to_tab
+[03:09:51] Found snippy-vcf_report - /opt/snippy/bin/snippy-vcf_report
+[03:09:51] Found snippy-vcf_filter - /opt/snippy/bin/snippy-vcf_filter
+[03:09:51] Checking version: samtools --version is >= 1.3 - ok, have 1.3
+[03:09:51] Using reference: /vagrant/africanum_analysis/lab/NC000962_3.gbk
+[03:09:51] Treating reference as 'genbank' format.
+[03:09:51] Will use 4 CPU cores.
+[03:09:51] Using read file: /vagrant/africanum_analysis/lab/SAMEA1877126_1.fastq.gz
+[03:09:51] Using read file: /vagrant/africanum_analysis/lab/SAMEA1877126_2.fastq.gz
+[03:09:51] Creating folder: SAMEA1877126
+[03:09:51] Changing working directory: SAMEA1877126
+[03:09:51] Creating reference folder: reference
+[03:09:51] Extracting FASTA and GFF from reference.
+[03:10:08] Wrote 1 sequences to ref.fa
+[03:10:08] Wrote 4416 features to ref.gff
+[03:10:08] Creating reference/snpeff.config
+[03:10:08] Freebayes will process 16 chunks of 280319 bp, 4 chunks at a time.
+[03:10:08] Using BAM RG (Read Group) ID: snps
+[03:10:08] Running: samtools faidx reference/ref.fa 2>> snps.log
+[03:10:08] Running: bwa index reference/ref.fa 2>> snps.log
+[03:10:16] Running: mkdir reference/genomes && cp -f reference/ref.fa reference/genomes/ref.fa 2>> snps.log
+[03:10:16] Running: mkdir reference/ref && bgzip -c reference/ref.gff > reference/ref/genes.gff.gz 2>> snps.log
+[03:10:17] Running: snpEff build -c reference/snpeff.config -dataDir . -gff3 ref 2>> snps.log
+[03:10:25] Running: (bwa mem  -v 2 -M -R '@RG\tID:snps\tSM:snps' -t 4 reference/ref.fa /vagrant/africanum_analysis/lab/SAMEA1877126_1.fastq.gz /vagrant/africanum_analysis/lab/SAMEA1877126_2.fastq.gz | samtools sort --reference reference/ref.fa > snps.bam) 2>> snps.log
+[03:13:58] Running: samtools index snps.bam 2>> snps.log
+[03:14:04] Running: samtools depth -q 20 snps.bam | bgzip > snps.depth.gz 2>> snps.log
+[03:14:22] Running: tabix -s 1 -b 2 -e 2 snps.depth.gz 2>> snps.log
+[03:14:25] Running: fasta_generate_regions.py reference/ref.fa.fai 280319 > reference/ref.txt 2>> snps.log
+[03:14:25] Running: freebayes-parallel reference/ref.txt 4 -p 1 -q 20 -m 60 --min-coverage 10 -V -f reference/ref.fa snps.bam > snps.raw.vcf 2>> snps.log
+[03:17:14] Running: /opt/snippy/bin/snippy-vcf_filter --minqual 10 --mincov 10 --minfrac 0.9  snps.raw.vcf > snps.filt.vcf 2>> snps.log
+[03:17:15] Running: snpEff ann -no-downstream -no-upstream -no-intergenic -no-utr -c reference/snpeff.config -dataDir . -noStats ref snps.filt.vcf > snps.vcf 2>> snps.log
+[03:17:24] Running: bgzip -c snps.vcf > snps.vcf.gz 2>> snps.log
+[03:17:24] Running: tabix -p vcf snps.vcf.gz 2>> snps.log
+[03:17:24] Running: /opt/snippy/bin/snippy-vcf_to_tab --gff reference/ref.gff --ref reference/ref.fa --vcf snps.vcf > snps.tab 2>> snps.log
+[03:17:42] Running: vcf-consensus snps.vcf.gz < reference/ref.fa > snps.consensus.fa 2>> snps.log
+[03:17:46] Running: /opt/snippy/bin/snippy-vcf_filter --subs snps.filt.vcf > snps.filt.subs.vcf 2>> snps.log
+[03:17:47] Running: bgzip -c snps.filt.subs.vcf > snps.filt.subs.vcf.gz 2>> snps.log
+[03:17:47] Running: tabix -p vcf snps.filt.subs.vcf.gz 2>> snps.log
+[03:17:47] Running: vcf-consensus snps.filt.subs.vcf.gz < reference/ref.fa > snps.consensus.subs.fa 2>> snps.log
+[03:17:50] Generating aligned/masked FASTA relative to reference: snps.aligned.fa
+[03:18:14] Creating extra output files: BED GFF CSV TXT HTML
+[03:18:14] Identified 2038 variants.
+[03:18:14] Result folder: SAMEA1877126
+[03:18:14] Result files:
+[03:18:14] * SAMEA1877126/snps.aligned.fa
+[03:18:14] * SAMEA1877126/snps.bam
+[03:18:14] * SAMEA1877126/snps.bam.bai
+[03:18:14] * SAMEA1877126/snps.bed
+[03:18:14] * SAMEA1877126/snps.consensus.fa
+[03:18:14] * SAMEA1877126/snps.consensus.subs.fa
+[03:18:14] * SAMEA1877126/snps.csv
+[03:18:14] * SAMEA1877126/snps.depth.gz
+[03:18:14] * SAMEA1877126/snps.depth.gz.tbi
+[03:18:14] * SAMEA1877126/snps.filt.subs.vcf
+[03:18:14] * SAMEA1877126/snps.filt.subs.vcf.gz
+[03:18:14] * SAMEA1877126/snps.filt.subs.vcf.gz.tbi
+[03:18:14] * SAMEA1877126/snps.filt.vcf
+[03:18:14] * SAMEA1877126/snps.gff
+[03:18:14] * SAMEA1877126/snps.html
+[03:18:14] * SAMEA1877126/snps.log
+[03:18:14] * SAMEA1877126/snps.raw.vcf
+[03:18:14] * SAMEA1877126/snps.tab
+[03:18:14] * SAMEA1877126/snps.txt
+[03:18:14] * SAMEA1877126/snps.vcf
+[03:18:14] * SAMEA1877126/snps.vcf.gz
+[03:18:14] * SAMEA1877126/snps.vcf.gz.tbi
+[03:18:14] Walltime used: 8 minutes, 23 seconds
+[03:18:14] May the SNPs be with you.
+[03:18:14] Done.
+[03:18:19] This is snippy 3.2-dev
+[03:18:19] Written by Torsten Seemann <torsten.seemann@gmail.com>
+[03:18:19] Obtained from https://github.com/tseemann/snippy
+[03:18:19] Detected operating system: linux
+[03:18:19] Enabling bundled linux tools.
+[03:18:19] Found bwa - /opt/snippy/binaries/linux/bwa
+[03:18:19] Found samtools - /opt/snippy/binaries/linux/samtools
+[03:18:19] Found tabix - /opt/snippy/binaries/linux/tabix
+[03:18:19] Found bgzip - /opt/snippy/binaries/linux/bgzip
+[03:18:20] Found snpEff - /opt/snippy/binaries/noarch/snpEff
+[03:18:20] Found java - /usr/bin/java
+[03:18:20] Found gzip - /usr/bin/gzip
+[03:18:20] Found parallel - /opt/snippy/binaries/noarch/parallel
+[03:18:20] Found freebayes - /opt/snippy/binaries/linux/freebayes
+[03:18:20] Found freebayes-parallel - /opt/snippy/binaries/noarch/freebayes-parallel
+[03:18:20] Found fasta_generate_regions.py - /opt/snippy/binaries/noarch/fasta_generate_regions.py
+[03:18:20] Found vcfstreamsort - /opt/snippy/binaries/linux/vcfstreamsort
+[03:18:20] Found vcfuniq - /opt/snippy/binaries/linux/vcfuniq
+[03:18:20] Found vcffirstheader - /opt/snippy/binaries/noarch/vcffirstheader
+[03:18:20] Found vcf-consensus - /opt/snippy/binaries/noarch/vcf-consensus
+[03:18:20] Found snippy-vcf_to_tab - /opt/snippy/bin/snippy-vcf_to_tab
+[03:18:20] Found snippy-vcf_report - /opt/snippy/bin/snippy-vcf_report
+[03:18:20] Found snippy-vcf_filter - /opt/snippy/bin/snippy-vcf_filter
+[03:18:20] Checking version: samtools --version is >= 1.3 - ok, have 1.3
+[03:18:20] Using reference: /vagrant/africanum_analysis/lab/NC000962_3.gbk
+[03:18:20] Treating reference as 'genbank' format.
+[03:18:20] Will use 4 CPU cores.
+[03:18:20] Using read file: /vagrant/africanum_analysis/lab/SAMEA1877132_1.fastq.gz
+[03:18:20] Using read file: /vagrant/africanum_analysis/lab/SAMEA1877132_2.fastq.gz
+[03:18:20] Creating folder: SAMEA1877132
+[03:18:20] Changing working directory: SAMEA1877132
+[03:18:20] Creating reference folder: reference
+[03:18:20] Extracting FASTA and GFF from reference.
+[03:18:37] Wrote 1 sequences to ref.fa
+[03:18:37] Wrote 4416 features to ref.gff
+[03:18:37] Creating reference/snpeff.config
+[03:18:37] Freebayes will process 16 chunks of 280319 bp, 4 chunks at a time.
+[03:18:37] Using BAM RG (Read Group) ID: snps
+[03:18:37] Running: samtools faidx reference/ref.fa 2>> snps.log
+[03:18:37] Running: bwa index reference/ref.fa 2>> snps.log
+[03:18:45] Running: mkdir reference/genomes && cp -f reference/ref.fa reference/genomes/ref.fa 2>> snps.log
+[03:18:45] Running: mkdir reference/ref && bgzip -c reference/ref.gff > reference/ref/genes.gff.gz 2>> snps.log
+[03:18:46] Running: snpEff build -c reference/snpeff.config -dataDir . -gff3 ref 2>> snps.log
+[03:18:54] Running: (bwa mem  -v 2 -M -R '@RG\tID:snps\tSM:snps' -t 4 reference/ref.fa /vagrant/africanum_analysis/lab/SAMEA1877132_1.fastq.gz /vagrant/africanum_analysis/lab/SAMEA1877132_2.fastq.gz | samtools sort --reference reference/ref.fa > snps.bam) 2>> snps.log
+[03:34:09] Running: samtools index snps.bam 2>> snps.log
+[03:34:33] Running: samtools depth -q 20 snps.bam | bgzip > snps.depth.gz 2>> snps.log
+[03:35:49] Running: tabix -s 1 -b 2 -e 2 snps.depth.gz 2>> snps.log
+[03:35:52] Running: fasta_generate_regions.py reference/ref.fa.fai 280319 > reference/ref.txt 2>> snps.log
+[03:35:52] Running: freebayes-parallel reference/ref.txt 4 -p 1 -q 20 -m 60 --min-coverage 10 -V -f reference/ref.fa snps.bam > snps.raw.vcf 2>> snps.log
+[03:47:31] Running: /opt/snippy/bin/snippy-vcf_filter --minqual 10 --mincov 10 --minfrac 0.9  snps.raw.vcf > snps.filt.vcf 2>> snps.log
+[03:47:33] Running: snpEff ann -no-downstream -no-upstream -no-intergenic -no-utr -c reference/snpeff.config -dataDir . -noStats ref snps.filt.vcf > snps.vcf 2>> snps.log
+[03:47:42] Running: bgzip -c snps.vcf > snps.vcf.gz 2>> snps.log
+[03:47:42] Running: tabix -p vcf snps.vcf.gz 2>> snps.log
+[03:47:42] Running: /opt/snippy/bin/snippy-vcf_to_tab --gff reference/ref.gff --ref reference/ref.fa --vcf snps.vcf > snps.tab 2>> snps.log
+[03:48:01] Running: vcf-consensus snps.vcf.gz < reference/ref.fa > snps.consensus.fa 2>> snps.log
+[03:48:04] Running: /opt/snippy/bin/snippy-vcf_filter --subs snps.filt.vcf > snps.filt.subs.vcf 2>> snps.log
+[03:48:05] Running: bgzip -c snps.filt.subs.vcf > snps.filt.subs.vcf.gz 2>> snps.log
+[03:48:05] Running: tabix -p vcf snps.filt.subs.vcf.gz 2>> snps.log
+[03:48:05] Running: vcf-consensus snps.filt.subs.vcf.gz < reference/ref.fa > snps.consensus.subs.fa 2>> snps.log
+[03:48:09] Generating aligned/masked FASTA relative to reference: snps.aligned.fa
+[03:48:33] Creating extra output files: BED GFF CSV TXT HTML
+[03:48:34] Identified 2160 variants.
+[03:48:34] Result folder: SAMEA1877132
+[03:48:34] Result files:
+[03:48:34] * SAMEA1877132/snps.aligned.fa
+[03:48:34] * SAMEA1877132/snps.bam
+[03:48:34] * SAMEA1877132/snps.bam.bai
+[03:48:34] * SAMEA1877132/snps.bed
+[03:48:34] * SAMEA1877132/snps.consensus.fa
+[03:48:34] * SAMEA1877132/snps.consensus.subs.fa
+[03:48:34] * SAMEA1877132/snps.csv
+[03:48:34] * SAMEA1877132/snps.depth.gz
+[03:48:34] * SAMEA1877132/snps.depth.gz.tbi
+[03:48:34] * SAMEA1877132/snps.filt.subs.vcf
+[03:48:34] * SAMEA1877132/snps.filt.subs.vcf.gz
+[03:48:34] * SAMEA1877132/snps.filt.subs.vcf.gz.tbi
+[03:48:34] * SAMEA1877132/snps.filt.vcf
+[03:48:34] * SAMEA1877132/snps.gff
+[03:48:34] * SAMEA1877132/snps.html
+[03:48:34] * SAMEA1877132/snps.log
+[03:48:34] * SAMEA1877132/snps.raw.vcf
+[03:48:34] * SAMEA1877132/snps.tab
+[03:48:34] * SAMEA1877132/snps.txt
+[03:48:34] * SAMEA1877132/snps.vcf
+[03:48:34] * SAMEA1877132/snps.vcf.gz
+[03:48:34] * SAMEA1877132/snps.vcf.gz.tbi
+[03:48:34] Walltime used: 30 minutes, 15 seconds
+[03:48:34] Questionable SNP? Try the --report option to see the alignments.
+[03:48:34] Done.
+[03:48:39] This is snippy 3.2-dev
+[03:48:39] Written by Torsten Seemann <torsten.seemann@gmail.com>
+[03:48:39] Obtained from https://github.com/tseemann/snippy
+[03:48:39] Detected operating system: linux
+[03:48:39] Enabling bundled linux tools.
+[03:48:39] Found bwa - /opt/snippy/binaries/linux/bwa
+[03:48:39] Found samtools - /opt/snippy/binaries/linux/samtools
+[03:48:39] Found tabix - /opt/snippy/binaries/linux/tabix
+[03:48:39] Found bgzip - /opt/snippy/binaries/linux/bgzip
+[03:48:39] Found snpEff - /opt/snippy/binaries/noarch/snpEff
+[03:48:39] Found java - /usr/bin/java
+[03:48:39] Found gzip - /usr/bin/gzip
+[03:48:39] Found parallel - /opt/snippy/binaries/noarch/parallel
+[03:48:39] Found freebayes - /opt/snippy/binaries/linux/freebayes
+[03:48:39] Found freebayes-parallel - /opt/snippy/binaries/noarch/freebayes-parallel
+[03:48:39] Found fasta_generate_regions.py - /opt/snippy/binaries/noarch/fasta_generate_regions.py
+[03:48:39] Found vcfstreamsort - /opt/snippy/binaries/linux/vcfstreamsort
+[03:48:39] Found vcfuniq - /opt/snippy/binaries/linux/vcfuniq
+[03:48:39] Found vcffirstheader - /opt/snippy/binaries/noarch/vcffirstheader
+[03:48:39] Found vcf-consensus - /opt/snippy/binaries/noarch/vcf-consensus
+[03:48:39] Found snippy-vcf_to_tab - /opt/snippy/bin/snippy-vcf_to_tab
+[03:48:39] Found snippy-vcf_report - /opt/snippy/bin/snippy-vcf_report
+[03:48:39] Found snippy-vcf_filter - /opt/snippy/bin/snippy-vcf_filter
+[03:48:39] Checking version: samtools --version is >= 1.3 - ok, have 1.3
+[03:48:39] Using reference: /vagrant/africanum_analysis/lab/NC000962_3.gbk
+[03:48:39] Treating reference as 'genbank' format.
+[03:48:39] Will use 4 CPU cores.
+[03:48:39] Using read file: /vagrant/africanum_analysis/lab/SAMEA1877136_1.fastq.gz
+[03:48:39] Using read file: /vagrant/africanum_analysis/lab/SAMEA1877136_2.fastq.gz
+[03:48:39] Creating folder: SAMEA1877136
+[03:48:39] Changing working directory: SAMEA1877136
+[03:48:39] Creating reference folder: reference
+[03:48:39] Extracting FASTA and GFF from reference.
+[03:48:56] Wrote 1 sequences to ref.fa
+[03:48:56] Wrote 4416 features to ref.gff
+[03:48:56] Creating reference/snpeff.config
+[03:48:56] Freebayes will process 16 chunks of 280319 bp, 4 chunks at a time.
+[03:48:56] Using BAM RG (Read Group) ID: snps
+[03:48:56] Running: samtools faidx reference/ref.fa 2>> snps.log
+[03:48:56] Running: bwa index reference/ref.fa 2>> snps.log
+[03:49:04] Running: mkdir reference/genomes && cp -f reference/ref.fa reference/genomes/ref.fa 2>> snps.log
+[03:49:04] Running: mkdir reference/ref && bgzip -c reference/ref.gff > reference/ref/genes.gff.gz 2>> snps.log
+[03:49:04] Running: snpEff build -c reference/snpeff.config -dataDir . -gff3 ref 2>> snps.log
+[03:49:14] Running: (bwa mem  -v 2 -M -R '@RG\tID:snps\tSM:snps' -t 4 reference/ref.fa /vagrant/africanum_analysis/lab/SAMEA1877136_1.fastq.gz /vagrant/africanum_analysis/lab/SAMEA1877136_2.fastq.gz | samtools sort --reference reference/ref.fa > snps.bam) 2>> snps.log
+[04:06:23] Running: samtools index snps.bam 2>> snps.log
+[04:06:50] Running: samtools depth -q 20 snps.bam | bgzip > snps.depth.gz 2>> snps.log
+[04:08:24] Running: tabix -s 1 -b 2 -e 2 snps.depth.gz 2>> snps.log
+[04:08:26] Running: fasta_generate_regions.py reference/ref.fa.fai 280319 > reference/ref.txt 2>> snps.log
+[04:08:27] Running: freebayes-parallel reference/ref.txt 4 -p 1 -q 20 -m 60 --min-coverage 10 -V -f reference/ref.fa snps.bam > snps.raw.vcf 2>> snps.log
+[04:21:44] Running: /opt/snippy/bin/snippy-vcf_filter --minqual 10 --mincov 10 --minfrac 0.9  snps.raw.vcf > snps.filt.vcf 2>> snps.log
+[04:21:45] Running: snpEff ann -no-downstream -no-upstream -no-intergenic -no-utr -c reference/snpeff.config -dataDir . -noStats ref snps.filt.vcf > snps.vcf 2>> snps.log
+[04:21:54] Running: bgzip -c snps.vcf > snps.vcf.gz 2>> snps.log
+[04:21:54] Running: tabix -p vcf snps.vcf.gz 2>> snps.log
+[04:21:54] Running: /opt/snippy/bin/snippy-vcf_to_tab --gff reference/ref.gff --ref reference/ref.fa --vcf snps.vcf > snps.tab 2>> snps.log
+[04:22:12] Running: vcf-consensus snps.vcf.gz < reference/ref.fa > snps.consensus.fa 2>> snps.log
+[04:22:16] Running: /opt/snippy/bin/snippy-vcf_filter --subs snps.filt.vcf > snps.filt.subs.vcf 2>> snps.log
+[04:22:17] Running: bgzip -c snps.filt.subs.vcf > snps.filt.subs.vcf.gz 2>> snps.log
+[04:22:17] Running: tabix -p vcf snps.filt.subs.vcf.gz 2>> snps.log
+[04:22:17] Running: vcf-consensus snps.filt.subs.vcf.gz < reference/ref.fa > snps.consensus.subs.fa 2>> snps.log
+[04:22:20] Generating aligned/masked FASTA relative to reference: snps.aligned.fa
+[04:22:46] Creating extra output files: BED GFF CSV TXT HTML
+[04:22:46] Identified 2189 variants.
+[04:22:46] Result folder: SAMEA1877136
+[04:22:46] Result files:
+[04:22:46] * SAMEA1877136/snps.aligned.fa
+[04:22:46] * SAMEA1877136/snps.bam
+[04:22:46] * SAMEA1877136/snps.bam.bai
+[04:22:46] * SAMEA1877136/snps.bed
+[04:22:46] * SAMEA1877136/snps.consensus.fa
+[04:22:46] * SAMEA1877136/snps.consensus.subs.fa
+[04:22:46] * SAMEA1877136/snps.csv
+[04:22:46] * SAMEA1877136/snps.depth.gz
+[04:22:46] * SAMEA1877136/snps.depth.gz.tbi
+[04:22:46] * SAMEA1877136/snps.filt.subs.vcf
+[04:22:46] * SAMEA1877136/snps.filt.subs.vcf.gz
+[04:22:46] * SAMEA1877136/snps.filt.subs.vcf.gz.tbi
+[04:22:46] * SAMEA1877136/snps.filt.vcf
+[04:22:46] * SAMEA1877136/snps.gff
+[04:22:46] * SAMEA1877136/snps.html
+[04:22:46] * SAMEA1877136/snps.log
+[04:22:46] * SAMEA1877136/snps.raw.vcf
+[04:22:46] * SAMEA1877136/snps.tab
+[04:22:46] * SAMEA1877136/snps.txt
+[04:22:46] * SAMEA1877136/snps.vcf
+[04:22:46] * SAMEA1877136/snps.vcf.gz
+[04:22:46] * SAMEA1877136/snps.vcf.gz.tbi
+[04:22:46] Walltime used: 34 minutes, 7 seconds
+[04:22:46] May the SNPs be with you.
+[04:22:46] Done.
+[04:22:52] This is snippy 3.2-dev
+[04:22:52] Written by Torsten Seemann <torsten.seemann@gmail.com>
+[04:22:52] Obtained from https://github.com/tseemann/snippy
+[04:22:52] Detected operating system: linux
+[04:22:52] Enabling bundled linux tools.
+[04:22:52] Found bwa - /opt/snippy/binaries/linux/bwa
+[04:22:52] Found samtools - /opt/snippy/binaries/linux/samtools
+[04:22:52] Found tabix - /opt/snippy/binaries/linux/tabix
+[04:22:52] Found bgzip - /opt/snippy/binaries/linux/bgzip
+[04:22:52] Found snpEff - /opt/snippy/binaries/noarch/snpEff
+[04:22:52] Found java - /usr/bin/java
+[04:22:52] Found gzip - /usr/bin/gzip
+[04:22:52] Found parallel - /opt/snippy/binaries/noarch/parallel
+[04:22:52] Found freebayes - /opt/snippy/binaries/linux/freebayes
+[04:22:52] Found freebayes-parallel - /opt/snippy/binaries/noarch/freebayes-parallel
+[04:22:52] Found fasta_generate_regions.py - /opt/snippy/binaries/noarch/fasta_generate_regions.py
+[04:22:52] Found vcfstreamsort - /opt/snippy/binaries/linux/vcfstreamsort
+[04:22:52] Found vcfuniq - /opt/snippy/binaries/linux/vcfuniq
+[04:22:52] Found vcffirstheader - /opt/snippy/binaries/noarch/vcffirstheader
+[04:22:52] Found vcf-consensus - /opt/snippy/binaries/noarch/vcf-consensus
+[04:22:52] Found snippy-vcf_to_tab - /opt/snippy/bin/snippy-vcf_to_tab
+[04:22:52] Found snippy-vcf_report - /opt/snippy/bin/snippy-vcf_report
+[04:22:52] Found snippy-vcf_filter - /opt/snippy/bin/snippy-vcf_filter
+[04:22:52] Checking version: samtools --version is >= 1.3 - ok, have 1.3
+[04:22:52] Using reference: /vagrant/africanum_analysis/lab/NC000962_3.gbk
+[04:22:52] Treating reference as 'genbank' format.
+[04:22:52] Will use 4 CPU cores.
+[04:22:52] Using read file: /vagrant/africanum_analysis/lab/SAMEA1877139_1.fastq.gz
+[04:22:52] Using read file: /vagrant/africanum_analysis/lab/SAMEA1877139_2.fastq.gz
+[04:22:52] Creating folder: SAMEA1877139
+[04:22:52] Changing working directory: SAMEA1877139
+[04:22:52] Creating reference folder: reference
+[04:22:52] Extracting FASTA and GFF from reference.
+[04:23:09] Wrote 1 sequences to ref.fa
+[04:23:09] Wrote 4416 features to ref.gff
+[04:23:09] Creating reference/snpeff.config
+[04:23:09] Freebayes will process 16 chunks of 280319 bp, 4 chunks at a time.
+[04:23:09] Using BAM RG (Read Group) ID: snps
+[04:23:09] Running: samtools faidx reference/ref.fa 2>> snps.log
+[04:23:09] Running: bwa index reference/ref.fa 2>> snps.log
+[04:23:17] Running: mkdir reference/genomes && cp -f reference/ref.fa reference/genomes/ref.fa 2>> snps.log
+[04:23:17] Running: mkdir reference/ref && bgzip -c reference/ref.gff > reference/ref/genes.gff.gz 2>> snps.log
+[04:23:17] Running: snpEff build -c reference/snpeff.config -dataDir . -gff3 ref 2>> snps.log
+[04:23:27] Running: (bwa mem  -v 2 -M -R '@RG\tID:snps\tSM:snps' -t 4 reference/ref.fa /vagrant/africanum_analysis/lab/SAMEA1877139_1.fastq.gz /vagrant/africanum_analysis/lab/SAMEA1877139_2.fastq.gz | samtools sort --reference reference/ref.fa > snps.bam) 2>> snps.log
+[04:39:02] Running: samtools index snps.bam 2>> snps.log
+[04:39:27] Running: samtools depth -q 20 snps.bam | bgzip > snps.depth.gz 2>> snps.log
+[04:40:45] Running: tabix -s 1 -b 2 -e 2 snps.depth.gz 2>> snps.log
+[04:40:48] Running: fasta_generate_regions.py reference/ref.fa.fai 280319 > reference/ref.txt 2>> snps.log
+[04:40:48] Running: freebayes-parallel reference/ref.txt 4 -p 1 -q 20 -m 60 --min-coverage 10 -V -f reference/ref.fa snps.bam > snps.raw.vcf 2>> snps.log
+[04:52:47] Running: /opt/snippy/bin/snippy-vcf_filter --minqual 10 --mincov 10 --minfrac 0.9  snps.raw.vcf > snps.filt.vcf 2>> snps.log
+[04:52:49] Running: snpEff ann -no-downstream -no-upstream -no-intergenic -no-utr -c reference/snpeff.config -dataDir . -noStats ref snps.filt.vcf > snps.vcf 2>> snps.log
+[04:52:57] Running: bgzip -c snps.vcf > snps.vcf.gz 2>> snps.log
+[04:52:58] Running: tabix -p vcf snps.vcf.gz 2>> snps.log
+[04:52:58] Running: /opt/snippy/bin/snippy-vcf_to_tab --gff reference/ref.gff --ref reference/ref.fa --vcf snps.vcf > snps.tab 2>> snps.log
+[04:53:16] Running: vcf-consensus snps.vcf.gz < reference/ref.fa > snps.consensus.fa 2>> snps.log
+[04:53:20] Running: /opt/snippy/bin/snippy-vcf_filter --subs snps.filt.vcf > snps.filt.subs.vcf 2>> snps.log
+[04:53:21] Running: bgzip -c snps.filt.subs.vcf > snps.filt.subs.vcf.gz 2>> snps.log
+[04:53:21] Running: tabix -p vcf snps.filt.subs.vcf.gz 2>> snps.log
+[04:53:21] Running: vcf-consensus snps.filt.subs.vcf.gz < reference/ref.fa > snps.consensus.subs.fa 2>> snps.log
+[04:53:24] Generating aligned/masked FASTA relative to reference: snps.aligned.fa
+[04:53:48] Creating extra output files: BED GFF CSV TXT HTML
+[04:53:49] Identified 2197 variants.
+[04:53:49] Result folder: SAMEA1877139
+[04:53:49] Result files:
+[04:53:49] * SAMEA1877139/snps.aligned.fa
+[04:53:49] * SAMEA1877139/snps.bam
+[04:53:49] * SAMEA1877139/snps.bam.bai
+[04:53:49] * SAMEA1877139/snps.bed
+[04:53:49] * SAMEA1877139/snps.consensus.fa
+[04:53:49] * SAMEA1877139/snps.consensus.subs.fa
+[04:53:49] * SAMEA1877139/snps.csv
+[04:53:49] * SAMEA1877139/snps.depth.gz
+[04:53:49] * SAMEA1877139/snps.depth.gz.tbi
+[04:53:49] * SAMEA1877139/snps.filt.subs.vcf
+[04:53:49] * SAMEA1877139/snps.filt.subs.vcf.gz
+[04:53:49] * SAMEA1877139/snps.filt.subs.vcf.gz.tbi
+[04:53:49] * SAMEA1877139/snps.filt.vcf
+[04:53:49] * SAMEA1877139/snps.gff
+[04:53:49] * SAMEA1877139/snps.html
+[04:53:49] * SAMEA1877139/snps.log
+[04:53:49] * SAMEA1877139/snps.raw.vcf
+[04:53:49] * SAMEA1877139/snps.tab
+[04:53:49] * SAMEA1877139/snps.txt
+[04:53:49] * SAMEA1877139/snps.vcf
+[04:53:49] * SAMEA1877139/snps.vcf.gz
+[04:53:49] * SAMEA1877139/snps.vcf.gz.tbi
+[04:53:49] Walltime used: 30 minutes, 57 seconds
+[04:53:49] Found a bug? Post it at https://github.com/tseemann/snippy/issues
+[04:53:49] Done.
+[04:53:54] This is snippy 3.2-dev
+[04:53:54] Written by Torsten Seemann <torsten.seemann@gmail.com>
+[04:53:54] Obtained from https://github.com/tseemann/snippy
+[04:53:54] Detected operating system: linux
+[04:53:54] Enabling bundled linux tools.
+[04:53:54] Found bwa - /opt/snippy/binaries/linux/bwa
+[04:53:54] Found samtools - /opt/snippy/binaries/linux/samtools
+[04:53:54] Found tabix - /opt/snippy/binaries/linux/tabix
+[04:53:54] Found bgzip - /opt/snippy/binaries/linux/bgzip
+[04:53:54] Found snpEff - /opt/snippy/binaries/noarch/snpEff
+[04:53:54] Found java - /usr/bin/java
+[04:53:54] Found gzip - /usr/bin/gzip
+[04:53:54] Found parallel - /opt/snippy/binaries/noarch/parallel
+[04:53:54] Found freebayes - /opt/snippy/binaries/linux/freebayes
+[04:53:54] Found freebayes-parallel - /opt/snippy/binaries/noarch/freebayes-parallel
+[04:53:54] Found fasta_generate_regions.py - /opt/snippy/binaries/noarch/fasta_generate_regions.py
+[04:53:54] Found vcfstreamsort - /opt/snippy/binaries/linux/vcfstreamsort
+[04:53:54] Found vcfuniq - /opt/snippy/binaries/linux/vcfuniq
+[04:53:54] Found vcffirstheader - /opt/snippy/binaries/noarch/vcffirstheader
+[04:53:54] Found vcf-consensus - /opt/snippy/binaries/noarch/vcf-consensus
+[04:53:54] Found snippy-vcf_to_tab - /opt/snippy/bin/snippy-vcf_to_tab
+[04:53:54] Found snippy-vcf_report - /opt/snippy/bin/snippy-vcf_report
+[04:53:54] Found snippy-vcf_filter - /opt/snippy/bin/snippy-vcf_filter
+[04:53:54] Checking version: samtools --version is >= 1.3 - ok, have 1.3
+[04:53:54] Using reference: /vagrant/africanum_analysis/lab/NC000962_3.gbk
+[04:53:54] Treating reference as 'genbank' format.
+[04:53:54] Will use 4 CPU cores.
+[04:53:54] Using read file: /vagrant/africanum_analysis/lab/SAMEA1877142_1.fastq.gz
+[04:53:54] Using read file: /vagrant/africanum_analysis/lab/SAMEA1877142_2.fastq.gz
+[04:53:54] Creating folder: SAMEA1877142
+[04:53:54] Changing working directory: SAMEA1877142
+[04:53:54] Creating reference folder: reference
+[04:53:54] Extracting FASTA and GFF from reference.
+[04:54:11] Wrote 1 sequences to ref.fa
+[04:54:11] Wrote 4416 features to ref.gff
+[04:54:11] Creating reference/snpeff.config
+[04:54:11] Freebayes will process 16 chunks of 280319 bp, 4 chunks at a time.
+[04:54:11] Using BAM RG (Read Group) ID: snps
+[04:54:11] Running: samtools faidx reference/ref.fa 2>> snps.log
+[04:54:11] Running: bwa index reference/ref.fa 2>> snps.log
+[04:54:19] Running: mkdir reference/genomes && cp -f reference/ref.fa reference/genomes/ref.fa 2>> snps.log
+[04:54:19] Running: mkdir reference/ref && bgzip -c reference/ref.gff > reference/ref/genes.gff.gz 2>> snps.log
+[04:54:20] Running: snpEff build -c reference/snpeff.config -dataDir . -gff3 ref 2>> snps.log
+[04:54:29] Running: (bwa mem  -v 2 -M -R '@RG\tID:snps\tSM:snps' -t 4 reference/ref.fa /vagrant/africanum_analysis/lab/SAMEA1877142_1.fastq.gz /vagrant/africanum_analysis/lab/SAMEA1877142_2.fastq.gz | samtools sort --reference reference/ref.fa > snps.bam) 2>> snps.log
+[04:59:08] Running: samtools index snps.bam 2>> snps.log
+[04:59:16] Running: samtools depth -q 20 snps.bam | bgzip > snps.depth.gz 2>> snps.log
+[04:59:41] Running: tabix -s 1 -b 2 -e 2 snps.depth.gz 2>> snps.log
+[04:59:43] Running: fasta_generate_regions.py reference/ref.fa.fai 280319 > reference/ref.txt 2>> snps.log
+[04:59:43] Running: freebayes-parallel reference/ref.txt 4 -p 1 -q 20 -m 60 --min-coverage 10 -V -f reference/ref.fa snps.bam > snps.raw.vcf 2>> snps.log
+[05:03:40] Running: /opt/snippy/bin/snippy-vcf_filter --minqual 10 --mincov 10 --minfrac 0.9  snps.raw.vcf > snps.filt.vcf 2>> snps.log
+[05:03:41] Running: snpEff ann -no-downstream -no-upstream -no-intergenic -no-utr -c reference/snpeff.config -dataDir . -noStats ref snps.filt.vcf > snps.vcf 2>> snps.log
+[05:03:49] Running: bgzip -c snps.vcf > snps.vcf.gz 2>> snps.log
+[05:03:49] Running: tabix -p vcf snps.vcf.gz 2>> snps.log
+[05:03:49] Running: /opt/snippy/bin/snippy-vcf_to_tab --gff reference/ref.gff --ref reference/ref.fa --vcf snps.vcf > snps.tab 2>> snps.log
+[05:04:08] Running: vcf-consensus snps.vcf.gz < reference/ref.fa > snps.consensus.fa 2>> snps.log
+[05:04:11] Running: /opt/snippy/bin/snippy-vcf_filter --subs snps.filt.vcf > snps.filt.subs.vcf 2>> snps.log
+[05:04:13] Running: bgzip -c snps.filt.subs.vcf > snps.filt.subs.vcf.gz 2>> snps.log
+[05:04:13] Running: tabix -p vcf snps.filt.subs.vcf.gz 2>> snps.log
+[05:04:13] Running: vcf-consensus snps.filt.subs.vcf.gz < reference/ref.fa > snps.consensus.subs.fa 2>> snps.log
+[05:04:16] Generating aligned/masked FASTA relative to reference: snps.aligned.fa
+[05:04:41] Creating extra output files: BED GFF CSV TXT HTML
+[05:04:41] Identified 2231 variants.
+[05:04:41] Result folder: SAMEA1877142
+[05:04:41] Result files:
+[05:04:41] * SAMEA1877142/snps.aligned.fa
+[05:04:41] * SAMEA1877142/snps.bam
+[05:04:41] * SAMEA1877142/snps.bam.bai
+[05:04:41] * SAMEA1877142/snps.bed
+[05:04:41] * SAMEA1877142/snps.consensus.fa
+[05:04:41] * SAMEA1877142/snps.consensus.subs.fa
+[05:04:41] * SAMEA1877142/snps.csv
+[05:04:41] * SAMEA1877142/snps.depth.gz
+[05:04:41] * SAMEA1877142/snps.depth.gz.tbi
+[05:04:41] * SAMEA1877142/snps.filt.subs.vcf
+[05:04:41] * SAMEA1877142/snps.filt.subs.vcf.gz
+[05:04:41] * SAMEA1877142/snps.filt.subs.vcf.gz.tbi
+[05:04:41] * SAMEA1877142/snps.filt.vcf
+[05:04:41] * SAMEA1877142/snps.gff
+[05:04:41] * SAMEA1877142/snps.html
+[05:04:41] * SAMEA1877142/snps.log
+[05:04:41] * SAMEA1877142/snps.raw.vcf
+[05:04:41] * SAMEA1877142/snps.tab
+[05:04:41] * SAMEA1877142/snps.txt
+[05:04:41] * SAMEA1877142/snps.vcf
+[05:04:41] * SAMEA1877142/snps.vcf.gz
+[05:04:41] * SAMEA1877142/snps.vcf.gz.tbi
+[05:04:41] Walltime used: 10 minutes, 47 seconds
+[05:04:41] The Snippy manual is at https://github.com/tseemann/snippy/blob/master/README.md
+[05:04:41] Done.
+[05:04:46] This is snippy 3.2-dev
+[05:04:46] Written by Torsten Seemann <torsten.seemann@gmail.com>
+[05:04:46] Obtained from https://github.com/tseemann/snippy
+[05:04:46] Detected operating system: linux
+[05:04:46] Enabling bundled linux tools.
+[05:04:46] Found bwa - /opt/snippy/binaries/linux/bwa
+[05:04:46] Found samtools - /opt/snippy/binaries/linux/samtools
+[05:04:46] Found tabix - /opt/snippy/binaries/linux/tabix
+[05:04:46] Found bgzip - /opt/snippy/binaries/linux/bgzip
+[05:04:46] Found snpEff - /opt/snippy/binaries/noarch/snpEff
+[05:04:46] Found java - /usr/bin/java
+[05:04:46] Found gzip - /usr/bin/gzip
+[05:04:46] Found parallel - /opt/snippy/binaries/noarch/parallel
+[05:04:46] Found freebayes - /opt/snippy/binaries/linux/freebayes
+[05:04:46] Found freebayes-parallel - /opt/snippy/binaries/noarch/freebayes-parallel
+[05:04:46] Found fasta_generate_regions.py - /opt/snippy/binaries/noarch/fasta_generate_regions.py
+[05:04:46] Found vcfstreamsort - /opt/snippy/binaries/linux/vcfstreamsort
+[05:04:46] Found vcfuniq - /opt/snippy/binaries/linux/vcfuniq
+[05:04:46] Found vcffirstheader - /opt/snippy/binaries/noarch/vcffirstheader
+[05:04:46] Found vcf-consensus - /opt/snippy/binaries/noarch/vcf-consensus
+[05:04:46] Found snippy-vcf_to_tab - /opt/snippy/bin/snippy-vcf_to_tab
+[05:04:46] Found snippy-vcf_report - /opt/snippy/bin/snippy-vcf_report
+[05:04:46] Found snippy-vcf_filter - /opt/snippy/bin/snippy-vcf_filter
+[05:04:46] Checking version: samtools --version is >= 1.3 - ok, have 1.3
+[05:04:46] Using reference: /vagrant/africanum_analysis/lab/NC000962_3.gbk
+[05:04:46] Treating reference as 'genbank' format.
+[05:04:46] Will use 4 CPU cores.
+[05:04:46] Using read file: /vagrant/africanum_analysis/lab/SAMEA1877150_1.fastq.gz
+[05:04:46] Using read file: /vagrant/africanum_analysis/lab/SAMEA1877150_2.fastq.gz
+[05:04:46] Creating folder: SAMEA1877150
+[05:04:46] Changing working directory: SAMEA1877150
+[05:04:46] Creating reference folder: reference
+[05:04:46] Extracting FASTA and GFF from reference.
+[05:05:03] Wrote 1 sequences to ref.fa
+[05:05:03] Wrote 4416 features to ref.gff
+[05:05:03] Creating reference/snpeff.config
+[05:05:03] Freebayes will process 16 chunks of 280319 bp, 4 chunks at a time.
+[05:05:03] Using BAM RG (Read Group) ID: snps
+[05:05:03] Running: samtools faidx reference/ref.fa 2>> snps.log
+[05:05:03] Running: bwa index reference/ref.fa 2>> snps.log
+[05:05:11] Running: mkdir reference/genomes && cp -f reference/ref.fa reference/genomes/ref.fa 2>> snps.log
+[05:05:11] Running: mkdir reference/ref && bgzip -c reference/ref.gff > reference/ref/genes.gff.gz 2>> snps.log
+[05:05:11] Running: snpEff build -c reference/snpeff.config -dataDir . -gff3 ref 2>> snps.log
+[05:05:20] Running: (bwa mem  -v 2 -M -R '@RG\tID:snps\tSM:snps' -t 4 reference/ref.fa /vagrant/africanum_analysis/lab/SAMEA1877150_1.fastq.gz /vagrant/africanum_analysis/lab/SAMEA1877150_2.fastq.gz | samtools sort --reference reference/ref.fa > snps.bam) 2>> snps.log
+[05:23:17] Running: samtools index snps.bam 2>> snps.log
+[05:23:50] Running: samtools depth -q 20 snps.bam | bgzip > snps.depth.gz 2>> snps.log
+[05:25:43] Running: tabix -s 1 -b 2 -e 2 snps.depth.gz 2>> snps.log
+[05:25:45] Running: fasta_generate_regions.py reference/ref.fa.fai 280319 > reference/ref.txt 2>> snps.log
+[05:25:46] Running: freebayes-parallel reference/ref.txt 4 -p 1 -q 20 -m 60 --min-coverage 10 -V -f reference/ref.fa snps.bam > snps.raw.vcf 2>> snps.log
+[05:40:10] Running: /opt/snippy/bin/snippy-vcf_filter --minqual 10 --mincov 10 --minfrac 0.9  snps.raw.vcf > snps.filt.vcf 2>> snps.log
+[05:40:11] Running: snpEff ann -no-downstream -no-upstream -no-intergenic -no-utr -c reference/snpeff.config -dataDir . -noStats ref snps.filt.vcf > snps.vcf 2>> snps.log
+[05:40:20] Running: bgzip -c snps.vcf > snps.vcf.gz 2>> snps.log
+[05:40:20] Running: tabix -p vcf snps.vcf.gz 2>> snps.log
+[05:40:20] Running: /opt/snippy/bin/snippy-vcf_to_tab --gff reference/ref.gff --ref reference/ref.fa --vcf snps.vcf > snps.tab 2>> snps.log
+[05:40:39] Running: vcf-consensus snps.vcf.gz < reference/ref.fa > snps.consensus.fa 2>> snps.log
+[05:40:42] Running: /opt/snippy/bin/snippy-vcf_filter --subs snps.filt.vcf > snps.filt.subs.vcf 2>> snps.log
+[05:40:43] Running: bgzip -c snps.filt.subs.vcf > snps.filt.subs.vcf.gz 2>> snps.log
+[05:40:43] Running: tabix -p vcf snps.filt.subs.vcf.gz 2>> snps.log
+[05:40:43] Running: vcf-consensus snps.filt.subs.vcf.gz < reference/ref.fa > snps.consensus.subs.fa 2>> snps.log
+[05:40:47] Generating aligned/masked FASTA relative to reference: snps.aligned.fa
+[05:41:10] Creating extra output files: BED GFF CSV TXT HTML
+[05:41:11] Identified 2221 variants.
+[05:41:11] Result folder: SAMEA1877150
+[05:41:11] Result files:
+[05:41:11] * SAMEA1877150/snps.aligned.fa
+[05:41:11] * SAMEA1877150/snps.bam
+[05:41:11] * SAMEA1877150/snps.bam.bai
+[05:41:11] * SAMEA1877150/snps.bed
+[05:41:11] * SAMEA1877150/snps.consensus.fa
+[05:41:11] * SAMEA1877150/snps.consensus.subs.fa
+[05:41:11] * SAMEA1877150/snps.csv
+[05:41:11] * SAMEA1877150/snps.depth.gz
+[05:41:11] * SAMEA1877150/snps.depth.gz.tbi
+[05:41:11] * SAMEA1877150/snps.filt.subs.vcf
+[05:41:11] * SAMEA1877150/snps.filt.subs.vcf.gz
+[05:41:11] * SAMEA1877150/snps.filt.subs.vcf.gz.tbi
+[05:41:11] * SAMEA1877150/snps.filt.vcf
+[05:41:11] * SAMEA1877150/snps.gff
+[05:41:11] * SAMEA1877150/snps.html
+[05:41:11] * SAMEA1877150/snps.log
+[05:41:11] * SAMEA1877150/snps.raw.vcf
+[05:41:11] * SAMEA1877150/snps.tab
+[05:41:11] * SAMEA1877150/snps.txt
+[05:41:11] * SAMEA1877150/snps.vcf
+[05:41:11] * SAMEA1877150/snps.vcf.gz
+[05:41:11] * SAMEA1877150/snps.vcf.gz.tbi
+[05:41:11] Walltime used: 36 minutes, 25 seconds
+[05:41:11] Have a suggestion? Tell me at https://github.com/tseemann/snippy/issues
+[05:41:11] Done.
+[05:41:16] This is snippy 3.2-dev
+[05:41:16] Written by Torsten Seemann <torsten.seemann@gmail.com>
+[05:41:16] Obtained from https://github.com/tseemann/snippy
+[05:41:16] Detected operating system: linux
+[05:41:16] Enabling bundled linux tools.
+[05:41:16] Found bwa - /opt/snippy/binaries/linux/bwa
+[05:41:16] Found samtools - /opt/snippy/binaries/linux/samtools
+[05:41:16] Found tabix - /opt/snippy/binaries/linux/tabix
+[05:41:16] Found bgzip - /opt/snippy/binaries/linux/bgzip
+[05:41:16] Found snpEff - /opt/snippy/binaries/noarch/snpEff
+[05:41:16] Found java - /usr/bin/java
+[05:41:16] Found gzip - /usr/bin/gzip
+[05:41:16] Found parallel - /opt/snippy/binaries/noarch/parallel
+[05:41:16] Found freebayes - /opt/snippy/binaries/linux/freebayes
+[05:41:16] Found freebayes-parallel - /opt/snippy/binaries/noarch/freebayes-parallel
+[05:41:16] Found fasta_generate_regions.py - /opt/snippy/binaries/noarch/fasta_generate_regions.py
+[05:41:16] Found vcfstreamsort - /opt/snippy/binaries/linux/vcfstreamsort
+[05:41:16] Found vcfuniq - /opt/snippy/binaries/linux/vcfuniq
+[05:41:16] Found vcffirstheader - /opt/snippy/binaries/noarch/vcffirstheader
+[05:41:16] Found vcf-consensus - /opt/snippy/binaries/noarch/vcf-consensus
+[05:41:16] Found snippy-vcf_to_tab - /opt/snippy/bin/snippy-vcf_to_tab
+[05:41:16] Found snippy-vcf_report - /opt/snippy/bin/snippy-vcf_report
+[05:41:16] Found snippy-vcf_filter - /opt/snippy/bin/snippy-vcf_filter
+[05:41:16] Checking version: samtools --version is >= 1.3 - ok, have 1.3
+[05:41:16] Using reference: /vagrant/africanum_analysis/lab/NC000962_3.gbk
+[05:41:17] Treating reference as 'genbank' format.
+[05:41:17] Will use 4 CPU cores.
+[05:41:17] Using read file: /vagrant/africanum_analysis/lab/SAMEA1877150_L6_1.fastq.gz
+[05:41:17] Using read file: /vagrant/africanum_analysis/lab/SAMEA1877150_L6_2.fastq.gz
+[05:41:17] Creating folder: SAMEA1877150_L6
+[05:41:17] Changing working directory: SAMEA1877150_L6
+[05:41:17] Creating reference folder: reference
+[05:41:17] Extracting FASTA and GFF from reference.
+[05:41:33] Wrote 1 sequences to ref.fa
+[05:41:33] Wrote 4416 features to ref.gff
+[05:41:33] Creating reference/snpeff.config
+[05:41:33] Freebayes will process 16 chunks of 280319 bp, 4 chunks at a time.
+[05:41:33] Using BAM RG (Read Group) ID: snps
+[05:41:33] Running: samtools faidx reference/ref.fa 2>> snps.log
+[05:41:33] Running: bwa index reference/ref.fa 2>> snps.log
+[05:41:41] Running: mkdir reference/genomes && cp -f reference/ref.fa reference/genomes/ref.fa 2>> snps.log
+[05:41:41] Running: mkdir reference/ref && bgzip -c reference/ref.gff > reference/ref/genes.gff.gz 2>> snps.log
+[05:41:42] Running: snpEff build -c reference/snpeff.config -dataDir . -gff3 ref 2>> snps.log
+[05:41:50] Running: (bwa mem  -v 2 -M -R '@RG\tID:snps\tSM:snps' -t 4 reference/ref.fa /vagrant/africanum_analysis/lab/SAMEA1877150_L6_1.fastq.gz /vagrant/africanum_analysis/lab/SAMEA1877150_L6_2.fastq.gz | samtools sort --reference reference/ref.fa > snps.bam) 2>> snps.log
+[05:59:46] Running: samtools index snps.bam 2>> snps.log
+[06:00:20] Running: samtools depth -q 20 snps.bam | bgzip > snps.depth.gz 2>> snps.log
+[06:02:13] Running: tabix -s 1 -b 2 -e 2 snps.depth.gz 2>> snps.log
+[06:02:15] Running: fasta_generate_regions.py reference/ref.fa.fai 280319 > reference/ref.txt 2>> snps.log
+[06:02:15] Running: freebayes-parallel reference/ref.txt 4 -p 1 -q 20 -m 60 --min-coverage 10 -V -f reference/ref.fa snps.bam > snps.raw.vcf 2>> snps.log
+[06:16:41] Running: /opt/snippy/bin/snippy-vcf_filter --minqual 10 --mincov 10 --minfrac 0.9  snps.raw.vcf > snps.filt.vcf 2>> snps.log
+[06:16:42] Running: snpEff ann -no-downstream -no-upstream -no-intergenic -no-utr -c reference/snpeff.config -dataDir . -noStats ref snps.filt.vcf > snps.vcf 2>> snps.log
+[06:16:51] Running: bgzip -c snps.vcf > snps.vcf.gz 2>> snps.log
+[06:16:51] Running: tabix -p vcf snps.vcf.gz 2>> snps.log
+[06:16:51] Running: /opt/snippy/bin/snippy-vcf_to_tab --gff reference/ref.gff --ref reference/ref.fa --vcf snps.vcf > snps.tab 2>> snps.log
+[06:17:11] Running: vcf-consensus snps.vcf.gz < reference/ref.fa > snps.consensus.fa 2>> snps.log
+[06:17:14] Running: /opt/snippy/bin/snippy-vcf_filter --subs snps.filt.vcf > snps.filt.subs.vcf 2>> snps.log
+[06:17:16] Running: bgzip -c snps.filt.subs.vcf > snps.filt.subs.vcf.gz 2>> snps.log
+[06:17:16] Running: tabix -p vcf snps.filt.subs.vcf.gz 2>> snps.log
+[06:17:16] Running: vcf-consensus snps.filt.subs.vcf.gz < reference/ref.fa > snps.consensus.subs.fa 2>> snps.log
+[06:17:19] Generating aligned/masked FASTA relative to reference: snps.aligned.fa
+[06:17:43] Creating extra output files: BED GFF CSV TXT HTML
+[06:17:43] Identified 2221 variants.
+[06:17:43] Result folder: SAMEA1877150_L6
+[06:17:43] Result files:
+[06:17:43] * SAMEA1877150_L6/snps.aligned.fa
+[06:17:43] * SAMEA1877150_L6/snps.bam
+[06:17:43] * SAMEA1877150_L6/snps.bam.bai
+[06:17:43] * SAMEA1877150_L6/snps.bed
+[06:17:43] * SAMEA1877150_L6/snps.consensus.fa
+[06:17:43] * SAMEA1877150_L6/snps.consensus.subs.fa
+[06:17:43] * SAMEA1877150_L6/snps.csv
+[06:17:43] * SAMEA1877150_L6/snps.depth.gz
+[06:17:43] * SAMEA1877150_L6/snps.depth.gz.tbi
+[06:17:43] * SAMEA1877150_L6/snps.filt.subs.vcf
+[06:17:43] * SAMEA1877150_L6/snps.filt.subs.vcf.gz
+[06:17:43] * SAMEA1877150_L6/snps.filt.subs.vcf.gz.tbi
+[06:17:43] * SAMEA1877150_L6/snps.filt.vcf
+[06:17:43] * SAMEA1877150_L6/snps.gff
+[06:17:43] * SAMEA1877150_L6/snps.html
+[06:17:43] * SAMEA1877150_L6/snps.log
+[06:17:43] * SAMEA1877150_L6/snps.raw.vcf
+[06:17:43] * SAMEA1877150_L6/snps.tab
+[06:17:43] * SAMEA1877150_L6/snps.txt
+[06:17:43] * SAMEA1877150_L6/snps.vcf
+[06:17:43] * SAMEA1877150_L6/snps.vcf.gz
+[06:17:43] * SAMEA1877150_L6/snps.vcf.gz.tbi
+[06:17:43] Walltime used: 36 minutes, 27 seconds
+[06:17:43] Did you know? Snippy is a combination of SNP, Skippy, and snappy.
+[06:17:43] Done.
+[06:17:48] This is snippy 3.2-dev
+[06:17:48] Written by Torsten Seemann <torsten.seemann@gmail.com>
+[06:17:48] Obtained from https://github.com/tseemann/snippy
+[06:17:48] Detected operating system: linux
+[06:17:48] Enabling bundled linux tools.
+[06:17:48] Found bwa - /opt/snippy/binaries/linux/bwa
+[06:17:48] Found samtools - /opt/snippy/binaries/linux/samtools
+[06:17:48] Found tabix - /opt/snippy/binaries/linux/tabix
+[06:17:48] Found bgzip - /opt/snippy/binaries/linux/bgzip
+[06:17:48] Found snpEff - /opt/snippy/binaries/noarch/snpEff
+[06:17:48] Found java - /usr/bin/java
+[06:17:48] Found gzip - /usr/bin/gzip
+[06:17:48] Found parallel - /opt/snippy/binaries/noarch/parallel
+[06:17:48] Found freebayes - /opt/snippy/binaries/linux/freebayes
+[06:17:48] Found freebayes-parallel - /opt/snippy/binaries/noarch/freebayes-parallel
+[06:17:48] Found fasta_generate_regions.py - /opt/snippy/binaries/noarch/fasta_generate_regions.py
+[06:17:48] Found vcfstreamsort - /opt/snippy/binaries/linux/vcfstreamsort
+[06:17:48] Found vcfuniq - /opt/snippy/binaries/linux/vcfuniq
+[06:17:48] Found vcffirstheader - /opt/snippy/binaries/noarch/vcffirstheader
+[06:17:48] Found vcf-consensus - /opt/snippy/binaries/noarch/vcf-consensus
+[06:17:48] Found snippy-vcf_to_tab - /opt/snippy/bin/snippy-vcf_to_tab
+[06:17:48] Found snippy-vcf_report - /opt/snippy/bin/snippy-vcf_report
+[06:17:48] Found snippy-vcf_filter - /opt/snippy/bin/snippy-vcf_filter
+[06:17:48] Checking version: samtools --version is >= 1.3 - ok, have 1.3
+[06:17:48] Using reference: /vagrant/africanum_analysis/lab/NC000962_3.gbk
+[06:17:49] Treating reference as 'genbank' format.
+[06:17:49] Will use 4 CPU cores.
+[06:17:49] Using read file: /vagrant/africanum_analysis/lab/SAMEA1877152_1.fastq.gz
+[06:17:49] Using read file: /vagrant/africanum_analysis/lab/SAMEA1877152_2.fastq.gz
+[06:17:49] Creating folder: SAMEA1877152
+[06:17:49] Changing working directory: SAMEA1877152
+[06:17:49] Creating reference folder: reference
+[06:17:49] Extracting FASTA and GFF from reference.
+[06:18:05] Wrote 1 sequences to ref.fa
+[06:18:05] Wrote 4416 features to ref.gff
+[06:18:05] Creating reference/snpeff.config
+[06:18:05] Freebayes will process 16 chunks of 280319 bp, 4 chunks at a time.
+[06:18:05] Using BAM RG (Read Group) ID: snps
+[06:18:05] Running: samtools faidx reference/ref.fa 2>> snps.log
+[06:18:05] Running: bwa index reference/ref.fa 2>> snps.log
+[06:18:13] Running: mkdir reference/genomes && cp -f reference/ref.fa reference/genomes/ref.fa 2>> snps.log
+[06:18:13] Running: mkdir reference/ref && bgzip -c reference/ref.gff > reference/ref/genes.gff.gz 2>> snps.log
+[06:18:14] Running: snpEff build -c reference/snpeff.config -dataDir . -gff3 ref 2>> snps.log
+[06:18:22] Running: (bwa mem  -v 2 -M -R '@RG\tID:snps\tSM:snps' -t 4 reference/ref.fa /vagrant/africanum_analysis/lab/SAMEA1877152_1.fastq.gz /vagrant/africanum_analysis/lab/SAMEA1877152_2.fastq.gz | samtools sort --reference reference/ref.fa > snps.bam) 2>> snps.log
+[06:29:55] Running: samtools index snps.bam 2>> snps.log
+[06:30:14] Running: samtools depth -q 20 snps.bam | bgzip > snps.depth.gz 2>> snps.log
+[06:31:10] Running: tabix -s 1 -b 2 -e 2 snps.depth.gz 2>> snps.log
+[06:31:13] Running: fasta_generate_regions.py reference/ref.fa.fai 280319 > reference/ref.txt 2>> snps.log
+[06:31:13] Running: freebayes-parallel reference/ref.txt 4 -p 1 -q 20 -m 60 --min-coverage 10 -V -f reference/ref.fa snps.bam > snps.raw.vcf 2>> snps.log
+[06:39:44] Running: /opt/snippy/bin/snippy-vcf_filter --minqual 10 --mincov 10 --minfrac 0.9  snps.raw.vcf > snps.filt.vcf 2>> snps.log
+[06:39:45] Running: snpEff ann -no-downstream -no-upstream -no-intergenic -no-utr -c reference/snpeff.config -dataDir . -noStats ref snps.filt.vcf > snps.vcf 2>> snps.log
+[06:39:54] Running: bgzip -c snps.vcf > snps.vcf.gz 2>> snps.log
+[06:39:54] Running: tabix -p vcf snps.vcf.gz 2>> snps.log
+[06:39:54] Running: /opt/snippy/bin/snippy-vcf_to_tab --gff reference/ref.gff --ref reference/ref.fa --vcf snps.vcf > snps.tab 2>> snps.log
+[06:40:13] Running: vcf-consensus snps.vcf.gz < reference/ref.fa > snps.consensus.fa 2>> snps.log
+[06:40:16] Running: /opt/snippy/bin/snippy-vcf_filter --subs snps.filt.vcf > snps.filt.subs.vcf 2>> snps.log
+[06:40:17] Running: bgzip -c snps.filt.subs.vcf > snps.filt.subs.vcf.gz 2>> snps.log
+[06:40:17] Running: tabix -p vcf snps.filt.subs.vcf.gz 2>> snps.log
+[06:40:17] Running: vcf-consensus snps.filt.subs.vcf.gz < reference/ref.fa > snps.consensus.subs.fa 2>> snps.log
+[06:40:21] Generating aligned/masked FASTA relative to reference: snps.aligned.fa
+[06:40:43] Creating extra output files: BED GFF CSV TXT HTML
+[06:40:44] Identified 1967 variants.
+[06:40:44] Result folder: SAMEA1877152
+[06:40:44] Result files:
+[06:40:44] * SAMEA1877152/snps.aligned.fa
+[06:40:44] * SAMEA1877152/snps.bam
+[06:40:44] * SAMEA1877152/snps.bam.bai
+[06:40:44] * SAMEA1877152/snps.bed
+[06:40:44] * SAMEA1877152/snps.consensus.fa
+[06:40:44] * SAMEA1877152/snps.consensus.subs.fa
+[06:40:44] * SAMEA1877152/snps.csv
+[06:40:44] * SAMEA1877152/snps.depth.gz
+[06:40:44] * SAMEA1877152/snps.depth.gz.tbi
+[06:40:44] * SAMEA1877152/snps.filt.subs.vcf
+[06:40:44] * SAMEA1877152/snps.filt.subs.vcf.gz
+[06:40:44] * SAMEA1877152/snps.filt.subs.vcf.gz.tbi
+[06:40:44] * SAMEA1877152/snps.filt.vcf
+[06:40:44] * SAMEA1877152/snps.gff
+[06:40:44] * SAMEA1877152/snps.html
+[06:40:44] * SAMEA1877152/snps.log
+[06:40:44] * SAMEA1877152/snps.raw.vcf
+[06:40:44] * SAMEA1877152/snps.tab
+[06:40:44] * SAMEA1877152/snps.txt
+[06:40:44] * SAMEA1877152/snps.vcf
+[06:40:44] * SAMEA1877152/snps.vcf.gz
+[06:40:44] * SAMEA1877152/snps.vcf.gz.tbi
+[06:40:44] Walltime used: 22 minutes, 56 seconds
+[06:40:44] May the SNPs be with you.
+[06:40:44] Done.
+[06:40:49] This is snippy 3.2-dev
+[06:40:49] Written by Torsten Seemann <torsten.seemann@gmail.com>
+[06:40:49] Obtained from https://github.com/tseemann/snippy
+[06:40:49] Detected operating system: linux
+[06:40:49] Enabling bundled linux tools.
+[06:40:49] Found bwa - /opt/snippy/binaries/linux/bwa
+[06:40:49] Found samtools - /opt/snippy/binaries/linux/samtools
+[06:40:49] Found tabix - /opt/snippy/binaries/linux/tabix
+[06:40:49] Found bgzip - /opt/snippy/binaries/linux/bgzip
+[06:40:49] Found snpEff - /opt/snippy/binaries/noarch/snpEff
+[06:40:49] Found java - /usr/bin/java
+[06:40:49] Found gzip - /usr/bin/gzip
+[06:40:49] Found parallel - /opt/snippy/binaries/noarch/parallel
+[06:40:49] Found freebayes - /opt/snippy/binaries/linux/freebayes
+[06:40:49] Found freebayes-parallel - /opt/snippy/binaries/noarch/freebayes-parallel
+[06:40:49] Found fasta_generate_regions.py - /opt/snippy/binaries/noarch/fasta_generate_regions.py
+[06:40:49] Found vcfstreamsort - /opt/snippy/binaries/linux/vcfstreamsort
+[06:40:49] Found vcfuniq - /opt/snippy/binaries/linux/vcfuniq
+[06:40:49] Found vcffirstheader - /opt/snippy/binaries/noarch/vcffirstheader
+[06:40:49] Found vcf-consensus - /opt/snippy/binaries/noarch/vcf-consensus
+[06:40:49] Found snippy-vcf_to_tab - /opt/snippy/bin/snippy-vcf_to_tab
+[06:40:49] Found snippy-vcf_report - /opt/snippy/bin/snippy-vcf_report
+[06:40:49] Found snippy-vcf_filter - /opt/snippy/bin/snippy-vcf_filter
+[06:40:49] Checking version: samtools --version is >= 1.3 - ok, have 1.3
+[06:40:49] Using reference: /vagrant/africanum_analysis/lab/NC000962_3.gbk
+[06:40:49] Treating reference as 'genbank' format.
+[06:40:49] Will use 4 CPU cores.
+[06:40:49] Using read file: /vagrant/africanum_analysis/lab/SAMEA1877165_1.fastq.gz
+[06:40:49] Using read file: /vagrant/africanum_analysis/lab/SAMEA1877165_2.fastq.gz
+[06:40:49] Creating folder: SAMEA1877165
+[06:40:49] Changing working directory: SAMEA1877165
+[06:40:49] Creating reference folder: reference
+[06:40:49] Extracting FASTA and GFF from reference.
+[06:41:06] Wrote 1 sequences to ref.fa
+[06:41:06] Wrote 4416 features to ref.gff
+[06:41:06] Creating reference/snpeff.config
+[06:41:06] Freebayes will process 16 chunks of 280319 bp, 4 chunks at a time.
+[06:41:06] Using BAM RG (Read Group) ID: snps
+[06:41:06] Running: samtools faidx reference/ref.fa 2>> snps.log
+[06:41:06] Running: bwa index reference/ref.fa 2>> snps.log
+[06:41:14] Running: mkdir reference/genomes && cp -f reference/ref.fa reference/genomes/ref.fa 2>> snps.log
+[06:41:14] Running: mkdir reference/ref && bgzip -c reference/ref.gff > reference/ref/genes.gff.gz 2>> snps.log
+[06:41:14] Running: snpEff build -c reference/snpeff.config -dataDir . -gff3 ref 2>> snps.log
+[06:41:23] Running: (bwa mem  -v 2 -M -R '@RG\tID:snps\tSM:snps' -t 4 reference/ref.fa /vagrant/africanum_analysis/lab/SAMEA1877165_1.fastq.gz /vagrant/africanum_analysis/lab/SAMEA1877165_2.fastq.gz | samtools sort --reference reference/ref.fa > snps.bam) 2>> snps.log
+[06:56:49] Running: samtools index snps.bam 2>> snps.log
+[06:57:14] Running: samtools depth -q 20 snps.bam | bgzip > snps.depth.gz 2>> snps.log
+[06:58:32] Running: tabix -s 1 -b 2 -e 2 snps.depth.gz 2>> snps.log
+[06:58:35] Running: fasta_generate_regions.py reference/ref.fa.fai 280319 > reference/ref.txt 2>> snps.log
+[06:58:35] Running: freebayes-parallel reference/ref.txt 4 -p 1 -q 20 -m 60 --min-coverage 10 -V -f reference/ref.fa snps.bam > snps.raw.vcf 2>> snps.log
+[07:10:39] Running: /opt/snippy/bin/snippy-vcf_filter --minqual 10 --mincov 10 --minfrac 0.9  snps.raw.vcf > snps.filt.vcf 2>> snps.log
+[07:10:41] Running: snpEff ann -no-downstream -no-upstream -no-intergenic -no-utr -c reference/snpeff.config -dataDir . -noStats ref snps.filt.vcf > snps.vcf 2>> snps.log
+[07:10:49] Running: bgzip -c snps.vcf > snps.vcf.gz 2>> snps.log
+[07:10:50] Running: tabix -p vcf snps.vcf.gz 2>> snps.log
+[07:10:50] Running: /opt/snippy/bin/snippy-vcf_to_tab --gff reference/ref.gff --ref reference/ref.fa --vcf snps.vcf > snps.tab 2>> snps.log
+[07:11:08] Running: vcf-consensus snps.vcf.gz < reference/ref.fa > snps.consensus.fa 2>> snps.log
+[07:11:12] Running: /opt/snippy/bin/snippy-vcf_filter --subs snps.filt.vcf > snps.filt.subs.vcf 2>> snps.log
+[07:11:13] Running: bgzip -c snps.filt.subs.vcf > snps.filt.subs.vcf.gz 2>> snps.log
+[07:11:13] Running: tabix -p vcf snps.filt.subs.vcf.gz 2>> snps.log
+[07:11:13] Running: vcf-consensus snps.filt.subs.vcf.gz < reference/ref.fa > snps.consensus.subs.fa 2>> snps.log
+[07:11:16] Generating aligned/masked FASTA relative to reference: snps.aligned.fa
+[07:11:40] Creating extra output files: BED GFF CSV TXT HTML
+[07:11:40] Identified 2096 variants.
+[07:11:40] Result folder: SAMEA1877165
+[07:11:40] Result files:
+[07:11:40] * SAMEA1877165/snps.aligned.fa
+[07:11:40] * SAMEA1877165/snps.bam
+[07:11:40] * SAMEA1877165/snps.bam.bai
+[07:11:40] * SAMEA1877165/snps.bed
+[07:11:40] * SAMEA1877165/snps.consensus.fa
+[07:11:40] * SAMEA1877165/snps.consensus.subs.fa
+[07:11:40] * SAMEA1877165/snps.csv
+[07:11:40] * SAMEA1877165/snps.depth.gz
+[07:11:40] * SAMEA1877165/snps.depth.gz.tbi
+[07:11:40] * SAMEA1877165/snps.filt.subs.vcf
+[07:11:40] * SAMEA1877165/snps.filt.subs.vcf.gz
+[07:11:40] * SAMEA1877165/snps.filt.subs.vcf.gz.tbi
+[07:11:40] * SAMEA1877165/snps.filt.vcf
+[07:11:40] * SAMEA1877165/snps.gff
+[07:11:40] * SAMEA1877165/snps.html
+[07:11:40] * SAMEA1877165/snps.log
+[07:11:40] * SAMEA1877165/snps.raw.vcf
+[07:11:40] * SAMEA1877165/snps.tab
+[07:11:40] * SAMEA1877165/snps.txt
+[07:11:40] * SAMEA1877165/snps.vcf
+[07:11:40] * SAMEA1877165/snps.vcf.gz
+[07:11:40] * SAMEA1877165/snps.vcf.gz.tbi
+[07:11:40] Walltime used: 30 minutes, 51 seconds
+[07:11:40] Questionable SNP? Try the --report option to see the alignments.
+[07:11:40] Done.
+[07:11:45] This is snippy 3.2-dev
+[07:11:45] Written by Torsten Seemann <torsten.seemann@gmail.com>
+[07:11:45] Obtained from https://github.com/tseemann/snippy
+[07:11:45] Detected operating system: linux
+[07:11:45] Enabling bundled linux tools.
+[07:11:45] Found bwa - /opt/snippy/binaries/linux/bwa
+[07:11:45] Found samtools - /opt/snippy/binaries/linux/samtools
+[07:11:45] Found tabix - /opt/snippy/binaries/linux/tabix
+[07:11:45] Found bgzip - /opt/snippy/binaries/linux/bgzip
+[07:11:45] Found snpEff - /opt/snippy/binaries/noarch/snpEff
+[07:11:45] Found java - /usr/bin/java
+[07:11:45] Found gzip - /usr/bin/gzip
+[07:11:46] Found parallel - /opt/snippy/binaries/noarch/parallel
+[07:11:46] Found freebayes - /opt/snippy/binaries/linux/freebayes
+[07:11:46] Found freebayes-parallel - /opt/snippy/binaries/noarch/freebayes-parallel
+[07:11:46] Found fasta_generate_regions.py - /opt/snippy/binaries/noarch/fasta_generate_regions.py
+[07:11:46] Found vcfstreamsort - /opt/snippy/binaries/linux/vcfstreamsort
+[07:11:46] Found vcfuniq - /opt/snippy/binaries/linux/vcfuniq
+[07:11:46] Found vcffirstheader - /opt/snippy/binaries/noarch/vcffirstheader
+[07:11:46] Found vcf-consensus - /opt/snippy/binaries/noarch/vcf-consensus
+[07:11:46] Found snippy-vcf_to_tab - /opt/snippy/bin/snippy-vcf_to_tab
+[07:11:46] Found snippy-vcf_report - /opt/snippy/bin/snippy-vcf_report
+[07:11:46] Found snippy-vcf_filter - /opt/snippy/bin/snippy-vcf_filter
+[07:11:46] Checking version: samtools --version is >= 1.3 - ok, have 1.3
+[07:11:46] Using reference: /vagrant/africanum_analysis/lab/NC000962_3.gbk
+[07:11:46] Treating reference as 'genbank' format.
+[07:11:46] Will use 4 CPU cores.
+[07:11:46] Using read file: /vagrant/africanum_analysis/lab/SAMEA1877169_1.fastq.gz
+[07:11:46] Using read file: /vagrant/africanum_analysis/lab/SAMEA1877169_2.fastq.gz
+[07:11:46] Creating folder: SAMEA1877169
+[07:11:46] Changing working directory: SAMEA1877169
+[07:11:46] Creating reference folder: reference
+[07:11:46] Extracting FASTA and GFF from reference.
+[07:12:03] Wrote 1 sequences to ref.fa
+[07:12:03] Wrote 4416 features to ref.gff
+[07:12:03] Creating reference/snpeff.config
+[07:12:03] Freebayes will process 16 chunks of 280319 bp, 4 chunks at a time.
+[07:12:03] Using BAM RG (Read Group) ID: snps
+[07:12:03] Running: samtools faidx reference/ref.fa 2>> snps.log
+[07:12:03] Running: bwa index reference/ref.fa 2>> snps.log
+[07:12:11] Running: mkdir reference/genomes && cp -f reference/ref.fa reference/genomes/ref.fa 2>> snps.log
+[07:12:11] Running: mkdir reference/ref && bgzip -c reference/ref.gff > reference/ref/genes.gff.gz 2>> snps.log
+[07:12:11] Running: snpEff build -c reference/snpeff.config -dataDir . -gff3 ref 2>> snps.log
+[07:12:20] Running: (bwa mem  -v 2 -M -R '@RG\tID:snps\tSM:snps' -t 4 reference/ref.fa /vagrant/africanum_analysis/lab/SAMEA1877169_1.fastq.gz /vagrant/africanum_analysis/lab/SAMEA1877169_2.fastq.gz | samtools sort --reference reference/ref.fa > snps.bam) 2>> snps.log
+[07:19:32] Running: samtools index snps.bam 2>> snps.log
+[07:19:44] Running: samtools depth -q 20 snps.bam | bgzip > snps.depth.gz 2>> snps.log
+[07:20:16] Running: tabix -s 1 -b 2 -e 2 snps.depth.gz 2>> snps.log
+[07:20:19] Running: fasta_generate_regions.py reference/ref.fa.fai 280319 > reference/ref.txt 2>> snps.log
+[07:20:19] Running: freebayes-parallel reference/ref.txt 4 -p 1 -q 20 -m 60 --min-coverage 10 -V -f reference/ref.fa snps.bam > snps.raw.vcf 2>> snps.log
+[07:25:36] Running: /opt/snippy/bin/snippy-vcf_filter --minqual 10 --mincov 10 --minfrac 0.9  snps.raw.vcf > snps.filt.vcf 2>> snps.log
+[07:25:37] Running: snpEff ann -no-downstream -no-upstream -no-intergenic -no-utr -c reference/snpeff.config -dataDir . -noStats ref snps.filt.vcf > snps.vcf 2>> snps.log
+[07:25:47] Running: bgzip -c snps.vcf > snps.vcf.gz 2>> snps.log
+[07:25:47] Running: tabix -p vcf snps.vcf.gz 2>> snps.log
+[07:25:47] Running: /opt/snippy/bin/snippy-vcf_to_tab --gff reference/ref.gff --ref reference/ref.fa --vcf snps.vcf > snps.tab 2>> snps.log
+[07:26:05] Running: vcf-consensus snps.vcf.gz < reference/ref.fa > snps.consensus.fa 2>> snps.log
+[07:26:08] Running: /opt/snippy/bin/snippy-vcf_filter --subs snps.filt.vcf > snps.filt.subs.vcf 2>> snps.log
+[07:26:09] Running: bgzip -c snps.filt.subs.vcf > snps.filt.subs.vcf.gz 2>> snps.log
+[07:26:10] Running: tabix -p vcf snps.filt.subs.vcf.gz 2>> snps.log
+[07:26:10] Running: vcf-consensus snps.filt.subs.vcf.gz < reference/ref.fa > snps.consensus.subs.fa 2>> snps.log
+[07:26:13] Generating aligned/masked FASTA relative to reference: snps.aligned.fa
+[07:26:37] Creating extra output files: BED GFF CSV TXT HTML
+[07:26:37] Identified 2133 variants.
+[07:26:37] Result folder: SAMEA1877169
+[07:26:37] Result files:
+[07:26:37] * SAMEA1877169/snps.aligned.fa
+[07:26:37] * SAMEA1877169/snps.bam
+[07:26:37] * SAMEA1877169/snps.bam.bai
+[07:26:37] * SAMEA1877169/snps.bed
+[07:26:37] * SAMEA1877169/snps.consensus.fa
+[07:26:37] * SAMEA1877169/snps.consensus.subs.fa
+[07:26:37] * SAMEA1877169/snps.csv
+[07:26:37] * SAMEA1877169/snps.depth.gz
+[07:26:37] * SAMEA1877169/snps.depth.gz.tbi
+[07:26:37] * SAMEA1877169/snps.filt.subs.vcf
+[07:26:37] * SAMEA1877169/snps.filt.subs.vcf.gz
+[07:26:37] * SAMEA1877169/snps.filt.subs.vcf.gz.tbi
+[07:26:37] * SAMEA1877169/snps.filt.vcf
+[07:26:37] * SAMEA1877169/snps.gff
+[07:26:37] * SAMEA1877169/snps.html
+[07:26:37] * SAMEA1877169/snps.log
+[07:26:37] * SAMEA1877169/snps.raw.vcf
+[07:26:37] * SAMEA1877169/snps.tab
+[07:26:37] * SAMEA1877169/snps.txt
+[07:26:37] * SAMEA1877169/snps.vcf
+[07:26:37] * SAMEA1877169/snps.vcf.gz
+[07:26:37] * SAMEA1877169/snps.vcf.gz.tbi
+[07:26:37] Walltime used: 14 minutes, 52 seconds
+[07:26:37] May the SNPs be with you.
+[07:26:37] Done.
+[07:26:42] This is snippy 3.2-dev
+[07:26:42] Written by Torsten Seemann <torsten.seemann@gmail.com>
+[07:26:42] Obtained from https://github.com/tseemann/snippy
+[07:26:42] Detected operating system: linux
+[07:26:42] Enabling bundled linux tools.
+[07:26:42] Found bwa - /opt/snippy/binaries/linux/bwa
+[07:26:42] Found samtools - /opt/snippy/binaries/linux/samtools
+[07:26:42] Found tabix - /opt/snippy/binaries/linux/tabix
+[07:26:42] Found bgzip - /opt/snippy/binaries/linux/bgzip
+[07:26:42] Found snpEff - /opt/snippy/binaries/noarch/snpEff
+[07:26:42] Found java - /usr/bin/java
+[07:26:42] Found gzip - /usr/bin/gzip
+[07:26:42] Found parallel - /opt/snippy/binaries/noarch/parallel
+[07:26:42] Found freebayes - /opt/snippy/binaries/linux/freebayes
+[07:26:42] Found freebayes-parallel - /opt/snippy/binaries/noarch/freebayes-parallel
+[07:26:42] Found fasta_generate_regions.py - /opt/snippy/binaries/noarch/fasta_generate_regions.py
+[07:26:42] Found vcfstreamsort - /opt/snippy/binaries/linux/vcfstreamsort
+[07:26:42] Found vcfuniq - /opt/snippy/binaries/linux/vcfuniq
+[07:26:42] Found vcffirstheader - /opt/snippy/binaries/noarch/vcffirstheader
+[07:26:42] Found vcf-consensus - /opt/snippy/binaries/noarch/vcf-consensus
+[07:26:42] Found snippy-vcf_to_tab - /opt/snippy/bin/snippy-vcf_to_tab
+[07:26:42] Found snippy-vcf_report - /opt/snippy/bin/snippy-vcf_report
+[07:26:42] Found snippy-vcf_filter - /opt/snippy/bin/snippy-vcf_filter
+[07:26:42] Checking version: samtools --version is >= 1.3 - ok, have 1.3
+[07:26:42] Using reference: /vagrant/africanum_analysis/lab/NC000962_3.gbk
+[07:26:43] Treating reference as 'genbank' format.
+[07:26:43] Will use 4 CPU cores.
+[07:26:43] Using read file: /vagrant/africanum_analysis/lab/SAMEA1877169_L5_1.fastq.gz
+[07:26:43] Using read file: /vagrant/africanum_analysis/lab/SAMEA1877169_L5_2.fastq.gz
+[07:26:43] Creating folder: SAMEA1877169_L5
+[07:26:43] Changing working directory: SAMEA1877169_L5
+[07:26:43] Creating reference folder: reference
+[07:26:43] Extracting FASTA and GFF from reference.
+[07:26:59] Wrote 1 sequences to ref.fa
+[07:26:59] Wrote 4416 features to ref.gff
+[07:26:59] Creating reference/snpeff.config
+[07:26:59] Freebayes will process 16 chunks of 280319 bp, 4 chunks at a time.
+[07:26:59] Using BAM RG (Read Group) ID: snps
+[07:26:59] Running: samtools faidx reference/ref.fa 2>> snps.log
+[07:26:59] Running: bwa index reference/ref.fa 2>> snps.log
+[07:27:07] Running: mkdir reference/genomes && cp -f reference/ref.fa reference/genomes/ref.fa 2>> snps.log
+[07:27:07] Running: mkdir reference/ref && bgzip -c reference/ref.gff > reference/ref/genes.gff.gz 2>> snps.log
+[07:27:08] Running: snpEff build -c reference/snpeff.config -dataDir . -gff3 ref 2>> snps.log
+[07:27:17] Running: (bwa mem  -v 2 -M -R '@RG\tID:snps\tSM:snps' -t 4 reference/ref.fa /vagrant/africanum_analysis/lab/SAMEA1877169_L5_1.fastq.gz /vagrant/africanum_analysis/lab/SAMEA1877169_L5_2.fastq.gz | samtools sort --reference reference/ref.fa > snps.bam) 2>> snps.log
+[07:34:33] Running: samtools index snps.bam 2>> snps.log
+[07:34:45] Running: samtools depth -q 20 snps.bam | bgzip > snps.depth.gz 2>> snps.log
+[07:35:16] Running: tabix -s 1 -b 2 -e 2 snps.depth.gz 2>> snps.log
+[07:35:19] Running: fasta_generate_regions.py reference/ref.fa.fai 280319 > reference/ref.txt 2>> snps.log
+[07:35:19] Running: freebayes-parallel reference/ref.txt 4 -p 1 -q 20 -m 60 --min-coverage 10 -V -f reference/ref.fa snps.bam > snps.raw.vcf 2>> snps.log
+[07:40:40] Running: /opt/snippy/bin/snippy-vcf_filter --minqual 10 --mincov 10 --minfrac 0.9  snps.raw.vcf > snps.filt.vcf 2>> snps.log
+[07:40:41] Running: snpEff ann -no-downstream -no-upstream -no-intergenic -no-utr -c reference/snpeff.config -dataDir . -noStats ref snps.filt.vcf > snps.vcf 2>> snps.log
+[07:40:50] Running: bgzip -c snps.vcf > snps.vcf.gz 2>> snps.log
+[07:40:50] Running: tabix -p vcf snps.vcf.gz 2>> snps.log
+[07:40:50] Running: /opt/snippy/bin/snippy-vcf_to_tab --gff reference/ref.gff --ref reference/ref.fa --vcf snps.vcf > snps.tab 2>> snps.log
+[07:41:09] Running: vcf-consensus snps.vcf.gz < reference/ref.fa > snps.consensus.fa 2>> snps.log
+[07:41:12] Running: /opt/snippy/bin/snippy-vcf_filter --subs snps.filt.vcf > snps.filt.subs.vcf 2>> snps.log
+[07:41:13] Running: bgzip -c snps.filt.subs.vcf > snps.filt.subs.vcf.gz 2>> snps.log
+[07:41:14] Running: tabix -p vcf snps.filt.subs.vcf.gz 2>> snps.log
+[07:41:14] Running: vcf-consensus snps.filt.subs.vcf.gz < reference/ref.fa > snps.consensus.subs.fa 2>> snps.log
+[07:41:17] Generating aligned/masked FASTA relative to reference: snps.aligned.fa
+[07:41:41] Creating extra output files: BED GFF CSV TXT HTML
+[07:41:41] Identified 2133 variants.
+[07:41:41] Result folder: SAMEA1877169_L5
+[07:41:41] Result files:
+[07:41:41] * SAMEA1877169_L5/snps.aligned.fa
+[07:41:41] * SAMEA1877169_L5/snps.bam
+[07:41:41] * SAMEA1877169_L5/snps.bam.bai
+[07:41:41] * SAMEA1877169_L5/snps.bed
+[07:41:41] * SAMEA1877169_L5/snps.consensus.fa
+[07:41:41] * SAMEA1877169_L5/snps.consensus.subs.fa
+[07:41:41] * SAMEA1877169_L5/snps.csv
+[07:41:41] * SAMEA1877169_L5/snps.depth.gz
+[07:41:41] * SAMEA1877169_L5/snps.depth.gz.tbi
+[07:41:41] * SAMEA1877169_L5/snps.filt.subs.vcf
+[07:41:41] * SAMEA1877169_L5/snps.filt.subs.vcf.gz
+[07:41:41] * SAMEA1877169_L5/snps.filt.subs.vcf.gz.tbi
+[07:41:41] * SAMEA1877169_L5/snps.filt.vcf
+[07:41:41] * SAMEA1877169_L5/snps.gff
+[07:41:41] * SAMEA1877169_L5/snps.html
+[07:41:41] * SAMEA1877169_L5/snps.log
+[07:41:41] * SAMEA1877169_L5/snps.raw.vcf
+[07:41:41] * SAMEA1877169_L5/snps.tab
+[07:41:41] * SAMEA1877169_L5/snps.txt
+[07:41:41] * SAMEA1877169_L5/snps.vcf
+[07:41:41] * SAMEA1877169_L5/snps.vcf.gz
+[07:41:41] * SAMEA1877169_L5/snps.vcf.gz.tbi
+[07:41:41] Walltime used: 14 minutes, 59 seconds
+[07:41:41] Wishing you a life free of homopolymer errors.
+[07:41:41] Done.
+[07:41:46] This is snippy 3.2-dev
+[07:41:46] Written by Torsten Seemann <torsten.seemann@gmail.com>
+[07:41:46] Obtained from https://github.com/tseemann/snippy
+[07:41:46] Detected operating system: linux
+[07:41:46] Enabling bundled linux tools.
+[07:41:46] Found bwa - /opt/snippy/binaries/linux/bwa
+[07:41:46] Found samtools - /opt/snippy/binaries/linux/samtools
+[07:41:46] Found tabix - /opt/snippy/binaries/linux/tabix
+[07:41:46] Found bgzip - /opt/snippy/binaries/linux/bgzip
+[07:41:46] Found snpEff - /opt/snippy/binaries/noarch/snpEff
+[07:41:46] Found java - /usr/bin/java
+[07:41:46] Found gzip - /usr/bin/gzip
+[07:41:46] Found parallel - /opt/snippy/binaries/noarch/parallel
+[07:41:46] Found freebayes - /opt/snippy/binaries/linux/freebayes
+[07:41:46] Found freebayes-parallel - /opt/snippy/binaries/noarch/freebayes-parallel
+[07:41:46] Found fasta_generate_regions.py - /opt/snippy/binaries/noarch/fasta_generate_regions.py
+[07:41:46] Found vcfstreamsort - /opt/snippy/binaries/linux/vcfstreamsort
+[07:41:46] Found vcfuniq - /opt/snippy/binaries/linux/vcfuniq
+[07:41:46] Found vcffirstheader - /opt/snippy/binaries/noarch/vcffirstheader
+[07:41:46] Found vcf-consensus - /opt/snippy/binaries/noarch/vcf-consensus
+[07:41:46] Found snippy-vcf_to_tab - /opt/snippy/bin/snippy-vcf_to_tab
+[07:41:46] Found snippy-vcf_report - /opt/snippy/bin/snippy-vcf_report
+[07:41:46] Found snippy-vcf_filter - /opt/snippy/bin/snippy-vcf_filter
+[07:41:46] Checking version: samtools --version is >= 1.3 - ok, have 1.3
+[07:41:46] Using reference: /vagrant/africanum_analysis/lab/NC000962_3.gbk
+[07:41:47] Treating reference as 'genbank' format.
+[07:41:47] Will use 4 CPU cores.
+[07:41:47] Using read file: /vagrant/africanum_analysis/lab/SAMEA1877177_1.fastq.gz
+[07:41:47] Using read file: /vagrant/africanum_analysis/lab/SAMEA1877177_2.fastq.gz
+[07:41:47] Creating folder: SAMEA1877177
+[07:41:47] Changing working directory: SAMEA1877177
+[07:41:47] Creating reference folder: reference
+[07:41:47] Extracting FASTA and GFF from reference.
+[07:42:03] Wrote 1 sequences to ref.fa
+[07:42:03] Wrote 4416 features to ref.gff
+[07:42:03] Creating reference/snpeff.config
+[07:42:03] Freebayes will process 16 chunks of 280319 bp, 4 chunks at a time.
+[07:42:03] Using BAM RG (Read Group) ID: snps
+[07:42:03] Running: samtools faidx reference/ref.fa 2>> snps.log
+[07:42:03] Running: bwa index reference/ref.fa 2>> snps.log
+[07:42:11] Running: mkdir reference/genomes && cp -f reference/ref.fa reference/genomes/ref.fa 2>> snps.log
+[07:42:11] Running: mkdir reference/ref && bgzip -c reference/ref.gff > reference/ref/genes.gff.gz 2>> snps.log
+[07:42:12] Running: snpEff build -c reference/snpeff.config -dataDir . -gff3 ref 2>> snps.log
+[07:42:21] Running: (bwa mem  -v 2 -M -R '@RG\tID:snps\tSM:snps' -t 4 reference/ref.fa /vagrant/africanum_analysis/lab/SAMEA1877177_1.fastq.gz /vagrant/africanum_analysis/lab/SAMEA1877177_2.fastq.gz | samtools sort --reference reference/ref.fa > snps.bam) 2>> snps.log
+[07:56:16] Running: samtools index snps.bam 2>> snps.log
+[07:56:42] Running: samtools depth -q 20 snps.bam | bgzip > snps.depth.gz 2>> snps.log
+[07:58:09] Running: tabix -s 1 -b 2 -e 2 snps.depth.gz 2>> snps.log
+[07:58:11] Running: fasta_generate_regions.py reference/ref.fa.fai 280319 > reference/ref.txt 2>> snps.log
+[07:58:11] Running: freebayes-parallel reference/ref.txt 4 -p 1 -q 20 -m 60 --min-coverage 10 -V -f reference/ref.fa snps.bam > snps.raw.vcf 2>> snps.log
+[08:09:00] Running: /opt/snippy/bin/snippy-vcf_filter --minqual 10 --mincov 10 --minfrac 0.9  snps.raw.vcf > snps.filt.vcf 2>> snps.log
+[08:09:02] Running: snpEff ann -no-downstream -no-upstream -no-intergenic -no-utr -c reference/snpeff.config -dataDir . -noStats ref snps.filt.vcf > snps.vcf 2>> snps.log
+[08:09:11] Running: bgzip -c snps.vcf > snps.vcf.gz 2>> snps.log
+[08:09:11] Running: tabix -p vcf snps.vcf.gz 2>> snps.log
+[08:09:11] Running: /opt/snippy/bin/snippy-vcf_to_tab --gff reference/ref.gff --ref reference/ref.fa --vcf snps.vcf > snps.tab 2>> snps.log
+[08:09:31] Running: vcf-consensus snps.vcf.gz < reference/ref.fa > snps.consensus.fa 2>> snps.log
+[08:09:34] Running: /opt/snippy/bin/snippy-vcf_filter --subs snps.filt.vcf > snps.filt.subs.vcf 2>> snps.log
+[08:09:36] Running: bgzip -c snps.filt.subs.vcf > snps.filt.subs.vcf.gz 2>> snps.log
+[08:09:36] Running: tabix -p vcf snps.filt.subs.vcf.gz 2>> snps.log
+[08:09:36] Running: vcf-consensus snps.filt.subs.vcf.gz < reference/ref.fa > snps.consensus.subs.fa 2>> snps.log
+[08:09:39] Generating aligned/masked FASTA relative to reference: snps.aligned.fa
+[08:10:02] Creating extra output files: BED GFF CSV TXT HTML
+[08:10:03] Identified 2226 variants.
+[08:10:03] Result folder: SAMEA1877177
+[08:10:03] Result files:
+[08:10:03] * SAMEA1877177/snps.aligned.fa
+[08:10:03] * SAMEA1877177/snps.bam
+[08:10:03] * SAMEA1877177/snps.bam.bai
+[08:10:03] * SAMEA1877177/snps.bed
+[08:10:03] * SAMEA1877177/snps.consensus.fa
+[08:10:03] * SAMEA1877177/snps.consensus.subs.fa
+[08:10:03] * SAMEA1877177/snps.csv
+[08:10:03] * SAMEA1877177/snps.depth.gz
+[08:10:03] * SAMEA1877177/snps.depth.gz.tbi
+[08:10:03] * SAMEA1877177/snps.filt.subs.vcf
+[08:10:03] * SAMEA1877177/snps.filt.subs.vcf.gz
+[08:10:03] * SAMEA1877177/snps.filt.subs.vcf.gz.tbi
+[08:10:03] * SAMEA1877177/snps.filt.vcf
+[08:10:03] * SAMEA1877177/snps.gff
+[08:10:03] * SAMEA1877177/snps.html
+[08:10:03] * SAMEA1877177/snps.log
+[08:10:03] * SAMEA1877177/snps.raw.vcf
+[08:10:03] * SAMEA1877177/snps.tab
+[08:10:03] * SAMEA1877177/snps.txt
+[08:10:03] * SAMEA1877177/snps.vcf
+[08:10:03] * SAMEA1877177/snps.vcf.gz
+[08:10:03] * SAMEA1877177/snps.vcf.gz.tbi
+[08:10:03] Walltime used: 28 minutes, 17 seconds
+[08:10:03] May the SNPs be with you.
+[08:10:03] Done.
+[08:10:08] This is snippy 3.2-dev
+[08:10:08] Written by Torsten Seemann <torsten.seemann@gmail.com>
+[08:10:08] Obtained from https://github.com/tseemann/snippy
+[08:10:08] Detected operating system: linux
+[08:10:08] Enabling bundled linux tools.
+[08:10:08] Found bwa - /opt/snippy/binaries/linux/bwa
+[08:10:08] Found samtools - /opt/snippy/binaries/linux/samtools
+[08:10:08] Found tabix - /opt/snippy/binaries/linux/tabix
+[08:10:08] Found bgzip - /opt/snippy/binaries/linux/bgzip
+[08:10:08] Found snpEff - /opt/snippy/binaries/noarch/snpEff
+[08:10:08] Found java - /usr/bin/java
+[08:10:08] Found gzip - /usr/bin/gzip
+[08:10:08] Found parallel - /opt/snippy/binaries/noarch/parallel
+[08:10:08] Found freebayes - /opt/snippy/binaries/linux/freebayes
+[08:10:08] Found freebayes-parallel - /opt/snippy/binaries/noarch/freebayes-parallel
+[08:10:08] Found fasta_generate_regions.py - /opt/snippy/binaries/noarch/fasta_generate_regions.py
+[08:10:08] Found vcfstreamsort - /opt/snippy/binaries/linux/vcfstreamsort
+[08:10:08] Found vcfuniq - /opt/snippy/binaries/linux/vcfuniq
+[08:10:08] Found vcffirstheader - /opt/snippy/binaries/noarch/vcffirstheader
+[08:10:08] Found vcf-consensus - /opt/snippy/binaries/noarch/vcf-consensus
+[08:10:08] Found snippy-vcf_to_tab - /opt/snippy/bin/snippy-vcf_to_tab
+[08:10:08] Found snippy-vcf_report - /opt/snippy/bin/snippy-vcf_report
+[08:10:08] Found snippy-vcf_filter - /opt/snippy/bin/snippy-vcf_filter
+[08:10:08] Checking version: samtools --version is >= 1.3 - ok, have 1.3
+[08:10:08] Using reference: /vagrant/africanum_analysis/lab/NC000962_3.gbk
+[08:10:08] Treating reference as 'genbank' format.
+[08:10:08] Will use 4 CPU cores.
+[08:10:08] Using read file: /vagrant/africanum_analysis/lab/SAMEA1877181_L3_1.fastq.gz
+[08:10:08] Using read file: /vagrant/africanum_analysis/lab/SAMEA1877181_L3_2.fastq.gz
+[08:10:08] Creating folder: SAMEA1877181_L3
+[08:10:08] Changing working directory: SAMEA1877181_L3
+[08:10:08] Creating reference folder: reference
+[08:10:08] Extracting FASTA and GFF from reference.
+[08:10:25] Wrote 1 sequences to ref.fa
+[08:10:25] Wrote 4416 features to ref.gff
+[08:10:25] Creating reference/snpeff.config
+[08:10:25] Freebayes will process 16 chunks of 280319 bp, 4 chunks at a time.
+[08:10:25] Using BAM RG (Read Group) ID: snps
+[08:10:25] Running: samtools faidx reference/ref.fa 2>> snps.log
+[08:10:25] Running: bwa index reference/ref.fa 2>> snps.log
+[08:10:33] Running: mkdir reference/genomes && cp -f reference/ref.fa reference/genomes/ref.fa 2>> snps.log
+[08:10:33] Running: mkdir reference/ref && bgzip -c reference/ref.gff > reference/ref/genes.gff.gz 2>> snps.log
+[08:10:33] Running: snpEff build -c reference/snpeff.config -dataDir . -gff3 ref 2>> snps.log
+[08:10:43] Running: (bwa mem  -v 2 -M -R '@RG\tID:snps\tSM:snps' -t 4 reference/ref.fa /vagrant/africanum_analysis/lab/SAMEA1877181_L3_1.fastq.gz /vagrant/africanum_analysis/lab/SAMEA1877181_L3_2.fastq.gz | samtools sort --reference reference/ref.fa > snps.bam) 2>> snps.log
+[08:24:28] Running: samtools index snps.bam 2>> snps.log
+[08:24:53] Running: samtools depth -q 20 snps.bam | bgzip > snps.depth.gz 2>> snps.log
+[08:26:08] Running: tabix -s 1 -b 2 -e 2 snps.depth.gz 2>> snps.log
+[08:26:10] Running: fasta_generate_regions.py reference/ref.fa.fai 280319 > reference/ref.txt 2>> snps.log
+[08:26:10] Running: freebayes-parallel reference/ref.txt 4 -p 1 -q 20 -m 60 --min-coverage 10 -V -f reference/ref.fa snps.bam > snps.raw.vcf 2>> snps.log
+[08:36:54] Running: /opt/snippy/bin/snippy-vcf_filter --minqual 10 --mincov 10 --minfrac 0.9  snps.raw.vcf > snps.filt.vcf 2>> snps.log
+[08:36:55] Running: snpEff ann -no-downstream -no-upstream -no-intergenic -no-utr -c reference/snpeff.config -dataDir . -noStats ref snps.filt.vcf > snps.vcf 2>> snps.log
+[08:37:03] Running: bgzip -c snps.vcf > snps.vcf.gz 2>> snps.log
+[08:37:03] Running: tabix -p vcf snps.vcf.gz 2>> snps.log
+[08:37:03] Running: /opt/snippy/bin/snippy-vcf_to_tab --gff reference/ref.gff --ref reference/ref.fa --vcf snps.vcf > snps.tab 2>> snps.log
+[08:37:22] Running: vcf-consensus snps.vcf.gz < reference/ref.fa > snps.consensus.fa 2>> snps.log
+[08:37:26] Running: /opt/snippy/bin/snippy-vcf_filter --subs snps.filt.vcf > snps.filt.subs.vcf 2>> snps.log
+[08:37:26] Running: bgzip -c snps.filt.subs.vcf > snps.filt.subs.vcf.gz 2>> snps.log
+[08:37:26] Running: tabix -p vcf snps.filt.subs.vcf.gz 2>> snps.log
+[08:37:26] Running: vcf-consensus snps.filt.subs.vcf.gz < reference/ref.fa > snps.consensus.subs.fa 2>> snps.log
+[08:37:30] Generating aligned/masked FASTA relative to reference: snps.aligned.fa
+[08:37:53] Creating extra output files: BED GFF CSV TXT HTML
+[08:37:53] Identified 1454 variants.
+[08:37:53] Result folder: SAMEA1877181_L3
+[08:37:53] Result files:
+[08:37:53] * SAMEA1877181_L3/snps.aligned.fa
+[08:37:53] * SAMEA1877181_L3/snps.bam
+[08:37:53] * SAMEA1877181_L3/snps.bam.bai
+[08:37:53] * SAMEA1877181_L3/snps.bed
+[08:37:53] * SAMEA1877181_L3/snps.consensus.fa
+[08:37:53] * SAMEA1877181_L3/snps.consensus.subs.fa
+[08:37:53] * SAMEA1877181_L3/snps.csv
+[08:37:53] * SAMEA1877181_L3/snps.depth.gz
+[08:37:53] * SAMEA1877181_L3/snps.depth.gz.tbi
+[08:37:53] * SAMEA1877181_L3/snps.filt.subs.vcf
+[08:37:53] * SAMEA1877181_L3/snps.filt.subs.vcf.gz
+[08:37:53] * SAMEA1877181_L3/snps.filt.subs.vcf.gz.tbi
+[08:37:53] * SAMEA1877181_L3/snps.filt.vcf
+[08:37:53] * SAMEA1877181_L3/snps.gff
+[08:37:53] * SAMEA1877181_L3/snps.html
+[08:37:53] * SAMEA1877181_L3/snps.log
+[08:37:53] * SAMEA1877181_L3/snps.raw.vcf
+[08:37:53] * SAMEA1877181_L3/snps.tab
+[08:37:53] * SAMEA1877181_L3/snps.txt
+[08:37:53] * SAMEA1877181_L3/snps.vcf
+[08:37:53] * SAMEA1877181_L3/snps.vcf.gz
+[08:37:53] * SAMEA1877181_L3/snps.vcf.gz.tbi
+[08:37:53] Walltime used: 27 minutes, 45 seconds
+[08:37:53] Questionable SNP? Try the --report option to see the alignments.
+[08:37:53] Done.
+[08:37:58] This is snippy 3.2-dev
+[08:37:58] Written by Torsten Seemann <torsten.seemann@gmail.com>
+[08:37:58] Obtained from https://github.com/tseemann/snippy
+[08:37:58] Detected operating system: linux
+[08:37:58] Enabling bundled linux tools.
+[08:37:59] Found bwa - /opt/snippy/binaries/linux/bwa
+[08:37:59] Found samtools - /opt/snippy/binaries/linux/samtools
+[08:37:59] Found tabix - /opt/snippy/binaries/linux/tabix
+[08:37:59] Found bgzip - /opt/snippy/binaries/linux/bgzip
+[08:37:59] Found snpEff - /opt/snippy/binaries/noarch/snpEff
+[08:37:59] Found java - /usr/bin/java
+[08:37:59] Found gzip - /usr/bin/gzip
+[08:37:59] Found parallel - /opt/snippy/binaries/noarch/parallel
+[08:37:59] Found freebayes - /opt/snippy/binaries/linux/freebayes
+[08:37:59] Found freebayes-parallel - /opt/snippy/binaries/noarch/freebayes-parallel
+[08:37:59] Found fasta_generate_regions.py - /opt/snippy/binaries/noarch/fasta_generate_regions.py
+[08:37:59] Found vcfstreamsort - /opt/snippy/binaries/linux/vcfstreamsort
+[08:37:59] Found vcfuniq - /opt/snippy/binaries/linux/vcfuniq
+[08:37:59] Found vcffirstheader - /opt/snippy/binaries/noarch/vcffirstheader
+[08:37:59] Found vcf-consensus - /opt/snippy/binaries/noarch/vcf-consensus
+[08:37:59] Found snippy-vcf_to_tab - /opt/snippy/bin/snippy-vcf_to_tab
+[08:37:59] Found snippy-vcf_report - /opt/snippy/bin/snippy-vcf_report
+[08:37:59] Found snippy-vcf_filter - /opt/snippy/bin/snippy-vcf_filter
+[08:37:59] Checking version: samtools --version is >= 1.3 - ok, have 1.3
+[08:37:59] Using reference: /vagrant/africanum_analysis/lab/NC000962_3.gbk
+[08:37:59] Treating reference as 'genbank' format.
+[08:37:59] Will use 4 CPU cores.
+[08:37:59] Using read file: /vagrant/africanum_analysis/lab/SAMEA1877187_1.fastq.gz
+[08:37:59] Using read file: /vagrant/africanum_analysis/lab/SAMEA1877187_2.fastq.gz
+[08:37:59] Creating folder: SAMEA1877187
+[08:37:59] Changing working directory: SAMEA1877187
+[08:37:59] Creating reference folder: reference
+[08:37:59] Extracting FASTA and GFF from reference.
+[08:38:16] Wrote 1 sequences to ref.fa
+[08:38:16] Wrote 4416 features to ref.gff
+[08:38:16] Creating reference/snpeff.config
+[08:38:16] Freebayes will process 16 chunks of 280319 bp, 4 chunks at a time.
+[08:38:16] Using BAM RG (Read Group) ID: snps
+[08:38:16] Running: samtools faidx reference/ref.fa 2>> snps.log
+[08:38:16] Running: bwa index reference/ref.fa 2>> snps.log
+[08:38:24] Running: mkdir reference/genomes && cp -f reference/ref.fa reference/genomes/ref.fa 2>> snps.log
+[08:38:24] Running: mkdir reference/ref && bgzip -c reference/ref.gff > reference/ref/genes.gff.gz 2>> snps.log
+[08:38:24] Running: snpEff build -c reference/snpeff.config -dataDir . -gff3 ref 2>> snps.log
+[08:38:33] Running: (bwa mem  -v 2 -M -R '@RG\tID:snps\tSM:snps' -t 4 reference/ref.fa /vagrant/africanum_analysis/lab/SAMEA1877187_1.fastq.gz /vagrant/africanum_analysis/lab/SAMEA1877187_2.fastq.gz | samtools sort --reference reference/ref.fa > snps.bam) 2>> snps.log
+[08:51:16] Running: samtools index snps.bam 2>> snps.log
+[08:51:35] Running: samtools depth -q 20 snps.bam | bgzip > snps.depth.gz 2>> snps.log
+[08:52:43] Running: tabix -s 1 -b 2 -e 2 snps.depth.gz 2>> snps.log
+[08:52:45] Running: fasta_generate_regions.py reference/ref.fa.fai 280319 > reference/ref.txt 2>> snps.log
+[08:52:45] Running: freebayes-parallel reference/ref.txt 4 -p 1 -q 20 -m 60 --min-coverage 10 -V -f reference/ref.fa snps.bam > snps.raw.vcf 2>> snps.log
+[09:02:32] Running: /opt/snippy/bin/snippy-vcf_filter --minqual 10 --mincov 10 --minfrac 0.9  snps.raw.vcf > snps.filt.vcf 2>> snps.log
+[09:02:33] Running: snpEff ann -no-downstream -no-upstream -no-intergenic -no-utr -c reference/snpeff.config -dataDir . -noStats ref snps.filt.vcf > snps.vcf 2>> snps.log
+[09:02:43] Running: bgzip -c snps.vcf > snps.vcf.gz 2>> snps.log
+[09:02:43] Running: tabix -p vcf snps.vcf.gz 2>> snps.log
+[09:02:43] Running: /opt/snippy/bin/snippy-vcf_to_tab --gff reference/ref.gff --ref reference/ref.fa --vcf snps.vcf > snps.tab 2>> snps.log
+[09:03:01] Running: vcf-consensus snps.vcf.gz < reference/ref.fa > snps.consensus.fa 2>> snps.log
+[09:03:05] Running: /opt/snippy/bin/snippy-vcf_filter --subs snps.filt.vcf > snps.filt.subs.vcf 2>> snps.log
+[09:03:06] Running: bgzip -c snps.filt.subs.vcf > snps.filt.subs.vcf.gz 2>> snps.log
+[09:03:06] Running: tabix -p vcf snps.filt.subs.vcf.gz 2>> snps.log
+[09:03:06] Running: vcf-consensus snps.filt.subs.vcf.gz < reference/ref.fa > snps.consensus.subs.fa 2>> snps.log
+[09:03:09] Generating aligned/masked FASTA relative to reference: snps.aligned.fa
+[09:03:33] Creating extra output files: BED GFF CSV TXT HTML
+[09:03:33] Identified 2129 variants.
+[09:03:33] Result folder: SAMEA1877187
+[09:03:33] Result files:
+[09:03:33] * SAMEA1877187/snps.aligned.fa
+[09:03:33] * SAMEA1877187/snps.bam
+[09:03:33] * SAMEA1877187/snps.bam.bai
+[09:03:33] * SAMEA1877187/snps.bed
+[09:03:33] * SAMEA1877187/snps.consensus.fa
+[09:03:33] * SAMEA1877187/snps.consensus.subs.fa
+[09:03:33] * SAMEA1877187/snps.csv
+[09:03:33] * SAMEA1877187/snps.depth.gz
+[09:03:33] * SAMEA1877187/snps.depth.gz.tbi
+[09:03:33] * SAMEA1877187/snps.filt.subs.vcf
+[09:03:33] * SAMEA1877187/snps.filt.subs.vcf.gz
+[09:03:33] * SAMEA1877187/snps.filt.subs.vcf.gz.tbi
+[09:03:33] * SAMEA1877187/snps.filt.vcf
+[09:03:33] * SAMEA1877187/snps.gff
+[09:03:33] * SAMEA1877187/snps.html
+[09:03:33] * SAMEA1877187/snps.log
+[09:03:33] * SAMEA1877187/snps.raw.vcf
+[09:03:33] * SAMEA1877187/snps.tab
+[09:03:33] * SAMEA1877187/snps.txt
+[09:03:33] * SAMEA1877187/snps.vcf
+[09:03:33] * SAMEA1877187/snps.vcf.gz
+[09:03:33] * SAMEA1877187/snps.vcf.gz.tbi
+[09:03:33] Walltime used: 25 minutes, 35 seconds
+[09:03:33] Found a bug? Post it at https://github.com/tseemann/snippy/issues
+[09:03:33] Done.
+[09:03:38] This is snippy 3.2-dev
+[09:03:38] Written by Torsten Seemann <torsten.seemann@gmail.com>
+[09:03:38] Obtained from https://github.com/tseemann/snippy
+[09:03:38] Detected operating system: linux
+[09:03:38] Enabling bundled linux tools.
+[09:03:38] Found bwa - /opt/snippy/binaries/linux/bwa
+[09:03:38] Found samtools - /opt/snippy/binaries/linux/samtools
+[09:03:38] Found tabix - /opt/snippy/binaries/linux/tabix
+[09:03:38] Found bgzip - /opt/snippy/binaries/linux/bgzip
+[09:03:38] Found snpEff - /opt/snippy/binaries/noarch/snpEff
+[09:03:38] Found java - /usr/bin/java
+[09:03:38] Found gzip - /usr/bin/gzip
+[09:03:38] Found parallel - /opt/snippy/binaries/noarch/parallel
+[09:03:38] Found freebayes - /opt/snippy/binaries/linux/freebayes
+[09:03:38] Found freebayes-parallel - /opt/snippy/binaries/noarch/freebayes-parallel
+[09:03:38] Found fasta_generate_regions.py - /opt/snippy/binaries/noarch/fasta_generate_regions.py
+[09:03:38] Found vcfstreamsort - /opt/snippy/binaries/linux/vcfstreamsort
+[09:03:38] Found vcfuniq - /opt/snippy/binaries/linux/vcfuniq
+[09:03:38] Found vcffirstheader - /opt/snippy/binaries/noarch/vcffirstheader
+[09:03:38] Found vcf-consensus - /opt/snippy/binaries/noarch/vcf-consensus
+[09:03:38] Found snippy-vcf_to_tab - /opt/snippy/bin/snippy-vcf_to_tab
+[09:03:38] Found snippy-vcf_report - /opt/snippy/bin/snippy-vcf_report
+[09:03:38] Found snippy-vcf_filter - /opt/snippy/bin/snippy-vcf_filter
+[09:03:38] Checking version: samtools --version is >= 1.3 - ok, have 1.3
+[09:03:38] Using reference: /vagrant/africanum_analysis/lab/NC000962_3.gbk
+[09:03:39] Treating reference as 'genbank' format.
+[09:03:39] Will use 4 CPU cores.
+[09:03:39] Using read file: /vagrant/africanum_analysis/lab/SAMEA1877190_1.fastq.gz
+[09:03:39] Using read file: /vagrant/africanum_analysis/lab/SAMEA1877190_2.fastq.gz
+[09:03:39] Creating folder: SAMEA1877190
+[09:03:39] Changing working directory: SAMEA1877190
+[09:03:39] Creating reference folder: reference
+[09:03:39] Extracting FASTA and GFF from reference.
+[09:03:55] Wrote 1 sequences to ref.fa
+[09:03:55] Wrote 4416 features to ref.gff
+[09:03:55] Creating reference/snpeff.config
+[09:03:55] Freebayes will process 16 chunks of 280319 bp, 4 chunks at a time.
+[09:03:55] Using BAM RG (Read Group) ID: snps
+[09:03:55] Running: samtools faidx reference/ref.fa 2>> snps.log
+[09:03:55] Running: bwa index reference/ref.fa 2>> snps.log
+[09:04:03] Running: mkdir reference/genomes && cp -f reference/ref.fa reference/genomes/ref.fa 2>> snps.log
+[09:04:03] Running: mkdir reference/ref && bgzip -c reference/ref.gff > reference/ref/genes.gff.gz 2>> snps.log
+[09:04:04] Running: snpEff build -c reference/snpeff.config -dataDir . -gff3 ref 2>> snps.log
+[09:04:13] Running: (bwa mem  -v 2 -M -R '@RG\tID:snps\tSM:snps' -t 4 reference/ref.fa /vagrant/africanum_analysis/lab/SAMEA1877190_1.fastq.gz /vagrant/africanum_analysis/lab/SAMEA1877190_2.fastq.gz | samtools sort --reference reference/ref.fa > snps.bam) 2>> snps.log
+[09:20:22] Running: samtools index snps.bam 2>> snps.log
+[09:20:52] Running: samtools depth -q 20 snps.bam | bgzip > snps.depth.gz 2>> snps.log
+[09:22:38] Running: tabix -s 1 -b 2 -e 2 snps.depth.gz 2>> snps.log
+[09:22:40] Running: fasta_generate_regions.py reference/ref.fa.fai 280319 > reference/ref.txt 2>> snps.log
+[09:22:40] Running: freebayes-parallel reference/ref.txt 4 -p 1 -q 20 -m 60 --min-coverage 10 -V -f reference/ref.fa snps.bam > snps.raw.vcf 2>> snps.log
+[09:35:24] Running: /opt/snippy/bin/snippy-vcf_filter --minqual 10 --mincov 10 --minfrac 0.9  snps.raw.vcf > snps.filt.vcf 2>> snps.log
+[09:35:25] Running: snpEff ann -no-downstream -no-upstream -no-intergenic -no-utr -c reference/snpeff.config -dataDir . -noStats ref snps.filt.vcf > snps.vcf 2>> snps.log
+[09:35:34] Running: bgzip -c snps.vcf > snps.vcf.gz 2>> snps.log
+[09:35:34] Running: tabix -p vcf snps.vcf.gz 2>> snps.log
+[09:35:34] Running: /opt/snippy/bin/snippy-vcf_to_tab --gff reference/ref.gff --ref reference/ref.fa --vcf snps.vcf > snps.tab 2>> snps.log
+[09:35:53] Running: vcf-consensus snps.vcf.gz < reference/ref.fa > snps.consensus.fa 2>> snps.log
+[09:35:56] Running: /opt/snippy/bin/snippy-vcf_filter --subs snps.filt.vcf > snps.filt.subs.vcf 2>> snps.log
+[09:35:58] Running: bgzip -c snps.filt.subs.vcf > snps.filt.subs.vcf.gz 2>> snps.log
+[09:35:58] Running: tabix -p vcf snps.filt.subs.vcf.gz 2>> snps.log
+[09:35:58] Running: vcf-consensus snps.filt.subs.vcf.gz < reference/ref.fa > snps.consensus.subs.fa 2>> snps.log
+[09:36:01] Generating aligned/masked FASTA relative to reference: snps.aligned.fa
+[09:36:24] Creating extra output files: BED GFF CSV TXT HTML
+[09:36:24] Identified 2341 variants.
+[09:36:24] Result folder: SAMEA1877190
+[09:36:24] Result files:
+[09:36:24] * SAMEA1877190/snps.aligned.fa
+[09:36:24] * SAMEA1877190/snps.bam
+[09:36:24] * SAMEA1877190/snps.bam.bai
+[09:36:24] * SAMEA1877190/snps.bed
+[09:36:24] * SAMEA1877190/snps.consensus.fa
+[09:36:24] * SAMEA1877190/snps.consensus.subs.fa
+[09:36:24] * SAMEA1877190/snps.csv
+[09:36:24] * SAMEA1877190/snps.depth.gz
+[09:36:24] * SAMEA1877190/snps.depth.gz.tbi
+[09:36:24] * SAMEA1877190/snps.filt.subs.vcf
+[09:36:24] * SAMEA1877190/snps.filt.subs.vcf.gz
+[09:36:24] * SAMEA1877190/snps.filt.subs.vcf.gz.tbi
+[09:36:24] * SAMEA1877190/snps.filt.vcf
+[09:36:24] * SAMEA1877190/snps.gff
+[09:36:24] * SAMEA1877190/snps.html
+[09:36:24] * SAMEA1877190/snps.log
+[09:36:24] * SAMEA1877190/snps.raw.vcf
+[09:36:24] * SAMEA1877190/snps.tab
+[09:36:24] * SAMEA1877190/snps.txt
+[09:36:24] * SAMEA1877190/snps.vcf
+[09:36:24] * SAMEA1877190/snps.vcf.gz
+[09:36:24] * SAMEA1877190/snps.vcf.gz.tbi
+[09:36:24] Walltime used: 32 minutes, 46 seconds
+[09:36:24] Did you know? Snippy is a combination of SNP, Skippy, and snappy.
+[09:36:24] Done.
+[09:36:30] This is snippy 3.2-dev
+[09:36:30] Written by Torsten Seemann <torsten.seemann@gmail.com>
+[09:36:30] Obtained from https://github.com/tseemann/snippy
+[09:36:30] Detected operating system: linux
+[09:36:30] Enabling bundled linux tools.
+[09:36:30] Found bwa - /opt/snippy/binaries/linux/bwa
+[09:36:30] Found samtools - /opt/snippy/binaries/linux/samtools
+[09:36:30] Found tabix - /opt/snippy/binaries/linux/tabix
+[09:36:30] Found bgzip - /opt/snippy/binaries/linux/bgzip
+[09:36:30] Found snpEff - /opt/snippy/binaries/noarch/snpEff
+[09:36:30] Found java - /usr/bin/java
+[09:36:30] Found gzip - /usr/bin/gzip
+[09:36:30] Found parallel - /opt/snippy/binaries/noarch/parallel
+[09:36:30] Found freebayes - /opt/snippy/binaries/linux/freebayes
+[09:36:30] Found freebayes-parallel - /opt/snippy/binaries/noarch/freebayes-parallel
+[09:36:30] Found fasta_generate_regions.py - /opt/snippy/binaries/noarch/fasta_generate_regions.py
+[09:36:30] Found vcfstreamsort - /opt/snippy/binaries/linux/vcfstreamsort
+[09:36:30] Found vcfuniq - /opt/snippy/binaries/linux/vcfuniq
+[09:36:30] Found vcffirstheader - /opt/snippy/binaries/noarch/vcffirstheader
+[09:36:30] Found vcf-consensus - /opt/snippy/binaries/noarch/vcf-consensus
+[09:36:30] Found snippy-vcf_to_tab - /opt/snippy/bin/snippy-vcf_to_tab
+[09:36:30] Found snippy-vcf_report - /opt/snippy/bin/snippy-vcf_report
+[09:36:30] Found snippy-vcf_filter - /opt/snippy/bin/snippy-vcf_filter
+[09:36:30] Checking version: samtools --version is >= 1.3 - ok, have 1.3
+[09:36:30] Using reference: /vagrant/africanum_analysis/lab/NC000962_3.gbk
+[09:36:31] Treating reference as 'genbank' format.
+[09:36:31] Will use 4 CPU cores.
+[09:36:31] Using read file: /vagrant/africanum_analysis/lab/SAMEA1877206_1.fastq.gz
+[09:36:31] Using read file: /vagrant/africanum_analysis/lab/SAMEA1877206_2.fastq.gz
+[09:36:31] Creating folder: SAMEA1877206
+[09:36:31] Changing working directory: SAMEA1877206
+[09:36:31] Creating reference folder: reference
+[09:36:31] Extracting FASTA and GFF from reference.
+[09:36:47] Wrote 1 sequences to ref.fa
+[09:36:47] Wrote 4416 features to ref.gff
+[09:36:47] Creating reference/snpeff.config
+[09:36:47] Freebayes will process 16 chunks of 280319 bp, 4 chunks at a time.
+[09:36:47] Using BAM RG (Read Group) ID: snps
+[09:36:47] Running: samtools faidx reference/ref.fa 2>> snps.log
+[09:36:47] Running: bwa index reference/ref.fa 2>> snps.log
+[09:36:55] Running: mkdir reference/genomes && cp -f reference/ref.fa reference/genomes/ref.fa 2>> snps.log
+[09:36:55] Running: mkdir reference/ref && bgzip -c reference/ref.gff > reference/ref/genes.gff.gz 2>> snps.log
+[09:36:56] Running: snpEff build -c reference/snpeff.config -dataDir . -gff3 ref 2>> snps.log
+[09:37:04] Running: (bwa mem  -v 2 -M -R '@RG\tID:snps\tSM:snps' -t 4 reference/ref.fa /vagrant/africanum_analysis/lab/SAMEA1877206_1.fastq.gz /vagrant/africanum_analysis/lab/SAMEA1877206_2.fastq.gz | samtools sort --reference reference/ref.fa > snps.bam) 2>> snps.log
+[09:51:36] Running: samtools index snps.bam 2>> snps.log
+[09:52:00] Running: samtools depth -q 20 snps.bam | bgzip > snps.depth.gz 2>> snps.log
+[09:53:18] Running: tabix -s 1 -b 2 -e 2 snps.depth.gz 2>> snps.log
+[09:53:21] Running: fasta_generate_regions.py reference/ref.fa.fai 280319 > reference/ref.txt 2>> snps.log
+[09:53:21] Running: freebayes-parallel reference/ref.txt 4 -p 1 -q 20 -m 60 --min-coverage 10 -V -f reference/ref.fa snps.bam > snps.raw.vcf 2>> snps.log
+[10:04:35] Running: /opt/snippy/bin/snippy-vcf_filter --minqual 10 --mincov 10 --minfrac 0.9  snps.raw.vcf > snps.filt.vcf 2>> snps.log
+[10:04:37] Running: snpEff ann -no-downstream -no-upstream -no-intergenic -no-utr -c reference/snpeff.config -dataDir . -noStats ref snps.filt.vcf > snps.vcf 2>> snps.log
+[10:04:45] Running: bgzip -c snps.vcf > snps.vcf.gz 2>> snps.log
+[10:04:46] Running: tabix -p vcf snps.vcf.gz 2>> snps.log
+[10:04:46] Running: /opt/snippy/bin/snippy-vcf_to_tab --gff reference/ref.gff --ref reference/ref.fa --vcf snps.vcf > snps.tab 2>> snps.log
+[10:05:05] Running: vcf-consensus snps.vcf.gz < reference/ref.fa > snps.consensus.fa 2>> snps.log
+[10:05:08] Running: /opt/snippy/bin/snippy-vcf_filter --subs snps.filt.vcf > snps.filt.subs.vcf 2>> snps.log
+[10:05:09] Running: bgzip -c snps.filt.subs.vcf > snps.filt.subs.vcf.gz 2>> snps.log
+[10:05:09] Running: tabix -p vcf snps.filt.subs.vcf.gz 2>> snps.log
+[10:05:10] Running: vcf-consensus snps.filt.subs.vcf.gz < reference/ref.fa > snps.consensus.subs.fa 2>> snps.log
+[10:05:13] Generating aligned/masked FASTA relative to reference: snps.aligned.fa
+[10:05:36] Creating extra output files: BED GFF CSV TXT HTML
+[10:05:36] Identified 2067 variants.
+[10:05:36] Result folder: SAMEA1877206
+[10:05:36] Result files:
+[10:05:36] * SAMEA1877206/snps.aligned.fa
+[10:05:36] * SAMEA1877206/snps.bam
+[10:05:36] * SAMEA1877206/snps.bam.bai
+[10:05:36] * SAMEA1877206/snps.bed
+[10:05:36] * SAMEA1877206/snps.consensus.fa
+[10:05:36] * SAMEA1877206/snps.consensus.subs.fa
+[10:05:36] * SAMEA1877206/snps.csv
+[10:05:36] * SAMEA1877206/snps.depth.gz
+[10:05:36] * SAMEA1877206/snps.depth.gz.tbi
+[10:05:36] * SAMEA1877206/snps.filt.subs.vcf
+[10:05:36] * SAMEA1877206/snps.filt.subs.vcf.gz
+[10:05:36] * SAMEA1877206/snps.filt.subs.vcf.gz.tbi
+[10:05:36] * SAMEA1877206/snps.filt.vcf
+[10:05:36] * SAMEA1877206/snps.gff
+[10:05:36] * SAMEA1877206/snps.html
+[10:05:36] * SAMEA1877206/snps.log
+[10:05:36] * SAMEA1877206/snps.raw.vcf
+[10:05:36] * SAMEA1877206/snps.tab
+[10:05:36] * SAMEA1877206/snps.txt
+[10:05:36] * SAMEA1877206/snps.vcf
+[10:05:36] * SAMEA1877206/snps.vcf.gz
+[10:05:36] * SAMEA1877206/snps.vcf.gz.tbi
+[10:05:36] Walltime used: 29 minutes, 6 seconds
+[10:05:36] May the SNPs be with you.
+[10:05:36] Done.
+[10:05:41] This is snippy 3.2-dev
+[10:05:41] Written by Torsten Seemann <torsten.seemann@gmail.com>
+[10:05:41] Obtained from https://github.com/tseemann/snippy
+[10:05:41] Detected operating system: linux
+[10:05:41] Enabling bundled linux tools.
+[10:05:41] Found bwa - /opt/snippy/binaries/linux/bwa
+[10:05:41] Found samtools - /opt/snippy/binaries/linux/samtools
+[10:05:41] Found tabix - /opt/snippy/binaries/linux/tabix
+[10:05:41] Found bgzip - /opt/snippy/binaries/linux/bgzip
+[10:05:41] Found snpEff - /opt/snippy/binaries/noarch/snpEff
+[10:05:41] Found java - /usr/bin/java
+[10:05:41] Found gzip - /usr/bin/gzip
+[10:05:41] Found parallel - /opt/snippy/binaries/noarch/parallel
+[10:05:41] Found freebayes - /opt/snippy/binaries/linux/freebayes
+[10:05:41] Found freebayes-parallel - /opt/snippy/binaries/noarch/freebayes-parallel
+[10:05:41] Found fasta_generate_regions.py - /opt/snippy/binaries/noarch/fasta_generate_regions.py
+[10:05:41] Found vcfstreamsort - /opt/snippy/binaries/linux/vcfstreamsort
+[10:05:41] Found vcfuniq - /opt/snippy/binaries/linux/vcfuniq
+[10:05:41] Found vcffirstheader - /opt/snippy/binaries/noarch/vcffirstheader
+[10:05:41] Found vcf-consensus - /opt/snippy/binaries/noarch/vcf-consensus
+[10:05:41] Found snippy-vcf_to_tab - /opt/snippy/bin/snippy-vcf_to_tab
+[10:05:41] Found snippy-vcf_report - /opt/snippy/bin/snippy-vcf_report
+[10:05:41] Found snippy-vcf_filter - /opt/snippy/bin/snippy-vcf_filter
+[10:05:41] Checking version: samtools --version is >= 1.3 - ok, have 1.3
+[10:05:41] Using reference: /vagrant/africanum_analysis/lab/NC000962_3.gbk
+[10:05:42] Treating reference as 'genbank' format.
+[10:05:42] Will use 4 CPU cores.
+[10:05:42] Using read file: /vagrant/africanum_analysis/lab/SAMEA1877207_1.fastq.gz
+[10:05:42] Using read file: /vagrant/africanum_analysis/lab/SAMEA1877207_2.fastq.gz
+[10:05:42] Creating folder: SAMEA1877207
+[10:05:42] Changing working directory: SAMEA1877207
+[10:05:42] Creating reference folder: reference
+[10:05:42] Extracting FASTA and GFF from reference.
+[10:05:58] Wrote 1 sequences to ref.fa
+[10:05:58] Wrote 4416 features to ref.gff
+[10:05:58] Creating reference/snpeff.config
+[10:05:58] Freebayes will process 16 chunks of 280319 bp, 4 chunks at a time.
+[10:05:58] Using BAM RG (Read Group) ID: snps
+[10:05:58] Running: samtools faidx reference/ref.fa 2>> snps.log
+[10:05:58] Running: bwa index reference/ref.fa 2>> snps.log
+[10:06:06] Running: mkdir reference/genomes && cp -f reference/ref.fa reference/genomes/ref.fa 2>> snps.log
+[10:06:06] Running: mkdir reference/ref && bgzip -c reference/ref.gff > reference/ref/genes.gff.gz 2>> snps.log
+[10:06:07] Running: snpEff build -c reference/snpeff.config -dataDir . -gff3 ref 2>> snps.log
+[10:06:16] Running: (bwa mem  -v 2 -M -R '@RG\tID:snps\tSM:snps' -t 4 reference/ref.fa /vagrant/africanum_analysis/lab/SAMEA1877207_1.fastq.gz /vagrant/africanum_analysis/lab/SAMEA1877207_2.fastq.gz | samtools sort --reference reference/ref.fa > snps.bam) 2>> snps.log
+[10:16:46] Running: samtools index snps.bam 2>> snps.log
+[10:17:04] Running: samtools depth -q 20 snps.bam | bgzip > snps.depth.gz 2>> snps.log
+[10:17:59] Running: tabix -s 1 -b 2 -e 2 snps.depth.gz 2>> snps.log
+[10:18:01] Running: fasta_generate_regions.py reference/ref.fa.fai 280319 > reference/ref.txt 2>> snps.log
+[10:18:01] Running: freebayes-parallel reference/ref.txt 4 -p 1 -q 20 -m 60 --min-coverage 10 -V -f reference/ref.fa snps.bam > snps.raw.vcf 2>> snps.log
+[10:26:05] Running: /opt/snippy/bin/snippy-vcf_filter --minqual 10 --mincov 10 --minfrac 0.9  snps.raw.vcf > snps.filt.vcf 2>> snps.log
+[10:26:07] Running: snpEff ann -no-downstream -no-upstream -no-intergenic -no-utr -c reference/snpeff.config -dataDir . -noStats ref snps.filt.vcf > snps.vcf 2>> snps.log
+[10:26:16] Running: bgzip -c snps.vcf > snps.vcf.gz 2>> snps.log
+[10:26:16] Running: tabix -p vcf snps.vcf.gz 2>> snps.log
+[10:26:16] Running: /opt/snippy/bin/snippy-vcf_to_tab --gff reference/ref.gff --ref reference/ref.fa --vcf snps.vcf > snps.tab 2>> snps.log
+[10:26:34] Running: vcf-consensus snps.vcf.gz < reference/ref.fa > snps.consensus.fa 2>> snps.log
+[10:26:38] Running: /opt/snippy/bin/snippy-vcf_filter --subs snps.filt.vcf > snps.filt.subs.vcf 2>> snps.log
+[10:26:39] Running: bgzip -c snps.filt.subs.vcf > snps.filt.subs.vcf.gz 2>> snps.log
+[10:26:39] Running: tabix -p vcf snps.filt.subs.vcf.gz 2>> snps.log
+[10:26:39] Running: vcf-consensus snps.filt.subs.vcf.gz < reference/ref.fa > snps.consensus.subs.fa 2>> snps.log
+[10:26:42] Generating aligned/masked FASTA relative to reference: snps.aligned.fa
+[10:27:05] Creating extra output files: BED GFF CSV TXT HTML
+[10:27:06] Identified 2096 variants.
+[10:27:06] Result folder: SAMEA1877207
+[10:27:06] Result files:
+[10:27:06] * SAMEA1877207/snps.aligned.fa
+[10:27:06] * SAMEA1877207/snps.bam
+[10:27:06] * SAMEA1877207/snps.bam.bai
+[10:27:06] * SAMEA1877207/snps.bed
+[10:27:06] * SAMEA1877207/snps.consensus.fa
+[10:27:06] * SAMEA1877207/snps.consensus.subs.fa
+[10:27:06] * SAMEA1877207/snps.csv
+[10:27:06] * SAMEA1877207/snps.depth.gz
+[10:27:06] * SAMEA1877207/snps.depth.gz.tbi
+[10:27:06] * SAMEA1877207/snps.filt.subs.vcf
+[10:27:06] * SAMEA1877207/snps.filt.subs.vcf.gz
+[10:27:06] * SAMEA1877207/snps.filt.subs.vcf.gz.tbi
+[10:27:06] * SAMEA1877207/snps.filt.vcf
+[10:27:06] * SAMEA1877207/snps.gff
+[10:27:06] * SAMEA1877207/snps.html
+[10:27:06] * SAMEA1877207/snps.log
+[10:27:06] * SAMEA1877207/snps.raw.vcf
+[10:27:06] * SAMEA1877207/snps.tab
+[10:27:06] * SAMEA1877207/snps.txt
+[10:27:06] * SAMEA1877207/snps.vcf
+[10:27:06] * SAMEA1877207/snps.vcf.gz
+[10:27:06] * SAMEA1877207/snps.vcf.gz.tbi
+[10:27:06] Walltime used: 21 minutes, 25 seconds
+[10:27:06] Found a bug? Post it at https://github.com/tseemann/snippy/issues
+[10:27:06] Done.
+[10:27:10] This is snippy 3.2-dev
+[10:27:10] Written by Torsten Seemann <torsten.seemann@gmail.com>
+[10:27:10] Obtained from https://github.com/tseemann/snippy
+[10:27:10] Detected operating system: linux
+[10:27:10] Enabling bundled linux tools.
+[10:27:10] Found bwa - /opt/snippy/binaries/linux/bwa
+[10:27:11] Found samtools - /opt/snippy/binaries/linux/samtools
+[10:27:11] Found tabix - /opt/snippy/binaries/linux/tabix
+[10:27:11] Found bgzip - /opt/snippy/binaries/linux/bgzip
+[10:27:11] Found snpEff - /opt/snippy/binaries/noarch/snpEff
+[10:27:11] Found java - /usr/bin/java
+[10:27:11] Found gzip - /usr/bin/gzip
+[10:27:11] Found parallel - /opt/snippy/binaries/noarch/parallel
+[10:27:11] Found freebayes - /opt/snippy/binaries/linux/freebayes
+[10:27:11] Found freebayes-parallel - /opt/snippy/binaries/noarch/freebayes-parallel
+[10:27:11] Found fasta_generate_regions.py - /opt/snippy/binaries/noarch/fasta_generate_regions.py
+[10:27:11] Found vcfstreamsort - /opt/snippy/binaries/linux/vcfstreamsort
+[10:27:11] Found vcfuniq - /opt/snippy/binaries/linux/vcfuniq
+[10:27:11] Found vcffirstheader - /opt/snippy/binaries/noarch/vcffirstheader
+[10:27:11] Found vcf-consensus - /opt/snippy/binaries/noarch/vcf-consensus
+[10:27:11] Found snippy-vcf_to_tab - /opt/snippy/bin/snippy-vcf_to_tab
+[10:27:11] Found snippy-vcf_report - /opt/snippy/bin/snippy-vcf_report
+[10:27:11] Found snippy-vcf_filter - /opt/snippy/bin/snippy-vcf_filter
+[10:27:11] Checking version: samtools --version is >= 1.3 - ok, have 1.3
+[10:27:11] Using reference: /vagrant/africanum_analysis/lab/NC000962_3.gbk
+[10:27:11] Treating reference as 'genbank' format.
+[10:27:11] Will use 4 CPU cores.
+[10:27:11] Using read file: /vagrant/africanum_analysis/lab/SAMEA1877219_L2_1.fastq.gz
+[10:27:11] Using read file: /vagrant/africanum_analysis/lab/SAMEA1877219_L2_2.fastq.gz
+[10:27:11] Creating folder: SAMEA1877219_L2
+[10:27:11] Changing working directory: SAMEA1877219_L2
+[10:27:11] Creating reference folder: reference
+[10:27:11] Extracting FASTA and GFF from reference.
+[10:27:27] Wrote 1 sequences to ref.fa
+[10:27:27] Wrote 4416 features to ref.gff
+[10:27:27] Creating reference/snpeff.config
+[10:27:27] Freebayes will process 16 chunks of 280319 bp, 4 chunks at a time.
+[10:27:27] Using BAM RG (Read Group) ID: snps
+[10:27:27] Running: samtools faidx reference/ref.fa 2>> snps.log
+[10:27:28] Running: bwa index reference/ref.fa 2>> snps.log
+[10:27:35] Running: mkdir reference/genomes && cp -f reference/ref.fa reference/genomes/ref.fa 2>> snps.log
+[10:27:36] Running: mkdir reference/ref && bgzip -c reference/ref.gff > reference/ref/genes.gff.gz 2>> snps.log
+[10:27:36] Running: snpEff build -c reference/snpeff.config -dataDir . -gff3 ref 2>> snps.log
+[10:27:45] Running: (bwa mem  -v 2 -M -R '@RG\tID:snps\tSM:snps' -t 4 reference/ref.fa /vagrant/africanum_analysis/lab/SAMEA1877219_L2_1.fastq.gz /vagrant/africanum_analysis/lab/SAMEA1877219_L2_2.fastq.gz | samtools sort --reference reference/ref.fa > snps.bam) 2>> snps.log
+[10:42:11] Running: samtools index snps.bam 2>> snps.log
+[10:42:38] Running: samtools depth -q 20 snps.bam | bgzip > snps.depth.gz 2>> snps.log
+[10:44:02] Running: tabix -s 1 -b 2 -e 2 snps.depth.gz 2>> snps.log
+[10:44:04] Running: fasta_generate_regions.py reference/ref.fa.fai 280319 > reference/ref.txt 2>> snps.log
+[10:44:05] Running: freebayes-parallel reference/ref.txt 4 -p 1 -q 20 -m 60 --min-coverage 10 -V -f reference/ref.fa snps.bam > snps.raw.vcf 2>> snps.log
+[10:55:26] Running: /opt/snippy/bin/snippy-vcf_filter --minqual 10 --mincov 10 --minfrac 0.9  snps.raw.vcf > snps.filt.vcf 2>> snps.log
+[10:55:27] Running: snpEff ann -no-downstream -no-upstream -no-intergenic -no-utr -c reference/snpeff.config -dataDir . -noStats ref snps.filt.vcf > snps.vcf 2>> snps.log
+[10:55:36] Running: bgzip -c snps.vcf > snps.vcf.gz 2>> snps.log
+[10:55:36] Running: tabix -p vcf snps.vcf.gz 2>> snps.log
+[10:55:36] Running: /opt/snippy/bin/snippy-vcf_to_tab --gff reference/ref.gff --ref reference/ref.fa --vcf snps.vcf > snps.tab 2>> snps.log
+[10:55:54] Running: vcf-consensus snps.vcf.gz < reference/ref.fa > snps.consensus.fa 2>> snps.log
+[10:55:58] Running: /opt/snippy/bin/snippy-vcf_filter --subs snps.filt.vcf > snps.filt.subs.vcf 2>> snps.log
+[10:55:59] Running: bgzip -c snps.filt.subs.vcf > snps.filt.subs.vcf.gz 2>> snps.log
+[10:55:59] Running: tabix -p vcf snps.filt.subs.vcf.gz 2>> snps.log
+[10:55:59] Running: vcf-consensus snps.filt.subs.vcf.gz < reference/ref.fa > snps.consensus.subs.fa 2>> snps.log
+[10:56:02] Generating aligned/masked FASTA relative to reference: snps.aligned.fa
+[10:56:25] Creating extra output files: BED GFF CSV TXT HTML
+[10:56:26] Identified 1441 variants.
+[10:56:26] Result folder: SAMEA1877219_L2
+[10:56:26] Result files:
+[10:56:26] * SAMEA1877219_L2/snps.aligned.fa
+[10:56:26] * SAMEA1877219_L2/snps.bam
+[10:56:26] * SAMEA1877219_L2/snps.bam.bai
+[10:56:26] * SAMEA1877219_L2/snps.bed
+[10:56:26] * SAMEA1877219_L2/snps.consensus.fa
+[10:56:26] * SAMEA1877219_L2/snps.consensus.subs.fa
+[10:56:26] * SAMEA1877219_L2/snps.csv
+[10:56:26] * SAMEA1877219_L2/snps.depth.gz
+[10:56:26] * SAMEA1877219_L2/snps.depth.gz.tbi
+[10:56:26] * SAMEA1877219_L2/snps.filt.subs.vcf
+[10:56:26] * SAMEA1877219_L2/snps.filt.subs.vcf.gz
+[10:56:26] * SAMEA1877219_L2/snps.filt.subs.vcf.gz.tbi
+[10:56:26] * SAMEA1877219_L2/snps.filt.vcf
+[10:56:26] * SAMEA1877219_L2/snps.gff
+[10:56:26] * SAMEA1877219_L2/snps.html
+[10:56:26] * SAMEA1877219_L2/snps.log
+[10:56:26] * SAMEA1877219_L2/snps.raw.vcf
+[10:56:26] * SAMEA1877219_L2/snps.tab
+[10:56:26] * SAMEA1877219_L2/snps.txt
+[10:56:26] * SAMEA1877219_L2/snps.vcf
+[10:56:26] * SAMEA1877219_L2/snps.vcf.gz
+[10:56:26] * SAMEA1877219_L2/snps.vcf.gz.tbi
+[10:56:26] Walltime used: 29 minutes, 16 seconds
+[10:56:26] Questionable SNP? Try the --report option to see the alignments.
+[10:56:26] Done.
+[10:56:31] This is snippy 3.2-dev
+[10:56:31] Written by Torsten Seemann <torsten.seemann@gmail.com>
+[10:56:31] Obtained from https://github.com/tseemann/snippy
+[10:56:31] Detected operating system: linux
+[10:56:31] Enabling bundled linux tools.
+[10:56:31] Found bwa - /opt/snippy/binaries/linux/bwa
+[10:56:31] Found samtools - /opt/snippy/binaries/linux/samtools
+[10:56:31] Found tabix - /opt/snippy/binaries/linux/tabix
+[10:56:31] Found bgzip - /opt/snippy/binaries/linux/bgzip
+[10:56:31] Found snpEff - /opt/snippy/binaries/noarch/snpEff
+[10:56:31] Found java - /usr/bin/java
+[10:56:31] Found gzip - /usr/bin/gzip
+[10:56:31] Found parallel - /opt/snippy/binaries/noarch/parallel
+[10:56:31] Found freebayes - /opt/snippy/binaries/linux/freebayes
+[10:56:31] Found freebayes-parallel - /opt/snippy/binaries/noarch/freebayes-parallel
+[10:56:31] Found fasta_generate_regions.py - /opt/snippy/binaries/noarch/fasta_generate_regions.py
+[10:56:31] Found vcfstreamsort - /opt/snippy/binaries/linux/vcfstreamsort
+[10:56:31] Found vcfuniq - /opt/snippy/binaries/linux/vcfuniq
+[10:56:31] Found vcffirstheader - /opt/snippy/binaries/noarch/vcffirstheader
+[10:56:31] Found vcf-consensus - /opt/snippy/binaries/noarch/vcf-consensus
+[10:56:31] Found snippy-vcf_to_tab - /opt/snippy/bin/snippy-vcf_to_tab
+[10:56:31] Found snippy-vcf_report - /opt/snippy/bin/snippy-vcf_report
+[10:56:31] Found snippy-vcf_filter - /opt/snippy/bin/snippy-vcf_filter
+[10:56:31] Checking version: samtools --version is >= 1.3 - ok, have 1.3
+[10:56:31] Using reference: /vagrant/africanum_analysis/lab/NC000962_3.gbk
+[10:56:31] Treating reference as 'genbank' format.
+[10:56:31] Will use 4 CPU cores.
+[10:56:31] Using read file: /vagrant/africanum_analysis/lab/SAMEA1877227_1.fastq.gz
+[10:56:31] Using read file: /vagrant/africanum_analysis/lab/SAMEA1877227_2.fastq.gz
+[10:56:31] Creating folder: SAMEA1877227
+[10:56:31] Changing working directory: SAMEA1877227
+[10:56:31] Creating reference folder: reference
+[10:56:31] Extracting FASTA and GFF from reference.
+[10:56:48] Wrote 1 sequences to ref.fa
+[10:56:48] Wrote 4416 features to ref.gff
+[10:56:48] Creating reference/snpeff.config
+[10:56:48] Freebayes will process 16 chunks of 280319 bp, 4 chunks at a time.
+[10:56:48] Using BAM RG (Read Group) ID: snps
+[10:56:48] Running: samtools faidx reference/ref.fa 2>> snps.log
+[10:56:48] Running: bwa index reference/ref.fa 2>> snps.log
+[10:56:56] Running: mkdir reference/genomes && cp -f reference/ref.fa reference/genomes/ref.fa 2>> snps.log
+[10:56:56] Running: mkdir reference/ref && bgzip -c reference/ref.gff > reference/ref/genes.gff.gz 2>> snps.log
+[10:56:56] Running: snpEff build -c reference/snpeff.config -dataDir . -gff3 ref 2>> snps.log
+[10:57:06] Running: (bwa mem  -v 2 -M -R '@RG\tID:snps\tSM:snps' -t 4 reference/ref.fa /vagrant/africanum_analysis/lab/SAMEA1877227_1.fastq.gz /vagrant/africanum_analysis/lab/SAMEA1877227_2.fastq.gz | samtools sort --reference reference/ref.fa > snps.bam) 2>> snps.log
+[11:12:13] Running: samtools index snps.bam 2>> snps.log
+[11:12:38] Running: samtools depth -q 20 snps.bam | bgzip > snps.depth.gz 2>> snps.log
+[11:14:05] Running: tabix -s 1 -b 2 -e 2 snps.depth.gz 2>> snps.log
+[11:14:08] Running: fasta_generate_regions.py reference/ref.fa.fai 280319 > reference/ref.txt 2>> snps.log
+[11:14:08] Running: freebayes-parallel reference/ref.txt 4 -p 1 -q 20 -m 60 --min-coverage 10 -V -f reference/ref.fa snps.bam > snps.raw.vcf 2>> snps.log
+[11:25:53] Running: /opt/snippy/bin/snippy-vcf_filter --minqual 10 --mincov 10 --minfrac 0.9  snps.raw.vcf > snps.filt.vcf 2>> snps.log
+[11:25:54] Running: snpEff ann -no-downstream -no-upstream -no-intergenic -no-utr -c reference/snpeff.config -dataDir . -noStats ref snps.filt.vcf > snps.vcf 2>> snps.log
+[11:26:03] Running: bgzip -c snps.vcf > snps.vcf.gz 2>> snps.log
+[11:26:03] Running: tabix -p vcf snps.vcf.gz 2>> snps.log
+[11:26:03] Running: /opt/snippy/bin/snippy-vcf_to_tab --gff reference/ref.gff --ref reference/ref.fa --vcf snps.vcf > snps.tab 2>> snps.log
+[11:26:22] Running: vcf-consensus snps.vcf.gz < reference/ref.fa > snps.consensus.fa 2>> snps.log
+[11:26:25] Running: /opt/snippy/bin/snippy-vcf_filter --subs snps.filt.vcf > snps.filt.subs.vcf 2>> snps.log
+[11:26:27] Running: bgzip -c snps.filt.subs.vcf > snps.filt.subs.vcf.gz 2>> snps.log
+[11:26:27] Running: tabix -p vcf snps.filt.subs.vcf.gz 2>> snps.log
+[11:26:27] Running: vcf-consensus snps.filt.subs.vcf.gz < reference/ref.fa > snps.consensus.subs.fa 2>> snps.log
+[11:26:30] Generating aligned/masked FASTA relative to reference: snps.aligned.fa
+[11:26:53] Creating extra output files: BED GFF CSV TXT HTML
+[11:26:54] Identified 2130 variants.
+[11:26:54] Result folder: SAMEA1877227
+[11:26:54] Result files:
+[11:26:54] * SAMEA1877227/snps.aligned.fa
+[11:26:54] * SAMEA1877227/snps.bam
+[11:26:54] * SAMEA1877227/snps.bam.bai
+[11:26:54] * SAMEA1877227/snps.bed
+[11:26:54] * SAMEA1877227/snps.consensus.fa
+[11:26:54] * SAMEA1877227/snps.consensus.subs.fa
+[11:26:54] * SAMEA1877227/snps.csv
+[11:26:54] * SAMEA1877227/snps.depth.gz
+[11:26:54] * SAMEA1877227/snps.depth.gz.tbi
+[11:26:54] * SAMEA1877227/snps.filt.subs.vcf
+[11:26:54] * SAMEA1877227/snps.filt.subs.vcf.gz
+[11:26:54] * SAMEA1877227/snps.filt.subs.vcf.gz.tbi
+[11:26:54] * SAMEA1877227/snps.filt.vcf
+[11:26:54] * SAMEA1877227/snps.gff
+[11:26:54] * SAMEA1877227/snps.html
+[11:26:54] * SAMEA1877227/snps.log
+[11:26:54] * SAMEA1877227/snps.raw.vcf
+[11:26:54] * SAMEA1877227/snps.tab
+[11:26:54] * SAMEA1877227/snps.txt
+[11:26:54] * SAMEA1877227/snps.vcf
+[11:26:54] * SAMEA1877227/snps.vcf.gz
+[11:26:54] * SAMEA1877227/snps.vcf.gz.tbi
+[11:26:54] Walltime used: 30 minutes, 23 seconds
+[11:26:54] Questionable SNP? Try the --report option to see the alignments.
+[11:26:54] Done.
+[11:26:59] This is snippy 3.2-dev
+[11:26:59] Written by Torsten Seemann <torsten.seemann@gmail.com>
+[11:26:59] Obtained from https://github.com/tseemann/snippy
+[11:26:59] Detected operating system: linux
+[11:26:59] Enabling bundled linux tools.
+[11:26:59] Found bwa - /opt/snippy/binaries/linux/bwa
+[11:26:59] Found samtools - /opt/snippy/binaries/linux/samtools
+[11:26:59] Found tabix - /opt/snippy/binaries/linux/tabix
+[11:26:59] Found bgzip - /opt/snippy/binaries/linux/bgzip
+[11:26:59] Found snpEff - /opt/snippy/binaries/noarch/snpEff
+[11:26:59] Found java - /usr/bin/java
+[11:26:59] Found gzip - /usr/bin/gzip
+[11:26:59] Found parallel - /opt/snippy/binaries/noarch/parallel
+[11:26:59] Found freebayes - /opt/snippy/binaries/linux/freebayes
+[11:26:59] Found freebayes-parallel - /opt/snippy/binaries/noarch/freebayes-parallel
+[11:26:59] Found fasta_generate_regions.py - /opt/snippy/binaries/noarch/fasta_generate_regions.py
+[11:26:59] Found vcfstreamsort - /opt/snippy/binaries/linux/vcfstreamsort
+[11:26:59] Found vcfuniq - /opt/snippy/binaries/linux/vcfuniq
+[11:26:59] Found vcffirstheader - /opt/snippy/binaries/noarch/vcffirstheader
+[11:26:59] Found vcf-consensus - /opt/snippy/binaries/noarch/vcf-consensus
+[11:26:59] Found snippy-vcf_to_tab - /opt/snippy/bin/snippy-vcf_to_tab
+[11:26:59] Found snippy-vcf_report - /opt/snippy/bin/snippy-vcf_report
+[11:26:59] Found snippy-vcf_filter - /opt/snippy/bin/snippy-vcf_filter
+[11:26:59] Checking version: samtools --version is >= 1.3 - ok, have 1.3
+[11:26:59] Using reference: /vagrant/africanum_analysis/lab/NC000962_3.gbk
+[11:26:59] Treating reference as 'genbank' format.
+[11:26:59] Will use 4 CPU cores.
+[11:26:59] Using read file: /vagrant/africanum_analysis/lab/SAMEA1877229_1.fastq.gz
+[11:26:59] Using read file: /vagrant/africanum_analysis/lab/SAMEA1877229_2.fastq.gz
+[11:26:59] Creating folder: SAMEA1877229
+[11:26:59] Changing working directory: SAMEA1877229
+[11:26:59] Creating reference folder: reference
+[11:26:59] Extracting FASTA and GFF from reference.
+[11:27:16] Wrote 1 sequences to ref.fa
+[11:27:16] Wrote 4416 features to ref.gff
+[11:27:16] Creating reference/snpeff.config
+[11:27:16] Freebayes will process 16 chunks of 280319 bp, 4 chunks at a time.
+[11:27:16] Using BAM RG (Read Group) ID: snps
+[11:27:16] Running: samtools faidx reference/ref.fa 2>> snps.log
+[11:27:16] Running: bwa index reference/ref.fa 2>> snps.log
+[11:27:24] Running: mkdir reference/genomes && cp -f reference/ref.fa reference/genomes/ref.fa 2>> snps.log
+[11:27:24] Running: mkdir reference/ref && bgzip -c reference/ref.gff > reference/ref/genes.gff.gz 2>> snps.log
+[11:27:24] Running: snpEff build -c reference/snpeff.config -dataDir . -gff3 ref 2>> snps.log
+[11:27:33] Running: (bwa mem  -v 2 -M -R '@RG\tID:snps\tSM:snps' -t 4 reference/ref.fa /vagrant/africanum_analysis/lab/SAMEA1877229_1.fastq.gz /vagrant/africanum_analysis/lab/SAMEA1877229_2.fastq.gz | samtools sort --reference reference/ref.fa > snps.bam) 2>> snps.log
+[11:41:55] Running: samtools index snps.bam 2>> snps.log
+[11:42:18] Running: samtools depth -q 20 snps.bam | bgzip > snps.depth.gz 2>> snps.log
+[11:43:44] Running: tabix -s 1 -b 2 -e 2 snps.depth.gz 2>> snps.log
+[11:43:47] Running: fasta_generate_regions.py reference/ref.fa.fai 280319 > reference/ref.txt 2>> snps.log
+[11:43:47] Running: freebayes-parallel reference/ref.txt 4 -p 1 -q 20 -m 60 --min-coverage 10 -V -f reference/ref.fa snps.bam > snps.raw.vcf 2>> snps.log
+[11:54:59] Running: /opt/snippy/bin/snippy-vcf_filter --minqual 10 --mincov 10 --minfrac 0.9  snps.raw.vcf > snps.filt.vcf 2>> snps.log
+[11:55:00] Running: snpEff ann -no-downstream -no-upstream -no-intergenic -no-utr -c reference/snpeff.config -dataDir . -noStats ref snps.filt.vcf > snps.vcf 2>> snps.log
+[11:55:09] Running: bgzip -c snps.vcf > snps.vcf.gz 2>> snps.log
+[11:55:09] Running: tabix -p vcf snps.vcf.gz 2>> snps.log
+[11:55:09] Running: /opt/snippy/bin/snippy-vcf_to_tab --gff reference/ref.gff --ref reference/ref.fa --vcf snps.vcf > snps.tab 2>> snps.log
+[11:55:28] Running: vcf-consensus snps.vcf.gz < reference/ref.fa > snps.consensus.fa 2>> snps.log
+[11:55:31] Running: /opt/snippy/bin/snippy-vcf_filter --subs snps.filt.vcf > snps.filt.subs.vcf 2>> snps.log
+[11:55:32] Running: bgzip -c snps.filt.subs.vcf > snps.filt.subs.vcf.gz 2>> snps.log
+[11:55:32] Running: tabix -p vcf snps.filt.subs.vcf.gz 2>> snps.log
+[11:55:32] Running: vcf-consensus snps.filt.subs.vcf.gz < reference/ref.fa > snps.consensus.subs.fa 2>> snps.log
+[11:55:36] Generating aligned/masked FASTA relative to reference: snps.aligned.fa
+[11:55:59] Creating extra output files: BED GFF CSV TXT HTML
+[11:55:59] Identified 2111 variants.
+[11:55:59] Result folder: SAMEA1877229
+[11:55:59] Result files:
+[11:55:59] * SAMEA1877229/snps.aligned.fa
+[11:55:59] * SAMEA1877229/snps.bam
+[11:55:59] * SAMEA1877229/snps.bam.bai
+[11:55:59] * SAMEA1877229/snps.bed
+[11:55:59] * SAMEA1877229/snps.consensus.fa
+[11:55:59] * SAMEA1877229/snps.consensus.subs.fa
+[11:55:59] * SAMEA1877229/snps.csv
+[11:55:59] * SAMEA1877229/snps.depth.gz
+[11:55:59] * SAMEA1877229/snps.depth.gz.tbi
+[11:55:59] * SAMEA1877229/snps.filt.subs.vcf
+[11:55:59] * SAMEA1877229/snps.filt.subs.vcf.gz
+[11:55:59] * SAMEA1877229/snps.filt.subs.vcf.gz.tbi
+[11:55:59] * SAMEA1877229/snps.filt.vcf
+[11:55:59] * SAMEA1877229/snps.gff
+[11:55:59] * SAMEA1877229/snps.html
+[11:55:59] * SAMEA1877229/snps.log
+[11:55:59] * SAMEA1877229/snps.raw.vcf
+[11:55:59] * SAMEA1877229/snps.tab
+[11:55:59] * SAMEA1877229/snps.txt
+[11:55:59] * SAMEA1877229/snps.vcf
+[11:55:59] * SAMEA1877229/snps.vcf.gz
+[11:55:59] * SAMEA1877229/snps.vcf.gz.tbi
+[11:55:59] Walltime used: 29 minutes, 0 seconds
+[11:55:59] Wishing you a life free of homopolymer errors.
+[11:55:59] Done.
+[11:56:04] This is snippy 3.2-dev
+[11:56:04] Written by Torsten Seemann <torsten.seemann@gmail.com>
+[11:56:04] Obtained from https://github.com/tseemann/snippy
+[11:56:04] Detected operating system: linux
+[11:56:04] Enabling bundled linux tools.
+[11:56:04] Found bwa - /opt/snippy/binaries/linux/bwa
+[11:56:04] Found samtools - /opt/snippy/binaries/linux/samtools
+[11:56:04] Found tabix - /opt/snippy/binaries/linux/tabix
+[11:56:04] Found bgzip - /opt/snippy/binaries/linux/bgzip
+[11:56:04] Found snpEff - /opt/snippy/binaries/noarch/snpEff
+[11:56:04] Found java - /usr/bin/java
+[11:56:04] Found gzip - /usr/bin/gzip
+[11:56:04] Found parallel - /opt/snippy/binaries/noarch/parallel
+[11:56:04] Found freebayes - /opt/snippy/binaries/linux/freebayes
+[11:56:04] Found freebayes-parallel - /opt/snippy/binaries/noarch/freebayes-parallel
+[11:56:04] Found fasta_generate_regions.py - /opt/snippy/binaries/noarch/fasta_generate_regions.py
+[11:56:04] Found vcfstreamsort - /opt/snippy/binaries/linux/vcfstreamsort
+[11:56:04] Found vcfuniq - /opt/snippy/binaries/linux/vcfuniq
+[11:56:04] Found vcffirstheader - /opt/snippy/binaries/noarch/vcffirstheader
+[11:56:04] Found vcf-consensus - /opt/snippy/binaries/noarch/vcf-consensus
+[11:56:04] Found snippy-vcf_to_tab - /opt/snippy/bin/snippy-vcf_to_tab
+[11:56:04] Found snippy-vcf_report - /opt/snippy/bin/snippy-vcf_report
+[11:56:04] Found snippy-vcf_filter - /opt/snippy/bin/snippy-vcf_filter
+[11:56:04] Checking version: samtools --version is >= 1.3 - ok, have 1.3
+[11:56:04] Using reference: /vagrant/africanum_analysis/lab/NC000962_3.gbk
+[11:56:05] Treating reference as 'genbank' format.
+[11:56:05] Will use 4 CPU cores.
+[11:56:05] Using read file: /vagrant/africanum_analysis/lab/SAMEA1877233_1.fastq.gz
+[11:56:05] Using read file: /vagrant/africanum_analysis/lab/SAMEA1877233_2.fastq.gz
+[11:56:05] Creating folder: SAMEA1877233
+[11:56:05] Changing working directory: SAMEA1877233
+[11:56:05] Creating reference folder: reference
+[11:56:05] Extracting FASTA and GFF from reference.
+[11:56:22] Wrote 1 sequences to ref.fa
+[11:56:22] Wrote 4416 features to ref.gff
+[11:56:22] Creating reference/snpeff.config
+[11:56:22] Freebayes will process 16 chunks of 280319 bp, 4 chunks at a time.
+[11:56:22] Using BAM RG (Read Group) ID: snps
+[11:56:22] Running: samtools faidx reference/ref.fa 2>> snps.log
+[11:56:22] Running: bwa index reference/ref.fa 2>> snps.log
+[11:56:30] Running: mkdir reference/genomes && cp -f reference/ref.fa reference/genomes/ref.fa 2>> snps.log
+[11:56:30] Running: mkdir reference/ref && bgzip -c reference/ref.gff > reference/ref/genes.gff.gz 2>> snps.log
+[11:56:30] Running: snpEff build -c reference/snpeff.config -dataDir . -gff3 ref 2>> snps.log
+[11:56:39] Running: (bwa mem  -v 2 -M -R '@RG\tID:snps\tSM:snps' -t 4 reference/ref.fa /vagrant/africanum_analysis/lab/SAMEA1877233_1.fastq.gz /vagrant/africanum_analysis/lab/SAMEA1877233_2.fastq.gz | samtools sort --reference reference/ref.fa > snps.bam) 2>> snps.log
+[12:08:44] Running: samtools index snps.bam 2>> snps.log
+[12:09:06] Running: samtools depth -q 20 snps.bam | bgzip > snps.depth.gz 2>> snps.log
+[12:10:19] Running: tabix -s 1 -b 2 -e 2 snps.depth.gz 2>> snps.log
+[12:10:21] Running: fasta_generate_regions.py reference/ref.fa.fai 280319 > reference/ref.txt 2>> snps.log
+[12:10:22] Running: freebayes-parallel reference/ref.txt 4 -p 1 -q 20 -m 60 --min-coverage 10 -V -f reference/ref.fa snps.bam > snps.raw.vcf 2>> snps.log
+[12:19:53] Running: /opt/snippy/bin/snippy-vcf_filter --minqual 10 --mincov 10 --minfrac 0.9  snps.raw.vcf > snps.filt.vcf 2>> snps.log
+[12:19:54] Running: snpEff ann -no-downstream -no-upstream -no-intergenic -no-utr -c reference/snpeff.config -dataDir . -noStats ref snps.filt.vcf > snps.vcf 2>> snps.log
+[12:20:03] Running: bgzip -c snps.vcf > snps.vcf.gz 2>> snps.log
+[12:20:03] Running: tabix -p vcf snps.vcf.gz 2>> snps.log
+[12:20:03] Running: /opt/snippy/bin/snippy-vcf_to_tab --gff reference/ref.gff --ref reference/ref.fa --vcf snps.vcf > snps.tab 2>> snps.log
+[12:20:22] Running: vcf-consensus snps.vcf.gz < reference/ref.fa > snps.consensus.fa 2>> snps.log
+[12:20:25] Running: /opt/snippy/bin/snippy-vcf_filter --subs snps.filt.vcf > snps.filt.subs.vcf 2>> snps.log
+[12:20:26] Running: bgzip -c snps.filt.subs.vcf > snps.filt.subs.vcf.gz 2>> snps.log
+[12:20:26] Running: tabix -p vcf snps.filt.subs.vcf.gz 2>> snps.log
+[12:20:26] Running: vcf-consensus snps.filt.subs.vcf.gz < reference/ref.fa > snps.consensus.subs.fa 2>> snps.log
+[12:20:30] Generating aligned/masked FASTA relative to reference: snps.aligned.fa
+[12:20:53] Creating extra output files: BED GFF CSV TXT HTML
+[12:20:53] Identified 2249 variants.
+[12:20:53] Result folder: SAMEA1877233
+[12:20:53] Result files:
+[12:20:53] * SAMEA1877233/snps.aligned.fa
+[12:20:53] * SAMEA1877233/snps.bam
+[12:20:53] * SAMEA1877233/snps.bam.bai
+[12:20:53] * SAMEA1877233/snps.bed
+[12:20:53] * SAMEA1877233/snps.consensus.fa
+[12:20:53] * SAMEA1877233/snps.consensus.subs.fa
+[12:20:53] * SAMEA1877233/snps.csv
+[12:20:53] * SAMEA1877233/snps.depth.gz
+[12:20:53] * SAMEA1877233/snps.depth.gz.tbi
+[12:20:53] * SAMEA1877233/snps.filt.subs.vcf
+[12:20:53] * SAMEA1877233/snps.filt.subs.vcf.gz
+[12:20:53] * SAMEA1877233/snps.filt.subs.vcf.gz.tbi
+[12:20:53] * SAMEA1877233/snps.filt.vcf
+[12:20:53] * SAMEA1877233/snps.gff
+[12:20:53] * SAMEA1877233/snps.html
+[12:20:53] * SAMEA1877233/snps.log
+[12:20:53] * SAMEA1877233/snps.raw.vcf
+[12:20:53] * SAMEA1877233/snps.tab
+[12:20:53] * SAMEA1877233/snps.txt
+[12:20:53] * SAMEA1877233/snps.vcf
+[12:20:53] * SAMEA1877233/snps.vcf.gz
+[12:20:53] * SAMEA1877233/snps.vcf.gz.tbi
+[12:20:53] Walltime used: 24 minutes, 49 seconds
+[12:20:53] Found a bug? Post it at https://github.com/tseemann/snippy/issues
+[12:20:53] Done.
+[12:20:58] This is snippy 3.2-dev
+[12:20:58] Written by Torsten Seemann <torsten.seemann@gmail.com>
+[12:20:58] Obtained from https://github.com/tseemann/snippy
+[12:20:58] Detected operating system: linux
+[12:20:58] Enabling bundled linux tools.
+[12:20:58] Found bwa - /opt/snippy/binaries/linux/bwa
+[12:20:58] Found samtools - /opt/snippy/binaries/linux/samtools
+[12:20:58] Found tabix - /opt/snippy/binaries/linux/tabix
+[12:20:58] Found bgzip - /opt/snippy/binaries/linux/bgzip
+[12:20:58] Found snpEff - /opt/snippy/binaries/noarch/snpEff
+[12:20:58] Found java - /usr/bin/java
+[12:20:58] Found gzip - /usr/bin/gzip
+[12:20:58] Found parallel - /opt/snippy/binaries/noarch/parallel
+[12:20:58] Found freebayes - /opt/snippy/binaries/linux/freebayes
+[12:20:58] Found freebayes-parallel - /opt/snippy/binaries/noarch/freebayes-parallel
+[12:20:58] Found fasta_generate_regions.py - /opt/snippy/binaries/noarch/fasta_generate_regions.py
+[12:20:58] Found vcfstreamsort - /opt/snippy/binaries/linux/vcfstreamsort
+[12:20:58] Found vcfuniq - /opt/snippy/binaries/linux/vcfuniq
+[12:20:58] Found vcffirstheader - /opt/snippy/binaries/noarch/vcffirstheader
+[12:20:58] Found vcf-consensus - /opt/snippy/binaries/noarch/vcf-consensus
+[12:20:58] Found snippy-vcf_to_tab - /opt/snippy/bin/snippy-vcf_to_tab
+[12:20:58] Found snippy-vcf_report - /opt/snippy/bin/snippy-vcf_report
+[12:20:58] Found snippy-vcf_filter - /opt/snippy/bin/snippy-vcf_filter
+[12:20:58] Checking version: samtools --version is >= 1.3 - ok, have 1.3
+[12:20:58] Using reference: /vagrant/africanum_analysis/lab/NC000962_3.gbk
+[12:20:59] Treating reference as 'genbank' format.
+[12:20:59] Will use 4 CPU cores.
+[12:20:59] Using read file: /vagrant/africanum_analysis/lab/SAMEA1877237_1.fastq.gz
+[12:20:59] Using read file: /vagrant/africanum_analysis/lab/SAMEA1877237_2.fastq.gz
+[12:20:59] Creating folder: SAMEA1877237
+[12:20:59] Changing working directory: SAMEA1877237
+[12:20:59] Creating reference folder: reference
+[12:20:59] Extracting FASTA and GFF from reference.
+[12:21:15] Wrote 1 sequences to ref.fa
+[12:21:15] Wrote 4416 features to ref.gff
+[12:21:15] Creating reference/snpeff.config
+[12:21:15] Freebayes will process 16 chunks of 280319 bp, 4 chunks at a time.
+[12:21:15] Using BAM RG (Read Group) ID: snps
+[12:21:15] Running: samtools faidx reference/ref.fa 2>> snps.log
+[12:21:15] Running: bwa index reference/ref.fa 2>> snps.log
+[12:21:23] Running: mkdir reference/genomes && cp -f reference/ref.fa reference/genomes/ref.fa 2>> snps.log
+[12:21:24] Running: mkdir reference/ref && bgzip -c reference/ref.gff > reference/ref/genes.gff.gz 2>> snps.log
+[12:21:24] Running: snpEff build -c reference/snpeff.config -dataDir . -gff3 ref 2>> snps.log
+[12:21:33] Running: (bwa mem  -v 2 -M -R '@RG\tID:snps\tSM:snps' -t 4 reference/ref.fa /vagrant/africanum_analysis/lab/SAMEA1877237_1.fastq.gz /vagrant/africanum_analysis/lab/SAMEA1877237_2.fastq.gz | samtools sort --reference reference/ref.fa > snps.bam) 2>> snps.log
+[12:31:22] Running: samtools index snps.bam 2>> snps.log
+[12:31:38] Running: samtools depth -q 20 snps.bam | bgzip > snps.depth.gz 2>> snps.log
+[12:32:26] Running: tabix -s 1 -b 2 -e 2 snps.depth.gz 2>> snps.log
+[12:32:29] Running: fasta_generate_regions.py reference/ref.fa.fai 280319 > reference/ref.txt 2>> snps.log
+[12:32:29] Running: freebayes-parallel reference/ref.txt 4 -p 1 -q 20 -m 60 --min-coverage 10 -V -f reference/ref.fa snps.bam > snps.raw.vcf 2>> snps.log
+[12:39:56] Running: /opt/snippy/bin/snippy-vcf_filter --minqual 10 --mincov 10 --minfrac 0.9  snps.raw.vcf > snps.filt.vcf 2>> snps.log
+[12:39:58] Running: snpEff ann -no-downstream -no-upstream -no-intergenic -no-utr -c reference/snpeff.config -dataDir . -noStats ref snps.filt.vcf > snps.vcf 2>> snps.log
+[12:40:06] Running: bgzip -c snps.vcf > snps.vcf.gz 2>> snps.log
+[12:40:07] Running: tabix -p vcf snps.vcf.gz 2>> snps.log
+[12:40:07] Running: /opt/snippy/bin/snippy-vcf_to_tab --gff reference/ref.gff --ref reference/ref.fa --vcf snps.vcf > snps.tab 2>> snps.log
+[12:40:25] Running: vcf-consensus snps.vcf.gz < reference/ref.fa > snps.consensus.fa 2>> snps.log
+[12:40:28] Running: /opt/snippy/bin/snippy-vcf_filter --subs snps.filt.vcf > snps.filt.subs.vcf 2>> snps.log
+[12:40:30] Running: bgzip -c snps.filt.subs.vcf > snps.filt.subs.vcf.gz 2>> snps.log
+[12:40:30] Running: tabix -p vcf snps.filt.subs.vcf.gz 2>> snps.log
+[12:40:30] Running: vcf-consensus snps.filt.subs.vcf.gz < reference/ref.fa > snps.consensus.subs.fa 2>> snps.log
+[12:40:33] Generating aligned/masked FASTA relative to reference: snps.aligned.fa
+[12:40:56] Creating extra output files: BED GFF CSV TXT HTML
+[12:40:56] Identified 2235 variants.
+[12:40:56] Result folder: SAMEA1877237
+[12:40:56] Result files:
+[12:40:56] * SAMEA1877237/snps.aligned.fa
+[12:40:56] * SAMEA1877237/snps.bam
+[12:40:56] * SAMEA1877237/snps.bam.bai
+[12:40:56] * SAMEA1877237/snps.bed
+[12:40:56] * SAMEA1877237/snps.consensus.fa
+[12:40:56] * SAMEA1877237/snps.consensus.subs.fa
+[12:40:56] * SAMEA1877237/snps.csv
+[12:40:56] * SAMEA1877237/snps.depth.gz
+[12:40:56] * SAMEA1877237/snps.depth.gz.tbi
+[12:40:56] * SAMEA1877237/snps.filt.subs.vcf
+[12:40:56] * SAMEA1877237/snps.filt.subs.vcf.gz
+[12:40:56] * SAMEA1877237/snps.filt.subs.vcf.gz.tbi
+[12:40:56] * SAMEA1877237/snps.filt.vcf
+[12:40:56] * SAMEA1877237/snps.gff
+[12:40:56] * SAMEA1877237/snps.html
+[12:40:56] * SAMEA1877237/snps.log
+[12:40:56] * SAMEA1877237/snps.raw.vcf
+[12:40:56] * SAMEA1877237/snps.tab
+[12:40:56] * SAMEA1877237/snps.txt
+[12:40:56] * SAMEA1877237/snps.vcf
+[12:40:56] * SAMEA1877237/snps.vcf.gz
+[12:40:56] * SAMEA1877237/snps.vcf.gz.tbi
+[12:40:56] Walltime used: 19 minutes, 58 seconds
+[12:40:56] May the SNPs be with you.
+[12:40:56] Done.
+vagrant ssh -c "cd /vagrant/africanum_analysis/lab/ && snippy --cpus 4 --outdir SAMEA1877109 --ref NC000962_3.gbk  --R1 SAMEA1877109_1.fastq.gz --R2 SAMEA1877109_2.fastq.gz"
+
+ $$$$$$$$$$ 
+
+vagrant ssh -c "cd /vagrant/africanum_analysis/lab/ && snippy --cpus 4 --outdir SAMEA1877112_L1 --ref NC000962_3.gbk  --R1 SAMEA1877112_L1_1.fastq.gz --R2 SAMEA1877112_L1_2.fastq.gz"
+
+ $$$$$$$$$$ 
+
+vagrant ssh -c "cd /vagrant/africanum_analysis/lab/ && snippy --cpus 4 --outdir SAMEA1877117 --ref NC000962_3.gbk  --R1 SAMEA1877117_1.fastq.gz --R2 SAMEA1877117_2.fastq.gz"
+
+ $$$$$$$$$$ 
+
+vagrant ssh -c "cd /vagrant/africanum_analysis/lab/ && snippy --cpus 4 --outdir SAMEA1877126 --ref NC000962_3.gbk  --R1 SAMEA1877126_1.fastq.gz --R2 SAMEA1877126_2.fastq.gz"
+
+ $$$$$$$$$$ 
+
+vagrant ssh -c "cd /vagrant/africanum_analysis/lab/ && snippy --cpus 4 --outdir SAMEA1877132 --ref NC000962_3.gbk  --R1 SAMEA1877132_1.fastq.gz --R2 SAMEA1877132_2.fastq.gz"
+
+ $$$$$$$$$$ 
+
+vagrant ssh -c "cd /vagrant/africanum_analysis/lab/ && snippy --cpus 4 --outdir SAMEA1877136 --ref NC000962_3.gbk  --R1 SAMEA1877136_1.fastq.gz --R2 SAMEA1877136_2.fastq.gz"
+
+ $$$$$$$$$$ 
+
+vagrant ssh -c "cd /vagrant/africanum_analysis/lab/ && snippy --cpus 4 --outdir SAMEA1877139 --ref NC000962_3.gbk  --R1 SAMEA1877139_1.fastq.gz --R2 SAMEA1877139_2.fastq.gz"
+
+ $$$$$$$$$$ 
+
+vagrant ssh -c "cd /vagrant/africanum_analysis/lab/ && snippy --cpus 4 --outdir SAMEA1877142 --ref NC000962_3.gbk  --R1 SAMEA1877142_1.fastq.gz --R2 SAMEA1877142_2.fastq.gz"
+
+ $$$$$$$$$$ 
+
+vagrant ssh -c "cd /vagrant/africanum_analysis/lab/ && snippy --cpus 4 --outdir SAMEA1877150 --ref NC000962_3.gbk  --R1 SAMEA1877150_1.fastq.gz --R2 SAMEA1877150_2.fastq.gz"
+
+ $$$$$$$$$$ 
+
+vagrant ssh -c "cd /vagrant/africanum_analysis/lab/ && snippy --cpus 4 --outdir SAMEA1877150_L6 --ref NC000962_3.gbk  --R1 SAMEA1877150_L6_1.fastq.gz --R2 SAMEA1877150_L6_2.fastq.gz"
+
+ $$$$$$$$$$ 
+
+vagrant ssh -c "cd /vagrant/africanum_analysis/lab/ && snippy --cpus 4 --outdir SAMEA1877152 --ref NC000962_3.gbk  --R1 SAMEA1877152_1.fastq.gz --R2 SAMEA1877152_2.fastq.gz"
+
+ $$$$$$$$$$ 
+
+vagrant ssh -c "cd /vagrant/africanum_analysis/lab/ && snippy --cpus 4 --outdir SAMEA1877165 --ref NC000962_3.gbk  --R1 SAMEA1877165_1.fastq.gz --R2 SAMEA1877165_2.fastq.gz"
+
+ $$$$$$$$$$ 
+
+vagrant ssh -c "cd /vagrant/africanum_analysis/lab/ && snippy --cpus 4 --outdir SAMEA1877169 --ref NC000962_3.gbk  --R1 SAMEA1877169_1.fastq.gz --R2 SAMEA1877169_2.fastq.gz"
+
+ $$$$$$$$$$ 
+
+vagrant ssh -c "cd /vagrant/africanum_analysis/lab/ && snippy --cpus 4 --outdir SAMEA1877169_L5 --ref NC000962_3.gbk  --R1 SAMEA1877169_L5_1.fastq.gz --R2 SAMEA1877169_L5_2.fastq.gz"
+
+ $$$$$$$$$$ 
+
+vagrant ssh -c "cd /vagrant/africanum_analysis/lab/ && snippy --cpus 4 --outdir SAMEA1877177 --ref NC000962_3.gbk  --R1 SAMEA1877177_1.fastq.gz --R2 SAMEA1877177_2.fastq.gz"
+
+ $$$$$$$$$$ 
+
+vagrant ssh -c "cd /vagrant/africanum_analysis/lab/ && snippy --cpus 4 --outdir SAMEA1877181_L3 --ref NC000962_3.gbk  --R1 SAMEA1877181_L3_1.fastq.gz --R2 SAMEA1877181_L3_2.fastq.gz"
+
+ $$$$$$$$$$ 
+
+vagrant ssh -c "cd /vagrant/africanum_analysis/lab/ && snippy --cpus 4 --outdir SAMEA1877187 --ref NC000962_3.gbk  --R1 SAMEA1877187_1.fastq.gz --R2 SAMEA1877187_2.fastq.gz"
+
+ $$$$$$$$$$ 
+
+vagrant ssh -c "cd /vagrant/africanum_analysis/lab/ && snippy --cpus 4 --outdir SAMEA1877190 --ref NC000962_3.gbk  --R1 SAMEA1877190_1.fastq.gz --R2 SAMEA1877190_2.fastq.gz"
+
+ $$$$$$$$$$ 
+
+vagrant ssh -c "cd /vagrant/africanum_analysis/lab/ && snippy --cpus 4 --outdir SAMEA1877206 --ref NC000962_3.gbk  --R1 SAMEA1877206_1.fastq.gz --R2 SAMEA1877206_2.fastq.gz"
+
+ $$$$$$$$$$ 
+
+vagrant ssh -c "cd /vagrant/africanum_analysis/lab/ && snippy --cpus 4 --outdir SAMEA1877207 --ref NC000962_3.gbk  --R1 SAMEA1877207_1.fastq.gz --R2 SAMEA1877207_2.fastq.gz"
+
+ $$$$$$$$$$ 
+
+vagrant ssh -c "cd /vagrant/africanum_analysis/lab/ && snippy --cpus 4 --outdir SAMEA1877219_L2 --ref NC000962_3.gbk  --R1 SAMEA1877219_L2_1.fastq.gz --R2 SAMEA1877219_L2_2.fastq.gz"
+
+ $$$$$$$$$$ 
+
+vagrant ssh -c "cd /vagrant/africanum_analysis/lab/ && snippy --cpus 4 --outdir SAMEA1877227 --ref NC000962_3.gbk  --R1 SAMEA1877227_1.fastq.gz --R2 SAMEA1877227_2.fastq.gz"
+
+ $$$$$$$$$$ 
+
+vagrant ssh -c "cd /vagrant/africanum_analysis/lab/ && snippy --cpus 4 --outdir SAMEA1877229 --ref NC000962_3.gbk  --R1 SAMEA1877229_1.fastq.gz --R2 SAMEA1877229_2.fastq.gz"
+
+ $$$$$$$$$$ 
+
+vagrant ssh -c "cd /vagrant/africanum_analysis/lab/ && snippy --cpus 4 --outdir SAMEA1877233 --ref NC000962_3.gbk  --R1 SAMEA1877233_1.fastq.gz --R2 SAMEA1877233_2.fastq.gz"
+
+ $$$$$$$$$$ 
+
+vagrant ssh -c "cd /vagrant/africanum_analysis/lab/ && snippy --cpus 4 --outdir SAMEA1877237 --ref NC000962_3.gbk  --R1 SAMEA1877237_1.fastq.gz --R2 SAMEA1877237_2.fastq.gz"
+
+ $$$$$$$$$$ 
+

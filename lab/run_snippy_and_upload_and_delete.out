@@ -1,0 +1,44 @@
+[13:58:05] This is snippy 3.2-dev
+[13:58:05] Written by Torsten Seemann <torsten.seemann@gmail.com>
+[13:58:05] Obtained from https://github.com/tseemann/snippy
+[13:58:05] Detected operating system: linux
+[13:58:05] Enabling bundled linux tools.
+[13:58:05] Found bwa - /opt/snippy/binaries/linux/bwa
+[13:58:05] Found samtools - /opt/snippy/binaries/linux/samtools
+[13:58:05] Found tabix - /opt/snippy/binaries/linux/tabix
+[13:58:05] Found bgzip - /opt/snippy/binaries/linux/bgzip
+[13:58:05] Found snpEff - /opt/snippy/binaries/noarch/snpEff
+[13:58:05] Found java - /usr/bin/java
+[13:58:05] Found gzip - /usr/bin/gzip
+[13:58:05] Found parallel - /opt/snippy/binaries/noarch/parallel
+[13:58:05] Found freebayes - /opt/snippy/binaries/linux/freebayes
+[13:58:05] Found freebayes-parallel - /opt/snippy/binaries/noarch/freebayes-parallel
+[13:58:05] Found fasta_generate_regions.py - /opt/snippy/binaries/noarch/fasta_generate_regions.py
+[13:58:05] Found vcfstreamsort - /opt/snippy/binaries/linux/vcfstreamsort
+[13:58:05] Found vcfuniq - /opt/snippy/binaries/linux/vcfuniq
+[13:58:05] Found vcffirstheader - /opt/snippy/binaries/noarch/vcffirstheader
+[13:58:05] Found vcf-consensus - /opt/snippy/binaries/noarch/vcf-consensus
+[13:58:05] Found snippy-vcf_to_tab - /opt/snippy/bin/snippy-vcf_to_tab
+[13:58:05] Found snippy-vcf_report - /opt/snippy/bin/snippy-vcf_report
+[13:58:05] Found snippy-vcf_filter - /opt/snippy/bin/snippy-vcf_filter
+[13:58:05] Checking version: samtools --version is >= 1.3 - ok, have 1.3
+[13:58:05] Using reference: /vagrant/africanum_analysis/lab/NC000962_3.gbk
+[13:58:06] Treating reference as 'genbank' format.
+[13:58:06] Will use 4 CPU cores.
+[13:58:06] Using read file: /vagrant/africanum_analysis/lab/SAMEA1877266_L4_1.fastq.gz
+[13:58:06] Using read file: /vagrant/africanum_analysis/lab/SAMEA1877266_L4_2.fastq.gz
+[13:58:06] Creating folder: SAMEA1877266_L4
+[13:58:06] Changing working directory: SAMEA1877266_L4
+[13:58:06] Creating reference folder: reference
+[13:58:06] Extracting FASTA and GFF from reference.
+[13:58:22] Wrote 1 sequences to ref.fa
+[13:58:22] Wrote 4416 features to ref.gff
+[13:58:22] Creating reference/snpeff.config
+[13:58:22] Freebayes will process 16 chunks of 280319 bp, 4 chunks at a time.
+[13:58:22] Using BAM RG (Read Group) ID: snps
+[13:58:22] Running: samtools faidx reference/ref.fa 2>> snps.log
+[13:58:22] Running: bwa index reference/ref.fa 2>> snps.log
+[13:58:30] Running: mkdir reference/genomes && cp -f reference/ref.fa reference/genomes/ref.fa 2>> snps.log
+[13:58:30] Running: mkdir reference/ref && bgzip -c reference/ref.gff > reference/ref/genes.gff.gz 2>> snps.log
+[13:58:31] Running: snpEff build -c reference/snpeff.config -dataDir . -gff3 ref 2>> snps.log
+[13:58:40] Running: (bwa mem  -v 2 -M -R '@RG\tID:snps\tSM:snps' -t 4 reference/ref.fa /vagrant/africanum_analysis/lab/SAMEA1877266_L4_1.fastq.gz /vagrant/africanum_analysis/lab/SAMEA1877266_L4_2.fastq.gz | samtools sort --reference reference/ref.fa > snps.bam) 2>> snps.log

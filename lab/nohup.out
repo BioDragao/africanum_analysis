@@ -1,0 +1,650 @@
+2019/05/30 03:54:12 DEBUG : rclone: Version "v1.36" starting with parameters ["rclone" "copy" "onedrive-em:africanum_analysis/lab/SAMEA1877109_1.fastq.gz" "." "-vv"]
+2019/05/30 03:54:13 INFO  : Local file system at /biodragon/vagrantBox/africanum_analysis/lab: Modify window is 1s
+2019/05/30 03:54:13 INFO  : Local file system at /biodragon/vagrantBox/africanum_analysis/lab: Waiting for checks to finish
+2019/05/30 03:54:13 INFO  : Local file system at /biodragon/vagrantBox/africanum_analysis/lab: Waiting for transfers to finish
+2019/05/30 03:54:25 INFO  : SAMEA1877109_1.fastq.gz: Copied (new)
+2019/05/30 03:54:25 INFO  : 
+Transferred:   282.727 MBytes (20.453 MBytes/s)
+Errors:                 0
+Checks:                 0
+Transferred:            1
+Elapsed time:       13.8s
+2019/05/30 03:54:25 DEBUG : Go routines at exit 9
+2019/05/30 03:54:25 DEBUG : rclone: Version "v1.36" finishing with parameters ["rclone" "copy" "onedrive-em:africanum_analysis/lab/SAMEA1877109_1.fastq.gz" "." "-vv"]
+2019/05/30 03:54:25 DEBUG : rclone: Version "v1.36" starting with parameters ["rclone" "copy" "onedrive-em:africanum_analysis/lab/SAMEA1877109_2.fastq.gz" "." "-vv"]
+2019/05/30 03:54:27 INFO  : Local file system at /biodragon/vagrantBox/africanum_analysis/lab: Modify window is 1s
+2019/05/30 03:54:28 INFO  : Local file system at /biodragon/vagrantBox/africanum_analysis/lab: Waiting for checks to finish
+2019/05/30 03:54:28 INFO  : Local file system at /biodragon/vagrantBox/africanum_analysis/lab: Waiting for transfers to finish
+2019/05/30 03:54:43 INFO  : SAMEA1877109_2.fastq.gz: Copied (new)
+2019/05/30 03:54:43 INFO  : 
+Transferred:   284.687 MBytes (16.250 MBytes/s)
+Errors:                 0
+Checks:                 0
+Transferred:            1
+Elapsed time:       17.5s
+2019/05/30 03:54:43 DEBUG : Go routines at exit 9
+2019/05/30 03:54:43 DEBUG : rclone: Version "v1.36" finishing with parameters ["rclone" "copy" "onedrive-em:africanum_analysis/lab/SAMEA1877109_2.fastq.gz" "." "-vv"]
+2019/05/30 03:54:43 DEBUG : rclone: Version "v1.36" starting with parameters ["rclone" "copy" "onedrive-em:africanum_analysis/lab/SAMEA1877112_L1_1.fastq.gz" "." "-vv"]
+2019/05/30 03:54:45 INFO  : Local file system at /biodragon/vagrantBox/africanum_analysis/lab: Modify window is 1s
+2019/05/30 03:54:45 INFO  : Local file system at /biodragon/vagrantBox/africanum_analysis/lab: Waiting for checks to finish
+2019/05/30 03:54:45 INFO  : Local file system at /biodragon/vagrantBox/africanum_analysis/lab: Waiting for transfers to finish
+2019/05/30 03:55:02 INFO  : SAMEA1877112_L1_1.fastq.gz: Copied (new)
+2019/05/30 03:55:02 INFO  : 
+Transferred:   280.072 MBytes (14.962 MBytes/s)
+Errors:                 0
+Checks:                 0
+Transferred:            1
+Elapsed time:       18.7s
+2019/05/30 03:55:02 DEBUG : Go routines at exit 9
+2019/05/30 03:55:02 DEBUG : rclone: Version "v1.36" finishing with parameters ["rclone" "copy" "onedrive-em:africanum_analysis/lab/SAMEA1877112_L1_1.fastq.gz" "." "-vv"]
+2019/05/30 03:55:02 DEBUG : rclone: Version "v1.36" starting with parameters ["rclone" "copy" "onedrive-em:africanum_analysis/lab/SAMEA1877112_L1_2.fastq.gz" "." "-vv"]
+2019/05/30 03:55:03 INFO  : Local file system at /biodragon/vagrantBox/africanum_analysis/lab: Modify window is 1s
+2019/05/30 03:55:04 INFO  : Local file system at /biodragon/vagrantBox/africanum_analysis/lab: Waiting for checks to finish
+2019/05/30 03:55:04 INFO  : Local file system at /biodragon/vagrantBox/africanum_analysis/lab: Waiting for transfers to finish
+2019/05/30 03:55:16 INFO  : SAMEA1877112_L1_2.fastq.gz: Copied (new)
+2019/05/30 03:55:16 INFO  : 
+Transferred:   280.506 MBytes (19.664 MBytes/s)
+Errors:                 0
+Checks:                 0
+Transferred:            1
+Elapsed time:       14.2s
+2019/05/30 03:55:16 DEBUG : Go routines at exit 9
+2019/05/30 03:55:16 DEBUG : rclone: Version "v1.36" finishing with parameters ["rclone" "copy" "onedrive-em:africanum_analysis/lab/SAMEA1877112_L1_2.fastq.gz" "." "-vv"]
+2019/05/30 03:55:16 DEBUG : rclone: Version "v1.36" starting with parameters ["rclone" "copy" "onedrive-em:africanum_analysis/lab/SAMEA1877117_1.fastq.gz" "." "-vv"]
+2019/05/30 03:55:17 INFO  : Local file system at /biodragon/vagrantBox/africanum_analysis/lab: Modify window is 1s
+2019/05/30 03:55:17 INFO  : Local file system at /biodragon/vagrantBox/africanum_analysis/lab: Waiting for checks to finish
+2019/05/30 03:55:17 INFO  : Local file system at /biodragon/vagrantBox/africanum_analysis/lab: Waiting for transfers to finish
+2019/05/30 03:55:32 INFO  : SAMEA1877117_1.fastq.gz: Copied (new)
+2019/05/30 03:55:32 INFO  : 
+Transferred:   281.936 MBytes (17.115 MBytes/s)
+Errors:                 0
+Checks:                 0
+Transferred:            1
+Elapsed time:       16.4s
+2019/05/30 03:55:32 DEBUG : Go routines at exit 9
+2019/05/30 03:55:32 DEBUG : rclone: Version "v1.36" finishing with parameters ["rclone" "copy" "onedrive-em:africanum_analysis/lab/SAMEA1877117_1.fastq.gz" "." "-vv"]
+2019/05/30 03:55:32 DEBUG : rclone: Version "v1.36" starting with parameters ["rclone" "copy" "onedrive-em:africanum_analysis/lab/SAMEA1877117_2.fastq.gz" "." "-vv"]
+2019/05/30 03:55:34 INFO  : Local file system at /biodragon/vagrantBox/africanum_analysis/lab: Modify window is 1s
+2019/05/30 03:55:34 INFO  : Local file system at /biodragon/vagrantBox/africanum_analysis/lab: Waiting for checks to finish
+2019/05/30 03:55:34 INFO  : Local file system at /biodragon/vagrantBox/africanum_analysis/lab: Waiting for transfers to finish
+2019/05/30 03:55:48 INFO  : SAMEA1877117_2.fastq.gz: Copied (new)
+2019/05/30 03:55:48 INFO  : 
+Transferred:   281.208 MBytes (18.274 MBytes/s)
+Errors:                 0
+Checks:                 0
+Transferred:            1
+Elapsed time:       15.3s
+2019/05/30 03:55:48 DEBUG : Go routines at exit 9
+2019/05/30 03:55:48 DEBUG : rclone: Version "v1.36" finishing with parameters ["rclone" "copy" "onedrive-em:africanum_analysis/lab/SAMEA1877117_2.fastq.gz" "." "-vv"]
+2019/05/30 03:55:48 DEBUG : rclone: Version "v1.36" starting with parameters ["rclone" "copy" "onedrive-em:africanum_analysis/lab/SAMEA1877126_1.fastq.gz" "." "-vv"]
+2019/05/30 03:55:49 INFO  : Local file system at /biodragon/vagrantBox/africanum_analysis/lab: Modify window is 1s
+2019/05/30 03:55:49 INFO  : Local file system at /biodragon/vagrantBox/africanum_analysis/lab: Waiting for checks to finish
+2019/05/30 03:55:49 INFO  : Local file system at /biodragon/vagrantBox/africanum_analysis/lab: Waiting for transfers to finish
+2019/05/30 03:56:00 INFO  : SAMEA1877126_1.fastq.gz: Copied (new)
+2019/05/30 03:56:00 INFO  : 
+Transferred:   81.914 MBytes (6.613 MBytes/s)
+Errors:                 0
+Checks:                 0
+Transferred:            1
+Elapsed time:       12.3s
+2019/05/30 03:56:00 DEBUG : Go routines at exit 9
+2019/05/30 03:56:00 DEBUG : rclone: Version "v1.36" finishing with parameters ["rclone" "copy" "onedrive-em:africanum_analysis/lab/SAMEA1877126_1.fastq.gz" "." "-vv"]
+2019/05/30 03:56:00 DEBUG : rclone: Version "v1.36" starting with parameters ["rclone" "copy" "onedrive-em:africanum_analysis/lab/SAMEA1877126_2.fastq.gz" "." "-vv"]
+2019/05/30 03:56:02 INFO  : Local file system at /biodragon/vagrantBox/africanum_analysis/lab: Modify window is 1s
+2019/05/30 03:56:02 INFO  : Local file system at /biodragon/vagrantBox/africanum_analysis/lab: Waiting for checks to finish
+2019/05/30 03:56:02 INFO  : Local file system at /biodragon/vagrantBox/africanum_analysis/lab: Waiting for transfers to finish
+2019/05/30 03:56:10 INFO  : SAMEA1877126_2.fastq.gz: Copied (new)
+2019/05/30 03:56:10 INFO  : 
+Transferred:   70.528 MBytes (7.412 MBytes/s)
+Errors:                 0
+Checks:                 0
+Transferred:            1
+Elapsed time:        9.5s
+2019/05/30 03:56:10 DEBUG : Go routines at exit 9
+2019/05/30 03:56:10 DEBUG : rclone: Version "v1.36" finishing with parameters ["rclone" "copy" "onedrive-em:africanum_analysis/lab/SAMEA1877126_2.fastq.gz" "." "-vv"]
+2019/05/30 03:56:10 DEBUG : rclone: Version "v1.36" starting with parameters ["rclone" "copy" "onedrive-em:africanum_analysis/lab/SAMEA1877132_1.fastq.gz" "." "-vv"]
+2019/05/30 03:56:11 INFO  : Local file system at /biodragon/vagrantBox/africanum_analysis/lab: Modify window is 1s
+2019/05/30 03:56:11 INFO  : Local file system at /biodragon/vagrantBox/africanum_analysis/lab: Waiting for checks to finish
+2019/05/30 03:56:11 INFO  : Local file system at /biodragon/vagrantBox/africanum_analysis/lab: Waiting for transfers to finish
+2019/05/30 03:56:25 INFO  : SAMEA1877132_1.fastq.gz: Copied (new)
+2019/05/30 03:56:25 INFO  : 
+Transferred:   265.708 MBytes (17.919 MBytes/s)
+Errors:                 0
+Checks:                 0
+Transferred:            1
+Elapsed time:       14.8s
+2019/05/30 03:56:25 DEBUG : Go routines at exit 9
+2019/05/30 03:56:25 DEBUG : rclone: Version "v1.36" finishing with parameters ["rclone" "copy" "onedrive-em:africanum_analysis/lab/SAMEA1877132_1.fastq.gz" "." "-vv"]
+2019/05/30 03:56:25 DEBUG : rclone: Version "v1.36" starting with parameters ["rclone" "copy" "onedrive-em:africanum_analysis/lab/SAMEA1877132_2.fastq.gz" "." "-vv"]
+2019/05/30 03:56:26 INFO  : Local file system at /biodragon/vagrantBox/africanum_analysis/lab: Modify window is 1s
+2019/05/30 03:56:26 INFO  : Local file system at /biodragon/vagrantBox/africanum_analysis/lab: Waiting for checks to finish
+2019/05/30 03:56:26 INFO  : Local file system at /biodragon/vagrantBox/africanum_analysis/lab: Waiting for transfers to finish
+2019/05/30 03:56:37 INFO  : SAMEA1877132_2.fastq.gz: Copied (new)
+2019/05/30 03:56:37 INFO  : 
+Transferred:   264.368 MBytes (21.735 MBytes/s)
+Errors:                 0
+Checks:                 0
+Transferred:            1
+Elapsed time:       12.1s
+2019/05/30 03:56:37 DEBUG : Go routines at exit 9
+2019/05/30 03:56:37 DEBUG : rclone: Version "v1.36" finishing with parameters ["rclone" "copy" "onedrive-em:africanum_analysis/lab/SAMEA1877132_2.fastq.gz" "." "-vv"]
+2019/05/30 03:56:37 DEBUG : rclone: Version "v1.36" starting with parameters ["rclone" "copy" "onedrive-em:africanum_analysis/lab/SAMEA1877136_1.fastq.gz" "." "-vv"]
+2019/05/30 03:56:38 INFO  : Local file system at /biodragon/vagrantBox/africanum_analysis/lab: Modify window is 1s
+2019/05/30 03:56:39 INFO  : Local file system at /biodragon/vagrantBox/africanum_analysis/lab: Waiting for checks to finish
+2019/05/30 03:56:39 INFO  : Local file system at /biodragon/vagrantBox/africanum_analysis/lab: Waiting for transfers to finish
+2019/05/30 03:56:57 INFO  : SAMEA1877136_1.fastq.gz: Copied (new)
+2019/05/30 03:56:57 INFO  : 
+Transferred:   302.435 MBytes (14.979 MBytes/s)
+Errors:                 0
+Checks:                 0
+Transferred:            1
+Elapsed time:       20.1s
+2019/05/30 03:56:57 DEBUG : Go routines at exit 9
+2019/05/30 03:56:57 DEBUG : rclone: Version "v1.36" finishing with parameters ["rclone" "copy" "onedrive-em:africanum_analysis/lab/SAMEA1877136_1.fastq.gz" "." "-vv"]
+2019/05/30 03:56:57 DEBUG : rclone: Version "v1.36" starting with parameters ["rclone" "copy" "onedrive-em:africanum_analysis/lab/SAMEA1877136_2.fastq.gz" "." "-vv"]
+2019/05/30 03:56:59 INFO  : Local file system at /biodragon/vagrantBox/africanum_analysis/lab: Modify window is 1s
+2019/05/30 03:56:59 INFO  : Local file system at /biodragon/vagrantBox/africanum_analysis/lab: Waiting for checks to finish
+2019/05/30 03:56:59 INFO  : Local file system at /biodragon/vagrantBox/africanum_analysis/lab: Waiting for transfers to finish
+2019/05/30 03:57:13 INFO  : SAMEA1877136_2.fastq.gz: Copied (new)
+2019/05/30 03:57:13 INFO  : 
+Transferred:   301.144 MBytes (18.428 MBytes/s)
+Errors:                 0
+Checks:                 0
+Transferred:            1
+Elapsed time:       16.3s
+2019/05/30 03:57:13 DEBUG : Go routines at exit 9
+2019/05/30 03:57:13 DEBUG : rclone: Version "v1.36" finishing with parameters ["rclone" "copy" "onedrive-em:africanum_analysis/lab/SAMEA1877136_2.fastq.gz" "." "-vv"]
+2019/05/30 03:57:13 DEBUG : rclone: Version "v1.36" starting with parameters ["rclone" "copy" "onedrive-em:africanum_analysis/lab/SAMEA1877139_1.fastq.gz" "." "-vv"]
+2019/05/30 03:57:15 INFO  : Local file system at /biodragon/vagrantBox/africanum_analysis/lab: Modify window is 1s
+2019/05/30 03:57:15 INFO  : Local file system at /biodragon/vagrantBox/africanum_analysis/lab: Waiting for checks to finish
+2019/05/30 03:57:15 INFO  : Local file system at /biodragon/vagrantBox/africanum_analysis/lab: Waiting for transfers to finish
+2019/05/30 03:57:26 INFO  : SAMEA1877139_1.fastq.gz: Copied (new)
+2019/05/30 03:57:26 INFO  : 
+Transferred:   269.302 MBytes (21.302 MBytes/s)
+Errors:                 0
+Checks:                 0
+Transferred:            1
+Elapsed time:       12.6s
+2019/05/30 03:57:26 DEBUG : Go routines at exit 9
+2019/05/30 03:57:26 DEBUG : rclone: Version "v1.36" finishing with parameters ["rclone" "copy" "onedrive-em:africanum_analysis/lab/SAMEA1877139_1.fastq.gz" "." "-vv"]
+2019/05/30 03:57:26 DEBUG : rclone: Version "v1.36" starting with parameters ["rclone" "copy" "onedrive-em:africanum_analysis/lab/SAMEA1877139_2.fastq.gz" "." "-vv"]
+2019/05/30 03:57:27 INFO  : Local file system at /biodragon/vagrantBox/africanum_analysis/lab: Modify window is 1s
+2019/05/30 03:57:28 INFO  : Local file system at /biodragon/vagrantBox/africanum_analysis/lab: Waiting for checks to finish
+2019/05/30 03:57:28 INFO  : Local file system at /biodragon/vagrantBox/africanum_analysis/lab: Waiting for transfers to finish
+2019/05/30 03:57:40 INFO  : SAMEA1877139_2.fastq.gz: Copied (new)
+2019/05/30 03:57:40 INFO  : 
+Transferred:   267.717 MBytes (18.447 MBytes/s)
+Errors:                 0
+Checks:                 0
+Transferred:            1
+Elapsed time:       14.5s
+2019/05/30 03:57:40 DEBUG : Go routines at exit 9
+2019/05/30 03:57:40 DEBUG : rclone: Version "v1.36" finishing with parameters ["rclone" "copy" "onedrive-em:africanum_analysis/lab/SAMEA1877139_2.fastq.gz" "." "-vv"]
+2019/05/30 03:57:40 DEBUG : rclone: Version "v1.36" starting with parameters ["rclone" "copy" "onedrive-em:africanum_analysis/lab/SAMEA1877142_1.fastq.gz" "." "-vv"]
+2019/05/30 03:57:42 INFO  : Local file system at /biodragon/vagrantBox/africanum_analysis/lab: Modify window is 1s
+2019/05/30 03:57:42 INFO  : Local file system at /biodragon/vagrantBox/africanum_analysis/lab: Waiting for checks to finish
+2019/05/30 03:57:42 INFO  : Local file system at /biodragon/vagrantBox/africanum_analysis/lab: Waiting for transfers to finish
+2019/05/30 03:57:50 INFO  : SAMEA1877142_1.fastq.gz: Copied (new)
+2019/05/30 03:57:50 INFO  : 
+Transferred:   114.407 MBytes (12.098 MBytes/s)
+Errors:                 0
+Checks:                 0
+Transferred:            1
+Elapsed time:        9.4s
+2019/05/30 03:57:50 DEBUG : Go routines at exit 9
+2019/05/30 03:57:50 DEBUG : rclone: Version "v1.36" finishing with parameters ["rclone" "copy" "onedrive-em:africanum_analysis/lab/SAMEA1877142_1.fastq.gz" "." "-vv"]
+2019/05/30 03:57:50 DEBUG : rclone: Version "v1.36" starting with parameters ["rclone" "copy" "onedrive-em:africanum_analysis/lab/SAMEA1877142_2.fastq.gz" "." "-vv"]
+2019/05/30 03:57:51 INFO  : Local file system at /biodragon/vagrantBox/africanum_analysis/lab: Modify window is 1s
+2019/05/30 03:57:52 INFO  : Local file system at /biodragon/vagrantBox/africanum_analysis/lab: Waiting for checks to finish
+2019/05/30 03:57:52 INFO  : Local file system at /biodragon/vagrantBox/africanum_analysis/lab: Waiting for transfers to finish
+2019/05/30 03:58:03 INFO  : SAMEA1877142_2.fastq.gz: Copied (new)
+2019/05/30 03:58:03 INFO  : 
+Transferred:   97.070 MBytes (7.305 MBytes/s)
+Errors:                 0
+Checks:                 0
+Transferred:            1
+Elapsed time:       13.2s
+2019/05/30 03:58:03 DEBUG : Go routines at exit 9
+2019/05/30 03:58:03 DEBUG : rclone: Version "v1.36" finishing with parameters ["rclone" "copy" "onedrive-em:africanum_analysis/lab/SAMEA1877142_2.fastq.gz" "." "-vv"]
+2019/05/30 03:58:03 DEBUG : rclone: Version "v1.36" starting with parameters ["rclone" "copy" "onedrive-em:africanum_analysis/lab/SAMEA1877150_1.fastq.gz" "." "-vv"]
+2019/05/30 03:58:05 INFO  : Local file system at /biodragon/vagrantBox/africanum_analysis/lab: Modify window is 1s
+2019/05/30 03:58:05 INFO  : Local file system at /biodragon/vagrantBox/africanum_analysis/lab: Waiting for checks to finish
+2019/05/30 03:58:05 INFO  : Local file system at /biodragon/vagrantBox/africanum_analysis/lab: Waiting for transfers to finish
+2019/05/30 03:58:29 INFO  : SAMEA1877150_1.fastq.gz: Copied (new)
+2019/05/30 03:58:29 INFO  : 
+Transferred:   430.732 MBytes (16.958 MBytes/s)
+Errors:                 0
+Checks:                 0
+Transferred:            1
+Elapsed time:       25.4s
+2019/05/30 03:58:29 DEBUG : Go routines at exit 9
+2019/05/30 03:58:29 DEBUG : rclone: Version "v1.36" finishing with parameters ["rclone" "copy" "onedrive-em:africanum_analysis/lab/SAMEA1877150_1.fastq.gz" "." "-vv"]
+2019/05/30 03:58:29 DEBUG : rclone: Version "v1.36" starting with parameters ["rclone" "copy" "onedrive-em:africanum_analysis/lab/SAMEA1877150_2.fastq.gz" "." "-vv"]
+2019/05/30 03:58:30 INFO  : Local file system at /biodragon/vagrantBox/africanum_analysis/lab: Modify window is 1s
+2019/05/30 03:58:30 INFO  : Local file system at /biodragon/vagrantBox/africanum_analysis/lab: Waiting for checks to finish
+2019/05/30 03:58:30 INFO  : Local file system at /biodragon/vagrantBox/africanum_analysis/lab: Waiting for transfers to finish
+2019/05/30 03:58:54 INFO  : SAMEA1877150_2.fastq.gz: Copied (new)
+2019/05/30 03:58:54 INFO  : 
+Transferred:   421.683 MBytes (16.791 MBytes/s)
+Errors:                 0
+Checks:                 0
+Transferred:            1
+Elapsed time:       25.1s
+2019/05/30 03:58:54 DEBUG : Go routines at exit 9
+2019/05/30 03:58:54 DEBUG : rclone: Version "v1.36" finishing with parameters ["rclone" "copy" "onedrive-em:africanum_analysis/lab/SAMEA1877150_2.fastq.gz" "." "-vv"]
+2019/05/30 03:58:54 DEBUG : rclone: Version "v1.36" starting with parameters ["rclone" "copy" "onedrive-em:africanum_analysis/lab/SAMEA1877150_L6_1.fastq.gz" "." "-vv"]
+2019/05/30 03:58:56 INFO  : Local file system at /biodragon/vagrantBox/africanum_analysis/lab: Modify window is 1s
+2019/05/30 03:58:56 INFO  : Local file system at /biodragon/vagrantBox/africanum_analysis/lab: Waiting for checks to finish
+2019/05/30 03:58:56 INFO  : Local file system at /biodragon/vagrantBox/africanum_analysis/lab: Waiting for transfers to finish
+2019/05/30 03:59:18 INFO  : SAMEA1877150_L6_1.fastq.gz: Copied (new)
+2019/05/30 03:59:18 INFO  : 
+Transferred:   436.450 MBytes (18.230 MBytes/s)
+Errors:                 0
+Checks:                 0
+Transferred:            1
+Elapsed time:       23.9s
+2019/05/30 03:59:18 DEBUG : Go routines at exit 9
+2019/05/30 03:59:18 DEBUG : rclone: Version "v1.36" finishing with parameters ["rclone" "copy" "onedrive-em:africanum_analysis/lab/SAMEA1877150_L6_1.fastq.gz" "." "-vv"]
+2019/05/30 03:59:18 DEBUG : rclone: Version "v1.36" starting with parameters ["rclone" "copy" "onedrive-em:africanum_analysis/lab/SAMEA1877150_L6_2.fastq.gz" "." "-vv"]
+2019/05/30 03:59:19 INFO  : Local file system at /biodragon/vagrantBox/africanum_analysis/lab: Modify window is 1s
+2019/05/30 03:59:19 INFO  : Local file system at /biodragon/vagrantBox/africanum_analysis/lab: Waiting for checks to finish
+2019/05/30 03:59:19 INFO  : Local file system at /biodragon/vagrantBox/africanum_analysis/lab: Waiting for transfers to finish
+2019/05/30 03:59:38 INFO  : SAMEA1877150_L6_2.fastq.gz: Copied (new)
+2019/05/30 03:59:38 INFO  : 
+Transferred:   427.729 MBytes (20.746 MBytes/s)
+Errors:                 0
+Checks:                 0
+Transferred:            1
+Elapsed time:       20.6s
+2019/05/30 03:59:38 DEBUG : Go routines at exit 9
+2019/05/30 03:59:38 DEBUG : rclone: Version "v1.36" finishing with parameters ["rclone" "copy" "onedrive-em:africanum_analysis/lab/SAMEA1877150_L6_2.fastq.gz" "." "-vv"]
+2019/05/30 03:59:38 DEBUG : rclone: Version "v1.36" starting with parameters ["rclone" "copy" "onedrive-em:africanum_analysis/lab/SAMEA1877152_1.fastq.gz" "." "-vv"]
+2019/05/30 03:59:43 INFO  : Local file system at /biodragon/vagrantBox/africanum_analysis/lab: Modify window is 1s
+2019/05/30 03:59:43 INFO  : Local file system at /biodragon/vagrantBox/africanum_analysis/lab: Waiting for checks to finish
+2019/05/30 03:59:43 INFO  : Local file system at /biodragon/vagrantBox/africanum_analysis/lab: Waiting for transfers to finish
+2019/05/30 03:59:51 INFO  : SAMEA1877152_1.fastq.gz: Copied (new)
+2019/05/30 03:59:51 INFO  : 
+Transferred:   198.861 MBytes (15.210 MBytes/s)
+Errors:                 0
+Checks:                 0
+Transferred:            1
+Elapsed time:         13s
+2019/05/30 03:59:51 DEBUG : Go routines at exit 9
+2019/05/30 03:59:51 DEBUG : rclone: Version "v1.36" finishing with parameters ["rclone" "copy" "onedrive-em:africanum_analysis/lab/SAMEA1877152_1.fastq.gz" "." "-vv"]
+2019/05/30 03:59:51 DEBUG : rclone: Version "v1.36" starting with parameters ["rclone" "copy" "onedrive-em:africanum_analysis/lab/SAMEA1877152_2.fastq.gz" "." "-vv"]
+2019/05/30 03:59:53 INFO  : Local file system at /biodragon/vagrantBox/africanum_analysis/lab: Modify window is 1s
+2019/05/30 03:59:53 INFO  : Local file system at /biodragon/vagrantBox/africanum_analysis/lab: Waiting for checks to finish
+2019/05/30 03:59:53 INFO  : Local file system at /biodragon/vagrantBox/africanum_analysis/lab: Waiting for transfers to finish
+2019/05/30 04:00:05 INFO  : SAMEA1877152_2.fastq.gz: Copied (new)
+2019/05/30 04:00:05 INFO  : 
+Transferred:   197.753 MBytes (14.975 MBytes/s)
+Errors:                 0
+Checks:                 0
+Transferred:            1
+Elapsed time:       13.2s
+2019/05/30 04:00:05 DEBUG : Go routines at exit 9
+2019/05/30 04:00:05 DEBUG : rclone: Version "v1.36" finishing with parameters ["rclone" "copy" "onedrive-em:africanum_analysis/lab/SAMEA1877152_2.fastq.gz" "." "-vv"]
+2019/05/30 04:00:05 DEBUG : rclone: Version "v1.36" starting with parameters ["rclone" "copy" "onedrive-em:africanum_analysis/lab/SAMEA1877165_1.fastq.gz" "." "-vv"]
+2019/05/30 04:00:06 INFO  : Local file system at /biodragon/vagrantBox/africanum_analysis/lab: Modify window is 1s
+2019/05/30 04:00:06 INFO  : Local file system at /biodragon/vagrantBox/africanum_analysis/lab: Waiting for checks to finish
+2019/05/30 04:00:06 INFO  : Local file system at /biodragon/vagrantBox/africanum_analysis/lab: Waiting for transfers to finish
+2019/05/30 04:00:22 INFO  : SAMEA1877165_1.fastq.gz: Copied (new)
+2019/05/30 04:00:22 INFO  : 
+Transferred:   270.894 MBytes (15.636 MBytes/s)
+Errors:                 0
+Checks:                 0
+Transferred:            1
+Elapsed time:       17.3s
+2019/05/30 04:00:22 DEBUG : Go routines at exit 9
+2019/05/30 04:00:22 DEBUG : rclone: Version "v1.36" finishing with parameters ["rclone" "copy" "onedrive-em:africanum_analysis/lab/SAMEA1877165_1.fastq.gz" "." "-vv"]
+2019/05/30 04:00:22 DEBUG : rclone: Version "v1.36" starting with parameters ["rclone" "copy" "onedrive-em:africanum_analysis/lab/SAMEA1877165_2.fastq.gz" "." "-vv"]
+2019/05/30 04:00:23 INFO  : Local file system at /biodragon/vagrantBox/africanum_analysis/lab: Modify window is 1s
+2019/05/30 04:00:23 INFO  : Local file system at /biodragon/vagrantBox/africanum_analysis/lab: Waiting for checks to finish
+2019/05/30 04:00:23 INFO  : Local file system at /biodragon/vagrantBox/africanum_analysis/lab: Waiting for transfers to finish
+2019/05/30 04:00:36 INFO  : SAMEA1877165_2.fastq.gz: Copied (new)
+2019/05/30 04:00:36 INFO  : 
+Transferred:   269.775 MBytes (19.546 MBytes/s)
+Errors:                 0
+Checks:                 0
+Transferred:            1
+Elapsed time:       13.8s
+2019/05/30 04:00:36 DEBUG : Go routines at exit 9
+2019/05/30 04:00:36 DEBUG : rclone: Version "v1.36" finishing with parameters ["rclone" "copy" "onedrive-em:africanum_analysis/lab/SAMEA1877165_2.fastq.gz" "." "-vv"]
+2019/05/30 04:00:36 DEBUG : rclone: Version "v1.36" starting with parameters ["rclone" "copy" "onedrive-em:africanum_analysis/lab/SAMEA1877169_1.fastq.gz" "." "-vv"]
+2019/05/30 04:00:37 INFO  : Local file system at /biodragon/vagrantBox/africanum_analysis/lab: Modify window is 1s
+2019/05/30 04:00:37 INFO  : Local file system at /biodragon/vagrantBox/africanum_analysis/lab: Waiting for checks to finish
+2019/05/30 04:00:37 INFO  : Local file system at /biodragon/vagrantBox/africanum_analysis/lab: Waiting for transfers to finish
+2019/05/30 04:00:51 INFO  : SAMEA1877169_1.fastq.gz: Copied (new)
+2019/05/30 04:00:51 INFO  : 
+Transferred:   154.123 MBytes (10.296 MBytes/s)
+Errors:                 0
+Checks:                 0
+Transferred:            1
+Elapsed time:       14.9s
+2019/05/30 04:00:51 DEBUG : Go routines at exit 9
+2019/05/30 04:00:51 DEBUG : rclone: Version "v1.36" finishing with parameters ["rclone" "copy" "onedrive-em:africanum_analysis/lab/SAMEA1877169_1.fastq.gz" "." "-vv"]
+2019/05/30 04:00:51 DEBUG : rclone: Version "v1.36" starting with parameters ["rclone" "copy" "onedrive-em:africanum_analysis/lab/SAMEA1877169_2.fastq.gz" "." "-vv"]
+2019/05/30 04:00:52 INFO  : Local file system at /biodragon/vagrantBox/africanum_analysis/lab: Modify window is 1s
+2019/05/30 04:00:53 INFO  : Local file system at /biodragon/vagrantBox/africanum_analysis/lab: Waiting for checks to finish
+2019/05/30 04:00:53 INFO  : Local file system at /biodragon/vagrantBox/africanum_analysis/lab: Waiting for transfers to finish
+2019/05/30 04:00:59 INFO  : SAMEA1877169_2.fastq.gz: Copied (new)
+2019/05/30 04:00:59 INFO  : 
+Transferred:   133.000 MBytes (15.731 MBytes/s)
+Errors:                 0
+Checks:                 0
+Transferred:            1
+Elapsed time:        8.4s
+2019/05/30 04:00:59 DEBUG : Go routines at exit 9
+2019/05/30 04:00:59 DEBUG : rclone: Version "v1.36" finishing with parameters ["rclone" "copy" "onedrive-em:africanum_analysis/lab/SAMEA1877169_2.fastq.gz" "." "-vv"]
+2019/05/30 04:00:59 DEBUG : rclone: Version "v1.36" starting with parameters ["rclone" "copy" "onedrive-em:africanum_analysis/lab/SAMEA1877169_L5_1.fastq.gz" "." "-vv"]
+2019/05/30 04:01:01 INFO  : Local file system at /biodragon/vagrantBox/africanum_analysis/lab: Modify window is 1s
+2019/05/30 04:01:02 INFO  : Local file system at /biodragon/vagrantBox/africanum_analysis/lab: Waiting for checks to finish
+2019/05/30 04:01:02 INFO  : Local file system at /biodragon/vagrantBox/africanum_analysis/lab: Waiting for transfers to finish
+2019/05/30 04:01:09 INFO  : SAMEA1877169_L5_1.fastq.gz: Copied (new)
+2019/05/30 04:01:09 INFO  : 
+Transferred:   157.098 MBytes (16.496 MBytes/s)
+Errors:                 0
+Checks:                 0
+Transferred:            1
+Elapsed time:        9.5s
+2019/05/30 04:01:09 DEBUG : Go routines at exit 9
+2019/05/30 04:01:09 DEBUG : rclone: Version "v1.36" finishing with parameters ["rclone" "copy" "onedrive-em:africanum_analysis/lab/SAMEA1877169_L5_1.fastq.gz" "." "-vv"]
+2019/05/30 04:01:09 DEBUG : rclone: Version "v1.36" starting with parameters ["rclone" "copy" "onedrive-em:africanum_analysis/lab/SAMEA1877169_L5_2.fastq.gz" "." "-vv"]
+2019/05/30 04:01:11 INFO  : Local file system at /biodragon/vagrantBox/africanum_analysis/lab: Modify window is 1s
+2019/05/30 04:01:11 INFO  : Local file system at /biodragon/vagrantBox/africanum_analysis/lab: Waiting for checks to finish
+2019/05/30 04:01:11 INFO  : Local file system at /biodragon/vagrantBox/africanum_analysis/lab: Waiting for transfers to finish
+2019/05/30 04:01:19 INFO  : SAMEA1877169_L5_2.fastq.gz: Copied (new)
+2019/05/30 04:01:19 INFO  : 
+Transferred:   136.445 MBytes (13.890 MBytes/s)
+Errors:                 0
+Checks:                 0
+Transferred:            1
+Elapsed time:        9.8s
+2019/05/30 04:01:19 DEBUG : Go routines at exit 9
+2019/05/30 04:01:19 DEBUG : rclone: Version "v1.36" finishing with parameters ["rclone" "copy" "onedrive-em:africanum_analysis/lab/SAMEA1877169_L5_2.fastq.gz" "." "-vv"]
+2019/05/30 04:01:19 DEBUG : rclone: Version "v1.36" starting with parameters ["rclone" "copy" "onedrive-em:africanum_analysis/lab/SAMEA1877177_1.fastq.gz" "." "-vv"]
+2019/05/30 04:01:21 INFO  : Local file system at /biodragon/vagrantBox/africanum_analysis/lab: Modify window is 1s
+2019/05/30 04:01:21 INFO  : Local file system at /biodragon/vagrantBox/africanum_analysis/lab: Waiting for checks to finish
+2019/05/30 04:01:21 INFO  : Local file system at /biodragon/vagrantBox/africanum_analysis/lab: Waiting for transfers to finish
+2019/05/30 04:01:37 INFO  : SAMEA1877177_1.fastq.gz: Copied (new)
+2019/05/30 04:01:37 INFO  : 
+Transferred:   341.423 MBytes (18.381 MBytes/s)
+Errors:                 0
+Checks:                 0
+Transferred:            1
+Elapsed time:       18.5s
+2019/05/30 04:01:37 DEBUG : Go routines at exit 9
+2019/05/30 04:01:37 DEBUG : rclone: Version "v1.36" finishing with parameters ["rclone" "copy" "onedrive-em:africanum_analysis/lab/SAMEA1877177_1.fastq.gz" "." "-vv"]
+2019/05/30 04:01:37 DEBUG : rclone: Version "v1.36" starting with parameters ["rclone" "copy" "onedrive-em:africanum_analysis/lab/SAMEA1877177_2.fastq.gz" "." "-vv"]
+2019/05/30 04:01:39 INFO  : Local file system at /biodragon/vagrantBox/africanum_analysis/lab: Modify window is 1s
+2019/05/30 04:01:40 INFO  : Local file system at /biodragon/vagrantBox/africanum_analysis/lab: Waiting for checks to finish
+2019/05/30 04:01:40 INFO  : Local file system at /biodragon/vagrantBox/africanum_analysis/lab: Waiting for transfers to finish
+2019/05/30 04:01:54 INFO  : SAMEA1877177_2.fastq.gz: Copied (new)
+2019/05/30 04:01:54 INFO  : 
+Transferred:   334.719 MBytes (19.508 MBytes/s)
+Errors:                 0
+Checks:                 0
+Transferred:            1
+Elapsed time:       17.1s
+2019/05/30 04:01:54 DEBUG : Go routines at exit 9
+2019/05/30 04:01:54 DEBUG : rclone: Version "v1.36" finishing with parameters ["rclone" "copy" "onedrive-em:africanum_analysis/lab/SAMEA1877177_2.fastq.gz" "." "-vv"]
+2019/05/30 04:01:54 DEBUG : rclone: Version "v1.36" starting with parameters ["rclone" "copy" "onedrive-em:africanum_analysis/lab/SAMEA1877181_L3_1.fastq.gz" "." "-vv"]
+2019/05/30 04:01:56 INFO  : Local file system at /biodragon/vagrantBox/africanum_analysis/lab: Modify window is 1s
+2019/05/30 04:01:56 INFO  : Local file system at /biodragon/vagrantBox/africanum_analysis/lab: Waiting for checks to finish
+2019/05/30 04:01:56 INFO  : Local file system at /biodragon/vagrantBox/africanum_analysis/lab: Waiting for transfers to finish
+2019/05/30 04:02:13 INFO  : SAMEA1877181_L3_1.fastq.gz: Copied (new)
+2019/05/30 04:02:13 INFO  : 
+Transferred:   324.860 MBytes (17.567 MBytes/s)
+Errors:                 0
+Checks:                 0
+Transferred:            1
+Elapsed time:       18.4s
+2019/05/30 04:02:13 DEBUG : Go routines at exit 9
+2019/05/30 04:02:13 DEBUG : rclone: Version "v1.36" finishing with parameters ["rclone" "copy" "onedrive-em:africanum_analysis/lab/SAMEA1877181_L3_1.fastq.gz" "." "-vv"]
+2019/05/30 04:02:13 DEBUG : rclone: Version "v1.36" starting with parameters ["rclone" "copy" "onedrive-em:africanum_analysis/lab/SAMEA1877181_L3_2.fastq.gz" "." "-vv"]
+2019/05/30 04:02:14 INFO  : Local file system at /biodragon/vagrantBox/africanum_analysis/lab: Modify window is 1s
+2019/05/30 04:02:14 INFO  : Local file system at /biodragon/vagrantBox/africanum_analysis/lab: Waiting for checks to finish
+2019/05/30 04:02:14 INFO  : Local file system at /biodragon/vagrantBox/africanum_analysis/lab: Waiting for transfers to finish
+2019/05/30 04:02:31 INFO  : SAMEA1877181_L3_2.fastq.gz: Copied (new)
+2019/05/30 04:02:31 INFO  : 
+Transferred:   326.981 MBytes (17.996 MBytes/s)
+Errors:                 0
+Checks:                 0
+Transferred:            1
+Elapsed time:       18.1s
+2019/05/30 04:02:31 DEBUG : Go routines at exit 9
+2019/05/30 04:02:31 DEBUG : rclone: Version "v1.36" finishing with parameters ["rclone" "copy" "onedrive-em:africanum_analysis/lab/SAMEA1877181_L3_2.fastq.gz" "." "-vv"]
+2019/05/30 04:02:31 DEBUG : rclone: Version "v1.36" starting with parameters ["rclone" "copy" "onedrive-em:africanum_analysis/lab/SAMEA1877187_1.fastq.gz" "." "-vv"]
+2019/05/30 04:02:32 INFO  : Local file system at /biodragon/vagrantBox/africanum_analysis/lab: Modify window is 1s
+2019/05/30 04:02:32 INFO  : Local file system at /biodragon/vagrantBox/africanum_analysis/lab: Waiting for checks to finish
+2019/05/30 04:02:32 INFO  : Local file system at /biodragon/vagrantBox/africanum_analysis/lab: Waiting for transfers to finish
+2019/05/30 04:02:45 INFO  : SAMEA1877187_1.fastq.gz: Copied (new)
+2019/05/30 04:02:45 INFO  : 
+Transferred:   223.446 MBytes (16.000 MBytes/s)
+Errors:                 0
+Checks:                 0
+Transferred:            1
+Elapsed time:       13.9s
+2019/05/30 04:02:45 DEBUG : Go routines at exit 9
+2019/05/30 04:02:45 DEBUG : rclone: Version "v1.36" finishing with parameters ["rclone" "copy" "onedrive-em:africanum_analysis/lab/SAMEA1877187_1.fastq.gz" "." "-vv"]
+2019/05/30 04:02:45 DEBUG : rclone: Version "v1.36" starting with parameters ["rclone" "copy" "onedrive-em:africanum_analysis/lab/SAMEA1877187_2.fastq.gz" "." "-vv"]
+2019/05/30 04:02:46 INFO  : Local file system at /biodragon/vagrantBox/africanum_analysis/lab: Modify window is 1s
+2019/05/30 04:02:47 INFO  : Local file system at /biodragon/vagrantBox/africanum_analysis/lab: Waiting for checks to finish
+2019/05/30 04:02:47 INFO  : Local file system at /biodragon/vagrantBox/africanum_analysis/lab: Waiting for transfers to finish
+2019/05/30 04:03:18 INFO  : SAMEA1877187_2.fastq.gz: Copied (new)
+2019/05/30 04:03:18 INFO  : 
+Transferred:   222.684 MBytes (6.736 MBytes/s)
+Errors:                 0
+Checks:                 0
+Transferred:            1
+Elapsed time:         33s
+2019/05/30 04:03:18 DEBUG : Go routines at exit 9
+2019/05/30 04:03:18 DEBUG : rclone: Version "v1.36" finishing with parameters ["rclone" "copy" "onedrive-em:africanum_analysis/lab/SAMEA1877187_2.fastq.gz" "." "-vv"]
+2019/05/30 04:03:18 DEBUG : rclone: Version "v1.36" starting with parameters ["rclone" "copy" "onedrive-em:africanum_analysis/lab/SAMEA1877190_1.fastq.gz" "." "-vv"]
+2019/05/30 04:03:20 INFO  : Local file system at /biodragon/vagrantBox/africanum_analysis/lab: Modify window is 1s
+2019/05/30 04:03:20 INFO  : Local file system at /biodragon/vagrantBox/africanum_analysis/lab: Waiting for checks to finish
+2019/05/30 04:03:20 INFO  : Local file system at /biodragon/vagrantBox/africanum_analysis/lab: Waiting for transfers to finish
+2019/05/30 04:03:37 INFO  : SAMEA1877190_1.fastq.gz: Copied (new)
+2019/05/30 04:03:37 INFO  : 
+Transferred:   401.252 MBytes (21.305 MBytes/s)
+Errors:                 0
+Checks:                 0
+Transferred:            1
+Elapsed time:       18.8s
+2019/05/30 04:03:37 DEBUG : Go routines at exit 9
+2019/05/30 04:03:37 DEBUG : rclone: Version "v1.36" finishing with parameters ["rclone" "copy" "onedrive-em:africanum_analysis/lab/SAMEA1877190_1.fastq.gz" "." "-vv"]
+2019/05/30 04:03:37 DEBUG : rclone: Version "v1.36" starting with parameters ["rclone" "copy" "onedrive-em:africanum_analysis/lab/SAMEA1877190_2.fastq.gz" "." "-vv"]
+2019/05/30 04:03:39 INFO  : Local file system at /biodragon/vagrantBox/africanum_analysis/lab: Modify window is 1s
+2019/05/30 04:03:39 INFO  : Local file system at /biodragon/vagrantBox/africanum_analysis/lab: Waiting for checks to finish
+2019/05/30 04:03:39 INFO  : Local file system at /biodragon/vagrantBox/africanum_analysis/lab: Waiting for transfers to finish
+2019/05/30 04:03:57 INFO  : SAMEA1877190_2.fastq.gz: Copied (new)
+2019/05/30 04:03:57 INFO  : 
+Transferred:   391.469 MBytes (19.880 MBytes/s)
+Errors:                 0
+Checks:                 0
+Transferred:            1
+Elapsed time:       19.6s
+2019/05/30 04:03:57 DEBUG : Go routines at exit 9
+2019/05/30 04:03:57 DEBUG : rclone: Version "v1.36" finishing with parameters ["rclone" "copy" "onedrive-em:africanum_analysis/lab/SAMEA1877190_2.fastq.gz" "." "-vv"]
+2019/05/30 04:03:57 DEBUG : rclone: Version "v1.36" starting with parameters ["rclone" "copy" "onedrive-em:africanum_analysis/lab/SAMEA1877206_1.fastq.gz" "." "-vv"]
+2019/05/30 04:03:58 INFO  : Local file system at /biodragon/vagrantBox/africanum_analysis/lab: Modify window is 1s
+2019/05/30 04:03:59 INFO  : Local file system at /biodragon/vagrantBox/africanum_analysis/lab: Waiting for checks to finish
+2019/05/30 04:03:59 INFO  : Local file system at /biodragon/vagrantBox/africanum_analysis/lab: Waiting for transfers to finish
+2019/05/30 04:04:11 INFO  : SAMEA1877206_1.fastq.gz: Copied (new)
+2019/05/30 04:04:11 INFO  : 
+Transferred:   257.814 MBytes (17.912 MBytes/s)
+Errors:                 0
+Checks:                 0
+Transferred:            1
+Elapsed time:       14.3s
+2019/05/30 04:04:11 DEBUG : Go routines at exit 9
+2019/05/30 04:04:11 DEBUG : rclone: Version "v1.36" finishing with parameters ["rclone" "copy" "onedrive-em:africanum_analysis/lab/SAMEA1877206_1.fastq.gz" "." "-vv"]
+2019/05/30 04:04:11 DEBUG : rclone: Version "v1.36" starting with parameters ["rclone" "copy" "onedrive-em:africanum_analysis/lab/SAMEA1877206_2.fastq.gz" "." "-vv"]
+2019/05/30 04:04:13 INFO  : Local file system at /biodragon/vagrantBox/africanum_analysis/lab: Modify window is 1s
+2019/05/30 04:04:13 INFO  : Local file system at /biodragon/vagrantBox/africanum_analysis/lab: Waiting for checks to finish
+2019/05/30 04:04:13 INFO  : Local file system at /biodragon/vagrantBox/africanum_analysis/lab: Waiting for transfers to finish
+2019/05/30 04:04:25 INFO  : SAMEA1877206_2.fastq.gz: Copied (new)
+2019/05/30 04:04:25 INFO  : 
+Transferred:   256.782 MBytes (18.813 MBytes/s)
+Errors:                 0
+Checks:                 0
+Transferred:            1
+Elapsed time:       13.6s
+2019/05/30 04:04:25 DEBUG : Go routines at exit 9
+2019/05/30 04:04:25 DEBUG : rclone: Version "v1.36" finishing with parameters ["rclone" "copy" "onedrive-em:africanum_analysis/lab/SAMEA1877206_2.fastq.gz" "." "-vv"]
+2019/05/30 04:04:25 DEBUG : rclone: Version "v1.36" starting with parameters ["rclone" "copy" "onedrive-em:africanum_analysis/lab/SAMEA1877207_1.fastq.gz" "." "-vv"]
+2019/05/30 04:04:26 INFO  : Local file system at /biodragon/vagrantBox/africanum_analysis/lab: Modify window is 1s
+2019/05/30 04:04:27 INFO  : Local file system at /biodragon/vagrantBox/africanum_analysis/lab: Waiting for checks to finish
+2019/05/30 04:04:27 INFO  : Local file system at /biodragon/vagrantBox/africanum_analysis/lab: Waiting for transfers to finish
+2019/05/30 04:04:37 INFO  : SAMEA1877207_1.fastq.gz: Copied (new)
+2019/05/30 04:04:37 INFO  : 
+Transferred:   229.715 MBytes (18.813 MBytes/s)
+Errors:                 0
+Checks:                 0
+Transferred:            1
+Elapsed time:       12.2s
+2019/05/30 04:04:37 DEBUG : Go routines at exit 9
+2019/05/30 04:04:37 DEBUG : rclone: Version "v1.36" finishing with parameters ["rclone" "copy" "onedrive-em:africanum_analysis/lab/SAMEA1877207_1.fastq.gz" "." "-vv"]
+2019/05/30 04:04:37 DEBUG : rclone: Version "v1.36" starting with parameters ["rclone" "copy" "onedrive-em:africanum_analysis/lab/SAMEA1877207_2.fastq.gz" "." "-vv"]
+2019/05/30 04:04:38 INFO  : Local file system at /biodragon/vagrantBox/africanum_analysis/lab: Modify window is 1s
+2019/05/30 04:04:39 INFO  : Local file system at /biodragon/vagrantBox/africanum_analysis/lab: Waiting for checks to finish
+2019/05/30 04:04:39 INFO  : Local file system at /biodragon/vagrantBox/africanum_analysis/lab: Waiting for transfers to finish
+2019/05/30 04:04:46 INFO  : SAMEA1877207_2.fastq.gz: Copied (new)
+2019/05/30 04:04:46 INFO  : 
+Transferred:   196.797 MBytes (20.774 MBytes/s)
+Errors:                 0
+Checks:                 0
+Transferred:            1
+Elapsed time:        9.4s
+2019/05/30 04:04:46 DEBUG : Go routines at exit 9
+2019/05/30 04:04:46 DEBUG : rclone: Version "v1.36" finishing with parameters ["rclone" "copy" "onedrive-em:africanum_analysis/lab/SAMEA1877207_2.fastq.gz" "." "-vv"]
+2019/05/30 04:04:46 DEBUG : rclone: Version "v1.36" starting with parameters ["rclone" "copy" "onedrive-em:africanum_analysis/lab/SAMEA1877219_L2_1.fastq.gz" "." "-vv"]
+2019/05/30 04:04:48 INFO  : Local file system at /biodragon/vagrantBox/africanum_analysis/lab: Modify window is 1s
+2019/05/30 04:04:48 INFO  : Local file system at /biodragon/vagrantBox/africanum_analysis/lab: Waiting for checks to finish
+2019/05/30 04:04:48 INFO  : Local file system at /biodragon/vagrantBox/africanum_analysis/lab: Waiting for transfers to finish
+2019/05/30 04:05:04 INFO  : SAMEA1877219_L2_1.fastq.gz: Copied (new)
+2019/05/30 04:05:04 INFO  : 
+Transferred:   337.986 MBytes (19.209 MBytes/s)
+Errors:                 0
+Checks:                 0
+Transferred:            1
+Elapsed time:       17.5s
+2019/05/30 04:05:04 DEBUG : Go routines at exit 9
+2019/05/30 04:05:04 DEBUG : rclone: Version "v1.36" finishing with parameters ["rclone" "copy" "onedrive-em:africanum_analysis/lab/SAMEA1877219_L2_1.fastq.gz" "." "-vv"]
+2019/05/30 04:05:04 DEBUG : rclone: Version "v1.36" starting with parameters ["rclone" "copy" "onedrive-em:africanum_analysis/lab/SAMEA1877219_L2_2.fastq.gz" "." "-vv"]
+2019/05/30 04:05:10 INFO  : Local file system at /biodragon/vagrantBox/africanum_analysis/lab: Modify window is 1s
+2019/05/30 04:05:10 INFO  : Local file system at /biodragon/vagrantBox/africanum_analysis/lab: Waiting for checks to finish
+2019/05/30 04:05:10 INFO  : Local file system at /biodragon/vagrantBox/africanum_analysis/lab: Waiting for transfers to finish
+2019/05/30 04:05:29 INFO  : SAMEA1877219_L2_2.fastq.gz: Copied (new)
+2019/05/30 04:05:29 INFO  : 
+Transferred:   342.908 MBytes (13.798 MBytes/s)
+Errors:                 0
+Checks:                 0
+Transferred:            1
+Elapsed time:       24.8s
+2019/05/30 04:05:29 DEBUG : Go routines at exit 9
+2019/05/30 04:05:29 DEBUG : rclone: Version "v1.36" finishing with parameters ["rclone" "copy" "onedrive-em:africanum_analysis/lab/SAMEA1877219_L2_2.fastq.gz" "." "-vv"]
+2019/05/30 04:05:29 DEBUG : rclone: Version "v1.36" starting with parameters ["rclone" "copy" "onedrive-em:africanum_analysis/lab/SAMEA1877227_1.fastq.gz" "." "-vv"]
+2019/05/30 04:05:31 INFO  : Local file system at /biodragon/vagrantBox/africanum_analysis/lab: Modify window is 1s
+2019/05/30 04:05:31 INFO  : Local file system at /biodragon/vagrantBox/africanum_analysis/lab: Waiting for checks to finish
+2019/05/30 04:05:31 INFO  : Local file system at /biodragon/vagrantBox/africanum_analysis/lab: Waiting for transfers to finish
+2019/05/30 04:05:45 INFO  : SAMEA1877227_1.fastq.gz: Copied (new)
+2019/05/30 04:05:45 INFO  : 
+Transferred:   330.785 MBytes (19.904 MBytes/s)
+Errors:                 0
+Checks:                 0
+Transferred:            1
+Elapsed time:       16.6s
+2019/05/30 04:05:45 DEBUG : Go routines at exit 9
+2019/05/30 04:05:45 DEBUG : rclone: Version "v1.36" finishing with parameters ["rclone" "copy" "onedrive-em:africanum_analysis/lab/SAMEA1877227_1.fastq.gz" "." "-vv"]
+2019/05/30 04:05:45 DEBUG : rclone: Version "v1.36" starting with parameters ["rclone" "copy" "onedrive-em:africanum_analysis/lab/SAMEA1877227_2.fastq.gz" "." "-vv"]
+2019/05/30 04:05:47 INFO  : Local file system at /biodragon/vagrantBox/africanum_analysis/lab: Modify window is 1s
+2019/05/30 04:05:47 INFO  : Local file system at /biodragon/vagrantBox/africanum_analysis/lab: Waiting for checks to finish
+2019/05/30 04:05:47 INFO  : Local file system at /biodragon/vagrantBox/africanum_analysis/lab: Waiting for transfers to finish
+2019/05/30 04:05:59 INFO  : SAMEA1877227_2.fastq.gz: Copied (new)
+2019/05/30 04:05:59 INFO  : 
+Transferred:   279.789 MBytes (20.343 MBytes/s)
+Errors:                 0
+Checks:                 0
+Transferred:            1
+Elapsed time:       13.7s
+2019/05/30 04:05:59 DEBUG : Go routines at exit 9
+2019/05/30 04:05:59 DEBUG : rclone: Version "v1.36" finishing with parameters ["rclone" "copy" "onedrive-em:africanum_analysis/lab/SAMEA1877227_2.fastq.gz" "." "-vv"]
+2019/05/30 04:05:59 DEBUG : rclone: Version "v1.36" starting with parameters ["rclone" "copy" "onedrive-em:africanum_analysis/lab/SAMEA1877229_1.fastq.gz" "." "-vv"]
+2019/05/30 04:06:01 INFO  : Local file system at /biodragon/vagrantBox/africanum_analysis/lab: Modify window is 1s
+2019/05/30 04:06:01 INFO  : Local file system at /biodragon/vagrantBox/africanum_analysis/lab: Waiting for checks to finish
+2019/05/30 04:06:01 INFO  : Local file system at /biodragon/vagrantBox/africanum_analysis/lab: Waiting for transfers to finish
+2019/05/30 04:06:17 INFO  : SAMEA1877229_1.fastq.gz: Copied (new)
+2019/05/30 04:06:17 INFO  : 
+Transferred:   315.105 MBytes (17.932 MBytes/s)
+Errors:                 0
+Checks:                 0
+Transferred:            1
+Elapsed time:       17.5s
+2019/05/30 04:06:17 DEBUG : Go routines at exit 9
+2019/05/30 04:06:17 DEBUG : rclone: Version "v1.36" finishing with parameters ["rclone" "copy" "onedrive-em:africanum_analysis/lab/SAMEA1877229_1.fastq.gz" "." "-vv"]
+2019/05/30 04:06:17 DEBUG : rclone: Version "v1.36" starting with parameters ["rclone" "copy" "onedrive-em:africanum_analysis/lab/SAMEA1877229_2.fastq.gz" "." "-vv"]
+2019/05/30 04:06:18 INFO  : Local file system at /biodragon/vagrantBox/africanum_analysis/lab: Modify window is 1s
+2019/05/30 04:06:18 INFO  : Local file system at /biodragon/vagrantBox/africanum_analysis/lab: Waiting for checks to finish
+2019/05/30 04:06:18 INFO  : Local file system at /biodragon/vagrantBox/africanum_analysis/lab: Waiting for transfers to finish
+2019/05/30 04:06:37 INFO  : SAMEA1877229_2.fastq.gz: Copied (new)
+2019/05/30 04:06:37 INFO  : 
+Transferred:   269.642 MBytes (13.417 MBytes/s)
+Errors:                 0
+Checks:                 0
+Transferred:            1
+Elapsed time:         20s
+2019/05/30 04:06:37 DEBUG : Go routines at exit 9
+2019/05/30 04:06:37 DEBUG : rclone: Version "v1.36" finishing with parameters ["rclone" "copy" "onedrive-em:africanum_analysis/lab/SAMEA1877229_2.fastq.gz" "." "-vv"]
+2019/05/30 04:06:37 DEBUG : rclone: Version "v1.36" starting with parameters ["rclone" "copy" "onedrive-em:africanum_analysis/lab/SAMEA1877233_1.fastq.gz" "." "-vv"]
+2019/05/30 04:06:39 INFO  : Local file system at /biodragon/vagrantBox/africanum_analysis/lab: Modify window is 1s
+2019/05/30 04:06:39 INFO  : Local file system at /biodragon/vagrantBox/africanum_analysis/lab: Waiting for checks to finish
+2019/05/30 04:06:39 INFO  : Local file system at /biodragon/vagrantBox/africanum_analysis/lab: Waiting for transfers to finish
+2019/05/30 04:06:50 INFO  : SAMEA1877233_1.fastq.gz: Copied (new)
+2019/05/30 04:06:50 INFO  : 
+Transferred:   280.528 MBytes (20.943 MBytes/s)
+Errors:                 0
+Checks:                 0
+Transferred:            1
+Elapsed time:       13.3s
+2019/05/30 04:06:50 DEBUG : Go routines at exit 9
+2019/05/30 04:06:50 DEBUG : rclone: Version "v1.36" finishing with parameters ["rclone" "copy" "onedrive-em:africanum_analysis/lab/SAMEA1877233_1.fastq.gz" "." "-vv"]
+2019/05/30 04:06:50 DEBUG : rclone: Version "v1.36" starting with parameters ["rclone" "copy" "onedrive-em:africanum_analysis/lab/SAMEA1877233_2.fastq.gz" "." "-vv"]
+2019/05/30 04:06:52 INFO  : Local file system at /biodragon/vagrantBox/africanum_analysis/lab: Modify window is 1s
+2019/05/30 04:06:52 INFO  : Local file system at /biodragon/vagrantBox/africanum_analysis/lab: Waiting for checks to finish
+2019/05/30 04:06:52 INFO  : Local file system at /biodragon/vagrantBox/africanum_analysis/lab: Waiting for transfers to finish
+2019/05/30 04:07:07 INFO  : SAMEA1877233_2.fastq.gz: Copied (new)
+2019/05/30 04:07:07 INFO  : 
+Transferred:   284.066 MBytes (16.533 MBytes/s)
+Errors:                 0
+Checks:                 0
+Transferred:            1
+Elapsed time:       17.1s
+2019/05/30 04:07:07 DEBUG : Go routines at exit 9
+2019/05/30 04:07:07 DEBUG : rclone: Version "v1.36" finishing with parameters ["rclone" "copy" "onedrive-em:africanum_analysis/lab/SAMEA1877233_2.fastq.gz" "." "-vv"]
+2019/05/30 04:07:07 DEBUG : rclone: Version "v1.36" starting with parameters ["rclone" "copy" "onedrive-em:africanum_analysis/lab/SAMEA1877237_1.fastq.gz" "." "-vv"]
+2019/05/30 04:07:09 INFO  : Local file system at /biodragon/vagrantBox/africanum_analysis/lab: Modify window is 1s
+2019/05/30 04:07:09 INFO  : Local file system at /biodragon/vagrantBox/africanum_analysis/lab: Waiting for checks to finish
+2019/05/30 04:07:09 INFO  : Local file system at /biodragon/vagrantBox/africanum_analysis/lab: Waiting for transfers to finish
+2019/05/30 04:07:19 INFO  : SAMEA1877237_1.fastq.gz: Copied (new)
+2019/05/30 04:07:19 INFO  : 
+Transferred:   213.148 MBytes (18.371 MBytes/s)
+Errors:                 0
+Checks:                 0
+Transferred:            1
+Elapsed time:       11.6s
+2019/05/30 04:07:19 DEBUG : Go routines at exit 9
+2019/05/30 04:07:19 DEBUG : rclone: Version "v1.36" finishing with parameters ["rclone" "copy" "onedrive-em:africanum_analysis/lab/SAMEA1877237_1.fastq.gz" "." "-vv"]
+2019/05/30 04:07:19 DEBUG : rclone: Version "v1.36" starting with parameters ["rclone" "copy" "onedrive-em:africanum_analysis/lab/SAMEA1877237_2.fastq.gz" "." "-vv"]
+2019/05/30 04:07:20 INFO  : Local file system at /biodragon/vagrantBox/africanum_analysis/lab: Modify window is 1s
+2019/05/30 04:07:20 INFO  : Local file system at /biodragon/vagrantBox/africanum_analysis/lab: Waiting for checks to finish
+2019/05/30 04:07:20 INFO  : Local file system at /biodragon/vagrantBox/africanum_analysis/lab: Waiting for transfers to finish
+2019/05/30 04:07:31 INFO  : SAMEA1877237_2.fastq.gz: Copied (new)
+2019/05/30 04:07:31 INFO  : 
+Transferred:   176.470 MBytes (14.267 MBytes/s)
+Errors:                 0
+Checks:                 0
+Transferred:            1
+Elapsed time:       12.3s
+2019/05/30 04:07:31 DEBUG : Go routines at exit 9
+2019/05/30 04:07:31 DEBUG : rclone: Version "v1.36" finishing with parameters ["rclone" "copy" "onedrive-em:africanum_analysis/lab/SAMEA1877237_2.fastq.gz" "." "-vv"]
