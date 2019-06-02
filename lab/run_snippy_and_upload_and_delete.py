@@ -61,21 +61,21 @@ def run_snippy(a_pair):
 
     print(cmd)
 
-    os.system(cmd)
+    #os.system(cmd)
 
 #TODO rclone upload the folder to onedrive-em-snippy
 
-    up_cmd = "rclone copy ./" + genome_name + " onedrive-em:africanum_analysis/snippy/" + genome_name + " -vv"
-    print(up_cmd)
+    #up_cmd = "rclone copy ./" + genome_name + " onedrive-em:africanum_analysis/snippy/" + genome_name + " -vv"
+    #print(up_cmd)
 
-    os.system(up_cmd)
+    #os.system(up_cmd)
 
 #DONE rm the genomes and the folder
 
-    del_cmd = "rm -rf " + genome_1 + " && " + "rm -rf " + genome_2 + " && " + "rm -rf " + genome_name
-    print(del_cmd)
+    #del_cmd = "rm -rf " + genome_1 + " && " + "rm -rf " + genome_2 + " && " + "rm -rf " + genome_name
+    #print(del_cmd)
 
-    os.system(del_cmd)
+    #os.system(del_cmd)
 
 	
     print("\n $$$$$$$$$$ \n")
