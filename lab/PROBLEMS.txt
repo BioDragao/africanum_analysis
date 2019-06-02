@@ -1,0 +1,4 @@
+[13:20:54] Using ID 'SAMEA2794356' for SAMEA2794356
+[13:20:54] SAMEA2794356: found 0 variants totalling 0 bp in SAMEA2794356/snps.tab
+[13:20:54] Using ID 'ref' for ref
+[13:20:54] Could not find a .tab file in ref
