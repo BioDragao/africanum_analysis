@@ -37,7 +37,7 @@ def run_snippy_core():
 
     print(cmd)
 
-    #os.system(cmd)
+    os.system(cmd)
 
     print("\n $$$$$$$$$$ \n")
 

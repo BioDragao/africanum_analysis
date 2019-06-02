@@ -10,8 +10,12 @@ rclone copy onedrive-em:africanum_analysis/lab/SAMEA2794354_1.fastq.gz . -vv
 rclone copy onedrive-em:africanum_analysis/lab/SAMEA2794354_2.fastq.gz . -vv
 rclone copy onedrive-em:africanum_analysis/lab/SAMEA2794355_1.fastq.gz . -vv
 rclone copy onedrive-em:africanum_analysis/lab/SAMEA2794355_2.fastq.gz . -vv
+
+
 rclone copy onedrive-em:africanum_analysis/lab/SAMEA2794356_1.fastq.gz . -vv
 rclone copy onedrive-em:africanum_analysis/lab/SAMEA2794356_2.fastq.gz . -vv
+
+
 rclone copy onedrive-em:africanum_analysis/lab/SAMEA2794357_1.fastq.gz . -vv
 rclone copy onedrive-em:africanum_analysis/lab/SAMEA2794357_2.fastq.gz . -vv
 rclone copy onedrive-em:africanum_analysis/lab/SAMEA2794358_1.fastq.gz . -vv
