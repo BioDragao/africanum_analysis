@@ -23,6 +23,8 @@ all_dirs.remove('ref')
 #all_dirs.remove('SAMEA2340933')
 #all_dirs.remove('spotyping')
 #all_dirs.remove('uploaded')
+# this genome gives error
+#all_dirs.remove('SAMEA2340933')
 
 dir_string = " "
 
