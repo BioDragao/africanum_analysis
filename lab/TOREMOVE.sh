@@ -112,3 +112,5 @@ rm -rf SAMEA3359919_1.fastq.gz
 rm -rf SAMEA3359919_2.fastq.gz	
 rm -rf SAMEA3504608_1.fastq.gz
 rm -rf SAMEA3504608_2.fastq.gz	
+rm -rf SAMEA2340933_1.fastq.gz
+rm -rf SAMEA2340933_2.fastq.gz
