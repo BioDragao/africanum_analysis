@@ -19,6 +19,8 @@ import shutil
 # all_fastq_files = list(filter(lambda x:has_fastq_in_name(x), all_files))
 
 all_dirs = [f for f in os.listdir() if os.path.isdir(f)]
+all_dirs.remove('ref')
+#all_dirs.remove('SAMEA2340933')
 #all_dirs.remove('spotyping')
 #all_dirs.remove('uploaded')
 
