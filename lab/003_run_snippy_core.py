@@ -20,11 +20,10 @@ import shutil
 
 all_dirs = [f for f in os.listdir() if os.path.isdir(f)]
 all_dirs.remove('ref')
+# this genome gives error
 #all_dirs.remove('SAMEA2340933')
 #all_dirs.remove('spotyping')
 #all_dirs.remove('uploaded')
-# this genome gives error
-#all_dirs.remove('SAMEA2340933')
 
 dir_string = " "
 
@@ -41,7 +40,7 @@ def run_snippy_core():
 
     print(cmd)
 
-    os.system(cmd)
+    #os.system(cmd)
 
     print("\n $$$$$$$$$$ \n")
 
