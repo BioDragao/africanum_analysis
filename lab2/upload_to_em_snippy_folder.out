@@ -1,0 +1,2541 @@
+2019/05/30 17:25:28 DEBUG : rclone: Version "v1.36" starting with parameters ["rclone" "copy" "./SAMEA1877109" "onedrive-em:africanum_analysis/snippy/SAMEA1877109" "-vv"]
+2019/05/30 17:25:29 DEBUG : onedrive-em: Saved new token in config file
+2019/05/30 17:25:31 INFO  : One drive root 'africanum_analysis/snippy/SAMEA1877109': Modify window is 1s
+2019/05/30 17:25:31 DEBUG : One drive root 'africanum_analysis/snippy/SAMEA1877109': Reading ""
+2019/05/30 17:25:31 DEBUG : One drive root 'africanum_analysis/snippy/SAMEA1877109': Finished reading ""
+2019/05/30 17:25:31 DEBUG : snps.bam: Starting multipart upload
+2019/05/30 17:25:31 DEBUG : snps.bam: Uploading segment 0/557568635 size 10485760
+2019/05/30 17:25:32 DEBUG : snps.bam: Uploading segment 10485760/557568635 size 10485760
+2019/05/30 17:25:32 INFO  : snps.bam.bai: Copied (new)
+2019/05/30 17:25:32 INFO  : snps.bed: Copied (new)
+2019/05/30 17:25:33 INFO  : snps.aligned.fa: Copied (new)
+2019/05/30 17:25:33 DEBUG : snps.bam: Uploading segment 20971520/557568635 size 10485760
+2019/05/30 17:25:34 INFO  : snps.csv: Copied (new)
+2019/05/30 17:25:34 DEBUG : snps.depth.gz: Starting multipart upload
+2019/05/30 17:25:34 DEBUG : snps.depth.gz: Uploading segment 0/16328535 size 10485760
+2019/05/30 17:25:34 INFO  : snps.consensus.fa: Copied (new)
+2019/05/30 17:25:35 INFO  : snps.depth.gz.tbi: Copied (new)
+2019/05/30 17:25:35 DEBUG : snps.bam: Uploading segment 31457280/557568635 size 10485760
+2019/05/30 17:25:35 INFO  : snps.consensus.subs.fa: Copied (new)
+2019/05/30 17:25:35 DEBUG : snps.depth.gz: Uploading segment 10485760/16328535 size 5842775
+2019/05/30 17:25:35 DEBUG : snps.bam: Uploading segment 41943040/557568635 size 10485760
+2019/05/30 17:25:35 INFO  : snps.filt.subs.vcf.gz: Copied (new)
+2019/05/30 17:25:36 INFO  : snps.filt.subs.vcf: Copied (new)
+2019/05/30 17:25:36 INFO  : snps.depth.gz: Copied (new)
+2019/05/30 17:25:36 DEBUG : snps.bam: Uploading segment 52428800/557568635 size 10485760
+2019/05/30 17:25:36 INFO  : snps.filt.subs.vcf.gz.tbi: Copied (new)
+2019/05/30 17:25:37 DEBUG : snps.bam: Uploading segment 62914560/557568635 size 10485760
+2019/05/30 17:25:37 INFO  : snps.gff: Copied (new)
+2019/05/30 17:25:37 INFO  : snps.log: Copied (new)
+2019/05/30 17:25:37 DEBUG : snps.bam: Uploading segment 73400320/557568635 size 10485760
+2019/05/30 17:25:37 INFO  : snps.html: Copied (new)
+2019/05/30 17:25:37 INFO  : snps.filt.vcf: Copied (new)
+2019/05/30 17:25:38 DEBUG : snps.bam: Uploading segment 83886080/557568635 size 10485760
+2019/05/30 17:25:38 INFO  : snps.txt: Copied (new)
+2019/05/30 17:25:38 INFO  : snps.raw.vcf: Copied (new)
+2019/05/30 17:25:38 DEBUG : snps.bam: Uploading segment 94371840/557568635 size 10485760
+2019/05/30 17:25:39 INFO  : snps.tab: Copied (new)
+2019/05/30 17:25:39 INFO  : snps.vcf.gz: Copied (new)
+2019/05/30 17:25:39 DEBUG : snps.bam: Uploading segment 104857600/557568635 size 10485760
+2019/05/30 17:25:39 INFO  : snps.vcf: Copied (new)
+2019/05/30 17:25:40 DEBUG : snps.bam: Uploading segment 115343360/557568635 size 10485760
+2019/05/30 17:25:40 INFO  : reference/ref.fa.amb: Copied (new)
+2019/05/30 17:25:40 DEBUG : snps.bam: Uploading segment 125829120/557568635 size 10485760
+2019/05/30 17:25:40 INFO  : reference/ref.fa.ann: Copied (new)
+2019/05/30 17:25:41 INFO  : snps.vcf.gz.tbi: Copied (new)
+2019/05/30 17:25:41 DEBUG : snps.bam: Uploading segment 136314880/557568635 size 10485760
+2019/05/30 17:25:41 INFO  : reference/ref.fa: Copied (new)
+2019/05/30 17:25:41 DEBUG : snps.bam: Uploading segment 146800640/557568635 size 10485760
+2019/05/30 17:25:42 INFO  : reference/ref.fa.fai: Copied (new)
+2019/05/30 17:25:42 INFO  : reference/ref.fa.pac: Copied (new)
+2019/05/30 17:25:42 INFO  : reference/ref.fa.bwt: Copied (new)
+2019/05/30 17:25:42 INFO  : One drive root 'africanum_analysis/snippy/SAMEA1877109': Waiting for checks to finish
+2019/05/30 17:25:42 INFO  : One drive root 'africanum_analysis/snippy/SAMEA1877109': Waiting for transfers to finish
+2019/05/30 17:25:43 DEBUG : snps.bam: Uploading segment 157286400/557568635 size 10485760
+2019/05/30 17:25:43 INFO  : reference/ref.txt: Copied (new)
+2019/05/30 17:25:43 DEBUG : snps.bam: Uploading segment 167772160/557568635 size 10485760
+2019/05/30 17:25:43 INFO  : reference/snpeff.config: Copied (new)
+2019/05/30 17:25:44 INFO  : reference/ref.fa.sa: Copied (new)
+2019/05/30 17:25:44 INFO  : reference/ref.gff: Copied (new)
+2019/05/30 17:25:44 DEBUG : snps.bam: Uploading segment 178257920/557568635 size 10485760
+2019/05/30 17:25:45 INFO  : reference/ref/genes.gff.gz: Copied (new)
+2019/05/30 17:25:45 DEBUG : snps.bam: Uploading segment 188743680/557568635 size 10485760
+2019/05/30 17:25:45 INFO  : reference/ref/snpEffectPredictor.bin: Copied (new)
+2019/05/30 17:25:46 DEBUG : snps.bam: Uploading segment 199229440/557568635 size 10485760
+2019/05/30 17:25:46 INFO  : reference/genomes/ref.fa: Copied (new)
+2019/05/30 17:25:46 DEBUG : snps.bam: Uploading segment 209715200/557568635 size 10485760
+2019/05/30 17:25:49 DEBUG : snps.bam: Uploading segment 220200960/557568635 size 10485760
+2019/05/30 17:25:50 DEBUG : snps.bam: Uploading segment 230686720/557568635 size 10485760
+2019/05/30 17:25:50 DEBUG : snps.bam: Uploading segment 241172480/557568635 size 10485760
+2019/05/30 17:25:51 DEBUG : snps.bam: Uploading segment 251658240/557568635 size 10485760
+2019/05/30 17:25:51 DEBUG : snps.bam: Uploading segment 262144000/557568635 size 10485760
+2019/05/30 17:25:52 DEBUG : snps.bam: Uploading segment 272629760/557568635 size 10485760
+2019/05/30 17:25:53 DEBUG : snps.bam: Uploading segment 283115520/557568635 size 10485760
+2019/05/30 17:25:53 DEBUG : snps.bam: Uploading segment 293601280/557568635 size 10485760
+2019/05/30 17:25:54 DEBUG : snps.bam: Uploading segment 304087040/557568635 size 10485760
+2019/05/30 17:25:54 DEBUG : snps.bam: Uploading segment 314572800/557568635 size 10485760
+2019/05/30 17:25:55 DEBUG : snps.bam: Uploading segment 325058560/557568635 size 10485760
+2019/05/30 17:25:55 DEBUG : snps.bam: Uploading segment 335544320/557568635 size 10485760
+2019/05/30 17:25:56 DEBUG : snps.bam: Uploading segment 346030080/557568635 size 10485760
+2019/05/30 17:25:57 DEBUG : snps.bam: Uploading segment 356515840/557568635 size 10485760
+2019/05/30 17:25:59 DEBUG : snps.bam: Uploading segment 367001600/557568635 size 10485760
+2019/05/30 17:25:59 DEBUG : snps.bam: Uploading segment 377487360/557568635 size 10485760
+2019/05/30 17:26:00 DEBUG : snps.bam: Uploading segment 387973120/557568635 size 10485760
+2019/05/30 17:26:01 DEBUG : snps.bam: Uploading segment 398458880/557568635 size 10485760
+2019/05/30 17:26:01 DEBUG : snps.bam: Uploading segment 408944640/557568635 size 10485760
+2019/05/30 17:26:02 DEBUG : snps.bam: Uploading segment 419430400/557568635 size 10485760
+2019/05/30 17:26:02 DEBUG : snps.bam: Uploading segment 429916160/557568635 size 10485760
+2019/05/30 17:26:03 DEBUG : snps.bam: Uploading segment 440401920/557568635 size 10485760
+2019/05/30 17:26:04 DEBUG : snps.bam: Uploading segment 450887680/557568635 size 10485760
+2019/05/30 17:26:05 DEBUG : snps.bam: Uploading segment 461373440/557568635 size 10485760
+2019/05/30 17:26:05 DEBUG : snps.bam: Uploading segment 471859200/557568635 size 10485760
+2019/05/30 17:26:06 DEBUG : snps.bam: Uploading segment 482344960/557568635 size 10485760
+2019/05/30 17:26:06 DEBUG : snps.bam: Uploading segment 492830720/557568635 size 10485760
+2019/05/30 17:26:07 DEBUG : snps.bam: Uploading segment 503316480/557568635 size 10485760
+2019/05/30 17:26:08 DEBUG : snps.bam: Uploading segment 513802240/557568635 size 10485760
+2019/05/30 17:26:08 DEBUG : snps.bam: Uploading segment 524288000/557568635 size 10485760
+2019/05/30 17:26:09 DEBUG : snps.bam: Uploading segment 534773760/557568635 size 10485760
+2019/05/30 17:26:09 DEBUG : snps.bam: Uploading segment 545259520/557568635 size 10485760
+2019/05/30 17:26:11 DEBUG : snps.bam: Uploading segment 555745280/557568635 size 1823355
+2019/05/30 17:26:11 INFO  : snps.bam: Copied (new)
+2019/05/30 17:26:11 INFO  : 
+Transferred:   589.332 MBytes (13.507 MBytes/s)
+Errors:                 0
+Checks:                 0
+Transferred:           35
+Elapsed time:       43.6s
+2019/05/30 17:26:11 DEBUG : Go routines at exit 16
+2019/05/30 17:26:11 DEBUG : rclone: Version "v1.36" finishing with parameters ["rclone" "copy" "./SAMEA1877109" "onedrive-em:africanum_analysis/snippy/SAMEA1877109" "-vv"]
+2019/05/30 17:26:12 DEBUG : rclone: Version "v1.36" starting with parameters ["rclone" "copy" "./SAMEA1877112_L1" "onedrive-em:africanum_analysis/snippy/SAMEA1877112_L1" "-vv"]
+2019/05/30 17:26:13 INFO  : One drive root 'africanum_analysis/snippy/SAMEA1877112_L1': Modify window is 1s
+2019/05/30 17:26:13 DEBUG : One drive root 'africanum_analysis/snippy/SAMEA1877112_L1': Reading ""
+2019/05/30 17:26:14 DEBUG : One drive root 'africanum_analysis/snippy/SAMEA1877112_L1': Finished reading ""
+2019/05/30 17:26:14 DEBUG : snps.bam: Starting multipart upload
+2019/05/30 17:26:14 DEBUG : snps.bam: Uploading segment 0/541575231 size 10485760
+2019/05/30 17:26:14 INFO  : snps.bam.bai: Copied (new)
+2019/05/30 17:26:14 INFO  : snps.bed: Copied (new)
+2019/05/30 17:26:15 DEBUG : snps.bam: Uploading segment 10485760/541575231 size 10485760
+2019/05/30 17:26:15 INFO  : snps.aligned.fa: Copied (new)
+2019/05/30 17:26:15 DEBUG : snps.bam: Uploading segment 20971520/541575231 size 10485760
+2019/05/30 17:26:16 DEBUG : snps.bam: Uploading segment 31457280/541575231 size 10485760
+2019/05/30 17:26:16 INFO  : snps.consensus.subs.fa: Copied (new)
+2019/05/30 17:26:16 DEBUG : snps.depth.gz: Starting multipart upload
+2019/05/30 17:26:16 INFO  : snps.consensus.fa: Copied (new)
+2019/05/30 17:26:16 DEBUG : snps.depth.gz: Uploading segment 0/16531254 size 10485760
+2019/05/30 17:26:17 INFO  : snps.depth.gz.tbi: Copied (new)
+2019/05/30 17:26:17 DEBUG : snps.bam: Uploading segment 41943040/541575231 size 10485760
+2019/05/30 17:26:17 INFO  : snps.csv: Copied (new)
+2019/05/30 17:26:17 DEBUG : snps.depth.gz: Uploading segment 10485760/16531254 size 6045494
+2019/05/30 17:26:17 DEBUG : snps.bam: Uploading segment 52428800/541575231 size 10485760
+2019/05/30 17:26:18 INFO  : snps.filt.subs.vcf.gz: Copied (new)
+2019/05/30 17:26:18 INFO  : snps.depth.gz: Copied (new)
+2019/05/30 17:26:18 DEBUG : snps.bam: Uploading segment 62914560/541575231 size 10485760
+2019/05/30 17:26:18 INFO  : snps.filt.subs.vcf.gz.tbi: Copied (new)
+2019/05/30 17:26:19 DEBUG : snps.bam: Uploading segment 73400320/541575231 size 10485760
+2019/05/30 17:26:19 INFO  : snps.filt.subs.vcf: Copied (new)
+2019/05/30 17:26:19 INFO  : snps.gff: Copied (new)
+2019/05/30 17:26:19 INFO  : snps.filt.vcf: Copied (new)
+2019/05/30 17:26:20 INFO  : snps.log: Copied (new)
+2019/05/30 17:26:20 DEBUG : snps.bam: Uploading segment 83886080/541575231 size 10485760
+2019/05/30 17:26:20 INFO  : snps.html: Copied (new)
+2019/05/30 17:26:21 DEBUG : snps.bam: Uploading segment 94371840/541575231 size 10485760
+2019/05/30 17:26:21 INFO  : snps.tab: Copied (new)
+2019/05/30 17:26:21 INFO  : snps.txt: Copied (new)
+2019/05/30 17:26:21 DEBUG : snps.bam: Uploading segment 104857600/541575231 size 10485760
+2019/05/30 17:26:22 INFO  : snps.raw.vcf: Copied (new)
+2019/05/30 17:26:22 DEBUG : snps.bam: Uploading segment 115343360/541575231 size 10485760
+2019/05/30 17:26:22 INFO  : snps.vcf.gz: Copied (new)
+2019/05/30 17:26:22 INFO  : snps.vcf: Copied (new)
+2019/05/30 17:26:22 INFO  : snps.vcf.gz.tbi: Copied (new)
+2019/05/30 17:26:22 DEBUG : snps.bam: Uploading segment 125829120/541575231 size 10485760
+2019/05/30 17:26:23 INFO  : reference/ref.fa.amb: Copied (new)
+2019/05/30 17:26:23 INFO  : reference/ref.fa.ann: Copied (new)
+2019/05/30 17:26:23 DEBUG : snps.bam: Uploading segment 136314880/541575231 size 10485760
+2019/05/30 17:26:23 INFO  : reference/ref.fa.fai: Copied (new)
+2019/05/30 17:26:24 DEBUG : snps.bam: Uploading segment 146800640/541575231 size 10485760
+2019/05/30 17:26:24 INFO  : reference/ref.fa: Copied (new)
+2019/05/30 17:26:25 INFO  : reference/ref.fa.pac: Copied (new)
+2019/05/30 17:26:25 DEBUG : snps.bam: Uploading segment 157286400/541575231 size 10485760
+2019/05/30 17:26:26 DEBUG : snps.bam: Uploading segment 167772160/541575231 size 10485760
+2019/05/30 17:26:26 INFO  : reference/ref.fa.bwt: Copied (new)
+2019/05/30 17:26:26 INFO  : One drive root 'africanum_analysis/snippy/SAMEA1877112_L1': Waiting for checks to finish
+2019/05/30 17:26:26 INFO  : One drive root 'africanum_analysis/snippy/SAMEA1877112_L1': Waiting for transfers to finish
+2019/05/30 17:26:26 INFO  : reference/ref.fa.sa: Copied (new)
+2019/05/30 17:26:26 INFO  : reference/ref.txt: Copied (new)
+2019/05/30 17:26:26 DEBUG : snps.bam: Uploading segment 178257920/541575231 size 10485760
+2019/05/30 17:26:26 INFO  : reference/snpeff.config: Copied (new)
+2019/05/30 17:26:27 DEBUG : snps.bam: Uploading segment 188743680/541575231 size 10485760
+2019/05/30 17:26:27 DEBUG : snps.bam: Uploading segment 199229440/541575231 size 10485760
+2019/05/30 17:26:28 DEBUG : snps.bam: Uploading segment 209715200/541575231 size 10485760
+2019/05/30 17:26:28 INFO  : reference/ref/genes.gff.gz: Copied (new)
+2019/05/30 17:26:29 DEBUG : snps.bam: Uploading segment 220200960/541575231 size 10485760
+2019/05/30 17:26:29 INFO  : reference/genomes/ref.fa: Copied (new)
+2019/05/30 17:26:29 INFO  : reference/ref/snpEffectPredictor.bin: Copied (new)
+2019/05/30 17:26:30 DEBUG : snps.bam: Uploading segment 230686720/541575231 size 10485760
+2019/05/30 17:26:31 DEBUG : snps.bam: Uploading segment 241172480/541575231 size 10485760
+2019/05/30 17:26:31 DEBUG : snps.bam: Uploading segment 251658240/541575231 size 10485760
+2019/05/30 17:26:32 DEBUG : snps.bam: Uploading segment 262144000/541575231 size 10485760
+2019/05/30 17:26:33 DEBUG : snps.bam: Uploading segment 272629760/541575231 size 10485760
+2019/05/30 17:26:33 INFO  : reference/ref.gff: Copied (new)
+2019/05/30 17:26:34 DEBUG : snps.bam: Uploading segment 283115520/541575231 size 10485760
+2019/05/30 17:26:35 DEBUG : snps.bam: Uploading segment 293601280/541575231 size 10485760
+2019/05/30 17:26:35 DEBUG : snps.bam: Uploading segment 304087040/541575231 size 10485760
+2019/05/30 17:26:36 DEBUG : snps.bam: Uploading segment 314572800/541575231 size 10485760
+2019/05/30 17:26:37 DEBUG : snps.bam: Uploading segment 325058560/541575231 size 10485760
+2019/05/30 17:26:37 DEBUG : snps.bam: Uploading segment 335544320/541575231 size 10485760
+2019/05/30 17:26:39 DEBUG : snps.bam: Uploading segment 346030080/541575231 size 10485760
+2019/05/30 17:26:39 DEBUG : snps.bam: Uploading segment 356515840/541575231 size 10485760
+2019/05/30 17:26:40 DEBUG : snps.bam: Uploading segment 367001600/541575231 size 10485760
+2019/05/30 17:26:41 DEBUG : snps.bam: Uploading segment 377487360/541575231 size 10485760
+2019/05/30 17:26:41 DEBUG : snps.bam: Uploading segment 387973120/541575231 size 10485760
+2019/05/30 17:26:43 DEBUG : snps.bam: Uploading segment 398458880/541575231 size 10485760
+2019/05/30 17:26:43 DEBUG : snps.bam: Uploading segment 408944640/541575231 size 10485760
+2019/05/30 17:26:44 DEBUG : snps.bam: Uploading segment 419430400/541575231 size 10485760
+2019/05/30 17:26:45 DEBUG : snps.bam: Uploading segment 429916160/541575231 size 10485760
+2019/05/30 17:26:45 DEBUG : snps.bam: Uploading segment 440401920/541575231 size 10485760
+2019/05/30 17:26:46 DEBUG : snps.bam: Uploading segment 450887680/541575231 size 10485760
+2019/05/30 17:26:47 DEBUG : snps.bam: Uploading segment 461373440/541575231 size 10485760
+2019/05/30 17:26:47 DEBUG : snps.bam: Uploading segment 471859200/541575231 size 10485760
+2019/05/30 17:26:48 DEBUG : snps.bam: Uploading segment 482344960/541575231 size 10485760
+2019/05/30 17:26:48 DEBUG : snps.bam: Uploading segment 492830720/541575231 size 10485760
+2019/05/30 17:26:49 DEBUG : snps.bam: Uploading segment 503316480/541575231 size 10485760
+2019/05/30 17:26:50 DEBUG : snps.bam: Uploading segment 513802240/541575231 size 10485760
+2019/05/30 17:26:50 DEBUG : snps.bam: Uploading segment 524288000/541575231 size 10485760
+2019/05/30 17:26:52 DEBUG : snps.bam: Uploading segment 534773760/541575231 size 6801471
+2019/05/30 17:26:53 INFO  : snps.bam: Copied (new)
+2019/05/30 17:26:53 INFO  : 
+Transferred:   573.691 MBytes (13.797 MBytes/s)
+Errors:                 0
+Checks:                 0
+Transferred:           35
+Elapsed time:       41.5s
+2019/05/30 17:26:53 DEBUG : Go routines at exit 13
+2019/05/30 17:26:53 DEBUG : rclone: Version "v1.36" finishing with parameters ["rclone" "copy" "./SAMEA1877112_L1" "onedrive-em:africanum_analysis/snippy/SAMEA1877112_L1" "-vv"]
+2019/05/30 17:26:53 DEBUG : rclone: Version "v1.36" starting with parameters ["rclone" "copy" "./SAMEA1877117" "onedrive-em:africanum_analysis/snippy/SAMEA1877117" "-vv"]
+2019/05/30 17:26:55 INFO  : One drive root 'africanum_analysis/snippy/SAMEA1877117': Modify window is 1s
+2019/05/30 17:26:55 DEBUG : One drive root 'africanum_analysis/snippy/SAMEA1877117': Reading ""
+2019/05/30 17:26:56 DEBUG : One drive root 'africanum_analysis/snippy/SAMEA1877117': Finished reading ""
+2019/05/30 17:26:56 DEBUG : snps.bam: Starting multipart upload
+2019/05/30 17:26:56 DEBUG : snps.bam: Uploading segment 0/566008477 size 10485760
+2019/05/30 17:26:56 INFO  : snps.bam.bai: Copied (new)
+2019/05/30 17:26:56 DEBUG : snps.bam: Uploading segment 10485760/566008477 size 10485760
+2019/05/30 17:26:57 INFO  : snps.bed: Copied (new)
+2019/05/30 17:26:57 DEBUG : snps.bam: Uploading segment 20971520/566008477 size 10485760
+2019/05/30 17:26:58 INFO  : snps.aligned.fa: Copied (new)
+2019/05/30 17:26:58 INFO  : snps.consensus.fa: Copied (new)
+2019/05/30 17:26:58 DEBUG : snps.depth.gz: Starting multipart upload
+2019/05/30 17:26:58 DEBUG : snps.depth.gz: Uploading segment 0/16425396 size 10485760
+2019/05/30 17:26:58 INFO  : snps.csv: Copied (new)
+2019/05/30 17:26:58 DEBUG : snps.bam: Uploading segment 31457280/566008477 size 10485760
+2019/05/30 17:26:59 INFO  : snps.depth.gz.tbi: Copied (new)
+2019/05/30 17:26:59 DEBUG : snps.depth.gz: Uploading segment 10485760/16425396 size 5939636
+2019/05/30 17:26:59 DEBUG : snps.bam: Uploading segment 41943040/566008477 size 10485760
+2019/05/30 17:27:00 INFO  : snps.consensus.subs.fa: Copied (new)
+2019/05/30 17:27:00 INFO  : snps.filt.subs.vcf: Copied (new)
+2019/05/30 17:27:00 INFO  : snps.depth.gz: Copied (new)
+2019/05/30 17:27:01 DEBUG : snps.bam: Uploading segment 52428800/566008477 size 10485760
+2019/05/30 17:27:01 INFO  : snps.filt.subs.vcf.gz: Copied (new)
+2019/05/30 17:27:01 INFO  : snps.filt.subs.vcf.gz.tbi: Copied (new)
+2019/05/30 17:27:01 INFO  : snps.filt.vcf: Copied (new)
+2019/05/30 17:27:01 DEBUG : snps.bam: Uploading segment 62914560/566008477 size 10485760
+2019/05/30 17:27:02 INFO  : snps.gff: Copied (new)
+2019/05/30 17:27:02 INFO  : snps.html: Copied (new)
+2019/05/30 17:27:02 INFO  : snps.log: Copied (new)
+2019/05/30 17:27:02 DEBUG : snps.bam: Uploading segment 73400320/566008477 size 10485760
+2019/05/30 17:27:02 INFO  : snps.txt: Copied (new)
+2019/05/30 17:27:02 DEBUG : snps.bam: Uploading segment 83886080/566008477 size 10485760
+2019/05/30 17:27:03 INFO  : snps.tab: Copied (new)
+2019/05/30 17:27:03 DEBUG : snps.bam: Uploading segment 94371840/566008477 size 10485760
+2019/05/30 17:27:03 INFO  : snps.raw.vcf: Copied (new)
+2019/05/30 17:27:03 INFO  : snps.vcf: Copied (new)
+2019/05/30 17:27:04 DEBUG : snps.bam: Uploading segment 104857600/566008477 size 10485760
+2019/05/30 17:27:04 INFO  : snps.vcf.gz: Copied (new)
+2019/05/30 17:27:04 INFO  : snps.vcf.gz.tbi: Copied (new)
+2019/05/30 17:27:04 INFO  : reference/ref.fa.amb: Copied (new)
+2019/05/30 17:27:04 DEBUG : snps.bam: Uploading segment 115343360/566008477 size 10485760
+2019/05/30 17:27:04 INFO  : reference/ref.fa.ann: Copied (new)
+2019/05/30 17:27:05 DEBUG : snps.bam: Uploading segment 125829120/566008477 size 10485760
+2019/05/30 17:27:05 INFO  : reference/ref.fa.fai: Copied (new)
+2019/05/30 17:27:05 DEBUG : snps.bam: Uploading segment 136314880/566008477 size 10485760
+2019/05/30 17:27:06 DEBUG : snps.bam: Uploading segment 146800640/566008477 size 10485760
+2019/05/30 17:27:06 INFO  : reference/ref.fa.bwt: Copied (new)
+2019/05/30 17:27:06 INFO  : reference/ref.fa: Copied (new)
+2019/05/30 17:27:07 DEBUG : snps.bam: Uploading segment 157286400/566008477 size 10485760
+2019/05/30 17:27:07 INFO  : reference/ref.fa.pac: Copied (new)
+2019/05/30 17:27:07 INFO  : One drive root 'africanum_analysis/snippy/SAMEA1877117': Waiting for checks to finish
+2019/05/30 17:27:07 INFO  : One drive root 'africanum_analysis/snippy/SAMEA1877117': Waiting for transfers to finish
+2019/05/30 17:27:07 DEBUG : snps.bam: Uploading segment 167772160/566008477 size 10485760
+2019/05/30 17:27:07 INFO  : reference/ref.txt: Copied (new)
+2019/05/30 17:27:08 DEBUG : snps.bam: Uploading segment 178257920/566008477 size 10485760
+2019/05/30 17:27:08 INFO  : reference/ref.fa.sa: Copied (new)
+2019/05/30 17:27:08 INFO  : reference/snpeff.config: Copied (new)
+2019/05/30 17:27:08 DEBUG : snps.bam: Uploading segment 188743680/566008477 size 10485760
+2019/05/30 17:27:09 INFO  : reference/ref.gff: Copied (new)
+2019/05/30 17:27:10 DEBUG : snps.bam: Uploading segment 199229440/566008477 size 10485760
+2019/05/30 17:27:10 INFO  : reference/ref/snpEffectPredictor.bin: Copied (new)
+2019/05/30 17:27:10 INFO  : reference/ref/genes.gff.gz: Copied (new)
+2019/05/30 17:27:11 DEBUG : snps.bam: Uploading segment 209715200/566008477 size 10485760
+2019/05/30 17:27:11 INFO  : reference/genomes/ref.fa: Copied (new)
+2019/05/30 17:27:11 DEBUG : snps.bam: Uploading segment 220200960/566008477 size 10485760
+2019/05/30 17:27:12 DEBUG : snps.bam: Uploading segment 230686720/566008477 size 10485760
+2019/05/30 17:27:13 DEBUG : snps.bam: Uploading segment 241172480/566008477 size 10485760
+2019/05/30 17:27:13 DEBUG : snps.bam: Uploading segment 251658240/566008477 size 10485760
+2019/05/30 17:27:14 DEBUG : snps.bam: Uploading segment 262144000/566008477 size 10485760
+2019/05/30 17:27:14 DEBUG : snps.bam: Uploading segment 272629760/566008477 size 10485760
+2019/05/30 17:27:15 DEBUG : snps.bam: Uploading segment 283115520/566008477 size 10485760
+2019/05/30 17:27:16 DEBUG : snps.bam: Uploading segment 293601280/566008477 size 10485760
+2019/05/30 17:27:17 DEBUG : snps.bam: Uploading segment 304087040/566008477 size 10485760
+2019/05/30 17:27:18 DEBUG : snps.bam: Uploading segment 314572800/566008477 size 10485760
+2019/05/30 17:27:19 DEBUG : snps.bam: Uploading segment 325058560/566008477 size 10485760
+2019/05/30 17:27:19 DEBUG : snps.bam: Uploading segment 335544320/566008477 size 10485760
+2019/05/30 17:27:20 DEBUG : snps.bam: Uploading segment 346030080/566008477 size 10485760
+2019/05/30 17:27:21 DEBUG : snps.bam: Uploading segment 356515840/566008477 size 10485760
+2019/05/30 17:27:21 DEBUG : snps.bam: Uploading segment 367001600/566008477 size 10485760
+2019/05/30 17:27:22 DEBUG : snps.bam: Uploading segment 377487360/566008477 size 10485760
+2019/05/30 17:27:23 DEBUG : snps.bam: Uploading segment 387973120/566008477 size 10485760
+2019/05/30 17:27:24 DEBUG : snps.bam: Uploading segment 398458880/566008477 size 10485760
+2019/05/30 17:27:24 DEBUG : snps.bam: Uploading segment 408944640/566008477 size 10485760
+2019/05/30 17:27:25 DEBUG : snps.bam: Uploading segment 419430400/566008477 size 10485760
+2019/05/30 17:27:26 DEBUG : snps.bam: Uploading segment 429916160/566008477 size 10485760
+2019/05/30 17:27:26 DEBUG : snps.bam: Uploading segment 440401920/566008477 size 10485760
+2019/05/30 17:27:27 DEBUG : snps.bam: Uploading segment 450887680/566008477 size 10485760
+2019/05/30 17:27:28 DEBUG : snps.bam: Uploading segment 461373440/566008477 size 10485760
+2019/05/30 17:27:29 DEBUG : snps.bam: Uploading segment 471859200/566008477 size 10485760
+2019/05/30 17:27:30 DEBUG : snps.bam: Uploading segment 482344960/566008477 size 10485760
+2019/05/30 17:27:31 DEBUG : snps.bam: Uploading segment 492830720/566008477 size 10485760
+2019/05/30 17:27:31 DEBUG : snps.bam: Uploading segment 503316480/566008477 size 10485760
+2019/05/30 17:27:32 DEBUG : snps.bam: Uploading segment 513802240/566008477 size 10485760
+2019/05/30 17:27:33 DEBUG : snps.bam: Uploading segment 524288000/566008477 size 10485760
+2019/05/30 17:27:33 DEBUG : snps.bam: Uploading segment 534773760/566008477 size 10485760
+2019/05/30 17:27:35 DEBUG : snps.bam: Uploading segment 545259520/566008477 size 10485760
+2019/05/30 17:27:35 DEBUG : snps.bam: Uploading segment 555745280/566008477 size 10263197
+2019/05/30 17:27:36 INFO  : snps.bam: Copied (new)
+2019/05/30 17:27:37 INFO  : 
+Transferred:   597.323 MBytes (13.811 MBytes/s)
+Errors:                 0
+Checks:                 0
+Transferred:           35
+Elapsed time:       43.2s
+2019/05/30 17:27:37 DEBUG : Go routines at exit 13
+2019/05/30 17:27:37 DEBUG : rclone: Version "v1.36" finishing with parameters ["rclone" "copy" "./SAMEA1877117" "onedrive-em:africanum_analysis/snippy/SAMEA1877117" "-vv"]
+2019/05/30 17:27:37 DEBUG : rclone: Version "v1.36" starting with parameters ["rclone" "copy" "./SAMEA1877126" "onedrive-em:africanum_analysis/snippy/SAMEA1877126" "-vv"]
+2019/05/30 17:27:38 INFO  : One drive root 'africanum_analysis/snippy/SAMEA1877126': Modify window is 1s
+2019/05/30 17:27:38 DEBUG : One drive root 'africanum_analysis/snippy/SAMEA1877126': Reading ""
+2019/05/30 17:27:39 DEBUG : One drive root 'africanum_analysis/snippy/SAMEA1877126': Finished reading ""
+2019/05/30 17:27:39 DEBUG : snps.bam: Starting multipart upload
+2019/05/30 17:27:39 DEBUG : snps.bam: Uploading segment 0/147479255 size 10485760
+2019/05/30 17:27:39 INFO  : snps.bam.bai: Copied (new)
+2019/05/30 17:27:39 INFO  : snps.bed: Copied (new)
+2019/05/30 17:27:40 DEBUG : snps.bam: Uploading segment 10485760/147479255 size 10485760
+2019/05/30 17:27:40 DEBUG : snps.bam: Uploading segment 20971520/147479255 size 10485760
+2019/05/30 17:27:41 INFO  : snps.aligned.fa: Copied (new)
+2019/05/30 17:27:41 INFO  : snps.consensus.fa: Copied (new)
+2019/05/30 17:27:41 DEBUG : snps.depth.gz: Starting multipart upload
+2019/05/30 17:27:41 DEBUG : snps.bam: Uploading segment 31457280/147479255 size 10485760
+2019/05/30 17:27:41 INFO  : snps.consensus.subs.fa: Copied (new)
+2019/05/30 17:27:41 DEBUG : snps.depth.gz: Uploading segment 0/14567556 size 10485760
+2019/05/30 17:27:41 INFO  : snps.csv: Copied (new)
+2019/05/30 17:27:42 DEBUG : snps.bam: Uploading segment 41943040/147479255 size 10485760
+2019/05/30 17:27:42 INFO  : snps.depth.gz.tbi: Copied (new)
+2019/05/30 17:27:42 DEBUG : snps.depth.gz: Uploading segment 10485760/14567556 size 4081796
+2019/05/30 17:27:42 INFO  : snps.filt.subs.vcf: Copied (new)
+2019/05/30 17:27:43 DEBUG : snps.bam: Uploading segment 52428800/147479255 size 10485760
+2019/05/30 17:27:43 INFO  : snps.filt.subs.vcf.gz: Copied (new)
+2019/05/30 17:27:43 DEBUG : snps.bam: Uploading segment 62914560/147479255 size 10485760
+2019/05/30 17:27:43 INFO  : snps.depth.gz: Copied (new)
+2019/05/30 17:27:44 DEBUG : snps.bam: Uploading segment 73400320/147479255 size 10485760
+2019/05/30 17:27:44 INFO  : snps.filt.vcf: Copied (new)
+2019/05/30 17:27:44 DEBUG : snps.bam: Uploading segment 83886080/147479255 size 10485760
+2019/05/30 17:27:45 INFO  : snps.filt.subs.vcf.gz.tbi: Copied (new)
+2019/05/30 17:27:45 DEBUG : snps.bam: Uploading segment 94371840/147479255 size 10485760
+2019/05/30 17:27:45 INFO  : snps.gff: Copied (new)
+2019/05/30 17:27:45 INFO  : snps.log: Copied (new)
+2019/05/30 17:27:45 DEBUG : snps.bam: Uploading segment 104857600/147479255 size 10485760
+2019/05/30 17:27:46 DEBUG : snps.bam: Uploading segment 115343360/147479255 size 10485760
+2019/05/30 17:27:46 INFO  : snps.html: Copied (new)
+2019/05/30 17:27:46 INFO  : snps.tab: Copied (new)
+2019/05/30 17:27:46 INFO  : snps.raw.vcf: Copied (new)
+2019/05/30 17:27:47 INFO  : snps.txt: Copied (new)
+2019/05/30 17:27:47 DEBUG : snps.bam: Uploading segment 125829120/147479255 size 10485760
+2019/05/30 17:27:47 INFO  : snps.vcf.gz.tbi: Copied (new)
+2019/05/30 17:27:47 INFO  : snps.vcf: Copied (new)
+2019/05/30 17:27:47 INFO  : snps.vcf.gz: Copied (new)
+2019/05/30 17:27:48 DEBUG : snps.bam: Uploading segment 136314880/147479255 size 10485760
+2019/05/30 17:27:48 DEBUG : snps.bam: Uploading segment 146800640/147479255 size 678615
+2019/05/30 17:27:48 INFO  : reference/ref.fa.ann: Copied (new)
+2019/05/30 17:27:49 INFO  : reference/ref.fa.amb: Copied (new)
+2019/05/30 17:27:49 INFO  : snps.bam: Copied (new)
+2019/05/30 17:27:49 INFO  : reference/ref.fa.fai: Copied (new)
+2019/05/30 17:27:50 INFO  : reference/ref.fa: Copied (new)
+2019/05/30 17:27:50 INFO  : reference/ref.fa.bwt: Copied (new)
+2019/05/30 17:27:50 INFO  : One drive root 'africanum_analysis/snippy/SAMEA1877126': Waiting for checks to finish
+2019/05/30 17:27:50 INFO  : One drive root 'africanum_analysis/snippy/SAMEA1877126': Waiting for transfers to finish
+2019/05/30 17:27:50 INFO  : reference/ref.fa.pac: Copied (new)
+2019/05/30 17:27:50 INFO  : reference/ref.txt: Copied (new)
+2019/05/30 17:27:50 INFO  : reference/ref.fa.sa: Copied (new)
+2019/05/30 17:27:51 INFO  : reference/snpeff.config: Copied (new)
+2019/05/30 17:27:51 INFO  : reference/ref.gff: Copied (new)
+2019/05/30 17:27:52 INFO  : reference/ref/genes.gff.gz: Copied (new)
+2019/05/30 17:27:53 INFO  : reference/ref/snpEffectPredictor.bin: Copied (new)
+2019/05/30 17:27:53 INFO  : reference/genomes/ref.fa: Copied (new)
+2019/05/30 17:27:53 INFO  : 
+Transferred:   195.724 MBytes (12.019 MBytes/s)
+Errors:                 0
+Checks:                 0
+Transferred:           35
+Elapsed time:       16.2s
+2019/05/30 17:27:53 DEBUG : Go routines at exit 13
+2019/05/30 17:27:53 DEBUG : rclone: Version "v1.36" finishing with parameters ["rclone" "copy" "./SAMEA1877126" "onedrive-em:africanum_analysis/snippy/SAMEA1877126" "-vv"]
+2019/05/30 17:27:53 DEBUG : rclone: Version "v1.36" starting with parameters ["rclone" "copy" "./SAMEA1877132" "onedrive-em:africanum_analysis/snippy/SAMEA1877132" "-vv"]
+2019/05/30 17:27:55 INFO  : One drive root 'africanum_analysis/snippy/SAMEA1877132': Modify window is 1s
+2019/05/30 17:27:55 DEBUG : One drive root 'africanum_analysis/snippy/SAMEA1877132': Reading ""
+2019/05/30 17:27:55 DEBUG : One drive root 'africanum_analysis/snippy/SAMEA1877132': Finished reading ""
+2019/05/30 17:27:55 DEBUG : snps.bam: Starting multipart upload
+2019/05/30 17:27:55 DEBUG : snps.bam: Uploading segment 0/528983334 size 10485760
+2019/05/30 17:27:56 INFO  : snps.bed: Copied (new)
+2019/05/30 17:27:56 INFO  : snps.bam.bai: Copied (new)
+2019/05/30 17:27:57 DEBUG : snps.bam: Uploading segment 10485760/528983334 size 10485760
+2019/05/30 17:27:57 INFO  : snps.aligned.fa: Copied (new)
+2019/05/30 17:27:58 DEBUG : snps.bam: Uploading segment 20971520/528983334 size 10485760
+2019/05/30 17:27:58 INFO  : snps.consensus.fa: Copied (new)
+2019/05/30 17:27:58 DEBUG : snps.depth.gz: Starting multipart upload
+2019/05/30 17:27:58 DEBUG : snps.depth.gz: Uploading segment 0/16394423 size 10485760
+2019/05/30 17:27:59 INFO  : snps.csv: Copied (new)
+2019/05/30 17:27:59 DEBUG : snps.bam: Uploading segment 31457280/528983334 size 10485760
+2019/05/30 17:27:59 INFO  : snps.depth.gz.tbi: Copied (new)
+2019/05/30 17:27:59 INFO  : snps.consensus.subs.fa: Copied (new)
+2019/05/30 17:28:00 DEBUG : snps.depth.gz: Uploading segment 10485760/16394423 size 5908663
+2019/05/30 17:28:00 INFO  : snps.filt.subs.vcf.gz: Copied (new)
+2019/05/30 17:28:00 INFO  : snps.filt.subs.vcf: Copied (new)
+2019/05/30 17:28:00 INFO  : snps.filt.subs.vcf.gz.tbi: Copied (new)
+2019/05/30 17:28:00 INFO  : snps.depth.gz: Copied (new)
+2019/05/30 17:28:01 INFO  : snps.gff: Copied (new)
+2019/05/30 17:28:01 DEBUG : snps.bam: Uploading segment 41943040/528983334 size 10485760
+2019/05/30 17:28:01 INFO  : snps.filt.vcf: Copied (new)
+2019/05/30 17:28:02 INFO  : snps.html: Copied (new)
+2019/05/30 17:28:02 INFO  : snps.log: Copied (new)
+2019/05/30 17:28:02 DEBUG : snps.bam: Uploading segment 52428800/528983334 size 10485760
+2019/05/30 17:28:02 INFO  : snps.txt: Copied (new)
+2019/05/30 17:28:02 DEBUG : snps.bam: Uploading segment 62914560/528983334 size 10485760
+2019/05/30 17:28:02 INFO  : snps.tab: Copied (new)
+2019/05/30 17:28:03 INFO  : snps.raw.vcf: Copied (new)
+2019/05/30 17:28:03 DEBUG : snps.bam: Uploading segment 73400320/528983334 size 10485760
+2019/05/30 17:28:03 INFO  : snps.vcf.gz.tbi: Copied (new)
+2019/05/30 17:28:04 DEBUG : snps.bam: Uploading segment 83886080/528983334 size 10485760
+2019/05/30 17:28:04 INFO  : snps.vcf.gz: Copied (new)
+2019/05/30 17:28:04 INFO  : snps.vcf: Copied (new)
+2019/05/30 17:28:05 INFO  : reference/ref.fa.amb: Copied (new)
+2019/05/30 17:28:05 INFO  : reference/ref.fa.ann: Copied (new)
+2019/05/30 17:28:05 INFO  : reference/ref.fa.fai: Copied (new)
+2019/05/30 17:28:05 INFO  : reference/ref.fa: Copied (new)
+2019/05/30 17:28:06 DEBUG : snps.bam: Uploading segment 94371840/528983334 size 10485760
+2019/05/30 17:28:06 INFO  : reference/ref.fa.pac: Copied (new)
+2019/05/30 17:28:07 INFO  : reference/ref.fa.bwt: Copied (new)
+2019/05/30 17:28:07 INFO  : One drive root 'africanum_analysis/snippy/SAMEA1877132': Waiting for checks to finish
+2019/05/30 17:28:07 INFO  : One drive root 'africanum_analysis/snippy/SAMEA1877132': Waiting for transfers to finish
+2019/05/30 17:28:07 DEBUG : snps.bam: Uploading segment 104857600/528983334 size 10485760
+2019/05/30 17:28:07 INFO  : reference/ref.fa.sa: Copied (new)
+2019/05/30 17:28:07 INFO  : reference/ref.txt: Copied (new)
+2019/05/30 17:28:07 INFO  : reference/snpeff.config: Copied (new)
+2019/05/30 17:28:07 DEBUG : snps.bam: Uploading segment 115343360/528983334 size 10485760
+2019/05/30 17:28:08 DEBUG : snps.bam: Uploading segment 125829120/528983334 size 10485760
+2019/05/30 17:28:08 INFO  : reference/ref.gff: Copied (new)
+2019/05/30 17:28:09 DEBUG : snps.bam: Uploading segment 136314880/528983334 size 10485760
+2019/05/30 17:28:09 INFO  : reference/ref/genes.gff.gz: Copied (new)
+2019/05/30 17:28:09 DEBUG : snps.bam: Uploading segment 146800640/528983334 size 10485760
+2019/05/30 17:28:10 INFO  : reference/ref/snpEffectPredictor.bin: Copied (new)
+2019/05/30 17:28:10 DEBUG : snps.bam: Uploading segment 157286400/528983334 size 10485760
+2019/05/30 17:28:10 INFO  : reference/genomes/ref.fa: Copied (new)
+2019/05/30 17:28:10 DEBUG : snps.bam: Uploading segment 167772160/528983334 size 10485760
+2019/05/30 17:28:11 DEBUG : snps.bam: Uploading segment 178257920/528983334 size 10485760
+2019/05/30 17:28:12 DEBUG : snps.bam: Uploading segment 188743680/528983334 size 10485760
+2019/05/30 17:28:13 DEBUG : snps.bam: Uploading segment 199229440/528983334 size 10485760
+2019/05/30 17:28:15 DEBUG : snps.bam: Uploading segment 209715200/528983334 size 10485760
+2019/05/30 17:28:15 DEBUG : snps.bam: Uploading segment 220200960/528983334 size 10485760
+2019/05/30 17:28:16 DEBUG : snps.bam: Uploading segment 230686720/528983334 size 10485760
+2019/05/30 17:28:18 DEBUG : snps.bam: Uploading segment 241172480/528983334 size 10485760
+2019/05/30 17:28:18 DEBUG : snps.bam: Uploading segment 251658240/528983334 size 10485760
+2019/05/30 17:28:19 DEBUG : snps.bam: Uploading segment 262144000/528983334 size 10485760
+2019/05/30 17:28:19 DEBUG : snps.bam: Uploading segment 272629760/528983334 size 10485760
+2019/05/30 17:28:20 DEBUG : snps.bam: Uploading segment 283115520/528983334 size 10485760
+2019/05/30 17:28:21 DEBUG : snps.bam: Uploading segment 293601280/528983334 size 10485760
+2019/05/30 17:28:22 DEBUG : snps.bam: Uploading segment 304087040/528983334 size 10485760
+2019/05/30 17:28:23 DEBUG : snps.bam: Uploading segment 314572800/528983334 size 10485760
+2019/05/30 17:28:23 DEBUG : snps.bam: Uploading segment 325058560/528983334 size 10485760
+2019/05/30 17:28:24 DEBUG : snps.bam: Uploading segment 335544320/528983334 size 10485760
+2019/05/30 17:28:25 DEBUG : snps.bam: Uploading segment 346030080/528983334 size 10485760
+2019/05/30 17:28:26 DEBUG : snps.bam: Uploading segment 356515840/528983334 size 10485760
+2019/05/30 17:28:27 DEBUG : snps.bam: Uploading segment 367001600/528983334 size 10485760
+2019/05/30 17:28:27 DEBUG : snps.bam: Uploading segment 377487360/528983334 size 10485760
+2019/05/30 17:28:30 DEBUG : snps.bam: Uploading segment 387973120/528983334 size 10485760
+2019/05/30 17:28:30 DEBUG : snps.bam: Uploading segment 398458880/528983334 size 10485760
+2019/05/30 17:28:31 DEBUG : snps.bam: Uploading segment 408944640/528983334 size 10485760
+2019/05/30 17:28:31 DEBUG : snps.bam: Uploading segment 419430400/528983334 size 10485760
+2019/05/30 17:28:32 DEBUG : snps.bam: Uploading segment 429916160/528983334 size 10485760
+2019/05/30 17:28:32 DEBUG : snps.bam: Uploading segment 440401920/528983334 size 10485760
+2019/05/30 17:28:34 DEBUG : snps.bam: Uploading segment 450887680/528983334 size 10485760
+2019/05/30 17:28:34 DEBUG : snps.bam: Uploading segment 461373440/528983334 size 10485760
+2019/05/30 17:28:36 DEBUG : snps.bam: Uploading segment 471859200/528983334 size 10485760
+2019/05/30 17:28:37 DEBUG : snps.bam: Uploading segment 482344960/528983334 size 10485760
+2019/05/30 17:28:37 DEBUG : snps.bam: Uploading segment 492830720/528983334 size 10485760
+2019/05/30 17:28:38 DEBUG : snps.bam: Uploading segment 503316480/528983334 size 10485760
+2019/05/30 17:28:39 DEBUG : snps.bam: Uploading segment 513802240/528983334 size 10485760
+2019/05/30 17:28:39 DEBUG : snps.bam: Uploading segment 524288000/528983334 size 4695334
+2019/05/30 17:28:40 INFO  : snps.bam: Copied (new)
+2019/05/30 17:28:40 INFO  : 
+Transferred:   561.684 MBytes (11.851 MBytes/s)
+Errors:                 0
+Checks:                 0
+Transferred:           35
+Elapsed time:       47.3s
+2019/05/30 17:28:40 DEBUG : Go routines at exit 13
+2019/05/30 17:28:40 DEBUG : rclone: Version "v1.36" finishing with parameters ["rclone" "copy" "./SAMEA1877132" "onedrive-em:africanum_analysis/snippy/SAMEA1877132" "-vv"]
+2019/05/30 17:28:40 DEBUG : rclone: Version "v1.36" starting with parameters ["rclone" "copy" "./SAMEA1877136" "onedrive-em:africanum_analysis/snippy/SAMEA1877136" "-vv"]
+2019/05/30 17:28:42 INFO  : One drive root 'africanum_analysis/snippy/SAMEA1877136': Modify window is 1s
+2019/05/30 17:28:42 DEBUG : One drive root 'africanum_analysis/snippy/SAMEA1877136': Reading ""
+2019/05/30 17:28:42 DEBUG : One drive root 'africanum_analysis/snippy/SAMEA1877136': Finished reading ""
+2019/05/30 17:28:42 DEBUG : snps.bam: Starting multipart upload
+2019/05/30 17:28:43 DEBUG : snps.bam: Uploading segment 0/597094188 size 10485760
+2019/05/30 17:28:43 INFO  : snps.bam.bai: Copied (new)
+2019/05/30 17:28:43 INFO  : snps.bed: Copied (new)
+2019/05/30 17:28:44 DEBUG : snps.bam: Uploading segment 10485760/597094188 size 10485760
+2019/05/30 17:28:45 INFO  : snps.aligned.fa: Copied (new)
+2019/05/30 17:28:45 INFO  : snps.consensus.subs.fa: Copied (new)
+2019/05/30 17:28:45 DEBUG : snps.depth.gz: Starting multipart upload
+2019/05/30 17:28:45 DEBUG : snps.depth.gz: Uploading segment 0/16635861 size 10485760
+2019/05/30 17:28:46 DEBUG : snps.bam: Uploading segment 20971520/597094188 size 10485760
+2019/05/30 17:28:46 INFO  : snps.csv: Copied (new)
+2019/05/30 17:28:46 DEBUG : snps.depth.gz: Uploading segment 10485760/16635861 size 6150101
+2019/05/30 17:28:46 INFO  : snps.consensus.fa: Copied (new)
+2019/05/30 17:28:47 INFO  : snps.depth.gz.tbi: Copied (new)
+2019/05/30 17:28:47 INFO  : snps.depth.gz: Copied (new)
+2019/05/30 17:28:47 DEBUG : snps.bam: Uploading segment 31457280/597094188 size 10485760
+2019/05/30 17:28:47 INFO  : snps.filt.subs.vcf.gz.tbi: Copied (new)
+2019/05/30 17:28:48 INFO  : snps.filt.subs.vcf.gz: Copied (new)
+2019/05/30 17:28:48 INFO  : snps.filt.subs.vcf: Copied (new)
+2019/05/30 17:28:48 INFO  : snps.gff: Copied (new)
+2019/05/30 17:28:49 INFO  : snps.html: Copied (new)
+2019/05/30 17:28:49 DEBUG : snps.bam: Uploading segment 41943040/597094188 size 10485760
+2019/05/30 17:28:49 INFO  : snps.filt.vcf: Copied (new)
+2019/05/30 17:28:49 INFO  : snps.log: Copied (new)
+2019/05/30 17:28:49 DEBUG : snps.bam: Uploading segment 52428800/597094188 size 10485760
+2019/05/30 17:28:49 INFO  : snps.txt: Copied (new)
+2019/05/30 17:28:50 INFO  : snps.tab: Copied (new)
+2019/05/30 17:28:50 INFO  : snps.raw.vcf: Copied (new)
+2019/05/30 17:28:50 DEBUG : snps.bam: Uploading segment 62914560/597094188 size 10485760
+2019/05/30 17:28:50 INFO  : snps.vcf.gz.tbi: Copied (new)
+2019/05/30 17:28:50 INFO  : snps.vcf.gz: Copied (new)
+2019/05/30 17:28:51 DEBUG : snps.bam: Uploading segment 73400320/597094188 size 10485760
+2019/05/30 17:28:52 INFO  : reference/ref.fa.amb: Copied (new)
+2019/05/30 17:28:52 INFO  : snps.vcf: Copied (new)
+2019/05/30 17:28:53 INFO  : reference/ref.fa: Copied (new)
+2019/05/30 17:28:53 DEBUG : snps.bam: Uploading segment 83886080/597094188 size 10485760
+2019/05/30 17:28:53 DEBUG : snps.bam: Uploading segment 94371840/597094188 size 10485760
+2019/05/30 17:28:53 INFO  : reference/ref.fa.fai: Copied (new)
+2019/05/30 17:28:54 DEBUG : snps.bam: Uploading segment 104857600/597094188 size 10485760
+2019/05/30 17:28:54 INFO  : reference/ref.fa.bwt: Copied (new)
+2019/05/30 17:28:55 INFO  : reference/ref.fa.ann: Copied (new)
+2019/05/30 17:28:55 DEBUG : snps.bam: Uploading segment 115343360/597094188 size 10485760
+2019/05/30 17:28:55 INFO  : reference/ref.fa.pac: Copied (new)
+2019/05/30 17:28:55 INFO  : One drive root 'africanum_analysis/snippy/SAMEA1877136': Waiting for checks to finish
+2019/05/30 17:28:55 INFO  : One drive root 'africanum_analysis/snippy/SAMEA1877136': Waiting for transfers to finish
+2019/05/30 17:28:55 DEBUG : snps.bam: Uploading segment 125829120/597094188 size 10485760
+2019/05/30 17:28:55 INFO  : reference/ref.txt: Copied (new)
+2019/05/30 17:28:56 INFO  : reference/ref.fa.sa: Copied (new)
+2019/05/30 17:28:56 DEBUG : snps.bam: Uploading segment 136314880/597094188 size 10485760
+2019/05/30 17:28:56 INFO  : reference/snpeff.config: Copied (new)
+2019/05/30 17:28:56 INFO  : reference/ref.gff: Copied (new)
+2019/05/30 17:28:56 DEBUG : snps.bam: Uploading segment 146800640/597094188 size 10485760
+2019/05/30 17:28:57 DEBUG : snps.bam: Uploading segment 157286400/597094188 size 10485760
+2019/05/30 17:28:58 DEBUG : snps.bam: Uploading segment 167772160/597094188 size 10485760
+2019/05/30 17:28:58 INFO  : reference/ref/genes.gff.gz: Copied (new)
+2019/05/30 17:28:58 INFO  : reference/ref/snpEffectPredictor.bin: Copied (new)
+2019/05/30 17:28:58 INFO  : reference/genomes/ref.fa: Copied (new)
+2019/05/30 17:28:59 DEBUG : snps.bam: Uploading segment 178257920/597094188 size 10485760
+2019/05/30 17:28:59 DEBUG : snps.bam: Uploading segment 188743680/597094188 size 10485760
+2019/05/30 17:29:00 DEBUG : snps.bam: Uploading segment 199229440/597094188 size 10485760
+2019/05/30 17:29:01 DEBUG : snps.bam: Uploading segment 209715200/597094188 size 10485760
+2019/05/30 17:29:02 DEBUG : snps.bam: Uploading segment 220200960/597094188 size 10485760
+2019/05/30 17:29:02 DEBUG : snps.bam: Uploading segment 230686720/597094188 size 10485760
+2019/05/30 17:29:03 DEBUG : snps.bam: Uploading segment 241172480/597094188 size 10485760
+2019/05/30 17:29:04 DEBUG : snps.bam: Uploading segment 251658240/597094188 size 10485760
+2019/05/30 17:29:04 DEBUG : snps.bam: Uploading segment 262144000/597094188 size 10485760
+2019/05/30 17:29:05 DEBUG : snps.bam: Uploading segment 272629760/597094188 size 10485760
+2019/05/30 17:29:05 DEBUG : snps.bam: Uploading segment 283115520/597094188 size 10485760
+2019/05/30 17:29:06 DEBUG : snps.bam: Uploading segment 293601280/597094188 size 10485760
+2019/05/30 17:29:07 DEBUG : snps.bam: Uploading segment 304087040/597094188 size 10485760
+2019/05/30 17:29:08 DEBUG : snps.bam: Uploading segment 314572800/597094188 size 10485760
+2019/05/30 17:29:08 DEBUG : snps.bam: Uploading segment 325058560/597094188 size 10485760
+2019/05/30 17:29:09 DEBUG : snps.bam: Uploading segment 335544320/597094188 size 10485760
+2019/05/30 17:29:10 DEBUG : snps.bam: Uploading segment 346030080/597094188 size 10485760
+2019/05/30 17:29:10 DEBUG : snps.bam: Uploading segment 356515840/597094188 size 10485760
+2019/05/30 17:29:11 DEBUG : snps.bam: Uploading segment 367001600/597094188 size 10485760
+2019/05/30 17:29:12 DEBUG : snps.bam: Uploading segment 377487360/597094188 size 10485760
+2019/05/30 17:29:13 DEBUG : snps.bam: Uploading segment 387973120/597094188 size 10485760
+2019/05/30 17:29:14 DEBUG : snps.bam: Uploading segment 398458880/597094188 size 10485760
+2019/05/30 17:29:16 DEBUG : snps.bam: Uploading segment 408944640/597094188 size 10485760
+2019/05/30 17:29:16 DEBUG : snps.bam: Uploading segment 419430400/597094188 size 10485760
+2019/05/30 17:29:17 DEBUG : snps.bam: Uploading segment 429916160/597094188 size 10485760
+2019/05/30 17:29:17 DEBUG : snps.bam: Uploading segment 440401920/597094188 size 10485760
+2019/05/30 17:29:19 DEBUG : snps.bam: Uploading segment 450887680/597094188 size 10485760
+2019/05/30 17:29:19 DEBUG : snps.bam: Uploading segment 461373440/597094188 size 10485760
+2019/05/30 17:29:20 DEBUG : snps.bam: Uploading segment 471859200/597094188 size 10485760
+2019/05/30 17:29:21 DEBUG : snps.bam: Uploading segment 482344960/597094188 size 10485760
+2019/05/30 17:29:21 DEBUG : snps.bam: Uploading segment 492830720/597094188 size 10485760
+2019/05/30 17:29:22 DEBUG : snps.bam: Uploading segment 503316480/597094188 size 10485760
+2019/05/30 17:29:22 DEBUG : snps.bam: Uploading segment 513802240/597094188 size 10485760
+2019/05/30 17:29:23 DEBUG : snps.bam: Uploading segment 524288000/597094188 size 10485760
+2019/05/30 17:29:24 DEBUG : snps.bam: Uploading segment 534773760/597094188 size 10485760
+2019/05/30 17:29:25 DEBUG : snps.bam: Uploading segment 545259520/597094188 size 10485760
+2019/05/30 17:29:25 DEBUG : snps.bam: Uploading segment 555745280/597094188 size 10485760
+2019/05/30 17:29:26 DEBUG : snps.bam: Uploading segment 566231040/597094188 size 10485760
+2019/05/30 17:29:27 DEBUG : snps.bam: Uploading segment 576716800/597094188 size 10485760
+2019/05/30 17:29:27 DEBUG : snps.bam: Uploading segment 587202560/597094188 size 9891628
+2019/05/30 17:29:28 INFO  : snps.bam: Copied (new)
+2019/05/30 17:29:28 INFO  : 
+Transferred:   626.910 MBytes (13.092 MBytes/s)
+Errors:                 0
+Checks:                 0
+Transferred:           35
+Elapsed time:       47.8s
+2019/05/30 17:29:28 DEBUG : Go routines at exit 17
+2019/05/30 17:29:28 DEBUG : rclone: Version "v1.36" finishing with parameters ["rclone" "copy" "./SAMEA1877136" "onedrive-em:africanum_analysis/snippy/SAMEA1877136" "-vv"]
+2019/05/30 17:29:28 DEBUG : rclone: Version "v1.36" starting with parameters ["rclone" "copy" "./SAMEA1877139" "onedrive-em:africanum_analysis/snippy/SAMEA1877139" "-vv"]
+2019/05/30 17:29:30 INFO  : One drive root 'africanum_analysis/snippy/SAMEA1877139': Modify window is 1s
+2019/05/30 17:29:32 DEBUG : One drive root 'africanum_analysis/snippy/SAMEA1877139': Reading ""
+2019/05/30 17:29:32 DEBUG : One drive root 'africanum_analysis/snippy/SAMEA1877139': Finished reading ""
+2019/05/30 17:29:32 DEBUG : snps.bam: Starting multipart upload
+2019/05/30 17:29:32 DEBUG : snps.bam: Uploading segment 0/539967715 size 10485760
+2019/05/30 17:29:32 INFO  : snps.bed: Copied (new)
+2019/05/30 17:29:33 DEBUG : snps.bam: Uploading segment 10485760/539967715 size 10485760
+2019/05/30 17:29:33 INFO  : snps.bam.bai: Copied (new)
+2019/05/30 17:29:33 DEBUG : snps.bam: Uploading segment 20971520/539967715 size 10485760
+2019/05/30 17:29:34 DEBUG : snps.bam: Uploading segment 31457280/539967715 size 10485760
+2019/05/30 17:29:34 INFO  : snps.aligned.fa: Copied (new)
+2019/05/30 17:29:34 INFO  : snps.consensus.fa: Copied (new)
+2019/05/30 17:29:34 DEBUG : snps.depth.gz: Starting multipart upload
+2019/05/30 17:29:34 DEBUG : snps.bam: Uploading segment 41943040/539967715 size 10485760
+2019/05/30 17:29:34 DEBUG : snps.depth.gz: Uploading segment 0/16451591 size 10485760
+2019/05/30 17:29:35 INFO  : snps.csv: Copied (new)
+2019/05/30 17:29:35 INFO  : snps.consensus.subs.fa: Copied (new)
+2019/05/30 17:29:35 DEBUG : snps.bam: Uploading segment 52428800/539967715 size 10485760
+2019/05/30 17:29:35 INFO  : snps.depth.gz.tbi: Copied (new)
+2019/05/30 17:29:35 DEBUG : snps.bam: Uploading segment 62914560/539967715 size 10485760
+2019/05/30 17:29:36 DEBUG : snps.depth.gz: Uploading segment 10485760/16451591 size 5965831
+2019/05/30 17:29:36 INFO  : snps.filt.subs.vcf: Copied (new)
+2019/05/30 17:29:36 DEBUG : snps.bam: Uploading segment 73400320/539967715 size 10485760
+2019/05/30 17:29:36 INFO  : snps.filt.subs.vcf.gz: Copied (new)
+2019/05/30 17:29:36 INFO  : snps.filt.subs.vcf.gz.tbi: Copied (new)
+2019/05/30 17:29:37 DEBUG : snps.bam: Uploading segment 83886080/539967715 size 10485760
+2019/05/30 17:29:37 INFO  : snps.depth.gz: Copied (new)
+2019/05/30 17:29:37 DEBUG : snps.bam: Uploading segment 94371840/539967715 size 10485760
+2019/05/30 17:29:37 INFO  : snps.gff: Copied (new)
+2019/05/30 17:29:37 INFO  : snps.filt.vcf: Copied (new)
+2019/05/30 17:29:37 INFO  : snps.html: Copied (new)
+2019/05/30 17:29:38 INFO  : snps.log: Copied (new)
+2019/05/30 17:29:38 DEBUG : snps.bam: Uploading segment 104857600/539967715 size 10485760
+2019/05/30 17:29:38 INFO  : snps.txt: Copied (new)
+2019/05/30 17:29:38 INFO  : snps.tab: Copied (new)
+2019/05/30 17:29:38 DEBUG : snps.bam: Uploading segment 115343360/539967715 size 10485760
+2019/05/30 17:29:38 INFO  : snps.raw.vcf: Copied (new)
+2019/05/30 17:29:39 DEBUG : snps.bam: Uploading segment 125829120/539967715 size 10485760
+2019/05/30 17:29:39 INFO  : snps.vcf.gz.tbi: Copied (new)
+2019/05/30 17:29:39 INFO  : snps.vcf.gz: Copied (new)
+2019/05/30 17:29:39 DEBUG : snps.bam: Uploading segment 136314880/539967715 size 10485760
+2019/05/30 17:29:40 INFO  : snps.vcf: Copied (new)
+2019/05/30 17:29:40 INFO  : reference/ref.fa.amb: Copied (new)
+2019/05/30 17:29:40 DEBUG : snps.bam: Uploading segment 146800640/539967715 size 10485760
+2019/05/30 17:29:40 INFO  : reference/ref.fa.ann: Copied (new)
+2019/05/30 17:29:41 DEBUG : snps.bam: Uploading segment 157286400/539967715 size 10485760
+2019/05/30 17:29:41 INFO  : reference/ref.fa.fai: Copied (new)
+2019/05/30 17:29:41 DEBUG : snps.bam: Uploading segment 167772160/539967715 size 10485760
+2019/05/30 17:29:42 INFO  : reference/ref.fa.bwt: Copied (new)
+2019/05/30 17:29:42 DEBUG : snps.bam: Uploading segment 178257920/539967715 size 10485760
+2019/05/30 17:29:42 INFO  : reference/ref.fa: Copied (new)
+2019/05/30 17:29:43 INFO  : reference/ref.fa.pac: Copied (new)
+2019/05/30 17:29:43 INFO  : One drive root 'africanum_analysis/snippy/SAMEA1877139': Waiting for checks to finish
+2019/05/30 17:29:43 INFO  : One drive root 'africanum_analysis/snippy/SAMEA1877139': Waiting for transfers to finish
+2019/05/30 17:29:43 INFO  : reference/ref.fa.sa: Copied (new)
+2019/05/30 17:29:43 DEBUG : snps.bam: Uploading segment 188743680/539967715 size 10485760
+2019/05/30 17:29:43 INFO  : reference/ref.txt: Copied (new)
+2019/05/30 17:29:44 DEBUG : snps.bam: Uploading segment 199229440/539967715 size 10485760
+2019/05/30 17:29:44 INFO  : reference/ref.gff: Copied (new)
+2019/05/30 17:29:44 INFO  : reference/snpeff.config: Copied (new)
+2019/05/30 17:29:45 DEBUG : snps.bam: Uploading segment 209715200/539967715 size 10485760
+2019/05/30 17:29:45 DEBUG : snps.bam: Uploading segment 220200960/539967715 size 10485760
+2019/05/30 17:29:46 DEBUG : snps.bam: Uploading segment 230686720/539967715 size 10485760
+2019/05/30 17:29:46 INFO  : reference/genomes/ref.fa: Copied (new)
+2019/05/30 17:29:46 DEBUG : snps.bam: Uploading segment 241172480/539967715 size 10485760
+2019/05/30 17:29:46 INFO  : reference/ref/snpEffectPredictor.bin: Copied (new)
+2019/05/30 17:29:47 DEBUG : snps.bam: Uploading segment 251658240/539967715 size 10485760
+2019/05/30 17:29:48 DEBUG : snps.bam: Uploading segment 262144000/539967715 size 10485760
+2019/05/30 17:29:48 DEBUG : snps.bam: Uploading segment 272629760/539967715 size 10485760
+2019/05/30 17:29:49 DEBUG : snps.bam: Uploading segment 283115520/539967715 size 10485760
+2019/05/30 17:29:49 INFO  : reference/ref/genes.gff.gz: Copied (new)
+2019/05/30 17:29:49 DEBUG : snps.bam: Uploading segment 293601280/539967715 size 10485760
+2019/05/30 17:29:50 DEBUG : snps.bam: Uploading segment 304087040/539967715 size 10485760
+2019/05/30 17:29:51 DEBUG : snps.bam: Uploading segment 314572800/539967715 size 10485760
+2019/05/30 17:29:51 DEBUG : snps.bam: Uploading segment 325058560/539967715 size 10485760
+2019/05/30 17:29:52 DEBUG : snps.bam: Uploading segment 335544320/539967715 size 10485760
+2019/05/30 17:29:52 DEBUG : snps.bam: Uploading segment 346030080/539967715 size 10485760
+2019/05/30 17:29:53 DEBUG : snps.bam: Uploading segment 356515840/539967715 size 10485760
+2019/05/30 17:29:53 DEBUG : snps.bam: Uploading segment 367001600/539967715 size 10485760
+2019/05/30 17:29:54 DEBUG : snps.bam: Uploading segment 377487360/539967715 size 10485760
+2019/05/30 17:29:55 DEBUG : snps.bam: Uploading segment 387973120/539967715 size 10485760
+2019/05/30 17:29:55 DEBUG : snps.bam: Uploading segment 398458880/539967715 size 10485760
+2019/05/30 17:29:56 DEBUG : snps.bam: Uploading segment 408944640/539967715 size 10485760
+2019/05/30 17:29:56 DEBUG : snps.bam: Uploading segment 419430400/539967715 size 10485760
+2019/05/30 17:29:57 DEBUG : snps.bam: Uploading segment 429916160/539967715 size 10485760
+2019/05/30 17:29:58 DEBUG : snps.bam: Uploading segment 440401920/539967715 size 10485760
+2019/05/30 17:29:58 DEBUG : snps.bam: Uploading segment 450887680/539967715 size 10485760
+2019/05/30 17:29:59 DEBUG : snps.bam: Uploading segment 461373440/539967715 size 10485760
+2019/05/30 17:29:59 DEBUG : snps.bam: Uploading segment 471859200/539967715 size 10485760
+2019/05/30 17:30:00 DEBUG : snps.bam: Uploading segment 482344960/539967715 size 10485760
+2019/05/30 17:30:00 DEBUG : snps.bam: Uploading segment 492830720/539967715 size 10485760
+2019/05/30 17:30:01 DEBUG : snps.bam: Uploading segment 503316480/539967715 size 10485760
+2019/05/30 17:30:02 DEBUG : snps.bam: Uploading segment 513802240/539967715 size 10485760
+2019/05/30 17:30:03 DEBUG : snps.bam: Uploading segment 524288000/539967715 size 10485760
+2019/05/30 17:30:04 DEBUG : snps.bam: Uploading segment 534773760/539967715 size 5193955
+2019/05/30 17:30:04 INFO  : snps.bam: Copied (new)
+2019/05/30 17:30:04 INFO  : 
+Transferred:   572.266 MBytes (15.931 MBytes/s)
+Errors:                 0
+Checks:                 0
+Transferred:           35
+Elapsed time:       35.9s
+2019/05/30 17:30:04 DEBUG : Go routines at exit 12
+2019/05/30 17:30:04 DEBUG : rclone: Version "v1.36" finishing with parameters ["rclone" "copy" "./SAMEA1877139" "onedrive-em:africanum_analysis/snippy/SAMEA1877139" "-vv"]
+2019/05/30 17:30:05 DEBUG : rclone: Version "v1.36" starting with parameters ["rclone" "copy" "./SAMEA1877142" "onedrive-em:africanum_analysis/snippy/SAMEA1877142" "-vv"]
+2019/05/30 17:30:06 INFO  : One drive root 'africanum_analysis/snippy/SAMEA1877142': Modify window is 1s
+2019/05/30 17:30:07 DEBUG : One drive root 'africanum_analysis/snippy/SAMEA1877142': Reading ""
+2019/05/30 17:30:07 DEBUG : One drive root 'africanum_analysis/snippy/SAMEA1877142': Finished reading ""
+2019/05/30 17:30:07 DEBUG : snps.bam: Starting multipart upload
+2019/05/30 17:30:07 DEBUG : snps.bam: Uploading segment 0/196491636 size 10485760
+2019/05/30 17:30:07 INFO  : snps.bam.bai: Copied (new)
+2019/05/30 17:30:07 INFO  : snps.bed: Copied (new)
+2019/05/30 17:30:08 DEBUG : snps.bam: Uploading segment 10485760/196491636 size 10485760
+2019/05/30 17:30:09 INFO  : snps.aligned.fa: Copied (new)
+2019/05/30 17:30:09 DEBUG : snps.bam: Uploading segment 20971520/196491636 size 10485760
+2019/05/30 17:30:09 INFO  : snps.consensus.fa: Copied (new)
+2019/05/30 17:30:09 DEBUG : snps.depth.gz: Starting multipart upload
+2019/05/30 17:30:09 INFO  : snps.csv: Copied (new)
+2019/05/30 17:30:09 DEBUG : snps.depth.gz: Uploading segment 0/14745451 size 10485760
+2019/05/30 17:30:09 DEBUG : snps.bam: Uploading segment 31457280/196491636 size 10485760
+2019/05/30 17:30:10 INFO  : snps.consensus.subs.fa: Copied (new)
+2019/05/30 17:30:10 DEBUG : snps.bam: Uploading segment 41943040/196491636 size 10485760
+2019/05/30 17:30:10 INFO  : snps.depth.gz.tbi: Copied (new)
+2019/05/30 17:30:11 DEBUG : snps.bam: Uploading segment 52428800/196491636 size 10485760
+2019/05/30 17:30:11 INFO  : snps.filt.subs.vcf: Copied (new)
+2019/05/30 17:30:11 DEBUG : snps.depth.gz: Uploading segment 10485760/14745451 size 4259691
+2019/05/30 17:30:11 INFO  : snps.filt.subs.vcf.gz: Copied (new)
+2019/05/30 17:30:12 DEBUG : snps.bam: Uploading segment 62914560/196491636 size 10485760
+2019/05/30 17:30:12 INFO  : snps.filt.subs.vcf.gz.tbi: Copied (new)
+2019/05/30 17:30:12 DEBUG : snps.bam: Uploading segment 73400320/196491636 size 10485760
+2019/05/30 17:30:12 INFO  : snps.filt.vcf: Copied (new)
+2019/05/30 17:30:12 INFO  : snps.gff: Copied (new)
+2019/05/30 17:30:13 INFO  : snps.depth.gz: Copied (new)
+2019/05/30 17:30:13 INFO  : snps.html: Copied (new)
+2019/05/30 17:30:13 DEBUG : snps.bam: Uploading segment 83886080/196491636 size 10485760
+2019/05/30 17:30:13 INFO  : snps.log: Copied (new)
+2019/05/30 17:30:13 INFO  : snps.tab: Copied (new)
+2019/05/30 17:30:14 DEBUG : snps.bam: Uploading segment 94371840/196491636 size 10485760
+2019/05/30 17:30:14 INFO  : snps.txt: Copied (new)
+2019/05/30 17:30:14 INFO  : snps.raw.vcf: Copied (new)
+2019/05/30 17:30:14 INFO  : snps.vcf.gz.tbi: Copied (new)
+2019/05/30 17:30:14 DEBUG : snps.bam: Uploading segment 104857600/196491636 size 10485760
+2019/05/30 17:30:14 INFO  : snps.vcf.gz: Copied (new)
+2019/05/30 17:30:14 INFO  : snps.vcf: Copied (new)
+2019/05/30 17:30:15 INFO  : reference/ref.fa.amb: Copied (new)
+2019/05/30 17:30:15 INFO  : reference/ref.fa.ann: Copied (new)
+2019/05/30 17:30:15 INFO  : reference/ref.fa.fai: Copied (new)
+2019/05/30 17:30:16 DEBUG : snps.bam: Uploading segment 115343360/196491636 size 10485760
+2019/05/30 17:30:16 INFO  : reference/ref.fa.pac: Copied (new)
+2019/05/30 17:30:16 INFO  : reference/ref.fa: Copied (new)
+2019/05/30 17:30:17 INFO  : reference/ref.fa.bwt: Copied (new)
+2019/05/30 17:30:17 INFO  : One drive root 'africanum_analysis/snippy/SAMEA1877142': Waiting for checks to finish
+2019/05/30 17:30:17 INFO  : One drive root 'africanum_analysis/snippy/SAMEA1877142': Waiting for transfers to finish
+2019/05/30 17:30:17 DEBUG : snps.bam: Uploading segment 125829120/196491636 size 10485760
+2019/05/30 17:30:17 INFO  : reference/ref.txt: Copied (new)
+2019/05/30 17:30:17 INFO  : reference/snpeff.config: Copied (new)
+2019/05/30 17:30:17 DEBUG : snps.bam: Uploading segment 136314880/196491636 size 10485760
+2019/05/30 17:30:18 INFO  : reference/ref.fa.sa: Copied (new)
+2019/05/30 17:30:18 DEBUG : snps.bam: Uploading segment 146800640/196491636 size 10485760
+2019/05/30 17:30:19 INFO  : reference/ref.gff: Copied (new)
+2019/05/30 17:30:19 DEBUG : snps.bam: Uploading segment 157286400/196491636 size 10485760
+2019/05/30 17:30:20 INFO  : reference/ref/genes.gff.gz: Copied (new)
+2019/05/30 17:30:20 INFO  : reference/genomes/ref.fa: Copied (new)
+2019/05/30 17:30:20 INFO  : reference/ref/snpEffectPredictor.bin: Copied (new)
+2019/05/30 17:30:20 DEBUG : snps.bam: Uploading segment 167772160/196491636 size 10485760
+2019/05/30 17:30:20 DEBUG : snps.bam: Uploading segment 178257920/196491636 size 10485760
+2019/05/30 17:30:21 DEBUG : snps.bam: Uploading segment 188743680/196491636 size 7747956
+2019/05/30 17:30:22 INFO  : snps.bam: Copied (new)
+2019/05/30 17:30:22 INFO  : 
+Transferred:   243.050 MBytes (13.750 MBytes/s)
+Errors:                 0
+Checks:                 0
+Transferred:           35
+Elapsed time:       17.6s
+2019/05/30 17:30:22 DEBUG : Go routines at exit 12
+2019/05/30 17:30:22 DEBUG : rclone: Version "v1.36" finishing with parameters ["rclone" "copy" "./SAMEA1877142" "onedrive-em:africanum_analysis/snippy/SAMEA1877142" "-vv"]
+2019/05/30 17:30:22 DEBUG : rclone: Version "v1.36" starting with parameters ["rclone" "copy" "./SAMEA1877150" "onedrive-em:africanum_analysis/snippy/SAMEA1877150" "-vv"]
+2019/05/30 17:30:24 INFO  : One drive root 'africanum_analysis/snippy/SAMEA1877150': Modify window is 1s
+2019/05/30 17:30:24 DEBUG : One drive root 'africanum_analysis/snippy/SAMEA1877150': Reading ""
+2019/05/30 17:30:24 DEBUG : One drive root 'africanum_analysis/snippy/SAMEA1877150': Finished reading ""
+2019/05/30 17:30:24 DEBUG : snps.bam: Starting multipart upload
+2019/05/30 17:30:25 DEBUG : snps.bam: Uploading segment 0/772058401 size 10485760
+2019/05/30 17:30:25 INFO  : snps.bam.bai: Copied (new)
+2019/05/30 17:30:25 INFO  : snps.bed: Copied (new)
+2019/05/30 17:30:25 DEBUG : snps.bam: Uploading segment 10485760/772058401 size 10485760
+2019/05/30 17:30:26 INFO  : snps.aligned.fa: Copied (new)
+2019/05/30 17:30:26 INFO  : snps.consensus.fa: Copied (new)
+2019/05/30 17:30:26 DEBUG : snps.depth.gz: Starting multipart upload
+2019/05/30 17:30:27 INFO  : snps.consensus.subs.fa: Copied (new)
+2019/05/30 17:30:27 DEBUG : snps.depth.gz: Uploading segment 0/16695040 size 10485760
+2019/05/30 17:30:27 INFO  : snps.csv: Copied (new)
+2019/05/30 17:30:27 DEBUG : snps.bam: Uploading segment 20971520/772058401 size 10485760
+2019/05/30 17:30:27 INFO  : snps.depth.gz.tbi: Copied (new)
+2019/05/30 17:30:28 DEBUG : snps.depth.gz: Uploading segment 10485760/16695040 size 6209280
+2019/05/30 17:30:28 DEBUG : snps.bam: Uploading segment 31457280/772058401 size 10485760
+2019/05/30 17:30:28 INFO  : snps.filt.subs.vcf.gz: Copied (new)
+2019/05/30 17:30:29 INFO  : snps.filt.subs.vcf: Copied (new)
+2019/05/30 17:30:29 INFO  : snps.filt.subs.vcf.gz.tbi: Copied (new)
+2019/05/30 17:30:29 DEBUG : snps.bam: Uploading segment 41943040/772058401 size 10485760
+2019/05/30 17:30:30 DEBUG : snps.bam: Uploading segment 52428800/772058401 size 10485760
+2019/05/30 17:30:30 INFO  : snps.gff: Copied (new)
+2019/05/30 17:30:30 DEBUG : snps.bam: Uploading segment 62914560/772058401 size 10485760
+2019/05/30 17:30:31 INFO  : snps.filt.vcf: Copied (new)
+2019/05/30 17:30:31 DEBUG : snps.bam: Uploading segment 73400320/772058401 size 10485760
+2019/05/30 17:30:31 INFO  : snps.html: Copied (new)
+2019/05/30 17:30:31 INFO  : snps.log: Copied (new)
+2019/05/30 17:30:32 DEBUG : snps.bam: Uploading segment 83886080/772058401 size 10485760
+2019/05/30 17:30:32 INFO  : snps.raw.vcf: Copied (new)
+2019/05/30 17:30:32 DEBUG : snps.bam: Uploading segment 94371840/772058401 size 10485760
+2019/05/30 17:30:32 INFO  : snps.tab: Copied (new)
+2019/05/30 17:30:33 INFO  : snps.txt: Copied (new)
+2019/05/30 17:30:33 DEBUG : snps.bam: Uploading segment 104857600/772058401 size 10485760
+2019/05/30 17:30:33 INFO  : snps.vcf.gz: Copied (new)
+2019/05/30 17:30:34 DEBUG : snps.bam: Uploading segment 115343360/772058401 size 10485760
+2019/05/30 17:30:34 INFO  : snps.vcf.gz.tbi: Copied (new)
+2019/05/30 17:30:34 INFO  : snps.vcf: Copied (new)
+2019/05/30 17:30:34 DEBUG : snps.bam: Uploading segment 125829120/772058401 size 10485760
+2019/05/30 17:30:35 INFO  : reference/ref.fa.amb: Copied (new)
+2019/05/30 17:30:35 DEBUG : snps.bam: Uploading segment 136314880/772058401 size 10485760
+2019/05/30 17:30:35 INFO  : reference/ref.fa.ann: Copied (new)
+2019/05/30 17:30:35 DEBUG : snps.bam: Uploading segment 146800640/772058401 size 10485760
+2019/05/30 17:30:36 INFO  : reference/ref.fa: Copied (new)
+2019/05/30 17:30:36 DEBUG : snps.bam: Uploading segment 157286400/772058401 size 10485760
+2019/05/30 17:30:36 INFO  : reference/ref.fa.fai: Copied (new)
+2019/05/30 17:30:37 DEBUG : snps.bam: Uploading segment 167772160/772058401 size 10485760
+2019/05/30 17:30:37 INFO  : reference/ref.fa.bwt: Copied (new)
+2019/05/30 17:30:37 DEBUG : snps.bam: Uploading segment 178257920/772058401 size 10485760
+2019/05/30 17:30:38 INFO  : reference/ref.fa.pac: Copied (new)
+2019/05/30 17:30:38 DEBUG : snps.bam: Uploading segment 188743680/772058401 size 10485760
+2019/05/30 17:30:38 DEBUG : snps.bam: Uploading segment 199229440/772058401 size 10485760
+2019/05/30 17:30:39 INFO  : reference/ref.fa.sa: Copied (new)
+2019/05/30 17:30:39 INFO  : One drive root 'africanum_analysis/snippy/SAMEA1877150': Waiting for checks to finish
+2019/05/30 17:30:39 INFO  : One drive root 'africanum_analysis/snippy/SAMEA1877150': Waiting for transfers to finish
+2019/05/30 17:30:39 INFO  : snps.depth.gz: Copied (new)
+2019/05/30 17:30:39 DEBUG : snps.bam: Uploading segment 209715200/772058401 size 10485760
+2019/05/30 17:30:39 INFO  : reference/snpeff.config: Copied (new)
+2019/05/30 17:30:40 INFO  : reference/ref.gff: Copied (new)
+2019/05/30 17:30:40 INFO  : reference/ref.txt: Copied (new)
+2019/05/30 17:30:40 DEBUG : snps.bam: Uploading segment 220200960/772058401 size 10485760
+2019/05/30 17:30:40 DEBUG : snps.bam: Uploading segment 230686720/772058401 size 10485760
+2019/05/30 17:30:41 INFO  : reference/ref/genes.gff.gz: Copied (new)
+2019/05/30 17:30:42 DEBUG : snps.bam: Uploading segment 241172480/772058401 size 10485760
+2019/05/30 17:30:42 INFO  : reference/ref/snpEffectPredictor.bin: Copied (new)
+2019/05/30 17:30:42 INFO  : reference/genomes/ref.fa: Copied (new)
+2019/05/30 17:30:43 DEBUG : snps.bam: Uploading segment 251658240/772058401 size 10485760
+2019/05/30 17:30:44 DEBUG : snps.bam: Uploading segment 262144000/772058401 size 10485760
+2019/05/30 17:30:45 DEBUG : snps.bam: Uploading segment 272629760/772058401 size 10485760
+2019/05/30 17:30:45 DEBUG : snps.bam: Uploading segment 283115520/772058401 size 10485760
+2019/05/30 17:30:46 DEBUG : snps.bam: Uploading segment 293601280/772058401 size 10485760
+2019/05/30 17:30:46 DEBUG : snps.bam: Uploading segment 304087040/772058401 size 10485760
+2019/05/30 17:30:47 DEBUG : snps.bam: Uploading segment 314572800/772058401 size 10485760
+2019/05/30 17:30:48 DEBUG : snps.bam: Uploading segment 325058560/772058401 size 10485760
+2019/05/30 17:30:49 DEBUG : snps.bam: Uploading segment 335544320/772058401 size 10485760
+2019/05/30 17:30:50 DEBUG : snps.bam: Uploading segment 346030080/772058401 size 10485760
+2019/05/30 17:30:51 DEBUG : snps.bam: Uploading segment 356515840/772058401 size 10485760
+2019/05/30 17:30:51 DEBUG : snps.bam: Uploading segment 367001600/772058401 size 10485760
+2019/05/30 17:30:52 DEBUG : snps.bam: Uploading segment 377487360/772058401 size 10485760
+2019/05/30 17:30:52 DEBUG : snps.bam: Uploading segment 387973120/772058401 size 10485760
+2019/05/30 17:30:53 DEBUG : snps.bam: Uploading segment 398458880/772058401 size 10485760
+2019/05/30 17:30:54 DEBUG : snps.bam: Uploading segment 408944640/772058401 size 10485760
+2019/05/30 17:30:54 DEBUG : snps.bam: Uploading segment 419430400/772058401 size 10485760
+2019/05/30 17:30:55 DEBUG : snps.bam: Uploading segment 429916160/772058401 size 10485760
+2019/05/30 17:30:55 DEBUG : snps.bam: Uploading segment 440401920/772058401 size 10485760
+2019/05/30 17:30:56 DEBUG : snps.bam: Uploading segment 450887680/772058401 size 10485760
+2019/05/30 17:30:57 DEBUG : snps.bam: Uploading segment 461373440/772058401 size 10485760
+2019/05/30 17:30:57 DEBUG : snps.bam: Uploading segment 471859200/772058401 size 10485760
+2019/05/30 17:30:58 DEBUG : snps.bam: Uploading segment 482344960/772058401 size 10485760
+2019/05/30 17:30:59 DEBUG : snps.bam: Uploading segment 492830720/772058401 size 10485760
+2019/05/30 17:31:00 DEBUG : snps.bam: Uploading segment 503316480/772058401 size 10485760
+2019/05/30 17:31:00 DEBUG : snps.bam: Uploading segment 513802240/772058401 size 10485760
+2019/05/30 17:31:01 DEBUG : snps.bam: Uploading segment 524288000/772058401 size 10485760
+2019/05/30 17:31:01 DEBUG : snps.bam: Uploading segment 534773760/772058401 size 10485760
+2019/05/30 17:31:02 DEBUG : snps.bam: Uploading segment 545259520/772058401 size 10485760
+2019/05/30 17:31:02 DEBUG : snps.bam: Uploading segment 555745280/772058401 size 10485760
+2019/05/30 17:31:03 DEBUG : snps.bam: Uploading segment 566231040/772058401 size 10485760
+2019/05/30 17:31:04 DEBUG : snps.bam: Uploading segment 576716800/772058401 size 10485760
+2019/05/30 17:31:04 DEBUG : snps.bam: Uploading segment 587202560/772058401 size 10485760
+2019/05/30 17:31:05 DEBUG : snps.bam: Uploading segment 597688320/772058401 size 10485760
+2019/05/30 17:31:05 DEBUG : snps.bam: Uploading segment 608174080/772058401 size 10485760
+2019/05/30 17:31:06 DEBUG : snps.bam: Uploading segment 618659840/772058401 size 10485760
+2019/05/30 17:31:06 DEBUG : snps.bam: Uploading segment 629145600/772058401 size 10485760
+2019/05/30 17:31:07 DEBUG : snps.bam: Uploading segment 639631360/772058401 size 10485760
+2019/05/30 17:31:07 DEBUG : snps.bam: Uploading segment 650117120/772058401 size 10485760
+2019/05/30 17:31:08 DEBUG : snps.bam: Uploading segment 660602880/772058401 size 10485760
+2019/05/30 17:31:09 DEBUG : snps.bam: Uploading segment 671088640/772058401 size 10485760
+2019/05/30 17:31:09 DEBUG : snps.bam: Uploading segment 681574400/772058401 size 10485760
+2019/05/30 17:31:10 DEBUG : snps.bam: Uploading segment 692060160/772058401 size 10485760
+2019/05/30 17:31:10 DEBUG : snps.bam: Uploading segment 702545920/772058401 size 10485760
+2019/05/30 17:31:11 DEBUG : snps.bam: Uploading segment 713031680/772058401 size 10485760
+2019/05/30 17:31:12 DEBUG : snps.bam: Uploading segment 723517440/772058401 size 10485760
+2019/05/30 17:31:13 DEBUG : snps.bam: Uploading segment 734003200/772058401 size 10485760
+2019/05/30 17:31:13 DEBUG : snps.bam: Uploading segment 744488960/772058401 size 10485760
+2019/05/30 17:31:14 DEBUG : snps.bam: Uploading segment 754974720/772058401 size 10485760
+2019/05/30 17:31:14 DEBUG : snps.bam: Uploading segment 765460480/772058401 size 6597921
+2019/05/30 17:31:15 INFO  : snps.bam: Copied (new)
+2019/05/30 17:31:15 INFO  : 
+Transferred:   793.968 MBytes (14.914 MBytes/s)
+Errors:                 0
+Checks:                 0
+Transferred:           35
+Elapsed time:       53.2s
+2019/05/30 17:31:15 DEBUG : Go routines at exit 13
+2019/05/30 17:31:15 DEBUG : rclone: Version "v1.36" finishing with parameters ["rclone" "copy" "./SAMEA1877150" "onedrive-em:africanum_analysis/snippy/SAMEA1877150" "-vv"]
+2019/05/30 17:31:16 DEBUG : rclone: Version "v1.36" starting with parameters ["rclone" "copy" "./SAMEA1877150_L6" "onedrive-em:africanum_analysis/snippy/SAMEA1877150_L6" "-vv"]
+2019/05/30 17:31:17 INFO  : One drive root 'africanum_analysis/snippy/SAMEA1877150_L6': Modify window is 1s
+2019/05/30 17:31:18 DEBUG : One drive root 'africanum_analysis/snippy/SAMEA1877150_L6': Reading ""
+2019/05/30 17:31:18 DEBUG : One drive root 'africanum_analysis/snippy/SAMEA1877150_L6': Finished reading ""
+2019/05/30 17:31:18 DEBUG : snps.bam: Starting multipart upload
+2019/05/30 17:31:18 DEBUG : snps.bam: Uploading segment 0/772058402 size 10485760
+2019/05/30 17:31:18 INFO  : snps.bam.bai: Copied (new)
+2019/05/30 17:31:19 INFO  : snps.bed: Copied (new)
+2019/05/30 17:31:19 DEBUG : snps.bam: Uploading segment 10485760/772058402 size 10485760
+2019/05/30 17:31:19 DEBUG : snps.bam: Uploading segment 20971520/772058402 size 10485760
+2019/05/30 17:31:20 INFO  : snps.aligned.fa: Copied (new)
+2019/05/30 17:31:20 DEBUG : snps.bam: Uploading segment 31457280/772058402 size 10485760
+2019/05/30 17:31:20 INFO  : snps.consensus.subs.fa: Copied (new)
+2019/05/30 17:31:20 DEBUG : snps.depth.gz: Starting multipart upload
+2019/05/30 17:31:20 INFO  : snps.csv: Copied (new)
+2019/05/30 17:31:20 INFO  : snps.consensus.fa: Copied (new)
+2019/05/30 17:31:21 DEBUG : snps.depth.gz: Uploading segment 0/16695040 size 10485760
+2019/05/30 17:31:21 DEBUG : snps.bam: Uploading segment 41943040/772058402 size 10485760
+2019/05/30 17:31:21 INFO  : snps.depth.gz.tbi: Copied (new)
+2019/05/30 17:31:21 INFO  : snps.filt.subs.vcf: Copied (new)
+2019/05/30 17:31:22 DEBUG : snps.bam: Uploading segment 52428800/772058402 size 10485760
+2019/05/30 17:31:22 INFO  : snps.filt.subs.vcf.gz.tbi: Copied (new)
+2019/05/30 17:31:22 DEBUG : snps.bam: Uploading segment 62914560/772058402 size 10485760
+2019/05/30 17:31:22 INFO  : snps.filt.subs.vcf.gz: Copied (new)
+2019/05/30 17:31:22 DEBUG : snps.depth.gz: Uploading segment 10485760/16695040 size 6209280
+2019/05/30 17:31:23 DEBUG : snps.bam: Uploading segment 73400320/772058402 size 10485760
+2019/05/30 17:31:23 INFO  : snps.filt.vcf: Copied (new)
+2019/05/30 17:31:23 INFO  : snps.gff: Copied (new)
+2019/05/30 17:31:23 DEBUG : snps.bam: Uploading segment 83886080/772058402 size 10485760
+2019/05/30 17:31:24 INFO  : snps.html: Copied (new)
+2019/05/30 17:31:24 INFO  : snps.log: Copied (new)
+2019/05/30 17:31:24 DEBUG : snps.bam: Uploading segment 94371840/772058402 size 10485760
+2019/05/30 17:31:24 INFO  : snps.depth.gz: Copied (new)
+2019/05/30 17:31:24 DEBUG : snps.bam: Uploading segment 104857600/772058402 size 10485760
+2019/05/30 17:31:24 INFO  : snps.tab: Copied (new)
+2019/05/30 17:31:25 INFO  : snps.txt: Copied (new)
+2019/05/30 17:31:25 INFO  : snps.raw.vcf: Copied (new)
+2019/05/30 17:31:25 DEBUG : snps.bam: Uploading segment 115343360/772058402 size 10485760
+2019/05/30 17:31:25 INFO  : snps.vcf.gz.tbi: Copied (new)
+2019/05/30 17:31:25 INFO  : snps.vcf.gz: Copied (new)
+2019/05/30 17:31:25 DEBUG : snps.bam: Uploading segment 125829120/772058402 size 10485760
+2019/05/30 17:31:26 INFO  : snps.vcf: Copied (new)
+2019/05/30 17:31:26 DEBUG : snps.bam: Uploading segment 136314880/772058402 size 10485760
+2019/05/30 17:31:26 INFO  : reference/ref.fa.amb: Copied (new)
+2019/05/30 17:31:26 INFO  : reference/ref.fa.ann: Copied (new)
+2019/05/30 17:31:27 DEBUG : snps.bam: Uploading segment 146800640/772058402 size 10485760
+2019/05/30 17:31:27 INFO  : reference/ref.fa.fai: Copied (new)
+2019/05/30 17:31:27 INFO  : reference/ref.fa.pac: Copied (new)
+2019/05/30 17:31:27 DEBUG : snps.bam: Uploading segment 157286400/772058402 size 10485760
+2019/05/30 17:31:27 INFO  : reference/ref.fa: Copied (new)
+2019/05/30 17:31:28 DEBUG : snps.bam: Uploading segment 167772160/772058402 size 10485760
+2019/05/30 17:31:28 INFO  : reference/ref.fa.bwt: Copied (new)
+2019/05/30 17:31:28 INFO  : One drive root 'africanum_analysis/snippy/SAMEA1877150_L6': Waiting for checks to finish
+2019/05/30 17:31:28 INFO  : One drive root 'africanum_analysis/snippy/SAMEA1877150_L6': Waiting for transfers to finish
+2019/05/30 17:31:28 DEBUG : snps.bam: Uploading segment 178257920/772058402 size 10485760
+2019/05/30 17:31:29 INFO  : reference/ref.fa.sa: Copied (new)
+2019/05/30 17:31:29 INFO  : reference/ref.txt: Copied (new)
+2019/05/30 17:31:29 DEBUG : snps.bam: Uploading segment 188743680/772058402 size 10485760
+2019/05/30 17:31:29 INFO  : reference/ref.gff: Copied (new)
+2019/05/30 17:31:29 INFO  : reference/snpeff.config: Copied (new)
+2019/05/30 17:31:29 DEBUG : snps.bam: Uploading segment 199229440/772058402 size 10485760
+2019/05/30 17:31:30 DEBUG : snps.bam: Uploading segment 209715200/772058402 size 10485760
+2019/05/30 17:31:31 INFO  : reference/ref/snpEffectPredictor.bin: Copied (new)
+2019/05/30 17:31:31 DEBUG : snps.bam: Uploading segment 220200960/772058402 size 10485760
+2019/05/30 17:31:31 INFO  : reference/ref/genes.gff.gz: Copied (new)
+2019/05/30 17:31:31 INFO  : reference/genomes/ref.fa: Copied (new)
+2019/05/30 17:31:31 DEBUG : snps.bam: Uploading segment 230686720/772058402 size 10485760
+2019/05/30 17:31:32 DEBUG : snps.bam: Uploading segment 241172480/772058402 size 10485760
+2019/05/30 17:31:33 DEBUG : snps.bam: Uploading segment 251658240/772058402 size 10485760
+2019/05/30 17:31:33 DEBUG : snps.bam: Uploading segment 262144000/772058402 size 10485760
+2019/05/30 17:31:34 DEBUG : snps.bam: Uploading segment 272629760/772058402 size 10485760
+2019/05/30 17:31:34 DEBUG : snps.bam: Uploading segment 283115520/772058402 size 10485760
+2019/05/30 17:31:35 DEBUG : snps.bam: Uploading segment 293601280/772058402 size 10485760
+2019/05/30 17:31:36 DEBUG : snps.bam: Uploading segment 304087040/772058402 size 10485760
+2019/05/30 17:31:36 DEBUG : snps.bam: Uploading segment 314572800/772058402 size 10485760
+2019/05/30 17:31:37 DEBUG : snps.bam: Uploading segment 325058560/772058402 size 10485760
+2019/05/30 17:31:37 DEBUG : snps.bam: Uploading segment 335544320/772058402 size 10485760
+2019/05/30 17:31:38 DEBUG : snps.bam: Uploading segment 346030080/772058402 size 10485760
+2019/05/30 17:31:39 DEBUG : snps.bam: Uploading segment 356515840/772058402 size 10485760
+2019/05/30 17:31:39 DEBUG : snps.bam: Uploading segment 367001600/772058402 size 10485760
+2019/05/30 17:31:40 DEBUG : snps.bam: Uploading segment 377487360/772058402 size 10485760
+2019/05/30 17:31:40 DEBUG : snps.bam: Uploading segment 387973120/772058402 size 10485760
+2019/05/30 17:31:41 DEBUG : snps.bam: Uploading segment 398458880/772058402 size 10485760
+2019/05/30 17:31:41 DEBUG : snps.bam: Uploading segment 408944640/772058402 size 10485760
+2019/05/30 17:31:42 DEBUG : snps.bam: Uploading segment 419430400/772058402 size 10485760
+2019/05/30 17:31:43 DEBUG : snps.bam: Uploading segment 429916160/772058402 size 10485760
+2019/05/30 17:31:43 DEBUG : snps.bam: Uploading segment 440401920/772058402 size 10485760
+2019/05/30 17:31:44 DEBUG : snps.bam: Uploading segment 450887680/772058402 size 10485760
+2019/05/30 17:31:44 DEBUG : snps.bam: Uploading segment 461373440/772058402 size 10485760
+2019/05/30 17:31:45 DEBUG : snps.bam: Uploading segment 471859200/772058402 size 10485760
+2019/05/30 17:31:47 DEBUG : snps.bam: Uploading segment 482344960/772058402 size 10485760
+2019/05/30 17:31:47 DEBUG : snps.bam: Uploading segment 492830720/772058402 size 10485760
+2019/05/30 17:31:48 DEBUG : snps.bam: Uploading segment 503316480/772058402 size 10485760
+2019/05/30 17:31:48 DEBUG : snps.bam: Uploading segment 513802240/772058402 size 10485760
+2019/05/30 17:31:49 DEBUG : snps.bam: Uploading segment 524288000/772058402 size 10485760
+2019/05/30 17:31:49 DEBUG : snps.bam: Uploading segment 534773760/772058402 size 10485760
+2019/05/30 17:31:50 DEBUG : snps.bam: Uploading segment 545259520/772058402 size 10485760
+2019/05/30 17:31:50 DEBUG : snps.bam: Uploading segment 555745280/772058402 size 10485760
+2019/05/30 17:31:51 DEBUG : snps.bam: Uploading segment 566231040/772058402 size 10485760
+2019/05/30 17:31:52 DEBUG : snps.bam: Uploading segment 576716800/772058402 size 10485760
+2019/05/30 17:31:52 DEBUG : snps.bam: Uploading segment 587202560/772058402 size 10485760
+2019/05/30 17:31:53 DEBUG : snps.bam: Uploading segment 597688320/772058402 size 10485760
+2019/05/30 17:31:53 DEBUG : snps.bam: Uploading segment 608174080/772058402 size 10485760
+2019/05/30 17:31:54 DEBUG : snps.bam: Uploading segment 618659840/772058402 size 10485760
+2019/05/30 17:31:54 DEBUG : snps.bam: Uploading segment 629145600/772058402 size 10485760
+2019/05/30 17:31:55 DEBUG : snps.bam: Uploading segment 639631360/772058402 size 10485760
+2019/05/30 17:31:56 DEBUG : snps.bam: Uploading segment 650117120/772058402 size 10485760
+2019/05/30 17:31:56 DEBUG : snps.bam: Uploading segment 660602880/772058402 size 10485760
+2019/05/30 17:31:57 DEBUG : snps.bam: Uploading segment 671088640/772058402 size 10485760
+2019/05/30 17:31:57 DEBUG : snps.bam: Uploading segment 681574400/772058402 size 10485760
+2019/05/30 17:31:58 DEBUG : snps.bam: Uploading segment 692060160/772058402 size 10485760
+2019/05/30 17:31:59 DEBUG : snps.bam: Uploading segment 702545920/772058402 size 10485760
+2019/05/30 17:32:00 DEBUG : snps.bam: Uploading segment 713031680/772058402 size 10485760
+2019/05/30 17:32:00 DEBUG : snps.bam: Uploading segment 723517440/772058402 size 10485760
+2019/05/30 17:32:01 DEBUG : snps.bam: Uploading segment 734003200/772058402 size 10485760
+2019/05/30 17:32:01 DEBUG : snps.bam: Uploading segment 744488960/772058402 size 10485760
+2019/05/30 17:32:02 DEBUG : snps.bam: Uploading segment 754974720/772058402 size 10485760
+2019/05/30 17:32:03 DEBUG : snps.bam: Uploading segment 765460480/772058402 size 6597922
+2019/05/30 17:32:04 INFO  : snps.bam: Copied (new)
+2019/05/30 17:32:04 INFO  : 
+Transferred:   793.968 MBytes (16.368 MBytes/s)
+Errors:                 0
+Checks:                 0
+Transferred:           35
+Elapsed time:       48.5s
+2019/05/30 17:32:04 DEBUG : Go routines at exit 13
+2019/05/30 17:32:04 DEBUG : rclone: Version "v1.36" finishing with parameters ["rclone" "copy" "./SAMEA1877150_L6" "onedrive-em:africanum_analysis/snippy/SAMEA1877150_L6" "-vv"]
+2019/05/30 17:32:04 DEBUG : rclone: Version "v1.36" starting with parameters ["rclone" "copy" "./SAMEA1877152" "onedrive-em:africanum_analysis/snippy/SAMEA1877152" "-vv"]
+2019/05/30 17:32:06 INFO  : One drive root 'africanum_analysis/snippy/SAMEA1877152': Modify window is 1s
+2019/05/30 17:32:07 DEBUG : One drive root 'africanum_analysis/snippy/SAMEA1877152': Reading ""
+2019/05/30 17:32:07 DEBUG : One drive root 'africanum_analysis/snippy/SAMEA1877152': Finished reading ""
+2019/05/30 17:32:07 DEBUG : snps.bam: Starting multipart upload
+2019/05/30 17:32:07 DEBUG : snps.bam: Uploading segment 0/400302172 size 10485760
+2019/05/30 17:32:08 INFO  : snps.bam.bai: Copied (new)
+2019/05/30 17:32:08 DEBUG : snps.bam: Uploading segment 10485760/400302172 size 10485760
+2019/05/30 17:32:08 INFO  : snps.bed: Copied (new)
+2019/05/30 17:32:09 DEBUG : snps.bam: Uploading segment 20971520/400302172 size 10485760
+2019/05/30 17:32:10 DEBUG : snps.bam: Uploading segment 31457280/400302172 size 10485760
+2019/05/30 17:32:10 INFO  : snps.aligned.fa: Copied (new)
+2019/05/30 17:32:10 INFO  : snps.consensus.fa: Copied (new)
+2019/05/30 17:32:10 DEBUG : snps.depth.gz: Starting multipart upload
+2019/05/30 17:32:10 INFO  : snps.consensus.subs.fa: Copied (new)
+2019/05/30 17:32:10 DEBUG : snps.depth.gz: Uploading segment 0/15662573 size 10485760
+2019/05/30 17:32:10 DEBUG : snps.bam: Uploading segment 41943040/400302172 size 10485760
+2019/05/30 17:32:10 INFO  : snps.csv: Copied (new)
+2019/05/30 17:32:11 INFO  : snps.depth.gz.tbi: Copied (new)
+2019/05/30 17:32:11 DEBUG : snps.depth.gz: Uploading segment 10485760/15662573 size 5176813
+2019/05/30 17:32:11 DEBUG : snps.bam: Uploading segment 52428800/400302172 size 10485760
+2019/05/30 17:32:11 INFO  : snps.filt.subs.vcf.gz: Copied (new)
+2019/05/30 17:32:11 INFO  : snps.filt.subs.vcf: Copied (new)
+2019/05/30 17:32:12 INFO  : snps.filt.subs.vcf.gz.tbi: Copied (new)
+2019/05/30 17:32:12 INFO  : snps.depth.gz: Copied (new)
+2019/05/30 17:32:12 DEBUG : snps.bam: Uploading segment 62914560/400302172 size 10485760
+2019/05/30 17:32:12 INFO  : snps.filt.vcf: Copied (new)
+2019/05/30 17:32:13 DEBUG : snps.bam: Uploading segment 73400320/400302172 size 10485760
+2019/05/30 17:32:13 INFO  : snps.gff: Copied (new)
+2019/05/30 17:32:13 INFO  : snps.html: Copied (new)
+2019/05/30 17:32:13 INFO  : snps.log: Copied (new)
+2019/05/30 17:32:13 DEBUG : snps.bam: Uploading segment 83886080/400302172 size 10485760
+2019/05/30 17:32:14 INFO  : snps.txt: Copied (new)
+2019/05/30 17:32:14 INFO  : snps.tab: Copied (new)
+2019/05/30 17:32:14 INFO  : snps.raw.vcf: Copied (new)
+2019/05/30 17:32:14 DEBUG : snps.bam: Uploading segment 94371840/400302172 size 10485760
+2019/05/30 17:32:15 INFO  : snps.vcf.gz.tbi: Copied (new)
+2019/05/30 17:32:15 INFO  : snps.vcf.gz: Copied (new)
+2019/05/30 17:32:15 INFO  : snps.vcf: Copied (new)
+2019/05/30 17:32:15 DEBUG : snps.bam: Uploading segment 104857600/400302172 size 10485760
+2019/05/30 17:32:15 INFO  : reference/ref.fa.ann: Copied (new)
+2019/05/30 17:32:16 DEBUG : snps.bam: Uploading segment 115343360/400302172 size 10485760
+2019/05/30 17:32:16 INFO  : reference/ref.fa.amb: Copied (new)
+2019/05/30 17:32:16 DEBUG : snps.bam: Uploading segment 125829120/400302172 size 10485760
+2019/05/30 17:32:17 INFO  : reference/ref.fa.fai: Copied (new)
+2019/05/30 17:32:17 INFO  : reference/ref.fa: Copied (new)
+2019/05/30 17:32:17 DEBUG : snps.bam: Uploading segment 136314880/400302172 size 10485760
+2019/05/30 17:32:17 INFO  : reference/ref.fa.bwt: Copied (new)
+2019/05/30 17:32:18 INFO  : reference/ref.fa.pac: Copied (new)
+2019/05/30 17:32:18 INFO  : One drive root 'africanum_analysis/snippy/SAMEA1877152': Waiting for checks to finish
+2019/05/30 17:32:18 INFO  : One drive root 'africanum_analysis/snippy/SAMEA1877152': Waiting for transfers to finish
+2019/05/30 17:32:18 INFO  : reference/ref.txt: Copied (new)
+2019/05/30 17:32:18 INFO  : reference/ref.fa.sa: Copied (new)
+2019/05/30 17:32:18 INFO  : reference/snpeff.config: Copied (new)
+2019/05/30 17:32:19 DEBUG : snps.bam: Uploading segment 146800640/400302172 size 10485760
+2019/05/30 17:32:19 INFO  : reference/ref.gff: Copied (new)
+2019/05/30 17:32:19 DEBUG : snps.bam: Uploading segment 157286400/400302172 size 10485760
+2019/05/30 17:32:20 INFO  : reference/ref/genes.gff.gz: Copied (new)
+2019/05/30 17:32:20 DEBUG : snps.bam: Uploading segment 167772160/400302172 size 10485760
+2019/05/30 17:32:20 INFO  : reference/ref/snpEffectPredictor.bin: Copied (new)
+2019/05/30 17:32:21 INFO  : reference/genomes/ref.fa: Copied (new)
+2019/05/30 17:32:21 DEBUG : snps.bam: Uploading segment 178257920/400302172 size 10485760
+2019/05/30 17:32:22 DEBUG : snps.bam: Uploading segment 188743680/400302172 size 10485760
+2019/05/30 17:32:22 DEBUG : snps.bam: Uploading segment 199229440/400302172 size 10485760
+2019/05/30 17:32:23 DEBUG : snps.bam: Uploading segment 209715200/400302172 size 10485760
+2019/05/30 17:32:24 DEBUG : snps.bam: Uploading segment 220200960/400302172 size 10485760
+2019/05/30 17:32:25 DEBUG : snps.bam: Uploading segment 230686720/400302172 size 10485760
+2019/05/30 17:32:25 DEBUG : snps.bam: Uploading segment 241172480/400302172 size 10485760
+2019/05/30 17:32:26 DEBUG : snps.bam: Uploading segment 251658240/400302172 size 10485760
+2019/05/30 17:32:26 DEBUG : snps.bam: Uploading segment 262144000/400302172 size 10485760
+2019/05/30 17:32:27 DEBUG : snps.bam: Uploading segment 272629760/400302172 size 10485760
+2019/05/30 17:32:28 DEBUG : snps.bam: Uploading segment 283115520/400302172 size 10485760
+2019/05/30 17:32:29 DEBUG : snps.bam: Uploading segment 293601280/400302172 size 10485760
+2019/05/30 17:32:29 DEBUG : snps.bam: Uploading segment 304087040/400302172 size 10485760
+2019/05/30 17:32:30 DEBUG : snps.bam: Uploading segment 314572800/400302172 size 10485760
+2019/05/30 17:32:31 DEBUG : snps.bam: Uploading segment 325058560/400302172 size 10485760
+2019/05/30 17:32:32 DEBUG : snps.bam: Uploading segment 335544320/400302172 size 10485760
+2019/05/30 17:32:32 DEBUG : snps.bam: Uploading segment 346030080/400302172 size 10485760
+2019/05/30 17:32:33 DEBUG : snps.bam: Uploading segment 356515840/400302172 size 10485760
+2019/05/30 17:32:34 DEBUG : snps.bam: Uploading segment 367001600/400302172 size 10485760
+2019/05/30 17:32:34 DEBUG : snps.bam: Uploading segment 377487360/400302172 size 10485760
+2019/05/30 17:32:35 DEBUG : snps.bam: Uploading segment 387973120/400302172 size 10485760
+2019/05/30 17:32:36 DEBUG : snps.bam: Uploading segment 398458880/400302172 size 1843292
+2019/05/30 17:32:36 INFO  : snps.bam: Copied (new)
+2019/05/30 17:32:36 INFO  : 
+Transferred:   437.789 MBytes (13.669 MBytes/s)
+Errors:                 0
+Checks:                 0
+Transferred:           35
+Elapsed time:         32s
+2019/05/30 17:32:36 DEBUG : Go routines at exit 13
+2019/05/30 17:32:36 DEBUG : rclone: Version "v1.36" finishing with parameters ["rclone" "copy" "./SAMEA1877152" "onedrive-em:africanum_analysis/snippy/SAMEA1877152" "-vv"]
+2019/05/30 17:32:36 DEBUG : rclone: Version "v1.36" starting with parameters ["rclone" "copy" "./SAMEA1877165" "onedrive-em:africanum_analysis/snippy/SAMEA1877165" "-vv"]
+2019/05/30 17:32:38 INFO  : One drive root 'africanum_analysis/snippy/SAMEA1877165': Modify window is 1s
+2019/05/30 17:32:38 DEBUG : One drive root 'africanum_analysis/snippy/SAMEA1877165': Reading ""
+2019/05/30 17:32:38 DEBUG : One drive root 'africanum_analysis/snippy/SAMEA1877165': Finished reading ""
+2019/05/30 17:32:38 DEBUG : snps.bam: Starting multipart upload
+2019/05/30 17:32:39 DEBUG : snps.bam: Uploading segment 0/544229786 size 10485760
+2019/05/30 17:32:39 INFO  : snps.bam.bai: Copied (new)
+2019/05/30 17:32:39 INFO  : snps.bed: Copied (new)
+2019/05/30 17:32:40 DEBUG : snps.bam: Uploading segment 10485760/544229786 size 10485760
+2019/05/30 17:32:41 INFO  : snps.consensus.subs.fa: Copied (new)
+2019/05/30 17:32:41 DEBUG : snps.bam: Uploading segment 20971520/544229786 size 10485760
+2019/05/30 17:32:41 INFO  : snps.csv: Copied (new)
+2019/05/30 17:32:41 DEBUG : snps.depth.gz: Starting multipart upload
+2019/05/30 17:32:42 DEBUG : snps.depth.gz: Uploading segment 0/16344407 size 10485760
+2019/05/30 17:32:42 DEBUG : snps.depth.gz: Uploading segment 10485760/16344407 size 5858647
+2019/05/30 17:32:43 DEBUG : snps.bam: Uploading segment 31457280/544229786 size 10485760
+2019/05/30 17:32:44 INFO  : snps.depth.gz: Copied (new)
+2019/05/30 17:32:44 DEBUG : snps.bam: Uploading segment 41943040/544229786 size 10485760
+2019/05/30 17:32:44 INFO  : snps.depth.gz.tbi: Copied (new)
+2019/05/30 17:32:45 DEBUG : snps.bam: Uploading segment 52428800/544229786 size 10485760
+2019/05/30 17:32:45 INFO  : snps.aligned.fa: Copied (new)
+2019/05/30 17:32:45 INFO  : snps.filt.subs.vcf: Copied (new)
+2019/05/30 17:32:46 INFO  : snps.filt.subs.vcf.gz: Copied (new)
+2019/05/30 17:32:46 DEBUG : snps.bam: Uploading segment 62914560/544229786 size 10485760
+2019/05/30 17:32:46 INFO  : snps.filt.subs.vcf.gz.tbi: Copied (new)
+2019/05/30 17:32:47 DEBUG : snps.bam: Uploading segment 73400320/544229786 size 10485760
+2019/05/30 17:32:47 INFO  : snps.gff: Copied (new)
+2019/05/30 17:32:47 INFO  : snps.filt.vcf: Copied (new)
+2019/05/30 17:32:47 DEBUG : snps.bam: Uploading segment 83886080/544229786 size 10485760
+2019/05/30 17:32:47 INFO  : snps.log: Copied (new)
+2019/05/30 17:32:48 INFO  : snps.html: Copied (new)
+2019/05/30 17:32:48 DEBUG : snps.bam: Uploading segment 94371840/544229786 size 10485760
+2019/05/30 17:32:48 INFO  : snps.raw.vcf: Copied (new)
+2019/05/30 17:32:49 INFO  : snps.tab: Copied (new)
+2019/05/30 17:32:49 INFO  : snps.txt: Copied (new)
+2019/05/30 17:32:49 DEBUG : snps.bam: Uploading segment 104857600/544229786 size 10485760
+2019/05/30 17:32:49 INFO  : snps.consensus.fa: Copied (new)
+2019/05/30 17:32:50 DEBUG : snps.bam: Uploading segment 115343360/544229786 size 10485760
+2019/05/30 17:32:50 INFO  : snps.vcf: Copied (new)
+2019/05/30 17:32:50 INFO  : snps.vcf.gz.tbi: Copied (new)
+2019/05/30 17:32:50 INFO  : snps.vcf.gz: Copied (new)
+2019/05/30 17:32:51 DEBUG : snps.bam: Uploading segment 125829120/544229786 size 10485760
+2019/05/30 17:32:51 INFO  : reference/ref.fa.ann: Copied (new)
+2019/05/30 17:32:51 INFO  : reference/ref.fa.amb: Copied (new)
+2019/05/30 17:32:51 DEBUG : snps.bam: Uploading segment 136314880/544229786 size 10485760
+2019/05/30 17:32:51 INFO  : reference/ref.fa.fai: Copied (new)
+2019/05/30 17:32:52 INFO  : reference/ref.fa: Copied (new)
+2019/05/30 17:32:53 INFO  : reference/ref.fa.bwt: Copied (new)
+2019/05/30 17:32:53 INFO  : reference/ref.fa.pac: Copied (new)
+2019/05/30 17:32:53 INFO  : One drive root 'africanum_analysis/snippy/SAMEA1877165': Waiting for checks to finish
+2019/05/30 17:32:53 INFO  : One drive root 'africanum_analysis/snippy/SAMEA1877165': Waiting for transfers to finish
+2019/05/30 17:32:53 DEBUG : snps.bam: Uploading segment 146800640/544229786 size 10485760
+2019/05/30 17:32:53 INFO  : reference/ref.txt: Copied (new)
+2019/05/30 17:32:54 INFO  : reference/snpeff.config: Copied (new)
+2019/05/30 17:32:54 INFO  : reference/ref.fa.sa: Copied (new)
+2019/05/30 17:32:54 DEBUG : snps.bam: Uploading segment 157286400/544229786 size 10485760
+2019/05/30 17:32:55 DEBUG : snps.bam: Uploading segment 167772160/544229786 size 10485760
+2019/05/30 17:32:55 INFO  : reference/ref.gff: Copied (new)
+2019/05/30 17:32:55 DEBUG : snps.bam: Uploading segment 178257920/544229786 size 10485760
+2019/05/30 17:32:56 INFO  : reference/genomes/ref.fa: Copied (new)
+2019/05/30 17:32:56 DEBUG : snps.bam: Uploading segment 188743680/544229786 size 10485760
+2019/05/30 17:32:56 INFO  : reference/ref/snpEffectPredictor.bin: Copied (new)
+2019/05/30 17:32:56 INFO  : reference/ref/genes.gff.gz: Copied (new)
+2019/05/30 17:32:57 DEBUG : snps.bam: Uploading segment 199229440/544229786 size 10485760
+2019/05/30 17:32:58 DEBUG : snps.bam: Uploading segment 209715200/544229786 size 10485760
+2019/05/30 17:33:00 DEBUG : snps.bam: Uploading segment 220200960/544229786 size 10485760
+2019/05/30 17:33:00 DEBUG : snps.bam: Uploading segment 230686720/544229786 size 10485760
+2019/05/30 17:33:01 DEBUG : snps.bam: Uploading segment 241172480/544229786 size 10485760
+2019/05/30 17:33:02 DEBUG : snps.bam: Uploading segment 251658240/544229786 size 10485760
+2019/05/30 17:33:02 DEBUG : snps.bam: Uploading segment 262144000/544229786 size 10485760
+2019/05/30 17:33:03 DEBUG : snps.bam: Uploading segment 272629760/544229786 size 10485760
+2019/05/30 17:33:04 DEBUG : snps.bam: Uploading segment 283115520/544229786 size 10485760
+2019/05/30 17:33:06 DEBUG : snps.bam: Uploading segment 293601280/544229786 size 10485760
+2019/05/30 17:33:06 DEBUG : snps.bam: Uploading segment 304087040/544229786 size 10485760
+2019/05/30 17:33:07 DEBUG : snps.bam: Uploading segment 314572800/544229786 size 10485760
+2019/05/30 17:33:08 DEBUG : snps.bam: Uploading segment 325058560/544229786 size 10485760
+2019/05/30 17:33:08 DEBUG : snps.bam: Uploading segment 335544320/544229786 size 10485760
+2019/05/30 17:33:09 DEBUG : snps.bam: Uploading segment 346030080/544229786 size 10485760
+2019/05/30 17:33:10 DEBUG : snps.bam: Uploading segment 356515840/544229786 size 10485760
+2019/05/30 17:33:11 DEBUG : snps.bam: Uploading segment 367001600/544229786 size 10485760
+2019/05/30 17:33:11 DEBUG : snps.bam: Uploading segment 377487360/544229786 size 10485760
+2019/05/30 17:33:12 DEBUG : snps.bam: Uploading segment 387973120/544229786 size 10485760
+2019/05/30 17:33:13 DEBUG : snps.bam: Uploading segment 398458880/544229786 size 10485760
+2019/05/30 17:33:13 DEBUG : snps.bam: Uploading segment 408944640/544229786 size 10485760
+2019/05/30 17:33:14 DEBUG : snps.bam: Uploading segment 419430400/544229786 size 10485760
+2019/05/30 17:33:14 DEBUG : snps.bam: Uploading segment 429916160/544229786 size 10485760
+2019/05/30 17:33:15 DEBUG : snps.bam: Uploading segment 440401920/544229786 size 10485760
+2019/05/30 17:33:16 DEBUG : snps.bam: Uploading segment 450887680/544229786 size 10485760
+2019/05/30 17:33:16 DEBUG : snps.bam: Uploading segment 461373440/544229786 size 10485760
+2019/05/30 17:33:17 DEBUG : snps.bam: Uploading segment 471859200/544229786 size 10485760
+2019/05/30 17:33:18 DEBUG : snps.bam: Uploading segment 482344960/544229786 size 10485760
+2019/05/30 17:33:18 DEBUG : snps.bam: Uploading segment 492830720/544229786 size 10485760
+2019/05/30 17:33:19 DEBUG : snps.bam: Uploading segment 503316480/544229786 size 10485760
+2019/05/30 17:33:20 DEBUG : snps.bam: Uploading segment 513802240/544229786 size 10485760
+2019/05/30 17:33:20 DEBUG : snps.bam: Uploading segment 524288000/544229786 size 10485760
+2019/05/30 17:33:21 DEBUG : snps.bam: Uploading segment 534773760/544229786 size 9456026
+2019/05/30 17:33:22 INFO  : snps.bam: Copied (new)
+2019/05/30 17:33:22 INFO  : 
+Transferred:   575.982 MBytes (12.586 MBytes/s)
+Errors:                 0
+Checks:                 0
+Transferred:           35
+Elapsed time:       45.7s
+2019/05/30 17:33:22 DEBUG : Go routines at exit 13
+2019/05/30 17:33:22 DEBUG : rclone: Version "v1.36" finishing with parameters ["rclone" "copy" "./SAMEA1877165" "onedrive-em:africanum_analysis/snippy/SAMEA1877165" "-vv"]
+2019/05/30 17:33:22 DEBUG : rclone: Version "v1.36" starting with parameters ["rclone" "copy" "./SAMEA1877169" "onedrive-em:africanum_analysis/snippy/SAMEA1877169" "-vv"]
+2019/05/30 17:33:24 INFO  : One drive root 'africanum_analysis/snippy/SAMEA1877169': Modify window is 1s
+2019/05/30 17:33:24 DEBUG : One drive root 'africanum_analysis/snippy/SAMEA1877169': Reading ""
+2019/05/30 17:33:25 DEBUG : One drive root 'africanum_analysis/snippy/SAMEA1877169': Finished reading ""
+2019/05/30 17:33:25 DEBUG : snps.bam: Starting multipart upload
+2019/05/30 17:33:25 DEBUG : snps.bam: Uploading segment 0/274377153 size 10485760
+2019/05/30 17:33:26 DEBUG : snps.bam: Uploading segment 10485760/274377153 size 10485760
+2019/05/30 17:33:26 INFO  : snps.bed: Copied (new)
+2019/05/30 17:33:26 DEBUG : snps.bam: Uploading segment 20971520/274377153 size 10485760
+2019/05/30 17:33:26 INFO  : snps.aligned.fa: Copied (new)
+2019/05/30 17:33:27 DEBUG : snps.bam: Uploading segment 31457280/274377153 size 10485760
+2019/05/30 17:33:28 DEBUG : snps.bam: Uploading segment 41943040/274377153 size 10485760
+2019/05/30 17:33:28 INFO  : snps.consensus.subs.fa: Copied (new)
+2019/05/30 17:33:28 INFO  : snps.consensus.fa: Copied (new)
+2019/05/30 17:33:28 DEBUG : snps.depth.gz: Starting multipart upload
+2019/05/30 17:33:29 DEBUG : snps.depth.gz: Uploading segment 0/15242359 size 10485760
+2019/05/30 17:33:29 DEBUG : snps.bam: Uploading segment 52428800/274377153 size 10485760
+2019/05/30 17:33:29 INFO  : snps.csv: Copied (new)
+2019/05/30 17:33:29 DEBUG : snps.bam: Uploading segment 62914560/274377153 size 10485760
+2019/05/30 17:33:29 DEBUG : snps.depth.gz: Uploading segment 10485760/15242359 size 4756599
+2019/05/30 17:33:30 INFO  : snps.depth.gz.tbi: Copied (new)
+2019/05/30 17:33:30 DEBUG : snps.bam: Uploading segment 73400320/274377153 size 10485760
+2019/05/30 17:33:31 DEBUG : snps.bam: Uploading segment 83886080/274377153 size 10485760
+2019/05/30 17:33:31 INFO  : snps.filt.subs.vcf: Copied (new)
+2019/05/30 17:33:31 DEBUG : snps.bam: Uploading segment 94371840/274377153 size 10485760
+2019/05/30 17:33:31 INFO  : snps.depth.gz: Copied (new)
+2019/05/30 17:33:32 INFO  : snps.bam.bai: Copied (new)
+2019/05/30 17:33:32 INFO  : snps.filt.subs.vcf.gz: Copied (new)
+2019/05/30 17:33:32 INFO  : snps.filt.subs.vcf.gz.tbi: Copied (new)
+2019/05/30 17:33:32 DEBUG : snps.bam: Uploading segment 104857600/274377153 size 10485760
+2019/05/30 17:33:33 DEBUG : snps.bam: Uploading segment 115343360/274377153 size 10485760
+2019/05/30 17:33:33 INFO  : snps.html: Copied (new)
+2019/05/30 17:33:33 INFO  : snps.log: Copied (new)
+2019/05/30 17:33:33 DEBUG : snps.bam: Uploading segment 125829120/274377153 size 10485760
+2019/05/30 17:33:33 INFO  : snps.gff: Copied (new)
+2019/05/30 17:33:33 INFO  : snps.filt.vcf: Copied (new)
+2019/05/30 17:33:34 DEBUG : snps.bam: Uploading segment 136314880/274377153 size 10485760
+2019/05/30 17:33:34 INFO  : snps.txt: Copied (new)
+2019/05/30 17:33:34 INFO  : snps.raw.vcf: Copied (new)
+2019/05/30 17:33:34 DEBUG : snps.bam: Uploading segment 146800640/274377153 size 10485760
+2019/05/30 17:33:34 INFO  : snps.tab: Copied (new)
+2019/05/30 17:33:35 INFO  : snps.vcf.gz.tbi: Copied (new)
+2019/05/30 17:33:35 DEBUG : snps.bam: Uploading segment 157286400/274377153 size 10485760
+2019/05/30 17:33:35 INFO  : snps.vcf: Copied (new)
+2019/05/30 17:33:35 INFO  : snps.vcf.gz: Copied (new)
+2019/05/30 17:33:35 DEBUG : snps.bam: Uploading segment 167772160/274377153 size 10485760
+2019/05/30 17:33:36 DEBUG : snps.bam: Uploading segment 178257920/274377153 size 10485760
+2019/05/30 17:33:37 DEBUG : snps.bam: Uploading segment 188743680/274377153 size 10485760
+2019/05/30 17:33:37 INFO  : reference/ref.fa.amb: Copied (new)
+2019/05/30 17:33:37 DEBUG : snps.bam: Uploading segment 199229440/274377153 size 10485760
+2019/05/30 17:33:37 INFO  : reference/ref.fa.ann: Copied (new)
+2019/05/30 17:33:38 DEBUG : snps.bam: Uploading segment 209715200/274377153 size 10485760
+2019/05/30 17:33:38 INFO  : reference/ref.fa.fai: Copied (new)
+2019/05/30 17:33:38 DEBUG : snps.bam: Uploading segment 220200960/274377153 size 10485760
+2019/05/30 17:33:38 INFO  : reference/ref.fa: Copied (new)
+2019/05/30 17:33:39 INFO  : reference/ref.fa.bwt: Copied (new)
+2019/05/30 17:33:39 DEBUG : snps.bam: Uploading segment 230686720/274377153 size 10485760
+2019/05/30 17:33:40 DEBUG : snps.bam: Uploading segment 241172480/274377153 size 10485760
+2019/05/30 17:33:40 INFO  : reference/ref.fa.pac: Copied (new)
+2019/05/30 17:33:40 INFO  : One drive root 'africanum_analysis/snippy/SAMEA1877169': Waiting for checks to finish
+2019/05/30 17:33:40 INFO  : One drive root 'africanum_analysis/snippy/SAMEA1877169': Waiting for transfers to finish
+2019/05/30 17:33:40 DEBUG : snps.bam: Uploading segment 251658240/274377153 size 10485760
+2019/05/30 17:33:40 INFO  : reference/ref.fa.sa: Copied (new)
+2019/05/30 17:33:40 INFO  : reference/ref.txt: Copied (new)
+2019/05/30 17:33:41 INFO  : reference/ref.gff: Copied (new)
+2019/05/30 17:33:41 DEBUG : snps.bam: Uploading segment 262144000/274377153 size 10485760
+2019/05/30 17:33:41 INFO  : reference/snpeff.config: Copied (new)
+2019/05/30 17:33:41 DEBUG : snps.bam: Uploading segment 272629760/274377153 size 1747393
+2019/05/30 17:33:42 INFO  : snps.bam: Copied (new)
+2019/05/30 17:33:42 INFO  : reference/genomes/ref.fa: Copied (new)
+2019/05/30 17:33:43 INFO  : reference/ref/genes.gff.gz: Copied (new)
+2019/05/30 17:33:43 INFO  : reference/ref/snpEffectPredictor.bin: Copied (new)
+2019/05/30 17:33:43 INFO  : 
+Transferred:   317.656 MBytes (15.563 MBytes/s)
+Errors:                 0
+Checks:                 0
+Transferred:           35
+Elapsed time:       20.4s
+2019/05/30 17:33:43 DEBUG : Go routines at exit 13
+2019/05/30 17:33:43 DEBUG : rclone: Version "v1.36" finishing with parameters ["rclone" "copy" "./SAMEA1877169" "onedrive-em:africanum_analysis/snippy/SAMEA1877169" "-vv"]
+2019/05/30 17:33:43 DEBUG : rclone: Version "v1.36" starting with parameters ["rclone" "copy" "./SAMEA1877169_L5" "onedrive-em:africanum_analysis/snippy/SAMEA1877169_L5" "-vv"]
+2019/05/30 17:33:44 INFO  : One drive root 'africanum_analysis/snippy/SAMEA1877169_L5': Modify window is 1s
+2019/05/30 17:33:45 DEBUG : One drive root 'africanum_analysis/snippy/SAMEA1877169_L5': Reading ""
+2019/05/30 17:33:45 DEBUG : One drive root 'africanum_analysis/snippy/SAMEA1877169_L5': Finished reading ""
+2019/05/30 17:33:45 DEBUG : snps.bam: Starting multipart upload
+2019/05/30 17:33:45 DEBUG : snps.bam: Uploading segment 0/274377155 size 10485760
+2019/05/30 17:33:45 INFO  : snps.bam.bai: Copied (new)
+2019/05/30 17:33:45 INFO  : snps.bed: Copied (new)
+2019/05/30 17:33:46 DEBUG : snps.bam: Uploading segment 10485760/274377155 size 10485760
+2019/05/30 17:33:46 INFO  : snps.aligned.fa: Copied (new)
+2019/05/30 17:33:47 DEBUG : snps.bam: Uploading segment 20971520/274377155 size 10485760
+2019/05/30 17:33:47 INFO  : snps.consensus.fa: Copied (new)
+2019/05/30 17:33:47 DEBUG : snps.depth.gz: Starting multipart upload
+2019/05/30 17:33:47 DEBUG : snps.depth.gz: Uploading segment 0/15242359 size 10485760
+2019/05/30 17:33:47 INFO  : snps.csv: Copied (new)
+2019/05/30 17:33:48 INFO  : snps.consensus.subs.fa: Copied (new)
+2019/05/30 17:33:48 DEBUG : snps.bam: Uploading segment 31457280/274377155 size 10485760
+2019/05/30 17:33:48 DEBUG : snps.depth.gz: Uploading segment 10485760/15242359 size 4756599
+2019/05/30 17:33:48 INFO  : snps.depth.gz.tbi: Copied (new)
+2019/05/30 17:33:49 DEBUG : snps.bam: Uploading segment 41943040/274377155 size 10485760
+2019/05/30 17:33:49 INFO  : snps.filt.subs.vcf: Copied (new)
+2019/05/30 17:33:49 INFO  : snps.depth.gz: Copied (new)
+2019/05/30 17:33:49 INFO  : snps.filt.subs.vcf.gz: Copied (new)
+2019/05/30 17:33:50 INFO  : snps.filt.subs.vcf.gz.tbi: Copied (new)
+2019/05/30 17:33:50 DEBUG : snps.bam: Uploading segment 52428800/274377155 size 10485760
+2019/05/30 17:33:50 INFO  : snps.html: Copied (new)
+2019/05/30 17:33:50 DEBUG : snps.bam: Uploading segment 62914560/274377155 size 10485760
+2019/05/30 17:33:51 INFO  : snps.filt.vcf: Copied (new)
+2019/05/30 17:33:51 INFO  : snps.gff: Copied (new)
+2019/05/30 17:33:51 DEBUG : snps.bam: Uploading segment 73400320/274377155 size 10485760
+2019/05/30 17:33:51 INFO  : snps.tab: Copied (new)
+2019/05/30 17:33:52 INFO  : snps.log: Copied (new)
+2019/05/30 17:33:52 INFO  : snps.raw.vcf: Copied (new)
+2019/05/30 17:33:52 DEBUG : snps.bam: Uploading segment 83886080/274377155 size 10485760
+2019/05/30 17:33:52 INFO  : snps.txt: Copied (new)
+2019/05/30 17:33:52 INFO  : snps.vcf.gz.tbi: Copied (new)
+2019/05/30 17:33:52 INFO  : snps.vcf.gz: Copied (new)
+2019/05/30 17:33:53 INFO  : snps.vcf: Copied (new)
+2019/05/30 17:33:53 DEBUG : snps.bam: Uploading segment 94371840/274377155 size 10485760
+2019/05/30 17:33:53 INFO  : reference/ref.fa.amb: Copied (new)
+2019/05/30 17:33:54 INFO  : reference/ref.fa.ann: Copied (new)
+2019/05/30 17:33:54 DEBUG : snps.bam: Uploading segment 104857600/274377155 size 10485760
+2019/05/30 17:33:55 INFO  : reference/ref.fa.fai: Copied (new)
+2019/05/30 17:33:55 INFO  : reference/ref.fa: Copied (new)
+2019/05/30 17:33:55 DEBUG : snps.bam: Uploading segment 115343360/274377155 size 10485760
+2019/05/30 17:33:56 INFO  : reference/ref.fa.bwt: Copied (new)
+2019/05/30 17:33:56 INFO  : reference/ref.fa.pac: Copied (new)
+2019/05/30 17:33:56 INFO  : One drive root 'africanum_analysis/snippy/SAMEA1877169_L5': Waiting for checks to finish
+2019/05/30 17:33:56 INFO  : One drive root 'africanum_analysis/snippy/SAMEA1877169_L5': Waiting for transfers to finish
+2019/05/30 17:33:56 INFO  : reference/ref.txt: Copied (new)
+2019/05/30 17:33:56 DEBUG : snps.bam: Uploading segment 125829120/274377155 size 10485760
+2019/05/30 17:33:56 INFO  : reference/ref.fa.sa: Copied (new)
+2019/05/30 17:33:57 INFO  : reference/snpeff.config: Copied (new)
+2019/05/30 17:33:57 DEBUG : snps.bam: Uploading segment 136314880/274377155 size 10485760
+2019/05/30 17:33:57 DEBUG : snps.bam: Uploading segment 146800640/274377155 size 10485760
+2019/05/30 17:33:58 INFO  : reference/ref.gff: Copied (new)
+2019/05/30 17:33:58 DEBUG : snps.bam: Uploading segment 157286400/274377155 size 10485760
+2019/05/30 17:33:58 INFO  : reference/ref/genes.gff.gz: Copied (new)
+2019/05/30 17:33:58 INFO  : reference/ref/snpEffectPredictor.bin: Copied (new)
+2019/05/30 17:33:59 DEBUG : snps.bam: Uploading segment 167772160/274377155 size 10485760
+2019/05/30 17:33:59 INFO  : reference/genomes/ref.fa: Copied (new)
+2019/05/30 17:33:59 DEBUG : snps.bam: Uploading segment 178257920/274377155 size 10485760
+2019/05/30 17:34:00 DEBUG : snps.bam: Uploading segment 188743680/274377155 size 10485760
+2019/05/30 17:34:01 DEBUG : snps.bam: Uploading segment 199229440/274377155 size 10485760
+2019/05/30 17:34:01 DEBUG : snps.bam: Uploading segment 209715200/274377155 size 10485760
+2019/05/30 17:34:02 DEBUG : snps.bam: Uploading segment 220200960/274377155 size 10485760
+2019/05/30 17:34:03 DEBUG : snps.bam: Uploading segment 230686720/274377155 size 10485760
+2019/05/30 17:34:03 DEBUG : snps.bam: Uploading segment 241172480/274377155 size 10485760
+2019/05/30 17:34:04 DEBUG : snps.bam: Uploading segment 251658240/274377155 size 10485760
+2019/05/30 17:34:04 DEBUG : snps.bam: Uploading segment 262144000/274377155 size 10485760
+2019/05/30 17:34:05 DEBUG : snps.bam: Uploading segment 272629760/274377155 size 1747395
+2019/05/30 17:34:06 INFO  : snps.bam: Copied (new)
+2019/05/30 17:34:06 INFO  : 
+Transferred:   317.656 MBytes (13.957 MBytes/s)
+Errors:                 0
+Checks:                 0
+Transferred:           35
+Elapsed time:       22.7s
+2019/05/30 17:34:06 DEBUG : Go routines at exit 13
+2019/05/30 17:34:06 DEBUG : rclone: Version "v1.36" finishing with parameters ["rclone" "copy" "./SAMEA1877169_L5" "onedrive-em:africanum_analysis/snippy/SAMEA1877169_L5" "-vv"]
+2019/05/30 17:34:06 DEBUG : rclone: Version "v1.36" starting with parameters ["rclone" "copy" "./SAMEA1877177" "onedrive-em:africanum_analysis/snippy/SAMEA1877177" "-vv"]
+2019/05/30 17:34:08 INFO  : One drive root 'africanum_analysis/snippy/SAMEA1877177': Modify window is 1s
+2019/05/30 17:34:08 DEBUG : One drive root 'africanum_analysis/snippy/SAMEA1877177': Reading ""
+2019/05/30 17:34:08 DEBUG : One drive root 'africanum_analysis/snippy/SAMEA1877177': Finished reading ""
+2019/05/30 17:34:08 DEBUG : snps.bam: Starting multipart upload
+2019/05/30 17:34:09 DEBUG : snps.bam: Uploading segment 0/607368311 size 10485760
+2019/05/30 17:34:09 INFO  : snps.bam.bai: Copied (new)
+2019/05/30 17:34:09 INFO  : snps.bed: Copied (new)
+2019/05/30 17:34:10 DEBUG : snps.bam: Uploading segment 10485760/607368311 size 10485760
+2019/05/30 17:34:10 INFO  : snps.consensus.fa: Copied (new)
+2019/05/30 17:34:10 INFO  : snps.aligned.fa: Copied (new)
+2019/05/30 17:34:10 DEBUG : snps.depth.gz: Starting multipart upload
+2019/05/30 17:34:10 DEBUG : snps.depth.gz: Uploading segment 0/16397966 size 10485760
+2019/05/30 17:34:11 DEBUG : snps.bam: Uploading segment 20971520/607368311 size 10485760
+2019/05/30 17:34:11 INFO  : snps.consensus.subs.fa: Copied (new)
+2019/05/30 17:34:11 INFO  : snps.csv: Copied (new)
+2019/05/30 17:34:12 DEBUG : snps.depth.gz: Uploading segment 10485760/16397966 size 5912206
+2019/05/30 17:34:12 DEBUG : snps.bam: Uploading segment 31457280/607368311 size 10485760
+2019/05/30 17:34:12 INFO  : snps.depth.gz.tbi: Copied (new)
+2019/05/30 17:34:12 INFO  : snps.filt.subs.vcf: Copied (new)
+2019/05/30 17:34:13 INFO  : snps.depth.gz: Copied (new)
+2019/05/30 17:34:13 INFO  : snps.filt.subs.vcf.gz: Copied (new)
+2019/05/30 17:34:13 DEBUG : snps.bam: Uploading segment 41943040/607368311 size 10485760
+2019/05/30 17:34:13 INFO  : snps.filt.subs.vcf.gz.tbi: Copied (new)
+2019/05/30 17:34:14 INFO  : snps.html: Copied (new)
+2019/05/30 17:34:14 INFO  : snps.filt.vcf: Copied (new)
+2019/05/30 17:34:14 INFO  : snps.log: Copied (new)
+2019/05/30 17:34:14 INFO  : snps.gff: Copied (new)
+2019/05/30 17:34:15 DEBUG : snps.bam: Uploading segment 52428800/607368311 size 10485760
+2019/05/30 17:34:15 INFO  : snps.txt: Copied (new)
+2019/05/30 17:34:15 INFO  : snps.tab: Copied (new)
+2019/05/30 17:34:15 INFO  : snps.raw.vcf: Copied (new)
+2019/05/30 17:34:15 DEBUG : snps.bam: Uploading segment 62914560/607368311 size 10485760
+2019/05/30 17:34:16 DEBUG : snps.bam: Uploading segment 73400320/607368311 size 10485760
+2019/05/30 17:34:16 INFO  : snps.vcf.gz: Copied (new)
+2019/05/30 17:34:16 INFO  : snps.vcf: Copied (new)
+2019/05/30 17:34:16 INFO  : snps.vcf.gz.tbi: Copied (new)
+2019/05/30 17:34:17 INFO  : reference/ref.fa.amb: Copied (new)
+2019/05/30 17:34:17 INFO  : reference/ref.fa.ann: Copied (new)
+2019/05/30 17:34:17 DEBUG : snps.bam: Uploading segment 83886080/607368311 size 10485760
+2019/05/30 17:34:18 DEBUG : snps.bam: Uploading segment 94371840/607368311 size 10485760
+2019/05/30 17:34:18 INFO  : reference/ref.fa: Copied (new)
+2019/05/30 17:34:19 INFO  : reference/ref.fa.fai: Copied (new)
+2019/05/30 17:34:19 DEBUG : snps.bam: Uploading segment 104857600/607368311 size 10485760
+2019/05/30 17:34:19 INFO  : reference/ref.fa.pac: Copied (new)
+2019/05/30 17:34:20 INFO  : reference/ref.fa.bwt: Copied (new)
+2019/05/30 17:34:20 INFO  : One drive root 'africanum_analysis/snippy/SAMEA1877177': Waiting for checks to finish
+2019/05/30 17:34:20 INFO  : One drive root 'africanum_analysis/snippy/SAMEA1877177': Waiting for transfers to finish
+2019/05/30 17:34:20 DEBUG : snps.bam: Uploading segment 115343360/607368311 size 10485760
+2019/05/30 17:34:20 INFO  : reference/ref.txt: Copied (new)
+2019/05/30 17:34:21 INFO  : reference/snpeff.config: Copied (new)
+2019/05/30 17:34:21 INFO  : reference/ref.gff: Copied (new)
+2019/05/30 17:34:21 INFO  : reference/ref.fa.sa: Copied (new)
+2019/05/30 17:34:22 DEBUG : snps.bam: Uploading segment 125829120/607368311 size 10485760
+2019/05/30 17:34:23 INFO  : reference/ref/genes.gff.gz: Copied (new)
+2019/05/30 17:34:23 DEBUG : snps.bam: Uploading segment 136314880/607368311 size 10485760
+2019/05/30 17:34:23 INFO  : reference/ref/snpEffectPredictor.bin: Copied (new)
+2019/05/30 17:34:23 INFO  : reference/genomes/ref.fa: Copied (new)
+2019/05/30 17:34:23 DEBUG : snps.bam: Uploading segment 146800640/607368311 size 10485760
+2019/05/30 17:34:25 DEBUG : snps.bam: Uploading segment 157286400/607368311 size 10485760
+2019/05/30 17:34:26 DEBUG : snps.bam: Uploading segment 167772160/607368311 size 10485760
+2019/05/30 17:34:28 DEBUG : snps.bam: Uploading segment 178257920/607368311 size 10485760
+2019/05/30 17:34:29 DEBUG : snps.bam: Uploading segment 188743680/607368311 size 10485760
+2019/05/30 17:34:30 DEBUG : snps.bam: Uploading segment 199229440/607368311 size 10485760
+2019/05/30 17:34:32 DEBUG : snps.bam: Uploading segment 209715200/607368311 size 10485760
+2019/05/30 17:34:33 DEBUG : snps.bam: Uploading segment 220200960/607368311 size 10485760
+2019/05/30 17:34:35 DEBUG : snps.bam: Uploading segment 230686720/607368311 size 10485760
+2019/05/30 17:34:35 DEBUG : snps.bam: Uploading segment 241172480/607368311 size 10485760
+2019/05/30 17:34:36 DEBUG : snps.bam: Uploading segment 251658240/607368311 size 10485760
+2019/05/30 17:34:37 DEBUG : snps.bam: Uploading segment 262144000/607368311 size 10485760
+2019/05/30 17:34:38 DEBUG : snps.bam: Uploading segment 272629760/607368311 size 10485760
+2019/05/30 17:34:39 DEBUG : snps.bam: Uploading segment 283115520/607368311 size 10485760
+2019/05/30 17:34:40 DEBUG : snps.bam: Uploading segment 293601280/607368311 size 10485760
+2019/05/30 17:34:42 DEBUG : snps.bam: Uploading segment 304087040/607368311 size 10485760
+2019/05/30 17:34:42 DEBUG : snps.bam: Uploading segment 314572800/607368311 size 10485760
+2019/05/30 17:34:44 DEBUG : snps.bam: Uploading segment 325058560/607368311 size 10485760
+2019/05/30 17:34:45 DEBUG : snps.bam: Uploading segment 335544320/607368311 size 10485760
+2019/05/30 17:34:45 DEBUG : snps.bam: Uploading segment 346030080/607368311 size 10485760
+2019/05/30 17:34:46 DEBUG : snps.bam: Uploading segment 356515840/607368311 size 10485760
+2019/05/30 17:34:47 DEBUG : snps.bam: Uploading segment 367001600/607368311 size 10485760
+2019/05/30 17:34:48 DEBUG : snps.bam: Uploading segment 377487360/607368311 size 10485760
+2019/05/30 17:34:49 DEBUG : snps.bam: Uploading segment 387973120/607368311 size 10485760
+2019/05/30 17:34:50 DEBUG : snps.bam: Uploading segment 398458880/607368311 size 10485760
+2019/05/30 17:34:51 DEBUG : snps.bam: Uploading segment 408944640/607368311 size 10485760
+2019/05/30 17:34:52 DEBUG : snps.bam: Uploading segment 419430400/607368311 size 10485760
+2019/05/30 17:34:53 DEBUG : snps.bam: Uploading segment 429916160/607368311 size 10485760
+2019/05/30 17:34:54 DEBUG : snps.bam: Uploading segment 440401920/607368311 size 10485760
+2019/05/30 17:34:55 DEBUG : snps.bam: Uploading segment 450887680/607368311 size 10485760
+2019/05/30 17:34:56 DEBUG : snps.bam: Uploading segment 461373440/607368311 size 10485760
+2019/05/30 17:34:57 DEBUG : snps.bam: Uploading segment 471859200/607368311 size 10485760
+2019/05/30 17:34:58 DEBUG : snps.bam: Uploading segment 482344960/607368311 size 10485760
+2019/05/30 17:34:59 DEBUG : snps.bam: Uploading segment 492830720/607368311 size 10485760
+2019/05/30 17:34:59 DEBUG : snps.bam: Uploading segment 503316480/607368311 size 10485760
+2019/05/30 17:35:00 DEBUG : snps.bam: Uploading segment 513802240/607368311 size 10485760
+2019/05/30 17:35:01 DEBUG : snps.bam: Uploading segment 524288000/607368311 size 10485760
+2019/05/30 17:35:02 DEBUG : snps.bam: Uploading segment 534773760/607368311 size 10485760
+2019/05/30 17:35:02 DEBUG : snps.bam: Uploading segment 545259520/607368311 size 10485760
+2019/05/30 17:35:03 DEBUG : snps.bam: Uploading segment 555745280/607368311 size 10485760
+2019/05/30 17:35:03 DEBUG : snps.bam: Uploading segment 566231040/607368311 size 10485760
+2019/05/30 17:35:04 DEBUG : snps.bam: Uploading segment 576716800/607368311 size 10485760
+2019/05/30 17:35:05 DEBUG : snps.bam: Uploading segment 587202560/607368311 size 10485760
+2019/05/30 17:35:06 DEBUG : snps.bam: Uploading segment 597688320/607368311 size 9679991
+2019/05/30 17:35:07 INFO  : snps.bam: Copied (new)
+2019/05/30 17:35:07 INFO  : 
+Transferred:   636.608 MBytes (10.343 MBytes/s)
+Errors:                 0
+Checks:                 0
+Transferred:           35
+Elapsed time:      1m1.5s
+2019/05/30 17:35:07 DEBUG : Go routines at exit 13
+2019/05/30 17:35:07 DEBUG : rclone: Version "v1.36" finishing with parameters ["rclone" "copy" "./SAMEA1877177" "onedrive-em:africanum_analysis/snippy/SAMEA1877177" "-vv"]
+2019/05/30 17:35:07 DEBUG : rclone: Version "v1.36" starting with parameters ["rclone" "copy" "./SAMEA1877181_L3" "onedrive-em:africanum_analysis/snippy/SAMEA1877181_L3" "-vv"]
+2019/05/30 17:35:09 INFO  : One drive root 'africanum_analysis/snippy/SAMEA1877181_L3': Modify window is 1s
+2019/05/30 17:35:09 DEBUG : One drive root 'africanum_analysis/snippy/SAMEA1877181_L3': Reading ""
+2019/05/30 17:35:09 DEBUG : One drive root 'africanum_analysis/snippy/SAMEA1877181_L3': Finished reading ""
+2019/05/30 17:35:09 DEBUG : snps.bam: Starting multipart upload
+2019/05/30 17:35:10 INFO  : snps.bed: Copied (new)
+2019/05/30 17:35:10 INFO  : snps.bam.bai: Copied (new)
+2019/05/30 17:35:11 DEBUG : snps.bam: Uploading segment 0/592693452 size 10485760
+2019/05/30 17:35:11 INFO  : snps.aligned.fa: Copied (new)
+2019/05/30 17:35:12 INFO  : snps.consensus.fa: Copied (new)
+2019/05/30 17:35:12 DEBUG : snps.depth.gz: Starting multipart upload
+2019/05/30 17:35:12 DEBUG : snps.bam: Uploading segment 10485760/592693452 size 10485760
+2019/05/30 17:35:12 DEBUG : snps.depth.gz: Uploading segment 0/16548054 size 10485760
+2019/05/30 17:35:12 INFO  : snps.csv: Copied (new)
+2019/05/30 17:35:12 INFO  : snps.consensus.subs.fa: Copied (new)
+2019/05/30 17:35:12 DEBUG : snps.bam: Uploading segment 20971520/592693452 size 10485760
+2019/05/30 17:35:13 DEBUG : snps.depth.gz: Uploading segment 10485760/16548054 size 6062294
+2019/05/30 17:35:13 INFO  : snps.depth.gz.tbi: Copied (new)
+2019/05/30 17:35:13 DEBUG : snps.bam: Uploading segment 31457280/592693452 size 10485760
+2019/05/30 17:35:13 INFO  : snps.filt.subs.vcf: Copied (new)
+2019/05/30 17:35:14 INFO  : snps.depth.gz: Copied (new)
+2019/05/30 17:35:14 INFO  : snps.filt.subs.vcf.gz.tbi: Copied (new)
+2019/05/30 17:35:14 DEBUG : snps.bam: Uploading segment 41943040/592693452 size 10485760
+2019/05/30 17:35:14 INFO  : snps.filt.subs.vcf.gz: Copied (new)
+2019/05/30 17:35:14 DEBUG : snps.bam: Uploading segment 52428800/592693452 size 10485760
+2019/05/30 17:35:14 INFO  : snps.filt.vcf: Copied (new)
+2019/05/30 17:35:15 INFO  : snps.html: Copied (new)
+2019/05/30 17:35:15 INFO  : snps.log: Copied (new)
+2019/05/30 17:35:15 INFO  : snps.gff: Copied (new)
+2019/05/30 17:35:15 DEBUG : snps.bam: Uploading segment 62914560/592693452 size 10485760
+2019/05/30 17:35:15 INFO  : snps.tab: Copied (new)
+2019/05/30 17:35:16 INFO  : snps.txt: Copied (new)
+2019/05/30 17:35:16 INFO  : snps.raw.vcf: Copied (new)
+2019/05/30 17:35:16 DEBUG : snps.bam: Uploading segment 73400320/592693452 size 10485760
+2019/05/30 17:35:16 INFO  : snps.vcf.gz.tbi: Copied (new)
+2019/05/30 17:35:16 INFO  : snps.vcf: Copied (new)
+2019/05/30 17:35:17 INFO  : snps.vcf.gz: Copied (new)
+2019/05/30 17:35:17 INFO  : reference/ref.fa.ann: Copied (new)
+2019/05/30 17:35:17 DEBUG : snps.bam: Uploading segment 83886080/592693452 size 10485760
+2019/05/30 17:35:17 INFO  : reference/ref.fa.amb: Copied (new)
+2019/05/30 17:35:18 INFO  : reference/ref.fa.fai: Copied (new)
+2019/05/30 17:35:18 DEBUG : snps.bam: Uploading segment 94371840/592693452 size 10485760
+2019/05/30 17:35:19 INFO  : reference/ref.fa.pac: Copied (new)
+2019/05/30 17:35:19 INFO  : reference/ref.fa: Copied (new)
+2019/05/30 17:35:19 DEBUG : snps.bam: Uploading segment 104857600/592693452 size 10485760
+2019/05/30 17:35:20 INFO  : reference/ref.fa.sa: Copied (new)
+2019/05/30 17:35:20 INFO  : One drive root 'africanum_analysis/snippy/SAMEA1877181_L3': Waiting for checks to finish
+2019/05/30 17:35:20 INFO  : One drive root 'africanum_analysis/snippy/SAMEA1877181_L3': Waiting for transfers to finish
+2019/05/30 17:35:20 INFO  : reference/ref.fa.bwt: Copied (new)
+2019/05/30 17:35:20 DEBUG : snps.bam: Uploading segment 115343360/592693452 size 10485760
+2019/05/30 17:35:20 INFO  : reference/ref.txt: Copied (new)
+2019/05/30 17:35:20 INFO  : reference/snpeff.config: Copied (new)
+2019/05/30 17:35:20 INFO  : reference/ref.gff: Copied (new)
+2019/05/30 17:35:21 DEBUG : snps.bam: Uploading segment 125829120/592693452 size 10485760
+2019/05/30 17:35:21 DEBUG : snps.bam: Uploading segment 136314880/592693452 size 10485760
+2019/05/30 17:35:22 INFO  : reference/ref/genes.gff.gz: Copied (new)
+2019/05/30 17:35:22 DEBUG : snps.bam: Uploading segment 146800640/592693452 size 10485760
+2019/05/30 17:35:23 INFO  : reference/genomes/ref.fa: Copied (new)
+2019/05/30 17:35:23 INFO  : reference/ref/snpEffectPredictor.bin: Copied (new)
+2019/05/30 17:35:23 DEBUG : snps.bam: Uploading segment 157286400/592693452 size 10485760
+2019/05/30 17:35:24 DEBUG : snps.bam: Uploading segment 167772160/592693452 size 10485760
+2019/05/30 17:35:25 DEBUG : snps.bam: Uploading segment 178257920/592693452 size 10485760
+2019/05/30 17:35:25 DEBUG : snps.bam: Uploading segment 188743680/592693452 size 10485760
+2019/05/30 17:35:26 DEBUG : snps.bam: Uploading segment 199229440/592693452 size 10485760
+2019/05/30 17:35:27 DEBUG : snps.bam: Uploading segment 209715200/592693452 size 10485760
+2019/05/30 17:35:28 DEBUG : snps.bam: Uploading segment 220200960/592693452 size 10485760
+2019/05/30 17:35:28 DEBUG : snps.bam: Uploading segment 230686720/592693452 size 10485760
+2019/05/30 17:35:29 DEBUG : snps.bam: Uploading segment 241172480/592693452 size 10485760
+2019/05/30 17:35:30 DEBUG : snps.bam: Uploading segment 251658240/592693452 size 10485760
+2019/05/30 17:35:31 DEBUG : snps.bam: Uploading segment 262144000/592693452 size 10485760
+2019/05/30 17:35:32 DEBUG : snps.bam: Uploading segment 272629760/592693452 size 10485760
+2019/05/30 17:35:32 DEBUG : snps.bam: Uploading segment 283115520/592693452 size 10485760
+2019/05/30 17:35:33 DEBUG : snps.bam: Uploading segment 293601280/592693452 size 10485760
+2019/05/30 17:35:33 DEBUG : snps.bam: Uploading segment 304087040/592693452 size 10485760
+2019/05/30 17:35:34 DEBUG : snps.bam: Uploading segment 314572800/592693452 size 10485760
+2019/05/30 17:35:36 DEBUG : snps.bam: Uploading segment 325058560/592693452 size 10485760
+2019/05/30 17:35:37 DEBUG : snps.bam: Uploading segment 335544320/592693452 size 10485760
+2019/05/30 17:35:37 DEBUG : snps.bam: Uploading segment 346030080/592693452 size 10485760
+2019/05/30 17:35:38 DEBUG : snps.bam: Uploading segment 356515840/592693452 size 10485760
+2019/05/30 17:35:39 DEBUG : snps.bam: Uploading segment 367001600/592693452 size 10485760
+2019/05/30 17:35:40 DEBUG : snps.bam: Uploading segment 377487360/592693452 size 10485760
+2019/05/30 17:35:40 DEBUG : snps.bam: Uploading segment 387973120/592693452 size 10485760
+2019/05/30 17:35:41 DEBUG : snps.bam: Uploading segment 398458880/592693452 size 10485760
+2019/05/30 17:35:42 DEBUG : snps.bam: Uploading segment 408944640/592693452 size 10485760
+2019/05/30 17:35:42 DEBUG : snps.bam: Uploading segment 419430400/592693452 size 10485760
+2019/05/30 17:35:43 DEBUG : snps.bam: Uploading segment 429916160/592693452 size 10485760
+2019/05/30 17:35:44 DEBUG : snps.bam: Uploading segment 440401920/592693452 size 10485760
+2019/05/30 17:35:44 DEBUG : snps.bam: Uploading segment 450887680/592693452 size 10485760
+2019/05/30 17:35:45 DEBUG : snps.bam: Uploading segment 461373440/592693452 size 10485760
+2019/05/30 17:35:46 DEBUG : snps.bam: Uploading segment 471859200/592693452 size 10485760
+2019/05/30 17:35:46 DEBUG : snps.bam: Uploading segment 482344960/592693452 size 10485760
+2019/05/30 17:35:47 DEBUG : snps.bam: Uploading segment 492830720/592693452 size 10485760
+2019/05/30 17:35:48 DEBUG : snps.bam: Uploading segment 503316480/592693452 size 10485760
+2019/05/30 17:35:49 DEBUG : snps.bam: Uploading segment 513802240/592693452 size 10485760
+2019/05/30 17:35:49 DEBUG : snps.bam: Uploading segment 524288000/592693452 size 10485760
+2019/05/30 17:35:51 DEBUG : snps.bam: Uploading segment 534773760/592693452 size 10485760
+2019/05/30 17:35:52 DEBUG : snps.bam: Uploading segment 545259520/592693452 size 10485760
+2019/05/30 17:35:52 DEBUG : snps.bam: Uploading segment 555745280/592693452 size 10485760
+2019/05/30 17:35:53 DEBUG : snps.bam: Uploading segment 566231040/592693452 size 10485760
+2019/05/30 17:35:54 DEBUG : snps.bam: Uploading segment 576716800/592693452 size 10485760
+2019/05/30 17:35:55 DEBUG : snps.bam: Uploading segment 587202560/592693452 size 5490892
+2019/05/30 17:35:56 INFO  : snps.bam: Copied (new)
+2019/05/30 17:35:56 INFO  : 
+Transferred:   620.875 MBytes (12.823 MBytes/s)
+Errors:                 0
+Checks:                 0
+Transferred:           35
+Elapsed time:       48.4s
+2019/05/30 17:35:56 DEBUG : Go routines at exit 13
+2019/05/30 17:35:56 DEBUG : rclone: Version "v1.36" finishing with parameters ["rclone" "copy" "./SAMEA1877181_L3" "onedrive-em:africanum_analysis/snippy/SAMEA1877181_L3" "-vv"]
+2019/05/30 17:35:56 DEBUG : rclone: Version "v1.36" starting with parameters ["rclone" "copy" "./SAMEA1877187" "onedrive-em:africanum_analysis/snippy/SAMEA1877187" "-vv"]
+2019/05/30 17:35:57 INFO  : One drive root 'africanum_analysis/snippy/SAMEA1877187': Modify window is 1s
+2019/05/30 17:35:58 DEBUG : One drive root 'africanum_analysis/snippy/SAMEA1877187': Reading ""
+2019/05/30 17:35:58 DEBUG : One drive root 'africanum_analysis/snippy/SAMEA1877187': Finished reading ""
+2019/05/30 17:35:58 DEBUG : snps.bam: Starting multipart upload
+2019/05/30 17:35:58 DEBUG : snps.bam: Uploading segment 0/444754768 size 10485760
+2019/05/30 17:35:58 INFO  : snps.bam.bai: Copied (new)
+2019/05/30 17:35:58 INFO  : snps.bed: Copied (new)
+2019/05/30 17:35:59 DEBUG : snps.bam: Uploading segment 10485760/444754768 size 10485760
+2019/05/30 17:36:00 DEBUG : snps.bam: Uploading segment 20971520/444754768 size 10485760
+2019/05/30 17:36:00 INFO  : snps.aligned.fa: Copied (new)
+2019/05/30 17:36:00 INFO  : snps.consensus.subs.fa: Copied (new)
+2019/05/30 17:36:00 DEBUG : snps.depth.gz: Starting multipart upload
+2019/05/30 17:36:00 DEBUG : snps.bam: Uploading segment 31457280/444754768 size 10485760
+2019/05/30 17:36:00 DEBUG : snps.depth.gz: Uploading segment 0/16126982 size 10485760
+2019/05/30 17:36:01 INFO  : snps.consensus.fa: Copied (new)
+2019/05/30 17:36:01 INFO  : snps.csv: Copied (new)
+2019/05/30 17:36:01 DEBUG : snps.bam: Uploading segment 41943040/444754768 size 10485760
+2019/05/30 17:36:01 DEBUG : snps.depth.gz: Uploading segment 10485760/16126982 size 5641222
+2019/05/30 17:36:01 INFO  : snps.depth.gz.tbi: Copied (new)
+2019/05/30 17:36:02 DEBUG : snps.bam: Uploading segment 52428800/444754768 size 10485760
+2019/05/30 17:36:02 INFO  : snps.filt.subs.vcf.gz: Copied (new)
+2019/05/30 17:36:02 INFO  : snps.depth.gz: Copied (new)
+2019/05/30 17:36:02 DEBUG : snps.bam: Uploading segment 62914560/444754768 size 10485760
+2019/05/30 17:36:02 INFO  : snps.filt.subs.vcf: Copied (new)
+2019/05/30 17:36:03 INFO  : snps.filt.subs.vcf.gz.tbi: Copied (new)
+2019/05/30 17:36:03 DEBUG : snps.bam: Uploading segment 73400320/444754768 size 10485760
+2019/05/30 17:36:03 INFO  : snps.gff: Copied (new)
+2019/05/30 17:36:03 INFO  : snps.filt.vcf: Copied (new)
+2019/05/30 17:36:04 INFO  : snps.html: Copied (new)
+2019/05/30 17:36:04 DEBUG : snps.bam: Uploading segment 83886080/444754768 size 10485760
+2019/05/30 17:36:04 INFO  : snps.log: Copied (new)
+2019/05/30 17:36:04 INFO  : snps.txt: Copied (new)
+2019/05/30 17:36:04 INFO  : snps.raw.vcf: Copied (new)
+2019/05/30 17:36:04 DEBUG : snps.bam: Uploading segment 94371840/444754768 size 10485760
+2019/05/30 17:36:05 INFO  : snps.tab: Copied (new)
+2019/05/30 17:36:05 DEBUG : snps.bam: Uploading segment 104857600/444754768 size 10485760
+2019/05/30 17:36:05 INFO  : snps.vcf.gz: Copied (new)
+2019/05/30 17:36:06 INFO  : snps.vcf.gz.tbi: Copied (new)
+2019/05/30 17:36:06 DEBUG : snps.bam: Uploading segment 115343360/444754768 size 10485760
+2019/05/30 17:36:06 INFO  : snps.vcf: Copied (new)
+2019/05/30 17:36:06 INFO  : reference/ref.fa.amb: Copied (new)
+2019/05/30 17:36:06 DEBUG : snps.bam: Uploading segment 125829120/444754768 size 10485760
+2019/05/30 17:36:06 INFO  : reference/ref.fa.ann: Copied (new)
+2019/05/30 17:36:07 DEBUG : snps.bam: Uploading segment 136314880/444754768 size 10485760
+2019/05/30 17:36:07 INFO  : reference/ref.fa.fai: Copied (new)
+2019/05/30 17:36:07 DEBUG : snps.bam: Uploading segment 146800640/444754768 size 10485760
+2019/05/30 17:36:07 INFO  : reference/ref.fa: Copied (new)
+2019/05/30 17:36:08 INFO  : reference/ref.fa.bwt: Copied (new)
+2019/05/30 17:36:08 DEBUG : snps.bam: Uploading segment 157286400/444754768 size 10485760
+2019/05/30 17:36:08 INFO  : reference/ref.fa.pac: Copied (new)
+2019/05/30 17:36:08 INFO  : One drive root 'africanum_analysis/snippy/SAMEA1877187': Waiting for checks to finish
+2019/05/30 17:36:08 INFO  : One drive root 'africanum_analysis/snippy/SAMEA1877187': Waiting for transfers to finish
+2019/05/30 17:36:08 DEBUG : snps.bam: Uploading segment 167772160/444754768 size 10485760
+2019/05/30 17:36:09 INFO  : reference/ref.fa.sa: Copied (new)
+2019/05/30 17:36:09 DEBUG : snps.bam: Uploading segment 178257920/444754768 size 10485760
+2019/05/30 17:36:09 INFO  : reference/ref.txt: Copied (new)
+2019/05/30 17:36:09 INFO  : reference/ref.gff: Copied (new)
+2019/05/30 17:36:10 INFO  : reference/snpeff.config: Copied (new)
+2019/05/30 17:36:10 DEBUG : snps.bam: Uploading segment 188743680/444754768 size 10485760
+2019/05/30 17:36:11 DEBUG : snps.bam: Uploading segment 199229440/444754768 size 10485760
+2019/05/30 17:36:11 INFO  : reference/genomes/ref.fa: Copied (new)
+2019/05/30 17:36:11 INFO  : reference/ref/genes.gff.gz: Copied (new)
+2019/05/30 17:36:12 INFO  : reference/ref/snpEffectPredictor.bin: Copied (new)
+2019/05/30 17:36:12 DEBUG : snps.bam: Uploading segment 209715200/444754768 size 10485760
+2019/05/30 17:36:14 DEBUG : snps.bam: Uploading segment 220200960/444754768 size 10485760
+2019/05/30 17:36:14 DEBUG : snps.bam: Uploading segment 230686720/444754768 size 10485760
+2019/05/30 17:36:15 DEBUG : snps.bam: Uploading segment 241172480/444754768 size 10485760
+2019/05/30 17:36:15 DEBUG : snps.bam: Uploading segment 251658240/444754768 size 10485760
+2019/05/30 17:36:16 DEBUG : snps.bam: Uploading segment 262144000/444754768 size 10485760
+2019/05/30 17:36:17 DEBUG : snps.bam: Uploading segment 272629760/444754768 size 10485760
+2019/05/30 17:36:17 DEBUG : snps.bam: Uploading segment 283115520/444754768 size 10485760
+2019/05/30 17:36:18 DEBUG : snps.bam: Uploading segment 293601280/444754768 size 10485760
+2019/05/30 17:36:19 DEBUG : snps.bam: Uploading segment 304087040/444754768 size 10485760
+2019/05/30 17:36:20 DEBUG : snps.bam: Uploading segment 314572800/444754768 size 10485760
+2019/05/30 17:36:20 DEBUG : snps.bam: Uploading segment 325058560/444754768 size 10485760
+2019/05/30 17:36:21 DEBUG : snps.bam: Uploading segment 335544320/444754768 size 10485760
+2019/05/30 17:36:21 DEBUG : snps.bam: Uploading segment 346030080/444754768 size 10485760
+2019/05/30 17:36:22 DEBUG : snps.bam: Uploading segment 356515840/444754768 size 10485760
+2019/05/30 17:36:24 DEBUG : snps.bam: Uploading segment 367001600/444754768 size 10485760
+2019/05/30 17:36:24 DEBUG : snps.bam: Uploading segment 377487360/444754768 size 10485760
+2019/05/30 17:36:25 DEBUG : snps.bam: Uploading segment 387973120/444754768 size 10485760
+2019/05/30 17:36:26 DEBUG : snps.bam: Uploading segment 398458880/444754768 size 10485760
+2019/05/30 17:36:27 DEBUG : snps.bam: Uploading segment 408944640/444754768 size 10485760
+2019/05/30 17:36:27 DEBUG : snps.bam: Uploading segment 419430400/444754768 size 10485760
+2019/05/30 17:36:28 DEBUG : snps.bam: Uploading segment 429916160/444754768 size 10485760
+2019/05/30 17:36:29 DEBUG : snps.bam: Uploading segment 440401920/444754768 size 4352848
+2019/05/30 17:36:30 INFO  : snps.bam: Copied (new)
+2019/05/30 17:36:30 INFO  : 
+Transferred:   480.978 MBytes (14.227 MBytes/s)
+Errors:                 0
+Checks:                 0
+Transferred:           35
+Elapsed time:       33.8s
+2019/05/30 17:36:30 DEBUG : Go routines at exit 12
+2019/05/30 17:36:30 DEBUG : rclone: Version "v1.36" finishing with parameters ["rclone" "copy" "./SAMEA1877187" "onedrive-em:africanum_analysis/snippy/SAMEA1877187" "-vv"]
+2019/05/30 17:36:30 DEBUG : rclone: Version "v1.36" starting with parameters ["rclone" "copy" "./SAMEA1877190" "onedrive-em:africanum_analysis/snippy/SAMEA1877190" "-vv"]
+2019/05/30 17:36:31 INFO  : One drive root 'africanum_analysis/snippy/SAMEA1877190': Modify window is 1s
+2019/05/30 17:36:31 DEBUG : One drive root 'africanum_analysis/snippy/SAMEA1877190': Reading ""
+2019/05/30 17:36:31 DEBUG : One drive root 'africanum_analysis/snippy/SAMEA1877190': Finished reading ""
+2019/05/30 17:36:31 DEBUG : snps.bam: Starting multipart upload
+2019/05/30 17:36:32 DEBUG : snps.bam: Uploading segment 0/707192515 size 10485760
+2019/05/30 17:36:32 INFO  : snps.bam.bai: Copied (new)
+2019/05/30 17:36:32 INFO  : snps.bed: Copied (new)
+2019/05/30 17:36:33 DEBUG : snps.bam: Uploading segment 10485760/707192515 size 10485760
+2019/05/30 17:36:33 INFO  : snps.aligned.fa: Copied (new)
+2019/05/30 17:36:34 DEBUG : snps.bam: Uploading segment 20971520/707192515 size 10485760
+2019/05/30 17:36:34 INFO  : snps.consensus.subs.fa: Copied (new)
+2019/05/30 17:36:34 DEBUG : snps.depth.gz: Starting multipart upload
+2019/05/30 17:36:34 INFO  : snps.consensus.fa: Copied (new)
+2019/05/30 17:36:34 INFO  : snps.csv: Copied (new)
+2019/05/30 17:36:34 DEBUG : snps.bam: Uploading segment 31457280/707192515 size 10485760
+2019/05/30 17:36:34 DEBUG : snps.depth.gz: Uploading segment 0/16735283 size 10485760
+2019/05/30 17:36:35 INFO  : snps.depth.gz.tbi: Copied (new)
+2019/05/30 17:36:35 DEBUG : snps.bam: Uploading segment 41943040/707192515 size 10485760
+2019/05/30 17:36:35 DEBUG : snps.depth.gz: Uploading segment 10485760/16735283 size 6249523
+2019/05/30 17:36:35 INFO  : snps.filt.subs.vcf.gz: Copied (new)
+2019/05/30 17:36:36 DEBUG : snps.bam: Uploading segment 52428800/707192515 size 10485760
+2019/05/30 17:36:36 INFO  : snps.filt.subs.vcf: Copied (new)
+2019/05/30 17:36:36 INFO  : snps.filt.subs.vcf.gz.tbi: Copied (new)
+2019/05/30 17:36:36 INFO  : snps.depth.gz: Copied (new)
+2019/05/30 17:36:36 DEBUG : snps.bam: Uploading segment 62914560/707192515 size 10485760
+2019/05/30 17:36:37 DEBUG : snps.bam: Uploading segment 73400320/707192515 size 10485760
+2019/05/30 17:36:37 INFO  : snps.filt.vcf: Copied (new)
+2019/05/30 17:36:37 DEBUG : snps.bam: Uploading segment 83886080/707192515 size 10485760
+2019/05/30 17:36:38 INFO  : snps.gff: Copied (new)
+2019/05/30 17:36:38 INFO  : snps.html: Copied (new)
+2019/05/30 17:36:38 INFO  : snps.log: Copied (new)
+2019/05/30 17:36:38 DEBUG : snps.bam: Uploading segment 94371840/707192515 size 10485760
+2019/05/30 17:36:38 INFO  : snps.txt: Copied (new)
+2019/05/30 17:36:39 DEBUG : snps.bam: Uploading segment 104857600/707192515 size 10485760
+2019/05/30 17:36:39 INFO  : snps.tab: Copied (new)
+2019/05/30 17:36:39 INFO  : snps.raw.vcf: Copied (new)
+2019/05/30 17:36:39 DEBUG : snps.bam: Uploading segment 115343360/707192515 size 10485760
+2019/05/30 17:36:40 INFO  : snps.vcf.gz.tbi: Copied (new)
+2019/05/30 17:36:40 INFO  : snps.vcf: Copied (new)
+2019/05/30 17:36:40 INFO  : snps.vcf.gz: Copied (new)
+2019/05/30 17:36:40 INFO  : reference/ref.fa.amb: Copied (new)
+2019/05/30 17:36:41 INFO  : reference/ref.fa.ann: Copied (new)
+2019/05/30 17:36:41 DEBUG : snps.bam: Uploading segment 125829120/707192515 size 10485760
+2019/05/30 17:36:41 INFO  : reference/ref.fa.fai: Copied (new)
+2019/05/30 17:36:41 DEBUG : snps.bam: Uploading segment 136314880/707192515 size 10485760
+2019/05/30 17:36:42 DEBUG : snps.bam: Uploading segment 146800640/707192515 size 10485760
+2019/05/30 17:36:42 INFO  : reference/ref.fa.bwt: Copied (new)
+2019/05/30 17:36:42 INFO  : reference/ref.fa.pac: Copied (new)
+2019/05/30 17:36:43 DEBUG : snps.bam: Uploading segment 157286400/707192515 size 10485760
+2019/05/30 17:36:43 INFO  : reference/ref.fa: Copied (new)
+2019/05/30 17:36:43 INFO  : One drive root 'africanum_analysis/snippy/SAMEA1877190': Waiting for checks to finish
+2019/05/30 17:36:43 INFO  : One drive root 'africanum_analysis/snippy/SAMEA1877190': Waiting for transfers to finish
+2019/05/30 17:36:43 DEBUG : snps.bam: Uploading segment 167772160/707192515 size 10485760
+2019/05/30 17:36:43 INFO  : reference/ref.txt: Copied (new)
+2019/05/30 17:36:44 INFO  : reference/ref.gff: Copied (new)
+2019/05/30 17:36:44 INFO  : reference/snpeff.config: Copied (new)
+2019/05/30 17:36:44 DEBUG : snps.bam: Uploading segment 178257920/707192515 size 10485760
+2019/05/30 17:36:44 DEBUG : snps.bam: Uploading segment 188743680/707192515 size 10485760
+2019/05/30 17:36:45 INFO  : reference/ref.fa.sa: Copied (new)
+2019/05/30 17:36:45 DEBUG : snps.bam: Uploading segment 199229440/707192515 size 10485760
+2019/05/30 17:36:45 DEBUG : snps.bam: Uploading segment 209715200/707192515 size 10485760
+2019/05/30 17:36:46 INFO  : reference/ref/genes.gff.gz: Copied (new)
+2019/05/30 17:36:46 INFO  : reference/ref/snpEffectPredictor.bin: Copied (new)
+2019/05/30 17:36:46 DEBUG : snps.bam: Uploading segment 220200960/707192515 size 10485760
+2019/05/30 17:36:46 INFO  : reference/genomes/ref.fa: Copied (new)
+2019/05/30 17:36:47 DEBUG : snps.bam: Uploading segment 230686720/707192515 size 10485760
+2019/05/30 17:36:47 DEBUG : snps.bam: Uploading segment 241172480/707192515 size 10485760
+2019/05/30 17:36:48 DEBUG : snps.bam: Uploading segment 251658240/707192515 size 10485760
+2019/05/30 17:36:49 DEBUG : snps.bam: Uploading segment 262144000/707192515 size 10485760
+2019/05/30 17:36:49 DEBUG : snps.bam: Uploading segment 272629760/707192515 size 10485760
+2019/05/30 17:36:50 DEBUG : snps.bam: Uploading segment 283115520/707192515 size 10485760
+2019/05/30 17:36:50 DEBUG : snps.bam: Uploading segment 293601280/707192515 size 10485760
+2019/05/30 17:36:51 DEBUG : snps.bam: Uploading segment 304087040/707192515 size 10485760
+2019/05/30 17:36:52 DEBUG : snps.bam: Uploading segment 314572800/707192515 size 10485760
+2019/05/30 17:36:52 DEBUG : snps.bam: Uploading segment 325058560/707192515 size 10485760
+2019/05/30 17:36:53 DEBUG : snps.bam: Uploading segment 335544320/707192515 size 10485760
+2019/05/30 17:36:54 DEBUG : snps.bam: Uploading segment 346030080/707192515 size 10485760
+2019/05/30 17:36:54 DEBUG : snps.bam: Uploading segment 356515840/707192515 size 10485760
+2019/05/30 17:36:55 DEBUG : snps.bam: Uploading segment 367001600/707192515 size 10485760
+2019/05/30 17:36:56 DEBUG : snps.bam: Uploading segment 377487360/707192515 size 10485760
+2019/05/30 17:36:56 DEBUG : snps.bam: Uploading segment 387973120/707192515 size 10485760
+2019/05/30 17:36:57 DEBUG : snps.bam: Uploading segment 398458880/707192515 size 10485760
+2019/05/30 17:36:57 DEBUG : snps.bam: Uploading segment 408944640/707192515 size 10485760
+2019/05/30 17:36:58 DEBUG : snps.bam: Uploading segment 419430400/707192515 size 10485760
+2019/05/30 17:36:59 DEBUG : snps.bam: Uploading segment 429916160/707192515 size 10485760
+2019/05/30 17:36:59 DEBUG : snps.bam: Uploading segment 440401920/707192515 size 10485760
+2019/05/30 17:37:00 DEBUG : snps.bam: Uploading segment 450887680/707192515 size 10485760
+2019/05/30 17:37:01 DEBUG : snps.bam: Uploading segment 461373440/707192515 size 10485760
+2019/05/30 17:37:01 DEBUG : snps.bam: Uploading segment 471859200/707192515 size 10485760
+2019/05/30 17:37:02 DEBUG : snps.bam: Uploading segment 482344960/707192515 size 10485760
+2019/05/30 17:37:02 DEBUG : snps.bam: Uploading segment 492830720/707192515 size 10485760
+2019/05/30 17:37:03 DEBUG : snps.bam: Uploading segment 503316480/707192515 size 10485760
+2019/05/30 17:37:05 DEBUG : snps.bam: Uploading segment 513802240/707192515 size 10485760
+2019/05/30 17:37:05 DEBUG : snps.bam: Uploading segment 524288000/707192515 size 10485760
+2019/05/30 17:37:06 DEBUG : snps.bam: Uploading segment 534773760/707192515 size 10485760
+2019/05/30 17:37:07 DEBUG : snps.bam: Uploading segment 545259520/707192515 size 10485760
+2019/05/30 17:37:08 DEBUG : snps.bam: Uploading segment 555745280/707192515 size 10485760
+2019/05/30 17:37:09 DEBUG : snps.bam: Uploading segment 566231040/707192515 size 10485760
+2019/05/30 17:37:09 DEBUG : snps.bam: Uploading segment 576716800/707192515 size 10485760
+2019/05/30 17:37:10 DEBUG : snps.bam: Uploading segment 587202560/707192515 size 10485760
+2019/05/30 17:37:10 DEBUG : snps.bam: Uploading segment 597688320/707192515 size 10485760
+2019/05/30 17:37:11 DEBUG : snps.bam: Uploading segment 608174080/707192515 size 10485760
+2019/05/30 17:37:12 DEBUG : snps.bam: Uploading segment 618659840/707192515 size 10485760
+2019/05/30 17:37:12 DEBUG : snps.bam: Uploading segment 629145600/707192515 size 10485760
+2019/05/30 17:37:13 DEBUG : snps.bam: Uploading segment 639631360/707192515 size 10485760
+2019/05/30 17:37:14 DEBUG : snps.bam: Uploading segment 650117120/707192515 size 10485760
+2019/05/30 17:37:14 DEBUG : snps.bam: Uploading segment 660602880/707192515 size 10485760
+2019/05/30 17:37:15 DEBUG : snps.bam: Uploading segment 671088640/707192515 size 10485760
+2019/05/30 17:37:16 DEBUG : snps.bam: Uploading segment 681574400/707192515 size 10485760
+2019/05/30 17:37:17 DEBUG : snps.bam: Uploading segment 692060160/707192515 size 10485760
+2019/05/30 17:37:17 DEBUG : snps.bam: Uploading segment 702545920/707192515 size 4646595
+2019/05/30 17:37:18 INFO  : snps.bam: Copied (new)
+2019/05/30 17:37:18 INFO  : 
+Transferred:   732.428 MBytes (15.178 MBytes/s)
+Errors:                 0
+Checks:                 0
+Transferred:           35
+Elapsed time:       48.2s
+2019/05/30 17:37:18 DEBUG : Go routines at exit 13
+2019/05/30 17:37:18 DEBUG : rclone: Version "v1.36" finishing with parameters ["rclone" "copy" "./SAMEA1877190" "onedrive-em:africanum_analysis/snippy/SAMEA1877190" "-vv"]
+2019/05/30 17:37:18 DEBUG : rclone: Version "v1.36" starting with parameters ["rclone" "copy" "./SAMEA1877206" "onedrive-em:africanum_analysis/snippy/SAMEA1877206" "-vv"]
+2019/05/30 17:37:20 INFO  : One drive root 'africanum_analysis/snippy/SAMEA1877206': Modify window is 1s
+2019/05/30 17:37:20 DEBUG : One drive root 'africanum_analysis/snippy/SAMEA1877206': Reading ""
+2019/05/30 17:37:20 DEBUG : One drive root 'africanum_analysis/snippy/SAMEA1877206': Finished reading ""
+2019/05/30 17:37:20 DEBUG : snps.bam: Starting multipart upload
+2019/05/30 17:37:20 DEBUG : snps.bam: Uploading segment 0/514808544 size 10485760
+2019/05/30 17:37:21 INFO  : snps.bam.bai: Copied (new)
+2019/05/30 17:37:21 INFO  : snps.bed: Copied (new)
+2019/05/30 17:37:22 DEBUG : snps.bam: Uploading segment 10485760/514808544 size 10485760
+2019/05/30 17:37:22 INFO  : snps.aligned.fa: Copied (new)
+2019/05/30 17:37:22 INFO  : snps.consensus.fa: Copied (new)
+2019/05/30 17:37:22 DEBUG : snps.depth.gz: Starting multipart upload
+2019/05/30 17:37:22 DEBUG : snps.bam: Uploading segment 20971520/514808544 size 10485760
+2019/05/30 17:37:22 DEBUG : snps.depth.gz: Uploading segment 0/16145145 size 10485760
+2019/05/30 17:37:23 INFO  : snps.csv: Copied (new)
+2019/05/30 17:37:23 INFO  : snps.consensus.subs.fa: Copied (new)
+2019/05/30 17:37:23 DEBUG : snps.depth.gz: Uploading segment 10485760/16145145 size 5659385
+2019/05/30 17:37:23 INFO  : snps.depth.gz.tbi: Copied (new)
+2019/05/30 17:37:24 DEBUG : snps.bam: Uploading segment 31457280/514808544 size 10485760
+2019/05/30 17:37:24 INFO  : snps.depth.gz: Copied (new)
+2019/05/30 17:37:24 INFO  : snps.filt.subs.vcf: Copied (new)
+2019/05/30 17:37:25 INFO  : snps.filt.subs.vcf.gz.tbi: Copied (new)
+2019/05/30 17:37:25 DEBUG : snps.bam: Uploading segment 41943040/514808544 size 10485760
+2019/05/30 17:37:25 INFO  : snps.filt.subs.vcf.gz: Copied (new)
+2019/05/30 17:37:25 INFO  : snps.filt.vcf: Copied (new)
+2019/05/30 17:37:26 INFO  : snps.gff: Copied (new)
+2019/05/30 17:37:26 INFO  : snps.log: Copied (new)
+2019/05/30 17:37:27 INFO  : snps.html: Copied (new)
+2019/05/30 17:37:27 INFO  : snps.raw.vcf: Copied (new)
+2019/05/30 17:37:27 DEBUG : snps.bam: Uploading segment 52428800/514808544 size 10485760
+2019/05/30 17:37:27 INFO  : snps.tab: Copied (new)
+2019/05/30 17:37:27 INFO  : snps.txt: Copied (new)
+2019/05/30 17:37:28 INFO  : snps.vcf: Copied (new)
+2019/05/30 17:37:28 INFO  : snps.vcf.gz.tbi: Copied (new)
+2019/05/30 17:37:28 DEBUG : snps.bam: Uploading segment 62914560/514808544 size 10485760
+2019/05/30 17:37:28 INFO  : snps.vcf.gz: Copied (new)
+2019/05/30 17:37:29 DEBUG : snps.bam: Uploading segment 73400320/514808544 size 10485760
+2019/05/30 17:37:29 INFO  : reference/ref.fa.ann: Copied (new)
+2019/05/30 17:37:29 INFO  : reference/ref.fa.amb: Copied (new)
+2019/05/30 17:37:30 INFO  : reference/ref.fa.fai: Copied (new)
+2019/05/30 17:37:30 DEBUG : snps.bam: Uploading segment 83886080/514808544 size 10485760
+2019/05/30 17:37:31 INFO  : reference/ref.fa: Copied (new)
+2019/05/30 17:37:31 DEBUG : snps.bam: Uploading segment 94371840/514808544 size 10485760
+2019/05/30 17:37:31 INFO  : reference/ref.fa.bwt: Copied (new)
+2019/05/30 17:37:31 INFO  : reference/ref.fa.pac: Copied (new)
+2019/05/30 17:37:31 INFO  : One drive root 'africanum_analysis/snippy/SAMEA1877206': Waiting for checks to finish
+2019/05/30 17:37:31 INFO  : One drive root 'africanum_analysis/snippy/SAMEA1877206': Waiting for transfers to finish
+2019/05/30 17:37:32 DEBUG : snps.bam: Uploading segment 104857600/514808544 size 10485760
+2019/05/30 17:37:32 INFO  : reference/ref.txt: Copied (new)
+2019/05/30 17:37:32 INFO  : reference/ref.gff: Copied (new)
+2019/05/30 17:37:33 INFO  : reference/snpeff.config: Copied (new)
+2019/05/30 17:37:33 INFO  : reference/ref.fa.sa: Copied (new)
+2019/05/30 17:37:33 DEBUG : snps.bam: Uploading segment 115343360/514808544 size 10485760
+2019/05/30 17:37:34 INFO  : reference/ref/genes.gff.gz: Copied (new)
+2019/05/30 17:37:34 INFO  : reference/genomes/ref.fa: Copied (new)
+2019/05/30 17:37:34 INFO  : reference/ref/snpEffectPredictor.bin: Copied (new)
+2019/05/30 17:37:35 DEBUG : snps.bam: Uploading segment 125829120/514808544 size 10485760
+2019/05/30 17:37:36 DEBUG : snps.bam: Uploading segment 136314880/514808544 size 10485760
+2019/05/30 17:37:37 DEBUG : snps.bam: Uploading segment 146800640/514808544 size 10485760
+2019/05/30 17:37:37 DEBUG : snps.bam: Uploading segment 157286400/514808544 size 10485760
+2019/05/30 17:37:38 DEBUG : snps.bam: Uploading segment 167772160/514808544 size 10485760
+2019/05/30 17:37:39 DEBUG : snps.bam: Uploading segment 178257920/514808544 size 10485760
+2019/05/30 17:37:39 DEBUG : snps.bam: Uploading segment 188743680/514808544 size 10485760
+2019/05/30 17:37:41 DEBUG : snps.bam: Uploading segment 199229440/514808544 size 10485760
+2019/05/30 17:37:41 DEBUG : snps.bam: Uploading segment 209715200/514808544 size 10485760
+2019/05/30 17:37:42 DEBUG : snps.bam: Uploading segment 220200960/514808544 size 10485760
+2019/05/30 17:37:44 DEBUG : snps.bam: Uploading segment 230686720/514808544 size 10485760
+2019/05/30 17:37:44 DEBUG : snps.bam: Uploading segment 241172480/514808544 size 10485760
+2019/05/30 17:37:46 DEBUG : snps.bam: Uploading segment 251658240/514808544 size 10485760
+2019/05/30 17:37:46 DEBUG : snps.bam: Uploading segment 262144000/514808544 size 10485760
+2019/05/30 17:37:47 DEBUG : snps.bam: Uploading segment 272629760/514808544 size 10485760
+2019/05/30 17:37:48 DEBUG : snps.bam: Uploading segment 283115520/514808544 size 10485760
+2019/05/30 17:37:50 DEBUG : snps.bam: Uploading segment 293601280/514808544 size 10485760
+2019/05/30 17:37:52 DEBUG : snps.bam: Uploading segment 304087040/514808544 size 10485760
+2019/05/30 17:37:52 DEBUG : snps.bam: Uploading segment 314572800/514808544 size 10485760
+2019/05/30 17:37:53 DEBUG : snps.bam: Uploading segment 325058560/514808544 size 10485760
+2019/05/30 17:37:54 DEBUG : snps.bam: Uploading segment 335544320/514808544 size 10485760
+2019/05/30 17:37:54 DEBUG : snps.bam: Uploading segment 346030080/514808544 size 10485760
+2019/05/30 17:37:55 DEBUG : snps.bam: Uploading segment 356515840/514808544 size 10485760
+2019/05/30 17:37:56 DEBUG : snps.bam: Uploading segment 367001600/514808544 size 10485760
+2019/05/30 17:37:58 DEBUG : snps.bam: Uploading segment 377487360/514808544 size 10485760
+2019/05/30 17:37:58 DEBUG : snps.bam: Uploading segment 387973120/514808544 size 10485760
+2019/05/30 17:38:00 DEBUG : snps.bam: Uploading segment 398458880/514808544 size 10485760
+2019/05/30 17:38:02 DEBUG : snps.bam: Uploading segment 408944640/514808544 size 10485760
+2019/05/30 17:38:03 DEBUG : snps.bam: Uploading segment 419430400/514808544 size 10485760
+2019/05/30 17:38:04 DEBUG : snps.bam: Uploading segment 429916160/514808544 size 10485760
+2019/05/30 17:38:05 DEBUG : snps.bam: Uploading segment 440401920/514808544 size 10485760
+2019/05/30 17:38:05 DEBUG : snps.bam: Uploading segment 450887680/514808544 size 10485760
+2019/05/30 17:38:06 DEBUG : snps.bam: Uploading segment 461373440/514808544 size 10485760
+2019/05/30 17:38:07 DEBUG : snps.bam: Uploading segment 471859200/514808544 size 10485760
+2019/05/30 17:38:08 DEBUG : snps.bam: Uploading segment 482344960/514808544 size 10485760
+2019/05/30 17:38:08 DEBUG : snps.bam: Uploading segment 492830720/514808544 size 10485760
+2019/05/30 17:38:09 DEBUG : snps.bam: Uploading segment 503316480/514808544 size 10485760
+2019/05/30 17:38:09 DEBUG : snps.bam: Uploading segment 513802240/514808544 size 1006304
+2019/05/30 17:38:10 INFO  : snps.bam: Copied (new)
+2019/05/30 17:38:10 INFO  : 
+Transferred:   547.647 MBytes (10.489 MBytes/s)
+Errors:                 0
+Checks:                 0
+Transferred:           35
+Elapsed time:       52.2s
+2019/05/30 17:38:10 DEBUG : Go routines at exit 13
+2019/05/30 17:38:10 DEBUG : rclone: Version "v1.36" finishing with parameters ["rclone" "copy" "./SAMEA1877206" "onedrive-em:africanum_analysis/snippy/SAMEA1877206" "-vv"]
+2019/05/30 17:38:10 DEBUG : rclone: Version "v1.36" starting with parameters ["rclone" "copy" "./SAMEA1877207" "onedrive-em:africanum_analysis/snippy/SAMEA1877207" "-vv"]
+2019/05/30 17:38:12 INFO  : One drive root 'africanum_analysis/snippy/SAMEA1877207': Modify window is 1s
+2019/05/30 17:38:13 DEBUG : One drive root 'africanum_analysis/snippy/SAMEA1877207': Reading ""
+2019/05/30 17:38:13 DEBUG : One drive root 'africanum_analysis/snippy/SAMEA1877207': Finished reading ""
+2019/05/30 17:38:13 DEBUG : snps.bam: Starting multipart upload
+2019/05/30 17:38:13 INFO  : snps.bam.bai: Copied (new)
+2019/05/30 17:38:13 INFO  : snps.bed: Copied (new)
+2019/05/30 17:38:13 DEBUG : snps.bam: Uploading segment 0/397660962 size 10485760
+2019/05/30 17:38:14 DEBUG : snps.bam: Uploading segment 10485760/397660962 size 10485760
+2019/05/30 17:38:15 DEBUG : snps.bam: Uploading segment 20971520/397660962 size 10485760
+2019/05/30 17:38:15 INFO  : snps.consensus.fa: Copied (new)
+2019/05/30 17:38:15 INFO  : snps.aligned.fa: Copied (new)
+2019/05/30 17:38:15 DEBUG : snps.depth.gz: Starting multipart upload
+2019/05/30 17:38:15 DEBUG : snps.bam: Uploading segment 31457280/397660962 size 10485760
+2019/05/30 17:38:15 INFO  : snps.consensus.subs.fa: Copied (new)
+2019/05/30 17:38:15 DEBUG : snps.depth.gz: Uploading segment 0/15879415 size 10485760
+2019/05/30 17:38:16 INFO  : snps.csv: Copied (new)
+2019/05/30 17:38:16 DEBUG : snps.bam: Uploading segment 41943040/397660962 size 10485760
+2019/05/30 17:38:16 DEBUG : snps.depth.gz: Uploading segment 10485760/15879415 size 5393655
+2019/05/30 17:38:17 DEBUG : snps.bam: Uploading segment 52428800/397660962 size 10485760
+2019/05/30 17:38:17 INFO  : snps.depth.gz.tbi: Copied (new)
+2019/05/30 17:38:17 INFO  : snps.filt.subs.vcf: Copied (new)
+2019/05/30 17:38:17 DEBUG : snps.bam: Uploading segment 62914560/397660962 size 10485760
+2019/05/30 17:38:17 INFO  : snps.depth.gz: Copied (new)
+2019/05/30 17:38:17 INFO  : snps.filt.subs.vcf.gz: Copied (new)
+2019/05/30 17:38:18 INFO  : snps.filt.subs.vcf.gz.tbi: Copied (new)
+2019/05/30 17:38:18 DEBUG : snps.bam: Uploading segment 73400320/397660962 size 10485760
+2019/05/30 17:38:18 INFO  : snps.html: Copied (new)
+2019/05/30 17:38:18 INFO  : snps.filt.vcf: Copied (new)
+2019/05/30 17:38:19 INFO  : snps.gff: Copied (new)
+2019/05/30 17:38:19 DEBUG : snps.bam: Uploading segment 83886080/397660962 size 10485760
+2019/05/30 17:38:19 INFO  : snps.log: Copied (new)
+2019/05/30 17:38:19 DEBUG : snps.bam: Uploading segment 94371840/397660962 size 10485760
+2019/05/30 17:38:19 INFO  : snps.tab: Copied (new)
+2019/05/30 17:38:19 INFO  : snps.txt: Copied (new)
+2019/05/30 17:38:20 DEBUG : snps.bam: Uploading segment 104857600/397660962 size 10485760
+2019/05/30 17:38:20 INFO  : snps.vcf.gz: Copied (new)
+2019/05/30 17:38:20 INFO  : snps.raw.vcf: Copied (new)
+2019/05/30 17:38:20 DEBUG : snps.bam: Uploading segment 115343360/397660962 size 10485760
+2019/05/30 17:38:20 INFO  : snps.vcf.gz.tbi: Copied (new)
+2019/05/30 17:38:21 INFO  : snps.vcf: Copied (new)
+2019/05/30 17:38:22 INFO  : reference/ref.fa.amb: Copied (new)
+2019/05/30 17:38:22 INFO  : reference/ref.fa.ann: Copied (new)
+2019/05/30 17:38:22 DEBUG : snps.bam: Uploading segment 125829120/397660962 size 10485760
+2019/05/30 17:38:23 INFO  : reference/ref.fa.fai: Copied (new)
+2019/05/30 17:38:23 DEBUG : snps.bam: Uploading segment 136314880/397660962 size 10485760
+2019/05/30 17:38:23 DEBUG : snps.bam: Uploading segment 146800640/397660962 size 10485760
+2019/05/30 17:38:24 INFO  : reference/ref.fa: Copied (new)
+2019/05/30 17:38:24 INFO  : reference/ref.fa.pac: Copied (new)
+2019/05/30 17:38:24 INFO  : reference/ref.fa.bwt: Copied (new)
+2019/05/30 17:38:24 INFO  : One drive root 'africanum_analysis/snippy/SAMEA1877207': Waiting for checks to finish
+2019/05/30 17:38:24 INFO  : One drive root 'africanum_analysis/snippy/SAMEA1877207': Waiting for transfers to finish
+2019/05/30 17:38:24 DEBUG : snps.bam: Uploading segment 157286400/397660962 size 10485760
+2019/05/30 17:38:24 INFO  : reference/ref.txt: Copied (new)
+2019/05/30 17:38:25 INFO  : reference/ref.gff: Copied (new)
+2019/05/30 17:38:25 INFO  : reference/snpeff.config: Copied (new)
+2019/05/30 17:38:25 INFO  : reference/ref.fa.sa: Copied (new)
+2019/05/30 17:38:25 DEBUG : snps.bam: Uploading segment 167772160/397660962 size 10485760
+2019/05/30 17:38:26 DEBUG : snps.bam: Uploading segment 178257920/397660962 size 10485760
+2019/05/30 17:38:27 DEBUG : snps.bam: Uploading segment 188743680/397660962 size 10485760
+2019/05/30 17:38:27 INFO  : reference/ref/snpEffectPredictor.bin: Copied (new)
+2019/05/30 17:38:27 INFO  : reference/ref/genes.gff.gz: Copied (new)
+2019/05/30 17:38:27 DEBUG : snps.bam: Uploading segment 199229440/397660962 size 10485760
+2019/05/30 17:38:28 DEBUG : snps.bam: Uploading segment 209715200/397660962 size 10485760
+2019/05/30 17:38:28 INFO  : reference/genomes/ref.fa: Copied (new)
+2019/05/30 17:38:29 DEBUG : snps.bam: Uploading segment 220200960/397660962 size 10485760
+2019/05/30 17:38:29 DEBUG : snps.bam: Uploading segment 230686720/397660962 size 10485760
+2019/05/30 17:38:30 DEBUG : snps.bam: Uploading segment 241172480/397660962 size 10485760
+2019/05/30 17:38:31 DEBUG : snps.bam: Uploading segment 251658240/397660962 size 10485760
+2019/05/30 17:38:32 DEBUG : snps.bam: Uploading segment 262144000/397660962 size 10485760
+2019/05/30 17:38:32 DEBUG : snps.bam: Uploading segment 272629760/397660962 size 10485760
+2019/05/30 17:38:33 DEBUG : snps.bam: Uploading segment 283115520/397660962 size 10485760
+2019/05/30 17:38:34 DEBUG : snps.bam: Uploading segment 293601280/397660962 size 10485760
+2019/05/30 17:38:35 DEBUG : snps.bam: Uploading segment 304087040/397660962 size 10485760
+2019/05/30 17:38:35 DEBUG : snps.bam: Uploading segment 314572800/397660962 size 10485760
+2019/05/30 17:38:36 DEBUG : snps.bam: Uploading segment 325058560/397660962 size 10485760
+2019/05/30 17:38:36 DEBUG : snps.bam: Uploading segment 335544320/397660962 size 10485760
+2019/05/30 17:38:37 DEBUG : snps.bam: Uploading segment 346030080/397660962 size 10485760
+2019/05/30 17:38:38 DEBUG : snps.bam: Uploading segment 356515840/397660962 size 10485760
+2019/05/30 17:38:38 DEBUG : snps.bam: Uploading segment 367001600/397660962 size 10485760
+2019/05/30 17:38:39 DEBUG : snps.bam: Uploading segment 377487360/397660962 size 10485760
+2019/05/30 17:38:40 DEBUG : snps.bam: Uploading segment 387973120/397660962 size 9687842
+2019/05/30 17:38:41 INFO  : snps.bam: Copied (new)
+2019/05/30 17:38:41 INFO  : 
+Transferred:   435.756 MBytes (14.425 MBytes/s)
+Errors:                 0
+Checks:                 0
+Transferred:           35
+Elapsed time:       30.2s
+2019/05/30 17:38:41 DEBUG : Go routines at exit 15
+2019/05/30 17:38:41 DEBUG : rclone: Version "v1.36" finishing with parameters ["rclone" "copy" "./SAMEA1877207" "onedrive-em:africanum_analysis/snippy/SAMEA1877207" "-vv"]
+2019/05/30 17:38:41 DEBUG : rclone: Version "v1.36" starting with parameters ["rclone" "copy" "./SAMEA1877219_L2" "onedrive-em:africanum_analysis/snippy/SAMEA1877219_L2" "-vv"]
+2019/05/30 17:38:42 INFO  : One drive root 'africanum_analysis/snippy/SAMEA1877219_L2': Modify window is 1s
+2019/05/30 17:38:42 DEBUG : One drive root 'africanum_analysis/snippy/SAMEA1877219_L2': Reading ""
+2019/05/30 17:38:42 DEBUG : One drive root 'africanum_analysis/snippy/SAMEA1877219_L2': Finished reading ""
+2019/05/30 17:38:42 DEBUG : snps.bam: Starting multipart upload
+2019/05/30 17:38:43 DEBUG : snps.bam: Uploading segment 0/626085726 size 10485760
+2019/05/30 17:38:43 INFO  : snps.bed: Copied (new)
+2019/05/30 17:38:44 INFO  : snps.bam.bai: Copied (new)
+2019/05/30 17:38:44 DEBUG : snps.bam: Uploading segment 10485760/626085726 size 10485760
+2019/05/30 17:38:44 INFO  : snps.aligned.fa: Copied (new)
+2019/05/30 17:38:45 INFO  : snps.consensus.fa: Copied (new)
+2019/05/30 17:38:45 DEBUG : snps.depth.gz: Starting multipart upload
+2019/05/30 17:38:45 INFO  : snps.csv: Copied (new)
+2019/05/30 17:38:45 DEBUG : snps.depth.gz: Uploading segment 0/16391415 size 10485760
+2019/05/30 17:38:45 INFO  : snps.consensus.subs.fa: Copied (new)
+2019/05/30 17:38:45 INFO  : snps.depth.gz.tbi: Copied (new)
+2019/05/30 17:38:46 DEBUG : snps.bam: Uploading segment 20971520/626085726 size 10485760
+2019/05/30 17:38:46 DEBUG : snps.depth.gz: Uploading segment 10485760/16391415 size 5905655
+2019/05/30 17:38:46 INFO  : snps.filt.subs.vcf.gz: Copied (new)
+2019/05/30 17:38:46 INFO  : snps.filt.subs.vcf: Copied (new)
+2019/05/30 17:38:46 INFO  : snps.filt.subs.vcf.gz.tbi: Copied (new)
+2019/05/30 17:38:46 DEBUG : snps.bam: Uploading segment 31457280/626085726 size 10485760
+2019/05/30 17:38:47 INFO  : snps.depth.gz: Copied (new)
+2019/05/30 17:38:47 INFO  : snps.filt.vcf: Copied (new)
+2019/05/30 17:38:47 DEBUG : snps.bam: Uploading segment 41943040/626085726 size 10485760
+2019/05/30 17:38:47 INFO  : snps.gff: Copied (new)
+2019/05/30 17:38:48 INFO  : snps.log: Copied (new)
+2019/05/30 17:38:48 INFO  : snps.html: Copied (new)
+2019/05/30 17:38:48 INFO  : snps.txt: Copied (new)
+2019/05/30 17:38:48 INFO  : snps.raw.vcf: Copied (new)
+2019/05/30 17:38:49 INFO  : snps.tab: Copied (new)
+2019/05/30 17:38:49 DEBUG : snps.bam: Uploading segment 52428800/626085726 size 10485760
+2019/05/30 17:38:49 INFO  : snps.vcf.gz: Copied (new)
+2019/05/30 17:38:49 DEBUG : snps.bam: Uploading segment 62914560/626085726 size 10485760
+2019/05/30 17:38:49 INFO  : snps.vcf.gz.tbi: Copied (new)
+2019/05/30 17:38:49 INFO  : snps.vcf: Copied (new)
+2019/05/30 17:38:50 INFO  : reference/ref.fa.amb: Copied (new)
+2019/05/30 17:38:51 DEBUG : snps.bam: Uploading segment 73400320/626085726 size 10485760
+2019/05/30 17:38:51 INFO  : reference/ref.fa.ann: Copied (new)
+2019/05/30 17:38:51 INFO  : reference/ref.fa: Copied (new)
+2019/05/30 17:38:51 DEBUG : snps.bam: Uploading segment 83886080/626085726 size 10485760
+2019/05/30 17:38:51 INFO  : reference/ref.fa.fai: Copied (new)
+2019/05/30 17:38:52 DEBUG : snps.bam: Uploading segment 94371840/626085726 size 10485760
+2019/05/30 17:38:52 INFO  : reference/ref.fa.bwt: Copied (new)
+2019/05/30 17:38:52 INFO  : reference/ref.fa.pac: Copied (new)
+2019/05/30 17:38:52 INFO  : One drive root 'africanum_analysis/snippy/SAMEA1877219_L2': Waiting for checks to finish
+2019/05/30 17:38:52 INFO  : One drive root 'africanum_analysis/snippy/SAMEA1877219_L2': Waiting for transfers to finish
+2019/05/30 17:38:52 DEBUG : snps.bam: Uploading segment 104857600/626085726 size 10485760
+2019/05/30 17:38:53 INFO  : reference/ref.fa.sa: Copied (new)
+2019/05/30 17:38:53 INFO  : reference/ref.txt: Copied (new)
+2019/05/30 17:38:53 DEBUG : snps.bam: Uploading segment 115343360/626085726 size 10485760
+2019/05/30 17:38:54 INFO  : reference/snpeff.config: Copied (new)
+2019/05/30 17:38:54 DEBUG : snps.bam: Uploading segment 125829120/626085726 size 10485760
+2019/05/30 17:38:54 INFO  : reference/ref/genes.gff.gz: Copied (new)
+2019/05/30 17:38:54 INFO  : reference/ref.gff: Copied (new)
+2019/05/30 17:38:55 DEBUG : snps.bam: Uploading segment 136314880/626085726 size 10485760
+2019/05/30 17:38:55 INFO  : reference/ref/snpEffectPredictor.bin: Copied (new)
+2019/05/30 17:38:56 DEBUG : snps.bam: Uploading segment 146800640/626085726 size 10485760
+2019/05/30 17:38:56 INFO  : reference/genomes/ref.fa: Copied (new)
+2019/05/30 17:38:56 DEBUG : snps.bam: Uploading segment 157286400/626085726 size 10485760
+2019/05/30 17:38:57 DEBUG : snps.bam: Uploading segment 167772160/626085726 size 10485760
+2019/05/30 17:38:57 DEBUG : snps.bam: Uploading segment 178257920/626085726 size 10485760
+2019/05/30 17:38:58 DEBUG : snps.bam: Uploading segment 188743680/626085726 size 10485760
+2019/05/30 17:38:59 DEBUG : snps.bam: Uploading segment 199229440/626085726 size 10485760
+2019/05/30 17:38:59 DEBUG : snps.bam: Uploading segment 209715200/626085726 size 10485760
+2019/05/30 17:39:00 DEBUG : snps.bam: Uploading segment 220200960/626085726 size 10485760
+2019/05/30 17:39:00 DEBUG : snps.bam: Uploading segment 230686720/626085726 size 10485760
+2019/05/30 17:39:01 DEBUG : snps.bam: Uploading segment 241172480/626085726 size 10485760
+2019/05/30 17:39:02 DEBUG : snps.bam: Uploading segment 251658240/626085726 size 10485760
+2019/05/30 17:39:02 DEBUG : snps.bam: Uploading segment 262144000/626085726 size 10485760
+2019/05/30 17:39:03 DEBUG : snps.bam: Uploading segment 272629760/626085726 size 10485760
+2019/05/30 17:39:04 DEBUG : snps.bam: Uploading segment 283115520/626085726 size 10485760
+2019/05/30 17:39:05 DEBUG : snps.bam: Uploading segment 293601280/626085726 size 10485760
+2019/05/30 17:39:06 DEBUG : snps.bam: Uploading segment 304087040/626085726 size 10485760
+2019/05/30 17:39:06 DEBUG : snps.bam: Uploading segment 314572800/626085726 size 10485760
+2019/05/30 17:39:07 DEBUG : snps.bam: Uploading segment 325058560/626085726 size 10485760
+2019/05/30 17:39:07 DEBUG : snps.bam: Uploading segment 335544320/626085726 size 10485760
+2019/05/30 17:39:08 DEBUG : snps.bam: Uploading segment 346030080/626085726 size 10485760
+2019/05/30 17:39:09 DEBUG : snps.bam: Uploading segment 356515840/626085726 size 10485760
+2019/05/30 17:39:09 DEBUG : snps.bam: Uploading segment 367001600/626085726 size 10485760
+2019/05/30 17:39:10 DEBUG : snps.bam: Uploading segment 377487360/626085726 size 10485760
+2019/05/30 17:39:10 DEBUG : snps.bam: Uploading segment 387973120/626085726 size 10485760
+2019/05/30 17:39:11 DEBUG : snps.bam: Uploading segment 398458880/626085726 size 10485760
+2019/05/30 17:39:12 DEBUG : snps.bam: Uploading segment 408944640/626085726 size 10485760
+2019/05/30 17:39:12 DEBUG : snps.bam: Uploading segment 419430400/626085726 size 10485760
+2019/05/30 17:39:13 DEBUG : snps.bam: Uploading segment 429916160/626085726 size 10485760
+2019/05/30 17:39:14 DEBUG : snps.bam: Uploading segment 440401920/626085726 size 10485760
+2019/05/30 17:39:14 DEBUG : snps.bam: Uploading segment 450887680/626085726 size 10485760
+2019/05/30 17:39:15 DEBUG : snps.bam: Uploading segment 461373440/626085726 size 10485760
+2019/05/30 17:39:15 DEBUG : snps.bam: Uploading segment 471859200/626085726 size 10485760
+2019/05/30 17:39:16 DEBUG : snps.bam: Uploading segment 482344960/626085726 size 10485760
+2019/05/30 17:39:17 DEBUG : snps.bam: Uploading segment 492830720/626085726 size 10485760
+2019/05/30 17:39:18 DEBUG : snps.bam: Uploading segment 503316480/626085726 size 10485760
+2019/05/30 17:39:18 DEBUG : snps.bam: Uploading segment 513802240/626085726 size 10485760
+2019/05/30 17:39:19 DEBUG : snps.bam: Uploading segment 524288000/626085726 size 10485760
+2019/05/30 17:39:20 DEBUG : snps.bam: Uploading segment 534773760/626085726 size 10485760
+2019/05/30 17:39:20 DEBUG : snps.bam: Uploading segment 545259520/626085726 size 10485760
+2019/05/30 17:39:21 DEBUG : snps.bam: Uploading segment 555745280/626085726 size 10485760
+2019/05/30 17:39:22 DEBUG : snps.bam: Uploading segment 566231040/626085726 size 10485760
+2019/05/30 17:39:23 DEBUG : snps.bam: Uploading segment 576716800/626085726 size 10485760
+2019/05/30 17:39:23 DEBUG : snps.bam: Uploading segment 587202560/626085726 size 10485760
+2019/05/30 17:39:25 DEBUG : snps.bam: Uploading segment 597688320/626085726 size 10485760
+2019/05/30 17:39:25 DEBUG : snps.bam: Uploading segment 608174080/626085726 size 10485760
+2019/05/30 17:39:26 DEBUG : snps.bam: Uploading segment 618659840/626085726 size 7425886
+2019/05/30 17:39:27 INFO  : snps.bam: Copied (new)
+2019/05/30 17:39:27 INFO  : 
+Transferred:   652.536 MBytes (14.145 MBytes/s)
+Errors:                 0
+Checks:                 0
+Transferred:           35
+Elapsed time:       46.1s
+2019/05/30 17:39:27 DEBUG : Go routines at exit 15
+2019/05/30 17:39:27 DEBUG : rclone: Version "v1.36" finishing with parameters ["rclone" "copy" "./SAMEA1877219_L2" "onedrive-em:africanum_analysis/snippy/SAMEA1877219_L2" "-vv"]
+2019/05/30 17:39:27 DEBUG : rclone: Version "v1.36" starting with parameters ["rclone" "copy" "./SAMEA1877227" "onedrive-em:africanum_analysis/snippy/SAMEA1877227" "-vv"]
+2019/05/30 17:39:28 INFO  : One drive root 'africanum_analysis/snippy/SAMEA1877227': Modify window is 1s
+2019/05/30 17:39:29 DEBUG : One drive root 'africanum_analysis/snippy/SAMEA1877227': Reading ""
+2019/05/30 17:39:29 DEBUG : One drive root 'africanum_analysis/snippy/SAMEA1877227': Finished reading ""
+2019/05/30 17:39:29 DEBUG : snps.bam: Starting multipart upload
+2019/05/30 17:39:29 DEBUG : snps.bam: Uploading segment 0/569185170 size 10485760
+2019/05/30 17:39:30 INFO  : snps.bam.bai: Copied (new)
+2019/05/30 17:39:30 INFO  : snps.bed: Copied (new)
+2019/05/30 17:39:31 INFO  : snps.consensus.fa: Copied (new)
+2019/05/30 17:39:31 INFO  : snps.aligned.fa: Copied (new)
+2019/05/30 17:39:31 DEBUG : snps.depth.gz: Starting multipart upload
+2019/05/30 17:39:31 DEBUG : snps.bam: Uploading segment 10485760/569185170 size 10485760
+2019/05/30 17:39:32 DEBUG : snps.depth.gz: Uploading segment 0/16508516 size 10485760
+2019/05/30 17:39:32 INFO  : snps.consensus.subs.fa: Copied (new)
+2019/05/30 17:39:32 DEBUG : snps.depth.gz: Uploading segment 10485760/16508516 size 6022756
+2019/05/30 17:39:32 DEBUG : snps.bam: Uploading segment 20971520/569185170 size 10485760
+2019/05/30 17:39:33 INFO  : snps.csv: Copied (new)
+2019/05/30 17:39:34 INFO  : snps.depth.gz: Copied (new)
+2019/05/30 17:39:34 DEBUG : snps.bam: Uploading segment 31457280/569185170 size 10485760
+2019/05/30 17:39:34 INFO  : snps.filt.subs.vcf: Copied (new)
+2019/05/30 17:39:34 INFO  : snps.depth.gz.tbi: Copied (new)
+2019/05/30 17:39:34 INFO  : snps.filt.subs.vcf.gz: Copied (new)
+2019/05/30 17:39:34 DEBUG : snps.bam: Uploading segment 41943040/569185170 size 10485760
+2019/05/30 17:39:35 INFO  : snps.filt.subs.vcf.gz.tbi: Copied (new)
+2019/05/30 17:39:35 INFO  : snps.gff: Copied (new)
+2019/05/30 17:39:35 INFO  : snps.filt.vcf: Copied (new)
+2019/05/30 17:39:36 DEBUG : snps.bam: Uploading segment 52428800/569185170 size 10485760
+2019/05/30 17:39:36 INFO  : snps.log: Copied (new)
+2019/05/30 17:39:36 INFO  : snps.html: Copied (new)
+2019/05/30 17:39:36 INFO  : snps.raw.vcf: Copied (new)
+2019/05/30 17:39:37 INFO  : snps.tab: Copied (new)
+2019/05/30 17:39:37 DEBUG : snps.bam: Uploading segment 62914560/569185170 size 10485760
+2019/05/30 17:39:37 INFO  : snps.txt: Copied (new)
+2019/05/30 17:39:37 DEBUG : snps.bam: Uploading segment 73400320/569185170 size 10485760
+2019/05/30 17:39:38 INFO  : snps.vcf.gz.tbi: Copied (new)
+2019/05/30 17:39:38 INFO  : snps.vcf.gz: Copied (new)
+2019/05/30 17:39:38 INFO  : snps.vcf: Copied (new)
+2019/05/30 17:39:39 DEBUG : snps.bam: Uploading segment 83886080/569185170 size 10485760
+2019/05/30 17:39:39 INFO  : reference/ref.fa.amb: Copied (new)
+2019/05/30 17:39:39 INFO  : reference/ref.fa.ann: Copied (new)
+2019/05/30 17:39:39 INFO  : reference/ref.fa.fai: Copied (new)
+2019/05/30 17:39:40 DEBUG : snps.bam: Uploading segment 94371840/569185170 size 10485760
+2019/05/30 17:39:40 INFO  : reference/ref.fa: Copied (new)
+2019/05/30 17:39:40 DEBUG : snps.bam: Uploading segment 104857600/569185170 size 10485760
+2019/05/30 17:39:41 INFO  : reference/ref.fa.pac: Copied (new)
+2019/05/30 17:39:41 DEBUG : snps.bam: Uploading segment 115343360/569185170 size 10485760
+2019/05/30 17:39:41 INFO  : reference/ref.fa.sa: Copied (new)
+2019/05/30 17:39:41 INFO  : One drive root 'africanum_analysis/snippy/SAMEA1877227': Waiting for checks to finish
+2019/05/30 17:39:41 INFO  : One drive root 'africanum_analysis/snippy/SAMEA1877227': Waiting for transfers to finish
+2019/05/30 17:39:42 DEBUG : snps.bam: Uploading segment 125829120/569185170 size 10485760
+2019/05/30 17:39:42 INFO  : reference/ref.fa.bwt: Copied (new)
+2019/05/30 17:39:42 INFO  : reference/ref.txt: Copied (new)
+2019/05/30 17:39:42 INFO  : reference/snpeff.config: Copied (new)
+2019/05/30 17:39:42 DEBUG : snps.bam: Uploading segment 136314880/569185170 size 10485760
+2019/05/30 17:39:43 INFO  : reference/ref.gff: Copied (new)
+2019/05/30 17:39:44 DEBUG : snps.bam: Uploading segment 146800640/569185170 size 10485760
+2019/05/30 17:39:44 INFO  : reference/genomes/ref.fa: Copied (new)
+2019/05/30 17:39:44 INFO  : reference/ref/genes.gff.gz: Copied (new)
+2019/05/30 17:39:45 INFO  : reference/ref/snpEffectPredictor.bin: Copied (new)
+2019/05/30 17:39:45 DEBUG : snps.bam: Uploading segment 157286400/569185170 size 10485760
+2019/05/30 17:39:46 DEBUG : snps.bam: Uploading segment 167772160/569185170 size 10485760
+2019/05/30 17:39:47 DEBUG : snps.bam: Uploading segment 178257920/569185170 size 10485760
+2019/05/30 17:39:48 DEBUG : snps.bam: Uploading segment 188743680/569185170 size 10485760
+2019/05/30 17:39:49 DEBUG : snps.bam: Uploading segment 199229440/569185170 size 10485760
+2019/05/30 17:39:50 DEBUG : snps.bam: Uploading segment 209715200/569185170 size 10485760
+2019/05/30 17:39:51 DEBUG : snps.bam: Uploading segment 220200960/569185170 size 10485760
+2019/05/30 17:39:51 DEBUG : snps.bam: Uploading segment 230686720/569185170 size 10485760
+2019/05/30 17:39:53 DEBUG : snps.bam: Uploading segment 241172480/569185170 size 10485760
+2019/05/30 17:39:53 DEBUG : snps.bam: Uploading segment 251658240/569185170 size 10485760
+2019/05/30 17:39:54 DEBUG : snps.bam: Uploading segment 262144000/569185170 size 10485760
+2019/05/30 17:39:54 DEBUG : snps.bam: Uploading segment 272629760/569185170 size 10485760
+2019/05/30 17:39:55 DEBUG : snps.bam: Uploading segment 283115520/569185170 size 10485760
+2019/05/30 17:39:56 DEBUG : snps.bam: Uploading segment 293601280/569185170 size 10485760
+2019/05/30 17:39:56 DEBUG : snps.bam: Uploading segment 304087040/569185170 size 10485760
+2019/05/30 17:39:58 DEBUG : snps.bam: Uploading segment 314572800/569185170 size 10485760
+2019/05/30 17:40:00 DEBUG : snps.bam: Uploading segment 325058560/569185170 size 10485760
+2019/05/30 17:40:01 DEBUG : snps.bam: Uploading segment 335544320/569185170 size 10485760
+2019/05/30 17:40:02 DEBUG : snps.bam: Uploading segment 346030080/569185170 size 10485760
+2019/05/30 17:40:03 DEBUG : snps.bam: Uploading segment 356515840/569185170 size 10485760
+2019/05/30 17:40:04 DEBUG : snps.bam: Uploading segment 367001600/569185170 size 10485760
+2019/05/30 17:40:05 DEBUG : snps.bam: Uploading segment 377487360/569185170 size 10485760
+2019/05/30 17:40:07 DEBUG : snps.bam: Uploading segment 387973120/569185170 size 10485760
+2019/05/30 17:40:07 DEBUG : snps.bam: Uploading segment 398458880/569185170 size 10485760
+2019/05/30 17:40:09 DEBUG : snps.bam: Uploading segment 408944640/569185170 size 10485760
+2019/05/30 17:40:10 DEBUG : snps.bam: Uploading segment 419430400/569185170 size 10485760
+2019/05/30 17:40:11 DEBUG : snps.bam: Uploading segment 429916160/569185170 size 10485760
+2019/05/30 17:40:11 DEBUG : snps.bam: Uploading segment 440401920/569185170 size 10485760
+2019/05/30 17:40:12 DEBUG : snps.bam: Uploading segment 450887680/569185170 size 10485760
+2019/05/30 17:40:12 DEBUG : snps.bam: Uploading segment 461373440/569185170 size 10485760
+2019/05/30 17:40:14 DEBUG : snps.bam: Uploading segment 471859200/569185170 size 10485760
+2019/05/30 17:40:15 DEBUG : snps.bam: Uploading segment 482344960/569185170 size 10485760
+2019/05/30 17:40:16 DEBUG : snps.bam: Uploading segment 492830720/569185170 size 10485760
+2019/05/30 17:40:16 DEBUG : snps.bam: Uploading segment 503316480/569185170 size 10485760
+2019/05/30 17:40:17 DEBUG : snps.bam: Uploading segment 513802240/569185170 size 10485760
+2019/05/30 17:40:18 DEBUG : snps.bam: Uploading segment 524288000/569185170 size 10485760
+2019/05/30 17:40:18 DEBUG : snps.bam: Uploading segment 534773760/569185170 size 10485760
+2019/05/30 17:40:19 DEBUG : snps.bam: Uploading segment 545259520/569185170 size 10485760
+2019/05/30 17:40:20 DEBUG : snps.bam: Uploading segment 555745280/569185170 size 10485760
+2019/05/30 17:40:21 DEBUG : snps.bam: Uploading segment 566231040/569185170 size 2954130
+2019/05/30 17:40:22 INFO  : snps.bam: Copied (new)
+2019/05/30 17:40:22 INFO  : 
+Transferred:   600.105 MBytes (10.957 MBytes/s)
+Errors:                 0
+Checks:                 0
+Transferred:           35
+Elapsed time:       54.7s
+2019/05/30 17:40:22 DEBUG : Go routines at exit 13
+2019/05/30 17:40:22 DEBUG : rclone: Version "v1.36" finishing with parameters ["rclone" "copy" "./SAMEA1877227" "onedrive-em:africanum_analysis/snippy/SAMEA1877227" "-vv"]
+2019/05/30 17:40:22 DEBUG : rclone: Version "v1.36" starting with parameters ["rclone" "copy" "./SAMEA1877229" "onedrive-em:africanum_analysis/snippy/SAMEA1877229" "-vv"]
+2019/05/30 17:40:23 INFO  : One drive root 'africanum_analysis/snippy/SAMEA1877229': Modify window is 1s
+2019/05/30 17:40:24 DEBUG : One drive root 'africanum_analysis/snippy/SAMEA1877229': Reading ""
+2019/05/30 17:40:24 DEBUG : One drive root 'africanum_analysis/snippy/SAMEA1877229': Finished reading ""
+2019/05/30 17:40:24 DEBUG : snps.bam: Starting multipart upload
+2019/05/30 17:40:24 DEBUG : snps.bam: Uploading segment 0/543218266 size 10485760
+2019/05/30 17:40:24 INFO  : snps.bam.bai: Copied (new)
+2019/05/30 17:40:25 DEBUG : snps.bam: Uploading segment 10485760/543218266 size 10485760
+2019/05/30 17:40:25 INFO  : snps.bed: Copied (new)
+2019/05/30 17:40:26 DEBUG : snps.bam: Uploading segment 20971520/543218266 size 10485760
+2019/05/30 17:40:26 INFO  : snps.aligned.fa: Copied (new)
+2019/05/30 17:40:26 INFO  : snps.consensus.fa: Copied (new)
+2019/05/30 17:40:26 DEBUG : snps.depth.gz: Starting multipart upload
+2019/05/30 17:40:26 DEBUG : snps.depth.gz: Uploading segment 0/16305049 size 10485760
+2019/05/30 17:40:27 INFO  : snps.csv: Copied (new)
+2019/05/30 17:40:27 DEBUG : snps.bam: Uploading segment 31457280/543218266 size 10485760
+2019/05/30 17:40:27 DEBUG : snps.depth.gz: Uploading segment 10485760/16305049 size 5819289
+2019/05/30 17:40:27 INFO  : snps.depth.gz.tbi: Copied (new)
+2019/05/30 17:40:27 DEBUG : snps.bam: Uploading segment 41943040/543218266 size 10485760
+2019/05/30 17:40:28 INFO  : snps.depth.gz: Copied (new)
+2019/05/30 17:40:28 INFO  : snps.consensus.subs.fa: Copied (new)
+2019/05/30 17:40:28 DEBUG : snps.bam: Uploading segment 52428800/543218266 size 10485760
+2019/05/30 17:40:28 INFO  : snps.filt.subs.vcf.gz.tbi: Copied (new)
+2019/05/30 17:40:28 INFO  : snps.filt.subs.vcf.gz: Copied (new)
+2019/05/30 17:40:29 INFO  : snps.filt.subs.vcf: Copied (new)
+2019/05/30 17:40:29 INFO  : snps.filt.vcf: Copied (new)
+2019/05/30 17:40:29 DEBUG : snps.bam: Uploading segment 62914560/543218266 size 10485760
+2019/05/30 17:40:29 INFO  : snps.gff: Copied (new)
+2019/05/30 17:40:30 INFO  : snps.log: Copied (new)
+2019/05/30 17:40:30 INFO  : snps.html: Copied (new)
+2019/05/30 17:40:30 DEBUG : snps.bam: Uploading segment 73400320/543218266 size 10485760
+2019/05/30 17:40:30 INFO  : snps.txt: Copied (new)
+2019/05/30 17:40:30 INFO  : snps.raw.vcf: Copied (new)
+2019/05/30 17:40:30 DEBUG : snps.bam: Uploading segment 83886080/543218266 size 10485760
+2019/05/30 17:40:31 INFO  : snps.tab: Copied (new)
+2019/05/30 17:40:31 INFO  : snps.vcf.gz: Copied (new)
+2019/05/30 17:40:31 DEBUG : snps.bam: Uploading segment 94371840/543218266 size 10485760
+2019/05/30 17:40:31 INFO  : snps.vcf.gz.tbi: Copied (new)
+2019/05/30 17:40:31 INFO  : snps.vcf: Copied (new)
+2019/05/30 17:40:32 INFO  : reference/ref.fa.amb: Copied (new)
+2019/05/30 17:40:32 INFO  : reference/ref.fa.ann: Copied (new)
+2019/05/30 17:40:32 DEBUG : snps.bam: Uploading segment 104857600/543218266 size 10485760
+2019/05/30 17:40:32 INFO  : reference/ref.fa.fai: Copied (new)
+2019/05/30 17:40:33 DEBUG : snps.bam: Uploading segment 115343360/543218266 size 10485760
+2019/05/30 17:40:33 INFO  : reference/ref.fa: Copied (new)
+2019/05/30 17:40:33 DEBUG : snps.bam: Uploading segment 125829120/543218266 size 10485760
+2019/05/30 17:40:34 INFO  : reference/ref.fa.bwt: Copied (new)
+2019/05/30 17:40:34 DEBUG : snps.bam: Uploading segment 136314880/543218266 size 10485760
+2019/05/30 17:40:34 INFO  : reference/ref.fa.pac: Copied (new)
+2019/05/30 17:40:34 INFO  : One drive root 'africanum_analysis/snippy/SAMEA1877229': Waiting for checks to finish
+2019/05/30 17:40:34 INFO  : One drive root 'africanum_analysis/snippy/SAMEA1877229': Waiting for transfers to finish
+2019/05/30 17:40:35 INFO  : reference/ref.fa.sa: Copied (new)
+2019/05/30 17:40:35 INFO  : reference/ref.txt: Copied (new)
+2019/05/30 17:40:35 DEBUG : snps.bam: Uploading segment 146800640/543218266 size 10485760
+2019/05/30 17:40:35 INFO  : reference/snpeff.config: Copied (new)
+2019/05/30 17:40:35 DEBUG : snps.bam: Uploading segment 157286400/543218266 size 10485760
+2019/05/30 17:40:36 INFO  : reference/ref.gff: Copied (new)
+2019/05/30 17:40:36 DEBUG : snps.bam: Uploading segment 167772160/543218266 size 10485760
+2019/05/30 17:40:36 DEBUG : snps.bam: Uploading segment 178257920/543218266 size 10485760
+2019/05/30 17:40:37 INFO  : reference/ref/genes.gff.gz: Copied (new)
+2019/05/30 17:40:37 INFO  : reference/ref/snpEffectPredictor.bin: Copied (new)
+2019/05/30 17:40:37 DEBUG : snps.bam: Uploading segment 188743680/543218266 size 10485760
+2019/05/30 17:40:37 INFO  : reference/genomes/ref.fa: Copied (new)
+2019/05/30 17:40:38 DEBUG : snps.bam: Uploading segment 199229440/543218266 size 10485760
+2019/05/30 17:40:39 DEBUG : snps.bam: Uploading segment 209715200/543218266 size 10485760
+2019/05/30 17:40:40 DEBUG : snps.bam: Uploading segment 220200960/543218266 size 10485760
+2019/05/30 17:40:40 DEBUG : snps.bam: Uploading segment 230686720/543218266 size 10485760
+2019/05/30 17:40:41 DEBUG : snps.bam: Uploading segment 241172480/543218266 size 10485760
+2019/05/30 17:40:42 DEBUG : snps.bam: Uploading segment 251658240/543218266 size 10485760
+2019/05/30 17:40:42 DEBUG : snps.bam: Uploading segment 262144000/543218266 size 10485760
+2019/05/30 17:40:44 DEBUG : snps.bam: Uploading segment 272629760/543218266 size 10485760
+2019/05/30 17:40:45 DEBUG : snps.bam: Uploading segment 283115520/543218266 size 10485760
+2019/05/30 17:40:45 DEBUG : snps.bam: Uploading segment 293601280/543218266 size 10485760
+2019/05/30 17:40:46 DEBUG : snps.bam: Uploading segment 304087040/543218266 size 10485760
+2019/05/30 17:40:46 DEBUG : snps.bam: Uploading segment 314572800/543218266 size 10485760
+2019/05/30 17:40:47 DEBUG : snps.bam: Uploading segment 325058560/543218266 size 10485760
+2019/05/30 17:40:48 DEBUG : snps.bam: Uploading segment 335544320/543218266 size 10485760
+2019/05/30 17:40:49 DEBUG : snps.bam: Uploading segment 346030080/543218266 size 10485760
+2019/05/30 17:40:49 DEBUG : snps.bam: Uploading segment 356515840/543218266 size 10485760
+2019/05/30 17:40:50 DEBUG : snps.bam: Uploading segment 367001600/543218266 size 10485760
+2019/05/30 17:40:51 DEBUG : snps.bam: Uploading segment 377487360/543218266 size 10485760
+2019/05/30 17:40:51 DEBUG : snps.bam: Uploading segment 387973120/543218266 size 10485760
+2019/05/30 17:40:52 DEBUG : snps.bam: Uploading segment 398458880/543218266 size 10485760
+2019/05/30 17:40:52 DEBUG : snps.bam: Uploading segment 408944640/543218266 size 10485760
+2019/05/30 17:40:53 DEBUG : snps.bam: Uploading segment 419430400/543218266 size 10485760
+2019/05/30 17:40:54 DEBUG : snps.bam: Uploading segment 429916160/543218266 size 10485760
+2019/05/30 17:40:54 DEBUG : snps.bam: Uploading segment 440401920/543218266 size 10485760
+2019/05/30 17:40:55 DEBUG : snps.bam: Uploading segment 450887680/543218266 size 10485760
+2019/05/30 17:40:55 DEBUG : snps.bam: Uploading segment 461373440/543218266 size 10485760
+2019/05/30 17:40:56 DEBUG : snps.bam: Uploading segment 471859200/543218266 size 10485760
+2019/05/30 17:40:56 DEBUG : snps.bam: Uploading segment 482344960/543218266 size 10485760
+2019/05/30 17:40:57 DEBUG : snps.bam: Uploading segment 492830720/543218266 size 10485760
+2019/05/30 17:40:58 DEBUG : snps.bam: Uploading segment 503316480/543218266 size 10485760
+2019/05/30 17:40:58 DEBUG : snps.bam: Uploading segment 513802240/543218266 size 10485760
+2019/05/30 17:40:59 DEBUG : snps.bam: Uploading segment 524288000/543218266 size 10485760
+2019/05/30 17:40:59 DEBUG : snps.bam: Uploading segment 534773760/543218266 size 8444506
+2019/05/30 17:41:00 INFO  : snps.bam: Copied (new)
+2019/05/30 17:41:00 INFO  : 
+Transferred:   575.072 MBytes (14.961 MBytes/s)
+Errors:                 0
+Checks:                 0
+Transferred:           35
+Elapsed time:       38.4s
+2019/05/30 17:41:00 DEBUG : Go routines at exit 13
+2019/05/30 17:41:00 DEBUG : rclone: Version "v1.36" finishing with parameters ["rclone" "copy" "./SAMEA1877229" "onedrive-em:africanum_analysis/snippy/SAMEA1877229" "-vv"]
+2019/05/30 17:41:01 DEBUG : rclone: Version "v1.36" starting with parameters ["rclone" "copy" "./SAMEA1877233" "onedrive-em:africanum_analysis/snippy/SAMEA1877233" "-vv"]
+2019/05/30 17:41:02 INFO  : One drive root 'africanum_analysis/snippy/SAMEA1877233': Modify window is 1s
+2019/05/30 17:41:03 DEBUG : One drive root 'africanum_analysis/snippy/SAMEA1877233': Reading ""
+2019/05/30 17:41:03 DEBUG : One drive root 'africanum_analysis/snippy/SAMEA1877233': Finished reading ""
+2019/05/30 17:41:03 DEBUG : snps.bam: Starting multipart upload
+2019/05/30 17:41:03 DEBUG : snps.bam: Uploading segment 0/525896073 size 10485760
+2019/05/30 17:41:04 INFO  : snps.bam.bai: Copied (new)
+2019/05/30 17:41:04 DEBUG : snps.bam: Uploading segment 10485760/525896073 size 10485760
+2019/05/30 17:41:04 INFO  : snps.bed: Copied (new)
+2019/05/30 17:41:05 DEBUG : snps.bam: Uploading segment 20971520/525896073 size 10485760
+2019/05/30 17:41:05 INFO  : snps.consensus.fa: Copied (new)
+2019/05/30 17:41:06 INFO  : snps.aligned.fa: Copied (new)
+2019/05/30 17:41:06 DEBUG : snps.depth.gz: Starting multipart upload
+2019/05/30 17:41:06 DEBUG : snps.bam: Uploading segment 31457280/525896073 size 10485760
+2019/05/30 17:41:06 DEBUG : snps.depth.gz: Uploading segment 0/16080477 size 10485760
+2019/05/30 17:41:06 INFO  : snps.consensus.subs.fa: Copied (new)
+2019/05/30 17:41:06 INFO  : snps.csv: Copied (new)
+2019/05/30 17:41:06 DEBUG : snps.bam: Uploading segment 41943040/525896073 size 10485760
+2019/05/30 17:41:06 DEBUG : snps.depth.gz: Uploading segment 10485760/16080477 size 5594717
+2019/05/30 17:41:07 INFO  : snps.depth.gz.tbi: Copied (new)
+2019/05/30 17:41:07 INFO  : snps.filt.subs.vcf.gz: Copied (new)
+2019/05/30 17:41:08 INFO  : snps.filt.subs.vcf: Copied (new)
+2019/05/30 17:41:08 INFO  : snps.filt.subs.vcf.gz.tbi: Copied (new)
+2019/05/30 17:41:08 DEBUG : snps.bam: Uploading segment 52428800/525896073 size 10485760
+2019/05/30 17:41:08 INFO  : snps.depth.gz: Copied (new)
+2019/05/30 17:41:09 INFO  : snps.html: Copied (new)
+2019/05/30 17:41:09 INFO  : snps.filt.vcf: Copied (new)
+2019/05/30 17:41:09 DEBUG : snps.bam: Uploading segment 62914560/525896073 size 10485760
+2019/05/30 17:41:09 INFO  : snps.log: Copied (new)
+2019/05/30 17:41:10 INFO  : snps.gff: Copied (new)
+2019/05/30 17:41:10 DEBUG : snps.bam: Uploading segment 73400320/525896073 size 10485760
+2019/05/30 17:41:10 INFO  : snps.txt: Copied (new)
+2019/05/30 17:41:10 INFO  : snps.raw.vcf: Copied (new)
+2019/05/30 17:41:10 INFO  : snps.tab: Copied (new)
+2019/05/30 17:41:10 DEBUG : snps.bam: Uploading segment 83886080/525896073 size 10485760
+2019/05/30 17:41:11 INFO  : snps.vcf.gz.tbi: Copied (new)
+2019/05/30 17:41:11 INFO  : snps.vcf: Copied (new)
+2019/05/30 17:41:11 DEBUG : snps.bam: Uploading segment 94371840/525896073 size 10485760
+2019/05/30 17:41:11 INFO  : snps.vcf.gz: Copied (new)
+2019/05/30 17:41:12 DEBUG : snps.bam: Uploading segment 104857600/525896073 size 10485760
+2019/05/30 17:41:12 INFO  : reference/ref.fa.amb: Copied (new)
+2019/05/30 17:41:12 INFO  : reference/ref.fa.ann: Copied (new)
+2019/05/30 17:41:12 DEBUG : snps.bam: Uploading segment 115343360/525896073 size 10485760
+2019/05/30 17:41:12 INFO  : reference/ref.fa.fai: Copied (new)
+2019/05/30 17:41:13 DEBUG : snps.bam: Uploading segment 125829120/525896073 size 10485760
+2019/05/30 17:41:13 INFO  : reference/ref.fa: Copied (new)
+2019/05/30 17:41:14 DEBUG : snps.bam: Uploading segment 136314880/525896073 size 10485760
+2019/05/30 17:41:14 INFO  : reference/ref.fa.bwt: Copied (new)
+2019/05/30 17:41:14 DEBUG : snps.bam: Uploading segment 146800640/525896073 size 10485760
+2019/05/30 17:41:14 INFO  : reference/ref.fa.pac: Copied (new)
+2019/05/30 17:41:14 INFO  : One drive root 'africanum_analysis/snippy/SAMEA1877233': Waiting for checks to finish
+2019/05/30 17:41:14 INFO  : One drive root 'africanum_analysis/snippy/SAMEA1877233': Waiting for transfers to finish
+2019/05/30 17:41:14 INFO  : reference/ref.fa.sa: Copied (new)
+2019/05/30 17:41:15 INFO  : reference/ref.txt: Copied (new)
+2019/05/30 17:41:15 DEBUG : snps.bam: Uploading segment 157286400/525896073 size 10485760
+2019/05/30 17:41:15 INFO  : reference/snpeff.config: Copied (new)
+2019/05/30 17:41:15 DEBUG : snps.bam: Uploading segment 167772160/525896073 size 10485760
+2019/05/30 17:41:16 INFO  : reference/ref.gff: Copied (new)
+2019/05/30 17:41:16 DEBUG : snps.bam: Uploading segment 178257920/525896073 size 10485760
+2019/05/30 17:41:16 INFO  : reference/ref/genes.gff.gz: Copied (new)
+2019/05/30 17:41:17 DEBUG : snps.bam: Uploading segment 188743680/525896073 size 10485760
+2019/05/30 17:41:17 INFO  : reference/ref/snpEffectPredictor.bin: Copied (new)
+2019/05/30 17:41:17 DEBUG : snps.bam: Uploading segment 199229440/525896073 size 10485760
+2019/05/30 17:41:18 INFO  : reference/genomes/ref.fa: Copied (new)
+2019/05/30 17:41:18 DEBUG : snps.bam: Uploading segment 209715200/525896073 size 10485760
+2019/05/30 17:41:19 DEBUG : snps.bam: Uploading segment 220200960/525896073 size 10485760
+2019/05/30 17:41:19 DEBUG : snps.bam: Uploading segment 230686720/525896073 size 10485760
+2019/05/30 17:41:20 DEBUG : snps.bam: Uploading segment 241172480/525896073 size 10485760
+2019/05/30 17:41:21 DEBUG : snps.bam: Uploading segment 251658240/525896073 size 10485760
+2019/05/30 17:41:21 DEBUG : snps.bam: Uploading segment 262144000/525896073 size 10485760
+2019/05/30 17:41:22 DEBUG : snps.bam: Uploading segment 272629760/525896073 size 10485760
+2019/05/30 17:41:22 DEBUG : snps.bam: Uploading segment 283115520/525896073 size 10485760
+2019/05/30 17:41:23 DEBUG : snps.bam: Uploading segment 293601280/525896073 size 10485760
+2019/05/30 17:41:24 DEBUG : snps.bam: Uploading segment 304087040/525896073 size 10485760
+2019/05/30 17:41:24 DEBUG : snps.bam: Uploading segment 314572800/525896073 size 10485760
+2019/05/30 17:41:25 DEBUG : snps.bam: Uploading segment 325058560/525896073 size 10485760
+2019/05/30 17:41:25 DEBUG : snps.bam: Uploading segment 335544320/525896073 size 10485760
+2019/05/30 17:41:27 DEBUG : snps.bam: Uploading segment 346030080/525896073 size 10485760
+2019/05/30 17:41:27 DEBUG : snps.bam: Uploading segment 356515840/525896073 size 10485760
+2019/05/30 17:41:28 DEBUG : snps.bam: Uploading segment 367001600/525896073 size 10485760
+2019/05/30 17:41:28 DEBUG : snps.bam: Uploading segment 377487360/525896073 size 10485760
+2019/05/30 17:41:29 DEBUG : snps.bam: Uploading segment 387973120/525896073 size 10485760
+2019/05/30 17:41:29 DEBUG : snps.bam: Uploading segment 398458880/525896073 size 10485760
+2019/05/30 17:41:30 DEBUG : snps.bam: Uploading segment 408944640/525896073 size 10485760
+2019/05/30 17:41:31 DEBUG : snps.bam: Uploading segment 419430400/525896073 size 10485760
+2019/05/30 17:41:31 DEBUG : snps.bam: Uploading segment 429916160/525896073 size 10485760
+2019/05/30 17:41:32 DEBUG : snps.bam: Uploading segment 440401920/525896073 size 10485760
+2019/05/30 17:41:32 DEBUG : snps.bam: Uploading segment 450887680/525896073 size 10485760
+2019/05/30 17:41:33 DEBUG : snps.bam: Uploading segment 461373440/525896073 size 10485760
+2019/05/30 17:41:34 DEBUG : snps.bam: Uploading segment 471859200/525896073 size 10485760
+2019/05/30 17:41:34 DEBUG : snps.bam: Uploading segment 482344960/525896073 size 10485760
+2019/05/30 17:41:36 DEBUG : snps.bam: Uploading segment 492830720/525896073 size 10485760
+2019/05/30 17:41:36 DEBUG : snps.bam: Uploading segment 503316480/525896073 size 10485760
+2019/05/30 17:41:37 DEBUG : snps.bam: Uploading segment 513802240/525896073 size 10485760
+2019/05/30 17:41:38 DEBUG : snps.bam: Uploading segment 524288000/525896073 size 1608073
+2019/05/30 17:41:38 INFO  : snps.bam: Copied (new)
+2019/05/30 17:41:38 INFO  : 
+Transferred:   558.604 MBytes (14.837 MBytes/s)
+Errors:                 0
+Checks:                 0
+Transferred:           35
+Elapsed time:       37.6s
+2019/05/30 17:41:38 DEBUG : Go routines at exit 13
+2019/05/30 17:41:38 DEBUG : rclone: Version "v1.36" finishing with parameters ["rclone" "copy" "./SAMEA1877233" "onedrive-em:africanum_analysis/snippy/SAMEA1877233" "-vv"]
+2019/05/30 17:41:38 DEBUG : rclone: Version "v1.36" starting with parameters ["rclone" "copy" "./SAMEA1877237" "onedrive-em:africanum_analysis/snippy/SAMEA1877237" "-vv"]
+2019/05/30 17:41:40 INFO  : One drive root 'africanum_analysis/snippy/SAMEA1877237': Modify window is 1s
+2019/05/30 17:41:40 DEBUG : One drive root 'africanum_analysis/snippy/SAMEA1877237': Reading ""
+2019/05/30 17:41:40 DEBUG : One drive root 'africanum_analysis/snippy/SAMEA1877237': Finished reading ""
+2019/05/30 17:41:40 DEBUG : snps.bam: Starting multipart upload
+2019/05/30 17:41:41 DEBUG : snps.bam: Uploading segment 0/370675993 size 10485760
+2019/05/30 17:41:41 INFO  : snps.bam.bai: Copied (new)
+2019/05/30 17:41:41 INFO  : snps.bed: Copied (new)
+2019/05/30 17:41:41 DEBUG : snps.bam: Uploading segment 10485760/370675993 size 10485760
+2019/05/30 17:41:43 INFO  : snps.consensus.subs.fa: Copied (new)
+2019/05/30 17:41:43 INFO  : snps.aligned.fa: Copied (new)
+2019/05/30 17:41:43 DEBUG : snps.depth.gz: Starting multipart upload
+2019/05/30 17:41:43 DEBUG : snps.depth.gz: Uploading segment 0/15980616 size 10485760
+2019/05/30 17:41:43 INFO  : snps.consensus.fa: Copied (new)
+2019/05/30 17:41:43 DEBUG : snps.bam: Uploading segment 20971520/370675993 size 10485760
+2019/05/30 17:41:43 INFO  : snps.csv: Copied (new)
+2019/05/30 17:41:44 INFO  : snps.depth.gz.tbi: Copied (new)
+2019/05/30 17:41:44 DEBUG : snps.depth.gz: Uploading segment 10485760/15980616 size 5494856
+2019/05/30 17:41:44 INFO  : snps.filt.subs.vcf.gz: Copied (new)
+2019/05/30 17:41:44 DEBUG : snps.bam: Uploading segment 31457280/370675993 size 10485760
+2019/05/30 17:41:45 INFO  : snps.filt.subs.vcf: Copied (new)
+2019/05/30 17:41:45 INFO  : snps.filt.subs.vcf.gz.tbi: Copied (new)
+2019/05/30 17:41:45 DEBUG : snps.bam: Uploading segment 41943040/370675993 size 10485760
+2019/05/30 17:41:46 INFO  : snps.gff: Copied (new)
+2019/05/30 17:41:46 INFO  : snps.filt.vcf: Copied (new)
+2019/05/30 17:41:46 DEBUG : snps.bam: Uploading segment 52428800/370675993 size 10485760
+2019/05/30 17:41:46 INFO  : snps.depth.gz: Copied (new)
+2019/05/30 17:41:46 INFO  : snps.log: Copied (new)
+2019/05/30 17:41:46 DEBUG : snps.bam: Uploading segment 62914560/370675993 size 10485760
+2019/05/30 17:41:47 INFO  : snps.html: Copied (new)
+2019/05/30 17:41:47 INFO  : snps.txt: Copied (new)
+2019/05/30 17:41:47 INFO  : snps.raw.vcf: Copied (new)
+2019/05/30 17:41:47 DEBUG : snps.bam: Uploading segment 73400320/370675993 size 10485760
+2019/05/30 17:41:47 INFO  : snps.tab: Copied (new)
+2019/05/30 17:41:48 INFO  : snps.vcf.gz: Copied (new)
+2019/05/30 17:41:48 DEBUG : snps.bam: Uploading segment 83886080/370675993 size 10485760
+2019/05/30 17:41:48 INFO  : snps.vcf: Copied (new)
+2019/05/30 17:41:48 INFO  : snps.vcf.gz.tbi: Copied (new)
+2019/05/30 17:41:49 DEBUG : snps.bam: Uploading segment 94371840/370675993 size 10485760
+2019/05/30 17:41:49 INFO  : reference/ref.fa.ann: Copied (new)
+2019/05/30 17:41:49 INFO  : reference/ref.fa.amb: Copied (new)
+2019/05/30 17:41:49 DEBUG : snps.bam: Uploading segment 104857600/370675993 size 10485760
+2019/05/30 17:41:49 INFO  : reference/ref.fa.fai: Copied (new)
+2019/05/30 17:41:50 DEBUG : snps.bam: Uploading segment 115343360/370675993 size 10485760
+2019/05/30 17:41:51 INFO  : reference/ref.fa: Copied (new)
+2019/05/30 17:41:51 DEBUG : snps.bam: Uploading segment 125829120/370675993 size 10485760
+2019/05/30 17:41:51 INFO  : reference/ref.fa.pac: Copied (new)
+2019/05/30 17:41:51 INFO  : reference/ref.fa.bwt: Copied (new)
+2019/05/30 17:41:51 INFO  : One drive root 'africanum_analysis/snippy/SAMEA1877237': Waiting for checks to finish
+2019/05/30 17:41:51 INFO  : One drive root 'africanum_analysis/snippy/SAMEA1877237': Waiting for transfers to finish
+2019/05/30 17:41:51 DEBUG : snps.bam: Uploading segment 136314880/370675993 size 10485760
+2019/05/30 17:41:52 INFO  : reference/ref.txt: Copied (new)
+2019/05/30 17:41:52 DEBUG : snps.bam: Uploading segment 146800640/370675993 size 10485760
+2019/05/30 17:41:53 INFO  : reference/ref.gff: Copied (new)
+2019/05/30 17:41:53 INFO  : reference/snpeff.config: Copied (new)
+2019/05/30 17:41:53 INFO  : reference/ref.fa.sa: Copied (new)
+2019/05/30 17:41:53 DEBUG : snps.bam: Uploading segment 157286400/370675993 size 10485760
+2019/05/30 17:41:53 DEBUG : snps.bam: Uploading segment 167772160/370675993 size 10485760
+2019/05/30 17:41:54 DEBUG : snps.bam: Uploading segment 178257920/370675993 size 10485760
+2019/05/30 17:41:54 INFO  : reference/ref/genes.gff.gz: Copied (new)
+2019/05/30 17:41:55 DEBUG : snps.bam: Uploading segment 188743680/370675993 size 10485760
+2019/05/30 17:41:55 INFO  : reference/ref/snpEffectPredictor.bin: Copied (new)
+2019/05/30 17:41:55 DEBUG : snps.bam: Uploading segment 199229440/370675993 size 10485760
+2019/05/30 17:41:56 INFO  : reference/genomes/ref.fa: Copied (new)
+2019/05/30 17:41:56 DEBUG : snps.bam: Uploading segment 209715200/370675993 size 10485760
+2019/05/30 17:41:57 DEBUG : snps.bam: Uploading segment 220200960/370675993 size 10485760
+2019/05/30 17:41:58 DEBUG : snps.bam: Uploading segment 230686720/370675993 size 10485760
+2019/05/30 17:41:59 DEBUG : snps.bam: Uploading segment 241172480/370675993 size 10485760
+2019/05/30 17:41:59 DEBUG : snps.bam: Uploading segment 251658240/370675993 size 10485760
+2019/05/30 17:42:00 DEBUG : snps.bam: Uploading segment 262144000/370675993 size 10485760
+2019/05/30 17:42:00 DEBUG : snps.bam: Uploading segment 272629760/370675993 size 10485760
+2019/05/30 17:42:01 DEBUG : snps.bam: Uploading segment 283115520/370675993 size 10485760
+2019/05/30 17:42:02 DEBUG : snps.bam: Uploading segment 293601280/370675993 size 10485760
+2019/05/30 17:42:02 DEBUG : snps.bam: Uploading segment 304087040/370675993 size 10485760
+2019/05/30 17:42:03 DEBUG : snps.bam: Uploading segment 314572800/370675993 size 10485760
+2019/05/30 17:42:03 DEBUG : snps.bam: Uploading segment 325058560/370675993 size 10485760
+2019/05/30 17:42:04 DEBUG : snps.bam: Uploading segment 335544320/370675993 size 10485760
+2019/05/30 17:42:05 DEBUG : snps.bam: Uploading segment 346030080/370675993 size 10485760
+2019/05/30 17:42:05 DEBUG : snps.bam: Uploading segment 356515840/370675993 size 10485760
+2019/05/30 17:42:06 DEBUG : snps.bam: Uploading segment 367001600/370675993 size 3674393
+2019/05/30 17:42:07 INFO  : snps.bam: Copied (new)
+2019/05/30 17:42:07 INFO  : 
+Transferred:   410.476 MBytes (14.563 MBytes/s)
+Errors:                 0
+Checks:                 0
+Transferred:           35
+Elapsed time:       28.1s
+2019/05/30 17:42:07 DEBUG : Go routines at exit 13
+2019/05/30 17:42:07 DEBUG : rclone: Version "v1.36" finishing with parameters ["rclone" "copy" "./SAMEA1877237" "onedrive-em:africanum_analysis/snippy/SAMEA1877237" "-vv"]

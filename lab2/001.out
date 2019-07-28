@@ -1,0 +1,288 @@
+TrimmomaticPE: Started with arguments:
+ -phred33 SAMEA2340877_1.fastq.gz SAMEA2340877_2.fastq.gz SAMEA2340877_1.p.fastq.gz SAMEA2340877_1.s.fastq.gz SAMEA2340877_2.p.fastq.gz SAMEA2340877_2.s.fastq.gz LEADING:3 TRAILING:3 SLIDINGWINDOW:4:20 MINLEN:36
+Multiple cores found: Using 2 threads
+Input Read Pairs: 2929386 Both Surviving: 2745015 (93.71%) Forward Only Surviving: 134751 (4.60%) Reverse Only Surviving: 23205 (0.79%) Dropped: 26415 (0.90%)
+TrimmomaticPE: Completed successfully
+TrimmomaticPE: Started with arguments:
+ -phred33 SAMEA2340878_1.fastq.gz SAMEA2340878_2.fastq.gz SAMEA2340878_1.p.fastq.gz SAMEA2340878_1.s.fastq.gz SAMEA2340878_2.p.fastq.gz SAMEA2340878_2.s.fastq.gz LEADING:3 TRAILING:3 SLIDINGWINDOW:4:20 MINLEN:36
+Multiple cores found: Using 2 threads
+Input Read Pairs: 3030027 Both Surviving: 2689964 (88.78%) Forward Only Surviving: 224330 (7.40%) Reverse Only Surviving: 58124 (1.92%) Dropped: 57609 (1.90%)
+TrimmomaticPE: Completed successfully
+TrimmomaticPE: Started with arguments:
+ -phred33 SAMEA2340879_1.fastq.gz SAMEA2340879_2.fastq.gz SAMEA2340879_1.p.fastq.gz SAMEA2340879_1.s.fastq.gz SAMEA2340879_2.p.fastq.gz SAMEA2340879_2.s.fastq.gz LEADING:3 TRAILING:3 SLIDINGWINDOW:4:20 MINLEN:36
+Multiple cores found: Using 2 threads
+Input Read Pairs: 3272715 Both Surviving: 2904719 (88.76%) Forward Only Surviving: 239190 (7.31%) Reverse Only Surviving: 65237 (1.99%) Dropped: 63569 (1.94%)
+TrimmomaticPE: Completed successfully
+TrimmomaticPE: Started with arguments:
+ -phred33 SAMEA2340883_1.fastq.gz SAMEA2340883_2.fastq.gz SAMEA2340883_1.p.fastq.gz SAMEA2340883_1.s.fastq.gz SAMEA2340883_2.p.fastq.gz SAMEA2340883_2.s.fastq.gz LEADING:3 TRAILING:3 SLIDINGWINDOW:4:20 MINLEN:36
+Multiple cores found: Using 2 threads
+Input Read Pairs: 3340782 Both Surviving: 2963209 (88.70%) Forward Only Surviving: 248061 (7.43%) Reverse Only Surviving: 65124 (1.95%) Dropped: 64388 (1.93%)
+TrimmomaticPE: Completed successfully
+TrimmomaticPE: Started with arguments:
+ -phred33 SAMEA2340884_1.fastq.gz SAMEA2340884_2.fastq.gz SAMEA2340884_1.p.fastq.gz SAMEA2340884_1.s.fastq.gz SAMEA2340884_2.p.fastq.gz SAMEA2340884_2.s.fastq.gz LEADING:3 TRAILING:3 SLIDINGWINDOW:4:20 MINLEN:36
+Multiple cores found: Using 2 threads
+Input Read Pairs: 3007278 Both Surviving: 2673294 (88.89%) Forward Only Surviving: 215872 (7.18%) Reverse Only Surviving: 60988 (2.03%) Dropped: 57124 (1.90%)
+TrimmomaticPE: Completed successfully
+TrimmomaticPE: Started with arguments:
+ -phred33 SAMEA2340885_1.fastq.gz SAMEA2340885_2.fastq.gz SAMEA2340885_1.p.fastq.gz SAMEA2340885_1.s.fastq.gz SAMEA2340885_2.p.fastq.gz SAMEA2340885_2.s.fastq.gz LEADING:3 TRAILING:3 SLIDINGWINDOW:4:20 MINLEN:36
+Multiple cores found: Using 2 threads
+Input Read Pairs: 354214 Both Surviving: 331032 (93.46%) Forward Only Surviving: 14242 (4.02%) Reverse Only Surviving: 5395 (1.52%) Dropped: 3545 (1.00%)
+TrimmomaticPE: Completed successfully
+TrimmomaticPE: Started with arguments:
+ -phred33 SAMEA2340887_1.fastq.gz SAMEA2340887_2.fastq.gz SAMEA2340887_1.p.fastq.gz SAMEA2340887_1.s.fastq.gz SAMEA2340887_2.p.fastq.gz SAMEA2340887_2.s.fastq.gz LEADING:3 TRAILING:3 SLIDINGWINDOW:4:20 MINLEN:36
+Multiple cores found: Using 2 threads
+Input Read Pairs: 3131950 Both Surviving: 2933663 (93.67%) Forward Only Surviving: 135998 (4.34%) Reverse Only Surviving: 32160 (1.03%) Dropped: 30129 (0.96%)
+TrimmomaticPE: Completed successfully
+TrimmomaticPE: Started with arguments:
+ -phred33 SAMEA2340895_1.fastq.gz SAMEA2340895_2.fastq.gz SAMEA2340895_1.p.fastq.gz SAMEA2340895_1.s.fastq.gz SAMEA2340895_2.p.fastq.gz SAMEA2340895_2.s.fastq.gz LEADING:3 TRAILING:3 SLIDINGWINDOW:4:20 MINLEN:36
+Multiple cores found: Using 2 threads
+Input Read Pairs: 2463444 Both Surviving: 2214828 (89.91%) Forward Only Surviving: 164004 (6.66%) Reverse Only Surviving: 43491 (1.77%) Dropped: 41121 (1.67%)
+TrimmomaticPE: Completed successfully
+TrimmomaticPE: Started with arguments:
+ -phred33 SAMEA2340898_1.fastq.gz SAMEA2340898_2.fastq.gz SAMEA2340898_1.p.fastq.gz SAMEA2340898_1.s.fastq.gz SAMEA2340898_2.p.fastq.gz SAMEA2340898_2.s.fastq.gz LEADING:3 TRAILING:3 SLIDINGWINDOW:4:20 MINLEN:36
+Multiple cores found: Using 2 threads
+Input Read Pairs: 2559109 Both Surviving: 2291033 (89.52%) Forward Only Surviving: 174469 (6.82%) Reverse Only Surviving: 49475 (1.93%) Dropped: 44132 (1.72%)
+TrimmomaticPE: Completed successfully
+TrimmomaticPE: Started with arguments:
+ -phred33 SAMEA2340902_1.fastq.gz SAMEA2340902_2.fastq.gz SAMEA2340902_1.p.fastq.gz SAMEA2340902_1.s.fastq.gz SAMEA2340902_2.p.fastq.gz SAMEA2340902_2.s.fastq.gz LEADING:3 TRAILING:3 SLIDINGWINDOW:4:20 MINLEN:36
+Multiple cores found: Using 2 threads
+Input Read Pairs: 2280177 Both Surviving: 2037454 (89.36%) Forward Only Surviving: 161555 (7.09%) Reverse Only Surviving: 40407 (1.77%) Dropped: 40761 (1.79%)
+TrimmomaticPE: Completed successfully
+TrimmomaticPE: Started with arguments:
+ -phred33 SAMEA2340906_1.fastq.gz SAMEA2340906_2.fastq.gz SAMEA2340906_1.p.fastq.gz SAMEA2340906_1.s.fastq.gz SAMEA2340906_2.p.fastq.gz SAMEA2340906_2.s.fastq.gz LEADING:3 TRAILING:3 SLIDINGWINDOW:4:20 MINLEN:36
+Multiple cores found: Using 2 threads
+Input Read Pairs: 2130120 Both Surviving: 1900124 (89.20%) Forward Only Surviving: 153311 (7.20%) Reverse Only Surviving: 38282 (1.80%) Dropped: 38403 (1.80%)
+TrimmomaticPE: Completed successfully
+TrimmomaticPE: Started with arguments:
+ -phred33 SAMEA2340911_1.fastq.gz SAMEA2340911_2.fastq.gz SAMEA2340911_1.p.fastq.gz SAMEA2340911_1.s.fastq.gz SAMEA2340911_2.p.fastq.gz SAMEA2340911_2.s.fastq.gz LEADING:3 TRAILING:3 SLIDINGWINDOW:4:20 MINLEN:36
+Multiple cores found: Using 2 threads
+Input Read Pairs: 2138322 Both Surviving: 1904345 (89.06%) Forward Only Surviving: 154990 (7.25%) Reverse Only Surviving: 39349 (1.84%) Dropped: 39638 (1.85%)
+TrimmomaticPE: Completed successfully
+TrimmomaticPE: Started with arguments:
+ -phred33 SAMEA2340926_1.fastq.gz SAMEA2340926_2.fastq.gz SAMEA2340926_1.p.fastq.gz SAMEA2340926_1.s.fastq.gz SAMEA2340926_2.p.fastq.gz SAMEA2340926_2.s.fastq.gz LEADING:3 TRAILING:3 SLIDINGWINDOW:4:20 MINLEN:36
+Multiple cores found: Using 2 threads
+Input Read Pairs: 2286684 Both Surviving: 2042270 (89.31%) Forward Only Surviving: 159297 (6.97%) Reverse Only Surviving: 44792 (1.96%) Dropped: 40325 (1.76%)
+TrimmomaticPE: Completed successfully
+TrimmomaticPE: Started with arguments:
+ -phred33 SAMEA2340927_1.fastq.gz SAMEA2340927_2.fastq.gz SAMEA2340927_1.p.fastq.gz SAMEA2340927_1.s.fastq.gz SAMEA2340927_2.p.fastq.gz SAMEA2340927_2.s.fastq.gz LEADING:3 TRAILING:3 SLIDINGWINDOW:4:20 MINLEN:36
+Multiple cores found: Using 2 threads
+Input Read Pairs: 2221918 Both Surviving: 1985166 (89.34%) Forward Only Surviving: 156056 (7.02%) Reverse Only Surviving: 41585 (1.87%) Dropped: 39111 (1.76%)
+TrimmomaticPE: Completed successfully
+TrimmomaticPE: Started with arguments:
+ -phred33 SAMEA2340928_1.fastq.gz SAMEA2340928_2.fastq.gz SAMEA2340928_1.p.fastq.gz SAMEA2340928_1.s.fastq.gz SAMEA2340928_2.p.fastq.gz SAMEA2340928_2.s.fastq.gz LEADING:3 TRAILING:3 SLIDINGWINDOW:4:20 MINLEN:36
+Multiple cores found: Using 2 threads
+Input Read Pairs: 2866743 Both Surviving: 2575218 (89.83%) Forward Only Surviving: 187591 (6.54%) Reverse Only Surviving: 56693 (1.98%) Dropped: 47241 (1.65%)
+TrimmomaticPE: Completed successfully
+TrimmomaticPE: Started with arguments:
+ -phred33 SAMEA2340934_1.fastq.gz SAMEA2340934_2.fastq.gz SAMEA2340934_1.p.fastq.gz SAMEA2340934_1.s.fastq.gz SAMEA2340934_2.p.fastq.gz SAMEA2340934_2.s.fastq.gz LEADING:3 TRAILING:3 SLIDINGWINDOW:4:20 MINLEN:36
+Multiple cores found: Using 2 threads
+Input Read Pairs: 2155730 Both Surviving: 1925903 (89.34%) Forward Only Surviving: 153673 (7.13%) Reverse Only Surviving: 38321 (1.78%) Dropped: 37833 (1.75%)
+TrimmomaticPE: Completed successfully
+TrimmomaticPE: Started with arguments:
+ -phred33 SAMEA2340937_1.fastq.gz SAMEA2340937_2.fastq.gz SAMEA2340937_1.p.fastq.gz SAMEA2340937_1.s.fastq.gz SAMEA2340937_2.p.fastq.gz SAMEA2340937_2.s.fastq.gz LEADING:3 TRAILING:3 SLIDINGWINDOW:4:20 MINLEN:36
+Multiple cores found: Using 2 threads
+Input Read Pairs: 2283393 Both Surviving: 2038076 (89.26%) Forward Only Surviving: 163824 (7.17%) Reverse Only Surviving: 41040 (1.80%) Dropped: 40453 (1.77%)
+TrimmomaticPE: Completed successfully
+TrimmomaticPE: Started with arguments:
+ -phred33 SAMEA2340945_1.fastq.gz SAMEA2340945_2.fastq.gz SAMEA2340945_1.p.fastq.gz SAMEA2340945_1.s.fastq.gz SAMEA2340945_2.p.fastq.gz SAMEA2340945_2.s.fastq.gz LEADING:3 TRAILING:3 SLIDINGWINDOW:4:20 MINLEN:36
+Multiple cores found: Using 2 threads
+Input Read Pairs: 2386448 Both Surviving: 2128593 (89.20%) Forward Only Surviving: 170062 (7.13%) Reverse Only Surviving: 45309 (1.90%) Dropped: 42484 (1.78%)
+TrimmomaticPE: Completed successfully
+TrimmomaticPE: Started with arguments:
+ -phred33 SAMEA2340948_1.fastq.gz SAMEA2340948_2.fastq.gz SAMEA2340948_1.p.fastq.gz SAMEA2340948_1.s.fastq.gz SAMEA2340948_2.p.fastq.gz SAMEA2340948_2.s.fastq.gz LEADING:3 TRAILING:3 SLIDINGWINDOW:4:20 MINLEN:36
+Multiple cores found: Using 2 threads
+Input Read Pairs: 2556131 Both Surviving: 2273386 (88.94%) Forward Only Surviving: 192015 (7.51%) Reverse Only Surviving: 44081 (1.72%) Dropped: 46649 (1.82%)
+TrimmomaticPE: Completed successfully
+TrimmomaticPE: Started with arguments:
+ -phred33 SAMEA2627005_1.fastq.gz SAMEA2627005_2.fastq.gz SAMEA2627005_1.p.fastq.gz SAMEA2627005_1.s.fastq.gz SAMEA2627005_2.p.fastq.gz SAMEA2627005_2.s.fastq.gz LEADING:3 TRAILING:3 SLIDINGWINDOW:4:20 MINLEN:36
+Multiple cores found: Using 2 threads
+Input Read Pairs: 2163601 Both Surviving: 1783494 (82.43%) Forward Only Surviving: 223914 (10.35%) Reverse Only Surviving: 75938 (3.51%) Dropped: 80255 (3.71%)
+TrimmomaticPE: Completed successfully
+TrimmomaticPE: Started with arguments:
+ -phred33 SAMEA2627008_1.fastq.gz SAMEA2627008_2.fastq.gz SAMEA2627008_1.p.fastq.gz SAMEA2627008_1.s.fastq.gz SAMEA2627008_2.p.fastq.gz SAMEA2627008_2.s.fastq.gz LEADING:3 TRAILING:3 SLIDINGWINDOW:4:20 MINLEN:36
+Multiple cores found: Using 2 threads
+Input Read Pairs: 2337646 Both Surviving: 1915380 (81.94%) Forward Only Surviving: 253873 (10.86%) Reverse Only Surviving: 79247 (3.39%) Dropped: 89146 (3.81%)
+TrimmomaticPE: Completed successfully
+TrimmomaticPE: Started with arguments:
+ -phred33 SAMEA2627009_1.fastq.gz SAMEA2627009_2.fastq.gz SAMEA2627009_1.p.fastq.gz SAMEA2627009_1.s.fastq.gz SAMEA2627009_2.p.fastq.gz SAMEA2627009_2.s.fastq.gz LEADING:3 TRAILING:3 SLIDINGWINDOW:4:20 MINLEN:36
+Multiple cores found: Using 2 threads
+Input Read Pairs: 2533335 Both Surviving: 2097152 (82.78%) Forward Only Surviving: 255373 (10.08%) Reverse Only Surviving: 88359 (3.49%) Dropped: 92451 (3.65%)
+TrimmomaticPE: Completed successfully
+TrimmomaticPE: Started with arguments:
+ -phred33 SAMEA2627010_1.fastq.gz SAMEA2627010_2.fastq.gz SAMEA2627010_1.p.fastq.gz SAMEA2627010_1.s.fastq.gz SAMEA2627010_2.p.fastq.gz SAMEA2627010_2.s.fastq.gz LEADING:3 TRAILING:3 SLIDINGWINDOW:4:20 MINLEN:36
+Multiple cores found: Using 2 threads
+Input Read Pairs: 2463258 Both Surviving: 2015741 (81.83%) Forward Only Surviving: 257292 (10.45%) Reverse Only Surviving: 93300 (3.79%) Dropped: 96925 (3.93%)
+TrimmomaticPE: Completed successfully
+TrimmomaticPE: Started with arguments:
+ -phred33 SAMEA2627011_1.fastq.gz SAMEA2627011_2.fastq.gz SAMEA2627011_1.p.fastq.gz SAMEA2627011_1.s.fastq.gz SAMEA2627011_2.p.fastq.gz SAMEA2627011_2.s.fastq.gz LEADING:3 TRAILING:3 SLIDINGWINDOW:4:20 MINLEN:36
+Multiple cores found: Using 2 threads
+Input Read Pairs: 3262112 Both Surviving: 2739956 (83.99%) Forward Only Surviving: 303870 (9.32%) Reverse Only Surviving: 106082 (3.25%) Dropped: 112204 (3.44%)
+TrimmomaticPE: Completed successfully
+vagrant ssh -c "cd /vagrant/africanum_analysis/lab/ && java -jar /opt/Trimmomatic-0.36/trimmomatic-0.36.jar PE -phred33 SAMEA2340877_1.fastq.gz SAMEA2340877_2.fastq.gz SAMEA2340877_1.p.fastq.gz SAMEA2340877_1.s.fastq.gz SAMEA2340877_2.p.fastq.gz SAMEA2340877_2.s.fastq.gz LEADING:3 TRAILING:3 SLIDINGWINDOW:4:20 MINLEN:36"
+
+ $$$$$$$$$$ 
+
+vagrant ssh -c "cd /vagrant/africanum_analysis/lab/ && java -jar /opt/Trimmomatic-0.36/trimmomatic-0.36.jar PE -phred33 SAMEA2340878_1.fastq.gz SAMEA2340878_2.fastq.gz SAMEA2340878_1.p.fastq.gz SAMEA2340878_1.s.fastq.gz SAMEA2340878_2.p.fastq.gz SAMEA2340878_2.s.fastq.gz LEADING:3 TRAILING:3 SLIDINGWINDOW:4:20 MINLEN:36"
+
+ $$$$$$$$$$ 
+
+vagrant ssh -c "cd /vagrant/africanum_analysis/lab/ && java -jar /opt/Trimmomatic-0.36/trimmomatic-0.36.jar PE -phred33 SAMEA2340879_1.fastq.gz SAMEA2340879_2.fastq.gz SAMEA2340879_1.p.fastq.gz SAMEA2340879_1.s.fastq.gz SAMEA2340879_2.p.fastq.gz SAMEA2340879_2.s.fastq.gz LEADING:3 TRAILING:3 SLIDINGWINDOW:4:20 MINLEN:36"
+
+ $$$$$$$$$$ 
+
+vagrant ssh -c "cd /vagrant/africanum_analysis/lab/ && java -jar /opt/Trimmomatic-0.36/trimmomatic-0.36.jar PE -phred33 SAMEA2340883_1.fastq.gz SAMEA2340883_2.fastq.gz SAMEA2340883_1.p.fastq.gz SAMEA2340883_1.s.fastq.gz SAMEA2340883_2.p.fastq.gz SAMEA2340883_2.s.fastq.gz LEADING:3 TRAILING:3 SLIDINGWINDOW:4:20 MINLEN:36"
+
+ $$$$$$$$$$ 
+
+vagrant ssh -c "cd /vagrant/africanum_analysis/lab/ && java -jar /opt/Trimmomatic-0.36/trimmomatic-0.36.jar PE -phred33 SAMEA2340884_1.fastq.gz SAMEA2340884_2.fastq.gz SAMEA2340884_1.p.fastq.gz SAMEA2340884_1.s.fastq.gz SAMEA2340884_2.p.fastq.gz SAMEA2340884_2.s.fastq.gz LEADING:3 TRAILING:3 SLIDINGWINDOW:4:20 MINLEN:36"
+
+ $$$$$$$$$$ 
+
+vagrant ssh -c "cd /vagrant/africanum_analysis/lab/ && java -jar /opt/Trimmomatic-0.36/trimmomatic-0.36.jar PE -phred33 SAMEA2340885_1.fastq.gz SAMEA2340885_2.fastq.gz SAMEA2340885_1.p.fastq.gz SAMEA2340885_1.s.fastq.gz SAMEA2340885_2.p.fastq.gz SAMEA2340885_2.s.fastq.gz LEADING:3 TRAILING:3 SLIDINGWINDOW:4:20 MINLEN:36"
+
+ $$$$$$$$$$ 
+
+vagrant ssh -c "cd /vagrant/africanum_analysis/lab/ && java -jar /opt/Trimmomatic-0.36/trimmomatic-0.36.jar PE -phred33 SAMEA2340887_1.fastq.gz SAMEA2340887_2.fastq.gz SAMEA2340887_1.p.fastq.gz SAMEA2340887_1.s.fastq.gz SAMEA2340887_2.p.fastq.gz SAMEA2340887_2.s.fastq.gz LEADING:3 TRAILING:3 SLIDINGWINDOW:4:20 MINLEN:36"
+
+ $$$$$$$$$$ 
+
+vagrant ssh -c "cd /vagrant/africanum_analysis/lab/ && java -jar /opt/Trimmomatic-0.36/trimmomatic-0.36.jar PE -phred33 SAMEA2340895_1.fastq.gz SAMEA2340895_2.fastq.gz SAMEA2340895_1.p.fastq.gz SAMEA2340895_1.s.fastq.gz SAMEA2340895_2.p.fastq.gz SAMEA2340895_2.s.fastq.gz LEADING:3 TRAILING:3 SLIDINGWINDOW:4:20 MINLEN:36"
+
+ $$$$$$$$$$ 
+
+vagrant ssh -c "cd /vagrant/africanum_analysis/lab/ && java -jar /opt/Trimmomatic-0.36/trimmomatic-0.36.jar PE -phred33 SAMEA2340898_1.fastq.gz SAMEA2340898_2.fastq.gz SAMEA2340898_1.p.fastq.gz SAMEA2340898_1.s.fastq.gz SAMEA2340898_2.p.fastq.gz SAMEA2340898_2.s.fastq.gz LEADING:3 TRAILING:3 SLIDINGWINDOW:4:20 MINLEN:36"
+
+ $$$$$$$$$$ 
+
+vagrant ssh -c "cd /vagrant/africanum_analysis/lab/ && java -jar /opt/Trimmomatic-0.36/trimmomatic-0.36.jar PE -phred33 SAMEA2340902_1.fastq.gz SAMEA2340902_2.fastq.gz SAMEA2340902_1.p.fastq.gz SAMEA2340902_1.s.fastq.gz SAMEA2340902_2.p.fastq.gz SAMEA2340902_2.s.fastq.gz LEADING:3 TRAILING:3 SLIDINGWINDOW:4:20 MINLEN:36"
+
+ $$$$$$$$$$ 
+
+vagrant ssh -c "cd /vagrant/africanum_analysis/lab/ && java -jar /opt/Trimmomatic-0.36/trimmomatic-0.36.jar PE -phred33 SAMEA2340906_1.fastq.gz SAMEA2340906_2.fastq.gz SAMEA2340906_1.p.fastq.gz SAMEA2340906_1.s.fastq.gz SAMEA2340906_2.p.fastq.gz SAMEA2340906_2.s.fastq.gz LEADING:3 TRAILING:3 SLIDINGWINDOW:4:20 MINLEN:36"
+
+ $$$$$$$$$$ 
+
+vagrant ssh -c "cd /vagrant/africanum_analysis/lab/ && java -jar /opt/Trimmomatic-0.36/trimmomatic-0.36.jar PE -phred33 SAMEA2340911_1.fastq.gz SAMEA2340911_2.fastq.gz SAMEA2340911_1.p.fastq.gz SAMEA2340911_1.s.fastq.gz SAMEA2340911_2.p.fastq.gz SAMEA2340911_2.s.fastq.gz LEADING:3 TRAILING:3 SLIDINGWINDOW:4:20 MINLEN:36"
+
+ $$$$$$$$$$ 
+
+vagrant ssh -c "cd /vagrant/africanum_analysis/lab/ && java -jar /opt/Trimmomatic-0.36/trimmomatic-0.36.jar PE -phred33 SAMEA2340926_1.fastq.gz SAMEA2340926_2.fastq.gz SAMEA2340926_1.p.fastq.gz SAMEA2340926_1.s.fastq.gz SAMEA2340926_2.p.fastq.gz SAMEA2340926_2.s.fastq.gz LEADING:3 TRAILING:3 SLIDINGWINDOW:4:20 MINLEN:36"
+
+ $$$$$$$$$$ 
+
+vagrant ssh -c "cd /vagrant/africanum_analysis/lab/ && java -jar /opt/Trimmomatic-0.36/trimmomatic-0.36.jar PE -phred33 SAMEA2340927_1.fastq.gz SAMEA2340927_2.fastq.gz SAMEA2340927_1.p.fastq.gz SAMEA2340927_1.s.fastq.gz SAMEA2340927_2.p.fastq.gz SAMEA2340927_2.s.fastq.gz LEADING:3 TRAILING:3 SLIDINGWINDOW:4:20 MINLEN:36"
+
+ $$$$$$$$$$ 
+
+vagrant ssh -c "cd /vagrant/africanum_analysis/lab/ && java -jar /opt/Trimmomatic-0.36/trimmomatic-0.36.jar PE -phred33 SAMEA2340928_1.fastq.gz SAMEA2340928_2.fastq.gz SAMEA2340928_1.p.fastq.gz SAMEA2340928_1.s.fastq.gz SAMEA2340928_2.p.fastq.gz SAMEA2340928_2.s.fastq.gz LEADING:3 TRAILING:3 SLIDINGWINDOW:4:20 MINLEN:36"
+
+ $$$$$$$$$$ 
+
+vagrant ssh -c "cd /vagrant/africanum_analysis/lab/ && java -jar /opt/Trimmomatic-0.36/trimmomatic-0.36.jar PE -phred33 SAMEA2340934_1.fastq.gz SAMEA2340934_2.fastq.gz SAMEA2340934_1.p.fastq.gz SAMEA2340934_1.s.fastq.gz SAMEA2340934_2.p.fastq.gz SAMEA2340934_2.s.fastq.gz LEADING:3 TRAILING:3 SLIDINGWINDOW:4:20 MINLEN:36"
+
+ $$$$$$$$$$ 
+
+vagrant ssh -c "cd /vagrant/africanum_analysis/lab/ && java -jar /opt/Trimmomatic-0.36/trimmomatic-0.36.jar PE -phred33 SAMEA2340937_1.fastq.gz SAMEA2340937_2.fastq.gz SAMEA2340937_1.p.fastq.gz SAMEA2340937_1.s.fastq.gz SAMEA2340937_2.p.fastq.gz SAMEA2340937_2.s.fastq.gz LEADING:3 TRAILING:3 SLIDINGWINDOW:4:20 MINLEN:36"
+
+ $$$$$$$$$$ 
+
+vagrant ssh -c "cd /vagrant/africanum_analysis/lab/ && java -jar /opt/Trimmomatic-0.36/trimmomatic-0.36.jar PE -phred33 SAMEA2340945_1.fastq.gz SAMEA2340945_2.fastq.gz SAMEA2340945_1.p.fastq.gz SAMEA2340945_1.s.fastq.gz SAMEA2340945_2.p.fastq.gz SAMEA2340945_2.s.fastq.gz LEADING:3 TRAILING:3 SLIDINGWINDOW:4:20 MINLEN:36"
+
+ $$$$$$$$$$ 
+
+vagrant ssh -c "cd /vagrant/africanum_analysis/lab/ && java -jar /opt/Trimmomatic-0.36/trimmomatic-0.36.jar PE -phred33 SAMEA2340948_1.fastq.gz SAMEA2340948_2.fastq.gz SAMEA2340948_1.p.fastq.gz SAMEA2340948_1.s.fastq.gz SAMEA2340948_2.p.fastq.gz SAMEA2340948_2.s.fastq.gz LEADING:3 TRAILING:3 SLIDINGWINDOW:4:20 MINLEN:36"
+
+ $$$$$$$$$$ 
+
+vagrant ssh -c "cd /vagrant/africanum_analysis/lab/ && java -jar /opt/Trimmomatic-0.36/trimmomatic-0.36.jar PE -phred33 SAMEA2627005_1.fastq.gz SAMEA2627005_2.fastq.gz SAMEA2627005_1.p.fastq.gz SAMEA2627005_1.s.fastq.gz SAMEA2627005_2.p.fastq.gz SAMEA2627005_2.s.fastq.gz LEADING:3 TRAILING:3 SLIDINGWINDOW:4:20 MINLEN:36"
+
+ $$$$$$$$$$ 
+
+vagrant ssh -c "cd /vagrant/africanum_analysis/lab/ && java -jar /opt/Trimmomatic-0.36/trimmomatic-0.36.jar PE -phred33 SAMEA2627008_1.fastq.gz SAMEA2627008_2.fastq.gz SAMEA2627008_1.p.fastq.gz SAMEA2627008_1.s.fastq.gz SAMEA2627008_2.p.fastq.gz SAMEA2627008_2.s.fastq.gz LEADING:3 TRAILING:3 SLIDINGWINDOW:4:20 MINLEN:36"
+
+ $$$$$$$$$$ 
+
+vagrant ssh -c "cd /vagrant/africanum_analysis/lab/ && java -jar /opt/Trimmomatic-0.36/trimmomatic-0.36.jar PE -phred33 SAMEA2627009_1.fastq.gz SAMEA2627009_2.fastq.gz SAMEA2627009_1.p.fastq.gz SAMEA2627009_1.s.fastq.gz SAMEA2627009_2.p.fastq.gz SAMEA2627009_2.s.fastq.gz LEADING:3 TRAILING:3 SLIDINGWINDOW:4:20 MINLEN:36"
+
+ $$$$$$$$$$ 
+
+vagrant ssh -c "cd /vagrant/africanum_analysis/lab/ && java -jar /opt/Trimmomatic-0.36/trimmomatic-0.36.jar PE -phred33 SAMEA2627010_1.fastq.gz SAMEA2627010_2.fastq.gz SAMEA2627010_1.p.fastq.gz SAMEA2627010_1.s.fastq.gz SAMEA2627010_2.p.fastq.gz SAMEA2627010_2.s.fastq.gz LEADING:3 TRAILING:3 SLIDINGWINDOW:4:20 MINLEN:36"
+
+ $$$$$$$$$$ 
+
+vagrant ssh -c "cd /vagrant/africanum_analysis/lab/ && java -jar /opt/Trimmomatic-0.36/trimmomatic-0.36.jar PE -phred33 SAMEA2627011_1.fastq.gz SAMEA2627011_2.fastq.gz SAMEA2627011_1.p.fastq.gz SAMEA2627011_1.s.fastq.gz SAMEA2627011_2.p.fastq.gz SAMEA2627011_2.s.fastq.gz LEADING:3 TRAILING:3 SLIDINGWINDOW:4:20 MINLEN:36"
+
+ $$$$$$$$$$ 
+
+vagrant ssh -c "cd /vagrant/africanum_analysis/lab/ && java -jar /opt/Trimmomatic-0.36/trimmomatic-0.36.jar PE -phred33 SAMEA2627012_1.fastq.gz SAMEA2627012_2.fastq.gz SAMEA2627012_1.p.fastq.gz SAMEA2627012_1.s.fastq.gz SAMEA2627012_2.p.fastq.gz SAMEA2627012_2.s.fastq.gz LEADING:3 TRAILING:3 SLIDINGWINDOW:4:20 MINLEN:36"TrimmomaticPE: Started with arguments:
+ -phred33 SAMEA2627012_1.fastq.gz SAMEA2627012_2.fastq.gz SAMEA2627012_1.p.fastq.gz SAMEA2627012_1.s.fastq.gz SAMEA2627012_2.p.fastq.gz SAMEA2627012_2.s.fastq.gz LEADING:3 TRAILING:3 SLIDINGWINDOW:4:20 MINLEN:36
+Multiple cores found: Using 2 threads
+Input Read Pairs: 2157261 Both Surviving: 1748330 (81.04%) Forward Only Surviving: 234440 (10.87%) Reverse Only Surviving: 85589 (3.97%) Dropped: 88902 (4.12%)
+TrimmomaticPE: Completed successfully
+TrimmomaticPE: Started with arguments:
+ -phred33 SAMEA2627034_1.fastq.gz SAMEA2627034_2.fastq.gz SAMEA2627034_1.p.fastq.gz SAMEA2627034_1.s.fastq.gz SAMEA2627034_2.p.fastq.gz SAMEA2627034_2.s.fastq.gz LEADING:3 TRAILING:3 SLIDINGWINDOW:4:20 MINLEN:36
+Multiple cores found: Using 2 threads
+Input Read Pairs: 1866160 Both Surviving: 1764072 (94.53%) Forward Only Surviving: 62023 (3.32%) Reverse Only Surviving: 23670 (1.27%) Dropped: 16395 (0.88%)
+TrimmomaticPE: Completed successfully
+TrimmomaticPE: Started with arguments:
+ -phred33 SAMEA2627040_1.fastq.gz SAMEA2627040_2.fastq.gz SAMEA2627040_1.p.fastq.gz SAMEA2627040_1.s.fastq.gz SAMEA2627040_2.p.fastq.gz SAMEA2627040_2.s.fastq.gz LEADING:3 TRAILING:3 SLIDINGWINDOW:4:20 MINLEN:36
+Multiple cores found: Using 2 threads
+Input Read Pairs: 2594267 Both Surviving: 2147426 (82.78%) Forward Only Surviving: 257227 (9.92%) Reverse Only Surviving: 95270 (3.67%) Dropped: 94344 (3.64%)
+TrimmomaticPE: Completed successfully
+TrimmomaticPE: Started with arguments:
+ -phred33 SAMEA2627044_1.fastq.gz SAMEA2627044_2.fastq.gz SAMEA2627044_1.p.fastq.gz SAMEA2627044_1.s.fastq.gz SAMEA2627044_2.p.fastq.gz SAMEA2627044_2.s.fastq.gz LEADING:3 TRAILING:3 SLIDINGWINDOW:4:20 MINLEN:36
+Multiple cores found: Using 2 threads
+Input Read Pairs: 2849864 Both Surviving: 2143756 (75.22%) Forward Only Surviving: 504417 (17.70%) Reverse Only Surviving: 74469 (2.61%) Dropped: 127222 (4.46%)
+TrimmomaticPE: Completed successfully
+TrimmomaticPE: Started with arguments:
+ -phred33 SAMEA2627045_1.fastq.gz SAMEA2627045_2.fastq.gz SAMEA2627045_1.p.fastq.gz SAMEA2627045_1.s.fastq.gz SAMEA2627045_2.p.fastq.gz SAMEA2627045_2.s.fastq.gz LEADING:3 TRAILING:3 SLIDINGWINDOW:4:20 MINLEN:36
+Multiple cores found: Using 2 threads
+Input Read Pairs: 828112 Both Surviving: 782524 (94.49%) Forward Only Surviving: 30272 (3.66%) Reverse Only Surviving: 9276 (1.12%) Dropped: 6040 (0.73%)
+TrimmomaticPE: Completed successfully
+TrimmomaticPE: Started with arguments:
+ -phred33 SAMEA2794338_1.fastq.gz SAMEA2794338_2.fastq.gz SAMEA2794338_1.p.fastq.gz SAMEA2794338_1.s.fastq.gz SAMEA2794338_2.p.fastq.gz SAMEA2794338_2.s.fastq.gz LEADING:3 TRAILING:3 SLIDINGWINDOW:4:20 MINLEN:36
+Multiple cores found: Using 2 threads
+Input Read Pairs: 2311762 Both Surviving: 2076998 (89.84%) Forward Only Surviving: 123253 (5.33%) Reverse Only Surviving: 66727 (2.89%) Dropped: 44784 (1.94%)
+TrimmomaticPE: Completed successfully
+TrimmomaticPE: Started with arguments:
+ -phred33 SAMEA2794356_1.fastq.gz SAMEA2794356_2.fastq.gz SAMEA2794356_1.p.fastq.gz SAMEA2794356_1.s.fastq.gz SAMEA2794356_2.p.fastq.gz SAMEA2794356_2.s.fastq.gz LEADING:3 TRAILING:3 SLIDINGWINDOW:4:20 MINLEN:36
+Multiple cores found: Using 2 threads
+Input Read Pairs: 4785 Both Surviving: 2241 (46.83%) Forward Only Surviving: 2289 (47.84%) Reverse Only Surviving: 68 (1.42%) Dropped: 187 (3.91%)
+TrimmomaticPE: Completed successfully
+TrimmomaticPE: Started with arguments:
+ -phred33 SAMEA2794363_1.fastq.gz SAMEA2794363_2.fastq.gz SAMEA2794363_1.p.fastq.gz SAMEA2794363_1.s.fastq.gz SAMEA2794363_2.p.fastq.gz SAMEA2794363_2.s.fastq.gz LEADING:3 TRAILING:3 SLIDINGWINDOW:4:20 MINLEN:36
+Multiple cores found: Using 2 threads
+Input Read Pairs: 2646644 Both Surviving: 2352278 (88.88%) Forward Only Surviving: 162585 (6.14%) Reverse Only Surviving: 73833 (2.79%) Dropped: 57948 (2.19%)
+TrimmomaticPE: Completed successfully
+
+
+ $$$$$$$$$$ 
+
+vagrant ssh -c "cd /vagrant/africanum_analysis/lab/ && java -jar /opt/Trimmomatic-0.36/trimmomatic-0.36.jar PE -phred33 SAMEA2627034_1.fastq.gz SAMEA2627034_2.fastq.gz SAMEA2627034_1.p.fastq.gz SAMEA2627034_1.s.fastq.gz SAMEA2627034_2.p.fastq.gz SAMEA2627034_2.s.fastq.gz LEADING:3 TRAILING:3 SLIDINGWINDOW:4:20 MINLEN:36"
+
+ $$$$$$$$$$ 
+
+vagrant ssh -c "cd /vagrant/africanum_analysis/lab/ && java -jar /opt/Trimmomatic-0.36/trimmomatic-0.36.jar PE -phred33 SAMEA2627040_1.fastq.gz SAMEA2627040_2.fastq.gz SAMEA2627040_1.p.fastq.gz SAMEA2627040_1.s.fastq.gz SAMEA2627040_2.p.fastq.gz SAMEA2627040_2.s.fastq.gz LEADING:3 TRAILING:3 SLIDINGWINDOW:4:20 MINLEN:36"
+
+ $$$$$$$$$$ 
+
+vagrant ssh -c "cd /vagrant/africanum_analysis/lab/ && java -jar /opt/Trimmomatic-0.36/trimmomatic-0.36.jar PE -phred33 SAMEA2627044_1.fastq.gz SAMEA2627044_2.fastq.gz SAMEA2627044_1.p.fastq.gz SAMEA2627044_1.s.fastq.gz SAMEA2627044_2.p.fastq.gz SAMEA2627044_2.s.fastq.gz LEADING:3 TRAILING:3 SLIDINGWINDOW:4:20 MINLEN:36"
+
+ $$$$$$$$$$ 
+
+vagrant ssh -c "cd /vagrant/africanum_analysis/lab/ && java -jar /opt/Trimmomatic-0.36/trimmomatic-0.36.jar PE -phred33 SAMEA2627045_1.fastq.gz SAMEA2627045_2.fastq.gz SAMEA2627045_1.p.fastq.gz SAMEA2627045_1.s.fastq.gz SAMEA2627045_2.p.fastq.gz SAMEA2627045_2.s.fastq.gz LEADING:3 TRAILING:3 SLIDINGWINDOW:4:20 MINLEN:36"
+
+ $$$$$$$$$$ 
+
+vagrant ssh -c "cd /vagrant/africanum_analysis/lab/ && java -jar /opt/Trimmomatic-0.36/trimmomatic-0.36.jar PE -phred33 SAMEA2794338_1.fastq.gz SAMEA2794338_2.fastq.gz SAMEA2794338_1.p.fastq.gz SAMEA2794338_1.s.fastq.gz SAMEA2794338_2.p.fastq.gz SAMEA2794338_2.s.fastq.gz LEADING:3 TRAILING:3 SLIDINGWINDOW:4:20 MINLEN:36"
+
+ $$$$$$$$$$ 
+
+vagrant ssh -c "cd /vagrant/africanum_analysis/lab/ && java -jar /opt/Trimmomatic-0.36/trimmomatic-0.36.jar PE -phred33 SAMEA2794356_1.fastq.gz SAMEA2794356_2.fastq.gz SAMEA2794356_1.p.fastq.gz SAMEA2794356_1.s.fastq.gz SAMEA2794356_2.p.fastq.gz SAMEA2794356_2.s.fastq.gz LEADING:3 TRAILING:3 SLIDINGWINDOW:4:20 MINLEN:36"
+
+ $$$$$$$$$$ 
+
+vagrant ssh -c "cd /vagrant/africanum_analysis/lab/ && java -jar /opt/Trimmomatic-0.36/trimmomatic-0.36.jar PE -phred33 SAMEA2794363_1.fastq.gz SAMEA2794363_2.fastq.gz SAMEA2794363_1.p.fastq.gz SAMEA2794363_1.s.fastq.gz SAMEA2794363_2.p.fastq.gz SAMEA2794363_2.s.fastq.gz LEADING:3 TRAILING:3 SLIDINGWINDOW:4:20 MINLEN:36"
+
+ $$$$$$$$$$ 
+

@@ -1,0 +1,2 @@
+2019/06/16 22:52:39 DEBUG : rclone: Version "v1.41" starting with parameters ["rclone" "copy" "onedrive-em:africanum_analysis/snippy/SAMEA1877073" "./SAMEA1877073" "-vv"]
+2019/06/16 22:52:39 DEBUG : Using config file from "/root/.config/rclone/rclone.conf"

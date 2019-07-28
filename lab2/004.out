@@ -1,0 +1,641 @@
+==> vagrant: A new version of Vagrant is available: 2.2.4 (installed version: 2.2.0)!
+==> vagrant: To upgrade visit: https://www.vagrantup.com/downloads.html
+
+
+
+Building a new DB, current time: 06/02/2019 18:11:59
+New DB name:   /vagrant/africanum_analysis/lab/SAMEA104358365_spo.out.SpoTyping.tmp.0
+New DB title:  ./SAMEA104358365_spo.out.SpoTyping.tmp.0
+Sequence type: Nucleotide
+Keep MBits: T
+Maximum file size: 1000000000B
+Adding sequences from FASTA; added 1 sequences in 42.033 seconds.
+
+
+Building a new DB, current time: 06/02/2019 18:18:13
+New DB name:   /vagrant/africanum_analysis/lab/SAMEA1877073_spo.out.SpoTyping.tmp.0
+New DB title:  ./SAMEA1877073_spo.out.SpoTyping.tmp.0
+Sequence type: Nucleotide
+Keep MBits: T
+Maximum file size: 1000000000B
+Adding sequences from FASTA; added 1 sequences in 22.9662 seconds.
+
+
+Building a new DB, current time: 06/02/2019 18:25:33
+New DB name:   /vagrant/africanum_analysis/lab/SAMEA1877098_spo.out.SpoTyping.tmp.0
+New DB title:  ./SAMEA1877098_spo.out.SpoTyping.tmp.0
+Sequence type: Nucleotide
+Keep MBits: T
+Maximum file size: 1000000000B
+Adding sequences from FASTA; added 1 sequences in 33.6582 seconds.
+
+
+Building a new DB, current time: 06/02/2019 18:31:17
+New DB name:   /vagrant/africanum_analysis/lab/SAMEA1877101_spo.out.SpoTyping.tmp.0
+New DB title:  ./SAMEA1877101_spo.out.SpoTyping.tmp.0
+Sequence type: Nucleotide
+Keep MBits: T
+Maximum file size: 1000000000B
+Adding sequences from FASTA; added 1 sequences in 24.3571 seconds.
+
+
+Building a new DB, current time: 06/02/2019 18:36:42
+New DB name:   /vagrant/africanum_analysis/lab/SAMEA1877109_spo.out.SpoTyping.tmp.0
+New DB title:  ./SAMEA1877109_spo.out.SpoTyping.tmp.0
+Sequence type: Nucleotide
+Keep MBits: T
+Maximum file size: 1000000000B
+Adding sequences from FASTA; added 1 sequences in 24.5652 seconds.
+
+
+Building a new DB, current time: 06/02/2019 18:42:14
+New DB name:   /vagrant/africanum_analysis/lab/SAMEA1877112_L1_spo.out.SpoTyping.tmp.0
+New DB title:  ./SAMEA1877112_L1_spo.out.SpoTyping.tmp.0
+Sequence type: Nucleotide
+Keep MBits: T
+Maximum file size: 1000000000B
+Adding sequences from FASTA; added 1 sequences in 22.5537 seconds.
+
+
+Building a new DB, current time: 06/02/2019 18:47:31
+New DB name:   /vagrant/africanum_analysis/lab/SAMEA1877117_spo.out.SpoTyping.tmp.0
+New DB title:  ./SAMEA1877117_spo.out.SpoTyping.tmp.0
+Sequence type: Nucleotide
+Keep MBits: T
+Maximum file size: 1000000000B
+Adding sequences from FASTA; added 1 sequences in 22.9018 seconds.
+
+
+Building a new DB, current time: 06/02/2019 18:51:47
+New DB name:   /vagrant/africanum_analysis/lab/SAMEA1877126_spo.out.SpoTyping.tmp.0
+New DB title:  ./SAMEA1877126_spo.out.SpoTyping.tmp.0
+Sequence type: Nucleotide
+Keep MBits: T
+Maximum file size: 1000000000B
+Adding sequences from FASTA; added 1 sequences in 18.2758 seconds.
+
+
+Building a new DB, current time: 06/02/2019 18:56:47
+New DB name:   /vagrant/africanum_analysis/lab/SAMEA1877132_spo.out.SpoTyping.tmp.0
+New DB title:  ./SAMEA1877132_spo.out.SpoTyping.tmp.0
+Sequence type: Nucleotide
+Keep MBits: T
+Maximum file size: 1000000000B
+Adding sequences from FASTA; added 1 sequences in 23.76 seconds.
+
+
+Building a new DB, current time: 06/02/2019 19:02:15
+New DB name:   /vagrant/africanum_analysis/lab/SAMEA1877136_spo.out.SpoTyping.tmp.0
+New DB title:  ./SAMEA1877136_spo.out.SpoTyping.tmp.0
+Sequence type: Nucleotide
+Keep MBits: T
+Maximum file size: 1000000000B
+Adding sequences from FASTA; added 1 sequences in 24.331 seconds.
+
+
+Building a new DB, current time: 06/02/2019 19:07:39
+New DB name:   /vagrant/africanum_analysis/lab/SAMEA1877139_spo.out.SpoTyping.tmp.0
+New DB title:  ./SAMEA1877139_spo.out.SpoTyping.tmp.0
+Sequence type: Nucleotide
+Keep MBits: T
+Maximum file size: 1000000000B
+Adding sequences from FASTA; added 1 sequences in 24.5279 seconds.
+
+
+Building a new DB, current time: 06/02/2019 19:13:11
+New DB name:   /vagrant/africanum_analysis/lab/SAMEA1877142_spo.out.SpoTyping.tmp.0
+New DB title:  ./SAMEA1877142_spo.out.SpoTyping.tmp.0
+Sequence type: Nucleotide
+Keep MBits: T
+Maximum file size: 1000000000B
+Adding sequences from FASTA; added 1 sequences in 25.3006 seconds.
+
+
+Building a new DB, current time: 06/02/2019 19:18:37
+New DB name:   /vagrant/africanum_analysis/lab/SAMEA1877150_spo.out.SpoTyping.tmp.0
+New DB title:  ./SAMEA1877150_spo.out.SpoTyping.tmp.0
+Sequence type: Nucleotide
+Keep MBits: T
+Maximum file size: 1000000000B
+Adding sequences from FASTA; added 1 sequences in 23.6313 seconds.
+
+
+Building a new DB, current time: 06/02/2019 19:24:05
+New DB name:   /vagrant/africanum_analysis/lab/SAMEA1877150_L6_spo.out.SpoTyping.tmp.0
+New DB title:  ./SAMEA1877150_L6_spo.out.SpoTyping.tmp.0
+Sequence type: Nucleotide
+Keep MBits: T
+Maximum file size: 1000000000B
+Adding sequences from FASTA; added 1 sequences in 22.9132 seconds.
+
+
+Building a new DB, current time: 06/02/2019 19:29:08
+New DB name:   /vagrant/africanum_analysis/lab/SAMEA1877152_spo.out.SpoTyping.tmp.0
+New DB title:  ./SAMEA1877152_spo.out.SpoTyping.tmp.0
+Sequence type: Nucleotide
+Keep MBits: T
+Maximum file size: 1000000000B
+Adding sequences from FASTA; added 1 sequences in 23.2417 seconds.
+
+
+Building a new DB, current time: 06/02/2019 19:34:22
+New DB name:   /vagrant/africanum_analysis/lab/SAMEA1877165_spo.out.SpoTyping.tmp.0
+New DB title:  ./SAMEA1877165_spo.out.SpoTyping.tmp.0
+Sequence type: Nucleotide
+Keep MBits: T
+Maximum file size: 1000000000B
+Adding sequences from FASTA; added 1 sequences in 22.9265 seconds.
+
+
+Building a new DB, current time: 06/02/2019 19:41:24
+New DB name:   /vagrant/africanum_analysis/lab/SAMEA1877169_spo.out.SpoTyping.tmp.0
+New DB title:  ./SAMEA1877169_spo.out.SpoTyping.tmp.0
+Sequence type: Nucleotide
+Keep MBits: T
+Maximum file size: 1000000000B
+Adding sequences from FASTA; added 1 sequences in 32.9971 seconds.
+
+
+Building a new DB, current time: 06/02/2019 19:48:47
+New DB name:   /vagrant/africanum_analysis/lab/SAMEA1877169_L5_spo.out.SpoTyping.tmp.0
+New DB title:  ./SAMEA1877169_L5_spo.out.SpoTyping.tmp.0
+Sequence type: Nucleotide
+Keep MBits: T
+Maximum file size: 1000000000B
+Adding sequences from FASTA; added 1 sequences in 33.3399 seconds.
+
+
+Building a new DB, current time: 06/02/2019 19:54:28
+New DB name:   /vagrant/africanum_analysis/lab/SAMEA1877177_spo.out.SpoTyping.tmp.0
+New DB title:  ./SAMEA1877177_spo.out.SpoTyping.tmp.0
+Sequence type: Nucleotide
+Keep MBits: T
+Maximum file size: 1000000000B
+Adding sequences from FASTA; added 1 sequences in 22.5249 seconds.
+
+
+Building a new DB, current time: 06/02/2019 19:59:57
+New DB name:   /vagrant/africanum_analysis/lab/SAMEA1877181_L3_spo.out.SpoTyping.tmp.0
+New DB title:  ./SAMEA1877181_L3_spo.out.SpoTyping.tmp.0
+Sequence type: Nucleotide
+Keep MBits: T
+Maximum file size: 1000000000B
+Adding sequences from FASTA; added 1 sequences in 24.6473 seconds.
+
+
+Building a new DB, current time: 06/02/2019 20:05:22
+New DB name:   /vagrant/africanum_analysis/lab/SAMEA1877187_spo.out.SpoTyping.tmp.0
+New DB title:  ./SAMEA1877187_spo.out.SpoTyping.tmp.0
+Sequence type: Nucleotide
+Keep MBits: T
+Maximum file size: 1000000000B
+Adding sequences from FASTA; added 1 sequences in 23.9787 seconds.
+
+
+Building a new DB, current time: 06/02/2019 20:10:49
+New DB name:   /vagrant/africanum_analysis/lab/SAMEA1877190_spo.out.SpoTyping.tmp.0
+New DB title:  ./SAMEA1877190_spo.out.SpoTyping.tmp.0
+Sequence type: Nucleotide
+Keep MBits: T
+Maximum file size: 1000000000B
+Adding sequences from FASTA; added 1 sequences in 24.9279 seconds.
+
+
+Building a new DB, current time: 06/02/2019 20:16:05
+New DB name:   /vagrant/africanum_analysis/lab/SAMEA1877206_spo.out.SpoTyping.tmp.0
+New DB title:  ./SAMEA1877206_spo.out.SpoTyping.tmp.0
+Sequence type: Nucleotide
+Keep MBits: T
+Maximum file size: 1000000000B
+Adding sequences from FASTA; added 1 sequences in 24.4388 seconds.
+
+
+Building a new DB, current time: 06/02/2019 20:21:34
+New DB name:   /vagrant/africanum_analysis/lab/SAMEA1877207_spo.out.SpoTyping.tmp.0
+New DB title:  ./SAMEA1877207_spo.out.SpoTyping.tmp.0
+Sequence type: Nucleotide
+Keep MBits: T
+Maximum file size: 1000000000B
+Adding sequences from FASTA; added 1 sequences in 23.7342 seconds.
+
+
+Building a new DB, current time: 06/02/2019 20:27:08
+New DB name:   /vagrant/africanum_analysis/lab/SAMEA1877219_L2_spo.out.SpoTyping.tmp.0
+New DB title:  ./SAMEA1877219_L2_spo.out.SpoTyping.tmp.0
+Sequence type: Nucleotide
+Keep MBits: T
+Maximum file size: 1000000000B
+Adding sequences from FASTA; added 1 sequences in 23.7187 seconds.
+
+
+Building a new DB, current time: 06/02/2019 20:32:56
+New DB name:   /vagrant/africanum_analysis/lab/SAMEA1877227_spo.out.SpoTyping.tmp.0
+New DB title:  ./SAMEA1877227_spo.out.SpoTyping.tmp.0
+Sequence type: Nucleotide
+Keep MBits: T
+Maximum file size: 1000000000B
+Adding sequences from FASTA; added 1 sequences in 24.1962 seconds.
+
+
+Building a new DB, current time: 06/02/2019 20:38:21
+New DB name:   /vagrant/africanum_analysis/lab/SAMEA1877229_spo.out.SpoTyping.tmp.0
+New DB title:  ./SAMEA1877229_spo.out.SpoTyping.tmp.0
+Sequence type: Nucleotide
+Keep MBits: T
+Maximum file size: 1000000000B
+Adding sequences from FASTA; added 1 sequences in 23.662 seconds.
+
+
+Building a new DB, current time: 06/02/2019 20:44:20
+New DB name:   /vagrant/africanum_analysis/lab/SAMEA1877233_spo.out.SpoTyping.tmp.0
+New DB title:  ./SAMEA1877233_spo.out.SpoTyping.tmp.0
+Sequence type: Nucleotide
+Keep MBits: T
+Maximum file size: 1000000000B
+Adding sequences from FASTA; added 1 sequences in 25.6711 seconds.
+
+
+Building a new DB, current time: 06/02/2019 20:53:41
+New DB name:   /vagrant/africanum_analysis/lab/SAMEA1877237_spo.out.SpoTyping.tmp.0
+New DB title:  ./SAMEA1877237_spo.out.SpoTyping.tmp.0
+Sequence type: Nucleotide
+Keep MBits: T
+Maximum file size: 1000000000B
+Adding sequences from FASTA; added 1 sequences in 48.5077 seconds.
+
+
+Building a new DB, current time: 06/02/2019 21:02:01
+New DB name:   /vagrant/africanum_analysis/lab/SAMEA1877266_L4_spo.out.SpoTyping.tmp.0
+New DB title:  ./SAMEA1877266_L4_spo.out.SpoTyping.tmp.0
+Sequence type: Nucleotide
+Keep MBits: T
+Maximum file size: 1000000000B
+Adding sequences from FASTA; added 1 sequences in 35.2499 seconds.
+
+
+Building a new DB, current time: 06/02/2019 21:08:03
+New DB name:   /vagrant/africanum_analysis/lab/SAMEA1877285_spo.out.SpoTyping.tmp.0
+New DB title:  ./SAMEA1877285_spo.out.SpoTyping.tmp.0
+Sequence type: Nucleotide
+Keep MBits: T
+Maximum file size: 1000000000B
+Adding sequences from FASTA; added 1 sequences in 25.5399 seconds.
+
+
+Building a new DB, current time: 06/02/2019 21:10:53
+New DB name:   /vagrant/africanum_analysis/lab/SAMEA2340874_spo.out.SpoTyping.tmp.0
+New DB title:  ./SAMEA2340874_spo.out.SpoTyping.tmp.0
+Sequence type: Nucleotide
+Keep MBits: T
+Maximum file size: 1000000000B
+Adding sequences from FASTA; added 1 sequences in 11.1008 seconds.
+
+
+Building a new DB, current time: 06/02/2019 21:15:40
+New DB name:   /vagrant/africanum_analysis/lab/SAMEA2340875_spo.out.SpoTyping.tmp.0
+New DB title:  ./SAMEA2340875_spo.out.SpoTyping.tmp.0
+Sequence type: Nucleotide
+Keep MBits: T
+Maximum file size: 1000000000B
+Adding sequences from FASTA; added 1 sequences in 23.9591 seconds.
+
+
+Building a new DB, current time: 06/02/2019 21:20:44
+New DB name:   /vagrant/africanum_analysis/lab/SAMEA2340876_spo.out.SpoTyping.tmp.0
+New DB title:  ./SAMEA2340876_spo.out.SpoTyping.tmp.0
+Sequence type: Nucleotide
+Keep MBits: T
+Maximum file size: 1000000000B
+Adding sequences from FASTA; added 1 sequences in 25.5673 seconds.
+
+
+Building a new DB, current time: 06/02/2019 21:26:03
+New DB name:   /vagrant/africanum_analysis/lab/SAMEA2340877_spo.out.SpoTyping.tmp.0
+New DB title:  ./SAMEA2340877_spo.out.SpoTyping.tmp.0
+Sequence type: Nucleotide
+Keep MBits: T
+Maximum file size: 1000000000B
+Adding sequences from FASTA; added 1 sequences in 23.7907 seconds.
+
+
+Building a new DB, current time: 06/02/2019 21:31:31
+New DB name:   /vagrant/africanum_analysis/lab/SAMEA2340878_spo.out.SpoTyping.tmp.0
+New DB title:  ./SAMEA2340878_spo.out.SpoTyping.tmp.0
+Sequence type: Nucleotide
+Keep MBits: T
+Maximum file size: 1000000000B
+Adding sequences from FASTA; added 1 sequences in 23.3817 seconds.
+
+
+Building a new DB, current time: 06/02/2019 21:36:48
+New DB name:   /vagrant/africanum_analysis/lab/SAMEA2340879_spo.out.SpoTyping.tmp.0
+New DB title:  ./SAMEA2340879_spo.out.SpoTyping.tmp.0
+Sequence type: Nucleotide
+Keep MBits: T
+Maximum file size: 1000000000B
+Adding sequences from FASTA; added 1 sequences in 24.0052 seconds.
+
+
+Building a new DB, current time: 06/02/2019 21:41:38
+New DB name:   /vagrant/africanum_analysis/lab/SAMEA2340880_spo.out.SpoTyping.tmp.0
+New DB title:  ./SAMEA2340880_spo.out.SpoTyping.tmp.0
+Sequence type: Nucleotide
+Keep MBits: T
+Maximum file size: 1000000000B
+Adding sequences from FASTA; added 1 sequences in 24.6341 seconds.
+
+
+Building a new DB, current time: 06/02/2019 21:46:53
+New DB name:   /vagrant/africanum_analysis/lab/SAMEA2340881_spo.out.SpoTyping.tmp.0
+New DB title:  ./SAMEA2340881_spo.out.SpoTyping.tmp.0
+Sequence type: Nucleotide
+Keep MBits: T
+Maximum file size: 1000000000B
+Adding sequences from FASTA; added 1 sequences in 25.5708 seconds.
+
+
+Building a new DB, current time: 06/02/2019 21:52:11
+New DB name:   /vagrant/africanum_analysis/lab/SAMEA2340882_spo.out.SpoTyping.tmp.0
+New DB title:  ./SAMEA2340882_spo.out.SpoTyping.tmp.0
+Sequence type: Nucleotide
+Keep MBits: T
+Maximum file size: 1000000000B
+Adding sequences from FASTA; added 1 sequences in 24.9092 seconds.
+
+
+Building a new DB, current time: 06/02/2019 21:58:01
+New DB name:   /vagrant/africanum_analysis/lab/SAMEA2340883_spo.out.SpoTyping.tmp.0
+New DB title:  ./SAMEA2340883_spo.out.SpoTyping.tmp.0
+Sequence type: Nucleotide
+Keep MBits: T
+Maximum file size: 1000000000B
+Adding sequences from FASTA; added 1 sequences in 25.3373 seconds.
+
+
+Building a new DB, current time: 06/02/2019 22:03:32
+New DB name:   /vagrant/africanum_analysis/lab/SAMEA2340884_spo.out.SpoTyping.tmp.0
+New DB title:  ./SAMEA2340884_spo.out.SpoTyping.tmp.0
+Sequence type: Nucleotide
+Keep MBits: T
+Maximum file size: 1000000000B
+Adding sequences from FASTA; added 1 sequences in 24.2074 seconds.
+
+
+Building a new DB, current time: 06/02/2019 22:05:44
+New DB name:   /vagrant/africanum_analysis/lab/SAMEA2340885_spo.out.SpoTyping.tmp.0
+New DB title:  ./SAMEA2340885_spo.out.SpoTyping.tmp.0
+Sequence type: Nucleotide
+Keep MBits: T
+Maximum file size: 1000000000B
+Adding sequences from FASTA; added 1 sequences in 6.52122 seconds.
+
+
+Building a new DB, current time: 06/02/2019 22:10:29
+New DB name:   /vagrant/africanum_analysis/lab/SAMEA2340887_spo.out.SpoTyping.tmp.0
+New DB title:  ./SAMEA2340887_spo.out.SpoTyping.tmp.0
+Sequence type: Nucleotide
+Keep MBits: T
+Maximum file size: 1000000000B
+Adding sequences from FASTA; added 1 sequences in 24.4651 seconds.
+
+
+Building a new DB, current time: 06/02/2019 22:16:12
+New DB name:   /vagrant/africanum_analysis/lab/SAMEA2340888_spo.out.SpoTyping.tmp.0
+New DB title:  ./SAMEA2340888_spo.out.SpoTyping.tmp.0
+Sequence type: Nucleotide
+Keep MBits: T
+Maximum file size: 1000000000B
+Adding sequences from FASTA; added 1 sequences in 25.5437 seconds.
+
+
+Building a new DB, current time: 06/02/2019 22:21:37
+New DB name:   /vagrant/africanum_analysis/lab/SAMEA2340889_spo.out.SpoTyping.tmp.0
+New DB title:  ./SAMEA2340889_spo.out.SpoTyping.tmp.0
+Sequence type: Nucleotide
+Keep MBits: T
+Maximum file size: 1000000000B
+Adding sequences from FASTA; added 1 sequences in 23.6833 seconds.
+
+
+Building a new DB, current time: 06/02/2019 22:26:52
+New DB name:   /vagrant/africanum_analysis/lab/SAMEA2340890_spo.out.SpoTyping.tmp.0
+New DB title:  ./SAMEA2340890_spo.out.SpoTyping.tmp.0
+Sequence type: Nucleotide
+Keep MBits: T
+Maximum file size: 1000000000B
+Adding sequences from FASTA; added 1 sequences in 24.4955 seconds.
+
+
+Building a new DB, current time: 06/02/2019 22:32:13
+New DB name:   /vagrant/africanum_analysis/lab/SAMEA2340891_spo.out.SpoTyping.tmp.0
+New DB title:  ./SAMEA2340891_spo.out.SpoTyping.tmp.0
+Sequence type: Nucleotide
+Keep MBits: T
+Maximum file size: 1000000000B
+Adding sequences from FASTA; added 1 sequences in 24.5368 seconds.
+
+
+Building a new DB, current time: 06/02/2019 22:37:30
+New DB name:   /vagrant/africanum_analysis/lab/SAMEA2340892_spo.out.SpoTyping.tmp.0
+New DB title:  ./SAMEA2340892_spo.out.SpoTyping.tmp.0
+Sequence type: Nucleotide
+Keep MBits: T
+Maximum file size: 1000000000B
+Adding sequences from FASTA; added 1 sequences in 23.5331 seconds.
+
+
+vagrant ssh -c "cd /vagrant/africanum_analysis/lab/ && python2.7 SpoTyping.py SAMEA104358365_1.fastq.gz SAMEA104358365_2.fastq.gz -o SAMEA104358365_spo.out"
+
+ $$$$$$$$$$ 
+
+vagrant ssh -c "cd /vagrant/africanum_analysis/lab/ && python2.7 SpoTyping.py SAMEA1877073_1.fastq.gz SAMEA1877073_2.fastq.gz -o SAMEA1877073_spo.out"
+
+ $$$$$$$$$$ 
+
+vagrant ssh -c "cd /vagrant/africanum_analysis/lab/ && python2.7 SpoTyping.py SAMEA1877098_1.fastq.gz SAMEA1877098_2.fastq.gz -o SAMEA1877098_spo.out"
+
+ $$$$$$$$$$ 
+
+vagrant ssh -c "cd /vagrant/africanum_analysis/lab/ && python2.7 SpoTyping.py SAMEA1877101_1.fastq.gz SAMEA1877101_2.fastq.gz -o SAMEA1877101_spo.out"
+
+ $$$$$$$$$$ 
+
+vagrant ssh -c "cd /vagrant/africanum_analysis/lab/ && python2.7 SpoTyping.py SAMEA1877109_1.fastq.gz SAMEA1877109_2.fastq.gz -o SAMEA1877109_spo.out"
+
+ $$$$$$$$$$ 
+
+vagrant ssh -c "cd /vagrant/africanum_analysis/lab/ && python2.7 SpoTyping.py SAMEA1877112_L1_1.fastq.gz SAMEA1877112_L1_2.fastq.gz -o SAMEA1877112_L1_spo.out"
+
+ $$$$$$$$$$ 
+
+vagrant ssh -c "cd /vagrant/africanum_analysis/lab/ && python2.7 SpoTyping.py SAMEA1877117_1.fastq.gz SAMEA1877117_2.fastq.gz -o SAMEA1877117_spo.out"
+
+ $$$$$$$$$$ 
+
+vagrant ssh -c "cd /vagrant/africanum_analysis/lab/ && python2.7 SpoTyping.py SAMEA1877126_1.fastq.gz SAMEA1877126_2.fastq.gz -o SAMEA1877126_spo.out"
+
+ $$$$$$$$$$ 
+
+vagrant ssh -c "cd /vagrant/africanum_analysis/lab/ && python2.7 SpoTyping.py SAMEA1877132_1.fastq.gz SAMEA1877132_2.fastq.gz -o SAMEA1877132_spo.out"
+
+ $$$$$$$$$$ 
+
+vagrant ssh -c "cd /vagrant/africanum_analysis/lab/ && python2.7 SpoTyping.py SAMEA1877136_1.fastq.gz SAMEA1877136_2.fastq.gz -o SAMEA1877136_spo.out"
+
+ $$$$$$$$$$ 
+
+vagrant ssh -c "cd /vagrant/africanum_analysis/lab/ && python2.7 SpoTyping.py SAMEA1877139_1.fastq.gz SAMEA1877139_2.fastq.gz -o SAMEA1877139_spo.out"
+
+ $$$$$$$$$$ 
+
+vagrant ssh -c "cd /vagrant/africanum_analysis/lab/ && python2.7 SpoTyping.py SAMEA1877142_1.fastq.gz SAMEA1877142_2.fastq.gz -o SAMEA1877142_spo.out"
+
+ $$$$$$$$$$ 
+
+vagrant ssh -c "cd /vagrant/africanum_analysis/lab/ && python2.7 SpoTyping.py SAMEA1877150_1.fastq.gz SAMEA1877150_2.fastq.gz -o SAMEA1877150_spo.out"
+
+ $$$$$$$$$$ 
+
+vagrant ssh -c "cd /vagrant/africanum_analysis/lab/ && python2.7 SpoTyping.py SAMEA1877150_L6_1.fastq.gz SAMEA1877150_L6_2.fastq.gz -o SAMEA1877150_L6_spo.out"
+
+ $$$$$$$$$$ 
+
+vagrant ssh -c "cd /vagrant/africanum_analysis/lab/ && python2.7 SpoTyping.py SAMEA1877152_1.fastq.gz SAMEA1877152_2.fastq.gz -o SAMEA1877152_spo.out"
+
+ $$$$$$$$$$ 
+
+vagrant ssh -c "cd /vagrant/africanum_analysis/lab/ && python2.7 SpoTyping.py SAMEA1877165_1.fastq.gz SAMEA1877165_2.fastq.gz -o SAMEA1877165_spo.out"
+
+ $$$$$$$$$$ 
+
+vagrant ssh -c "cd /vagrant/africanum_analysis/lab/ && python2.7 SpoTyping.py SAMEA1877169_1.fastq.gz SAMEA1877169_2.fastq.gz -o SAMEA1877169_spo.out"
+
+ $$$$$$$$$$ 
+
+vagrant ssh -c "cd /vagrant/africanum_analysis/lab/ && python2.7 SpoTyping.py SAMEA1877169_L5_1.fastq.gz SAMEA1877169_L5_2.fastq.gz -o SAMEA1877169_L5_spo.out"
+
+ $$$$$$$$$$ 
+
+vagrant ssh -c "cd /vagrant/africanum_analysis/lab/ && python2.7 SpoTyping.py SAMEA1877177_1.fastq.gz SAMEA1877177_2.fastq.gz -o SAMEA1877177_spo.out"
+
+ $$$$$$$$$$ 
+
+vagrant ssh -c "cd /vagrant/africanum_analysis/lab/ && python2.7 SpoTyping.py SAMEA1877181_L3_1.fastq.gz SAMEA1877181_L3_2.fastq.gz -o SAMEA1877181_L3_spo.out"
+
+ $$$$$$$$$$ 
+
+vagrant ssh -c "cd /vagrant/africanum_analysis/lab/ && python2.7 SpoTyping.py SAMEA1877187_1.fastq.gz SAMEA1877187_2.fastq.gz -o SAMEA1877187_spo.out"
+
+ $$$$$$$$$$ 
+
+vagrant ssh -c "cd /vagrant/africanum_analysis/lab/ && python2.7 SpoTyping.py SAMEA1877190_1.fastq.gz SAMEA1877190_2.fastq.gz -o SAMEA1877190_spo.out"
+
+ $$$$$$$$$$ 
+
+vagrant ssh -c "cd /vagrant/africanum_analysis/lab/ && python2.7 SpoTyping.py SAMEA1877206_1.fastq.gz SAMEA1877206_2.fastq.gz -o SAMEA1877206_spo.out"
+
+ $$$$$$$$$$ 
+
+vagrant ssh -c "cd /vagrant/africanum_analysis/lab/ && python2.7 SpoTyping.py SAMEA1877207_1.fastq.gz SAMEA1877207_2.fastq.gz -o SAMEA1877207_spo.out"
+
+ $$$$$$$$$$ 
+
+vagrant ssh -c "cd /vagrant/africanum_analysis/lab/ && python2.7 SpoTyping.py SAMEA1877219_L2_1.fastq.gz SAMEA1877219_L2_2.fastq.gz -o SAMEA1877219_L2_spo.out"
+
+ $$$$$$$$$$ 
+
+vagrant ssh -c "cd /vagrant/africanum_analysis/lab/ && python2.7 SpoTyping.py SAMEA1877227_1.fastq.gz SAMEA1877227_2.fastq.gz -o SAMEA1877227_spo.out"
+
+ $$$$$$$$$$ 
+
+vagrant ssh -c "cd /vagrant/africanum_analysis/lab/ && python2.7 SpoTyping.py SAMEA1877229_1.fastq.gz SAMEA1877229_2.fastq.gz -o SAMEA1877229_spo.out"
+
+ $$$$$$$$$$ 
+
+vagrant ssh -c "cd /vagrant/africanum_analysis/lab/ && python2.7 SpoTyping.py SAMEA1877233_1.fastq.gz SAMEA1877233_2.fastq.gz -o SAMEA1877233_spo.out"
+
+ $$$$$$$$$$ 
+
+vagrant ssh -c "cd /vagrant/africanum_analysis/lab/ && python2.7 SpoTyping.py SAMEA1877237_1.fastq.gz SAMEA1877237_2.fastq.gz -o SAMEA1877237_spo.out"
+
+ $$$$$$$$$$ 
+
+vagrant ssh -c "cd /vagrant/africanum_analysis/lab/ && python2.7 SpoTyping.py SAMEA1877266_L4_1.fastq.gz SAMEA1877266_L4_2.fastq.gz -o SAMEA1877266_L4_spo.out"
+
+ $$$$$$$$$$ 
+
+vagrant ssh -c "cd /vagrant/africanum_analysis/lab/ && python2.7 SpoTyping.py SAMEA1877285_1.fastq.gz SAMEA1877285_2.fastq.gz -o SAMEA1877285_spo.out"
+
+ $$$$$$$$$$ 
+
+vagrant ssh -c "cd /vagrant/africanum_analysis/lab/ && python2.7 SpoTyping.py SAMEA2340874_1.fastq.gz SAMEA2340874_2.fastq.gz -o SAMEA2340874_spo.out"
+
+ $$$$$$$$$$ 
+
+vagrant ssh -c "cd /vagrant/africanum_analysis/lab/ && python2.7 SpoTyping.py SAMEA2340875_1.fastq.gz SAMEA2340875_2.fastq.gz -o SAMEA2340875_spo.out"
+
+ $$$$$$$$$$ 
+
+vagrant ssh -c "cd /vagrant/africanum_analysis/lab/ && python2.7 SpoTyping.py SAMEA2340876_1.fastq.gz SAMEA2340876_2.fastq.gz -o SAMEA2340876_spo.out"
+
+ $$$$$$$$$$ 
+
+vagrant ssh -c "cd /vagrant/africanum_analysis/lab/ && python2.7 SpoTyping.py SAMEA2340877_1.fastq.gz SAMEA2340877_2.fastq.gz -o SAMEA2340877_spo.out"
+
+ $$$$$$$$$$ 
+
+vagrant ssh -c "cd /vagrant/africanum_analysis/lab/ && python2.7 SpoTyping.py SAMEA2340878_1.fastq.gz SAMEA2340878_2.fastq.gz -o SAMEA2340878_spo.out"
+
+ $$$$$$$$$$ 
+
+vagrant ssh -c "cd /vagrant/africanum_analysis/lab/ && python2.7 SpoTyping.py SAMEA2340879_1.fastq.gz SAMEA2340879_2.fastq.gz -o SAMEA2340879_spo.out"
+
+ $$$$$$$$$$ 
+
+vagrant ssh -c "cd /vagrant/africanum_analysis/lab/ && python2.7 SpoTyping.py SAMEA2340880_1.fastq.gz SAMEA2340880_2.fastq.gz -o SAMEA2340880_spo.out"
+
+ $$$$$$$$$$ 
+
+vagrant ssh -c "cd /vagrant/africanum_analysis/lab/ && python2.7 SpoTyping.py SAMEA2340881_1.fastq.gz SAMEA2340881_2.fastq.gz -o SAMEA2340881_spo.out"
+
+ $$$$$$$$$$ 
+
+vagrant ssh -c "cd /vagrant/africanum_analysis/lab/ && python2.7 SpoTyping.py SAMEA2340882_1.fastq.gz SAMEA2340882_2.fastq.gz -o SAMEA2340882_spo.out"
+
+ $$$$$$$$$$ 
+
+vagrant ssh -c "cd /vagrant/africanum_analysis/lab/ && python2.7 SpoTyping.py SAMEA2340883_1.fastq.gz SAMEA2340883_2.fastq.gz -o SAMEA2340883_spo.out"
+
+ $$$$$$$$$$ 
+
+vagrant ssh -c "cd /vagrant/africanum_analysis/lab/ && python2.7 SpoTyping.py SAMEA2340884_1.fastq.gz SAMEA2340884_2.fastq.gz -o SAMEA2340884_spo.out"
+
+ $$$$$$$$$$ 
+
+vagrant ssh -c "cd /vagrant/africanum_analysis/lab/ && python2.7 SpoTyping.py SAMEA2340885_1.fastq.gz SAMEA2340885_2.fastq.gz -o SAMEA2340885_spo.out"
+
+ $$$$$$$$$$ 
+
+vagrant ssh -c "cd /vagrant/africanum_analysis/lab/ && python2.7 SpoTyping.py SAMEA2340887_1.fastq.gz SAMEA2340887_2.fastq.gz -o SAMEA2340887_spo.out"
+
+ $$$$$$$$$$ 
+
+vagrant ssh -c "cd /vagrant/africanum_analysis/lab/ && python2.7 SpoTyping.py SAMEA2340888_1.fastq.gz SAMEA2340888_2.fastq.gz -o SAMEA2340888_spo.out"
+
+ $$$$$$$$$$ 
+
+vagrant ssh -c "cd /vagrant/africanum_analysis/lab/ && python2.7 SpoTyping.py SAMEA2340889_1.fastq.gz SAMEA2340889_2.fastq.gz -o SAMEA2340889_spo.out"
+
+ $$$$$$$$$$ 
+
+vagrant ssh -c "cd /vagrant/africanum_analysis/lab/ && python2.7 SpoTyping.py SAMEA2340890_1.fastq.gz SAMEA2340890_2.fastq.gz -o SAMEA2340890_spo.out"
+
+ $$$$$$$$$$ 
+
+vagrant ssh -c "cd /vagrant/africanum_analysis/lab/ && python2.7 SpoTyping.py SAMEA2340891_1.fastq.gz SAMEA2340891_2.fastq.gz -o SAMEA2340891_spo.out"
+
+ $$$$$$$$$$ 
+
+vagrant ssh -c "cd /vagrant/africanum_analysis/lab/ && python2.7 SpoTyping.py SAMEA2340892_1.fastq.gz SAMEA2340892_2.fastq.gz -o SAMEA2340892_spo.out"
+
+ $$$$$$$$$$ 

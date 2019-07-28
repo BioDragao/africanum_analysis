@@ -1,0 +1,922 @@
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LANG = "C.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+[14:09:33] Loading Snippy folders
+[14:09:33] Using ID 'SAMEA2794337' for SAMEA2794337
+[14:09:34] SAMEA2794337: found 2047 variants totalling 2165 bp in SAMEA2794337/snps.tab
+[14:09:35] Using ID 'SAMEA2340940' for SAMEA2340940
+[14:09:38] SAMEA2340940: found 44205 variants totalling 91049 bp in SAMEA2340940/snps.tab
+[14:09:38] Using ID 'SAMEA3359895' for SAMEA3359895
+[14:09:38] SAMEA3359895: found 743 variants totalling 796 bp in SAMEA3359895/snps.tab
+[14:09:38] Using ID 'SAMEA2340885' for SAMEA2340885
+[14:09:38] SAMEA2340885: found 0 variants totalling 0 bp in SAMEA2340885/snps.tab
+[14:09:38] Using ID 'SAMEA3250476' for SAMEA3250476
+[14:09:38] SAMEA3250476: found 1979 variants totalling 2081 bp in SAMEA3250476/snps.tab
+[14:09:38] Using ID 'SAMEA3504601' for SAMEA3504601
+[14:09:38] SAMEA3504601: found 2076 variants totalling 2224 bp in SAMEA3504601/snps.tab
+[14:09:38] Using ID 'SAMEA3504621' for SAMEA3504621
+[14:09:38] SAMEA3504621: found 2115 variants totalling 2281 bp in SAMEA3504621/snps.tab
+[14:09:38] Using ID 'SAMEA2340905' for SAMEA2340905
+[14:09:38] SAMEA2340905: found 134 variants totalling 311 bp in SAMEA2340905/snps.tab
+[14:09:38] Using ID 'SAMEA2794329' for SAMEA2794329
+[14:09:38] SAMEA2794329: found 2074 variants totalling 2197 bp in SAMEA2794329/snps.tab
+[14:09:38] Using ID 'SAMEA3359890' for SAMEA3359890
+[14:09:39] SAMEA3359890: found 2070 variants totalling 2182 bp in SAMEA3359890/snps.tab
+[14:09:39] Using ID 'SAMEA2340874' for SAMEA2340874
+[14:09:39] SAMEA2340874: found 1830 variants totalling 1897 bp in SAMEA2340874/snps.tab
+[14:09:39] Using ID 'SAMEA2794339' for SAMEA2794339
+[14:09:39] SAMEA2794339: found 120 variants totalling 201 bp in SAMEA2794339/snps.tab
+[14:09:39] Using ID 'SAMEA2340883' for SAMEA2340883
+[14:09:39] SAMEA2340883: found 1913 variants totalling 4293 bp in SAMEA2340883/snps.tab
+[14:09:39] Using ID 'SAMEA3246143' for SAMEA3246143
+[14:09:39] SAMEA3246143: found 2008 variants totalling 2117 bp in SAMEA3246143/snps.tab
+[14:09:39] Using ID 'SAMEA1877285' for SAMEA1877285
+[14:09:39] SAMEA1877285: found 2175 variants totalling 2289 bp in SAMEA1877285/snps.tab
+[14:09:39] Using ID 'SAMEA2340928' for SAMEA2340928
+[14:09:40] SAMEA2340928: found 784 variants totalling 826 bp in SAMEA2340928/snps.tab
+[14:09:40] Using ID 'SAMEA2627043' for SAMEA2627043
+[14:09:40] SAMEA2627043: found 2110 variants totalling 2260 bp in SAMEA2627043/snps.tab
+[14:09:40] Using ID 'SAMEA3504598' for SAMEA3504598
+[14:09:40] SAMEA3504598: found 2145 variants totalling 2326 bp in SAMEA3504598/snps.tab
+[14:09:40] Using ID 'SAMEA3359877' for SAMEA3359877
+[14:09:40] SAMEA3359877: found 2126 variants totalling 2304 bp in SAMEA3359877/snps.tab
+[14:09:40] Using ID 'SAMEA1877266_L4' for SAMEA1877266_L4
+[14:09:40] SAMEA1877266_L4: found 875 variants totalling 907 bp in SAMEA1877266_L4/snps.tab
+[14:09:40] Using ID 'SAMEA2794343' for SAMEA2794343
+[14:09:40] SAMEA2794343: found 2209 variants totalling 2331 bp in SAMEA2794343/snps.tab
+[14:09:40] Using ID 'SAMEA1877150' for SAMEA1877150
+[14:09:41] SAMEA1877150: found 2078 variants totalling 2190 bp in SAMEA1877150/snps.tab
+[14:09:41] Using ID 'SAMEA2340887' for SAMEA2340887
+[14:09:41] SAMEA2340887: found 2118 variants totalling 2262 bp in SAMEA2340887/snps.tab
+[14:09:41] Using ID 'SAMEA3359899' for SAMEA3359899
+[14:09:41] SAMEA3359899: found 2107 variants totalling 2242 bp in SAMEA3359899/snps.tab
+[14:09:41] Using ID 'SAMEA3359902' for SAMEA3359902
+[14:09:41] SAMEA3359902: found 2208 variants totalling 2327 bp in SAMEA3359902/snps.tab
+[14:09:41] Using ID 'SAMEA2534569' for SAMEA2534569
+[14:09:41] SAMEA2534569: found 1925 variants totalling 1986 bp in SAMEA2534569/snps.tab
+[14:09:41] Using ID 'SAMEA3905803_MC' for SAMEA3905803_MC
+[14:09:43] SAMEA3905803_MC: found 22831 variants totalling 30753 bp in SAMEA3905803_MC/snps.tab
+[14:09:43] Using ID 'SAMEA2794320' for SAMEA2794320
+[14:09:43] SAMEA2794320: found 2068 variants totalling 2197 bp in SAMEA2794320/snps.tab
+[14:09:43] Using ID 'SAMEA2794357' for SAMEA2794357
+[14:09:43] SAMEA2794357: found 2076 variants totalling 2196 bp in SAMEA2794357/snps.tab
+[14:09:43] Using ID 'SAMEA3504614' for SAMEA3504614
+[14:09:43] SAMEA3504614: found 2141 variants totalling 2307 bp in SAMEA3504614/snps.tab
+[14:09:43] Using ID 'SAMEA3504610' for SAMEA3504610
+[14:09:43] SAMEA3504610: found 2105 variants totalling 2252 bp in SAMEA3504610/snps.tab
+[14:09:43] Using ID 'SAMEA3359884' for SAMEA3359884
+[14:09:43] SAMEA3359884: found 2101 variants totalling 2236 bp in SAMEA3359884/snps.tab
+[14:09:43] Using ID 'SAMEA2627023' for SAMEA2627023
+[14:09:43] SAMEA2627023: found 2070 variants totalling 2197 bp in SAMEA2627023/snps.tab
+[14:09:43] Using ID 'SAMEA3359869' for SAMEA3359869
+[14:09:44] SAMEA3359869: found 2141 variants totalling 2325 bp in SAMEA3359869/snps.tab
+[14:09:44] Using ID 'SAMEA3359913' for SAMEA3359913
+[14:09:44] SAMEA3359913: found 311 variants totalling 332 bp in SAMEA3359913/snps.tab
+[14:09:44] Using ID 'SAMEA2794318' for SAMEA2794318
+[14:09:44] SAMEA2794318: found 2034 variants totalling 2133 bp in SAMEA2794318/snps.tab
+[14:09:44] Using ID 'SAMEA2794340' for SAMEA2794340
+[14:09:44] SAMEA2794340: found 0 variants totalling 0 bp in SAMEA2794340/snps.tab
+[14:09:44] Using ID 'SAMEA2627032' for SAMEA2627032
+[14:09:44] SAMEA2627032: found 2081 variants totalling 2203 bp in SAMEA2627032/snps.tab
+[14:09:44] Using ID 'SAMEA2340912' for SAMEA2340912
+[14:09:44] SAMEA2340912: found 2073 variants totalling 2198 bp in SAMEA2340912/snps.tab
+[14:09:44] Using ID 'SAMEA2340927' for SAMEA2340927
+[14:09:44] SAMEA2340927: found 759 variants totalling 802 bp in SAMEA2340927/snps.tab
+[14:09:44] Using ID 'SAMEA3250479' for SAMEA3250479
+[14:09:45] SAMEA3250479: found 1977 variants totalling 2073 bp in SAMEA3250479/snps.tab
+[14:09:45] Using ID 'SAMEA2627022' for SAMEA2627022
+[14:09:45] SAMEA2627022: found 2025 variants totalling 2146 bp in SAMEA2627022/snps.tab
+[14:09:45] Using ID 'SAMEA2340880' for SAMEA2340880
+[14:09:45] SAMEA2340880: found 2082 variants totalling 2203 bp in SAMEA2340880/snps.tab
+[14:09:45] Using ID 'SAMEA2340935' for SAMEA2340935
+[14:09:45] SAMEA2340935: found 2182 variants totalling 2300 bp in SAMEA2340935/snps.tab
+[14:09:45] Using ID 'SAMEA2534073' for SAMEA2534073
+[14:09:45] SAMEA2534073: found 1638 variants totalling 1695 bp in SAMEA2534073/snps.tab
+[14:09:45] Using ID 'SAMEA3359866' for SAMEA3359866
+[14:09:45] SAMEA3359866: found 2200 variants totalling 2317 bp in SAMEA3359866/snps.tab
+[14:09:45] Using ID 'SAMEA2627018' for SAMEA2627018
+[14:09:46] SAMEA2627018: found 2042 variants totalling 2155 bp in SAMEA2627018/snps.tab
+[14:09:46] Using ID 'SAMEA3504603' for SAMEA3504603
+[14:09:46] SAMEA3504603: found 2110 variants totalling 2233 bp in SAMEA3504603/snps.tab
+[14:09:46] Using ID 'SAMEA2340929' for SAMEA2340929
+[14:09:46] SAMEA2340929: found 754 variants totalling 794 bp in SAMEA2340929/snps.tab
+[14:09:46] Using ID 'SAMEA3359879' for SAMEA3359879
+[14:09:46] SAMEA3359879: found 2233 variants totalling 2362 bp in SAMEA3359879/snps.tab
+[14:09:46] Using ID 'SAMEA3359881' for SAMEA3359881
+[14:09:46] SAMEA3359881: found 2080 variants totalling 2246 bp in SAMEA3359881/snps.tab
+[14:09:46] Using ID 'SAMEA2627039' for SAMEA2627039
+[14:09:46] SAMEA2627039: found 2067 variants totalling 2197 bp in SAMEA2627039/snps.tab
+[14:09:46] Using ID 'SAMEA2627037' for SAMEA2627037
+[14:09:47] SAMEA2627037: found 2080 variants totalling 2185 bp in SAMEA2627037/snps.tab
+[14:09:47] Using ID 'SAMEA2340884' for SAMEA2340884
+[14:09:47] SAMEA2340884: found 1941 variants totalling 4400 bp in SAMEA2340884/snps.tab
+[14:09:47] Using ID 'SAMEA2340901' for SAMEA2340901
+[14:09:47] SAMEA2340901: found 2075 variants totalling 2209 bp in SAMEA2340901/snps.tab
+[14:09:47] Using ID 'SAMEA2627027' for SAMEA2627027
+[14:09:47] SAMEA2627027: found 2204 variants totalling 2332 bp in SAMEA2627027/snps.tab
+[14:09:47] Using ID 'SAMEA2794324' for SAMEA2794324
+[14:09:47] SAMEA2794324: found 2061 variants totalling 2187 bp in SAMEA2794324/snps.tab
+[14:09:47] Using ID 'SAMEA2340895' for SAMEA2340895
+[14:09:47] SAMEA2340895: found 773 variants totalling 809 bp in SAMEA2340895/snps.tab
+[14:09:47] Using ID 'SAMEA2794338' for SAMEA2794338
+[14:09:48] SAMEA2794338: found 780 variants totalling 816 bp in SAMEA2794338/snps.tab
+[14:09:48] Using ID 'SAMEA2794368' for SAMEA2794368
+[14:09:48] SAMEA2794368: found 2072 variants totalling 2198 bp in SAMEA2794368/snps.tab
+[14:09:48] Using ID 'SAMEA3359889' for SAMEA3359889
+[14:09:48] SAMEA3359889: found 1583 variants totalling 1650 bp in SAMEA3359889/snps.tab
+[14:09:48] Using ID 'SAMEA2340908' for SAMEA2340908
+[14:09:48] SAMEA2340908: found 2028 variants totalling 2154 bp in SAMEA2340908/snps.tab
+[14:09:48] Using ID 'SAMEA2627024' for SAMEA2627024
+[14:09:48] SAMEA2627024: found 2070 variants totalling 2198 bp in SAMEA2627024/snps.tab
+[14:09:48] Using ID 'SAMEA3504622' for SAMEA3504622
+[14:09:48] SAMEA3504622: found 778 variants totalling 835 bp in SAMEA3504622/snps.tab
+[14:09:48] Using ID 'SAMEA3359873' for SAMEA3359873
+[14:09:48] SAMEA3359873: found 156 variants totalling 276 bp in SAMEA3359873/snps.tab
+[14:09:48] Using ID 'SAMEA2340947' for SAMEA2340947
+[14:09:49] SAMEA2340947: found 2193 variants totalling 2299 bp in SAMEA2340947/snps.tab
+[14:09:49] Using ID 'SAMEA2340910' for SAMEA2340910
+[14:09:49] SAMEA2340910: found 2163 variants totalling 2282 bp in SAMEA2340910/snps.tab
+[14:09:49] Using ID 'SAMEA3359897' for SAMEA3359897
+[14:09:49] SAMEA3359897: found 2116 variants totalling 2280 bp in SAMEA3359897/snps.tab
+[14:09:49] Using ID 'SAMEA2627006' for SAMEA2627006
+[14:09:49] SAMEA2627006: found 0 variants totalling 0 bp in SAMEA2627006/snps.tab
+[14:09:49] Using ID 'SAMEA2627029' for SAMEA2627029
+[14:09:49] SAMEA2627029: found 2034 variants totalling 2130 bp in SAMEA2627029/snps.tab
+[14:09:49] Using ID 'SAMEA1877237' for SAMEA1877237
+[14:09:49] SAMEA1877237: found 2094 variants totalling 2185 bp in SAMEA1877237/snps.tab
+[14:09:49] Using ID 'SAMEA3504613' for SAMEA3504613
+[14:09:49] SAMEA3504613: found 2085 variants totalling 2227 bp in SAMEA3504613/snps.tab
+[14:09:49] Using ID 'SAMEA2627017' for SAMEA2627017
+[14:09:49] SAMEA2627017: found 2078 variants totalling 2197 bp in SAMEA2627017/snps.tab
+[14:09:49] Using ID 'SAMEA1877101' for SAMEA1877101
+[14:09:50] SAMEA1877101: found 2105 variants totalling 2178 bp in SAMEA1877101/snps.tab
+[14:09:50] Using ID 'SAMEA2340875' for SAMEA2340875
+[14:09:50] SAMEA2340875: found 1574 variants totalling 3047 bp in SAMEA2340875/snps.tab
+[14:09:50] Using ID 'SAMEA1877227' for SAMEA1877227
+[14:09:50] SAMEA1877227: found 1986 variants totalling 2098 bp in SAMEA1877227/snps.tab
+[14:09:50] Using ID 'SAMEA3359910' for SAMEA3359910
+[14:09:50] SAMEA3359910: found 2205 variants totalling 2344 bp in SAMEA3359910/snps.tab
+[14:09:50] Using ID 'SAMEA3359917' for SAMEA3359917
+[14:09:50] SAMEA3359917: found 1858 variants totalling 1956 bp in SAMEA3359917/snps.tab
+[14:09:50] Using ID 'SAMEA2794341' for SAMEA2794341
+[14:09:50] SAMEA2794341: found 851 variants totalling 891 bp in SAMEA2794341/snps.tab
+[14:09:50] Using ID 'SAMEA104358365' for SAMEA104358365
+[14:09:51] SAMEA104358365: found 2146 variants totalling 2276 bp in SAMEA104358365/snps.tab
+[14:09:51] Using ID 'SAMEA2794328' for SAMEA2794328
+[14:09:51] SAMEA2794328: found 2198 variants totalling 2306 bp in SAMEA2794328/snps.tab
+[14:09:51] Using ID 'SAMEA2794347' for SAMEA2794347
+[14:09:51] SAMEA2794347: found 0 variants totalling 0 bp in SAMEA2794347/snps.tab
+[14:09:51] Using ID 'SAMEA2627009' for SAMEA2627009
+[14:09:51] SAMEA2627009: found 2078 variants totalling 2204 bp in SAMEA2627009/snps.tab
+[14:09:51] Using ID 'SAMEA1877177' for SAMEA1877177
+[14:09:51] SAMEA1877177: found 2081 variants totalling 2183 bp in SAMEA1877177/snps.tab
+[14:09:51] Using ID 'SAMEA3504620' for SAMEA3504620
+[14:09:51] SAMEA3504620: found 562 variants totalling 603 bp in SAMEA3504620/snps.tab
+[14:09:51] Using ID 'SAMEA3359883' for SAMEA3359883
+[14:09:51] SAMEA3359883: found 1628 variants totalling 1697 bp in SAMEA3359883/snps.tab
+[14:09:51] Using ID 'SAMEA1877136' for SAMEA1877136
+[14:09:52] SAMEA1877136: found 2036 variants totalling 2131 bp in SAMEA1877136/snps.tab
+[14:09:52] Using ID 'SAMEA2340911' for SAMEA2340911
+[14:09:52] SAMEA2340911: found 533 variants totalling 559 bp in SAMEA2340911/snps.tab
+[14:09:52] Using ID 'SAMEA3359880' for SAMEA3359880
+[14:09:52] SAMEA3359880: found 2099 variants totalling 2240 bp in SAMEA3359880/snps.tab
+[14:09:52] Using ID 'SAMEA2340876' for SAMEA2340876
+[14:09:52] SAMEA2340876: found 2074 variants totalling 2199 bp in SAMEA2340876/snps.tab
+[14:09:52] Using ID 'SAMEA2794333' for SAMEA2794333
+[14:09:52] SAMEA2794333: found 2063 variants totalling 2180 bp in SAMEA2794333/snps.tab
+[14:09:52] Using ID 'SAMEA2627015' for SAMEA2627015
+[14:09:52] SAMEA2627015: found 2006 variants totalling 2113 bp in SAMEA2627015/snps.tab
+[14:09:52] Using ID 'SAMEA2534462' for SAMEA2534462
+[14:09:53] SAMEA2534462: found 1759 variants totalling 1830 bp in SAMEA2534462/snps.tab
+[14:09:53] Using ID 'SAMEA2340882' for SAMEA2340882
+[14:09:53] SAMEA2340882: found 2072 variants totalling 2205 bp in SAMEA2340882/snps.tab
+[14:09:53] Using ID 'SAMEA2627045' for SAMEA2627045
+[14:09:53] SAMEA2627045: found 0 variants totalling 0 bp in SAMEA2627045/snps.tab
+[14:09:53] Using ID 'SAMEA3359878' for SAMEA3359878
+[14:09:53] SAMEA3359878: found 2199 variants totalling 2304 bp in SAMEA3359878/snps.tab
+[14:09:53] Using ID 'SAMEA3359893' for SAMEA3359893
+[14:09:53] SAMEA3359893: found 0 variants totalling 0 bp in SAMEA3359893/snps.tab
+[14:09:53] Using ID 'SAMEA2340890' for SAMEA2340890
+[14:09:53] SAMEA2340890: found 138 variants totalling 293 bp in SAMEA2340890/snps.tab
+[14:09:53] Using ID 'SAMEA2340889' for SAMEA2340889
+[14:09:53] SAMEA2340889: found 146 variants totalling 323 bp in SAMEA2340889/snps.tab
+[14:09:53] Using ID 'SAMEA1877233' for SAMEA1877233
+[14:09:53] SAMEA1877233: found 2101 variants totalling 2203 bp in SAMEA1877233/snps.tab
+[14:09:53] Using ID 'SAMEA2340942' for SAMEA2340942
+[14:09:53] SAMEA2340942: found 2184 variants totalling 2289 bp in SAMEA2340942/snps.tab
+[14:09:53] Using ID 'SAMEA2340907' for SAMEA2340907
+[14:09:54] SAMEA2340907: found 2086 variants totalling 2221 bp in SAMEA2340907/snps.tab
+[14:09:54] Using ID 'SAMEA2794366' for SAMEA2794366
+[14:09:54] SAMEA2794366: found 2025 variants totalling 2143 bp in SAMEA2794366/snps.tab
+[14:09:54] Using ID 'SAMEA2340898' for SAMEA2340898
+[14:09:54] SAMEA2340898: found 823 variants totalling 859 bp in SAMEA2340898/snps.tab
+[14:09:54] Using ID 'SAMEA1877098' for SAMEA1877098
+[14:09:54] SAMEA1877098: found 1981 variants totalling 2083 bp in SAMEA1877098/snps.tab
+[14:09:54] Using ID 'SAMEA3359892' for SAMEA3359892
+[14:09:54] SAMEA3359892: found 0 variants totalling 0 bp in SAMEA3359892/snps.tab
+[14:09:54] Using ID 'SAMEA2340926' for SAMEA2340926
+[14:09:54] SAMEA2340926: found 755 variants totalling 792 bp in SAMEA2340926/snps.tab
+[14:09:54] Using ID 'SAMEA2340931' for SAMEA2340931
+[14:09:54] SAMEA2340931: found 2194 variants totalling 2300 bp in SAMEA2340931/snps.tab
+[14:09:54] Using ID 'SAMEA3359875' for SAMEA3359875
+[14:09:54] SAMEA3359875: found 2069 variants totalling 2221 bp in SAMEA3359875/snps.tab
+[14:09:54] Using ID 'SAMEA2794327' for SAMEA2794327
+[14:09:55] SAMEA2794327: found 2083 variants totalling 2204 bp in SAMEA2794327/snps.tab
+[14:09:55] Using ID 'SAMEA2340909' for SAMEA2340909
+[14:09:55] SAMEA2340909: found 2086 variants totalling 2220 bp in SAMEA2340909/snps.tab
+[14:09:55] Using ID 'SAMEA2340924' for SAMEA2340924
+[14:09:55] SAMEA2340924: found 1594 variants totalling 1658 bp in SAMEA2340924/snps.tab
+[14:09:55] Using ID 'SAMEA2340903' for SAMEA2340903
+[14:09:55] SAMEA2340903: found 0 variants totalling 0 bp in SAMEA2340903/snps.tab
+[14:09:55] Using ID 'SAMEA3359887' for SAMEA3359887
+[14:09:55] SAMEA3359887: found 2089 variants totalling 2258 bp in SAMEA3359887/snps.tab
+[14:09:55] Using ID 'SAMEA2794314' for SAMEA2794314
+[14:09:55] SAMEA2794314: found 1428 variants totalling 1517 bp in SAMEA2794314/snps.tab
+[14:09:55] Using ID 'SAMEA2794363' for SAMEA2794363
+[14:09:55] SAMEA2794363: found 951 variants totalling 984 bp in SAMEA2794363/snps.tab
+[14:09:55] Using ID 'SAMEA2794326' for SAMEA2794326
+[14:09:55] SAMEA2794326: found 2090 variants totalling 2217 bp in SAMEA2794326/snps.tab
+[14:09:55] Using ID 'SAMEA2794345' for SAMEA2794345
+[14:09:55] SAMEA2794345: found 2066 variants totalling 2197 bp in SAMEA2794345/snps.tab
+[14:09:55] Using ID 'SAMEA3504605' for SAMEA3504605
+[14:09:56] SAMEA3504605: found 2115 variants totalling 2269 bp in SAMEA3504605/snps.tab
+[14:09:56] Using ID 'SAMEA2794315' for SAMEA2794315
+[14:09:56] SAMEA2794315: found 1122 variants totalling 1203 bp in SAMEA2794315/snps.tab
+[14:09:56] Using ID 'SAMEA2627011' for SAMEA2627011
+[14:09:57] SAMEA2627011: found 22163 variants totalling 50952 bp in SAMEA2627011/snps.tab
+[14:09:57] Using ID 'SAMEA2535035' for SAMEA2535035
+[14:09:57] SAMEA2535035: found 2088 variants totalling 2183 bp in SAMEA2535035/snps.tab
+[14:09:57] Using ID 'SAMEA1877169_L5' for SAMEA1877169_L5
+[14:09:58] SAMEA1877169_L5: found 1985 variants totalling 2081 bp in SAMEA1877169_L5/snps.tab
+[14:09:58] Using ID 'SAMEA3359870' for SAMEA3359870
+[14:09:58] SAMEA3359870: found 0 variants totalling 0 bp in SAMEA3359870/snps.tab
+[14:09:58] Using ID 'SAMEA2627030' for SAMEA2627030
+[14:09:58] SAMEA2627030: found 2258 variants totalling 2361 bp in SAMEA2627030/snps.tab
+[14:09:58] Using ID 'SAMEA2340900' for SAMEA2340900
+[14:09:58] SAMEA2340900: found 142 variants totalling 307 bp in SAMEA2340900/snps.tab
+[14:09:58] Using ID 'SAMEA2340897' for SAMEA2340897
+[14:09:58] SAMEA2340897: found 137 variants totalling 303 bp in SAMEA2340897/snps.tab
+[14:09:58] Using ID 'SAMEA2340902' for SAMEA2340902
+[14:09:58] SAMEA2340902: found 795 variants totalling 836 bp in SAMEA2340902/snps.tab
+[14:09:58] Using ID 'SAMEA2534357' for SAMEA2534357
+[14:09:58] SAMEA2534357: found 1878 variants totalling 1934 bp in SAMEA2534357/snps.tab
+[14:09:58] Using ID 'SAMEA3504597' for SAMEA3504597
+[14:09:58] SAMEA3504597: found 2119 variants totalling 2268 bp in SAMEA3504597/snps.tab
+[14:09:58] Using ID 'SAMEA2340948' for SAMEA2340948
+[14:09:58] SAMEA2340948: found 2355 variants totalling 2495 bp in SAMEA2340948/snps.tab
+[14:09:58] Using ID 'SAMEA1877142' for SAMEA1877142
+[14:09:59] SAMEA1877142: found 2097 variants totalling 2204 bp in SAMEA1877142/snps.tab
+[14:09:59] Using ID 'SAMEA2794369' for SAMEA2794369
+[14:09:59] SAMEA2794369: found 758 variants totalling 800 bp in SAMEA2794369/snps.tab
+[14:09:59] Using ID 'SAMEA1877112_L1' for SAMEA1877112_L1
+[14:09:59] SAMEA1877112_L1: found 1946 variants totalling 2024 bp in SAMEA1877112_L1/snps.tab
+[14:09:59] Using ID 'SAMEA3359918' for SAMEA3359918
+[14:09:59] SAMEA3359918: found 1978 variants totalling 2093 bp in SAMEA3359918/snps.tab
+[14:09:59] Using ID 'SAMEA2340918' for SAMEA2340918
+[14:10:00] SAMEA2340918: found 21913 variants totalling 50195 bp in SAMEA2340918/snps.tab
+[14:10:00] Using ID 'SAMEA2340914' for SAMEA2340914
+[14:10:01] SAMEA2340914: found 2016 variants totalling 2108 bp in SAMEA2340914/snps.tab
+[14:10:01] Using ID 'SAMEA1877169' for SAMEA1877169
+[14:10:01] SAMEA1877169: found 1985 variants totalling 2081 bp in SAMEA1877169/snps.tab
+[14:10:01] Using ID 'SAMEA2794335' for SAMEA2794335
+[14:10:01] SAMEA2794335: found 2091 variants totalling 2212 bp in SAMEA2794335/snps.tab
+[14:10:01] Using ID 'SAMEA2794356' for SAMEA2794356
+[14:10:01] SAMEA2794356: found 0 variants totalling 0 bp in SAMEA2794356/snps.tab
+[14:10:01] Using ID 'SAMEA1877165' for SAMEA1877165
+[14:10:01] SAMEA1877165: found 1958 variants totalling 2053 bp in SAMEA1877165/snps.tab
+[14:10:01] Using ID 'SAMEA2794362' for SAMEA2794362
+[14:10:01] SAMEA2794362: found 2045 variants totalling 2162 bp in SAMEA2794362/snps.tab
+[14:10:01] Using ID 'SAMEA3359882' for SAMEA3359882
+[14:10:01] SAMEA3359882: found 2034 variants totalling 2175 bp in SAMEA3359882/snps.tab
+[14:10:01] Using ID 'SAMEA3504625' for SAMEA3504625
+[14:10:02] SAMEA3504625: found 743 variants totalling 794 bp in SAMEA3504625/snps.tab
+[14:10:02] Using ID 'SAMEA3359891' for SAMEA3359891
+[14:10:02] SAMEA3359891: found 2058 variants totalling 2158 bp in SAMEA3359891/snps.tab
+[14:10:02] Using ID 'SAMEA3359871' for SAMEA3359871
+[14:10:02] SAMEA3359871: found 2104 variants totalling 2271 bp in SAMEA3359871/snps.tab
+[14:10:02] Using ID 'SAMEA3359915' for SAMEA3359915
+[14:10:03] SAMEA3359915: found 2124 variants totalling 2282 bp in SAMEA3359915/snps.tab
+[14:10:03] Using ID 'SAMEA2794371' for SAMEA2794371
+[14:10:03] SAMEA2794371: found 2056 variants totalling 2185 bp in SAMEA2794371/snps.tab
+[14:10:03] Using ID 'SAMEA3359914' for SAMEA3359914
+[14:10:03] SAMEA3359914: found 2109 variants totalling 2265 bp in SAMEA3359914/snps.tab
+[14:10:03] Using ID 'SAMEA2627025' for SAMEA2627025
+[14:10:04] SAMEA2627025: found 2057 variants totalling 2184 bp in SAMEA2627025/snps.tab
+[14:10:04] Using ID 'SAMEA2794330' for SAMEA2794330
+[14:10:04] SAMEA2794330: found 2097 variants totalling 2227 bp in SAMEA2794330/snps.tab
+[14:10:04] Using ID 'SAMEA3250478' for SAMEA3250478
+[14:10:04] SAMEA3250478: found 1982 variants totalling 2083 bp in SAMEA3250478/snps.tab
+[14:10:04] Using ID 'SAMEA2627042' for SAMEA2627042
+[14:10:04] SAMEA2627042: found 2043 variants totalling 2153 bp in SAMEA2627042/snps.tab
+[14:10:04] Using ID 'SAMEA3359894' for SAMEA3359894
+[14:10:04] SAMEA3359894: found 2193 variants totalling 2330 bp in SAMEA3359894/snps.tab
+[14:10:04] Using ID 'SAMEA2794354' for SAMEA2794354
+[14:10:05] SAMEA2794354: found 2152 variants totalling 2263 bp in SAMEA2794354/snps.tab
+[14:10:05] Using ID 'SAMEA2340891' for SAMEA2340891
+[14:10:05] SAMEA2340891: found 130 variants totalling 290 bp in SAMEA2340891/snps.tab
+[14:10:05] Using ID 'SAMEA2340930' for SAMEA2340930
+[14:10:05] SAMEA2340930: found 2174 variants totalling 2284 bp in SAMEA2340930/snps.tab
+[14:10:05] Using ID 'SAMEA3504612' for SAMEA3504612
+[14:10:05] SAMEA3504612: found 2102 variants totalling 2264 bp in SAMEA3504612/snps.tab
+[14:10:05] Using ID 'SAMEA2534321' for SAMEA2534321
+[14:10:05] SAMEA2534321: found 2075 variants totalling 2287 bp in SAMEA2534321/snps.tab
+[14:10:05] Using ID 'SAMEA2340916' for SAMEA2340916
+[14:10:05] SAMEA2340916: found 2093 variants totalling 2225 bp in SAMEA2340916/snps.tab
+[14:10:05] Using ID 'SAMEA3359876' for SAMEA3359876
+[14:10:05] SAMEA3359876: found 2069 variants totalling 2238 bp in SAMEA3359876/snps.tab
+[14:10:05] Using ID 'SAMEA1877219_L2' for SAMEA1877219_L2
+[14:10:05] SAMEA1877219_L2: found 1327 variants totalling 1417 bp in SAMEA1877219_L2/snps.tab
+[14:10:05] Using ID 'SAMEA3359901' for SAMEA3359901
+[14:10:06] SAMEA3359901: found 2097 variants totalling 2263 bp in SAMEA3359901/snps.tab
+[14:10:06] Using ID 'SAMEA2627010' for SAMEA2627010
+[14:10:09] SAMEA2627010: found 60244 variants totalling 137883 bp in SAMEA2627010/snps.tab
+[14:10:09] Using ID 'SAMEA3359896' for SAMEA3359896
+[14:10:10] SAMEA3359896: found 2120 variants totalling 2288 bp in SAMEA3359896/snps.tab
+[14:10:10] Using ID 'SAMEA2340878' for SAMEA2340878
+[14:10:10] SAMEA2340878: found 1889 variants totalling 4251 bp in SAMEA2340878/snps.tab
+[14:10:10] Using ID 'SAMEA2627040' for SAMEA2627040
+[14:10:10] SAMEA2627040: found 817 variants totalling 847 bp in SAMEA2627040/snps.tab
+[14:10:10] Using ID 'SAMEA2794331' for SAMEA2794331
+[14:10:10] SAMEA2794331: found 2190 variants totalling 2293 bp in SAMEA2794331/snps.tab
+[14:10:10] Using ID 'SAMEA2627020' for SAMEA2627020
+[14:10:10] SAMEA2627020: found 2043 variants totalling 2161 bp in SAMEA2627020/snps.tab
+[14:10:10] Using ID 'SAMEA2794336' for SAMEA2794336
+[14:10:11] SAMEA2794336: found 2075 variants totalling 2180 bp in SAMEA2794336/snps.tab
+[14:10:11] Using ID 'SAMEA2534473' for SAMEA2534473
+[14:10:11] SAMEA2534473: found 1939 variants totalling 2020 bp in SAMEA2534473/snps.tab
+[14:10:11] Using ID 'SAMEA3504595' for SAMEA3504595
+[14:10:11] SAMEA3504595: found 2043 variants totalling 2157 bp in SAMEA3504595/snps.tab
+[14:10:11] Using ID 'SAMEA2794350' for SAMEA2794350
+[14:10:11] SAMEA2794350: found 2070 variants totalling 2190 bp in SAMEA2794350/snps.tab
+[14:10:11] Using ID 'SAMEA3359868' for SAMEA3359868
+[14:10:11] SAMEA3359868: found 2197 variants totalling 2331 bp in SAMEA3359868/snps.tab
+[14:10:11] Using ID 'SAMEA2340888' for SAMEA2340888
+[14:10:11] SAMEA2340888: found 1990 variants totalling 4480 bp in SAMEA2340888/snps.tab
+[14:10:11] Using ID 'SAMEA1877126' for SAMEA1877126
+[14:10:11] SAMEA1877126: found 1909 variants totalling 1996 bp in SAMEA1877126/snps.tab
+[14:10:11] Using ID 'SAMEA2627044' for SAMEA2627044
+[14:10:12] SAMEA2627044: found 775 variants totalling 810 bp in SAMEA2627044/snps.tab
+[14:10:12] Using ID 'SAMEA2340894' for SAMEA2340894
+[14:10:12] SAMEA2340894: found 2033 variants totalling 2154 bp in SAMEA2340894/snps.tab
+[14:10:12] Using ID 'SAMEA2340877' for SAMEA2340877
+[14:10:12] SAMEA2340877: found 154 variants totalling 257 bp in SAMEA2340877/snps.tab
+[14:10:12] Using ID 'SAMEA3504606' for SAMEA3504606
+[14:10:12] SAMEA3504606: found 2109 variants totalling 2259 bp in SAMEA3504606/snps.tab
+[14:10:12] Using ID 'SAMEA2794370' for SAMEA2794370
+[14:10:12] SAMEA2794370: found 0 variants totalling 0 bp in SAMEA2794370/snps.tab
+[14:10:12] Using ID 'SAMEA2340917' for SAMEA2340917
+[14:10:14] SAMEA2340917: found 22164 variants totalling 51104 bp in SAMEA2340917/snps.tab
+[14:10:14] Using ID 'SAMEA3359874' for SAMEA3359874
+[14:10:14] SAMEA3359874: found 2099 variants totalling 2278 bp in SAMEA3359874/snps.tab
+[14:10:14] Using ID 'SAMEA1877181_L3' for SAMEA1877181_L3
+[14:10:14] SAMEA1877181_L3: found 1331 variants totalling 1401 bp in SAMEA1877181_L3/snps.tab
+[14:10:14] Using ID 'SAMEA2534751' for SAMEA2534751
+[14:10:14] SAMEA2534751: found 1930 variants totalling 2011 bp in SAMEA2534751/snps.tab
+[14:10:14] Using ID 'SAMEA3504611' for SAMEA3504611
+[14:10:14] SAMEA3504611: found 2093 variants totalling 2232 bp in SAMEA3504611/snps.tab
+[14:10:14] Using ID 'SAMEA3359903' for SAMEA3359903
+[14:10:14] SAMEA3359903: found 2063 variants totalling 2214 bp in SAMEA3359903/snps.tab
+[14:10:14] Using ID 'SAMEA2627019' for SAMEA2627019
+[14:10:14] SAMEA2627019: found 2023 variants totalling 2146 bp in SAMEA2627019/snps.tab
+[14:10:14] Using ID 'SAMEA2794313' for SAMEA2794313
+[14:10:14] SAMEA2794313: found 1846 variants totalling 1958 bp in SAMEA2794313/snps.tab
+[14:10:14] Using ID 'SAMEA2627012' for SAMEA2627012
+[14:10:17] SAMEA2627012: found 41988 variants totalling 85064 bp in SAMEA2627012/snps.tab
+[14:10:17] Using ID 'SAMEA3359909' for SAMEA3359909
+[14:10:17] SAMEA3359909: found 2080 variants totalling 2223 bp in SAMEA3359909/snps.tab
+[14:10:17] Using ID 'SAMEA3504604' for SAMEA3504604
+[14:10:18] SAMEA3504604: found 2058 variants totalling 2218 bp in SAMEA3504604/snps.tab
+[14:10:18] Using ID 'SAMEA2794316' for SAMEA2794316
+[14:10:18] SAMEA2794316: found 2175 variants totalling 2273 bp in SAMEA2794316/snps.tab
+[14:10:18] Using ID 'SAMEA2794355' for SAMEA2794355
+[14:10:18] SAMEA2794355: found 2022 variants totalling 2153 bp in SAMEA2794355/snps.tab
+[14:10:18] Using ID 'SAMEA2340893' for SAMEA2340893
+[14:10:18] SAMEA2340893: found 137 variants totalling 287 bp in SAMEA2340893/snps.tab
+[14:10:18] Using ID 'SAMEA2794361' for SAMEA2794361
+[14:10:18] SAMEA2794361: found 2039 variants totalling 2137 bp in SAMEA2794361/snps.tab
+[14:10:18] Using ID 'SAMEA3359906' for SAMEA3359906
+[14:10:18] SAMEA3359906: found 2118 variants totalling 2262 bp in SAMEA3359906/snps.tab
+[14:10:18] Using ID 'SAMEA2794360' for SAMEA2794360
+[14:10:18] SAMEA2794360: found 2083 variants totalling 2217 bp in SAMEA2794360/snps.tab
+[14:10:18] Using ID 'SAMEA2627026' for SAMEA2627026
+[14:10:18] SAMEA2627026: found 2057 variants totalling 2170 bp in SAMEA2627026/snps.tab
+[14:10:18] Using ID 'SAMEA2340939' for SAMEA2340939
+[14:10:18] SAMEA2340939: found 0 variants totalling 0 bp in SAMEA2340939/snps.tab
+[14:10:18] Using ID 'SAMEA2794312' for SAMEA2794312
+[14:10:19] SAMEA2794312: found 1847 variants totalling 1961 bp in SAMEA2794312/snps.tab
+[14:10:19] Using ID 'SAMEA3246143_L7' for SAMEA3246143_L7
+[14:10:19] SAMEA3246143_L7: found 2008 variants totalling 2117 bp in SAMEA3246143_L7/snps.tab
+[14:10:19] Using ID 'SAMEA2340899' for SAMEA2340899
+[14:10:19] SAMEA2340899: found 134 variants totalling 289 bp in SAMEA2340899/snps.tab
+[14:10:19] Using ID 'SAMEA1877187' for SAMEA1877187
+[14:10:19] SAMEA1877187: found 2001 variants totalling 2093 bp in SAMEA1877187/snps.tab
+[14:10:19] Using ID 'SAMEA2340936' for SAMEA2340936
+[14:10:19] SAMEA2340936: found 2171 variants totalling 2279 bp in SAMEA2340936/snps.tab
+[14:10:19] Using ID 'SAMEA3359867' for SAMEA3359867
+[14:10:19] SAMEA3359867: found 2116 variants totalling 2278 bp in SAMEA3359867/snps.tab
+[14:10:19] Using ID 'SAMEA2340921' for SAMEA2340921
+[14:10:19] SAMEA2340921: found 2150 variants totalling 2257 bp in SAMEA2340921/snps.tab
+[14:10:19] Using ID 'SAMEA2794323' for SAMEA2794323
+[14:10:19] SAMEA2794323: found 1949 variants totalling 2072 bp in SAMEA2794323/snps.tab
+[14:10:19] Using ID 'SAMEA2340915' for SAMEA2340915
+[14:10:19] SAMEA2340915: found 2094 variants totalling 2223 bp in SAMEA2340915/snps.tab
+[14:10:19] Using ID 'SAMEA2794325' for SAMEA2794325
+[14:10:20] SAMEA2794325: found 2101 variants totalling 2245 bp in SAMEA2794325/snps.tab
+[14:10:20] Using ID 'SAMEA2794353' for SAMEA2794353
+[14:10:20] SAMEA2794353: found 2209 variants totalling 2340 bp in SAMEA2794353/snps.tab
+[14:10:20] Using ID 'SAMEA2794332' for SAMEA2794332
+[14:10:20] SAMEA2794332: found 2018 variants totalling 2122 bp in SAMEA2794332/snps.tab
+[14:10:20] Using ID 'SAMEA3359907' for SAMEA3359907
+[14:10:20] SAMEA3359907: found 0 variants totalling 0 bp in SAMEA3359907/snps.tab
+[14:10:20] Using ID 'SAMEA2794349' for SAMEA2794349
+[14:10:20] SAMEA2794349: found 2096 variants totalling 2230 bp in SAMEA2794349/snps.tab
+[14:10:20] Using ID 'SAMEA1877117' for SAMEA1877117
+[14:10:20] SAMEA1877117: found 2140 variants totalling 2223 bp in SAMEA1877117/snps.tab
+[14:10:20] Using ID 'SAMEA3504602' for SAMEA3504602
+[14:10:20] SAMEA3504602: found 2121 variants totalling 2293 bp in SAMEA3504602/snps.tab
+[14:10:20] Using ID 'SAMEA3359885' for SAMEA3359885
+[14:10:20] SAMEA3359885: found 2125 variants totalling 2282 bp in SAMEA3359885/snps.tab
+[14:10:20] Using ID 'SAMEA2627005' for SAMEA2627005
+[14:10:21] SAMEA2627005: found 2067 variants totalling 2185 bp in SAMEA2627005/snps.tab
+[14:10:21] Using ID 'SAMEA2794365' for SAMEA2794365
+[14:10:21] SAMEA2794365: found 2182 variants totalling 2287 bp in SAMEA2794365/snps.tab
+[14:10:21] Using ID 'SAMEA1877190' for SAMEA1877190
+[14:10:21] SAMEA1877190: found 2185 variants totalling 2291 bp in SAMEA1877190/snps.tab
+[14:10:21] Using ID 'SAMEA3504599' for SAMEA3504599
+[14:10:21] SAMEA3504599: found 2107 variants totalling 2255 bp in SAMEA3504599/snps.tab
+[14:10:21] Using ID 'SAMEA3504624' for SAMEA3504624
+[14:10:21] SAMEA3504624: found 2088 variants totalling 2241 bp in SAMEA3504624/snps.tab
+[14:10:21] Using ID 'SAMEA3504609' for SAMEA3504609
+[14:10:21] SAMEA3504609: found 2102 variants totalling 2262 bp in SAMEA3504609/snps.tab
+[14:10:21] Using ID 'SAMEA2794359' for SAMEA2794359
+[14:10:22] SAMEA2794359: found 2054 variants totalling 2167 bp in SAMEA2794359/snps.tab
+[14:10:22] Using ID 'SAMN11492960_MAFBRA00707' for SAMN11492960_MAFBRA00707
+[14:10:22] SAMN11492960_MAFBRA00707: found 2122 variants totalling 2265 bp in SAMN11492960_MAFBRA00707/snps.tab
+[14:10:22] Using ID 'SAMN04479830_UT307' for SAMN04479830_UT307
+[14:10:22] SAMN04479830_UT307: found 2205 variants totalling 2342 bp in SAMN04479830_UT307/snps.tab
+[14:10:22] Using ID 'SAMEA3504615' for SAMEA3504615
+[14:10:22] SAMEA3504615: found 2219 variants totalling 2354 bp in SAMEA3504615/snps.tab
+[14:10:22] Using ID 'SAMEA2627016' for SAMEA2627016
+[14:10:22] SAMEA2627016: found 2088 variants totalling 2204 bp in SAMEA2627016/snps.tab
+[14:10:22] Using ID 'SAMEA2794352' for SAMEA2794352
+[14:10:22] SAMEA2794352: found 2034 variants totalling 2134 bp in SAMEA2794352/snps.tab
+[14:10:22] Using ID 'SAMEA3359898' for SAMEA3359898
+[14:10:23] SAMEA3359898: found 2241 variants totalling 2391 bp in SAMEA3359898/snps.tab
+[14:10:23] Using ID 'SAMEA2627007' for SAMEA2627007
+[14:10:23] SAMEA2627007: found 2156 variants totalling 2269 bp in SAMEA2627007/snps.tab
+[14:10:23] Using ID 'SAMEA3359919' for SAMEA3359919
+[14:10:23] SAMEA3359919: found 728 variants totalling 760 bp in SAMEA3359919/snps.tab
+[14:10:23] Using ID 'SAMEA1877152' for SAMEA1877152
+[14:10:23] SAMEA1877152: found 1842 variants totalling 1931 bp in SAMEA1877152/snps.tab
+[14:10:23] Using ID 'SAMEA3359904' for SAMEA3359904
+[14:10:23] SAMEA3359904: found 2220 variants totalling 2361 bp in SAMEA3359904/snps.tab
+[14:10:23] Using ID 'SAMEA2340946' for SAMEA2340946
+[14:10:23] SAMEA2340946: found 2075 variants totalling 2209 bp in SAMEA2340946/snps.tab
+[14:10:23] Using ID 'SAMEA2794319' for SAMEA2794319
+[14:10:23] SAMEA2794319: found 2162 variants totalling 2292 bp in SAMEA2794319/snps.tab
+[14:10:23] Using ID 'SAMEA1877139' for SAMEA1877139
+[14:10:24] SAMEA1877139: found 2047 variants totalling 2156 bp in SAMEA1877139/snps.tab
+[14:10:24] Using ID 'SAMEA2340945' for SAMEA2340945
+[14:10:24] SAMEA2340945: found 1307 variants totalling 1372 bp in SAMEA2340945/snps.tab
+[14:10:24] Using ID 'SAMEA2340896' for SAMEA2340896
+[14:10:24] SAMEA2340896: found 133 variants totalling 290 bp in SAMEA2340896/snps.tab
+[14:10:24] Using ID 'SAMEA1877229' for SAMEA1877229
+[14:10:24] SAMEA1877229: found 1967 variants totalling 2076 bp in SAMEA1877229/snps.tab
+[14:10:24] Using ID 'SAMEA3359916' for SAMEA3359916
+[14:10:24] SAMEA3359916: found 2126 variants totalling 2274 bp in SAMEA3359916/snps.tab
+[14:10:24] Using ID 'SAMEA1877073' for SAMEA1877073
+[14:10:24] SAMEA1877073: found 1957 variants totalling 2079 bp in SAMEA1877073/snps.tab
+[14:10:24] Using ID 'SAMEA2340938' for SAMEA2340938
+[14:10:24] SAMEA2340938: found 2182 variants totalling 2290 bp in SAMEA2340938/snps.tab
+[14:10:24] Using ID 'SAMEA3359908' for SAMEA3359908
+[14:10:24] SAMEA3359908: found 2071 variants totalling 2196 bp in SAMEA3359908/snps.tab
+[14:10:24] Using ID 'SAMEA2340892' for SAMEA2340892
+[14:10:24] SAMEA2340892: found 127 variants totalling 277 bp in SAMEA2340892/snps.tab
+[14:10:24] Using ID 'SAMEA3504607' for SAMEA3504607
+[14:10:25] SAMEA3504607: found 2198 variants totalling 2341 bp in SAMEA3504607/snps.tab
+[14:10:25] Using ID 'SAMEA1877132' for SAMEA1877132
+[14:10:25] SAMEA1877132: found 2010 variants totalling 2103 bp in SAMEA1877132/snps.tab
+[14:10:25] Using ID 'SAMEA2534695' for SAMEA2534695
+[14:10:25] SAMEA2534695: found 1955 variants totalling 2055 bp in SAMEA2534695/snps.tab
+[14:10:25] Using ID 'SAMEA1877207' for SAMEA1877207
+[14:10:25] SAMEA1877207: found 1955 variants totalling 2072 bp in SAMEA1877207/snps.tab
+[14:10:25] Using ID 'SAMEA2627033' for SAMEA2627033
+[14:10:25] SAMEA2627033: found 469 variants totalling 516 bp in SAMEA2627033/snps.tab
+[14:10:25] Using ID 'SAMEA1877206' for SAMEA1877206
+[14:10:25] SAMEA1877206: found 1933 variants totalling 2016 bp in SAMEA1877206/snps.tab
+[14:10:25] Using ID 'SAMEA3359872' for SAMEA3359872
+[14:10:25] SAMEA3359872: found 2139 variants totalling 2315 bp in SAMEA3359872/snps.tab
+[14:10:25] Using ID 'SAMEA2627008' for SAMEA2627008
+[14:10:26] SAMEA2627008: found 2071 variants totalling 2205 bp in SAMEA2627008/snps.tab
+[14:10:26] Using ID 'SAMEA2340879' for SAMEA2340879
+[14:10:26] SAMEA2340879: found 1924 variants totalling 4341 bp in SAMEA2340879/snps.tab
+[14:10:26] Using ID 'SAMEA3250477' for SAMEA3250477
+[14:10:26] SAMEA3250477: found 1944 variants totalling 2035 bp in SAMEA3250477/snps.tab
+[14:10:26] Using ID 'SAMEA2340920' for SAMEA2340920
+[14:10:26] SAMEA2340920: found 2076 variants totalling 2203 bp in SAMEA2340920/snps.tab
+[14:10:26] Using ID 'SAMEA2340923' for SAMEA2340923
+[14:10:26] SAMEA2340923: found 2202 variants totalling 2310 bp in SAMEA2340923/snps.tab
+[14:10:26] Using ID 'SAMEA2340941' for SAMEA2340941
+[14:10:26] SAMEA2340941: found 2173 variants totalling 2281 bp in SAMEA2340941/snps.tab
+[14:10:26] Using ID 'SAMEA2794322' for SAMEA2794322
+[14:10:26] SAMEA2794322: found 642 variants totalling 688 bp in SAMEA2794322/snps.tab
+[14:10:26] Using ID 'SAMEA2340913' for SAMEA2340913
+[14:10:27] SAMEA2340913: found 2187 variants totalling 2296 bp in SAMEA2340913/snps.tab
+[14:10:27] Using ID 'SAMEA3359905' for SAMEA3359905
+[14:10:27] SAMEA3359905: found 2101 variants totalling 2228 bp in SAMEA3359905/snps.tab
+[14:10:27] Using ID 'SAMEA2627013' for SAMEA2627013
+[14:10:27] SAMEA2627013: found 2058 variants totalling 2173 bp in SAMEA2627013/snps.tab
+[14:10:27] Using ID 'SAMEA1877150_L6' for SAMEA1877150_L6
+[14:10:27] SAMEA1877150_L6: found 2078 variants totalling 2190 bp in SAMEA1877150_L6/snps.tab
+[14:10:27] Using ID 'SAMEA2627031' for SAMEA2627031
+[14:10:27] SAMEA2627031: found 2149 variants totalling 2271 bp in SAMEA2627031/snps.tab
+[14:10:27] Using ID 'SAMEA3504608' for SAMEA3504608
+[14:10:27] SAMEA3504608: found 0 variants totalling 0 bp in SAMEA3504608/snps.tab
+[14:10:27] Using ID 'SAMEA2794321' for SAMEA2794321
+[14:10:27] SAMEA2794321: found 2088 variants totalling 2225 bp in SAMEA2794321/snps.tab
+[14:10:27] Using ID 'SAMEA2794358' for SAMEA2794358
+[14:10:28] SAMEA2794358: found 2093 variants totalling 2211 bp in SAMEA2794358/snps.tab
+[14:10:28] Using ID 'SAMEA2794317' for SAMEA2794317
+[14:10:28] SAMEA2794317: found 2057 variants totalling 2190 bp in SAMEA2794317/snps.tab
+[14:10:28] Using ID 'SAMEA3504596' for SAMEA3504596
+[14:10:28] SAMEA3504596: found 2104 variants totalling 2261 bp in SAMEA3504596/snps.tab
+[14:10:28] Using ID 'SAMEA2794364' for SAMEA2794364
+[14:10:28] SAMEA2794364: found 2158 variants totalling 2290 bp in SAMEA2794364/snps.tab
+[14:10:28] Using ID 'SAMEA2794346' for SAMEA2794346
+[14:10:28] SAMEA2794346: found 2066 variants totalling 2180 bp in SAMEA2794346/snps.tab
+[14:10:28] Using ID 'SAMEA3504600' for SAMEA3504600
+[14:10:28] SAMEA3504600: found 2122 variants totalling 2276 bp in SAMEA3504600/snps.tab
+[14:10:28] Using ID 'SAMEA3359912' for SAMEA3359912
+[14:10:29] SAMEA3359912: found 2044 variants totalling 2179 bp in SAMEA3359912/snps.tab
+[14:10:29] Using ID 'SAMEA2627035' for SAMEA2627035
+[14:10:29] SAMEA2627035: found 2090 variants totalling 2212 bp in SAMEA2627035/snps.tab
+[14:10:29] Using ID 'SAMEA2794367' for SAMEA2794367
+[14:10:29] SAMEA2794367: found 2066 variants totalling 2190 bp in SAMEA2794367/snps.tab
+[14:10:29] Using ID 'SAMEA2627038' for SAMEA2627038
+[14:10:29] SAMEA2627038: found 2073 variants totalling 2213 bp in SAMEA2627038/snps.tab
+[14:10:29] Using ID 'SAMEA2794342' for SAMEA2794342
+[14:10:29] SAMEA2794342: found 2050 variants totalling 2163 bp in SAMEA2794342/snps.tab
+[14:10:29] Using ID 'SAMEA2340881' for SAMEA2340881
+[14:10:29] SAMEA2340881: found 2074 variants totalling 2203 bp in SAMEA2340881/snps.tab
+[14:10:29] Using ID 'SAMEA2794351' for SAMEA2794351
+[14:10:29] SAMEA2794351: found 2064 variants totalling 2179 bp in SAMEA2794351/snps.tab
+[14:10:29] Using ID 'SAMEA2340919' for SAMEA2340919
+[14:10:30] SAMEA2340919: found 2031 variants totalling 2148 bp in SAMEA2340919/snps.tab
+[14:10:30] Using ID 'SAMEA2340906' for SAMEA2340906
+[14:10:30] SAMEA2340906: found 2367 variants totalling 2519 bp in SAMEA2340906/snps.tab
+[14:10:30] Using ID 'SAMEA3504623' for SAMEA3504623
+[14:10:30] SAMEA3504623: found 2075 variants totalling 2223 bp in SAMEA3504623/snps.tab
+[14:10:30] Using ID 'SAMEA2340922' for SAMEA2340922
+[14:10:30] SAMEA2340922: found 2083 variants totalling 2215 bp in SAMEA2340922/snps.tab
+[14:10:30] Using ID 'SAMEA2627041' for SAMEA2627041
+[14:10:30] SAMEA2627041: found 2185 variants totalling 2290 bp in SAMEA2627041/snps.tab
+[14:10:30] Using ID 'SAMEA2627021' for SAMEA2627021
+[14:10:30] SAMEA2627021: found 2033 variants totalling 2143 bp in SAMEA2627021/snps.tab
+[14:10:30] Using ID 'SAMEA2627036' for SAMEA2627036
+[14:10:30] SAMEA2627036: found 0 variants totalling 0 bp in SAMEA2627036/snps.tab
+[14:10:30] Using ID 'SAMEA1877109' for SAMEA1877109
+[14:10:30] SAMEA1877109: found 2203 variants totalling 2305 bp in SAMEA1877109/snps.tab
+[14:10:30] Using ID 'SAMEA3359886' for SAMEA3359886
+[14:10:31] SAMEA3359886: found 2125 variants totalling 2291 bp in SAMEA3359886/snps.tab
+[14:10:31] Using ID 'SAMEA2627034' for SAMEA2627034
+[14:10:31] SAMEA2627034: found 1492 variants totalling 1536 bp in SAMEA2627034/snps.tab
+[14:10:31] Using ID 'SAMEA2340937' for SAMEA2340937
+[14:10:31] SAMEA2340937: found 2351 variants totalling 2502 bp in SAMEA2340937/snps.tab
+[14:10:31] Using ID 'SAMEA2794334' for SAMEA2794334
+[14:10:31] SAMEA2794334: found 2065 variants totalling 2173 bp in SAMEA2794334/snps.tab
+[14:10:31] Using ID 'SAMEA2340904' for SAMEA2340904
+[14:10:31] SAMEA2340904: found 130 variants totalling 266 bp in SAMEA2340904/snps.tab
+[14:10:31] Using ID 'SAMEA2627014' for SAMEA2627014
+[14:10:31] SAMEA2627014: found 2057 variants totalling 2164 bp in SAMEA2627014/snps.tab
+[14:10:31] Using ID 'SAMEA2627028' for SAMEA2627028
+[14:10:31] SAMEA2627028: found 2082 variants totalling 2197 bp in SAMEA2627028/snps.tab
+[14:10:31] Using ID 'SAMEA2794344' for SAMEA2794344
+[14:10:31] SAMEA2794344: found 2021 variants totalling 2137 bp in SAMEA2794344/snps.tab
+[14:10:31] Using ID 'SAMEA2340932' for SAMEA2340932
+[14:10:34] SAMEA2340932: found 32665 variants totalling 63861 bp in SAMEA2340932/snps.tab
+[14:10:34] Using ID 'SAMEA3359865' for SAMEA3359865
+[14:10:34] SAMEA3359865: found 2218 variants totalling 2356 bp in SAMEA3359865/snps.tab
+[14:10:34] Using ID 'SAMEA2794348' for SAMEA2794348
+[14:10:35] SAMEA2794348: found 16822 variants totalling 35831 bp in SAMEA2794348/snps.tab
+[14:10:35] Using ID 'SAMEA3359888' for SAMEA3359888
+[14:10:35] SAMEA3359888: found 2212 variants totalling 2349 bp in SAMEA3359888/snps.tab
+[14:10:35] Loaded 299 SNP tables.
+[14:10:35] Including 'Reference' in results.
+[14:10:35] Will write alignment statistics to core.txt
+[14:10:35] Loading pre-masked/aligned sequences...
+[14:10:36] 1/299	SAMEA104358365 coverage 4287888/4411532 = 97.20%
+[14:10:37] 2/299	SAMEA1877073 coverage 4313340/4411532 = 97.77%
+[14:10:38] 3/299	SAMEA1877098 coverage 4322635/4411532 = 97.98%
+[14:10:39] 4/299	SAMEA1877101 coverage 4293139/4411532 = 97.32%
+[14:10:39] 5/299	SAMEA1877109 coverage 4236412/4411532 = 96.03%
+[14:10:40] 6/299	SAMEA1877112_L1 coverage 4342205/4411532 = 98.43%
+[14:10:41] 7/299	SAMEA1877117 coverage 4340559/4411532 = 98.39%
+[14:10:41] 8/299	SAMEA1877126 coverage 4244088/4411532 = 96.20%
+[14:10:42] 9/299	SAMEA1877132 coverage 4365908/4411532 = 98.97%
+[14:10:43] 10/299	SAMEA1877136 coverage 4361343/4411532 = 98.86%
+[14:10:44] 11/299	SAMEA1877139 coverage 4368141/4411532 = 99.02%
+[14:10:44] 12/299	SAMEA1877142 coverage 4226969/4411532 = 95.82%
+[14:10:45] 13/299	SAMEA1877150 coverage 4276155/4411532 = 96.93%
+[14:10:46] 14/299	SAMEA1877150_L6 coverage 4276155/4411532 = 96.93%
+[14:10:47] 15/299	SAMEA1877152 coverage 4075876/4411532 = 92.39%
+[14:10:47] 16/299	SAMEA1877165 coverage 4267861/4411532 = 96.74%
+[14:10:48] 17/299	SAMEA1877169 coverage 4298818/4411532 = 97.45%
+[14:10:49] 18/299	SAMEA1877169_L5 coverage 4298818/4411532 = 97.45%
+[14:10:50] 19/299	SAMEA1877177 coverage 4290374/4411532 = 97.25%
+[14:10:50] 20/299	SAMEA1877181_L3 coverage 4395826/4411532 = 99.64%
+[14:10:51] 21/299	SAMEA1877187 coverage 4329462/4411532 = 98.14%
+[14:10:52] 22/299	SAMEA1877190 coverage 4343952/4411532 = 98.47%
+[14:10:53] 23/299	SAMEA1877206 coverage 4194642/4411532 = 95.08%
+[14:10:53] 24/299	SAMEA1877207 coverage 4292445/4411532 = 97.30%
+[14:10:54] 25/299	SAMEA1877219_L2 coverage 4313248/4411532 = 97.77%
+[14:10:55] 26/299	SAMEA1877227 coverage 4321790/4411532 = 97.97%
+[14:10:56] 27/299	SAMEA1877229 coverage 4290239/4411532 = 97.25%
+[14:10:56] 28/299	SAMEA1877233 coverage 4292389/4411532 = 97.30%
+[14:10:57] 29/299	SAMEA1877237 coverage 4288807/4411532 = 97.22%
+[14:10:58] 30/299	SAMEA1877266_L4 coverage 4339497/4411532 = 98.37%
+[14:10:59] 31/299	SAMEA1877285 coverage 4291366/4411532 = 97.28%
+[14:11:00] 32/299	SAMEA2340874 coverage 4048607/4411532 = 91.77%
+[14:11:00] 33/299	SAMEA2340875 coverage 84633/4411532 = 1.92%
+[14:11:01] 34/299	SAMEA2340876 coverage 4379915/4411532 = 99.28%
+[14:11:02] 35/299	SAMEA2340877 coverage 409403/4411532 = 9.28%
+[14:11:03] 36/299	SAMEA2340878 coverage 77977/4411532 = 1.77%
+[14:11:04] 37/299	SAMEA2340879 coverage 88139/4411532 = 2.00%
+[14:11:04] 38/299	SAMEA2340880 coverage 4385578/4411532 = 99.41%
+[14:11:05] 39/299	SAMEA2340881 coverage 4385557/4411532 = 99.41%
+[14:11:06] 40/299	SAMEA2340882 coverage 4383293/4411532 = 99.36%
+[14:11:07] 41/299	SAMEA2340883 coverage 88363/4411532 = 2.00%
+[14:11:08] 42/299	SAMEA2340884 coverage 89579/4411532 = 2.03%
+[14:11:08] 43/299	SAMEA2340885 coverage 0/4411532 = 0.00%
+[14:11:09] 44/299	SAMEA2340887 coverage 4348610/4411532 = 98.57%
+[14:11:10] 45/299	SAMEA2340888 coverage 92902/4411532 = 2.11%
+[14:11:11] 46/299	SAMEA2340889 coverage 4499/4411532 = 0.10%
+[14:11:11] 47/299	SAMEA2340890 coverage 4798/4411532 = 0.11%
+[14:11:12] 48/299	SAMEA2340891 coverage 3046/4411532 = 0.07%
+[14:11:13] 49/299	SAMEA2340892 coverage 3838/4411532 = 0.09%
+[14:11:14] 50/299	SAMEA2340893 coverage 4459/4411532 = 0.10%
+[14:11:14] 51/299	SAMEA2340894 coverage 4376089/4411532 = 99.20%
+[14:11:15] 52/299	SAMEA2340895 coverage 4371714/4411532 = 99.10%
+[14:11:16] 53/299	SAMEA2340896 coverage 3917/4411532 = 0.09%
+[14:11:17] 54/299	SAMEA2340897 coverage 3565/4411532 = 0.08%
+[14:11:17] 55/299	SAMEA2340898 coverage 4383576/4411532 = 99.37%
+[14:11:18] 56/299	SAMEA2340899 coverage 5131/4411532 = 0.12%
+[14:11:19] 57/299	SAMEA2340900 coverage 4408/4411532 = 0.10%
+[14:11:20] 58/299	SAMEA2340901 coverage 4376124/4411532 = 99.20%
+[14:11:20] 59/299	SAMEA2340902 coverage 4379491/4411532 = 99.27%
+[14:11:21] 60/299	SAMEA2340903 coverage 60/4411532 = 0.00%
+[14:11:22] 61/299	SAMEA2340904 coverage 3876/4411532 = 0.09%
+[14:11:23] 62/299	SAMEA2340905 coverage 4511/4411532 = 0.10%
+[14:11:24] 63/299	SAMEA2340906 coverage 4309001/4411532 = 97.68%
+[14:11:24] 64/299	SAMEA2340907 coverage 4378112/4411532 = 99.24%
+[14:11:25] 65/299	SAMEA2340908 coverage 4358292/4411532 = 98.79%
+[14:11:26] 66/299	SAMEA2340909 coverage 4373931/4411532 = 99.15%
+[14:11:27] 67/299	SAMEA2340910 coverage 4357546/4411532 = 98.78%
+[14:11:29] 68/299	SAMEA2340911 coverage 4401113/4411532 = 99.76%
+[14:11:29] 69/299	SAMEA2340912 coverage 4378300/4411532 = 99.25%
+[14:11:30] 70/299	SAMEA2340913 coverage 4361512/4411532 = 98.87%
+[14:11:31] 71/299	SAMEA2340914 coverage 4351261/4411532 = 98.63%
+[14:11:32] 72/299	SAMEA2340915 coverage 4385680/4411532 = 99.41%
+[14:11:32] 73/299	SAMEA2340916 coverage 4385884/4411532 = 99.42%
+[14:11:33] 74/299	SAMEA2340917 coverage 564922/4411532 = 12.81%
+[14:11:34] 75/299	SAMEA2340918 coverage 547331/4411532 = 12.41%
+[14:11:35] 76/299	SAMEA2340919 coverage 4358525/4411532 = 98.80%
+[14:11:36] 77/299	SAMEA2340920 coverage 4364911/4411532 = 98.94%
+[14:11:37] 78/299	SAMEA2340921 coverage 4361283/4411532 = 98.86%
+[14:11:37] 79/299	SAMEA2340922 coverage 4378738/4411532 = 99.26%
+[14:11:38] 80/299	SAMEA2340923 coverage 4356464/4411532 = 98.75%
+[14:11:39] 81/299	SAMEA2340924 coverage 3596162/4411532 = 81.52%
+[14:11:39] 82/299	SAMEA2340926 coverage 4362793/4411532 = 98.90%
+[14:11:40] 83/299	SAMEA2340927 coverage 4366294/4411532 = 98.97%
+[14:11:41] 84/299	SAMEA2340928 coverage 4377734/4411532 = 99.23%
+[14:11:42] 85/299	SAMEA2340929 coverage 4366387/4411532 = 98.98%
+[14:11:43] 86/299	SAMEA2340930 coverage 4358467/4411532 = 98.80%
+[14:11:43] 87/299	SAMEA2340931 coverage 4358978/4411532 = 98.81%
+[14:11:44] 88/299	SAMEA2340932 coverage 1323762/4411532 = 30.01%
+[14:11:45] 89/299	SAMEA2340935 coverage 4362223/4411532 = 98.88%
+[14:11:46] 90/299	SAMEA2340936 coverage 4358283/4411532 = 98.79%
+[14:11:46] 91/299	SAMEA2340937 coverage 4304107/4411532 = 97.56%
+[14:11:47] 92/299	SAMEA2340938 coverage 4349318/4411532 = 98.59%
+[14:11:48] 93/299	SAMEA2340939 coverage 47/4411532 = 0.00%
+[14:11:49] 94/299	SAMEA2340940 coverage 1397251/4411532 = 31.67%
+[14:11:50] 95/299	SAMEA2340941 coverage 4358952/4411532 = 98.81%
+[14:11:50] 96/299	SAMEA2340942 coverage 4355473/4411532 = 98.73%
+[14:11:51] 97/299	SAMEA2340945 coverage 4395527/4411532 = 99.64%
+[14:11:52] 98/299	SAMEA2340946 coverage 4368095/4411532 = 99.02%
+[14:11:52] 99/299	SAMEA2340947 coverage 4356034/4411532 = 98.74%
+[14:11:53] 100/299	SAMEA2340948 coverage 4304805/4411532 = 97.58%
+[14:11:54] 101/299	SAMEA2534073 coverage 3593796/4411532 = 81.46%
+[14:11:55] 102/299	SAMEA2534321 coverage 4337312/4411532 = 98.32%
+[14:11:56] 103/299	SAMEA2534357 coverage 3871502/4411532 = 87.76%
+[14:11:56] 104/299	SAMEA2534462 coverage 3777436/4411532 = 85.63%
+[14:11:57] 105/299	SAMEA2534473 coverage 4192894/4411532 = 95.04%
+[14:11:58] 106/299	SAMEA2534569 coverage 3992813/4411532 = 90.51%
+[14:11:59] 107/299	SAMEA2534695 coverage 4280173/4411532 = 97.02%
+[14:11:59] 108/299	SAMEA2534751 coverage 4249789/4411532 = 96.33%
+[14:12:00] 109/299	SAMEA2535035 coverage 4264517/4411532 = 96.67%
+[14:12:01] 110/299	SAMEA2627005 coverage 4385071/4411532 = 99.40%
+[14:12:02] 111/299	SAMEA2627006 coverage 20/4411532 = 0.00%
+[14:12:03] 112/299	SAMEA2627007 coverage 4361335/4411532 = 98.86%
+[14:12:04] 113/299	SAMEA2627008 coverage 4376895/4411532 = 99.21%
+[14:12:05] 114/299	SAMEA2627009 coverage 4375482/4411532 = 99.18%
+[14:12:05] 115/299	SAMEA2627010 coverage 1268043/4411532 = 28.74%
+[14:12:06] 116/299	SAMEA2627011 coverage 561624/4411532 = 12.73%
+[14:12:07] 117/299	SAMEA2627012 coverage 1343608/4411532 = 30.46%
+[14:12:08] 118/299	SAMEA2627013 coverage 4385834/4411532 = 99.42%
+[14:12:08] 119/299	SAMEA2627014 coverage 4366167/4411532 = 98.97%
+[14:12:09] 120/299	SAMEA2627015 coverage 4377820/4411532 = 99.24%
+[14:12:10] 121/299	SAMEA2627016 coverage 4385293/4411532 = 99.41%
+[14:12:11] 122/299	SAMEA2627017 coverage 4376118/4411532 = 99.20%
+[14:12:12] 123/299	SAMEA2627018 coverage 4355608/4411532 = 98.73%
+[14:12:13] 124/299	SAMEA2627019 coverage 4385657/4411532 = 99.41%
+[14:12:13] 125/299	SAMEA2627020 coverage 4383967/4411532 = 99.38%
+[14:12:14] 126/299	SAMEA2627021 coverage 4367808/4411532 = 99.01%
+[14:12:15] 127/299	SAMEA2627022 coverage 4383897/4411532 = 99.37%
+[14:12:16] 128/299	SAMEA2627023 coverage 4384242/4411532 = 99.38%
+[14:12:16] 129/299	SAMEA2627024 coverage 4385388/4411532 = 99.41%
+[14:12:17] 130/299	SAMEA2627025 coverage 4385375/4411532 = 99.41%
+[14:12:18] 131/299	SAMEA2627026 coverage 4378714/4411532 = 99.26%
+[14:12:19] 132/299	SAMEA2627027 coverage 4358935/4411532 = 98.81%
+[14:12:19] 133/299	SAMEA2627028 coverage 4384576/4411532 = 99.39%
+[14:12:20] 134/299	SAMEA2627029 coverage 4354285/4411532 = 98.70%
+[14:12:21] 135/299	SAMEA2627030 coverage 4359370/4411532 = 98.82%
+[14:12:22] 136/299	SAMEA2627031 coverage 4353257/4411532 = 98.68%
+[14:12:23] 137/299	SAMEA2627032 coverage 4385175/4411532 = 99.40%
+[14:12:23] 138/299	SAMEA2627033 coverage 4401512/4411532 = 99.77%
+[14:12:24] 139/299	SAMEA2627034 coverage 3334864/4411532 = 75.59%
+[14:12:25] 140/299	SAMEA2627035 coverage 4381493/4411532 = 99.32%
+[14:12:26] 141/299	SAMEA2627036 coverage 0/4411532 = 0.00%
+[14:12:27] 142/299	SAMEA2627037 coverage 4385133/4411532 = 99.40%
+[14:12:27] 143/299	SAMEA2627038 coverage 4368155/4411532 = 99.02%
+[14:12:28] 144/299	SAMEA2627039 coverage 4378024/4411532 = 99.24%
+[14:12:29] 145/299	SAMEA2627040 coverage 4385696/4411532 = 99.41%
+[14:12:30] 146/299	SAMEA2627041 coverage 4358439/4411532 = 98.80%
+[14:12:30] 147/299	SAMEA2627042 coverage 4355304/4411532 = 98.73%
+[14:12:31] 148/299	SAMEA2627043 coverage 4383969/4411532 = 99.38%
+[14:12:32] 149/299	SAMEA2627044 coverage 4380162/4411532 = 99.29%
+[14:12:33] 150/299	SAMEA2627045 coverage 19/4411532 = 0.00%
+[14:12:33] 151/299	SAMEA2794312 coverage 4389469/4411532 = 99.50%
+[14:12:34] 152/299	SAMEA2794313 coverage 4389687/4411532 = 99.50%
+[14:12:35] 153/299	SAMEA2794314 coverage 4398546/4411532 = 99.71%
+[14:12:36] 154/299	SAMEA2794315 coverage 4405928/4411532 = 99.87%
+[14:12:36] 155/299	SAMEA2794316 coverage 4357843/4411532 = 98.78%
+[14:12:37] 156/299	SAMEA2794317 coverage 4368291/4411532 = 99.02%
+[14:12:38] 157/299	SAMEA2794318 coverage 4355632/4411532 = 98.73%
+[14:12:39] 158/299	SAMEA2794319 coverage 4361254/4411532 = 98.86%
+[14:12:39] 159/299	SAMEA2794320 coverage 4385671/4411532 = 99.41%
+[14:12:40] 160/299	SAMEA2794321 coverage 4385028/4411532 = 99.40%
+[14:12:41] 161/299	SAMEA2794322 coverage 4407548/4411532 = 99.91%
+[14:12:42] 162/299	SAMEA2794323 coverage 4386098/4411532 = 99.42%
+[14:12:43] 163/299	SAMEA2794324 coverage 4378692/4411532 = 99.26%
+[14:12:44] 164/299	SAMEA2794325 coverage 4385340/4411532 = 99.41%
+[14:12:45] 165/299	SAMEA2794326 coverage 4376705/4411532 = 99.21%
+[14:12:45] 166/299	SAMEA2794327 coverage 4376597/4411532 = 99.21%
+[14:12:46] 167/299	SAMEA2794328 coverage 4356456/4411532 = 98.75%
+[14:12:47] 168/299	SAMEA2794329 coverage 4385235/4411532 = 99.40%
+[14:12:48] 169/299	SAMEA2794330 coverage 4384739/4411532 = 99.39%
+[14:12:49] 170/299	SAMEA2794331 coverage 4359190/4411532 = 98.81%
+[14:12:49] 171/299	SAMEA2794332 coverage 4380536/4411532 = 99.30%
+[14:12:50] 172/299	SAMEA2794333 coverage 4387614/4411532 = 99.46%
+[14:12:51] 173/299	SAMEA2794334 coverage 4392901/4411532 = 99.58%
+[14:12:52] 174/299	SAMEA2794335 coverage 4381803/4411532 = 99.33%
+[14:12:53] 175/299	SAMEA2794336 coverage 4368928/4411532 = 99.03%
+[14:12:54] 176/299	SAMEA2794337 coverage 4383440/4411532 = 99.36%
+[14:12:55] 177/299	SAMEA2794338 coverage 4376157/4411532 = 99.20%
+[14:12:55] 178/299	SAMEA2794339 coverage 8527/4411532 = 0.19%
+[14:12:56] 179/299	SAMEA2794340 coverage 20/4411532 = 0.00%
+[14:12:57] 180/299	SAMEA2794341 coverage 4385934/4411532 = 99.42%
+[14:12:58] 181/299	SAMEA2794342 coverage 4355551/4411532 = 98.73%
+[14:12:59] 182/299	SAMEA2794343 coverage 4359842/4411532 = 98.83%
+[14:13:00] 183/299	SAMEA2794344 coverage 4386414/4411532 = 99.43%
+[14:13:01] 184/299	SAMEA2794345 coverage 4379612/4411532 = 99.28%
+[14:13:02] 185/299	SAMEA2794346 coverage 4355240/4411532 = 98.72%
+[14:13:03] 186/299	SAMEA2794347 coverage 26/4411532 = 0.00%
+[14:13:04] 187/299	SAMEA2794348 coverage 497300/4411532 = 11.27%
+[14:13:05] 188/299	SAMEA2794349 coverage 4384795/4411532 = 99.39%
+[14:13:06] 189/299	SAMEA2794350 coverage 4384963/4411532 = 99.40%
+[14:13:07] 190/299	SAMEA2794351 coverage 4373804/4411532 = 99.14%
+[14:13:07] 191/299	SAMEA2794352 coverage 4372147/4411532 = 99.11%
+[14:13:08] 192/299	SAMEA2794353 coverage 4359304/4411532 = 98.82%
+[14:13:09] 193/299	SAMEA2794354 coverage 4360846/4411532 = 98.85%
+[14:13:10] 194/299	SAMEA2794355 coverage 4387346/4411532 = 99.45%
+[14:13:11] 195/299	SAMEA2794356 coverage 0/4411532 = 0.00%
+[14:13:12] 196/299	SAMEA2794357 coverage 4377833/4411532 = 99.24%
+[14:13:12] 197/299	SAMEA2794358 coverage 4379736/4411532 = 99.28%
+[14:13:13] 198/299	SAMEA2794359 coverage 4383401/4411532 = 99.36%
+[14:13:14] 199/299	SAMEA2794360 coverage 4375514/4411532 = 99.18%
+[14:13:15] 200/299	SAMEA2794361 coverage 4373547/4411532 = 99.14%
+[14:13:16] 201/299	SAMEA2794362 coverage 4382719/4411532 = 99.35%
+[14:13:16] 202/299	SAMEA2794363 coverage 4400557/4411532 = 99.75%
+[14:13:17] 203/299	SAMEA2794364 coverage 4353707/4411532 = 98.69%
+[14:13:19] 204/299	SAMEA2794365 coverage 4358990/4411532 = 98.81%
+[14:13:19] 205/299	SAMEA2794366 coverage 4385024/4411532 = 99.40%
+[14:13:20] 206/299	SAMEA2794367 coverage 4368011/4411532 = 99.01%
+[14:13:21] 207/299	SAMEA2794368 coverage 4384923/4411532 = 99.40%
+[14:13:22] 208/299	SAMEA2794369 coverage 4366315/4411532 = 98.98%
+[14:13:23] 209/299	SAMEA2794370 coverage 18/4411532 = 0.00%
+[14:13:24] 210/299	SAMEA2794371 coverage 4366901/4411532 = 98.99%
+[14:13:24] 211/299	SAMEA3246143 coverage 4370188/4411532 = 99.06%
+[14:13:25] 212/299	SAMEA3246143_L7 coverage 4370188/4411532 = 99.06%
+[14:13:26] 213/299	SAMEA3250476 coverage 4350947/4411532 = 98.63%
+[14:13:27] 214/299	SAMEA3250477 coverage 4343247/4411532 = 98.45%
+[14:13:28] 215/299	SAMEA3250478 coverage 4356665/4411532 = 98.76%
+[14:13:29] 216/299	SAMEA3250479 coverage 4362345/4411532 = 98.89%
+[14:13:29] 217/299	SAMEA3359865 coverage 4360010/4411532 = 98.83%
+[14:13:30] 218/299	SAMEA3359866 coverage 4358467/4411532 = 98.80%
+[14:13:31] 219/299	SAMEA3359867 coverage 4386065/4411532 = 99.42%
+[14:13:32] 220/299	SAMEA3359868 coverage 4359961/4411532 = 98.83%
+[14:13:33] 221/299	SAMEA3359869 coverage 4378374/4411532 = 99.25%
+[14:13:34] 222/299	SAMEA3359870 coverage 108/4411532 = 0.00%
+[14:13:35] 223/299	SAMEA3359871 coverage 4380822/4411532 = 99.30%
+[14:13:36] 224/299	SAMEA3359872 coverage 4385266/4411532 = 99.40%
+[14:13:37] 225/299	SAMEA3359873 coverage 47529/4411532 = 1.08%
+[14:13:38] 226/299	SAMEA3359874 coverage 4384465/4411532 = 99.39%
+[14:13:38] 227/299	SAMEA3359875 coverage 4383643/4411532 = 99.37%
+[14:13:39] 228/299	SAMEA3359876 coverage 4388958/4411532 = 99.49%
+[14:13:40] 229/299	SAMEA3359877 coverage 4384161/4411532 = 99.38%
+[14:13:41] 230/299	SAMEA3359878 coverage 4337227/4411532 = 98.32%
+[14:13:42] 231/299	SAMEA3359879 coverage 4356976/4411532 = 98.76%
+[14:13:43] 232/299	SAMEA3359880 coverage 4381635/4411532 = 99.32%
+[14:13:44] 233/299	SAMEA3359881 coverage 4382477/4411532 = 99.34%
+[14:13:45] 234/299	SAMEA3359882 coverage 4381597/4411532 = 99.32%
+[14:13:45] 235/299	SAMEA3359883 coverage 3532033/4411532 = 80.06%
+[14:13:46] 236/299	SAMEA3359884 coverage 4385747/4411532 = 99.42%
+[14:13:47] 237/299	SAMEA3359885 coverage 4383911/4411532 = 99.37%
+[14:13:48] 238/299	SAMEA3359886 coverage 4382219/4411532 = 99.34%
+[14:13:49] 239/299	SAMEA3359887 coverage 4385093/4411532 = 99.40%
+[14:13:50] 240/299	SAMEA3359888 coverage 4351407/4411532 = 98.64%
+[14:13:51] 241/299	SAMEA3359889 coverage 3286766/4411532 = 74.50%
+[14:13:52] 242/299	SAMEA3359890 coverage 4368337/4411532 = 99.02%
+[14:13:53] 243/299	SAMEA3359891 coverage 4366099/4411532 = 98.97%
+[14:13:53] 244/299	SAMEA3359892 coverage 0/4411532 = 0.00%
+[14:13:54] 245/299	SAMEA3359893 coverage 1171/4411532 = 0.03%
+[14:13:55] 246/299	SAMEA3359894 coverage 4357904/4411532 = 98.78%
+[14:13:56] 247/299	SAMEA3359895 coverage 4366305/4411532 = 98.97%
+[14:13:56] 248/299	SAMEA3359896 coverage 4382793/4411532 = 99.35%
+[14:13:57] 249/299	SAMEA3359897 coverage 4378102/4411532 = 99.24%
+[14:13:58] 250/299	SAMEA3359898 coverage 4360607/4411532 = 98.85%
+[14:13:59] 251/299	SAMEA3359899 coverage 4381246/4411532 = 99.31%
+[14:14:00] 252/299	SAMEA3359901 coverage 4368645/4411532 = 99.03%
+[14:14:01] 253/299	SAMEA3359902 coverage 4358648/4411532 = 98.80%
+[14:14:02] 254/299	SAMEA3359903 coverage 4374540/4411532 = 99.16%
+[14:14:03] 255/299	SAMEA3359904 coverage 4359434/4411532 = 98.82%
+[14:14:04] 256/299	SAMEA3359905 coverage 4375030/4411532 = 99.17%
+[14:14:04] 257/299	SAMEA3359906 coverage 4381241/4411532 = 99.31%
+[14:14:05] 258/299	SAMEA3359907 coverage 0/4411532 = 0.00%
+[14:14:06] 259/299	SAMEA3359908 coverage 4378739/4411532 = 99.26%
+[14:14:07] 260/299	SAMEA3359909 coverage 4379906/4411532 = 99.28%
+[14:14:08] 261/299	SAMEA3359910 coverage 4360997/4411532 = 98.85%
+[14:14:09] 262/299	SAMEA3359912 coverage 4375484/4411532 = 99.18%
+[14:14:10] 263/299	SAMEA3359913 coverage 685593/4411532 = 15.54%
+[14:14:11] 264/299	SAMEA3359914 coverage 4385748/4411532 = 99.42%
+[14:14:12] 265/299	SAMEA3359915 coverage 4378453/4411532 = 99.25%
+[14:14:12] 266/299	SAMEA3359916 coverage 4385058/4411532 = 99.40%
+[14:14:13] 267/299	SAMEA3359917 coverage 4062210/4411532 = 92.08%
+[14:14:14] 268/299	SAMEA3359918 coverage 4204676/4411532 = 95.31%
+[14:14:15] 269/299	SAMEA3359919 coverage 4106680/4411532 = 93.09%
+[14:14:16] 270/299	SAMEA3504595 coverage 4350079/4411532 = 98.61%
+[14:14:17] 271/299	SAMEA3504596 coverage 4365938/4411532 = 98.97%
+[14:14:18] 272/299	SAMEA3504597 coverage 4373356/4411532 = 99.13%
+[14:14:19] 273/299	SAMEA3504598 coverage 4385339/4411532 = 99.41%
+[14:14:20] 274/299	SAMEA3504599 coverage 4381624/4411532 = 99.32%
+[14:14:20] 275/299	SAMEA3504600 coverage 4382014/4411532 = 99.33%
+[14:14:21] 276/299	SAMEA3504601 coverage 4383727/4411532 = 99.37%
+[14:14:22] 277/299	SAMEA3504602 coverage 4380789/4411532 = 99.30%
+[14:14:23] 278/299	SAMEA3504603 coverage 4378520/4411532 = 99.25%
+[14:14:24] 279/299	SAMEA3504604 coverage 4373762/4411532 = 99.14%
+[14:14:25] 280/299	SAMEA3504605 coverage 4381957/4411532 = 99.33%
+[14:14:26] 281/299	SAMEA3504606 coverage 4383289/4411532 = 99.36%
+[14:14:27] 282/299	SAMEA3504607 coverage 4354992/4411532 = 98.72%
+[14:14:28] 283/299	SAMEA3504608 coverage 0/4411532 = 0.00%
+[14:14:29] 284/299	SAMEA3504609 coverage 4367192/4411532 = 98.99%
+[14:14:30] 285/299	SAMEA3504610 coverage 4384868/4411532 = 99.40%
+[14:14:31] 286/299	SAMEA3504611 coverage 4382200/4411532 = 99.34%
+[14:14:31] 287/299	SAMEA3504612 coverage 4385224/4411532 = 99.40%
+[14:14:32] 288/299	SAMEA3504613 coverage 4368365/4411532 = 99.02%
+[14:14:33] 289/299	SAMEA3504614 coverage 4385409/4411532 = 99.41%
+[14:14:34] 290/299	SAMEA3504615 coverage 4357916/4411532 = 98.78%
+[14:14:35] 291/299	SAMEA3504620 coverage 4394677/4411532 = 99.62%
+[14:14:36] 292/299	SAMEA3504621 coverage 4377701/4411532 = 99.23%
+[14:14:37] 293/299	SAMEA3504622 coverage 4360634/4411532 = 98.85%
+[14:14:38] 294/299	SAMEA3504623 coverage 4367868/4411532 = 99.01%
+[14:14:39] 295/299	SAMEA3504624 coverage 4367695/4411532 = 99.01%
+[14:14:39] 296/299	SAMEA3504625 coverage 4357469/4411532 = 98.77%
+[14:14:40] 297/299	SAMEA3905803_MC coverage 4272878/4411532 = 96.86%
+[14:14:41] 298/299	SAMN04479830_UT307 coverage 4360391/4411532 = 98.84%
+[14:14:42] 299/299	SAMN11492960_MAFBRA00707 coverage 4327356/4411532 = 98.09%
+[14:14:42] Patching variant sites into whole genome alignment...
+[14:17:32] Constructing alignment object for core.full.aln
+[14:19:59] Writing 'fasta' alignment to core.full.aln
+[14:24:08] Writing core SNP table
+[14:27:36] Found 0 core SNPs from 304302 variant sites.
+[14:27:36] Saved SNP table: core.tab
+[14:27:36] Constructing alignment object for core.aln
+[14:27:36] Writing 'fasta' alignment to core.aln
+[14:27:36] Done.
+vagrant ssh -c "cd /vagrant/africanum_analysis/lab/ && snippy-core   SAMEA2794337 SAMEA2340940 SAMEA3359895 SAMEA2340885 SAMEA3250476 SAMEA3504601 SAMEA3504621 SAMEA2340905 SAMEA2794329 SAMEA3359890 SAMEA2340874 SAMEA2794339 SAMEA2340883 SAMEA3246143 SAMEA1877285 SAMEA2340928 SAMEA2627043 SAMEA3504598 SAMEA3359877 SAMEA1877266_L4 SAMEA2794343 SAMEA1877150 SAMEA2340887 SAMEA3359899 SAMEA3359902 SAMEA2534569 SAMEA3905803_MC SAMEA2794320 SAMEA2794357 SAMEA3504614 SAMEA3504610 SAMEA3359884 SAMEA2627023 SAMEA3359869 SAMEA3359913 SAMEA2794318 SAMEA2794340 SAMEA2627032 SAMEA2340912 SAMEA2340927 SAMEA3250479 SAMEA2627022 SAMEA2340880 SAMEA2340935 SAMEA2534073 SAMEA3359866 SAMEA2627018 SAMEA3504603 SAMEA2340929 SAMEA3359879 SAMEA3359881 SAMEA2627039 SAMEA2627037 SAMEA2340884 SAMEA2340901 SAMEA2627027 SAMEA2794324 SAMEA2340895 SAMEA2794338 SAMEA2794368 SAMEA3359889 SAMEA2340908 SAMEA2627024 SAMEA3504622 SAMEA3359873 SAMEA2340947 SAMEA2340910 SAMEA3359897 SAMEA2627006 SAMEA2627029 SAMEA1877237 SAMEA3504613 SAMEA2627017 SAMEA1877101 SAMEA2340875 SAMEA1877227 SAMEA3359910 SAMEA3359917 SAMEA2794341 SAMEA104358365 SAMEA2794328 SAMEA2794347 SAMEA2627009 SAMEA1877177 SAMEA3504620 SAMEA3359883 SAMEA1877136 SAMEA2340911 SAMEA3359880 SAMEA2340876 SAMEA2794333 SAMEA2627015 SAMEA2534462 SAMEA2340882 SAMEA2627045 SAMEA3359878 SAMEA3359893 SAMEA2340890 SAMEA2340889 SAMEA1877233 SAMEA2340942 SAMEA2340907 SAMEA2794366 SAMEA2340898 SAMEA1877098 SAMEA3359892 SAMEA2340926 SAMEA2340931 SAMEA3359875 SAMEA2794327 SAMEA2340909 SAMEA2340924 SAMEA2340903 SAMEA3359887 SAMEA2794314 SAMEA2794363 SAMEA2794326 SAMEA2794345 SAMEA3504605 SAMEA2794315 SAMEA2627011 SAMEA2535035 SAMEA1877169_L5 SAMEA3359870 SAMEA2627030 SAMEA2340900 SAMEA2340897 SAMEA2340902 SAMEA2534357 SAMEA3504597 SAMEA2340948 SAMEA1877142 SAMEA2794369 SAMEA1877112_L1 SAMEA3359918 SAMEA2340918 SAMEA2340914 SAMEA1877169 SAMEA2794335 SAMEA2794356 SAMEA1877165 SAMEA2794362 SAMEA3359882 SAMEA3504625 SAMEA3359891 SAMEA3359871 SAMEA3359915 SAMEA2794371 SAMEA3359914 SAMEA2627025 SAMEA2794330 SAMEA3250478 SAMEA2627042 SAMEA3359894 SAMEA2794354 SAMEA2340891 SAMEA2340930 SAMEA3504612 SAMEA2534321 SAMEA2340916 SAMEA3359876 SAMEA1877219_L2 SAMEA3359901 SAMEA2627010 SAMEA3359896 SAMEA2340878 SAMEA2627040 SAMEA2794331 SAMEA2627020 SAMEA2794336 SAMEA2534473 SAMEA3504595 SAMEA2794350 SAMEA3359868 SAMEA2340888 SAMEA1877126 SAMEA2627044 SAMEA2340894 SAMEA2340877 SAMEA3504606 SAMEA2794370 SAMEA2340917 SAMEA3359874 SAMEA1877181_L3 SAMEA2534751 SAMEA3504611 SAMEA3359903 SAMEA2627019 SAMEA2794313 SAMEA2627012 SAMEA3359909 SAMEA3504604 SAMEA2794316 SAMEA2794355 SAMEA2340893 SAMEA2794361 SAMEA3359906 SAMEA2794360 SAMEA2627026 SAMEA2340939 SAMEA2794312 SAMEA3246143_L7 SAMEA2340899 SAMEA1877187 SAMEA2340936 SAMEA3359867 SAMEA2340921 SAMEA2794323 SAMEA2340915 SAMEA2794325 SAMEA2794353 SAMEA2794332 SAMEA3359907 SAMEA2794349 SAMEA1877117 SAMEA3504602 SAMEA3359885 SAMEA2627005 SAMEA2794365 SAMEA1877190 SAMEA3504599 SAMEA3504624 SAMEA3504609 SAMEA2794359 SAMN11492960_MAFBRA00707 SAMN04479830_UT307 SAMEA3504615 SAMEA2627016 SAMEA2794352 SAMEA3359898 SAMEA2627007 SAMEA3359919 SAMEA1877152 SAMEA3359904 SAMEA2340946 SAMEA2794319 SAMEA1877139 SAMEA2340945 SAMEA2340896 SAMEA1877229 SAMEA3359916 SAMEA1877073 SAMEA2340938 SAMEA3359908 SAMEA2340892 SAMEA3504607 SAMEA1877132 SAMEA2534695 SAMEA1877207 SAMEA2627033 SAMEA1877206 SAMEA3359872 SAMEA2627008 SAMEA2340879 SAMEA3250477 SAMEA2340920 SAMEA2340923 SAMEA2340941 SAMEA2794322 SAMEA2340913 SAMEA3359905 SAMEA2627013 SAMEA1877150_L6 SAMEA2627031 SAMEA3504608 SAMEA2794321 SAMEA2794358 SAMEA2794317 SAMEA3504596 SAMEA2794364 SAMEA2794346 SAMEA3504600 SAMEA3359912 SAMEA2627035 SAMEA2794367 SAMEA2627038 SAMEA2794342 SAMEA2340881 SAMEA2794351 SAMEA2340919 SAMEA2340906 SAMEA3504623 SAMEA2340922 SAMEA2627041 SAMEA2627021 SAMEA2627036 SAMEA1877109 SAMEA3359886 SAMEA2627034 SAMEA2340937 SAMEA2794334 SAMEA2340904 SAMEA2627014 SAMEA2627028 SAMEA2794344 SAMEA2340932 SAMEA3359865 SAMEA2794348 SAMEA3359888"
+
+ $$$$$$$$$$ 
+
