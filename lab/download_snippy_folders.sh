@@ -141,12 +141,8 @@ rclone copy onedrive-em:africanum_analysis/snippy_output_08072019/SAMEA2794366 .
 rclone copy onedrive-em:africanum_analysis/snippy_output_08072019/SAMEA2794367 ./SAMEA2794367 -vv
 rclone copy onedrive-em:africanum_analysis/snippy_output_08072019/SAMEA2794368 ./SAMEA2794368 -vv
 rclone copy onedrive-em:africanum_analysis/snippy_output_08072019/SAMEA2794371 ./SAMEA2794371 -vv
-rclone copy onedrive-em:africanum_analysis/snippy_output_08072019/SAMEA3246143 ./SAMEA3246143 -vv
 rclone copy onedrive-em:africanum_analysis/snippy_output_08072019/SAMEA3246143_L7 ./SAMEA3246143_L7 -vv
-rclone copy onedrive-em:africanum_analysis/snippy_output_08072019/SAMEA3250476 ./SAMEA3250476 -vv
 rclone copy onedrive-em:africanum_analysis/snippy_output_08072019/SAMEA3250477 ./SAMEA3250477 -vv
-rclone copy onedrive-em:africanum_analysis/snippy_output_08072019/SAMEA3250478 ./SAMEA3250478 -vv
-rclone copy onedrive-em:africanum_analysis/snippy_output_08072019/SAMEA3250479 ./SAMEA3250479 -vv
 rclone copy onedrive-em:africanum_analysis/snippy_output_08072019/SAMEA3359865 ./SAMEA3359865 -vv
 rclone copy onedrive-em:africanum_analysis/snippy_output_08072019/SAMEA3359866 ./SAMEA3359866 -vv
 rclone copy onedrive-em:africanum_analysis/snippy_output_08072019/SAMEA3359867 ./SAMEA3359867 -vv
