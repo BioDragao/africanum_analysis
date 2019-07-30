@@ -60,7 +60,7 @@ def run_spotyping(a_pair):
 
     print(cmd)
 
-    #os.system(cmd)
+    os.system(cmd)
 
     print("\n $$$$$$$$$$ \n")
 
