@@ -1,0 +1,205 @@
+<<< SAMEA104358365_1.fastq.gz >>>
+2019/08/02 09:28:55 DEBUG : rclone: Version "v1.48.0" starting with parameters ["rclone" "copy" "onedrive-em:africanum_analysis/lab/SAMEA104358365_1.fastq.gz" "." "-vv"]
+2019/08/02 09:28:55 DEBUG : Using config file from "/root/.config/rclone/rclone.conf"
+2019/08/02 09:28:57 DEBUG : SAMEA104358365_1.fastq.gz: Couldn't find file - need to transfer
+2019/08/02 09:29:07 INFO  : SAMEA104358365_1.fastq.gz: Copied (new)
+2019/08/02 09:29:07 INFO  : 
+Transferred:   	  147.958M / 147.958 MBytes, 100%, 11.744 MBytes/s, ETA 0s
+Errors:                 0
+Checks:                 0 / 0, -
+Transferred:            1 / 1, 100%
+Elapsed time:       12.5s
+
+2019/08/02 09:29:07 DEBUG : 8 go routines active
+2019/08/02 09:29:07 DEBUG : rclone: Version "v1.48.0" finishing with parameters ["rclone" "copy" "onedrive-em:africanum_analysis/lab/SAMEA104358365_1.fastq.gz" "." "-vv"]
+2019/08/02 09:29:11 DEBUG : rclone: Version "v1.48.0" starting with parameters ["rclone" "copy" "./SAMEA104358365_1.fastq" "onedrive-em:africanum_analysis/unzipped_fastq_files/" "-vv"]
+2019/08/02 09:29:11 DEBUG : Using config file from "/root/.config/rclone/rclone.conf"
+2019/08/02 09:29:14 DEBUG : SAMEA104358365_1.fastq: Couldn't find file - need to transfer
+2019/08/02 09:29:14 DEBUG : SAMEA104358365_1.fastq: Starting multipart upload
+2019/08/02 09:29:15 DEBUG : SAMEA104358365_1.fastq: Uploading segment 0/496963241 size 10485760
+2019/08/02 09:29:16 DEBUG : SAMEA104358365_1.fastq: Uploading segment 10485760/496963241 size 10485760
+2019/08/02 09:29:17 DEBUG : SAMEA104358365_1.fastq: Uploading segment 20971520/496963241 size 10485760
+2019/08/02 09:29:18 DEBUG : SAMEA104358365_1.fastq: Uploading segment 31457280/496963241 size 10485760
+2019/08/02 09:29:19 DEBUG : SAMEA104358365_1.fastq: Uploading segment 41943040/496963241 size 10485760
+2019/08/02 09:29:20 DEBUG : SAMEA104358365_1.fastq: Uploading segment 52428800/496963241 size 10485760
+2019/08/02 09:29:21 DEBUG : SAMEA104358365_1.fastq: Uploading segment 62914560/496963241 size 10485760
+2019/08/02 09:29:22 DEBUG : SAMEA104358365_1.fastq: Uploading segment 73400320/496963241 size 10485760
+2019/08/02 09:29:23 DEBUG : SAMEA104358365_1.fastq: Uploading segment 83886080/496963241 size 10485760
+2019/08/02 09:29:24 DEBUG : SAMEA104358365_1.fastq: Uploading segment 94371840/496963241 size 10485760
+2019/08/02 09:29:26 DEBUG : SAMEA104358365_1.fastq: Uploading segment 104857600/496963241 size 10485760
+2019/08/02 09:29:27 DEBUG : SAMEA104358365_1.fastq: Uploading segment 115343360/496963241 size 10485760
+2019/08/02 09:29:28 DEBUG : SAMEA104358365_1.fastq: Uploading segment 125829120/496963241 size 10485760
+2019/08/02 09:29:29 DEBUG : SAMEA104358365_1.fastq: Uploading segment 136314880/496963241 size 10485760
+2019/08/02 09:29:30 DEBUG : SAMEA104358365_1.fastq: Uploading segment 146800640/496963241 size 10485760
+2019/08/02 09:29:32 DEBUG : SAMEA104358365_1.fastq: Uploading segment 157286400/496963241 size 10485760
+2019/08/02 09:29:33 DEBUG : SAMEA104358365_1.fastq: Uploading segment 167772160/496963241 size 10485760
+2019/08/02 09:29:34 DEBUG : SAMEA104358365_1.fastq: Uploading segment 178257920/496963241 size 10485760
+2019/08/02 09:29:37 DEBUG : SAMEA104358365_1.fastq: Uploading segment 188743680/496963241 size 10485760
+2019/08/02 09:29:37 DEBUG : SAMEA104358365_1.fastq: Uploading segment 199229440/496963241 size 10485760
+2019/08/02 09:29:40 DEBUG : SAMEA104358365_1.fastq: Uploading segment 209715200/496963241 size 10485760
+2019/08/02 09:29:41 DEBUG : SAMEA104358365_1.fastq: Uploading segment 220200960/496963241 size 10485760
+2019/08/02 09:29:42 DEBUG : SAMEA104358365_1.fastq: Uploading segment 230686720/496963241 size 10485760
+2019/08/02 09:29:45 DEBUG : SAMEA104358365_1.fastq: Uploading segment 241172480/496963241 size 10485760
+2019/08/02 09:29:45 DEBUG : SAMEA104358365_1.fastq: Uploading segment 251658240/496963241 size 10485760
+2019/08/02 09:29:46 DEBUG : SAMEA104358365_1.fastq: Uploading segment 262144000/496963241 size 10485760
+2019/08/02 09:29:47 DEBUG : SAMEA104358365_1.fastq: Uploading segment 272629760/496963241 size 10485760
+2019/08/02 09:29:48 DEBUG : SAMEA104358365_1.fastq: Uploading segment 283115520/496963241 size 10485760
+2019/08/02 09:29:51 DEBUG : SAMEA104358365_1.fastq: Uploading segment 293601280/496963241 size 10485760
+2019/08/02 09:29:53 DEBUG : SAMEA104358365_1.fastq: Uploading segment 304087040/496963241 size 10485760
+2019/08/02 09:29:53 DEBUG : SAMEA104358365_1.fastq: Uploading segment 314572800/496963241 size 10485760
+2019/08/02 09:29:54 DEBUG : SAMEA104358365_1.fastq: Uploading segment 325058560/496963241 size 10485760
+2019/08/02 09:29:55 DEBUG : SAMEA104358365_1.fastq: Uploading segment 335544320/496963241 size 10485760
+2019/08/02 09:29:56 DEBUG : SAMEA104358365_1.fastq: Uploading segment 346030080/496963241 size 10485760
+2019/08/02 09:29:57 DEBUG : SAMEA104358365_1.fastq: Uploading segment 356515840/496963241 size 10485760
+2019/08/02 09:29:59 DEBUG : SAMEA104358365_1.fastq: Uploading segment 367001600/496963241 size 10485760
+2019/08/02 09:30:00 DEBUG : SAMEA104358365_1.fastq: Uploading segment 377487360/496963241 size 10485760
+2019/08/02 09:30:01 DEBUG : SAMEA104358365_1.fastq: Uploading segment 387973120/496963241 size 10485760
+2019/08/02 09:30:01 DEBUG : SAMEA104358365_1.fastq: Uploading segment 398458880/496963241 size 10485760
+2019/08/02 09:30:02 DEBUG : SAMEA104358365_1.fastq: Uploading segment 408944640/496963241 size 10485760
+2019/08/02 09:30:03 DEBUG : SAMEA104358365_1.fastq: Uploading segment 419430400/496963241 size 10485760
+2019/08/02 09:30:04 DEBUG : SAMEA104358365_1.fastq: Uploading segment 429916160/496963241 size 10485760
+2019/08/02 09:30:05 DEBUG : SAMEA104358365_1.fastq: Uploading segment 440401920/496963241 size 10485760
+2019/08/02 09:30:05 DEBUG : SAMEA104358365_1.fastq: Uploading segment 450887680/496963241 size 10485760
+2019/08/02 09:30:08 DEBUG : SAMEA104358365_1.fastq: Uploading segment 461373440/496963241 size 10485760
+2019/08/02 09:30:09 DEBUG : SAMEA104358365_1.fastq: Uploading segment 471859200/496963241 size 10485760
+2019/08/02 09:30:10 DEBUG : SAMEA104358365_1.fastq: Uploading segment 482344960/496963241 size 10485760
+2019/08/02 09:30:12 DEBUG : SAMEA104358365_1.fastq: Uploading segment 492830720/496963241 size 4132521
+2019/08/02 09:30:14 INFO  : 
+Transferred:   	  473.941M / 473.941 MBytes, 100%, 7.551 MBytes/s, ETA 0s
+Errors:                 0
+Checks:                 0 / 0, -
+Transferred:            0 / 1, 0%
+Elapsed time:      1m2.7s
+Transferring:
+ *                        SAMEA104358365_1.fastq:100% /473.941M, 7.687M/s, 0s
+
+2019/08/02 09:30:15 INFO  : SAMEA104358365_1.fastq: Copied (new)
+2019/08/02 09:30:15 INFO  : 
+Transferred:   	  473.941M / 473.941 MBytes, 100%, 7.466 MBytes/s, ETA 0s
+Errors:                 0
+Checks:                 0 / 0, -
+Transferred:            1 / 1, 100%
+Elapsed time:      1m3.4s
+
+2019/08/02 09:30:15 DEBUG : 9 go routines active
+2019/08/02 09:30:15 DEBUG : rclone: Version "v1.48.0" finishing with parameters ["rclone" "copy" "./SAMEA104358365_1.fastq" "onedrive-em:africanum_analysis/unzipped_fastq_files/" "-vv"]
+<<< SAMEA104358365_2.fastq.gz >>>
+2019/08/02 09:30:15 DEBUG : rclone: Version "v1.48.0" starting with parameters ["rclone" "copy" "onedrive-em:africanum_analysis/lab/SAMEA104358365_2.fastq.gz" "." "-vv"]
+2019/08/02 09:30:15 DEBUG : Using config file from "/root/.config/rclone/rclone.conf"
+2019/08/02 09:30:17 DEBUG : SAMEA104358365_2.fastq.gz: Couldn't find file - need to transfer
+2019/08/02 09:30:26 INFO  : SAMEA104358365_2.fastq.gz: Copied (new)
+2019/08/02 09:30:26 INFO  : 
+Transferred:   	  147.443M / 147.443 MBytes, 100%, 13.309 MBytes/s, ETA 0s
+Errors:                 0
+Checks:                 0 / 0, -
+Transferred:            1 / 1, 100%
+Elapsed time:         11s
+
+2019/08/02 09:30:26 DEBUG : 8 go routines active
+2019/08/02 09:30:26 DEBUG : rclone: Version "v1.48.0" finishing with parameters ["rclone" "copy" "onedrive-em:africanum_analysis/lab/SAMEA104358365_2.fastq.gz" "." "-vv"]
+2019/08/02 09:30:30 DEBUG : rclone: Version "v1.48.0" starting with parameters ["rclone" "copy" "./SAMEA104358365_2.fastq" "onedrive-em:africanum_analysis/unzipped_fastq_files/" "-vv"]
+2019/08/02 09:30:30 DEBUG : Using config file from "/root/.config/rclone/rclone.conf"
+2019/08/02 09:30:32 DEBUG : SAMEA104358365_2.fastq: Couldn't find file - need to transfer
+2019/08/02 09:30:32 DEBUG : SAMEA104358365_2.fastq: Starting multipart upload
+2019/08/02 09:30:32 DEBUG : SAMEA104358365_2.fastq: Uploading segment 0/496963241 size 10485760
+2019/08/02 09:30:33 DEBUG : SAMEA104358365_2.fastq: Uploading segment 10485760/496963241 size 10485760
+2019/08/02 09:30:34 DEBUG : SAMEA104358365_2.fastq: Uploading segment 20971520/496963241 size 10485760
+2019/08/02 09:30:35 DEBUG : SAMEA104358365_2.fastq: Uploading segment 31457280/496963241 size 10485760
+2019/08/02 09:30:36 DEBUG : SAMEA104358365_2.fastq: Uploading segment 41943040/496963241 size 10485760
+2019/08/02 09:30:37 DEBUG : SAMEA104358365_2.fastq: Uploading segment 52428800/496963241 size 10485760
+2019/08/02 09:30:38 DEBUG : SAMEA104358365_2.fastq: Uploading segment 62914560/496963241 size 10485760
+2019/08/02 09:30:40 DEBUG : SAMEA104358365_2.fastq: Uploading segment 73400320/496963241 size 10485760
+2019/08/02 09:30:41 DEBUG : SAMEA104358365_2.fastq: Uploading segment 83886080/496963241 size 10485760
+2019/08/02 09:30:43 DEBUG : SAMEA104358365_2.fastq: Uploading segment 94371840/496963241 size 10485760
+2019/08/02 09:30:44 DEBUG : SAMEA104358365_2.fastq: Uploading segment 104857600/496963241 size 10485760
+2019/08/02 09:30:45 DEBUG : SAMEA104358365_2.fastq: Uploading segment 115343360/496963241 size 10485760
+2019/08/02 09:30:46 DEBUG : SAMEA104358365_2.fastq: Uploading segment 125829120/496963241 size 10485760
+2019/08/02 09:30:47 DEBUG : SAMEA104358365_2.fastq: Uploading segment 136314880/496963241 size 10485760
+2019/08/02 09:30:48 DEBUG : SAMEA104358365_2.fastq: Uploading segment 146800640/496963241 size 10485760
+2019/08/02 09:30:48 DEBUG : SAMEA104358365_2.fastq: Uploading segment 157286400/496963241 size 10485760
+2019/08/02 09:30:49 DEBUG : SAMEA104358365_2.fastq: Uploading segment 167772160/496963241 size 10485760
+2019/08/02 09:30:50 DEBUG : SAMEA104358365_2.fastq: Uploading segment 178257920/496963241 size 10485760
+2019/08/02 09:30:51 DEBUG : SAMEA104358365_2.fastq: Uploading segment 188743680/496963241 size 10485760
+2019/08/02 09:30:51 DEBUG : SAMEA104358365_2.fastq: Uploading segment 199229440/496963241 size 10485760
+2019/08/02 09:30:52 DEBUG : SAMEA104358365_2.fastq: Uploading segment 209715200/496963241 size 10485760
+2019/08/02 09:30:53 DEBUG : SAMEA104358365_2.fastq: Uploading segment 220200960/496963241 size 10485760
+2019/08/02 09:30:54 DEBUG : SAMEA104358365_2.fastq: Uploading segment 230686720/496963241 size 10485760
+2019/08/02 09:30:55 DEBUG : SAMEA104358365_2.fastq: Uploading segment 241172480/496963241 size 10485760
+2019/08/02 09:30:56 DEBUG : SAMEA104358365_2.fastq: Uploading segment 251658240/496963241 size 10485760
+2019/08/02 09:30:56 DEBUG : SAMEA104358365_2.fastq: Uploading segment 262144000/496963241 size 10485760
+2019/08/02 09:30:57 DEBUG : SAMEA104358365_2.fastq: Uploading segment 272629760/496963241 size 10485760
+2019/08/02 09:30:58 DEBUG : SAMEA104358365_2.fastq: Uploading segment 283115520/496963241 size 10485760
+2019/08/02 09:30:59 DEBUG : SAMEA104358365_2.fastq: Uploading segment 293601280/496963241 size 10485760
+2019/08/02 09:31:00 DEBUG : SAMEA104358365_2.fastq: Uploading segment 304087040/496963241 size 10485760
+2019/08/02 09:31:03 DEBUG : SAMEA104358365_2.fastq: Uploading segment 314572800/496963241 size 10485760
+2019/08/02 09:31:06 DEBUG : SAMEA104358365_2.fastq: Uploading segment 325058560/496963241 size 10485760
+2019/08/02 09:31:07 DEBUG : SAMEA104358365_2.fastq: Uploading segment 335544320/496963241 size 10485760
+2019/08/02 09:31:07 DEBUG : SAMEA104358365_2.fastq: Uploading segment 346030080/496963241 size 10485760
+2019/08/02 09:31:09 DEBUG : SAMEA104358365_2.fastq: Uploading segment 356515840/496963241 size 10485760
+2019/08/02 09:31:10 DEBUG : SAMEA104358365_2.fastq: Uploading segment 367001600/496963241 size 10485760
+2019/08/02 09:31:13 DEBUG : SAMEA104358365_2.fastq: Uploading segment 377487360/496963241 size 10485760
+2019/08/02 09:31:13 DEBUG : SAMEA104358365_2.fastq: Uploading segment 387973120/496963241 size 10485760
+2019/08/02 09:31:14 DEBUG : SAMEA104358365_2.fastq: Uploading segment 398458880/496963241 size 10485760
+2019/08/02 09:31:15 DEBUG : SAMEA104358365_2.fastq: Uploading segment 408944640/496963241 size 10485760
+2019/08/02 09:31:16 DEBUG : SAMEA104358365_2.fastq: Uploading segment 419430400/496963241 size 10485760
+2019/08/02 09:31:17 DEBUG : SAMEA104358365_2.fastq: Uploading segment 429916160/496963241 size 10485760
+2019/08/02 09:31:18 DEBUG : SAMEA104358365_2.fastq: Uploading segment 440401920/496963241 size 10485760
+2019/08/02 09:31:19 DEBUG : SAMEA104358365_2.fastq: Uploading segment 450887680/496963241 size 10485760
+2019/08/02 09:31:21 DEBUG : SAMEA104358365_2.fastq: Uploading segment 461373440/496963241 size 10485760
+2019/08/02 09:31:22 DEBUG : SAMEA104358365_2.fastq: Uploading segment 471859200/496963241 size 10485760
+2019/08/02 09:31:23 DEBUG : SAMEA104358365_2.fastq: Uploading segment 482344960/496963241 size 10485760
+2019/08/02 09:31:24 DEBUG : SAMEA104358365_2.fastq: Uploading segment 492830720/496963241 size 4132521
+2019/08/02 09:31:25 INFO  : SAMEA104358365_2.fastq: Copied (new)
+2019/08/02 09:31:25 INFO  : 
+Transferred:   	  473.941M / 473.941 MBytes, 100%, 8.625 MBytes/s, ETA 0s
+Errors:                 0
+Checks:                 0 / 0, -
+Transferred:            1 / 1, 100%
+Elapsed time:       54.9s
+
+2019/08/02 09:31:25 DEBUG : 9 go routines active
+2019/08/02 09:31:25 DEBUG : rclone: Version "v1.48.0" finishing with parameters ["rclone" "copy" "./SAMEA104358365_2.fastq" "onedrive-em:africanum_analysis/unzipped_fastq_files/" "-vv"]
+<<< SAMEA1877073_1.fastq.gz >>>
+2019/08/02 09:31:25 DEBUG : rclone: Version "v1.48.0" starting with parameters ["rclone" "copy" "onedrive-em:africanum_analysis/lab/SAMEA1877073_1.fastq.gz" "." "-vv"]
+2019/08/02 09:31:25 DEBUG : Using config file from "/root/.config/rclone/rclone.conf"
+2019/08/02 09:31:28 DEBUG : SAMEA1877073_1.fastq.gz: Couldn't find file - need to transfer
+2019/08/02 09:31:28 DEBUG : SAMEA1877073_1.fastq.gz: Starting multi-thread copy with 2 parts of size 140.875M
+2019/08/02 09:31:28 DEBUG : SAMEA1877073_1.fastq.gz: multi-thread copy: stream 2/2 (147718144-295423776) size 140.863M starting
+2019/08/02 09:31:28 DEBUG : SAMEA1877073_1.fastq.gz: multi-thread copy: stream 1/2 (0-147718144) size 140.875M starting
+2019/08/02 09:31:37 DEBUG : SAMEA1877073_1.fastq.gz: multi-thread copy: stream 1/2 (0-147718144) size 140.875M finished
+2019/08/02 09:31:40 DEBUG : SAMEA1877073_1.fastq.gz: multi-thread copy: stream 2/2 (147718144-295423776) size 140.863M finished
+2019/08/02 09:31:40 DEBUG : SAMEA1877073_1.fastq.gz: Finished multi-thread copy with 2 parts of size 140.875M
+2019/08/02 09:31:40 INFO  : SAMEA1877073_1.fastq.gz: Multi-thread Copied (new)
+2019/08/02 09:31:40 INFO  : 
+Transferred:   	  281.738M / 281.738 MBytes, 100%, 18.260 MBytes/s, ETA 0s
+Errors:                 0
+Checks:                 0 / 0, -
+Transferred:            1 / 1, 100%
+Elapsed time:       15.4s
+
+2019/08/02 09:31:40 DEBUG : 12 go routines active
+2019/08/02 09:31:40 DEBUG : rclone: Version "v1.48.0" finishing with parameters ["rclone" "copy" "onedrive-em:africanum_analysis/lab/SAMEA1877073_1.fastq.gz" "." "-vv"]
+2019/08/02 09:31:48 DEBUG : rclone: Version "v1.48.0" starting with parameters ["rclone" "copy" "./SAMEA1877073_1.fastq" "onedrive-em:africanum_analysis/unzipped_fastq_files/" "-vv"]
+2019/08/02 09:31:48 DEBUG : Using config file from "/root/.config/rclone/rclone.conf"
+2019/08/02 09:31:49 DEBUG : SAMEA1877073_1.fastq: Couldn't find file - need to transfer
+2019/08/02 09:31:49 DEBUG : SAMEA1877073_1.fastq: Starting multipart upload
+2019/08/02 09:31:50 DEBUG : SAMEA1877073_1.fastq: Uploading segment 0/761682245 size 10485760
+2019/08/02 09:31:51 DEBUG : SAMEA1877073_1.fastq: Uploading segment 10485760/761682245 size 10485760
+2019/08/02 09:31:52 DEBUG : SAMEA1877073_1.fastq: Uploading segment 20971520/761682245 size 10485760
+2019/08/02 09:31:52 DEBUG : SAMEA1877073_1.fastq: Uploading segment 31457280/761682245 size 10485760
+2019/08/02 09:31:55 DEBUG : SAMEA1877073_1.fastq: Uploading segment 41943040/761682245 size 10485760
+2019/08/02 09:31:56 DEBUG : SAMEA1877073_1.fastq: Uploading segment 52428800/761682245 size 10485760
+2019/08/02 09:31:57 DEBUG : SAMEA1877073_1.fastq: Uploading segment 62914560/761682245 size 10485760
+2019/08/02 09:31:57 DEBUG : SAMEA1877073_1.fastq: Uploading segment 73400320/761682245 size 10485760
+2019/08/02 09:31:59 DEBUG : SAMEA1877073_1.fastq: Uploading segment 83886080/761682245 size 10485760
+2019/08/02 09:32:00 DEBUG : SAMEA1877073_1.fastq: Uploading segment 94371840/761682245 size 10485760
+2019/08/02 09:32:01 DEBUG : SAMEA1877073_1.fastq: Uploading segment 104857600/761682245 size 10485760
+2019/08/02 09:32:03 DEBUG : SAMEA1877073_1.fastq: Uploading segment 115343360/761682245 size 10485760
+2019/08/02 09:32:04 DEBUG : SAMEA1877073_1.fastq: Uploading segment 125829120/761682245 size 10485760
+2019/08/02 09:32:05 DEBUG : SAMEA1877073_1.fastq: Uploading segment 136314880/761682245 size 10485760
+2019/08/02 09:32:07 DEBUG : SAMEA1877073_1.fastq: Uploading segment 146800640/761682245 size 10485760
+2019/08/02 09:32:08 DEBUG : SAMEA1877073_1.fastq: Uploading segment 157286400/761682245 size 10485760
+2019/08/02 09:32:11 DEBUG : SAMEA1877073_1.fastq: Uploading segment 167772160/761682245 size 10485760
+2019/08/02 09:32:12 DEBUG : SAMEA1877073_1.fastq: Uploading segment 178257920/761682245 size 10485760
+2019/08/02 09:32:13 DEBUG : SAMEA1877073_1.fastq: Uploading segment 188743680/761682245 size 10485760
+2019/08/02 09:32:16 DEBUG : SAMEA1877073_1.fastq: Uploading segment 199229440/761682245 size 10485760

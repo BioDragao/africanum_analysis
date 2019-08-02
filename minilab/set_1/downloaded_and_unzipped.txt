@@ -1,0 +1,2 @@
+SAMEA104358365_1.fastq.gz
+SAMEA104358365_2.fastq.gz
