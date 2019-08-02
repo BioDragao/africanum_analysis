@@ -1,0 +1,1037 @@
+SAMEA104358365_1.fastq.gz
+2019/08/02 07:38:08 DEBUG : rclone: Version "v1.48.0" starting with parameters ["rclone" "copy" "onedrive-em:africanum_analysis/lab/SAMEA104358365_1.fastq.gz" "." "-vv"]
+2019/08/02 07:38:08 DEBUG : Using config file from "/root/.config/rclone/rclone.conf"
+2019/08/02 07:38:08 DEBUG : One drive root 'africanum_analysis/lab/SAMEA104358365_1.fastq.gz': Token expired but no uploads in progress - doing nothing
+2019/08/02 07:38:08 DEBUG : onedrive-em: Loaded invalid token from config file - ignoring
+2019/08/02 07:38:11 DEBUG : onedrive-em: Saved new token in config file
+2019/08/02 07:38:14 DEBUG : SAMEA104358365_1.fastq.gz: Couldn't find file - need to transfer
+2019/08/02 07:38:24 INFO  : SAMEA104358365_1.fastq.gz: Copied (new)
+2019/08/02 07:38:24 INFO  : 
+Transferred:   	  147.958M / 147.958 MBytes, 100%, 9.458 MBytes/s, ETA 0s
+Errors:                 0
+Checks:                 0 / 0, -
+Transferred:            1 / 1, 100%
+Elapsed time:       15.6s
+
+2019/08/02 07:38:24 DEBUG : 11 go routines active
+2019/08/02 07:38:24 DEBUG : rclone: Version "v1.48.0" finishing with parameters ["rclone" "copy" "onedrive-em:africanum_analysis/lab/SAMEA104358365_1.fastq.gz" "." "-vv"]
+SAMEA104358365_2.fastq.gz
+2019/08/02 07:38:29 DEBUG : rclone: Version "v1.48.0" starting with parameters ["rclone" "copy" "onedrive-em:africanum_analysis/lab/SAMEA104358365_2.fastq.gz" "." "-vv"]
+2019/08/02 07:38:29 DEBUG : Using config file from "/root/.config/rclone/rclone.conf"
+2019/08/02 07:38:32 DEBUG : SAMEA104358365_2.fastq.gz: Couldn't find file - need to transfer
+2019/08/02 07:38:39 INFO  : SAMEA104358365_2.fastq.gz: Copied (new)
+2019/08/02 07:38:39 INFO  : 
+Transferred:   	  147.443M / 147.443 MBytes, 100%, 14.868 MBytes/s, ETA 0s
+Errors:                 0
+Checks:                 0 / 0, -
+Transferred:            1 / 1, 100%
+Elapsed time:        9.9s
+
+2019/08/02 07:38:39 DEBUG : 8 go routines active
+2019/08/02 07:38:39 DEBUG : rclone: Version "v1.48.0" finishing with parameters ["rclone" "copy" "onedrive-em:africanum_analysis/lab/SAMEA104358365_2.fastq.gz" "." "-vv"]
+SAMEA1877073_1.fastq.gz
+2019/08/02 07:38:44 DEBUG : rclone: Version "v1.48.0" starting with parameters ["rclone" "copy" "onedrive-em:africanum_analysis/lab/SAMEA1877073_1.fastq.gz" "." "-vv"]
+2019/08/02 07:38:44 DEBUG : Using config file from "/root/.config/rclone/rclone.conf"
+2019/08/02 07:38:46 DEBUG : SAMEA1877073_1.fastq.gz: Couldn't find file - need to transfer
+2019/08/02 07:38:46 DEBUG : SAMEA1877073_1.fastq.gz: Starting multi-thread copy with 2 parts of size 140.875M
+2019/08/02 07:38:46 DEBUG : SAMEA1877073_1.fastq.gz: multi-thread copy: stream 2/2 (147718144-295423776) size 140.863M starting
+2019/08/02 07:38:46 DEBUG : SAMEA1877073_1.fastq.gz: multi-thread copy: stream 1/2 (0-147718144) size 140.875M starting
+2019/08/02 07:38:55 DEBUG : SAMEA1877073_1.fastq.gz: multi-thread copy: stream 2/2 (147718144-295423776) size 140.863M finished
+2019/08/02 07:38:56 DEBUG : SAMEA1877073_1.fastq.gz: multi-thread copy: stream 1/2 (0-147718144) size 140.875M finished
+2019/08/02 07:38:56 DEBUG : SAMEA1877073_1.fastq.gz: Finished multi-thread copy with 2 parts of size 140.875M
+2019/08/02 07:38:57 INFO  : SAMEA1877073_1.fastq.gz: Multi-thread Copied (new)
+2019/08/02 07:38:57 INFO  : 
+Transferred:   	  281.738M / 281.738 MBytes, 100%, 21.935 MBytes/s, ETA 0s
+Errors:                 0
+Checks:                 0 / 0, -
+Transferred:            1 / 1, 100%
+Elapsed time:       12.8s
+
+2019/08/02 07:38:57 DEBUG : 12 go routines active
+2019/08/02 07:38:57 DEBUG : rclone: Version "v1.48.0" finishing with parameters ["rclone" "copy" "onedrive-em:africanum_analysis/lab/SAMEA1877073_1.fastq.gz" "." "-vv"]
+SAMEA1877073_2.fastq.gz
+2019/08/02 07:39:06 DEBUG : rclone: Version "v1.48.0" starting with parameters ["rclone" "copy" "onedrive-em:africanum_analysis/lab/SAMEA1877073_2.fastq.gz" "." "-vv"]
+2019/08/02 07:39:06 DEBUG : Using config file from "/root/.config/rclone/rclone.conf"
+2019/08/02 07:39:11 DEBUG : SAMEA1877073_2.fastq.gz: Couldn't find file - need to transfer
+2019/08/02 07:39:11 DEBUG : SAMEA1877073_2.fastq.gz: Starting multi-thread copy with 2 parts of size 143.062M
+2019/08/02 07:39:11 DEBUG : SAMEA1877073_2.fastq.gz: multi-thread copy: stream 2/2 (150011904-299938726) size 142.981M starting
+2019/08/02 07:39:11 DEBUG : SAMEA1877073_2.fastq.gz: multi-thread copy: stream 1/2 (0-150011904) size 143.062M starting
+2019/08/02 07:39:20 DEBUG : SAMEA1877073_2.fastq.gz: multi-thread copy: stream 2/2 (150011904-299938726) size 142.981M finished
+2019/08/02 07:39:24 DEBUG : SAMEA1877073_2.fastq.gz: multi-thread copy: stream 1/2 (0-150011904) size 143.062M finished
+2019/08/02 07:39:24 DEBUG : SAMEA1877073_2.fastq.gz: Finished multi-thread copy with 2 parts of size 143.062M
+2019/08/02 07:39:24 INFO  : SAMEA1877073_2.fastq.gz: Multi-thread Copied (new)
+2019/08/02 07:39:24 INFO  : 
+Transferred:   	  286.044M / 286.044 MBytes, 100%, 15.362 MBytes/s, ETA 0s
+Errors:                 0
+Checks:                 0 / 0, -
+Transferred:            1 / 1, 100%
+Elapsed time:       18.6s
+
+2019/08/02 07:39:24 DEBUG : 12 go routines active
+2019/08/02 07:39:24 DEBUG : rclone: Version "v1.48.0" finishing with parameters ["rclone" "copy" "onedrive-em:africanum_analysis/lab/SAMEA1877073_2.fastq.gz" "." "-vv"]
+SAMEA1877098_1.fastq.gz
+2019/08/02 07:39:33 DEBUG : rclone: Version "v1.48.0" starting with parameters ["rclone" "copy" "onedrive-em:africanum_analysis/lab/SAMEA1877098_1.fastq.gz" "." "-vv"]
+2019/08/02 07:39:33 DEBUG : Using config file from "/root/.config/rclone/rclone.conf"
+2019/08/02 07:39:36 DEBUG : SAMEA1877098_1.fastq.gz: Couldn't find file - need to transfer
+2019/08/02 07:39:47 INFO  : SAMEA1877098_1.fastq.gz: Copied (new)
+2019/08/02 07:39:47 INFO  : 
+Transferred:   	  160.261M / 160.261 MBytes, 100%, 12.148 MBytes/s, ETA 0s
+Errors:                 0
+Checks:                 0 / 0, -
+Transferred:            1 / 1, 100%
+Elapsed time:       13.1s
+
+2019/08/02 07:39:47 DEBUG : 9 go routines active
+2019/08/02 07:39:47 DEBUG : rclone: Version "v1.48.0" finishing with parameters ["rclone" "copy" "onedrive-em:africanum_analysis/lab/SAMEA1877098_1.fastq.gz" "." "-vv"]
+SAMEA1877098_2.fastq.gz
+2019/08/02 07:39:51 DEBUG : rclone: Version "v1.48.0" starting with parameters ["rclone" "copy" "onedrive-em:africanum_analysis/lab/SAMEA1877098_2.fastq.gz" "." "-vv"]
+2019/08/02 07:39:51 DEBUG : Using config file from "/root/.config/rclone/rclone.conf"
+2019/08/02 07:39:54 DEBUG : SAMEA1877098_2.fastq.gz: Couldn't find file - need to transfer
+2019/08/02 07:40:06 INFO  : SAMEA1877098_2.fastq.gz: Copied (new)
+2019/08/02 07:40:06 INFO  : 
+Transferred:   	  163.418M / 163.418 MBytes, 100%, 10.952 MBytes/s, ETA 0s
+Errors:                 0
+Checks:                 0 / 0, -
+Transferred:            1 / 1, 100%
+Elapsed time:       14.9s
+
+2019/08/02 07:40:06 DEBUG : 9 go routines active
+2019/08/02 07:40:06 DEBUG : rclone: Version "v1.48.0" finishing with parameters ["rclone" "copy" "onedrive-em:africanum_analysis/lab/SAMEA1877098_2.fastq.gz" "." "-vv"]
+SAMEA1877101_1.fastq.gz
+2019/08/02 07:40:11 DEBUG : rclone: Version "v1.48.0" starting with parameters ["rclone" "copy" "onedrive-em:africanum_analysis/lab/SAMEA1877101_1.fastq.gz" "." "-vv"]
+2019/08/02 07:40:11 DEBUG : Using config file from "/root/.config/rclone/rclone.conf"
+2019/08/02 07:40:17 DEBUG : SAMEA1877101_1.fastq.gz: Couldn't find file - need to transfer
+2019/08/02 07:40:31 INFO  : SAMEA1877101_1.fastq.gz: Copied (new)
+2019/08/02 07:40:31 INFO  : 
+Transferred:   	  204.326M / 204.326 MBytes, 100%, 10.237 MBytes/s, ETA 0s
+Errors:                 0
+Checks:                 0 / 0, -
+Transferred:            1 / 1, 100%
+Elapsed time:       19.9s
+
+2019/08/02 07:40:31 DEBUG : 8 go routines active
+2019/08/02 07:40:31 DEBUG : rclone: Version "v1.48.0" finishing with parameters ["rclone" "copy" "onedrive-em:africanum_analysis/lab/SAMEA1877101_1.fastq.gz" "." "-vv"]
+SAMEA1877101_2.fastq.gz
+2019/08/02 07:40:38 DEBUG : rclone: Version "v1.48.0" starting with parameters ["rclone" "copy" "onedrive-em:africanum_analysis/lab/SAMEA1877101_2.fastq.gz" "." "-vv"]
+2019/08/02 07:40:38 DEBUG : Using config file from "/root/.config/rclone/rclone.conf"
+2019/08/02 07:40:41 DEBUG : SAMEA1877101_2.fastq.gz: Couldn't find file - need to transfer
+2019/08/02 07:40:56 INFO  : SAMEA1877101_2.fastq.gz: Copied (new)
+2019/08/02 07:40:56 INFO  : 
+Transferred:   	  204.252M / 204.252 MBytes, 100%, 11.607 MBytes/s, ETA 0s
+Errors:                 0
+Checks:                 0 / 0, -
+Transferred:            1 / 1, 100%
+Elapsed time:       17.5s
+
+2019/08/02 07:40:56 DEBUG : 9 go routines active
+2019/08/02 07:40:56 DEBUG : rclone: Version "v1.48.0" finishing with parameters ["rclone" "copy" "onedrive-em:africanum_analysis/lab/SAMEA1877101_2.fastq.gz" "." "-vv"]
+SAMEA1877112_L1_1.fastq.gz
+2019/08/02 07:41:02 DEBUG : rclone: Version "v1.48.0" starting with parameters ["rclone" "copy" "onedrive-em:africanum_analysis/lab/SAMEA1877112_L1_1.fastq.gz" "." "-vv"]
+2019/08/02 07:41:02 DEBUG : Using config file from "/root/.config/rclone/rclone.conf"
+2019/08/02 07:41:05 DEBUG : SAMEA1877112_L1_1.fastq.gz: Couldn't find file - need to transfer
+2019/08/02 07:41:05 DEBUG : SAMEA1877112_L1_1.fastq.gz: Starting multi-thread copy with 2 parts of size 140.062M
+2019/08/02 07:41:05 DEBUG : SAMEA1877112_L1_1.fastq.gz: multi-thread copy: stream 2/2 (146866176-293676412) size 140.009M starting
+2019/08/02 07:41:05 DEBUG : SAMEA1877112_L1_1.fastq.gz: multi-thread copy: stream 1/2 (0-146866176) size 140.062M starting
+2019/08/02 07:41:15 DEBUG : SAMEA1877112_L1_1.fastq.gz: multi-thread copy: stream 2/2 (146866176-293676412) size 140.009M finished
+2019/08/02 07:41:15 DEBUG : SAMEA1877112_L1_1.fastq.gz: multi-thread copy: stream 1/2 (0-146866176) size 140.062M finished
+2019/08/02 07:41:15 DEBUG : SAMEA1877112_L1_1.fastq.gz: Finished multi-thread copy with 2 parts of size 140.062M
+2019/08/02 07:41:16 INFO  : SAMEA1877112_L1_1.fastq.gz: Multi-thread Copied (new)
+2019/08/02 07:41:16 INFO  : 
+Transferred:   	  280.072M / 280.072 MBytes, 100%, 21.004 MBytes/s, ETA 0s
+Errors:                 0
+Checks:                 0 / 0, -
+Transferred:            1 / 1, 100%
+Elapsed time:       13.3s
+
+2019/08/02 07:41:16 DEBUG : 12 go routines active
+2019/08/02 07:41:16 DEBUG : rclone: Version "v1.48.0" finishing with parameters ["rclone" "copy" "onedrive-em:africanum_analysis/lab/SAMEA1877112_L1_1.fastq.gz" "." "-vv"]
+SAMEA1877112_L1_2.fastq.gz
+2019/08/02 07:41:25 DEBUG : rclone: Version "v1.48.0" starting with parameters ["rclone" "copy" "onedrive-em:africanum_analysis/lab/SAMEA1877112_L1_2.fastq.gz" "." "-vv"]
+2019/08/02 07:41:25 DEBUG : Using config file from "/root/.config/rclone/rclone.conf"
+2019/08/02 07:41:28 DEBUG : SAMEA1877112_L1_2.fastq.gz: Couldn't find file - need to transfer
+2019/08/02 07:41:28 DEBUG : SAMEA1877112_L1_2.fastq.gz: Starting multi-thread copy with 2 parts of size 140.312M
+2019/08/02 07:41:28 DEBUG : SAMEA1877112_L1_2.fastq.gz: multi-thread copy: stream 2/2 (147128320-294132353) size 140.194M starting
+2019/08/02 07:41:28 DEBUG : SAMEA1877112_L1_2.fastq.gz: multi-thread copy: stream 1/2 (0-147128320) size 140.312M starting
+2019/08/02 07:41:39 DEBUG : SAMEA1877112_L1_2.fastq.gz: multi-thread copy: stream 1/2 (0-147128320) size 140.312M finished
+2019/08/02 07:41:39 DEBUG : SAMEA1877112_L1_2.fastq.gz: multi-thread copy: stream 2/2 (147128320-294132353) size 140.194M finished
+2019/08/02 07:41:39 DEBUG : SAMEA1877112_L1_2.fastq.gz: Finished multi-thread copy with 2 parts of size 140.312M
+2019/08/02 07:41:40 INFO  : SAMEA1877112_L1_2.fastq.gz: Multi-thread Copied (new)
+2019/08/02 07:41:40 INFO  : 
+Transferred:   	  280.506M / 280.506 MBytes, 100%, 19.225 MBytes/s, ETA 0s
+Errors:                 0
+Checks:                 0 / 0, -
+Transferred:            1 / 1, 100%
+Elapsed time:       14.5s
+
+2019/08/02 07:41:40 DEBUG : 12 go routines active
+2019/08/02 07:41:40 DEBUG : rclone: Version "v1.48.0" finishing with parameters ["rclone" "copy" "onedrive-em:africanum_analysis/lab/SAMEA1877112_L1_2.fastq.gz" "." "-vv"]
+SAMEA1877117_1.fastq.gz
+2019/08/02 07:41:49 DEBUG : rclone: Version "v1.48.0" starting with parameters ["rclone" "copy" "onedrive-em:africanum_analysis/lab/SAMEA1877117_1.fastq.gz" "." "-vv"]
+2019/08/02 07:41:49 DEBUG : Using config file from "/root/.config/rclone/rclone.conf"
+2019/08/02 07:41:53 DEBUG : SAMEA1877117_1.fastq.gz: Couldn't find file - need to transfer
+2019/08/02 07:41:53 DEBUG : SAMEA1877117_1.fastq.gz: Starting multi-thread copy with 2 parts of size 141M
+2019/08/02 07:41:53 DEBUG : SAMEA1877117_1.fastq.gz: multi-thread copy: stream 2/2 (147849216-295630952) size 140.936M starting
+2019/08/02 07:41:53 DEBUG : SAMEA1877117_1.fastq.gz: multi-thread copy: stream 1/2 (0-147849216) size 141M starting
+2019/08/02 07:42:00 DEBUG : SAMEA1877117_1.fastq.gz: multi-thread copy: stream 1/2 (0-147849216) size 141M finished
+2019/08/02 07:42:01 DEBUG : SAMEA1877117_1.fastq.gz: multi-thread copy: stream 2/2 (147849216-295630952) size 140.936M finished
+2019/08/02 07:42:01 DEBUG : SAMEA1877117_1.fastq.gz: Finished multi-thread copy with 2 parts of size 141M
+2019/08/02 07:42:02 INFO  : SAMEA1877117_1.fastq.gz: Multi-thread Copied (new)
+2019/08/02 07:42:02 INFO  : 
+Transferred:   	  281.936M / 281.936 MBytes, 100%, 21.189 MBytes/s, ETA 0s
+Errors:                 0
+Checks:                 0 / 0, -
+Transferred:            1 / 1, 100%
+Elapsed time:       13.3s
+
+2019/08/02 07:42:02 DEBUG : 12 go routines active
+2019/08/02 07:42:02 DEBUG : rclone: Version "v1.48.0" finishing with parameters ["rclone" "copy" "onedrive-em:africanum_analysis/lab/SAMEA1877117_1.fastq.gz" "." "-vv"]
+SAMEA1877117_2.fastq.gz
+2019/08/02 07:42:12 DEBUG : rclone: Version "v1.48.0" starting with parameters ["rclone" "copy" "onedrive-em:africanum_analysis/lab/SAMEA1877117_2.fastq.gz" "." "-vv"]
+2019/08/02 07:42:12 DEBUG : Using config file from "/root/.config/rclone/rclone.conf"
+2019/08/02 07:42:14 DEBUG : SAMEA1877117_2.fastq.gz: Couldn't find file - need to transfer
+2019/08/02 07:42:14 DEBUG : SAMEA1877117_2.fastq.gz: Starting multi-thread copy with 2 parts of size 140.625M
+2019/08/02 07:42:14 DEBUG : SAMEA1877117_2.fastq.gz: multi-thread copy: stream 1/2 (0-147456000) size 140.625M starting
+2019/08/02 07:42:14 DEBUG : SAMEA1877117_2.fastq.gz: multi-thread copy: stream 2/2 (147456000-294867869) size 140.583M starting
+2019/08/02 07:42:25 DEBUG : SAMEA1877117_2.fastq.gz: multi-thread copy: stream 2/2 (147456000-294867869) size 140.583M finished
+2019/08/02 07:42:36 DEBUG : SAMEA1877117_2.fastq.gz: multi-thread copy: stream 1/2 (0-147456000) size 140.625M finished
+2019/08/02 07:42:36 DEBUG : SAMEA1877117_2.fastq.gz: Finished multi-thread copy with 2 parts of size 140.625M
+2019/08/02 07:42:36 INFO  : SAMEA1877117_2.fastq.gz: Multi-thread Copied (new)
+2019/08/02 07:42:36 INFO  : 
+Transferred:   	  281.208M / 281.208 MBytes, 100%, 11.770 MBytes/s, ETA 0s
+Errors:                 0
+Checks:                 0 / 0, -
+Transferred:            1 / 1, 100%
+Elapsed time:       23.8s
+
+2019/08/02 07:42:36 DEBUG : 12 go routines active
+2019/08/02 07:42:36 DEBUG : rclone: Version "v1.48.0" finishing with parameters ["rclone" "copy" "onedrive-em:africanum_analysis/lab/SAMEA1877117_2.fastq.gz" "." "-vv"]
+SAMEA1877126_1.fastq.gz
+2019/08/02 07:42:45 DEBUG : rclone: Version "v1.48.0" starting with parameters ["rclone" "copy" "onedrive-em:africanum_analysis/lab/SAMEA1877126_1.fastq.gz" "." "-vv"]
+2019/08/02 07:42:45 DEBUG : Using config file from "/root/.config/rclone/rclone.conf"
+2019/08/02 07:42:48 DEBUG : SAMEA1877126_1.fastq.gz: Couldn't find file - need to transfer
+2019/08/02 07:42:56 INFO  : SAMEA1877126_1.fastq.gz: Copied (new)
+2019/08/02 07:42:56 INFO  : 
+Transferred:   	   81.914M / 81.914 MBytes, 100%, 7.091 MBytes/s, ETA 0s
+Errors:                 0
+Checks:                 0 / 0, -
+Transferred:            1 / 1, 100%
+Elapsed time:       11.5s
+
+2019/08/02 07:42:56 DEBUG : 8 go routines active
+2019/08/02 07:42:56 DEBUG : rclone: Version "v1.48.0" finishing with parameters ["rclone" "copy" "onedrive-em:africanum_analysis/lab/SAMEA1877126_1.fastq.gz" "." "-vv"]
+SAMEA1877126_2.fastq.gz
+2019/08/02 07:42:59 DEBUG : rclone: Version "v1.48.0" starting with parameters ["rclone" "copy" "onedrive-em:africanum_analysis/lab/SAMEA1877126_2.fastq.gz" "." "-vv"]
+2019/08/02 07:42:59 DEBUG : Using config file from "/root/.config/rclone/rclone.conf"
+2019/08/02 07:43:04 DEBUG : SAMEA1877126_2.fastq.gz: Couldn't find file - need to transfer
+2019/08/02 07:43:07 INFO  : SAMEA1877126_2.fastq.gz: Copied (new)
+2019/08/02 07:43:07 INFO  : 
+Transferred:   	   70.528M / 70.528 MBytes, 100%, 7.947 MBytes/s, ETA 0s
+Errors:                 0
+Checks:                 0 / 0, -
+Transferred:            1 / 1, 100%
+Elapsed time:        8.8s
+
+2019/08/02 07:43:07 DEBUG : 8 go routines active
+2019/08/02 07:43:07 DEBUG : rclone: Version "v1.48.0" finishing with parameters ["rclone" "copy" "onedrive-em:africanum_analysis/lab/SAMEA1877126_2.fastq.gz" "." "-vv"]
+SAMEA1877132_1.fastq.gz
+2019/08/02 07:43:10 DEBUG : rclone: Version "v1.48.0" starting with parameters ["rclone" "copy" "onedrive-em:africanum_analysis/lab/SAMEA1877132_1.fastq.gz" "." "-vv"]
+2019/08/02 07:43:10 DEBUG : Using config file from "/root/.config/rclone/rclone.conf"
+2019/08/02 07:43:13 DEBUG : SAMEA1877132_1.fastq.gz: Couldn't find file - need to transfer
+2019/08/02 07:43:13 DEBUG : SAMEA1877132_1.fastq.gz: Starting multi-thread copy with 2 parts of size 132.875M
+2019/08/02 07:43:13 DEBUG : SAMEA1877132_1.fastq.gz: multi-thread copy: stream 2/2 (139329536-278614710) size 132.833M starting
+2019/08/02 07:43:13 DEBUG : SAMEA1877132_1.fastq.gz: multi-thread copy: stream 1/2 (0-139329536) size 132.875M starting
+2019/08/02 07:43:18 DEBUG : SAMEA1877132_1.fastq.gz: multi-thread copy: stream 1/2 (0-139329536) size 132.875M finished
+2019/08/02 07:43:23 DEBUG : SAMEA1877132_1.fastq.gz: multi-thread copy: stream 2/2 (139329536-278614710) size 132.833M finished
+2019/08/02 07:43:23 DEBUG : SAMEA1877132_1.fastq.gz: Finished multi-thread copy with 2 parts of size 132.875M
+2019/08/02 07:43:23 INFO  : SAMEA1877132_1.fastq.gz: Multi-thread Copied (new)
+2019/08/02 07:43:23 INFO  : 
+Transferred:   	  265.708M / 265.708 MBytes, 100%, 19.554 MBytes/s, ETA 0s
+Errors:                 0
+Checks:                 0 / 0, -
+Transferred:            1 / 1, 100%
+Elapsed time:       13.5s
+
+2019/08/02 07:43:23 DEBUG : 12 go routines active
+2019/08/02 07:43:23 DEBUG : rclone: Version "v1.48.0" finishing with parameters ["rclone" "copy" "onedrive-em:africanum_analysis/lab/SAMEA1877132_1.fastq.gz" "." "-vv"]
+SAMEA1877132_2.fastq.gz
+2019/08/02 07:43:32 DEBUG : rclone: Version "v1.48.0" starting with parameters ["rclone" "copy" "onedrive-em:africanum_analysis/lab/SAMEA1877132_2.fastq.gz" "." "-vv"]
+2019/08/02 07:43:32 DEBUG : Using config file from "/root/.config/rclone/rclone.conf"
+2019/08/02 07:43:34 DEBUG : SAMEA1877132_2.fastq.gz: Couldn't find file - need to transfer
+2019/08/02 07:43:34 DEBUG : SAMEA1877132_2.fastq.gz: Starting multi-thread copy with 2 parts of size 132.188M
+2019/08/02 07:43:34 DEBUG : SAMEA1877132_2.fastq.gz: multi-thread copy: stream 2/2 (138608640-277209460) size 132.180M starting
+2019/08/02 07:43:34 DEBUG : SAMEA1877132_2.fastq.gz: multi-thread copy: stream 1/2 (0-138608640) size 132.188M starting
+2019/08/02 07:43:43 DEBUG : SAMEA1877132_2.fastq.gz: multi-thread copy: stream 2/2 (138608640-277209460) size 132.180M finished
+2019/08/02 07:43:45 DEBUG : SAMEA1877132_2.fastq.gz: multi-thread copy: stream 1/2 (0-138608640) size 132.188M finished
+2019/08/02 07:43:45 DEBUG : SAMEA1877132_2.fastq.gz: Finished multi-thread copy with 2 parts of size 132.188M
+2019/08/02 07:43:46 INFO  : SAMEA1877132_2.fastq.gz: Multi-thread Copied (new)
+2019/08/02 07:43:46 INFO  : 
+Transferred:   	  264.368M / 264.368 MBytes, 100%, 19.259 MBytes/s, ETA 0s
+Errors:                 0
+Checks:                 0 / 0, -
+Transferred:            1 / 1, 100%
+Elapsed time:       13.7s
+
+2019/08/02 07:43:46 DEBUG : 12 go routines active
+2019/08/02 07:43:46 DEBUG : rclone: Version "v1.48.0" finishing with parameters ["rclone" "copy" "onedrive-em:africanum_analysis/lab/SAMEA1877132_2.fastq.gz" "." "-vv"]
+SAMEA1877136_1.fastq.gz
+2019/08/02 07:43:54 DEBUG : rclone: Version "v1.48.0" starting with parameters ["rclone" "copy" "onedrive-em:africanum_analysis/lab/SAMEA1877136_1.fastq.gz" "." "-vv"]
+2019/08/02 07:43:54 DEBUG : Using config file from "/root/.config/rclone/rclone.conf"
+2019/08/02 07:43:56 DEBUG : SAMEA1877136_1.fastq.gz: Couldn't find file - need to transfer
+2019/08/02 07:43:56 DEBUG : SAMEA1877136_1.fastq.gz: Starting multi-thread copy with 2 parts of size 151.250M
+2019/08/02 07:43:56 DEBUG : SAMEA1877136_1.fastq.gz: multi-thread copy: stream 1/2 (0-158597120) size 151.250M starting
+2019/08/02 07:43:56 DEBUG : SAMEA1877136_1.fastq.gz: multi-thread copy: stream 2/2 (158597120-317125673) size 151.185M starting
+2019/08/02 07:44:06 DEBUG : SAMEA1877136_1.fastq.gz: multi-thread copy: stream 2/2 (158597120-317125673) size 151.185M finished
+2019/08/02 07:44:10 DEBUG : SAMEA1877136_1.fastq.gz: multi-thread copy: stream 1/2 (0-158597120) size 151.250M finished
+2019/08/02 07:44:10 DEBUG : SAMEA1877136_1.fastq.gz: Finished multi-thread copy with 2 parts of size 151.250M
+2019/08/02 07:44:11 INFO  : SAMEA1877136_1.fastq.gz: Multi-thread Copied (new)
+2019/08/02 07:44:11 INFO  : 
+Transferred:   	  302.435M / 302.435 MBytes, 100%, 17.416 MBytes/s, ETA 0s
+Errors:                 0
+Checks:                 0 / 0, -
+Transferred:            1 / 1, 100%
+Elapsed time:       17.3s
+
+2019/08/02 07:44:11 DEBUG : 12 go routines active
+2019/08/02 07:44:11 DEBUG : rclone: Version "v1.48.0" finishing with parameters ["rclone" "copy" "onedrive-em:africanum_analysis/lab/SAMEA1877136_1.fastq.gz" "." "-vv"]
+SAMEA1877136_2.fastq.gz
+2019/08/02 07:44:20 DEBUG : rclone: Version "v1.48.0" starting with parameters ["rclone" "copy" "onedrive-em:africanum_analysis/lab/SAMEA1877136_2.fastq.gz" "." "-vv"]
+2019/08/02 07:44:20 DEBUG : Using config file from "/root/.config/rclone/rclone.conf"
+2019/08/02 07:44:24 DEBUG : SAMEA1877136_2.fastq.gz: Couldn't find file - need to transfer
+2019/08/02 07:44:24 DEBUG : SAMEA1877136_2.fastq.gz: Starting multi-thread copy with 2 parts of size 150.625M
+2019/08/02 07:44:24 DEBUG : SAMEA1877136_2.fastq.gz: multi-thread copy: stream 2/2 (157941760-315772139) size 150.519M starting
+2019/08/02 07:44:24 DEBUG : SAMEA1877136_2.fastq.gz: multi-thread copy: stream 1/2 (0-157941760) size 150.625M starting
+2019/08/02 07:44:33 DEBUG : SAMEA1877136_2.fastq.gz: multi-thread copy: stream 2/2 (157941760-315772139) size 150.519M finished
+2019/08/02 07:44:35 DEBUG : SAMEA1877136_2.fastq.gz: multi-thread copy: stream 1/2 (0-157941760) size 150.625M finished
+2019/08/02 07:44:35 DEBUG : SAMEA1877136_2.fastq.gz: Finished multi-thread copy with 2 parts of size 150.625M
+2019/08/02 07:44:36 INFO  : SAMEA1877136_2.fastq.gz: Multi-thread Copied (new)
+2019/08/02 07:44:36 INFO  : 
+Transferred:   	  301.144M / 301.144 MBytes, 100%, 19.812 MBytes/s, ETA 0s
+Errors:                 0
+Checks:                 0 / 0, -
+Transferred:            1 / 1, 100%
+Elapsed time:       15.1s
+
+2019/08/02 07:44:36 DEBUG : 12 go routines active
+2019/08/02 07:44:36 DEBUG : rclone: Version "v1.48.0" finishing with parameters ["rclone" "copy" "onedrive-em:africanum_analysis/lab/SAMEA1877136_2.fastq.gz" "." "-vv"]
+SAMEA1877139_1.fastq.gz
+2019/08/02 07:44:46 DEBUG : rclone: Version "v1.48.0" starting with parameters ["rclone" "copy" "onedrive-em:africanum_analysis/lab/SAMEA1877139_1.fastq.gz" "." "-vv"]
+2019/08/02 07:44:46 DEBUG : Using config file from "/root/.config/rclone/rclone.conf"
+2019/08/02 07:44:48 DEBUG : SAMEA1877139_1.fastq.gz: Couldn't find file - need to transfer
+2019/08/02 07:44:48 DEBUG : SAMEA1877139_1.fastq.gz: Starting multi-thread copy with 2 parts of size 134.688M
+2019/08/02 07:44:48 DEBUG : SAMEA1877139_1.fastq.gz: multi-thread copy: stream 2/2 (141230080-282383267) size 134.614M starting
+2019/08/02 07:44:48 DEBUG : SAMEA1877139_1.fastq.gz: multi-thread copy: stream 1/2 (0-141230080) size 134.688M starting
+2019/08/02 07:44:55 DEBUG : SAMEA1877139_1.fastq.gz: multi-thread copy: stream 2/2 (141230080-282383267) size 134.614M finished
+2019/08/02 07:44:59 DEBUG : SAMEA1877139_1.fastq.gz: multi-thread copy: stream 1/2 (0-141230080) size 134.688M finished
+2019/08/02 07:44:59 DEBUG : SAMEA1877139_1.fastq.gz: Finished multi-thread copy with 2 parts of size 134.688M
+2019/08/02 07:45:00 INFO  : SAMEA1877139_1.fastq.gz: Multi-thread Copied (new)
+2019/08/02 07:45:00 INFO  : 
+Transferred:   	  269.302M / 269.302 MBytes, 100%, 19.051 MBytes/s, ETA 0s
+Errors:                 0
+Checks:                 0 / 0, -
+Transferred:            1 / 1, 100%
+Elapsed time:       14.1s
+
+2019/08/02 07:45:00 DEBUG : 12 go routines active
+2019/08/02 07:45:00 DEBUG : rclone: Version "v1.48.0" finishing with parameters ["rclone" "copy" "onedrive-em:africanum_analysis/lab/SAMEA1877139_1.fastq.gz" "." "-vv"]
+SAMEA1877139_2.fastq.gz
+2019/08/02 07:45:08 DEBUG : rclone: Version "v1.48.0" starting with parameters ["rclone" "copy" "onedrive-em:africanum_analysis/lab/SAMEA1877139_2.fastq.gz" "." "-vv"]
+2019/08/02 07:45:08 DEBUG : Using config file from "/root/.config/rclone/rclone.conf"
+2019/08/02 07:45:11 DEBUG : SAMEA1877139_2.fastq.gz: Couldn't find file - need to transfer
+2019/08/02 07:45:11 DEBUG : SAMEA1877139_2.fastq.gz: Starting multi-thread copy with 2 parts of size 133.875M
+2019/08/02 07:45:11 DEBUG : SAMEA1877139_2.fastq.gz: multi-thread copy: stream 2/2 (140378112-280721579) size 133.842M starting
+2019/08/02 07:45:11 DEBUG : SAMEA1877139_2.fastq.gz: multi-thread copy: stream 1/2 (0-140378112) size 133.875M starting
+2019/08/02 07:45:19 DEBUG : SAMEA1877139_2.fastq.gz: multi-thread copy: stream 1/2 (0-140378112) size 133.875M finished
+2019/08/02 07:45:21 DEBUG : SAMEA1877139_2.fastq.gz: multi-thread copy: stream 2/2 (140378112-280721579) size 133.842M finished
+2019/08/02 07:45:21 DEBUG : SAMEA1877139_2.fastq.gz: Finished multi-thread copy with 2 parts of size 133.875M
+2019/08/02 07:45:22 INFO  : SAMEA1877139_2.fastq.gz: Multi-thread Copied (new)
+2019/08/02 07:45:22 INFO  : 
+Transferred:   	  267.717M / 267.717 MBytes, 100%, 19.724 MBytes/s, ETA 0s
+Errors:                 0
+Checks:                 0 / 0, -
+Transferred:            1 / 1, 100%
+Elapsed time:       13.5s
+
+2019/08/02 07:45:22 DEBUG : 12 go routines active
+2019/08/02 07:45:22 DEBUG : rclone: Version "v1.48.0" finishing with parameters ["rclone" "copy" "onedrive-em:africanum_analysis/lab/SAMEA1877139_2.fastq.gz" "." "-vv"]
+SAMEA1877142_1.fastq.gz
+2019/08/02 07:45:30 DEBUG : rclone: Version "v1.48.0" starting with parameters ["rclone" "copy" "onedrive-em:africanum_analysis/lab/SAMEA1877142_1.fastq.gz" "." "-vv"]
+2019/08/02 07:45:30 DEBUG : Using config file from "/root/.config/rclone/rclone.conf"
+2019/08/02 07:45:32 DEBUG : SAMEA1877142_1.fastq.gz: Couldn't find file - need to transfer
+2019/08/02 07:45:41 INFO  : SAMEA1877142_1.fastq.gz: Copied (new)
+2019/08/02 07:45:41 INFO  : 
+Transferred:   	  114.407M / 114.407 MBytes, 100%, 9.651 MBytes/s, ETA 0s
+Errors:                 0
+Checks:                 0 / 0, -
+Transferred:            1 / 1, 100%
+Elapsed time:       11.8s
+
+2019/08/02 07:45:41 DEBUG : 8 go routines active
+2019/08/02 07:45:41 DEBUG : rclone: Version "v1.48.0" finishing with parameters ["rclone" "copy" "onedrive-em:africanum_analysis/lab/SAMEA1877142_1.fastq.gz" "." "-vv"]
+SAMEA1877142_2.fastq.gz
+2019/08/02 07:45:45 DEBUG : rclone: Version "v1.48.0" starting with parameters ["rclone" "copy" "onedrive-em:africanum_analysis/lab/SAMEA1877142_2.fastq.gz" "." "-vv"]
+2019/08/02 07:45:45 DEBUG : Using config file from "/root/.config/rclone/rclone.conf"
+2019/08/02 07:45:47 DEBUG : SAMEA1877142_2.fastq.gz: Couldn't find file - need to transfer
+2019/08/02 07:45:54 INFO  : SAMEA1877142_2.fastq.gz: Copied (new)
+2019/08/02 07:45:54 INFO  : 
+Transferred:   	   97.070M / 97.070 MBytes, 100%, 10.888 MBytes/s, ETA 0s
+Errors:                 0
+Checks:                 0 / 0, -
+Transferred:            1 / 1, 100%
+Elapsed time:        8.9s
+
+2019/08/02 07:45:54 DEBUG : 9 go routines active
+2019/08/02 07:45:54 DEBUG : rclone: Version "v1.48.0" finishing with parameters ["rclone" "copy" "onedrive-em:africanum_analysis/lab/SAMEA1877142_2.fastq.gz" "." "-vv"]
+SAMEA1877150_L6_1.fastq.gz
+2019/08/02 07:45:57 DEBUG : rclone: Version "v1.48.0" starting with parameters ["rclone" "copy" "onedrive-em:africanum_analysis/lab/SAMEA1877150_L6_1.fastq.gz" "." "-vv"]
+2019/08/02 07:45:57 DEBUG : Using config file from "/root/.config/rclone/rclone.conf"
+2019/08/02 07:45:59 DEBUG : SAMEA1877150_L6_1.fastq.gz: Couldn't find file - need to transfer
+2019/08/02 07:45:59 DEBUG : SAMEA1877150_L6_1.fastq.gz: Starting multi-thread copy with 2 parts of size 218.250M
+2019/08/02 07:45:59 DEBUG : SAMEA1877150_L6_1.fastq.gz: multi-thread copy: stream 2/2 (228851712-457650875) size 218.200M starting
+2019/08/02 07:45:59 DEBUG : SAMEA1877150_L6_1.fastq.gz: multi-thread copy: stream 1/2 (0-228851712) size 218.250M starting
+2019/08/02 07:46:12 DEBUG : SAMEA1877150_L6_1.fastq.gz: multi-thread copy: stream 2/2 (228851712-457650875) size 218.200M finished
+2019/08/02 07:46:59 INFO  : 
+Transferred:   	  274.958M / 436.450 MBytes, 63%, 4.417 MBytes/s, ETA 36s
+Errors:                 0
+Checks:                 0 / 0, -
+Transferred:            0 / 1, 0%
+Elapsed time:      1m2.2s
+Transferring:
+ *                    SAMEA1877150_L6_1.fastq.gz: 62% /436.450M, 1.942M/s, 1m23s
+
+2019/08/02 07:47:59 INFO  : 
+Transferred:   	  394.958M / 436.450 MBytes, 90%, 3.231 MBytes/s, ETA 12s
+Errors:                 0
+Checks:                 0 / 0, -
+Transferred:            0 / 1, 0%
+Elapsed time:      2m2.2s
+Transferring:
+ *                    SAMEA1877150_L6_1.fastq.gz: 90% /436.450M, 2.307M/s, 17s
+
+2019/08/02 07:48:11 DEBUG : SAMEA1877150_L6_1.fastq.gz: multi-thread copy: stream 1/2 (0-228851712) size 218.250M finished
+2019/08/02 07:48:11 DEBUG : SAMEA1877150_L6_1.fastq.gz: Finished multi-thread copy with 2 parts of size 218.250M
+2019/08/02 07:48:12 INFO  : SAMEA1877150_L6_1.fastq.gz: Multi-thread Copied (new)
+2019/08/02 07:48:12 INFO  : 
+Transferred:   	  436.450M / 436.450 MBytes, 100%, 3.226 MBytes/s, ETA 0s
+Errors:                 0
+Checks:                 0 / 0, -
+Transferred:            1 / 1, 100%
+Elapsed time:     2m15.2s
+
+2019/08/02 07:48:12 DEBUG : 6 go routines active
+2019/08/02 07:48:12 DEBUG : rclone: Version "v1.48.0" finishing with parameters ["rclone" "copy" "onedrive-em:africanum_analysis/lab/SAMEA1877150_L6_1.fastq.gz" "." "-vv"]
+SAMEA1877150_L6_2.fastq.gz
+2019/08/02 07:48:25 DEBUG : rclone: Version "v1.48.0" starting with parameters ["rclone" "copy" "onedrive-em:africanum_analysis/lab/SAMEA1877150_L6_2.fastq.gz" "." "-vv"]
+2019/08/02 07:48:25 DEBUG : Using config file from "/root/.config/rclone/rclone.conf"
+2019/08/02 07:48:27 DEBUG : SAMEA1877150_L6_2.fastq.gz: Couldn't find file - need to transfer
+2019/08/02 07:48:27 DEBUG : SAMEA1877150_L6_2.fastq.gz: Starting multi-thread copy with 2 parts of size 213.875M
+2019/08/02 07:48:27 DEBUG : SAMEA1877150_L6_2.fastq.gz: multi-thread copy: stream 2/2 (224264192-448506736) size 213.854M starting
+2019/08/02 07:48:27 DEBUG : SAMEA1877150_L6_2.fastq.gz: multi-thread copy: stream 1/2 (0-224264192) size 213.875M starting
+2019/08/02 07:48:39 DEBUG : SAMEA1877150_L6_2.fastq.gz: multi-thread copy: stream 2/2 (224264192-448506736) size 213.854M finished
+2019/08/02 07:48:41 DEBUG : SAMEA1877150_L6_2.fastq.gz: multi-thread copy: stream 1/2 (0-224264192) size 213.875M finished
+2019/08/02 07:48:41 DEBUG : SAMEA1877150_L6_2.fastq.gz: Finished multi-thread copy with 2 parts of size 213.875M
+2019/08/02 07:48:42 INFO  : SAMEA1877150_L6_2.fastq.gz: Multi-thread Copied (new)
+2019/08/02 07:48:42 INFO  : 
+Transferred:   	  427.729M / 427.729 MBytes, 100%, 24.605 MBytes/s, ETA 0s
+Errors:                 0
+Checks:                 0 / 0, -
+Transferred:            1 / 1, 100%
+Elapsed time:       17.3s
+
+2019/08/02 07:48:42 DEBUG : 12 go routines active
+2019/08/02 07:48:42 DEBUG : rclone: Version "v1.48.0" finishing with parameters ["rclone" "copy" "onedrive-em:africanum_analysis/lab/SAMEA1877150_L6_2.fastq.gz" "." "-vv"]
+SAMEA1877152_1.fastq.gz
+2019/08/02 07:48:54 DEBUG : rclone: Version "v1.48.0" starting with parameters ["rclone" "copy" "onedrive-em:africanum_analysis/lab/SAMEA1877152_1.fastq.gz" "." "-vv"]
+2019/08/02 07:48:54 DEBUG : Using config file from "/root/.config/rclone/rclone.conf"
+2019/08/02 07:48:57 DEBUG : SAMEA1877152_1.fastq.gz: Couldn't find file - need to transfer
+2019/08/02 07:49:07 INFO  : SAMEA1877152_1.fastq.gz: Copied (new)
+2019/08/02 07:49:07 INFO  : 
+Transferred:   	  198.861M / 198.861 MBytes, 100%, 14.970 MBytes/s, ETA 0s
+Errors:                 0
+Checks:                 0 / 0, -
+Transferred:            1 / 1, 100%
+Elapsed time:       13.2s
+
+2019/08/02 07:49:07 DEBUG : 8 go routines active
+2019/08/02 07:49:07 DEBUG : rclone: Version "v1.48.0" finishing with parameters ["rclone" "copy" "onedrive-em:africanum_analysis/lab/SAMEA1877152_1.fastq.gz" "." "-vv"]
+SAMEA1877152_2.fastq.gz
+2019/08/02 07:49:13 DEBUG : rclone: Version "v1.48.0" starting with parameters ["rclone" "copy" "onedrive-em:africanum_analysis/lab/SAMEA1877152_2.fastq.gz" "." "-vv"]
+2019/08/02 07:49:13 DEBUG : Using config file from "/root/.config/rclone/rclone.conf"
+2019/08/02 07:49:15 DEBUG : SAMEA1877152_2.fastq.gz: Couldn't find file - need to transfer
+2019/08/02 07:49:26 INFO  : SAMEA1877152_2.fastq.gz: Copied (new)
+2019/08/02 07:49:26 INFO  : 
+Transferred:   	  197.753M / 197.753 MBytes, 100%, 15.386 MBytes/s, ETA 0s
+Errors:                 0
+Checks:                 0 / 0, -
+Transferred:            1 / 1, 100%
+Elapsed time:       12.8s
+
+2019/08/02 07:49:26 DEBUG : 9 go routines active
+2019/08/02 07:49:26 DEBUG : rclone: Version "v1.48.0" finishing with parameters ["rclone" "copy" "onedrive-em:africanum_analysis/lab/SAMEA1877152_2.fastq.gz" "." "-vv"]
+SAMEA1877165_1.fastq.gz
+2019/08/02 07:49:32 DEBUG : rclone: Version "v1.48.0" starting with parameters ["rclone" "copy" "onedrive-em:africanum_analysis/lab/SAMEA1877165_1.fastq.gz" "." "-vv"]
+2019/08/02 07:49:32 DEBUG : Using config file from "/root/.config/rclone/rclone.conf"
+2019/08/02 07:49:34 DEBUG : SAMEA1877165_1.fastq.gz: Couldn't find file - need to transfer
+2019/08/02 07:49:34 DEBUG : SAMEA1877165_1.fastq.gz: Starting multi-thread copy with 2 parts of size 135.500M
+2019/08/02 07:49:34 DEBUG : SAMEA1877165_1.fastq.gz: multi-thread copy: stream 2/2 (142082048-284053359) size 135.394M starting
+2019/08/02 07:49:34 DEBUG : SAMEA1877165_1.fastq.gz: multi-thread copy: stream 1/2 (0-142082048) size 135.500M starting
+2019/08/02 07:49:41 DEBUG : SAMEA1877165_1.fastq.gz: multi-thread copy: stream 2/2 (142082048-284053359) size 135.394M finished
+2019/08/02 07:49:44 DEBUG : SAMEA1877165_1.fastq.gz: multi-thread copy: stream 1/2 (0-142082048) size 135.500M finished
+2019/08/02 07:49:44 DEBUG : SAMEA1877165_1.fastq.gz: Finished multi-thread copy with 2 parts of size 135.500M
+2019/08/02 07:49:45 INFO  : SAMEA1877165_1.fastq.gz: Multi-thread Copied (new)
+2019/08/02 07:49:45 INFO  : 
+Transferred:   	  270.894M / 270.894 MBytes, 100%, 21.229 MBytes/s, ETA 0s
+Errors:                 0
+Checks:                 0 / 0, -
+Transferred:            1 / 1, 100%
+Elapsed time:       12.7s
+
+2019/08/02 07:49:45 DEBUG : 12 go routines active
+2019/08/02 07:49:45 DEBUG : rclone: Version "v1.48.0" finishing with parameters ["rclone" "copy" "onedrive-em:africanum_analysis/lab/SAMEA1877165_1.fastq.gz" "." "-vv"]
+SAMEA1877165_2.fastq.gz
+2019/08/02 07:49:54 DEBUG : rclone: Version "v1.48.0" starting with parameters ["rclone" "copy" "onedrive-em:africanum_analysis/lab/SAMEA1877165_2.fastq.gz" "." "-vv"]
+2019/08/02 07:49:54 DEBUG : Using config file from "/root/.config/rclone/rclone.conf"
+2019/08/02 07:49:56 DEBUG : SAMEA1877165_2.fastq.gz: Couldn't find file - need to transfer
+2019/08/02 07:49:56 DEBUG : SAMEA1877165_2.fastq.gz: Starting multi-thread copy with 2 parts of size 134.938M
+2019/08/02 07:49:56 DEBUG : SAMEA1877165_2.fastq.gz: multi-thread copy: stream 2/2 (141492224-282879787) size 134.838M starting
+2019/08/02 07:49:56 DEBUG : SAMEA1877165_2.fastq.gz: multi-thread copy: stream 1/2 (0-141492224) size 134.938M starting
+2019/08/02 07:50:06 DEBUG : SAMEA1877165_2.fastq.gz: multi-thread copy: stream 1/2 (0-141492224) size 134.938M finished
+2019/08/02 07:50:07 DEBUG : SAMEA1877165_2.fastq.gz: multi-thread copy: stream 2/2 (141492224-282879787) size 134.838M finished
+2019/08/02 07:50:07 DEBUG : SAMEA1877165_2.fastq.gz: Finished multi-thread copy with 2 parts of size 134.938M
+2019/08/02 07:50:07 INFO  : SAMEA1877165_2.fastq.gz: Multi-thread Copied (new)
+2019/08/02 07:50:07 INFO  : 
+Transferred:   	  269.775M / 269.775 MBytes, 100%, 19.728 MBytes/s, ETA 0s
+Errors:                 0
+Checks:                 0 / 0, -
+Transferred:            1 / 1, 100%
+Elapsed time:       13.6s
+
+2019/08/02 07:50:07 DEBUG : 12 go routines active
+2019/08/02 07:50:07 DEBUG : rclone: Version "v1.48.0" finishing with parameters ["rclone" "copy" "onedrive-em:africanum_analysis/lab/SAMEA1877165_2.fastq.gz" "." "-vv"]
+SAMEA1877169_1.fastq.gz
+2019/08/02 07:50:16 DEBUG : rclone: Version "v1.48.0" starting with parameters ["rclone" "copy" "onedrive-em:africanum_analysis/lab/SAMEA1877169_1.fastq.gz" "." "-vv"]
+2019/08/02 07:50:16 DEBUG : Using config file from "/root/.config/rclone/rclone.conf"
+2019/08/02 07:50:18 DEBUG : SAMEA1877169_1.fastq.gz: Couldn't find file - need to transfer
+2019/08/02 07:50:28 INFO  : SAMEA1877169_1.fastq.gz: Copied (new)
+2019/08/02 07:50:28 INFO  : 
+Transferred:   	  154.123M / 154.123 MBytes, 100%, 12.508 MBytes/s, ETA 0s
+Errors:                 0
+Checks:                 0 / 0, -
+Transferred:            1 / 1, 100%
+Elapsed time:       12.3s
+
+2019/08/02 07:50:28 DEBUG : 8 go routines active
+2019/08/02 07:50:28 DEBUG : rclone: Version "v1.48.0" finishing with parameters ["rclone" "copy" "onedrive-em:africanum_analysis/lab/SAMEA1877169_1.fastq.gz" "." "-vv"]
+SAMEA1877169_2.fastq.gz
+2019/08/02 07:50:32 DEBUG : rclone: Version "v1.48.0" starting with parameters ["rclone" "copy" "onedrive-em:africanum_analysis/lab/SAMEA1877169_2.fastq.gz" "." "-vv"]
+2019/08/02 07:50:32 DEBUG : Using config file from "/root/.config/rclone/rclone.conf"
+2019/08/02 07:50:37 DEBUG : SAMEA1877169_2.fastq.gz: Couldn't find file - need to transfer
+2019/08/02 07:50:47 INFO  : SAMEA1877169_2.fastq.gz: Copied (new)
+2019/08/02 07:50:47 INFO  : 
+Transferred:   	  133.000M / 133.000 MBytes, 100%, 8.824 MBytes/s, ETA 0s
+Errors:                 0
+Checks:                 0 / 0, -
+Transferred:            1 / 1, 100%
+Elapsed time:         15s
+
+2019/08/02 07:50:47 DEBUG : 8 go routines active
+2019/08/02 07:50:47 DEBUG : rclone: Version "v1.48.0" finishing with parameters ["rclone" "copy" "onedrive-em:africanum_analysis/lab/SAMEA1877169_2.fastq.gz" "." "-vv"]
+SAMEA1877169_L5_1.fastq.gz
+2019/08/02 07:50:52 DEBUG : rclone: Version "v1.48.0" starting with parameters ["rclone" "copy" "onedrive-em:africanum_analysis/lab/SAMEA1877169_L5_1.fastq.gz" "." "-vv"]
+2019/08/02 07:50:52 DEBUG : Using config file from "/root/.config/rclone/rclone.conf"
+2019/08/02 07:50:54 DEBUG : SAMEA1877169_L5_1.fastq.gz: Couldn't find file - need to transfer
+2019/08/02 07:51:01 INFO  : SAMEA1877169_L5_1.fastq.gz: Copied (new)
+2019/08/02 07:51:01 INFO  : 
+Transferred:   	  157.098M / 157.098 MBytes, 100%, 17.543 MBytes/s, ETA 0s
+Errors:                 0
+Checks:                 0 / 0, -
+Transferred:            1 / 1, 100%
+Elapsed time:        8.9s
+
+2019/08/02 07:51:01 DEBUG : 8 go routines active
+2019/08/02 07:51:01 DEBUG : rclone: Version "v1.48.0" finishing with parameters ["rclone" "copy" "onedrive-em:africanum_analysis/lab/SAMEA1877169_L5_1.fastq.gz" "." "-vv"]
+SAMEA1877169_L5_2.fastq.gz
+2019/08/02 07:51:05 DEBUG : rclone: Version "v1.48.0" starting with parameters ["rclone" "copy" "onedrive-em:africanum_analysis/lab/SAMEA1877169_L5_2.fastq.gz" "." "-vv"]
+2019/08/02 07:51:05 DEBUG : Using config file from "/root/.config/rclone/rclone.conf"
+2019/08/02 07:51:08 DEBUG : SAMEA1877169_L5_2.fastq.gz: Couldn't find file - need to transfer
+2019/08/02 07:51:20 INFO  : SAMEA1877169_L5_2.fastq.gz: Copied (new)
+2019/08/02 07:51:20 INFO  : 
+Transferred:   	  136.445M / 136.445 MBytes, 100%, 9.114 MBytes/s, ETA 0s
+Errors:                 0
+Checks:                 0 / 0, -
+Transferred:            1 / 1, 100%
+Elapsed time:       14.9s
+
+2019/08/02 07:51:20 DEBUG : 8 go routines active
+2019/08/02 07:51:20 DEBUG : rclone: Version "v1.48.0" finishing with parameters ["rclone" "copy" "onedrive-em:africanum_analysis/lab/SAMEA1877169_L5_2.fastq.gz" "." "-vv"]
+SAMEA1877177_1.fastq.gz
+2019/08/02 07:51:25 DEBUG : rclone: Version "v1.48.0" starting with parameters ["rclone" "copy" "onedrive-em:africanum_analysis/lab/SAMEA1877177_1.fastq.gz" "." "-vv"]
+2019/08/02 07:51:25 DEBUG : Using config file from "/root/.config/rclone/rclone.conf"
+2019/08/02 07:51:27 DEBUG : SAMEA1877177_1.fastq.gz: Couldn't find file - need to transfer
+2019/08/02 07:51:27 DEBUG : SAMEA1877177_1.fastq.gz: Starting multi-thread copy with 2 parts of size 170.750M
+2019/08/02 07:51:27 DEBUG : SAMEA1877177_1.fastq.gz: multi-thread copy: stream 1/2 (0-179044352) size 170.750M starting
+2019/08/02 07:51:27 DEBUG : SAMEA1877177_1.fastq.gz: multi-thread copy: stream 2/2 (179044352-358008160) size 170.673M starting
+2019/08/02 07:51:39 DEBUG : SAMEA1877177_1.fastq.gz: multi-thread copy: stream 2/2 (179044352-358008160) size 170.673M finished
+2019/08/02 07:51:40 DEBUG : SAMEA1877177_1.fastq.gz: multi-thread copy: stream 1/2 (0-179044352) size 170.750M finished
+2019/08/02 07:51:40 DEBUG : SAMEA1877177_1.fastq.gz: Finished multi-thread copy with 2 parts of size 170.750M
+2019/08/02 07:51:41 INFO  : SAMEA1877177_1.fastq.gz: Multi-thread Copied (new)
+2019/08/02 07:51:41 INFO  : 
+Transferred:   	  341.423M / 341.423 MBytes, 100%, 21.191 MBytes/s, ETA 0s
+Errors:                 0
+Checks:                 0 / 0, -
+Transferred:            1 / 1, 100%
+Elapsed time:       16.1s
+
+2019/08/02 07:51:41 DEBUG : 12 go routines active
+2019/08/02 07:51:41 DEBUG : rclone: Version "v1.48.0" finishing with parameters ["rclone" "copy" "onedrive-em:africanum_analysis/lab/SAMEA1877177_1.fastq.gz" "." "-vv"]
+SAMEA1877177_2.fastq.gz
+2019/08/02 07:51:51 DEBUG : rclone: Version "v1.48.0" starting with parameters ["rclone" "copy" "onedrive-em:africanum_analysis/lab/SAMEA1877177_2.fastq.gz" "." "-vv"]
+2019/08/02 07:51:51 DEBUG : Using config file from "/root/.config/rclone/rclone.conf"
+2019/08/02 07:51:54 DEBUG : SAMEA1877177_2.fastq.gz: Couldn't find file - need to transfer
+2019/08/02 07:51:54 DEBUG : SAMEA1877177_2.fastq.gz: Starting multi-thread copy with 2 parts of size 167.375M
+2019/08/02 07:51:54 DEBUG : SAMEA1877177_2.fastq.gz: multi-thread copy: stream 2/2 (175505408-350978273) size 167.344M starting
+2019/08/02 07:51:54 DEBUG : SAMEA1877177_2.fastq.gz: multi-thread copy: stream 1/2 (0-175505408) size 167.375M starting
+2019/08/02 07:52:02 DEBUG : SAMEA1877177_2.fastq.gz: multi-thread copy: stream 1/2 (0-175505408) size 167.375M finished
+2019/08/02 07:52:03 DEBUG : SAMEA1877177_2.fastq.gz: multi-thread copy: stream 2/2 (175505408-350978273) size 167.344M finished
+2019/08/02 07:52:03 DEBUG : SAMEA1877177_2.fastq.gz: Finished multi-thread copy with 2 parts of size 167.375M
+2019/08/02 07:52:03 INFO  : SAMEA1877177_2.fastq.gz: Multi-thread Copied (new)
+2019/08/02 07:52:03 INFO  : 
+Transferred:   	  334.719M / 334.719 MBytes, 100%, 27.862 MBytes/s, ETA 0s
+Errors:                 0
+Checks:                 0 / 0, -
+Transferred:            1 / 1, 100%
+Elapsed time:         12s
+
+2019/08/02 07:52:03 DEBUG : 12 go routines active
+2019/08/02 07:52:03 DEBUG : rclone: Version "v1.48.0" finishing with parameters ["rclone" "copy" "onedrive-em:africanum_analysis/lab/SAMEA1877177_2.fastq.gz" "." "-vv"]
+SAMEA1877181_L3_1.fastq.gz
+2019/08/02 07:52:13 DEBUG : rclone: Version "v1.48.0" starting with parameters ["rclone" "copy" "onedrive-em:africanum_analysis/lab/SAMEA1877181_L3_1.fastq.gz" "." "-vv"]
+2019/08/02 07:52:13 DEBUG : Using config file from "/root/.config/rclone/rclone.conf"
+2019/08/02 07:52:15 DEBUG : SAMEA1877181_L3_1.fastq.gz: Couldn't find file - need to transfer
+2019/08/02 07:52:15 DEBUG : SAMEA1877181_L3_1.fastq.gz: Starting multi-thread copy with 2 parts of size 162.438M
+2019/08/02 07:52:15 DEBUG : SAMEA1877181_L3_1.fastq.gz: multi-thread copy: stream 2/2 (170328064-340639904) size 162.422M starting
+2019/08/02 07:52:15 DEBUG : SAMEA1877181_L3_1.fastq.gz: multi-thread copy: stream 1/2 (0-170328064) size 162.438M starting
+2019/08/02 07:52:25 DEBUG : SAMEA1877181_L3_1.fastq.gz: multi-thread copy: stream 1/2 (0-170328064) size 162.438M finished
+2019/08/02 07:52:29 DEBUG : SAMEA1877181_L3_1.fastq.gz: multi-thread copy: stream 2/2 (170328064-340639904) size 162.422M finished
+2019/08/02 07:52:29 DEBUG : SAMEA1877181_L3_1.fastq.gz: Finished multi-thread copy with 2 parts of size 162.438M
+2019/08/02 07:52:29 INFO  : SAMEA1877181_L3_1.fastq.gz: Multi-thread Copied (new)
+2019/08/02 07:52:29 INFO  : 
+Transferred:   	  324.860M / 324.860 MBytes, 100%, 19.716 MBytes/s, ETA 0s
+Errors:                 0
+Checks:                 0 / 0, -
+Transferred:            1 / 1, 100%
+Elapsed time:       16.4s
+
+2019/08/02 07:52:29 DEBUG : 12 go routines active
+2019/08/02 07:52:29 DEBUG : rclone: Version "v1.48.0" finishing with parameters ["rclone" "copy" "onedrive-em:africanum_analysis/lab/SAMEA1877181_L3_1.fastq.gz" "." "-vv"]
+SAMEA1877181_L3_2.fastq.gz
+2019/08/02 07:52:38 DEBUG : rclone: Version "v1.48.0" starting with parameters ["rclone" "copy" "onedrive-em:africanum_analysis/lab/SAMEA1877181_L3_2.fastq.gz" "." "-vv"]
+2019/08/02 07:52:38 DEBUG : Using config file from "/root/.config/rclone/rclone.conf"
+2019/08/02 07:52:41 DEBUG : SAMEA1877181_L3_2.fastq.gz: Couldn't find file - need to transfer
+2019/08/02 07:52:41 DEBUG : SAMEA1877181_L3_2.fastq.gz: Starting multi-thread copy with 2 parts of size 163.500M
+2019/08/02 07:52:41 DEBUG : SAMEA1877181_L3_2.fastq.gz: multi-thread copy: stream 2/2 (171442176-342864260) size 163.481M starting
+2019/08/02 07:52:41 DEBUG : SAMEA1877181_L3_2.fastq.gz: multi-thread copy: stream 1/2 (0-171442176) size 163.500M starting
+2019/08/02 07:52:52 DEBUG : SAMEA1877181_L3_2.fastq.gz: multi-thread copy: stream 2/2 (171442176-342864260) size 163.481M finished
+2019/08/02 07:52:57 DEBUG : SAMEA1877181_L3_2.fastq.gz: multi-thread copy: stream 1/2 (0-171442176) size 163.500M finished
+2019/08/02 07:52:57 DEBUG : SAMEA1877181_L3_2.fastq.gz: Finished multi-thread copy with 2 parts of size 163.500M
+2019/08/02 07:52:57 INFO  : SAMEA1877181_L3_2.fastq.gz: Multi-thread Copied (new)
+2019/08/02 07:52:57 INFO  : 
+Transferred:   	  326.981M / 326.981 MBytes, 100%, 16.890 MBytes/s, ETA 0s
+Errors:                 0
+Checks:                 0 / 0, -
+Transferred:            1 / 1, 100%
+Elapsed time:       19.3s
+
+2019/08/02 07:52:57 DEBUG : 12 go routines active
+2019/08/02 07:52:57 DEBUG : rclone: Version "v1.48.0" finishing with parameters ["rclone" "copy" "onedrive-em:africanum_analysis/lab/SAMEA1877181_L3_2.fastq.gz" "." "-vv"]
+SAMEA1877187_1.fastq.gz
+2019/08/02 07:53:07 DEBUG : rclone: Version "v1.48.0" starting with parameters ["rclone" "copy" "onedrive-em:africanum_analysis/lab/SAMEA1877187_1.fastq.gz" "." "-vv"]
+2019/08/02 07:53:07 DEBUG : Using config file from "/root/.config/rclone/rclone.conf"
+2019/08/02 07:53:09 DEBUG : SAMEA1877187_1.fastq.gz: Couldn't find file - need to transfer
+2019/08/02 07:53:24 INFO  : SAMEA1877187_1.fastq.gz: Copied (new)
+2019/08/02 07:53:24 INFO  : 
+Transferred:   	  223.446M / 223.446 MBytes, 100%, 13.103 MBytes/s, ETA 0s
+Errors:                 0
+Checks:                 0 / 0, -
+Transferred:            1 / 1, 100%
+Elapsed time:         17s
+
+2019/08/02 07:53:24 DEBUG : 9 go routines active
+2019/08/02 07:53:24 DEBUG : rclone: Version "v1.48.0" finishing with parameters ["rclone" "copy" "onedrive-em:africanum_analysis/lab/SAMEA1877187_1.fastq.gz" "." "-vv"]
+SAMEA1877187_2.fastq.gz
+2019/08/02 07:53:30 DEBUG : rclone: Version "v1.48.0" starting with parameters ["rclone" "copy" "onedrive-em:africanum_analysis/lab/SAMEA1877187_2.fastq.gz" "." "-vv"]
+2019/08/02 07:53:30 DEBUG : Using config file from "/root/.config/rclone/rclone.conf"
+2019/08/02 07:53:33 DEBUG : SAMEA1877187_2.fastq.gz: Couldn't find file - need to transfer
+2019/08/02 07:53:48 INFO  : SAMEA1877187_2.fastq.gz: Copied (new)
+2019/08/02 07:53:48 INFO  : 
+Transferred:   	  222.684M / 222.684 MBytes, 100%, 12.507 MBytes/s, ETA 0s
+Errors:                 0
+Checks:                 0 / 0, -
+Transferred:            1 / 1, 100%
+Elapsed time:       17.8s
+
+2019/08/02 07:53:48 DEBUG : 9 go routines active
+2019/08/02 07:53:48 DEBUG : rclone: Version "v1.48.0" finishing with parameters ["rclone" "copy" "onedrive-em:africanum_analysis/lab/SAMEA1877187_2.fastq.gz" "." "-vv"]
+SAMEA1877190_1.fastq.gz
+2019/08/02 07:53:54 DEBUG : rclone: Version "v1.48.0" starting with parameters ["rclone" "copy" "onedrive-em:africanum_analysis/lab/SAMEA1877190_1.fastq.gz" "." "-vv"]
+2019/08/02 07:53:54 DEBUG : Using config file from "/root/.config/rclone/rclone.conf"
+2019/08/02 07:53:58 DEBUG : SAMEA1877190_1.fastq.gz: Couldn't find file - need to transfer
+2019/08/02 07:53:58 DEBUG : SAMEA1877190_1.fastq.gz: Starting multi-thread copy with 2 parts of size 200.688M
+2019/08/02 07:53:58 DEBUG : SAMEA1877190_1.fastq.gz: multi-thread copy: stream 1/2 (0-210436096) size 200.688M starting
+2019/08/02 07:53:58 DEBUG : SAMEA1877190_1.fastq.gz: multi-thread copy: stream 2/2 (210436096-420742737) size 200.564M starting
+2019/08/02 07:54:08 DEBUG : SAMEA1877190_1.fastq.gz: multi-thread copy: stream 2/2 (210436096-420742737) size 200.564M finished
+2019/08/02 07:54:14 DEBUG : SAMEA1877190_1.fastq.gz: multi-thread copy: stream 1/2 (0-210436096) size 200.688M finished
+2019/08/02 07:54:14 DEBUG : SAMEA1877190_1.fastq.gz: Finished multi-thread copy with 2 parts of size 200.688M
+2019/08/02 07:54:15 INFO  : SAMEA1877190_1.fastq.gz: Multi-thread Copied (new)
+2019/08/02 07:54:15 INFO  : 
+Transferred:   	  401.252M / 401.252 MBytes, 100%, 19.795 MBytes/s, ETA 0s
+Errors:                 0
+Checks:                 0 / 0, -
+Transferred:            1 / 1, 100%
+Elapsed time:       20.2s
+
+2019/08/02 07:54:15 DEBUG : 12 go routines active
+2019/08/02 07:54:15 DEBUG : rclone: Version "v1.48.0" finishing with parameters ["rclone" "copy" "onedrive-em:africanum_analysis/lab/SAMEA1877190_1.fastq.gz" "." "-vv"]
+SAMEA1877190_2.fastq.gz
+2019/08/02 07:54:26 DEBUG : rclone: Version "v1.48.0" starting with parameters ["rclone" "copy" "onedrive-em:africanum_analysis/lab/SAMEA1877190_2.fastq.gz" "." "-vv"]
+2019/08/02 07:54:26 DEBUG : Using config file from "/root/.config/rclone/rclone.conf"
+2019/08/02 07:54:29 DEBUG : SAMEA1877190_2.fastq.gz: Couldn't find file - need to transfer
+2019/08/02 07:54:29 DEBUG : SAMEA1877190_2.fastq.gz: Starting multi-thread copy with 2 parts of size 195.750M
+2019/08/02 07:54:29 DEBUG : SAMEA1877190_2.fastq.gz: multi-thread copy: stream 2/2 (205258752-410485181) size 195.719M starting
+2019/08/02 07:54:29 DEBUG : SAMEA1877190_2.fastq.gz: multi-thread copy: stream 1/2 (0-205258752) size 195.750M starting
+2019/08/02 07:54:40 DEBUG : SAMEA1877190_2.fastq.gz: multi-thread copy: stream 2/2 (205258752-410485181) size 195.719M finished
+2019/08/02 07:54:43 DEBUG : SAMEA1877190_2.fastq.gz: multi-thread copy: stream 1/2 (0-205258752) size 195.750M finished
+2019/08/02 07:54:43 DEBUG : SAMEA1877190_2.fastq.gz: Finished multi-thread copy with 2 parts of size 195.750M
+2019/08/02 07:54:44 INFO  : SAMEA1877190_2.fastq.gz: Multi-thread Copied (new)
+2019/08/02 07:54:44 INFO  : 
+Transferred:   	  391.469M / 391.469 MBytes, 100%, 21.871 MBytes/s, ETA 0s
+Errors:                 0
+Checks:                 0 / 0, -
+Transferred:            1 / 1, 100%
+Elapsed time:       17.8s
+
+2019/08/02 07:54:44 DEBUG : 12 go routines active
+2019/08/02 07:54:44 DEBUG : rclone: Version "v1.48.0" finishing with parameters ["rclone" "copy" "onedrive-em:africanum_analysis/lab/SAMEA1877190_2.fastq.gz" "." "-vv"]
+SAMEA1877206_1.fastq.gz
+2019/08/02 07:54:55 DEBUG : rclone: Version "v1.48.0" starting with parameters ["rclone" "copy" "onedrive-em:africanum_analysis/lab/SAMEA1877206_1.fastq.gz" "." "-vv"]
+2019/08/02 07:54:55 DEBUG : Using config file from "/root/.config/rclone/rclone.conf"
+2019/08/02 07:54:57 DEBUG : SAMEA1877206_1.fastq.gz: Couldn't find file - need to transfer
+2019/08/02 07:54:57 DEBUG : SAMEA1877206_1.fastq.gz: Starting multi-thread copy with 2 parts of size 128.938M
+2019/08/02 07:54:57 DEBUG : SAMEA1877206_1.fastq.gz: multi-thread copy: stream 2/2 (135200768-270337600) size 128.877M starting
+2019/08/02 07:54:57 DEBUG : SAMEA1877206_1.fastq.gz: multi-thread copy: stream 1/2 (0-135200768) size 128.938M starting
+2019/08/02 07:55:08 DEBUG : SAMEA1877206_1.fastq.gz: multi-thread copy: stream 2/2 (135200768-270337600) size 128.877M finished
+2019/08/02 07:55:09 DEBUG : SAMEA1877206_1.fastq.gz: multi-thread copy: stream 1/2 (0-135200768) size 128.938M finished
+2019/08/02 07:55:09 DEBUG : SAMEA1877206_1.fastq.gz: Finished multi-thread copy with 2 parts of size 128.938M
+2019/08/02 07:55:09 INFO  : SAMEA1877206_1.fastq.gz: Multi-thread Copied (new)
+2019/08/02 07:55:09 INFO  : 
+Transferred:   	  257.814M / 257.814 MBytes, 100%, 17.780 MBytes/s, ETA 0s
+Errors:                 0
+Checks:                 0 / 0, -
+Transferred:            1 / 1, 100%
+Elapsed time:       14.5s
+
+2019/08/02 07:55:09 DEBUG : 12 go routines active
+2019/08/02 07:55:09 DEBUG : rclone: Version "v1.48.0" finishing with parameters ["rclone" "copy" "onedrive-em:africanum_analysis/lab/SAMEA1877206_1.fastq.gz" "." "-vv"]
+SAMEA1877206_2.fastq.gz
+2019/08/02 07:55:17 DEBUG : rclone: Version "v1.48.0" starting with parameters ["rclone" "copy" "onedrive-em:africanum_analysis/lab/SAMEA1877206_2.fastq.gz" "." "-vv"]
+2019/08/02 07:55:17 DEBUG : Using config file from "/root/.config/rclone/rclone.conf"
+2019/08/02 07:55:20 DEBUG : SAMEA1877206_2.fastq.gz: Couldn't find file - need to transfer
+2019/08/02 07:55:20 DEBUG : SAMEA1877206_2.fastq.gz: Starting multi-thread copy with 2 parts of size 128.438M
+2019/08/02 07:55:20 DEBUG : SAMEA1877206_2.fastq.gz: multi-thread copy: stream 1/2 (0-134676480) size 128.438M starting
+2019/08/02 07:55:20 DEBUG : SAMEA1877206_2.fastq.gz: multi-thread copy: stream 2/2 (134676480-269255797) size 128.345M starting
+2019/08/02 07:55:28 DEBUG : SAMEA1877206_2.fastq.gz: multi-thread copy: stream 2/2 (134676480-269255797) size 128.345M finished
+2019/08/02 07:55:30 DEBUG : SAMEA1877206_2.fastq.gz: multi-thread copy: stream 1/2 (0-134676480) size 128.438M finished
+2019/08/02 07:55:30 DEBUG : SAMEA1877206_2.fastq.gz: Finished multi-thread copy with 2 parts of size 128.438M
+2019/08/02 07:55:30 INFO  : SAMEA1877206_2.fastq.gz: Multi-thread Copied (new)
+2019/08/02 07:55:30 INFO  : 
+Transferred:   	  256.782M / 256.782 MBytes, 100%, 19.808 MBytes/s, ETA 0s
+Errors:                 0
+Checks:                 0 / 0, -
+Transferred:            1 / 1, 100%
+Elapsed time:       12.9s
+
+2019/08/02 07:55:30 DEBUG : 12 go routines active
+2019/08/02 07:55:30 DEBUG : rclone: Version "v1.48.0" finishing with parameters ["rclone" "copy" "onedrive-em:africanum_analysis/lab/SAMEA1877206_2.fastq.gz" "." "-vv"]
+SAMEA1877207_1.fastq.gz
+2019/08/02 07:55:37 DEBUG : rclone: Version "v1.48.0" starting with parameters ["rclone" "copy" "onedrive-em:africanum_analysis/lab/SAMEA1877207_1.fastq.gz" "." "-vv"]
+2019/08/02 07:55:37 DEBUG : Using config file from "/root/.config/rclone/rclone.conf"
+2019/08/02 07:55:40 DEBUG : SAMEA1877207_1.fastq.gz: Couldn't find file - need to transfer
+2019/08/02 07:55:51 INFO  : SAMEA1877207_1.fastq.gz: Copied (new)
+2019/08/02 07:55:51 INFO  : 
+Transferred:   	  229.715M / 229.715 MBytes, 100%, 16.568 MBytes/s, ETA 0s
+Errors:                 0
+Checks:                 0 / 0, -
+Transferred:            1 / 1, 100%
+Elapsed time:       13.8s
+
+2019/08/02 07:55:51 DEBUG : 8 go routines active
+2019/08/02 07:55:51 DEBUG : rclone: Version "v1.48.0" finishing with parameters ["rclone" "copy" "onedrive-em:africanum_analysis/lab/SAMEA1877207_1.fastq.gz" "." "-vv"]
+SAMEA1877207_2.fastq.gz
+2019/08/02 07:55:57 DEBUG : rclone: Version "v1.48.0" starting with parameters ["rclone" "copy" "onedrive-em:africanum_analysis/lab/SAMEA1877207_2.fastq.gz" "." "-vv"]
+2019/08/02 07:55:57 DEBUG : Using config file from "/root/.config/rclone/rclone.conf"
+2019/08/02 07:56:00 DEBUG : SAMEA1877207_2.fastq.gz: Couldn't find file - need to transfer
+2019/08/02 07:56:11 INFO  : SAMEA1877207_2.fastq.gz: Copied (new)
+2019/08/02 07:56:11 INFO  : 
+Transferred:   	  196.797M / 196.797 MBytes, 100%, 14.433 MBytes/s, ETA 0s
+Errors:                 0
+Checks:                 0 / 0, -
+Transferred:            1 / 1, 100%
+Elapsed time:       13.6s
+
+2019/08/02 07:56:11 DEBUG : 9 go routines active
+2019/08/02 07:56:11 DEBUG : rclone: Version "v1.48.0" finishing with parameters ["rclone" "copy" "onedrive-em:africanum_analysis/lab/SAMEA1877207_2.fastq.gz" "." "-vv"]
+SAMEA1877219_L2_1.fastq.gz
+2019/08/02 07:56:17 DEBUG : rclone: Version "v1.48.0" starting with parameters ["rclone" "copy" "onedrive-em:africanum_analysis/lab/SAMEA1877219_L2_1.fastq.gz" "." "-vv"]
+2019/08/02 07:56:17 DEBUG : Using config file from "/root/.config/rclone/rclone.conf"
+2019/08/02 07:56:19 DEBUG : SAMEA1877219_L2_1.fastq.gz: Couldn't find file - need to transfer
+2019/08/02 07:56:19 DEBUG : SAMEA1877219_L2_1.fastq.gz: Starting multi-thread copy with 2 parts of size 169M
+2019/08/02 07:56:19 DEBUG : SAMEA1877219_L2_1.fastq.gz: multi-thread copy: stream 2/2 (177209344-354403645) size 168.986M starting
+2019/08/02 07:56:19 DEBUG : SAMEA1877219_L2_1.fastq.gz: multi-thread copy: stream 1/2 (0-177209344) size 169M starting
+2019/08/02 07:56:28 DEBUG : SAMEA1877219_L2_1.fastq.gz: multi-thread copy: stream 1/2 (0-177209344) size 169M finished
+2019/08/02 07:56:28 DEBUG : SAMEA1877219_L2_1.fastq.gz: multi-thread copy: stream 2/2 (177209344-354403645) size 168.986M finished
+2019/08/02 07:56:28 DEBUG : SAMEA1877219_L2_1.fastq.gz: Finished multi-thread copy with 2 parts of size 169M
+2019/08/02 07:56:29 INFO  : SAMEA1877219_L2_1.fastq.gz: Multi-thread Copied (new)
+2019/08/02 07:56:29 INFO  : 
+Transferred:   	  337.986M / 337.986 MBytes, 100%, 28.035 MBytes/s, ETA 0s
+Errors:                 0
+Checks:                 0 / 0, -
+Transferred:            1 / 1, 100%
+Elapsed time:         12s
+
+2019/08/02 07:56:29 DEBUG : 12 go routines active
+2019/08/02 07:56:29 DEBUG : rclone: Version "v1.48.0" finishing with parameters ["rclone" "copy" "onedrive-em:africanum_analysis/lab/SAMEA1877219_L2_1.fastq.gz" "." "-vv"]
+SAMEA1877219_L2_2.fastq.gz
+2019/08/02 07:56:38 DEBUG : rclone: Version "v1.48.0" starting with parameters ["rclone" "copy" "onedrive-em:africanum_analysis/lab/SAMEA1877219_L2_2.fastq.gz" "." "-vv"]
+2019/08/02 07:56:38 DEBUG : Using config file from "/root/.config/rclone/rclone.conf"
+2019/08/02 07:56:41 DEBUG : SAMEA1877219_L2_2.fastq.gz: Couldn't find file - need to transfer
+2019/08/02 07:56:41 DEBUG : SAMEA1877219_L2_2.fastq.gz: Starting multi-thread copy with 2 parts of size 171.500M
+2019/08/02 07:56:41 DEBUG : SAMEA1877219_L2_2.fastq.gz: multi-thread copy: stream 2/2 (179830784-359565307) size 171.408M starting
+2019/08/02 07:56:41 DEBUG : SAMEA1877219_L2_2.fastq.gz: multi-thread copy: stream 1/2 (0-179830784) size 171.500M starting
+2019/08/02 07:56:52 DEBUG : SAMEA1877219_L2_2.fastq.gz: multi-thread copy: stream 1/2 (0-179830784) size 171.500M finished
+2019/08/02 07:56:53 DEBUG : SAMEA1877219_L2_2.fastq.gz: multi-thread copy: stream 2/2 (179830784-359565307) size 171.408M finished
+2019/08/02 07:56:53 DEBUG : SAMEA1877219_L2_2.fastq.gz: Finished multi-thread copy with 2 parts of size 171.500M
+2019/08/02 07:56:53 INFO  : SAMEA1877219_L2_2.fastq.gz: Multi-thread Copied (new)
+2019/08/02 07:56:53 INFO  : 
+Transferred:   	  342.908M / 342.908 MBytes, 100%, 21.904 MBytes/s, ETA 0s
+Errors:                 0
+Checks:                 0 / 0, -
+Transferred:            1 / 1, 100%
+Elapsed time:       15.6s
+
+2019/08/02 07:56:53 DEBUG : 12 go routines active
+2019/08/02 07:56:53 DEBUG : rclone: Version "v1.48.0" finishing with parameters ["rclone" "copy" "onedrive-em:africanum_analysis/lab/SAMEA1877219_L2_2.fastq.gz" "." "-vv"]
+SAMEA1877227_1.fastq.gz
+2019/08/02 07:57:03 DEBUG : rclone: Version "v1.48.0" starting with parameters ["rclone" "copy" "onedrive-em:africanum_analysis/lab/SAMEA1877227_1.fastq.gz" "." "-vv"]
+2019/08/02 07:57:03 DEBUG : Using config file from "/root/.config/rclone/rclone.conf"
+2019/08/02 07:57:07 DEBUG : SAMEA1877227_1.fastq.gz: Couldn't find file - need to transfer
+2019/08/02 07:57:07 DEBUG : SAMEA1877227_1.fastq.gz: Starting multi-thread copy with 2 parts of size 165.438M
+2019/08/02 07:57:07 DEBUG : SAMEA1877227_1.fastq.gz: multi-thread copy: stream 2/2 (173473792-346853242) size 165.348M starting
+2019/08/02 07:57:07 DEBUG : SAMEA1877227_1.fastq.gz: multi-thread copy: stream 1/2 (0-173473792) size 165.438M starting
+2019/08/02 07:57:18 DEBUG : SAMEA1877227_1.fastq.gz: multi-thread copy: stream 2/2 (173473792-346853242) size 165.348M finished
+2019/08/02 07:57:25 DEBUG : SAMEA1877227_1.fastq.gz: multi-thread copy: stream 1/2 (0-173473792) size 165.438M finished
+2019/08/02 07:57:25 DEBUG : SAMEA1877227_1.fastq.gz: Finished multi-thread copy with 2 parts of size 165.438M
+2019/08/02 07:57:26 INFO  : SAMEA1877227_1.fastq.gz: Multi-thread Copied (new)
+2019/08/02 07:57:26 INFO  : 
+Transferred:   	  330.785M / 330.785 MBytes, 100%, 14.464 MBytes/s, ETA 0s
+Errors:                 0
+Checks:                 0 / 0, -
+Transferred:            1 / 1, 100%
+Elapsed time:       22.8s
+
+2019/08/02 07:57:26 DEBUG : 12 go routines active
+2019/08/02 07:57:26 DEBUG : rclone: Version "v1.48.0" finishing with parameters ["rclone" "copy" "onedrive-em:africanum_analysis/lab/SAMEA1877227_1.fastq.gz" "." "-vv"]
+SAMEA1877227_2.fastq.gz
+2019/08/02 07:57:36 DEBUG : rclone: Version "v1.48.0" starting with parameters ["rclone" "copy" "onedrive-em:africanum_analysis/lab/SAMEA1877227_2.fastq.gz" "." "-vv"]
+2019/08/02 07:57:36 DEBUG : Using config file from "/root/.config/rclone/rclone.conf"
+2019/08/02 07:57:39 DEBUG : SAMEA1877227_2.fastq.gz: Couldn't find file - need to transfer
+2019/08/02 07:57:39 DEBUG : SAMEA1877227_2.fastq.gz: Starting multi-thread copy with 2 parts of size 139.938M
+2019/08/02 07:57:39 DEBUG : SAMEA1877227_2.fastq.gz: multi-thread copy: stream 2/2 (146735104-293379554) size 139.851M starting
+2019/08/02 07:57:39 DEBUG : SAMEA1877227_2.fastq.gz: multi-thread copy: stream 1/2 (0-146735104) size 139.938M starting
+2019/08/02 07:57:49 DEBUG : SAMEA1877227_2.fastq.gz: multi-thread copy: stream 1/2 (0-146735104) size 139.938M finished
+2019/08/02 07:57:49 DEBUG : SAMEA1877227_2.fastq.gz: multi-thread copy: stream 2/2 (146735104-293379554) size 139.851M finished
+2019/08/02 07:57:49 DEBUG : SAMEA1877227_2.fastq.gz: Finished multi-thread copy with 2 parts of size 139.938M
+2019/08/02 07:57:49 INFO  : SAMEA1877227_2.fastq.gz: Multi-thread Copied (new)
+2019/08/02 07:57:49 INFO  : 
+Transferred:   	  279.789M / 279.789 MBytes, 100%, 20.630 MBytes/s, ETA 0s
+Errors:                 0
+Checks:                 0 / 0, -
+Transferred:            1 / 1, 100%
+Elapsed time:       13.5s
+
+2019/08/02 07:57:49 DEBUG : 12 go routines active
+2019/08/02 07:57:49 DEBUG : rclone: Version "v1.48.0" finishing with parameters ["rclone" "copy" "onedrive-em:africanum_analysis/lab/SAMEA1877227_2.fastq.gz" "." "-vv"]
+SAMEA1877229_1.fastq.gz
+2019/08/02 07:57:58 DEBUG : rclone: Version "v1.48.0" starting with parameters ["rclone" "copy" "onedrive-em:africanum_analysis/lab/SAMEA1877229_1.fastq.gz" "." "-vv"]
+2019/08/02 07:57:58 DEBUG : Using config file from "/root/.config/rclone/rclone.conf"
+2019/08/02 07:58:01 DEBUG : SAMEA1877229_1.fastq.gz: Couldn't find file - need to transfer
+2019/08/02 07:58:01 DEBUG : SAMEA1877229_1.fastq.gz: Starting multi-thread copy with 2 parts of size 157.562M
+2019/08/02 07:58:01 DEBUG : SAMEA1877229_1.fastq.gz: multi-thread copy: stream 2/2 (165216256-330411319) size 157.542M starting
+2019/08/02 07:58:01 DEBUG : SAMEA1877229_1.fastq.gz: multi-thread copy: stream 1/2 (0-165216256) size 157.562M starting
+2019/08/02 07:58:12 DEBUG : SAMEA1877229_1.fastq.gz: multi-thread copy: stream 1/2 (0-165216256) size 157.562M finished
+2019/08/02 07:58:13 DEBUG : SAMEA1877229_1.fastq.gz: multi-thread copy: stream 2/2 (165216256-330411319) size 157.542M finished
+2019/08/02 07:58:13 DEBUG : SAMEA1877229_1.fastq.gz: Finished multi-thread copy with 2 parts of size 157.562M
+2019/08/02 07:58:14 INFO  : SAMEA1877229_1.fastq.gz: Multi-thread Copied (new)
+2019/08/02 07:58:14 INFO  : 
+Transferred:   	  315.105M / 315.105 MBytes, 100%, 19.491 MBytes/s, ETA 0s
+Errors:                 0
+Checks:                 0 / 0, -
+Transferred:            1 / 1, 100%
+Elapsed time:       16.1s
+
+2019/08/02 07:58:14 DEBUG : 12 go routines active
+2019/08/02 07:58:14 DEBUG : rclone: Version "v1.48.0" finishing with parameters ["rclone" "copy" "onedrive-em:africanum_analysis/lab/SAMEA1877229_1.fastq.gz" "." "-vv"]
+SAMEA1877229_2.fastq.gz
+2019/08/02 07:58:23 DEBUG : rclone: Version "v1.48.0" starting with parameters ["rclone" "copy" "onedrive-em:africanum_analysis/lab/SAMEA1877229_2.fastq.gz" "." "-vv"]
+2019/08/02 07:58:23 DEBUG : Using config file from "/root/.config/rclone/rclone.conf"
+2019/08/02 07:58:26 DEBUG : SAMEA1877229_2.fastq.gz: Couldn't find file - need to transfer
+2019/08/02 07:58:26 DEBUG : SAMEA1877229_2.fastq.gz: Starting multi-thread copy with 2 parts of size 134.875M
+2019/08/02 07:58:26 DEBUG : SAMEA1877229_2.fastq.gz: multi-thread copy: stream 1/2 (0-141426688) size 134.875M starting
+2019/08/02 07:58:26 DEBUG : SAMEA1877229_2.fastq.gz: multi-thread copy: stream 2/2 (141426688-282740419) size 134.767M starting
+2019/08/02 07:58:37 DEBUG : SAMEA1877229_2.fastq.gz: multi-thread copy: stream 2/2 (141426688-282740419) size 134.767M finished
+2019/08/02 07:58:38 DEBUG : SAMEA1877229_2.fastq.gz: multi-thread copy: stream 1/2 (0-141426688) size 134.875M finished
+2019/08/02 07:58:38 DEBUG : SAMEA1877229_2.fastq.gz: Finished multi-thread copy with 2 parts of size 134.875M
+2019/08/02 07:58:39 INFO  : SAMEA1877229_2.fastq.gz: Multi-thread Copied (new)
+2019/08/02 07:58:39 INFO  : 
+Transferred:   	  269.642M / 269.642 MBytes, 100%, 17.127 MBytes/s, ETA 0s
+Errors:                 0
+Checks:                 0 / 0, -
+Transferred:            1 / 1, 100%
+Elapsed time:       15.7s
+
+2019/08/02 07:58:39 DEBUG : 12 go routines active
+2019/08/02 07:58:39 DEBUG : rclone: Version "v1.48.0" finishing with parameters ["rclone" "copy" "onedrive-em:africanum_analysis/lab/SAMEA1877229_2.fastq.gz" "." "-vv"]
+SAMEA1877233_1.fastq.gz
+2019/08/02 07:58:47 DEBUG : rclone: Version "v1.48.0" starting with parameters ["rclone" "copy" "onedrive-em:africanum_analysis/lab/SAMEA1877233_1.fastq.gz" "." "-vv"]
+2019/08/02 07:58:47 DEBUG : Using config file from "/root/.config/rclone/rclone.conf"
+2019/08/02 07:58:50 DEBUG : SAMEA1877233_1.fastq.gz: Couldn't find file - need to transfer
+2019/08/02 07:58:50 DEBUG : SAMEA1877233_1.fastq.gz: Starting multi-thread copy with 2 parts of size 140.312M
+2019/08/02 07:58:50 DEBUG : SAMEA1877233_1.fastq.gz: multi-thread copy: stream 2/2 (147128320-294154577) size 140.215M starting
+2019/08/02 07:58:50 DEBUG : SAMEA1877233_1.fastq.gz: multi-thread copy: stream 1/2 (0-147128320) size 140.312M starting
+2019/08/02 07:59:00 DEBUG : SAMEA1877233_1.fastq.gz: multi-thread copy: stream 1/2 (0-147128320) size 140.312M finished
+2019/08/02 07:59:01 DEBUG : SAMEA1877233_1.fastq.gz: multi-thread copy: stream 2/2 (147128320-294154577) size 140.215M finished
+2019/08/02 07:59:01 DEBUG : SAMEA1877233_1.fastq.gz: Finished multi-thread copy with 2 parts of size 140.312M
+2019/08/02 07:59:01 INFO  : SAMEA1877233_1.fastq.gz: Multi-thread Copied (new)
+2019/08/02 07:59:01 INFO  : 
+Transferred:   	  280.528M / 280.528 MBytes, 100%, 20.132 MBytes/s, ETA 0s
+Errors:                 0
+Checks:                 0 / 0, -
+Transferred:            1 / 1, 100%
+Elapsed time:       13.9s
+
+2019/08/02 07:59:01 DEBUG : 12 go routines active
+2019/08/02 07:59:01 DEBUG : rclone: Version "v1.48.0" finishing with parameters ["rclone" "copy" "onedrive-em:africanum_analysis/lab/SAMEA1877233_1.fastq.gz" "." "-vv"]
+SAMEA1877233_2.fastq.gz
+2019/08/02 07:59:09 DEBUG : rclone: Version "v1.48.0" starting with parameters ["rclone" "copy" "onedrive-em:africanum_analysis/lab/SAMEA1877233_2.fastq.gz" "." "-vv"]
+2019/08/02 07:59:09 DEBUG : Using config file from "/root/.config/rclone/rclone.conf"
+2019/08/02 07:59:12 DEBUG : SAMEA1877233_2.fastq.gz: Couldn't find file - need to transfer
+2019/08/02 07:59:12 DEBUG : SAMEA1877233_2.fastq.gz: Starting multi-thread copy with 2 parts of size 142.062M
+2019/08/02 07:59:12 DEBUG : SAMEA1877233_2.fastq.gz: multi-thread copy: stream 2/2 (148963328-297864751) size 142.003M starting
+2019/08/02 07:59:12 DEBUG : SAMEA1877233_2.fastq.gz: multi-thread copy: stream 1/2 (0-148963328) size 142.062M starting
+2019/08/02 07:59:23 DEBUG : SAMEA1877233_2.fastq.gz: multi-thread copy: stream 1/2 (0-148963328) size 142.062M finished
+2019/08/02 07:59:23 DEBUG : SAMEA1877233_2.fastq.gz: multi-thread copy: stream 2/2 (148963328-297864751) size 142.003M finished
+2019/08/02 07:59:23 DEBUG : SAMEA1877233_2.fastq.gz: Finished multi-thread copy with 2 parts of size 142.062M
+2019/08/02 07:59:24 INFO  : SAMEA1877233_2.fastq.gz: Multi-thread Copied (new)
+2019/08/02 07:59:24 INFO  : 
+Transferred:   	  284.066M / 284.066 MBytes, 100%, 19.245 MBytes/s, ETA 0s
+Errors:                 0
+Checks:                 0 / 0, -
+Transferred:            1 / 1, 100%
+Elapsed time:       14.7s
+
+2019/08/02 07:59:24 DEBUG : 12 go routines active
+2019/08/02 07:59:24 DEBUG : rclone: Version "v1.48.0" finishing with parameters ["rclone" "copy" "onedrive-em:africanum_analysis/lab/SAMEA1877233_2.fastq.gz" "." "-vv"]
+SAMEA1877237_1.fastq.gz
+2019/08/02 07:59:32 DEBUG : rclone: Version "v1.48.0" starting with parameters ["rclone" "copy" "onedrive-em:africanum_analysis/lab/SAMEA1877237_1.fastq.gz" "." "-vv"]
+2019/08/02 07:59:32 DEBUG : Using config file from "/root/.config/rclone/rclone.conf"
+2019/08/02 07:59:35 DEBUG : SAMEA1877237_1.fastq.gz: Couldn't find file - need to transfer
+2019/08/02 07:59:48 INFO  : SAMEA1877237_1.fastq.gz: Copied (new)
+2019/08/02 07:59:48 INFO  : 
+Transferred:   	  213.148M / 213.148 MBytes, 100%, 13.097 MBytes/s, ETA 0s
+Errors:                 0
+Checks:                 0 / 0, -
+Transferred:            1 / 1, 100%
+Elapsed time:       16.2s
+
+2019/08/02 07:59:48 DEBUG : 8 go routines active
+2019/08/02 07:59:48 DEBUG : rclone: Version "v1.48.0" finishing with parameters ["rclone" "copy" "onedrive-em:africanum_analysis/lab/SAMEA1877237_1.fastq.gz" "." "-vv"]
+SAMEA1877237_2.fastq.gz
+2019/08/02 07:59:54 DEBUG : rclone: Version "v1.48.0" starting with parameters ["rclone" "copy" "onedrive-em:africanum_analysis/lab/SAMEA1877237_2.fastq.gz" "." "-vv"]
+2019/08/02 07:59:54 DEBUG : Using config file from "/root/.config/rclone/rclone.conf"
+2019/08/02 07:59:57 DEBUG : SAMEA1877237_2.fastq.gz: Couldn't find file - need to transfer
+2019/08/02 08:00:09 INFO  : SAMEA1877237_2.fastq.gz: Copied (new)
+2019/08/02 08:00:09 INFO  : 
+Transferred:   	  176.470M / 176.470 MBytes, 100%, 12.377 MBytes/s, ETA 0s
+Errors:                 0
+Checks:                 0 / 0, -
+Transferred:            1 / 1, 100%
+Elapsed time:       14.2s
+
+2019/08/02 08:00:09 DEBUG : 8 go routines active
+2019/08/02 08:00:09 DEBUG : rclone: Version "v1.48.0" finishing with parameters ["rclone" "copy" "onedrive-em:africanum_analysis/lab/SAMEA1877237_2.fastq.gz" "." "-vv"]
+SAMEA1877266_L4_1.fastq.gz
+2019/08/02 08:00:14 DEBUG : rclone: Version "v1.48.0" starting with parameters ["rclone" "copy" "onedrive-em:africanum_analysis/lab/SAMEA1877266_L4_1.fastq.gz" "." "-vv"]
+2019/08/02 08:00:14 DEBUG : Using config file from "/root/.config/rclone/rclone.conf"
+2019/08/02 08:00:17 DEBUG : SAMEA1877266_L4_1.fastq.gz: Couldn't find file - need to transfer
+2019/08/02 08:00:27 INFO  : SAMEA1877266_L4_1.fastq.gz: Copied (new)
+2019/08/02 08:00:27 INFO  : 
+Transferred:   	  166.194M / 166.194 MBytes, 100%, 12.939 MBytes/s, ETA 0s
+Errors:                 0
+Checks:                 0 / 0, -
+Transferred:            1 / 1, 100%
+Elapsed time:       12.8s
+
+2019/08/02 08:00:27 DEBUG : 8 go routines active
+2019/08/02 08:00:27 DEBUG : rclone: Version "v1.48.0" finishing with parameters ["rclone" "copy" "onedrive-em:africanum_analysis/lab/SAMEA1877266_L4_1.fastq.gz" "." "-vv"]
+SAMEA1877266_L4_2.fastq.gz
+2019/08/02 08:00:32 DEBUG : rclone: Version "v1.48.0" starting with parameters ["rclone" "copy" "onedrive-em:africanum_analysis/lab/SAMEA1877266_L4_2.fastq.gz" "." "-vv"]
+2019/08/02 08:00:32 DEBUG : Using config file from "/root/.config/rclone/rclone.conf"
+2019/08/02 08:00:35 DEBUG : SAMEA1877266_L4_2.fastq.gz: Couldn't find file - need to transfer
+2019/08/02 08:00:46 INFO  : SAMEA1877266_L4_2.fastq.gz: Copied (new)
+2019/08/02 08:00:46 INFO  : 
+Transferred:   	  166.937M / 166.937 MBytes, 100%, 11.443 MBytes/s, ETA 0s
+Errors:                 0
+Checks:                 0 / 0, -
+Transferred:            1 / 1, 100%
+Elapsed time:       14.5s
+
+2019/08/02 08:00:46 DEBUG : 8 go routines active
+2019/08/02 08:00:46 DEBUG : rclone: Version "v1.48.0" finishing with parameters ["rclone" "copy" "onedrive-em:africanum_analysis/lab/SAMEA1877266_L4_2.fastq.gz" "." "-vv"]
+SAMEA1877285_1.fastq.gz
+2019/08/02 08:00:51 DEBUG : rclone: Version "v1.48.0" starting with parameters ["rclone" "copy" "onedrive-em:africanum_analysis/lab/SAMEA1877285_1.fastq.gz" "." "-vv"]
+2019/08/02 08:00:51 DEBUG : Using config file from "/root/.config/rclone/rclone.conf"
+2019/08/02 08:00:54 DEBUG : SAMEA1877285_1.fastq.gz: Couldn't find file - need to transfer
+2019/08/02 08:00:54 DEBUG : SAMEA1877285_1.fastq.gz: Starting multi-thread copy with 2 parts of size 174.688M
+2019/08/02 08:00:54 DEBUG : SAMEA1877285_1.fastq.gz: multi-thread copy: stream 2/2 (183173120-366293080) size 174.637M starting
+2019/08/02 08:00:54 DEBUG : SAMEA1877285_1.fastq.gz: multi-thread copy: stream 1/2 (0-183173120) size 174.688M starting
+2019/08/02 08:01:04 DEBUG : SAMEA1877285_1.fastq.gz: multi-thread copy: stream 2/2 (183173120-366293080) size 174.637M finished
+2019/08/02 08:01:08 DEBUG : SAMEA1877285_1.fastq.gz: multi-thread copy: stream 1/2 (0-183173120) size 174.688M finished
+2019/08/02 08:01:08 DEBUG : SAMEA1877285_1.fastq.gz: Finished multi-thread copy with 2 parts of size 174.688M
+2019/08/02 08:01:08 INFO  : SAMEA1877285_1.fastq.gz: Multi-thread Copied (new)
+2019/08/02 08:01:08 INFO  : 
+Transferred:   	  349.324M / 349.324 MBytes, 100%, 19.915 MBytes/s, ETA 0s
+Errors:                 0
+Checks:                 0 / 0, -
+Transferred:            1 / 1, 100%
+Elapsed time:       17.5s
+
+2019/08/02 08:01:08 DEBUG : 12 go routines active
+2019/08/02 08:01:08 DEBUG : rclone: Version "v1.48.0" finishing with parameters ["rclone" "copy" "onedrive-em:africanum_analysis/lab/SAMEA1877285_1.fastq.gz" "." "-vv"]
+SAMEA1877285_2.fastq.gz
+2019/08/02 08:01:18 DEBUG : rclone: Version "v1.48.0" starting with parameters ["rclone" "copy" "onedrive-em:africanum_analysis/lab/SAMEA1877285_2.fastq.gz" "." "-vv"]
+2019/08/02 08:01:18 DEBUG : Using config file from "/root/.config/rclone/rclone.conf"
+2019/08/02 08:01:22 DEBUG : SAMEA1877285_2.fastq.gz: Couldn't find file - need to transfer
+2019/08/02 08:01:22 DEBUG : SAMEA1877285_2.fastq.gz: Starting multi-thread copy with 2 parts of size 176.500M
+2019/08/02 08:01:22 DEBUG : SAMEA1877285_2.fastq.gz: multi-thread copy: stream 2/2 (185073664-370091423) size 176.447M starting
+2019/08/02 08:01:22 DEBUG : SAMEA1877285_2.fastq.gz: multi-thread copy: stream 1/2 (0-185073664) size 176.500M starting
+2019/08/02 08:01:33 DEBUG : SAMEA1877285_2.fastq.gz: multi-thread copy: stream 2/2 (185073664-370091423) size 176.447M finished
+2019/08/02 08:01:35 DEBUG : SAMEA1877285_2.fastq.gz: multi-thread copy: stream 1/2 (0-185073664) size 176.500M finished
+2019/08/02 08:01:35 DEBUG : SAMEA1877285_2.fastq.gz: Finished multi-thread copy with 2 parts of size 176.500M
+2019/08/02 08:01:36 INFO  : SAMEA1877285_2.fastq.gz: Multi-thread Copied (new)
+2019/08/02 08:01:36 INFO  : 
+Transferred:   	  352.947M / 352.947 MBytes, 100%, 20.424 MBytes/s, ETA 0s
+Errors:                 0
+Checks:                 0 / 0, -
+Transferred:            1 / 1, 100%
+Elapsed time:       17.2s
+
+2019/08/02 08:01:36 DEBUG : 12 go routines active
+2019/08/02 08:01:36 DEBUG : rclone: Version "v1.48.0" finishing with parameters ["rclone" "copy" "onedrive-em:africanum_analysis/lab/SAMEA1877285_2.fastq.gz" "." "-vv"]
