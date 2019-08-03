@@ -1,0 +1,756 @@
+2019/08/03 04:03:18 DEBUG : rclone: Version "v1.48.0" starting with parameters ["rclone" "copy" "./SAMEA3359865_1.json" "onedrive-em:africanum_analysis/kvarq_for_doubtful_genomes/" "-vv"]
+2019/08/03 04:03:18 DEBUG : Using config file from "/root/.config/rclone/rclone.conf"
+2019/08/03 04:03:18 DEBUG : One drive root 'africanum_analysis/kvarq_for_doubtful_genomes': Token expired but no uploads in progress - doing nothing
+2019/08/03 04:03:18 DEBUG : onedrive-em: Loaded invalid token from config file - ignoring
+2019/08/03 04:03:22 DEBUG : onedrive-em: Saved new token in config file
+2019/08/03 04:03:24 DEBUG : SAMEA3359865_1.json: Couldn't find file - need to transfer
+2019/08/03 04:03:24 DEBUG : SAMEA3359865_1.json: Starting multipart upload
+2019/08/03 04:03:25 DEBUG : SAMEA3359865_1.json: Uploading segment 0/55041 size 55041
+2019/08/03 04:03:25 INFO  : SAMEA3359865_1.json: Copied (new)
+2019/08/03 04:03:25 INFO  : 
+Transferred:   	   53.751k / 53.751 kBytes, 100%, 7.050 kBytes/s, ETA 0s
+Errors:                 0
+Checks:                 0 / 0, -
+Transferred:            1 / 1, 100%
+Elapsed time:        7.6s
+
+2019/08/03 04:03:25 DEBUG : 11 go routines active
+2019/08/03 04:03:25 DEBUG : rclone: Version "v1.48.0" finishing with parameters ["rclone" "copy" "./SAMEA3359865_1.json" "onedrive-em:africanum_analysis/kvarq_for_doubtful_genomes/" "-vv"]
+2019/08/03 04:03:25 DEBUG : rclone: Version "v1.48.0" starting with parameters ["rclone" "copy" "./SAMEA3359865_2.json" "onedrive-em:africanum_analysis/kvarq_for_doubtful_genomes/" "-vv"]
+2019/08/03 04:03:25 DEBUG : Using config file from "/root/.config/rclone/rclone.conf"
+2019/08/03 04:03:27 DEBUG : SAMEA3359865_2.json: Couldn't find file - need to transfer
+2019/08/03 04:03:27 DEBUG : SAMEA3359865_2.json: Starting multipart upload
+2019/08/03 04:03:27 DEBUG : SAMEA3359865_2.json: Uploading segment 0/41458 size 41458
+2019/08/03 04:03:28 INFO  : SAMEA3359865_2.json: Copied (new)
+2019/08/03 04:03:28 INFO  : 
+Transferred:   	   40.486k / 40.486 kBytes, 100%, 16.124 kBytes/s, ETA 0s
+Errors:                 0
+Checks:                 0 / 0, -
+Transferred:            1 / 1, 100%
+Elapsed time:        2.5s
+
+2019/08/03 04:03:28 DEBUG : 9 go routines active
+2019/08/03 04:03:28 DEBUG : rclone: Version "v1.48.0" finishing with parameters ["rclone" "copy" "./SAMEA3359865_2.json" "onedrive-em:africanum_analysis/kvarq_for_doubtful_genomes/" "-vv"]
+2019/08/03 04:03:28 DEBUG : rclone: Version "v1.48.0" starting with parameters ["rclone" "copy" "./SAMEA3359867_1.json" "onedrive-em:africanum_analysis/kvarq_for_doubtful_genomes/" "-vv"]
+2019/08/03 04:03:28 DEBUG : Using config file from "/root/.config/rclone/rclone.conf"
+2019/08/03 04:03:30 DEBUG : SAMEA3359867_1.json: Couldn't find file - need to transfer
+2019/08/03 04:03:30 DEBUG : SAMEA3359867_1.json: Starting multipart upload
+2019/08/03 04:03:30 DEBUG : SAMEA3359867_1.json: Uploading segment 0/57883 size 57883
+2019/08/03 04:03:31 INFO  : SAMEA3359867_1.json: Copied (new)
+2019/08/03 04:03:31 INFO  : 
+Transferred:   	   56.526k / 56.526 kBytes, 100%, 19.029 kBytes/s, ETA 0s
+Errors:                 0
+Checks:                 0 / 0, -
+Transferred:            1 / 1, 100%
+Elapsed time:        2.9s
+
+2019/08/03 04:03:31 DEBUG : 9 go routines active
+2019/08/03 04:03:31 DEBUG : rclone: Version "v1.48.0" finishing with parameters ["rclone" "copy" "./SAMEA3359867_1.json" "onedrive-em:africanum_analysis/kvarq_for_doubtful_genomes/" "-vv"]
+2019/08/03 04:03:31 DEBUG : rclone: Version "v1.48.0" starting with parameters ["rclone" "copy" "./SAMEA3359867_2.json" "onedrive-em:africanum_analysis/kvarq_for_doubtful_genomes/" "-vv"]
+2019/08/03 04:03:31 DEBUG : Using config file from "/root/.config/rclone/rclone.conf"
+2019/08/03 04:03:32 DEBUG : SAMEA3359867_2.json: Couldn't find file - need to transfer
+2019/08/03 04:03:32 DEBUG : SAMEA3359867_2.json: Starting multipart upload
+2019/08/03 04:03:33 DEBUG : SAMEA3359867_2.json: Uploading segment 0/42133 size 42133
+2019/08/03 04:03:33 INFO  : SAMEA3359867_2.json: Copied (new)
+2019/08/03 04:03:33 INFO  : 
+Transferred:   	   41.146k / 41.146 kBytes, 100%, 16.557 kBytes/s, ETA 0s
+Errors:                 0
+Checks:                 0 / 0, -
+Transferred:            1 / 1, 100%
+Elapsed time:        2.4s
+
+2019/08/03 04:03:33 DEBUG : 9 go routines active
+2019/08/03 04:03:33 DEBUG : rclone: Version "v1.48.0" finishing with parameters ["rclone" "copy" "./SAMEA3359867_2.json" "onedrive-em:africanum_analysis/kvarq_for_doubtful_genomes/" "-vv"]
+2019/08/03 04:03:33 DEBUG : rclone: Version "v1.48.0" starting with parameters ["rclone" "copy" "./SAMEA3359868_1.json" "onedrive-em:africanum_analysis/kvarq_for_doubtful_genomes/" "-vv"]
+2019/08/03 04:03:33 DEBUG : Using config file from "/root/.config/rclone/rclone.conf"
+2019/08/03 04:03:35 DEBUG : SAMEA3359868_1.json: Couldn't find file - need to transfer
+2019/08/03 04:03:35 DEBUG : SAMEA3359868_1.json: Starting multipart upload
+2019/08/03 04:03:37 DEBUG : SAMEA3359868_1.json: Uploading segment 0/57436 size 57436
+2019/08/03 04:03:37 INFO  : SAMEA3359868_1.json: Copied (new)
+2019/08/03 04:03:37 INFO  : 
+Transferred:   	   56.090k / 56.090 kBytes, 100%, 14.882 kBytes/s, ETA 0s
+Errors:                 0
+Checks:                 0 / 0, -
+Transferred:            1 / 1, 100%
+Elapsed time:        3.7s
+
+2019/08/03 04:03:37 DEBUG : 9 go routines active
+2019/08/03 04:03:37 DEBUG : rclone: Version "v1.48.0" finishing with parameters ["rclone" "copy" "./SAMEA3359868_1.json" "onedrive-em:africanum_analysis/kvarq_for_doubtful_genomes/" "-vv"]
+2019/08/03 04:03:37 DEBUG : rclone: Version "v1.48.0" starting with parameters ["rclone" "copy" "./SAMEA3359868_2.json" "onedrive-em:africanum_analysis/kvarq_for_doubtful_genomes/" "-vv"]
+2019/08/03 04:03:37 DEBUG : Using config file from "/root/.config/rclone/rclone.conf"
+2019/08/03 04:03:38 DEBUG : SAMEA3359868_2.json: Couldn't find file - need to transfer
+2019/08/03 04:03:38 DEBUG : SAMEA3359868_2.json: Starting multipart upload
+2019/08/03 04:03:39 DEBUG : SAMEA3359868_2.json: Uploading segment 0/41289 size 41289
+2019/08/03 04:03:40 INFO  : SAMEA3359868_2.json: Copied (new)
+2019/08/03 04:03:40 INFO  : 
+Transferred:   	   40.321k / 40.321 kBytes, 100%, 15.941 kBytes/s, ETA 0s
+Errors:                 0
+Checks:                 0 / 0, -
+Transferred:            1 / 1, 100%
+Elapsed time:        2.5s
+
+2019/08/03 04:03:40 DEBUG : 9 go routines active
+2019/08/03 04:03:40 DEBUG : rclone: Version "v1.48.0" finishing with parameters ["rclone" "copy" "./SAMEA3359868_2.json" "onedrive-em:africanum_analysis/kvarq_for_doubtful_genomes/" "-vv"]
+2019/08/03 04:03:40 DEBUG : rclone: Version "v1.48.0" starting with parameters ["rclone" "copy" "./SAMEA3359869_1.json" "onedrive-em:africanum_analysis/kvarq_for_doubtful_genomes/" "-vv"]
+2019/08/03 04:03:40 DEBUG : Using config file from "/root/.config/rclone/rclone.conf"
+2019/08/03 04:03:41 DEBUG : SAMEA3359869_1.json: Couldn't find file - need to transfer
+2019/08/03 04:03:41 DEBUG : SAMEA3359869_1.json: Starting multipart upload
+2019/08/03 04:03:42 DEBUG : SAMEA3359869_1.json: Uploading segment 0/55839 size 55839
+2019/08/03 04:03:43 INFO  : SAMEA3359869_1.json: Copied (new)
+2019/08/03 04:03:43 INFO  : 
+Transferred:   	   54.530k / 54.530 kBytes, 100%, 15.582 kBytes/s, ETA 0s
+Errors:                 0
+Checks:                 0 / 0, -
+Transferred:            1 / 1, 100%
+Elapsed time:        3.4s
+
+2019/08/03 04:03:43 DEBUG : 10 go routines active
+2019/08/03 04:03:43 DEBUG : rclone: Version "v1.48.0" finishing with parameters ["rclone" "copy" "./SAMEA3359869_1.json" "onedrive-em:africanum_analysis/kvarq_for_doubtful_genomes/" "-vv"]
+2019/08/03 04:03:43 DEBUG : rclone: Version "v1.48.0" starting with parameters ["rclone" "copy" "./SAMEA3359869_2.json" "onedrive-em:africanum_analysis/kvarq_for_doubtful_genomes/" "-vv"]
+2019/08/03 04:03:43 DEBUG : Using config file from "/root/.config/rclone/rclone.conf"
+2019/08/03 04:03:45 DEBUG : SAMEA3359869_2.json: Couldn't find file - need to transfer
+2019/08/03 04:03:45 DEBUG : SAMEA3359869_2.json: Starting multipart upload
+2019/08/03 04:03:45 DEBUG : SAMEA3359869_2.json: Uploading segment 0/41043 size 41043
+2019/08/03 04:03:46 INFO  : SAMEA3359869_2.json: Copied (new)
+2019/08/03 04:03:46 INFO  : 
+Transferred:   	   40.081k / 40.081 kBytes, 100%, 15.356 kBytes/s, ETA 0s
+Errors:                 0
+Checks:                 0 / 0, -
+Transferred:            1 / 1, 100%
+Elapsed time:        2.6s
+
+2019/08/03 04:03:46 DEBUG : 9 go routines active
+2019/08/03 04:03:46 DEBUG : rclone: Version "v1.48.0" finishing with parameters ["rclone" "copy" "./SAMEA3359869_2.json" "onedrive-em:africanum_analysis/kvarq_for_doubtful_genomes/" "-vv"]
+2019/08/03 04:03:46 DEBUG : rclone: Version "v1.48.0" starting with parameters ["rclone" "copy" "./SAMEA3359871_1.json" "onedrive-em:africanum_analysis/kvarq_for_doubtful_genomes/" "-vv"]
+2019/08/03 04:03:46 DEBUG : Using config file from "/root/.config/rclone/rclone.conf"
+2019/08/03 04:03:47 DEBUG : SAMEA3359871_1.json: Couldn't find file - need to transfer
+2019/08/03 04:03:47 DEBUG : SAMEA3359871_1.json: Starting multipart upload
+2019/08/03 04:03:48 DEBUG : SAMEA3359871_1.json: Uploading segment 0/53351 size 53351
+2019/08/03 04:03:48 INFO  : SAMEA3359871_1.json: Copied (new)
+2019/08/03 04:03:48 INFO  : 
+Transferred:   	   52.101k / 52.101 kBytes, 100%, 19.584 kBytes/s, ETA 0s
+Errors:                 0
+Checks:                 0 / 0, -
+Transferred:            1 / 1, 100%
+Elapsed time:        2.6s
+
+2019/08/03 04:03:48 DEBUG : 9 go routines active
+2019/08/03 04:03:48 DEBUG : rclone: Version "v1.48.0" finishing with parameters ["rclone" "copy" "./SAMEA3359871_1.json" "onedrive-em:africanum_analysis/kvarq_for_doubtful_genomes/" "-vv"]
+2019/08/03 04:03:48 DEBUG : rclone: Version "v1.48.0" starting with parameters ["rclone" "copy" "./SAMEA3359871_2.json" "onedrive-em:africanum_analysis/kvarq_for_doubtful_genomes/" "-vv"]
+2019/08/03 04:03:48 DEBUG : Using config file from "/root/.config/rclone/rclone.conf"
+2019/08/03 04:03:50 DEBUG : SAMEA3359871_2.json: Couldn't find file - need to transfer
+2019/08/03 04:03:50 DEBUG : SAMEA3359871_2.json: Starting multipart upload
+2019/08/03 04:03:51 DEBUG : SAMEA3359871_2.json: Uploading segment 0/38878 size 38878
+2019/08/03 04:03:51 INFO  : SAMEA3359871_2.json: Copied (new)
+2019/08/03 04:03:51 INFO  : 
+Transferred:   	   37.967k / 37.967 kBytes, 100%, 12.771 kBytes/s, ETA 0s
+Errors:                 0
+Checks:                 0 / 0, -
+Transferred:            1 / 1, 100%
+Elapsed time:        2.9s
+
+2019/08/03 04:03:51 DEBUG : 10 go routines active
+2019/08/03 04:03:51 DEBUG : rclone: Version "v1.48.0" finishing with parameters ["rclone" "copy" "./SAMEA3359871_2.json" "onedrive-em:africanum_analysis/kvarq_for_doubtful_genomes/" "-vv"]
+2019/08/03 04:03:51 DEBUG : rclone: Version "v1.48.0" starting with parameters ["rclone" "copy" "./SAMEA3359872_1.json" "onedrive-em:africanum_analysis/kvarq_for_doubtful_genomes/" "-vv"]
+2019/08/03 04:03:51 DEBUG : Using config file from "/root/.config/rclone/rclone.conf"
+2019/08/03 04:03:53 DEBUG : SAMEA3359872_1.json: Couldn't find file - need to transfer
+2019/08/03 04:03:53 DEBUG : SAMEA3359872_1.json: Starting multipart upload
+2019/08/03 04:03:54 DEBUG : SAMEA3359872_1.json: Uploading segment 0/51890 size 51890
+2019/08/03 04:03:54 INFO  : SAMEA3359872_1.json: Copied (new)
+2019/08/03 04:03:54 INFO  : 
+Transferred:   	   50.674k / 50.674 kBytes, 100%, 18.691 kBytes/s, ETA 0s
+Errors:                 0
+Checks:                 0 / 0, -
+Transferred:            1 / 1, 100%
+Elapsed time:        2.7s
+
+2019/08/03 04:03:54 DEBUG : 9 go routines active
+2019/08/03 04:03:54 DEBUG : rclone: Version "v1.48.0" finishing with parameters ["rclone" "copy" "./SAMEA3359872_1.json" "onedrive-em:africanum_analysis/kvarq_for_doubtful_genomes/" "-vv"]
+2019/08/03 04:03:54 DEBUG : rclone: Version "v1.48.0" starting with parameters ["rclone" "copy" "./SAMEA3359872_2.json" "onedrive-em:africanum_analysis/kvarq_for_doubtful_genomes/" "-vv"]
+2019/08/03 04:03:54 DEBUG : Using config file from "/root/.config/rclone/rclone.conf"
+2019/08/03 04:03:56 DEBUG : SAMEA3359872_2.json: Couldn't find file - need to transfer
+2019/08/03 04:03:56 DEBUG : SAMEA3359872_2.json: Starting multipart upload
+2019/08/03 04:03:56 DEBUG : SAMEA3359872_2.json: Uploading segment 0/38815 size 38815
+2019/08/03 04:03:58 INFO  : SAMEA3359872_2.json: Copied (new)
+2019/08/03 04:03:58 INFO  : 
+Transferred:   	   37.905k / 37.905 kBytes, 100%, 9.511 kBytes/s, ETA 0s
+Errors:                 0
+Checks:                 0 / 0, -
+Transferred:            1 / 1, 100%
+Elapsed time:        3.9s
+
+2019/08/03 04:03:58 DEBUG : 9 go routines active
+2019/08/03 04:03:58 DEBUG : rclone: Version "v1.48.0" finishing with parameters ["rclone" "copy" "./SAMEA3359872_2.json" "onedrive-em:africanum_analysis/kvarq_for_doubtful_genomes/" "-vv"]
+2019/08/03 04:03:58 DEBUG : rclone: Version "v1.48.0" starting with parameters ["rclone" "copy" "./SAMEA3359874_1.json" "onedrive-em:africanum_analysis/kvarq_for_doubtful_genomes/" "-vv"]
+2019/08/03 04:03:58 DEBUG : Using config file from "/root/.config/rclone/rclone.conf"
+2019/08/03 04:04:00 DEBUG : SAMEA3359874_1.json: Couldn't find file - need to transfer
+2019/08/03 04:04:00 DEBUG : SAMEA3359874_1.json: Starting multipart upload
+2019/08/03 04:04:01 DEBUG : SAMEA3359874_1.json: Uploading segment 0/52612 size 52612
+2019/08/03 04:04:01 INFO  : SAMEA3359874_1.json: Copied (new)
+2019/08/03 04:04:01 INFO  : 
+Transferred:   	   51.379k / 51.379 kBytes, 100%, 16.305 kBytes/s, ETA 0s
+Errors:                 0
+Checks:                 0 / 0, -
+Transferred:            1 / 1, 100%
+Elapsed time:        3.1s
+
+2019/08/03 04:04:01 DEBUG : 9 go routines active
+2019/08/03 04:04:01 DEBUG : rclone: Version "v1.48.0" finishing with parameters ["rclone" "copy" "./SAMEA3359874_1.json" "onedrive-em:africanum_analysis/kvarq_for_doubtful_genomes/" "-vv"]
+2019/08/03 04:04:01 DEBUG : rclone: Version "v1.48.0" starting with parameters ["rclone" "copy" "./SAMEA3359874_2.json" "onedrive-em:africanum_analysis/kvarq_for_doubtful_genomes/" "-vv"]
+2019/08/03 04:04:01 DEBUG : Using config file from "/root/.config/rclone/rclone.conf"
+2019/08/03 04:04:03 DEBUG : SAMEA3359874_2.json: Couldn't find file - need to transfer
+2019/08/03 04:04:03 DEBUG : SAMEA3359874_2.json: Starting multipart upload
+2019/08/03 04:04:03 DEBUG : SAMEA3359874_2.json: Uploading segment 0/39240 size 39240
+2019/08/03 04:04:04 INFO  : SAMEA3359874_2.json: Copied (new)
+2019/08/03 04:04:04 INFO  : 
+Transferred:   	   38.320k / 38.320 kBytes, 100%, 15.860 kBytes/s, ETA 0s
+Errors:                 0
+Checks:                 0 / 0, -
+Transferred:            1 / 1, 100%
+Elapsed time:        2.4s
+
+2019/08/03 04:04:04 DEBUG : 9 go routines active
+2019/08/03 04:04:04 DEBUG : rclone: Version "v1.48.0" finishing with parameters ["rclone" "copy" "./SAMEA3359874_2.json" "onedrive-em:africanum_analysis/kvarq_for_doubtful_genomes/" "-vv"]
+2019/08/03 04:04:04 DEBUG : rclone: Version "v1.48.0" starting with parameters ["rclone" "copy" "./SAMEA3359875_1.json" "onedrive-em:africanum_analysis/kvarq_for_doubtful_genomes/" "-vv"]
+2019/08/03 04:04:04 DEBUG : Using config file from "/root/.config/rclone/rclone.conf"
+2019/08/03 04:04:05 DEBUG : SAMEA3359875_1.json: Couldn't find file - need to transfer
+2019/08/03 04:04:05 DEBUG : SAMEA3359875_1.json: Starting multipart upload
+2019/08/03 04:04:06 DEBUG : SAMEA3359875_1.json: Uploading segment 0/52807 size 52807
+2019/08/03 04:04:06 INFO  : SAMEA3359875_1.json: Copied (new)
+2019/08/03 04:04:06 INFO  : 
+Transferred:   	   51.569k / 51.569 kBytes, 100%, 19.926 kBytes/s, ETA 0s
+Errors:                 0
+Checks:                 0 / 0, -
+Transferred:            1 / 1, 100%
+Elapsed time:        2.5s
+
+2019/08/03 04:04:06 DEBUG : 9 go routines active
+2019/08/03 04:04:06 DEBUG : rclone: Version "v1.48.0" finishing with parameters ["rclone" "copy" "./SAMEA3359875_1.json" "onedrive-em:africanum_analysis/kvarq_for_doubtful_genomes/" "-vv"]
+2019/08/03 04:04:06 DEBUG : rclone: Version "v1.48.0" starting with parameters ["rclone" "copy" "./SAMEA3359875_2.json" "onedrive-em:africanum_analysis/kvarq_for_doubtful_genomes/" "-vv"]
+2019/08/03 04:04:06 DEBUG : Using config file from "/root/.config/rclone/rclone.conf"
+2019/08/03 04:04:08 DEBUG : SAMEA3359875_2.json: Couldn't find file - need to transfer
+2019/08/03 04:04:08 DEBUG : SAMEA3359875_2.json: Starting multipart upload
+2019/08/03 04:04:09 DEBUG : SAMEA3359875_2.json: Uploading segment 0/38579 size 38579
+2019/08/03 04:04:09 INFO  : SAMEA3359875_2.json: Copied (new)
+2019/08/03 04:04:09 INFO  : 
+Transferred:   	   37.675k / 37.675 kBytes, 100%, 13.453 kBytes/s, ETA 0s
+Errors:                 0
+Checks:                 0 / 0, -
+Transferred:            1 / 1, 100%
+Elapsed time:        2.8s
+
+2019/08/03 04:04:09 DEBUG : 9 go routines active
+2019/08/03 04:04:09 DEBUG : rclone: Version "v1.48.0" finishing with parameters ["rclone" "copy" "./SAMEA3359875_2.json" "onedrive-em:africanum_analysis/kvarq_for_doubtful_genomes/" "-vv"]
+2019/08/03 04:04:09 DEBUG : rclone: Version "v1.48.0" starting with parameters ["rclone" "copy" "./SAMEA3359876_1.json" "onedrive-em:africanum_analysis/kvarq_for_doubtful_genomes/" "-vv"]
+2019/08/03 04:04:09 DEBUG : Using config file from "/root/.config/rclone/rclone.conf"
+2019/08/03 04:04:11 DEBUG : SAMEA3359876_1.json: Couldn't find file - need to transfer
+2019/08/03 04:04:11 DEBUG : SAMEA3359876_1.json: Starting multipart upload
+2019/08/03 04:04:11 DEBUG : SAMEA3359876_1.json: Uploading segment 0/54949 size 54949
+2019/08/03 04:04:12 INFO  : SAMEA3359876_1.json: Copied (new)
+2019/08/03 04:04:12 INFO  : 
+Transferred:   	   53.661k / 53.661 kBytes, 100%, 19.327 kBytes/s, ETA 0s
+Errors:                 0
+Checks:                 0 / 0, -
+Transferred:            1 / 1, 100%
+Elapsed time:        2.7s
+
+2019/08/03 04:04:12 DEBUG : 9 go routines active
+2019/08/03 04:04:12 DEBUG : rclone: Version "v1.48.0" finishing with parameters ["rclone" "copy" "./SAMEA3359876_1.json" "onedrive-em:africanum_analysis/kvarq_for_doubtful_genomes/" "-vv"]
+2019/08/03 04:04:12 DEBUG : rclone: Version "v1.48.0" starting with parameters ["rclone" "copy" "./SAMEA3359876_2.json" "onedrive-em:africanum_analysis/kvarq_for_doubtful_genomes/" "-vv"]
+2019/08/03 04:04:12 DEBUG : Using config file from "/root/.config/rclone/rclone.conf"
+2019/08/03 04:04:13 DEBUG : SAMEA3359876_2.json: Couldn't find file - need to transfer
+2019/08/03 04:04:13 DEBUG : SAMEA3359876_2.json: Starting multipart upload
+2019/08/03 04:04:14 DEBUG : SAMEA3359876_2.json: Uploading segment 0/39899 size 39899
+2019/08/03 04:04:14 INFO  : SAMEA3359876_2.json: Copied (new)
+2019/08/03 04:04:14 INFO  : 
+Transferred:   	   38.964k / 38.964 kBytes, 100%, 15.584 kBytes/s, ETA 0s
+Errors:                 0
+Checks:                 0 / 0, -
+Transferred:            1 / 1, 100%
+Elapsed time:        2.5s
+
+2019/08/03 04:04:14 DEBUG : 7 go routines active
+2019/08/03 04:04:14 DEBUG : rclone: Version "v1.48.0" finishing with parameters ["rclone" "copy" "./SAMEA3359876_2.json" "onedrive-em:africanum_analysis/kvarq_for_doubtful_genomes/" "-vv"]
+2019/08/03 04:04:14 DEBUG : rclone: Version "v1.48.0" starting with parameters ["rclone" "copy" "./SAMEA3359877_1.json" "onedrive-em:africanum_analysis/kvarq_for_doubtful_genomes/" "-vv"]
+2019/08/03 04:04:14 DEBUG : Using config file from "/root/.config/rclone/rclone.conf"
+2019/08/03 04:04:16 DEBUG : SAMEA3359877_1.json: Couldn't find file - need to transfer
+2019/08/03 04:04:16 DEBUG : SAMEA3359877_1.json: Starting multipart upload
+2019/08/03 04:04:17 DEBUG : SAMEA3359877_1.json: Uploading segment 0/54770 size 54770
+2019/08/03 04:04:17 INFO  : SAMEA3359877_1.json: Copied (new)
+2019/08/03 04:04:17 INFO  : 
+Transferred:   	   53.486k / 53.486 kBytes, 100%, 20.318 kBytes/s, ETA 0s
+Errors:                 0
+Checks:                 0 / 0, -
+Transferred:            1 / 1, 100%
+Elapsed time:        2.6s
+
+2019/08/03 04:04:17 DEBUG : 9 go routines active
+2019/08/03 04:04:17 DEBUG : rclone: Version "v1.48.0" finishing with parameters ["rclone" "copy" "./SAMEA3359877_1.json" "onedrive-em:africanum_analysis/kvarq_for_doubtful_genomes/" "-vv"]
+2019/08/03 04:04:17 DEBUG : rclone: Version "v1.48.0" starting with parameters ["rclone" "copy" "./SAMEA3359877_2.json" "onedrive-em:africanum_analysis/kvarq_for_doubtful_genomes/" "-vv"]
+2019/08/03 04:04:17 DEBUG : Using config file from "/root/.config/rclone/rclone.conf"
+2019/08/03 04:04:18 DEBUG : SAMEA3359877_2.json: Couldn't find file - need to transfer
+2019/08/03 04:04:18 DEBUG : SAMEA3359877_2.json: Starting multipart upload
+2019/08/03 04:04:19 DEBUG : SAMEA3359877_2.json: Uploading segment 0/40115 size 40115
+2019/08/03 04:04:19 DEBUG : pacer: low level retry 1/10 (error Put https://api.onedrive.com/rup/f699d7c1fd1aa8a8/eyJSZXNvdXJjZUlEIjoiRjY5OUQ3QzFGRDFBQThBOCE0NDA0NCIsIlJlbGF0aW9uc2hpcE5hbWUiOiJTQU1FQTMzNTk4NzdfMi5qc29uIn0/4merfkqKw4ltGicrpzzYK1yfTlvktPT15uBzHNOBoK3rRpaZaxrsPiuri9njOllX_-RoBIxvtN8eEnAKq9ken5c4nvfzpHLDN4uOVaqAv4Oy0/eyJuYW1lIjoiU0FNRUEzMzU5ODc3XzIuanNvbiIsImZpbGVTeXN0ZW1JbmZvIjp7IkNyZWF0ZWREYXRlVGltZSI6IjIwMTktMDgtMDNUMDI6MDQ6NDYrMDA6MDAiLCJMYXN0TW9kaWZpZWREYXRlVGltZSI6IjIwMTktMDgtMDNUMDI6MDQ6NDYrMDA6MDAifSwiQG5hbWUuY29uZmxpY3RCZWhhdmlvciI6InJlcGxhY2UifQ/4wONM5BmOngasdzyfZd3nwXkPnO4OJMCOrstX3VCig5mhVmCVARGsAPo_lQdL6EYuo7reVuBu9heS9buJRZd9HVvQlBe4qbn0LGTK-cFGA2MNndRSKbBzheVv_VHCjagCQdH6zbfbwzENQ2qwd7IHjp9mcjyeFfTEa1xE-pbSQtcBqJ-AuEFpSN9yEQ-RfQ0I6MUzbjFV5wDiFqdro3m9uOUrR2ybhflKlGdB62Ln4pJasKbJLTwSEYRno0LhWHpbA2_TdO2S7CCijBxQBuwYxbuLx2FqmQVKY5JG1CbKoDoPNP66ZM74mBvx6zBmqrJX_cT9TeQLza_HEJVvz7a9hYYA2WkE6UOq2ccbmB6g1OhZz2c5BGehcaC5K-xWVoAIKQRaRoVthDj5-a5e7T4Wex-9AFAVWTBvGKBc1P7xW4u9VhXo_jN3hePcrB1_JVoiobK8rmJGbOx6E2HlZtGRmijGwUuGBXnUP25qZ8sy77xmRkz8nmZkZFqlQZt1AhkrafLlDk8haiMpJgu9UMkUSTGaqJb3512MDhZnF6jqikCt23IP2q6rSphsfuORPt_-DWnRa4B1aYmanSO7tB6YleOhMEPOzzL8X7JaJPS8lDWQvUzDVW15s06LNgYSvD774: dial tcp 13.107.42.12:443: connect: connection refused)
+2019/08/03 04:04:19 DEBUG : pacer: Rate limited, increasing sleep to 20ms
+2019/08/03 04:04:20 DEBUG : pacer: Reducing sleep to 15ms
+2019/08/03 04:04:20 INFO  : SAMEA3359877_2.json: Copied (new)
+2019/08/03 04:04:20 INFO  : 
+Transferred:   	   39.175k / 39.175 kBytes, 100%, 15.493 kBytes/s, ETA 0s
+Errors:                 0
+Checks:                 0 / 0, -
+Transferred:            1 / 1, 100%
+Elapsed time:        2.5s
+
+2019/08/03 04:04:20 DEBUG : 10 go routines active
+2019/08/03 04:04:20 DEBUG : rclone: Version "v1.48.0" finishing with parameters ["rclone" "copy" "./SAMEA3359877_2.json" "onedrive-em:africanum_analysis/kvarq_for_doubtful_genomes/" "-vv"]
+2019/08/03 04:04:20 DEBUG : rclone: Version "v1.48.0" starting with parameters ["rclone" "copy" "./SAMEA3359885_1.json" "onedrive-em:africanum_analysis/kvarq_for_doubtful_genomes/" "-vv"]
+2019/08/03 04:04:20 DEBUG : Using config file from "/root/.config/rclone/rclone.conf"
+2019/08/03 04:04:22 DEBUG : SAMEA3359885_1.json: Couldn't find file - need to transfer
+2019/08/03 04:04:22 DEBUG : SAMEA3359885_1.json: Starting multipart upload
+2019/08/03 04:04:23 DEBUG : SAMEA3359885_1.json: Uploading segment 0/58598 size 58598
+2019/08/03 04:04:23 INFO  : SAMEA3359885_1.json: Copied (new)
+2019/08/03 04:04:23 INFO  : 
+Transferred:   	   57.225k / 57.225 kBytes, 100%, 16.485 kBytes/s, ETA 0s
+Errors:                 0
+Checks:                 0 / 0, -
+Transferred:            1 / 1, 100%
+Elapsed time:        3.4s
+
+2019/08/03 04:04:23 DEBUG : 9 go routines active
+2019/08/03 04:04:23 DEBUG : rclone: Version "v1.48.0" finishing with parameters ["rclone" "copy" "./SAMEA3359885_1.json" "onedrive-em:africanum_analysis/kvarq_for_doubtful_genomes/" "-vv"]
+2019/08/03 04:04:23 DEBUG : rclone: Version "v1.48.0" starting with parameters ["rclone" "copy" "./SAMEA3359885_2.json" "onedrive-em:africanum_analysis/kvarq_for_doubtful_genomes/" "-vv"]
+2019/08/03 04:04:23 DEBUG : Using config file from "/root/.config/rclone/rclone.conf"
+2019/08/03 04:04:24 DEBUG : SAMEA3359885_2.json: Couldn't find file - need to transfer
+2019/08/03 04:04:24 DEBUG : SAMEA3359885_2.json: Starting multipart upload
+2019/08/03 04:04:25 DEBUG : SAMEA3359885_2.json: Uploading segment 0/43590 size 43590
+2019/08/03 04:04:26 INFO  : SAMEA3359885_2.json: Copied (new)
+2019/08/03 04:04:26 INFO  : 
+Transferred:   	   42.568k / 42.568 kBytes, 100%, 17.385 kBytes/s, ETA 0s
+Errors:                 0
+Checks:                 0 / 0, -
+Transferred:            1 / 1, 100%
+Elapsed time:        2.4s
+
+2019/08/03 04:04:26 DEBUG : 9 go routines active
+2019/08/03 04:04:26 DEBUG : rclone: Version "v1.48.0" finishing with parameters ["rclone" "copy" "./SAMEA3359885_2.json" "onedrive-em:africanum_analysis/kvarq_for_doubtful_genomes/" "-vv"]
+2019/08/03 04:04:26 DEBUG : rclone: Version "v1.48.0" starting with parameters ["rclone" "copy" "./SAMEA3359886_1.json" "onedrive-em:africanum_analysis/kvarq_for_doubtful_genomes/" "-vv"]
+2019/08/03 04:04:26 DEBUG : Using config file from "/root/.config/rclone/rclone.conf"
+2019/08/03 04:04:27 DEBUG : SAMEA3359886_1.json: Couldn't find file - need to transfer
+2019/08/03 04:04:27 DEBUG : SAMEA3359886_1.json: Starting multipart upload
+2019/08/03 04:04:28 DEBUG : SAMEA3359886_1.json: Uploading segment 0/55514 size 55514
+2019/08/03 04:04:28 INFO  : SAMEA3359886_1.json: Copied (new)
+2019/08/03 04:04:28 INFO  : 
+Transferred:   	   54.213k / 54.213 kBytes, 100%, 22.345 kBytes/s, ETA 0s
+Errors:                 0
+Checks:                 0 / 0, -
+Transferred:            1 / 1, 100%
+Elapsed time:        2.4s
+
+2019/08/03 04:04:28 DEBUG : 10 go routines active
+2019/08/03 04:04:28 DEBUG : rclone: Version "v1.48.0" finishing with parameters ["rclone" "copy" "./SAMEA3359886_1.json" "onedrive-em:africanum_analysis/kvarq_for_doubtful_genomes/" "-vv"]
+2019/08/03 04:04:28 DEBUG : rclone: Version "v1.48.0" starting with parameters ["rclone" "copy" "./SAMEA3359886_2.json" "onedrive-em:africanum_analysis/kvarq_for_doubtful_genomes/" "-vv"]
+2019/08/03 04:04:28 DEBUG : Using config file from "/root/.config/rclone/rclone.conf"
+2019/08/03 04:04:29 DEBUG : SAMEA3359886_2.json: Couldn't find file - need to transfer
+2019/08/03 04:04:29 DEBUG : SAMEA3359886_2.json: Starting multipart upload
+2019/08/03 04:04:31 DEBUG : SAMEA3359886_2.json: Uploading segment 0/42123 size 42123
+2019/08/03 04:04:31 INFO  : SAMEA3359886_2.json: Copied (new)
+2019/08/03 04:04:31 INFO  : 
+Transferred:   	   41.136k / 41.136 kBytes, 100%, 12.843 kBytes/s, ETA 0s
+Errors:                 0
+Checks:                 0 / 0, -
+Transferred:            1 / 1, 100%
+Elapsed time:        3.2s
+
+2019/08/03 04:04:31 DEBUG : 9 go routines active
+2019/08/03 04:04:31 DEBUG : rclone: Version "v1.48.0" finishing with parameters ["rclone" "copy" "./SAMEA3359886_2.json" "onedrive-em:africanum_analysis/kvarq_for_doubtful_genomes/" "-vv"]
+2019/08/03 04:04:31 DEBUG : rclone: Version "v1.48.0" starting with parameters ["rclone" "copy" "./SAMEA3359887_1.json" "onedrive-em:africanum_analysis/kvarq_for_doubtful_genomes/" "-vv"]
+2019/08/03 04:04:31 DEBUG : Using config file from "/root/.config/rclone/rclone.conf"
+2019/08/03 04:04:33 DEBUG : SAMEA3359887_1.json: Couldn't find file - need to transfer
+2019/08/03 04:04:33 DEBUG : SAMEA3359887_1.json: Starting multipart upload
+2019/08/03 04:04:33 DEBUG : SAMEA3359887_1.json: Uploading segment 0/53611 size 53611
+2019/08/03 04:04:34 INFO  : SAMEA3359887_1.json: Copied (new)
+2019/08/03 04:04:34 INFO  : 
+Transferred:   	   52.354k / 52.354 kBytes, 100%, 21.175 kBytes/s, ETA 0s
+Errors:                 0
+Checks:                 0 / 0, -
+Transferred:            1 / 1, 100%
+Elapsed time:        2.4s
+
+2019/08/03 04:04:34 DEBUG : 10 go routines active
+2019/08/03 04:04:34 DEBUG : rclone: Version "v1.48.0" finishing with parameters ["rclone" "copy" "./SAMEA3359887_1.json" "onedrive-em:africanum_analysis/kvarq_for_doubtful_genomes/" "-vv"]
+2019/08/03 04:04:34 DEBUG : rclone: Version "v1.48.0" starting with parameters ["rclone" "copy" "./SAMEA3359887_2.json" "onedrive-em:africanum_analysis/kvarq_for_doubtful_genomes/" "-vv"]
+2019/08/03 04:04:34 DEBUG : Using config file from "/root/.config/rclone/rclone.conf"
+2019/08/03 04:04:35 DEBUG : SAMEA3359887_2.json: Couldn't find file - need to transfer
+2019/08/03 04:04:35 DEBUG : SAMEA3359887_2.json: Starting multipart upload
+2019/08/03 04:04:36 DEBUG : SAMEA3359887_2.json: Uploading segment 0/40002 size 40002
+2019/08/03 04:04:36 INFO  : SAMEA3359887_2.json: Copied (new)
+2019/08/03 04:04:36 INFO  : 
+Transferred:   	   39.064k / 39.064 kBytes, 100%, 15.884 kBytes/s, ETA 0s
+Errors:                 0
+Checks:                 0 / 0, -
+Transferred:            1 / 1, 100%
+Elapsed time:        2.4s
+
+2019/08/03 04:04:36 DEBUG : 10 go routines active
+2019/08/03 04:04:36 DEBUG : rclone: Version "v1.48.0" finishing with parameters ["rclone" "copy" "./SAMEA3359887_2.json" "onedrive-em:africanum_analysis/kvarq_for_doubtful_genomes/" "-vv"]
+2019/08/03 04:04:36 DEBUG : rclone: Version "v1.48.0" starting with parameters ["rclone" "copy" "./SAMEA3359888_1.json" "onedrive-em:africanum_analysis/kvarq_for_doubtful_genomes/" "-vv"]
+2019/08/03 04:04:36 DEBUG : Using config file from "/root/.config/rclone/rclone.conf"
+2019/08/03 04:04:38 DEBUG : SAMEA3359888_1.json: Couldn't find file - need to transfer
+2019/08/03 04:04:38 DEBUG : SAMEA3359888_1.json: Starting multipart upload
+2019/08/03 04:04:38 DEBUG : SAMEA3359888_1.json: Uploading segment 0/55413 size 55413
+2019/08/03 04:04:39 INFO  : SAMEA3359888_1.json: Copied (new)
+2019/08/03 04:04:39 INFO  : 
+Transferred:   	   54.114k / 54.114 kBytes, 100%, 21.781 kBytes/s, ETA 0s
+Errors:                 0
+Checks:                 0 / 0, -
+Transferred:            1 / 1, 100%
+Elapsed time:        2.4s
+
+2019/08/03 04:04:39 DEBUG : 9 go routines active
+2019/08/03 04:04:39 DEBUG : rclone: Version "v1.48.0" finishing with parameters ["rclone" "copy" "./SAMEA3359888_1.json" "onedrive-em:africanum_analysis/kvarq_for_doubtful_genomes/" "-vv"]
+2019/08/03 04:04:39 DEBUG : rclone: Version "v1.48.0" starting with parameters ["rclone" "copy" "./SAMEA3359888_2.json" "onedrive-em:africanum_analysis/kvarq_for_doubtful_genomes/" "-vv"]
+2019/08/03 04:04:39 DEBUG : Using config file from "/root/.config/rclone/rclone.conf"
+2019/08/03 04:04:40 DEBUG : SAMEA3359888_2.json: Couldn't find file - need to transfer
+2019/08/03 04:04:40 DEBUG : SAMEA3359888_2.json: Starting multipart upload
+2019/08/03 04:04:41 DEBUG : SAMEA3359888_2.json: Uploading segment 0/40319 size 40319
+2019/08/03 04:04:41 INFO  : SAMEA3359888_2.json: Copied (new)
+2019/08/03 04:04:41 INFO  : 
+Transferred:   	   39.374k / 39.374 kBytes, 100%, 15.407 kBytes/s, ETA 0s
+Errors:                 0
+Checks:                 0 / 0, -
+Transferred:            1 / 1, 100%
+Elapsed time:        2.5s
+
+2019/08/03 04:04:41 DEBUG : 9 go routines active
+2019/08/03 04:04:41 DEBUG : rclone: Version "v1.48.0" finishing with parameters ["rclone" "copy" "./SAMEA3359888_2.json" "onedrive-em:africanum_analysis/kvarq_for_doubtful_genomes/" "-vv"]
+2019/08/03 04:04:41 DEBUG : rclone: Version "v1.48.0" starting with parameters ["rclone" "copy" "./SAMEA3359897_1.json" "onedrive-em:africanum_analysis/kvarq_for_doubtful_genomes/" "-vv"]
+2019/08/03 04:04:41 DEBUG : Using config file from "/root/.config/rclone/rclone.conf"
+2019/08/03 04:04:43 DEBUG : SAMEA3359897_1.json: Couldn't find file - need to transfer
+2019/08/03 04:04:43 DEBUG : SAMEA3359897_1.json: Starting multipart upload
+2019/08/03 04:04:43 DEBUG : SAMEA3359897_1.json: Uploading segment 0/53044 size 53044
+2019/08/03 04:04:44 INFO  : SAMEA3359897_1.json: Copied (new)
+2019/08/03 04:04:44 INFO  : 
+Transferred:   	   51.801k / 51.801 kBytes, 100%, 21.670 kBytes/s, ETA 0s
+Errors:                 0
+Checks:                 0 / 0, -
+Transferred:            1 / 1, 100%
+Elapsed time:        2.3s
+
+2019/08/03 04:04:44 DEBUG : 9 go routines active
+2019/08/03 04:04:44 DEBUG : rclone: Version "v1.48.0" finishing with parameters ["rclone" "copy" "./SAMEA3359897_1.json" "onedrive-em:africanum_analysis/kvarq_for_doubtful_genomes/" "-vv"]
+2019/08/03 04:04:44 DEBUG : rclone: Version "v1.48.0" starting with parameters ["rclone" "copy" "./SAMEA3359897_2.json" "onedrive-em:africanum_analysis/kvarq_for_doubtful_genomes/" "-vv"]
+2019/08/03 04:04:44 DEBUG : Using config file from "/root/.config/rclone/rclone.conf"
+2019/08/03 04:04:45 DEBUG : SAMEA3359897_2.json: Couldn't find file - need to transfer
+2019/08/03 04:04:45 DEBUG : SAMEA3359897_2.json: Starting multipart upload
+2019/08/03 04:04:47 DEBUG : SAMEA3359897_2.json: Uploading segment 0/39016 size 39016
+2019/08/03 04:04:47 INFO  : SAMEA3359897_2.json: Copied (new)
+2019/08/03 04:04:47 INFO  : 
+Transferred:   	   38.102k / 38.102 kBytes, 100%, 10.519 kBytes/s, ETA 0s
+Errors:                 0
+Checks:                 0 / 0, -
+Transferred:            1 / 1, 100%
+Elapsed time:        3.6s
+
+2019/08/03 04:04:47 DEBUG : 9 go routines active
+2019/08/03 04:04:47 DEBUG : rclone: Version "v1.48.0" finishing with parameters ["rclone" "copy" "./SAMEA3359897_2.json" "onedrive-em:africanum_analysis/kvarq_for_doubtful_genomes/" "-vv"]
+2019/08/03 04:04:47 DEBUG : rclone: Version "v1.48.0" starting with parameters ["rclone" "copy" "./SAMEA3359898_1.json" "onedrive-em:africanum_analysis/kvarq_for_doubtful_genomes/" "-vv"]
+2019/08/03 04:04:47 DEBUG : Using config file from "/root/.config/rclone/rclone.conf"
+2019/08/03 04:04:49 DEBUG : SAMEA3359898_1.json: Couldn't find file - need to transfer
+2019/08/03 04:04:49 DEBUG : SAMEA3359898_1.json: Starting multipart upload
+2019/08/03 04:04:49 DEBUG : SAMEA3359898_1.json: Uploading segment 0/61089 size 61089
+2019/08/03 04:04:50 INFO  : SAMEA3359898_1.json: Copied (new)
+2019/08/03 04:04:50 INFO  : 
+Transferred:   	   59.657k / 59.657 kBytes, 100%, 22.748 kBytes/s, ETA 0s
+Errors:                 0
+Checks:                 0 / 0, -
+Transferred:            1 / 1, 100%
+Elapsed time:        2.6s
+
+2019/08/03 04:04:50 DEBUG : 10 go routines active
+2019/08/03 04:04:50 DEBUG : rclone: Version "v1.48.0" finishing with parameters ["rclone" "copy" "./SAMEA3359898_1.json" "onedrive-em:africanum_analysis/kvarq_for_doubtful_genomes/" "-vv"]
+2019/08/03 04:04:50 DEBUG : rclone: Version "v1.48.0" starting with parameters ["rclone" "copy" "./SAMEA3359898_2.json" "onedrive-em:africanum_analysis/kvarq_for_doubtful_genomes/" "-vv"]
+2019/08/03 04:04:50 DEBUG : Using config file from "/root/.config/rclone/rclone.conf"
+2019/08/03 04:04:51 DEBUG : SAMEA3359898_2.json: Couldn't find file - need to transfer
+2019/08/03 04:04:51 DEBUG : SAMEA3359898_2.json: Starting multipart upload
+2019/08/03 04:04:52 DEBUG : SAMEA3359898_2.json: Uploading segment 0/46059 size 46059
+2019/08/03 04:04:52 INFO  : SAMEA3359898_2.json: Copied (new)
+2019/08/03 04:04:52 INFO  : 
+Transferred:   	   44.979k / 44.979 kBytes, 100%, 18.524 kBytes/s, ETA 0s
+Errors:                 0
+Checks:                 0 / 0, -
+Transferred:            1 / 1, 100%
+Elapsed time:        2.4s
+
+2019/08/03 04:04:52 DEBUG : 9 go routines active
+2019/08/03 04:04:52 DEBUG : rclone: Version "v1.48.0" finishing with parameters ["rclone" "copy" "./SAMEA3359898_2.json" "onedrive-em:africanum_analysis/kvarq_for_doubtful_genomes/" "-vv"]
+2019/08/03 04:04:52 DEBUG : rclone: Version "v1.48.0" starting with parameters ["rclone" "copy" "./SAMEA3359901_1.json" "onedrive-em:africanum_analysis/kvarq_for_doubtful_genomes/" "-vv"]
+2019/08/03 04:04:52 DEBUG : Using config file from "/root/.config/rclone/rclone.conf"
+2019/08/03 04:04:54 DEBUG : SAMEA3359901_1.json: Couldn't find file - need to transfer
+2019/08/03 04:04:54 DEBUG : SAMEA3359901_1.json: Starting multipart upload
+2019/08/03 04:04:55 DEBUG : SAMEA3359901_1.json: Uploading segment 0/52521 size 52521
+2019/08/03 04:04:55 INFO  : SAMEA3359901_1.json: Copied (new)
+2019/08/03 04:04:55 INFO  : 
+Transferred:   	   51.290k / 51.290 kBytes, 100%, 19.409 kBytes/s, ETA 0s
+Errors:                 0
+Checks:                 0 / 0, -
+Transferred:            1 / 1, 100%
+Elapsed time:        2.6s
+
+2019/08/03 04:04:55 DEBUG : 10 go routines active
+2019/08/03 04:04:55 DEBUG : rclone: Version "v1.48.0" finishing with parameters ["rclone" "copy" "./SAMEA3359901_1.json" "onedrive-em:africanum_analysis/kvarq_for_doubtful_genomes/" "-vv"]
+2019/08/03 04:04:55 DEBUG : rclone: Version "v1.48.0" starting with parameters ["rclone" "copy" "./SAMEA3359901_2.json" "onedrive-em:africanum_analysis/kvarq_for_doubtful_genomes/" "-vv"]
+2019/08/03 04:04:55 DEBUG : Using config file from "/root/.config/rclone/rclone.conf"
+2019/08/03 04:04:56 DEBUG : SAMEA3359901_2.json: Couldn't find file - need to transfer
+2019/08/03 04:04:56 DEBUG : SAMEA3359901_2.json: Starting multipart upload
+2019/08/03 04:04:57 DEBUG : SAMEA3359901_2.json: Uploading segment 0/38430 size 38430
+2019/08/03 04:04:58 INFO  : SAMEA3359901_2.json: Copied (new)
+2019/08/03 04:04:58 INFO  : 
+Transferred:   	   37.529k / 37.529 kBytes, 100%, 14.870 kBytes/s, ETA 0s
+Errors:                 0
+Checks:                 0 / 0, -
+Transferred:            1 / 1, 100%
+Elapsed time:        2.5s
+
+2019/08/03 04:04:58 DEBUG : 9 go routines active
+2019/08/03 04:04:58 DEBUG : rclone: Version "v1.48.0" finishing with parameters ["rclone" "copy" "./SAMEA3359901_2.json" "onedrive-em:africanum_analysis/kvarq_for_doubtful_genomes/" "-vv"]
+2019/08/03 04:04:58 DEBUG : rclone: Version "v1.48.0" starting with parameters ["rclone" "copy" "./SAMEA3359902_1.json" "onedrive-em:africanum_analysis/kvarq_for_doubtful_genomes/" "-vv"]
+2019/08/03 04:04:58 DEBUG : Using config file from "/root/.config/rclone/rclone.conf"
+2019/08/03 04:04:59 DEBUG : SAMEA3359902_1.json: Couldn't find file - need to transfer
+2019/08/03 04:04:59 DEBUG : SAMEA3359902_1.json: Starting multipart upload
+2019/08/03 04:05:00 DEBUG : SAMEA3359902_1.json: Uploading segment 0/53156 size 53156
+2019/08/03 04:05:00 INFO  : SAMEA3359902_1.json: Copied (new)
+2019/08/03 04:05:00 INFO  : 
+Transferred:   	   51.910k / 51.910 kBytes, 100%, 17.875 kBytes/s, ETA 0s
+Errors:                 0
+Checks:                 0 / 0, -
+Transferred:            1 / 1, 100%
+Elapsed time:        2.9s
+
+2019/08/03 04:05:00 DEBUG : 9 go routines active
+2019/08/03 04:05:00 DEBUG : rclone: Version "v1.48.0" finishing with parameters ["rclone" "copy" "./SAMEA3359902_1.json" "onedrive-em:africanum_analysis/kvarq_for_doubtful_genomes/" "-vv"]
+2019/08/03 04:05:00 DEBUG : rclone: Version "v1.48.0" starting with parameters ["rclone" "copy" "./SAMEA3359902_2.json" "onedrive-em:africanum_analysis/kvarq_for_doubtful_genomes/" "-vv"]
+2019/08/03 04:05:00 DEBUG : Using config file from "/root/.config/rclone/rclone.conf"
+2019/08/03 04:05:02 DEBUG : SAMEA3359902_2.json: Couldn't find file - need to transfer
+2019/08/03 04:05:02 DEBUG : SAMEA3359902_2.json: Starting multipart upload
+2019/08/03 04:05:02 DEBUG : SAMEA3359902_2.json: Uploading segment 0/38936 size 38936
+2019/08/03 04:05:03 INFO  : SAMEA3359902_2.json: Copied (new)
+2019/08/03 04:05:03 INFO  : 
+Transferred:   	   38.023k / 38.023 kBytes, 100%, 15.964 kBytes/s, ETA 0s
+Errors:                 0
+Checks:                 0 / 0, -
+Transferred:            1 / 1, 100%
+Elapsed time:        2.3s
+
+2019/08/03 04:05:03 DEBUG : 9 go routines active
+2019/08/03 04:05:03 DEBUG : rclone: Version "v1.48.0" finishing with parameters ["rclone" "copy" "./SAMEA3359902_2.json" "onedrive-em:africanum_analysis/kvarq_for_doubtful_genomes/" "-vv"]
+2019/08/03 04:05:03 DEBUG : rclone: Version "v1.48.0" starting with parameters ["rclone" "copy" "./SAMEA3359903_1.json" "onedrive-em:africanum_analysis/kvarq_for_doubtful_genomes/" "-vv"]
+2019/08/03 04:05:03 DEBUG : Using config file from "/root/.config/rclone/rclone.conf"
+2019/08/03 04:05:04 DEBUG : SAMEA3359903_1.json: Couldn't find file - need to transfer
+2019/08/03 04:05:04 DEBUG : SAMEA3359903_1.json: Starting multipart upload
+2019/08/03 04:05:05 DEBUG : SAMEA3359903_1.json: Uploading segment 0/51793 size 51793
+2019/08/03 04:05:05 INFO  : SAMEA3359903_1.json: Copied (new)
+2019/08/03 04:05:05 INFO  : 
+Transferred:   	   50.579k / 50.579 kBytes, 100%, 19.673 kBytes/s, ETA 0s
+Errors:                 0
+Checks:                 0 / 0, -
+Transferred:            1 / 1, 100%
+Elapsed time:        2.5s
+
+2019/08/03 04:05:05 DEBUG : 9 go routines active
+2019/08/03 04:05:05 DEBUG : rclone: Version "v1.48.0" finishing with parameters ["rclone" "copy" "./SAMEA3359903_1.json" "onedrive-em:africanum_analysis/kvarq_for_doubtful_genomes/" "-vv"]
+2019/08/03 04:05:05 DEBUG : rclone: Version "v1.48.0" starting with parameters ["rclone" "copy" "./SAMEA3359903_2.json" "onedrive-em:africanum_analysis/kvarq_for_doubtful_genomes/" "-vv"]
+2019/08/03 04:05:05 DEBUG : Using config file from "/root/.config/rclone/rclone.conf"
+2019/08/03 04:05:07 DEBUG : SAMEA3359903_2.json: Couldn't find file - need to transfer
+2019/08/03 04:05:07 DEBUG : SAMEA3359903_2.json: Starting multipart upload
+2019/08/03 04:05:08 DEBUG : SAMEA3359903_2.json: Uploading segment 0/37677 size 37677
+2019/08/03 04:05:08 INFO  : SAMEA3359903_2.json: Copied (new)
+2019/08/03 04:05:08 INFO  : 
+Transferred:   	   36.794k / 36.794 kBytes, 100%, 13.720 kBytes/s, ETA 0s
+Errors:                 0
+Checks:                 0 / 0, -
+Transferred:            1 / 1, 100%
+Elapsed time:        2.6s
+
+2019/08/03 04:05:08 DEBUG : 9 go routines active
+2019/08/03 04:05:08 DEBUG : rclone: Version "v1.48.0" finishing with parameters ["rclone" "copy" "./SAMEA3359903_2.json" "onedrive-em:africanum_analysis/kvarq_for_doubtful_genomes/" "-vv"]
+2019/08/03 04:05:08 DEBUG : rclone: Version "v1.48.0" starting with parameters ["rclone" "copy" "./SAMEA3359904_1.json" "onedrive-em:africanum_analysis/kvarq_for_doubtful_genomes/" "-vv"]
+2019/08/03 04:05:08 DEBUG : Using config file from "/root/.config/rclone/rclone.conf"
+2019/08/03 04:05:10 DEBUG : SAMEA3359904_1.json: Couldn't find file - need to transfer
+2019/08/03 04:05:10 DEBUG : SAMEA3359904_1.json: Starting multipart upload
+2019/08/03 04:05:11 DEBUG : SAMEA3359904_1.json: Uploading segment 0/55353 size 55353
+2019/08/03 04:05:11 INFO  : SAMEA3359904_1.json: Copied (new)
+2019/08/03 04:05:11 INFO  : 
+Transferred:   	   54.056k / 54.056 kBytes, 100%, 16.943 kBytes/s, ETA 0s
+Errors:                 0
+Checks:                 0 / 0, -
+Transferred:            1 / 1, 100%
+Elapsed time:        3.1s
+
+2019/08/03 04:05:11 DEBUG : 10 go routines active
+2019/08/03 04:05:11 DEBUG : rclone: Version "v1.48.0" finishing with parameters ["rclone" "copy" "./SAMEA3359904_1.json" "onedrive-em:africanum_analysis/kvarq_for_doubtful_genomes/" "-vv"]
+2019/08/03 04:05:11 DEBUG : rclone: Version "v1.48.0" starting with parameters ["rclone" "copy" "./SAMEA3359904_2.json" "onedrive-em:africanum_analysis/kvarq_for_doubtful_genomes/" "-vv"]
+2019/08/03 04:05:11 DEBUG : Using config file from "/root/.config/rclone/rclone.conf"
+2019/08/03 04:05:13 DEBUG : SAMEA3359904_2.json: Couldn't find file - need to transfer
+2019/08/03 04:05:13 DEBUG : SAMEA3359904_2.json: Starting multipart upload
+2019/08/03 04:05:13 DEBUG : SAMEA3359904_2.json: Uploading segment 0/40153 size 40153
+2019/08/03 04:05:14 INFO  : SAMEA3359904_2.json: Copied (new)
+2019/08/03 04:05:14 INFO  : 
+Transferred:   	   39.212k / 39.212 kBytes, 100%, 15.930 kBytes/s, ETA 0s
+Errors:                 0
+Checks:                 0 / 0, -
+Transferred:            1 / 1, 100%
+Elapsed time:        2.4s
+
+2019/08/03 04:05:14 DEBUG : 9 go routines active
+2019/08/03 04:05:14 DEBUG : rclone: Version "v1.48.0" finishing with parameters ["rclone" "copy" "./SAMEA3359904_2.json" "onedrive-em:africanum_analysis/kvarq_for_doubtful_genomes/" "-vv"]
+2019/08/03 04:05:14 DEBUG : rclone: Version "v1.48.0" starting with parameters ["rclone" "copy" "./SAMEA3359906_1.json" "onedrive-em:africanum_analysis/kvarq_for_doubtful_genomes/" "-vv"]
+2019/08/03 04:05:14 DEBUG : Using config file from "/root/.config/rclone/rclone.conf"
+2019/08/03 04:05:15 DEBUG : SAMEA3359906_1.json: Couldn't find file - need to transfer
+2019/08/03 04:05:15 DEBUG : SAMEA3359906_1.json: Starting multipart upload
+2019/08/03 04:05:16 DEBUG : SAMEA3359906_1.json: Uploading segment 0/55767 size 55767
+2019/08/03 04:05:16 INFO  : SAMEA3359906_1.json: Copied (new)
+2019/08/03 04:05:16 INFO  : 
+Transferred:   	   54.460k / 54.460 kBytes, 100%, 22.175 kBytes/s, ETA 0s
+Errors:                 0
+Checks:                 0 / 0, -
+Transferred:            1 / 1, 100%
+Elapsed time:        2.4s
+
+2019/08/03 04:05:16 DEBUG : 9 go routines active
+2019/08/03 04:05:16 DEBUG : rclone: Version "v1.48.0" finishing with parameters ["rclone" "copy" "./SAMEA3359906_1.json" "onedrive-em:africanum_analysis/kvarq_for_doubtful_genomes/" "-vv"]
+2019/08/03 04:05:16 DEBUG : rclone: Version "v1.48.0" starting with parameters ["rclone" "copy" "./SAMEA3359906_2.json" "onedrive-em:africanum_analysis/kvarq_for_doubtful_genomes/" "-vv"]
+2019/08/03 04:05:16 DEBUG : Using config file from "/root/.config/rclone/rclone.conf"
+2019/08/03 04:05:18 DEBUG : SAMEA3359906_2.json: Couldn't find file - need to transfer
+2019/08/03 04:05:18 DEBUG : SAMEA3359906_2.json: Starting multipart upload
+2019/08/03 04:05:18 DEBUG : SAMEA3359906_2.json: Uploading segment 0/39698 size 39698
+2019/08/03 04:05:19 INFO  : SAMEA3359906_2.json: Copied (new)
+2019/08/03 04:05:19 INFO  : 
+Transferred:   	   38.768k / 38.768 kBytes, 100%, 15.869 kBytes/s, ETA 0s
+Errors:                 0
+Checks:                 0 / 0, -
+Transferred:            1 / 1, 100%
+Elapsed time:        2.4s
+
+2019/08/03 04:05:19 DEBUG : 9 go routines active
+2019/08/03 04:05:19 DEBUG : rclone: Version "v1.48.0" finishing with parameters ["rclone" "copy" "./SAMEA3359906_2.json" "onedrive-em:africanum_analysis/kvarq_for_doubtful_genomes/" "-vv"]
+2019/08/03 04:05:19 DEBUG : rclone: Version "v1.48.0" starting with parameters ["rclone" "copy" "./SAMEA3359910_1.json" "onedrive-em:africanum_analysis/kvarq_for_doubtful_genomes/" "-vv"]
+2019/08/03 04:05:19 DEBUG : Using config file from "/root/.config/rclone/rclone.conf"
+2019/08/03 04:05:20 DEBUG : SAMEA3359910_1.json: Couldn't find file - need to transfer
+2019/08/03 04:05:20 DEBUG : SAMEA3359910_1.json: Starting multipart upload
+2019/08/03 04:05:21 DEBUG : SAMEA3359910_1.json: Uploading segment 0/57816 size 57816
+2019/08/03 04:05:21 INFO  : SAMEA3359910_1.json: Copied (new)
+2019/08/03 04:05:21 INFO  : 
+Transferred:   	   56.461k / 56.461 kBytes, 100%, 21.631 kBytes/s, ETA 0s
+Errors:                 0
+Checks:                 0 / 0, -
+Transferred:            1 / 1, 100%
+Elapsed time:        2.6s
+
+2019/08/03 04:05:21 DEBUG : 9 go routines active
+2019/08/03 04:05:21 DEBUG : rclone: Version "v1.48.0" finishing with parameters ["rclone" "copy" "./SAMEA3359910_1.json" "onedrive-em:africanum_analysis/kvarq_for_doubtful_genomes/" "-vv"]
+2019/08/03 04:05:21 DEBUG : rclone: Version "v1.48.0" starting with parameters ["rclone" "copy" "./SAMEA3359910_2.json" "onedrive-em:africanum_analysis/kvarq_for_doubtful_genomes/" "-vv"]
+2019/08/03 04:05:21 DEBUG : Using config file from "/root/.config/rclone/rclone.conf"
+2019/08/03 04:05:23 DEBUG : SAMEA3359910_2.json: Couldn't find file - need to transfer
+2019/08/03 04:05:23 DEBUG : SAMEA3359910_2.json: Starting multipart upload
+2019/08/03 04:05:23 DEBUG : SAMEA3359910_2.json: Uploading segment 0/43467 size 43467
+2019/08/03 04:05:24 INFO  : SAMEA3359910_2.json: Copied (new)
+2019/08/03 04:05:24 INFO  : 
+Transferred:   	   42.448k / 42.448 kBytes, 100%, 17.442 kBytes/s, ETA 0s
+Errors:                 0
+Checks:                 0 / 0, -
+Transferred:            1 / 1, 100%
+Elapsed time:        2.4s
+
+2019/08/03 04:05:24 DEBUG : 9 go routines active
+2019/08/03 04:05:24 DEBUG : rclone: Version "v1.48.0" finishing with parameters ["rclone" "copy" "./SAMEA3359910_2.json" "onedrive-em:africanum_analysis/kvarq_for_doubtful_genomes/" "-vv"]
+2019/08/03 04:05:24 DEBUG : rclone: Version "v1.48.0" starting with parameters ["rclone" "copy" "./SAMEA3359914_1.json" "onedrive-em:africanum_analysis/kvarq_for_doubtful_genomes/" "-vv"]
+2019/08/03 04:05:24 DEBUG : Using config file from "/root/.config/rclone/rclone.conf"
+2019/08/03 04:05:25 DEBUG : SAMEA3359914_1.json: Couldn't find file - need to transfer
+2019/08/03 04:05:25 DEBUG : SAMEA3359914_1.json: Starting multipart upload
+2019/08/03 04:05:26 DEBUG : SAMEA3359914_1.json: Uploading segment 0/58725 size 58725
+2019/08/03 04:05:26 INFO  : SAMEA3359914_1.json: Copied (new)
+2019/08/03 04:05:26 INFO  : 
+Transferred:   	   57.349k / 57.349 kBytes, 100%, 23.508 kBytes/s, ETA 0s
+Errors:                 0
+Checks:                 0 / 0, -
+Transferred:            1 / 1, 100%
+Elapsed time:        2.4s
+
+2019/08/03 04:05:26 DEBUG : 9 go routines active
+2019/08/03 04:05:26 DEBUG : rclone: Version "v1.48.0" finishing with parameters ["rclone" "copy" "./SAMEA3359914_1.json" "onedrive-em:africanum_analysis/kvarq_for_doubtful_genomes/" "-vv"]
+2019/08/03 04:05:26 DEBUG : rclone: Version "v1.48.0" starting with parameters ["rclone" "copy" "./SAMEA3359914_2.json" "onedrive-em:africanum_analysis/kvarq_for_doubtful_genomes/" "-vv"]
+2019/08/03 04:05:26 DEBUG : Using config file from "/root/.config/rclone/rclone.conf"
+2019/08/03 04:05:28 DEBUG : SAMEA3359914_2.json: Couldn't find file - need to transfer
+2019/08/03 04:05:28 DEBUG : SAMEA3359914_2.json: Starting multipart upload
+2019/08/03 04:05:28 DEBUG : SAMEA3359914_2.json: Uploading segment 0/44201 size 44201
+2019/08/03 04:05:29 INFO  : SAMEA3359914_2.json: Copied (new)
+2019/08/03 04:05:29 INFO  : 
+Transferred:   	   43.165k / 43.165 kBytes, 100%, 15.949 kBytes/s, ETA 0s
+Errors:                 0
+Checks:                 0 / 0, -
+Transferred:            1 / 1, 100%
+Elapsed time:        2.7s
+
+2019/08/03 04:05:29 DEBUG : 9 go routines active
+2019/08/03 04:05:29 DEBUG : rclone: Version "v1.48.0" finishing with parameters ["rclone" "copy" "./SAMEA3359914_2.json" "onedrive-em:africanum_analysis/kvarq_for_doubtful_genomes/" "-vv"]
+2019/08/03 04:05:29 DEBUG : rclone: Version "v1.48.0" starting with parameters ["rclone" "copy" "./SAMEA3359915_1.json" "onedrive-em:africanum_analysis/kvarq_for_doubtful_genomes/" "-vv"]
+2019/08/03 04:05:29 DEBUG : Using config file from "/root/.config/rclone/rclone.conf"
+2019/08/03 04:05:30 DEBUG : SAMEA3359915_1.json: Couldn't find file - need to transfer
+2019/08/03 04:05:30 DEBUG : SAMEA3359915_1.json: Starting multipart upload
+2019/08/03 04:05:32 DEBUG : SAMEA3359915_1.json: Uploading segment 0/59971 size 59971
+2019/08/03 04:05:32 INFO  : SAMEA3359915_1.json: Copied (new)
+2019/08/03 04:05:32 INFO  : 
+Transferred:   	   58.565k / 58.565 kBytes, 100%, 18.624 kBytes/s, ETA 0s
+Errors:                 0
+Checks:                 0 / 0, -
+Transferred:            1 / 1, 100%
+Elapsed time:        3.1s
+
+2019/08/03 04:05:32 DEBUG : 10 go routines active
+2019/08/03 04:05:32 DEBUG : rclone: Version "v1.48.0" finishing with parameters ["rclone" "copy" "./SAMEA3359915_1.json" "onedrive-em:africanum_analysis/kvarq_for_doubtful_genomes/" "-vv"]
+2019/08/03 04:05:32 DEBUG : rclone: Version "v1.48.0" starting with parameters ["rclone" "copy" "./SAMEA3359915_2.json" "onedrive-em:africanum_analysis/kvarq_for_doubtful_genomes/" "-vv"]
+2019/08/03 04:05:32 DEBUG : Using config file from "/root/.config/rclone/rclone.conf"
+2019/08/03 04:05:34 DEBUG : SAMEA3359915_2.json: Couldn't find file - need to transfer
+2019/08/03 04:05:34 DEBUG : SAMEA3359915_2.json: Starting multipart upload
+2019/08/03 04:05:34 DEBUG : SAMEA3359915_2.json: Uploading segment 0/45208 size 45208
+2019/08/03 04:05:35 INFO  : SAMEA3359915_2.json: Copied (new)
+2019/08/03 04:05:35 INFO  : 
+Transferred:   	   44.148k / 44.148 kBytes, 100%, 17.935 kBytes/s, ETA 0s
+Errors:                 0
+Checks:                 0 / 0, -
+Transferred:            1 / 1, 100%
+Elapsed time:        2.4s
+
+2019/08/03 04:05:35 DEBUG : 10 go routines active
+2019/08/03 04:05:35 DEBUG : rclone: Version "v1.48.0" finishing with parameters ["rclone" "copy" "./SAMEA3359915_2.json" "onedrive-em:africanum_analysis/kvarq_for_doubtful_genomes/" "-vv"]
+2019/08/03 04:05:35 DEBUG : rclone: Version "v1.48.0" starting with parameters ["rclone" "copy" "./SAMEA3504606_1.json" "onedrive-em:africanum_analysis/kvarq_for_doubtful_genomes/" "-vv"]
+2019/08/03 04:05:35 DEBUG : Using config file from "/root/.config/rclone/rclone.conf"
+2019/08/03 04:05:36 DEBUG : SAMEA3504606_1.json: Couldn't find file - need to transfer
+2019/08/03 04:05:36 DEBUG : SAMEA3504606_1.json: Starting multipart upload
+2019/08/03 04:05:37 DEBUG : SAMEA3504606_1.json: Uploading segment 0/47509 size 47509
+2019/08/03 04:05:37 INFO  : SAMEA3504606_1.json: Copied (new)
+2019/08/03 04:05:37 INFO  : 
+Transferred:   	   46.396k / 46.396 kBytes, 100%, 18.009 kBytes/s, ETA 0s
+Errors:                 0
+Checks:                 0 / 0, -
+Transferred:            1 / 1, 100%
+Elapsed time:        2.5s
+
+2019/08/03 04:05:37 DEBUG : 9 go routines active
+2019/08/03 04:05:37 DEBUG : rclone: Version "v1.48.0" finishing with parameters ["rclone" "copy" "./SAMEA3504606_1.json" "onedrive-em:africanum_analysis/kvarq_for_doubtful_genomes/" "-vv"]
+2019/08/03 04:05:37 DEBUG : rclone: Version "v1.48.0" starting with parameters ["rclone" "copy" "./SAMEA3504606_2.json" "onedrive-em:africanum_analysis/kvarq_for_doubtful_genomes/" "-vv"]
+2019/08/03 04:05:37 DEBUG : Using config file from "/root/.config/rclone/rclone.conf"
+2019/08/03 04:05:39 DEBUG : SAMEA3504606_2.json: Couldn't find file - need to transfer
+2019/08/03 04:05:39 DEBUG : SAMEA3504606_2.json: Starting multipart upload
+2019/08/03 04:05:39 DEBUG : SAMEA3504606_2.json: Uploading segment 0/34695 size 34695
+2019/08/03 04:05:40 INFO  : SAMEA3504606_2.json: Copied (new)
+2019/08/03 04:05:40 INFO  : 
+Transferred:   	   33.882k / 33.882 kBytes, 100%, 13.370 kBytes/s, ETA 0s
+Errors:                 0
+Checks:                 0 / 0, -
+Transferred:            1 / 1, 100%
+Elapsed time:        2.5s
+
+2019/08/03 04:05:40 DEBUG : 9 go routines active
+2019/08/03 04:05:40 DEBUG : rclone: Version "v1.48.0" finishing with parameters ["rclone" "copy" "./SAMEA3504606_2.json" "onedrive-em:africanum_analysis/kvarq_for_doubtful_genomes/" "-vv"]
